@@ -1,3 +1,5 @@
+/*
+  Access-Control-Allow-Origin: https://touchline-hq.netlify.app
 /cal/*
   Content-Type: text/calendar; charset=utf-8
   Cache-Control: public, max-age=3600

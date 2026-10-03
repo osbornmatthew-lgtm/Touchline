@@ -61,7 +61,9 @@ self.addEventListener('fetch', e => {
   }));
 });
 ''')
-open(os.path.join(out, '_headers'), 'w').write('''/cal/*
+open(os.path.join(out, '_headers'), 'w').write('''/*
+  Access-Control-Allow-Origin: https://touchline-hq.netlify.app
+/cal/*
   Content-Type: text/calendar; charset=utf-8
   Cache-Control: public, max-age=3600
 /sw.js
