@@ -37,9 +37,10 @@ a:hover{color:var(--fg)}
 .wrap{max-width:1180px;margin:0 auto;padding-inline:16px}
 header.top{border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
 header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;padding-block:12px}
-.brand{display:flex;align-items:baseline;gap:8px;text-decoration:none;color:var(--fg)}
-.brand b{font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:.04em;text-transform:uppercase}
-.brand span{font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--fg)}
+.brand .mark{height:30px;width:auto;flex:none}
+.brand b{font-family:var(--display);font-weight:800;font-size:28px;line-height:1;letter-spacing:.02em;text-transform:uppercase}
+.brand span{font-family:var(--display);font-weight:600;font-size:24px;line-height:1;letter-spacing:.04em;text-transform:uppercase;color:var(--fg-2);border-left:2px solid var(--fg-2);padding-left:10px}
 nav.sections{display:flex;gap:2px;overflow-x:auto}
 nav.sections a{padding:10px 12px;color:var(--muted);text-decoration:none;font-weight:500;white-space:nowrap}
 nav.sections a:hover{color:var(--fg)}
@@ -206,7 +207,7 @@ a.partner:hover{border-color:var(--accent)}
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#top"><b>Touchline</b><span>EJA</span></a>
+    <a class="brand" href="#top" aria-label="Touchline EJA"><svg class="mark" viewBox="12 6 78 92" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M12 6H36L90 80H12Z M24 18H29.9L66.4 68H24Z"/><path fill="#C9F24A" d="M12 86H90V98H12Z"/></svg><b>Touchline</b><span>EJA</span></a>
     <nav class="sections" aria-label="Sections" id="secnav"></nav>
   </div>
 </header>
