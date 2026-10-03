@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0B0F14">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Touchline HQ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="manifest" href="manifest.json">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}</style>
+<title>Touchline HQ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a matchday control room. Status strip, four headline numbers, a 28-day chart with weekends marked, then detail panels in a two-column grid that stacks on phones. Single dark look to match the Touchline app. */
+:root{
+  --bg:#0B0F14; --panel:#131921; --panel-2:#18202A; --line:#222B36;
+  --fg:#ECEFF3; --fg-2:#B9C2CD; --muted:#8893A0;
+  --accent:#C9F24A; --accent-dim:#5E7222;
+  --good:#39D98A; --warn:#FFB547; --bad:#FF5C6C;
+  --display:'Barlow Condensed','Arial Narrow',sans-serif;
+  --body:'IBM Plex Sans',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45;margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:flex;flex-direction:column;gap:18px}
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 20px;border-bottom:1px solid var(--line);padding-bottom:14px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .mark{height:36px;width:auto;flex:none}
+.brand b{font-family:var(--display);font-weight:800;font-size:34px;letter-spacing:.04em;text-transform:uppercase;line-height:1}
+.brand span{font-family:var(--display);font-weight:600;font-size:28px;line-height:1;letter-spacing:.04em;text-transform:uppercase;color:var(--fg-2);border-left:2px solid var(--fg-2);padding-left:10px}
+.stamp{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font-size:12px;font-weight:600;letter-spacing:.02em;border:1px solid currentColor}
+.pill::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.ok{color:var(--good)} .warn{color:var(--warn)} .bad{color:var(--bad)} .idle{color:var(--muted)}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi .num{font-family:var(--display);font-weight:800;font-size:clamp(36px,6vw,52px);line-height:1;font-variant-numeric:tabular-nums}
+.kpi .sub{font-size:13px;color:var(--fg-2)}
+.kpi.lead .num{color:var(--accent)}
+.delta.up{color:var(--good)} .delta.down{color:var(--bad)}
+section.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+section.panel h2{margin:0;font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.03em;text-transform:uppercase;text-wrap:balance}
+.head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.chart{width:100%;height:auto;display:block}
+.chart text{fill:var(--muted);font-family:var(--body);font-size:11px}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.bars{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.bars li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center}
+.bars .lbl{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bars .val{font-family:var(--mono);font-size:13px;color:var(--fg-2);font-variant-numeric:tabular-nums}
+.bars .track{grid-column:1/-1;height:6px;border-radius:3px;background:var(--panel-2);overflow:hidden}
+.bars .fill{height:100%;background:var(--accent);border-radius:3px}
+.checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.checks li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line);font-size:14px;align-items:center}
+.checks li:first-child{border-top:0}
+.checks .what{min-width:0}
+.checks .what small{display:block;color:var(--muted);font-size:12px}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.fact{background:var(--panel-2);border-radius:8px;padding:10px 12px}
+.fact b{display:block;font-family:var(--display);font-size:28px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.fact span{font-size:12px;color:var(--muted)}
+.empty{color:var(--muted);font-size:14px;margin:0}
+.note{background:color-mix(in srgb,var(--warn) 12%,transparent);border:1px solid color-mix(in srgb,var(--warn) 45%,transparent);color:var(--fg);border-radius:10px;padding:10px 14px;font-size:14px}
+.partner{display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line)}
+.partner:first-of-type{border-top:0}
+.partner b{font-family:var(--display);font-size:26px;color:var(--accent);font-variant-numeric:tabular-nums}
+footer{font-size:12px;color:var(--muted)}
+a{color:var(--accent)}
+@media (max-width:760px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.grid{grid-template-columns:1fr}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><svg class="mark" viewBox="12 6 78 92" aria-hidden="true"><path fill="var(--fg)" fill-rule="evenodd" d="M12 6H36L90 80H12Z M24 18H29.9L66.4 68H24Z"/><path fill="var(--accent)" d="M12 86H90V98H12Z"/></svg><b>Touchline</b><span>HQ</span></div>
+    <div class="stamp"><span id="status" class="pill idle">Connecting</span><span id="stamp">Waiting for the first update</span></div>
+  </header>
+
+  <div id="notes"></div>
+
+  <div class="kpis">
+    <div class="kpi lead"><span class="eyebrow">This week</span><span class="num" id="k-week">–</span><span class="sub" id="k-week-sub">visits, last 7 days</span></div>
+    <div class="kpi"><span class="eyebrow">Today</span><span class="num" id="k-today">–</span><span class="sub">visits so far</span></div>
+    <div class="kpi"><span class="eyebrow">Since launch</span><span class="num" id="k-all">–</span><span class="sub">visits since 1 Oct</span></div>
+    <div class="kpi"><span class="eyebrow">Calendar adds</span><span class="num" id="k-cal">–</span><span class="sub">people who subscribed to fixtures</span></div>
+  </div>
+
+  <section class="panel">
+    <div class="head"><h2>Visits, last 28 days</h2><div class="legend"><span><i style="background:var(--accent)"></i>Match day (Sat, Sun)</span><span><i style="background:var(--accent-dim)"></i>Midweek</span></div></div>
+    <div id="chart"><p class="empty">The chart fills in after the first stats update.</p></div>
+  </section>
+
+  <div class="grid">
+    <section class="panel"><div class="head"><h2>Divisions</h2><span class="eyebrow">most viewed</span></div><ul class="bars" id="divs"><li class="empty">Division views appear once people browse the tables.</li></ul></section>
+    <section class="panel"><div class="head"><h2>Team pages</h2><span class="eyebrow">top 10</span></div><ul class="bars" id="teams"><li class="empty">Team page opens appear here. A spike shows a club's parents have found the app.</li></ul></section>
+    <section class="panel"><div class="head"><h2>Partners</h2><span class="eyebrow">times seen</span></div><div id="partners"><p class="empty">Partner views are counted from the team pages they sit on.</p></div></section>
+    <section class="panel"><div class="head"><h2>Devices</h2></div><ul class="bars" id="devices"><li class="empty">Phone and computer split appears here.</li></ul></section>
+  </div>
+
+  <div class="grid">
+    <section class="panel"><div class="head"><h2>System health</h2></div><ul class="checks" id="checks"><li class="empty">Health checks appear after the first update.</li></ul></section>
+    <section class="panel"><div class="head"><h2>Data on the site</h2></div><div class="facts" id="facts"><p class="empty">League data counts appear after the first update.</p></div><ul class="checks" id="runs"></ul></section>
+  </div>
+
+  <footer>Usage from GoatCounter (cookie-free, no personal data). Results from FA Full-Time. Numbers refresh every few hours; this page checks for new ones when you open it.</footer>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const fmt = n => Number(n || 0).toLocaleString('en-GB');
+
+function ago(iso) {
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (m < 2) return 'just now';
+  if (m < 60) return m + ' min ago';
+  const h = Math.round(m / 60);
+  return h < 48 ? h + ' hours ago' : Math.round(h / 24) + ' days ago';
+}
+
+function bars(el, rows, max = 10) {
+  rows = (rows || []).slice(0, max);
+  if (!rows.length) return;
+  const top = Math.max(...rows.map(r => r.n), 1);
+  el.innerHTML = rows.map(r => `<li><span class="lbl">${esc(r.name)}</span><span class="val">${fmt(r.n)}</span><span class="track"><span class="fill" style="width:${Math.max(2, r.n / top * 100)}%"></span></span></li>`).join('');
+}
+
+function chart(daily) {
+  if (!daily || !daily.length) return;
+  const W = 760, H = 220, L = 34, R = 8, T = 10, B = 28, n = daily.length;
+  const max = Math.max(4, ...daily.map(d => d.n));
+  const step = Math.pow(10, Math.floor(Math.log10(max)));
+  const tick = [1, 2, 5, 10].map(m => m * step).find(t => max / t <= 4);
+  const top = Math.ceil(max / tick) * tick;
+  const y = v => T + (H - T - B) * (1 - v / top);
+  const bw = (W - L - R) / n;
+  let g = '';
+  for (let v = 0; v <= top; v += tick) g += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-width="1"/><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`;
+  daily.forEach((d, i) => {
+    const dt = new Date(d.d + 'T12:00:00Z'), wd = dt.getUTCDay(), we = wd === 0 || wd === 6;
+    const x = L + i * bw + bw * 0.15, w = bw * 0.7, h = Math.max(d.n ? 2 : 0, y(0) - y(d.n));
+    g += `<rect x="${x.toFixed(1)}" y="${(y(0) - h).toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}" rx="2" fill="${we ? 'var(--accent)' : 'var(--accent-dim)'}"><title>${dt.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' })}: ${d.n} visits</title></rect>`;
+    if (wd === 6 || i === n - 1) g += `<text x="${(x + w / 2).toFixed(1)}" y="${H - 8}" text-anchor="middle">${dt.getUTCDate()} ${dt.toLocaleDateString('en-GB', { month: 'short', timeZone: 'UTC' })}</text>`;
+  });
+  $('chart').innerHTML = `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily visits, last 28 days">${g}</svg>`;
+}
+
+function check(ok, what, detail, warnOnly) {
+  const cls = ok ? 'ok' : warnOnly ? 'warn' : 'bad';
+  return `<li><span class="what">${esc(what)}${detail ? `<small>${esc(detail)}</small>` : ''}</span><span class="pill ${cls}">${ok ? 'OK' : warnOnly ? 'Check' : 'Down'}</span></li>`;
+}
+
+function render(d) {
+  if (!d) return;
+  const stale = (Date.now() - new Date(d.updated)) / 3600000 > 12;
+  const errs = d.errors || [];
+  $('status').className = 'pill ' + (errs.length ? 'warn' : stale ? 'warn' : 'ok');
+  $('status').textContent = errs.length ? 'Needs a look' : stale ? 'Stale' : 'Live';
+  $('stamp').textContent = 'Updated ' + ago(d.updated);
+  $('notes').innerHTML = errs.map(e => `<div class="note">${esc(e)}</div>`).join('');
+
+  const t = d.totals;
+  if (t) {
+    $('k-week').textContent = fmt(t.week);
+    $('k-today').textContent = fmt(t.today);
+    $('k-all').textContent = fmt(t.all);
+    const diff = t.week - t.prevWeek;
+    $('k-week-sub').innerHTML = t.prevWeek ? `<span class="delta ${diff >= 0 ? 'up' : 'down'}">${diff >= 0 ? '▲' : '▼'} ${fmt(Math.abs(diff))}</span> on the week before` : 'visits, last 7 days';
+  }
+  if (d.calendar != null) $('k-cal').textContent = fmt(d.calendar);
+  chart(d.daily);
+  bars($('divs'), d.divisions, 8);
+  bars($('teams'), d.teams, 10);
+  bars($('devices'), d.devices, 5);
+  if (d.partnerViews && d.partnerViews.length) {
+    $('partners').innerHTML = d.partnerViews.map(p => `<div class="partner"><span><span class="eyebrow">${esc(p.team)}</span><br>${esc(p.names.join(' · '))}</span><b>${fmt(p.n)}</b></div>`).join('') + '<p class="empty">Each team-page open shows every partner on that page.</p>';
+  }
+
+  const h = d.health || {};
+  const checks = [
+    check(h.siteUp, 'Public site', 'touchline-eja.netlify.app'),
+    check(!!h.fetched, 'Results data', h.fetched ? `Pulled from Full-Time on ${h.fetched}, results to ${h.resultsTo}` : 'Could not read the data on the site', true),
+    check(h.calendarFeeds, 'Calendar feeds', 'Fixture subscriptions for every team', true),
+    check(h.counter, 'Visitor counter', 'GoatCounter script on the site', true),
+    check(h.offline, 'Offline mode', 'App opens with no signal', true)
+  ];
+  $('checks').innerHTML = checks.join('');
+
+  if (h.results != null) {
+    const facts = [[h.results, 'league results'], [h.fixtures, 'fixtures to come'], [h.timedGoals, 'goals with a time'], [h.teams, 'teams'], [h.divisions, 'divisions'], [h.cupTies, 'cup ties']];
+    $('facts').innerHTML = facts.map(([v, l]) => `<div class="fact"><b>${fmt(v)}</b><span>${l}</span></div>`).join('');
+  }
+  if (d.runs && d.runs.length) {
+    $('runs').innerHTML = d.runs.map(r => {
+      const s = (r.status || '').toUpperCase(), cls = s === 'SUCCEEDED' ? 'ok' : s ? 'bad' : 'idle';
+      const label = s === 'SUCCEEDED' ? 'Ran' : s ? 'Failed' : 'Not run yet';
+      const when = r.at ? new Date(r.at).toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/London' }) : '';
+      const next = r.next ? 'Next ' + new Date(r.next).toLocaleString('en-GB', { weekday: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/London' }) : '';
+      return `<li><span class="what">${esc(r.name)}<small>${esc([when, next].filter(Boolean).join(' · '))}</small></span><span class="pill ${cls}">${label}</span></li>`;
+    }).join('');
+  }
+}
+
+let last = null;
+setInterval(() => { if (last) $('stamp').textContent = 'Updated ' + ago(last.updated); }, 60000);
+
+const DATA_URL = 'https://raw.githubusercontent.com/osbornmatthew-lgtm/Touchline/main/data/hq.json';
+async function load() {
+  try {
+    const r = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    last = d; render(d);
+  } catch (e) {
+    $('status').className = 'pill bad'; $('status').textContent = navigator.onLine ? 'Could not load' : 'No signal';
+  }
+}
+load();
+setInterval(load, 10 * 60 * 1000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+</script>
+
+</body>
+</html>
