@@ -72,6 +72,8 @@ open(os.path.join(out, '_headers'), 'w').write('''/*
 
 # Calendar feed per team: league and cup fixtures not yet played.
 DATA = json.loads(re.search(r'^const DATA = (.*);$', src, re.M).group(1))
+vm = re.search(r'^const VENUES = (.*);$', src, re.M)
+VENUES = json.loads(vm.group(1)) if vm else {}
 now = datetime.now(timezone.utc)
 start_year = now.year if now.month >= 7 else now.year - 1
 def esc(t): return str(t).replace('\\', '\\\\').replace(';', '\\;').replace(',', '\\,').replace('\n', '\\n')
@@ -107,7 +109,7 @@ for team in teams:
             L += ['DTSTART;TZID=Europe/London:' + st.strftime('%Y%m%dT%H%M%S'), 'DTEND;TZID=Europe/London:' + (st + timedelta(minutes=100)).strftime('%Y%m%dT%H%M%S')]
         else:
             L += ['DTSTART;VALUE=DATE:' + day.strftime('%Y%m%d'), 'DTEND;VALUE=DATE:' + (day + timedelta(days=1)).strftime('%Y%m%d')]
-        if f[4]: L.append('LOCATION:' + esc(f[4]))
+        if f[4]: L.append('LOCATION:' + esc(VENUES.get(f[4], {}).get('q') or f[4]))
         L.append('DESCRIPTION:' + esc(comp + '.' + ('' if f[1] else ' Kick-off time not published yet.') + ' Check FA Full-Time for late changes.'))
         if f[5]: L.append('URL:https://fulltime.thefa.com/displayFixture.html?id=' + str(f[5]))
         L.append('END:VEVENT')

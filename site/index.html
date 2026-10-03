@@ -288,7 +288,7 @@ a.partner:hover{border-color:var(--accent)}
   </section>
 
   <section id="fixtures" aria-labelledby="fx-h">
-    <div class="sec-head"><h2 id="fx-h">Fixtures</h2><span class="note">Tap a venue for address and parking on FA Full-Time</span></div>
+    <div class="sec-head"><h2 id="fx-h">Fixtures</h2><span class="note">Tap Directions or Waze to get to the ground</span></div>
     <div class="rounds" id="fx"></div>
   </section>
 
@@ -319,8 +319,11 @@ DATA.fetched = 'Saturday 3 October';
 
 const FT = 'https://fulltime.thefa.com/displayFixture.html?id=';
 // Directions: Google Maps (opens the app where installed) plus Waze. Full-Time only gives the pitch name, so add the county to help the search.
+// Corrections where Full-Time's venue name or address sends people to the wrong place.
+const VENUES = {"Barleylands Farm (Site 2)":{"name":"Forest Glade Sports Club","q":"Forest Glade Sports Ground, Barleylands Road, Billericay CM11 2UD"}};
+const venueName = v => (VENUES[v] && VENUES[v].name) || v;
 function mapLinks(venue) {
-  const q = encodeURIComponent(venue + ', Essex, UK');
+  const q = encodeURIComponent((VENUES[venue] && VENUES[venue].q) || venue + ', Essex, UK');
   return `<span class="maps"><a href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">Directions</a><a href="https://waze.com/ul?q=${q}&navigate=yes" target="_blank" rel="noopener">Waze</a></span>`;
 }
 const BADGES = ['#C9D6E3','#E8C9A6','#BFD9C2','#D9C2DE','#E6D79A','#A9CFE0','#E3B7B0','#C8C8A0'];
@@ -441,7 +444,7 @@ function renderNext() {
       <div class="teams">${esc(h)} v ${esc(a)}<small>${dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
       <div class="kowrap"><div class="eyebrow">Kick-off</div><div class="ko ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'Time TBC'}</div></div>
     </div>
-    <div class="sub">${venue ? `<span>${esc(venue)}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}</div>`;
+    <div class="sub">${venue ? `<span>${esc(venueName(venue))}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}</div>`;
 }
 
 function renderStats(rows, n) {
@@ -540,7 +543,7 @@ function renderFixtures(fixtures, county) {
   el.innerHTML = groups.map(([key, games]) => `<div class="panel round"><div class="rh">${county ? esc(key) : dayLabel(key)}</div>${
     games.sort(byDate).map(([date, ko, h, a, venue, id, st]) => {
       const m = h === mine || a === mine;
-      const v = venue && id ? `<a href="${FT + id}" target="_blank" rel="noopener">${esc(venue)}</a>` : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : '<span class="nv">Venue not yet listed</span>';
+      const v = venue ? `<span>${esc(venueName(venue))}</span> ${mapLinks(venue)}` : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : '<span class="nv">Venue not yet listed</span>';
       const when = county ? `<span class="nv">${dayLabel(date)}</span>` : '';
       const past = toDate(date) < today;
       const k = st ? `<span class="k pp">${esc(st)}</span>` : past ? '<span class="k tbc">Result awaited</span>' : `<span class="k ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'TBC'}</span>`;
@@ -734,7 +737,7 @@ function openTeam(name) {
     .sort((a, b) => toDate(b.date) - toDate(a.date));
   const resHtml = allRes.map(r => `<li><span class="rp ${r.res || 'N'}">${r.res || '–'}</span><span class="rt">${r.txt}${r.note ? ` <em>(${esc(r.note)})</em>` : ''}</span><span class="rc">${esc(r.comp)} · ${toDate(r.date).getDate()} ${MONTHS[toDate(r.date).getMonth()].slice(0, 3)}</span></li>`).join('');
   const up = upcoming(name).slice(0, 6);
-  const upHtml = up.length ? up.map(({ f, comp }) => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="rc">${esc(comp)} · ${dayLabel(f[0])}${f[1] ? ' · ' + esc(f[1]) : ''}</span>${f[4] ? `<span class="rc">${esc(f[4])}</span>${mapLinks(f[4])}` : f[5] ? `<a href="${FT + f[5]}" target="_blank" rel="noopener">Venue details</a>` : ''}</li>`).join('') : '<li class="fine">No fixtures published yet</li>';
+  const upHtml = up.length ? up.map(({ f, comp }) => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="rc">${esc(comp)} · ${dayLabel(f[0])}${f[1] ? ' · ' + esc(f[1]) : ''}</span>${f[4] ? `<span class="rc">${esc(venueName(f[4]))}</span>${mapLinks(f[4])}` : f[5] ? `<a href="${FT + f[5]}" target="_blank" rel="noopener">Venue details</a>` : ''}</li>`).join('') : '<li class="fine">No fixtures published yet</li>';
   const comps = [...new Set(cups.map(c => c.comp).concat(upcoming(name).filter(u => !/^U16 /.test(u.comp)).map(u => u.comp)))];
   const cupHtml = comps.map(cn => {
     const next = upcoming(name).find(u => u.comp === cn);
