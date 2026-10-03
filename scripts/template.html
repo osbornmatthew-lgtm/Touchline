@@ -508,6 +508,7 @@ async function drawCard(kind) {
   x.fillStyle = '#9AA4B0'; x.font = `500 26px ${B}`; x.fillText('From FA Full-Time · ' + (DATA.fetched || ''), 72, H - 50);
   return c;
 }
+const SITE = 'touchline-eja.netlify.app';
 // Sharing needs the public site (the Claude preview blocks it), so hide the buttons elsewhere.
 if (location.hostname !== SITE) document.documentElement.classList.add('noshare');
 document.addEventListener('click', async e => {
@@ -524,7 +525,6 @@ document.addEventListener('click', async e => {
 });
 
 // Calendar feeds are built for every team by build.py and served from the public site.
-const SITE = 'touchline-eja.netlify.app';
 const slug = n => n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 function calHtml(name) {
   const feed = `webcal://${SITE}/cal/${slug(name)}.ics`;
