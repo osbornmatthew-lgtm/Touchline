@@ -1,11 +1,8 @@
 name: Update from Full-Time
 
 on:
-  schedule:
-    # GitHub runs these in UTC. During UK summer time they land an hour later on the clock.
-    - cron: '49 7 * * 6'   # Saturday morning: midweek results
-    - cron: '51 16 * * 0'  # Sunday evening: weekend results
-    - cron: '51 19 * * 1'  # Monday evening: late entries
+  # Schedule switched off: Full-Time refuses requests from GitHub's servers (403).
+  # Run by hand from the Actions tab, or from a machine on a home connection.
   workflow_dispatch:
 
 permissions:
