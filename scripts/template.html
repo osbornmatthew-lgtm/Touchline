@@ -44,6 +44,10 @@ header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:
 nav.sections{display:flex;gap:2px;overflow-x:auto}
 nav.sections a{padding:10px 12px;color:var(--muted);text-decoration:none;font-weight:500;white-space:nowrap}
 nav.sections a:hover{color:var(--fg)}
+nav.sections{align-items:center}
+nav.sections .myteam{display:inline-flex;align-items:center;gap:8px;margin-right:6px;padding:6px 14px 6px 6px;border:1.5px solid var(--accent);border-radius:999px;background:color-mix(in srgb, var(--accent) 12%, transparent);color:var(--fg);font:inherit;font-weight:600;white-space:nowrap;cursor:pointer;text-decoration:none;box-shadow:0 0 12px color-mix(in srgb, var(--accent) 30%, transparent)}
+nav.sections .myteam .crest{width:26px;height:26px;font-size:10px}
+nav.sections .myteam:hover{background:color-mix(in srgb, var(--accent) 22%, transparent)}
 main{display:flex;flex-direction:column;gap:32px;padding-block:24px 56px}
 .eyebrow{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
 h1{margin:0;font-family:var(--display);font-weight:800;font-size:clamp(44px,9vw,64px);line-height:1;text-transform:uppercase;text-wrap:balance}
@@ -795,7 +799,8 @@ function renderView() {
   document.getElementById('cup-alive').hidden = !isCup || county;
   document.getElementById('title').textContent = comp.name;
   track('view/' + slug(comp.name), comp.name);
-  document.getElementById('secnav').innerHTML = (isCup ? '' : '<a href="#table">Table</a>') + '<a href="#fixtures">Fixtures</a><a href="#results">Results</a>';
+  const myTeam = mine ? `<button type="button" class="myteam" data-team="${esc(mine)}" data-track="my-team" aria-label="My team: ${esc(mine)}">${crest(mine)}My team</button>` : '<a class="myteam" href="#team-pick">Pick your team</a>';
+  document.getElementById('secnav').innerHTML = myTeam + (isCup ? '' : '<a href="#table">Table</a>') + '<a href="#fixtures">Fixtures</a><a href="#results">Results</a>';
   if (isCup) { if (!county) renderCup(comp); }
   else { renderLatest(comp.results); renderPicks(); renderTable(); }
   renderTalkingPoints();
