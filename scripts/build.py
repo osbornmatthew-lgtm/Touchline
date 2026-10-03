@@ -109,7 +109,7 @@ for team in teams:
             L += ['DTSTART;TZID=Europe/London:' + st.strftime('%Y%m%dT%H%M%S'), 'DTEND;TZID=Europe/London:' + (st + timedelta(minutes=100)).strftime('%Y%m%dT%H%M%S')]
         else:
             L += ['DTSTART;VALUE=DATE:' + day.strftime('%Y%m%d'), 'DTEND;VALUE=DATE:' + (day + timedelta(days=1)).strftime('%Y%m%d')]
-        if f[4]: L.append('LOCATION:' + esc(VENUES.get(f[4], {}).get('q') or f[4]))
+        if f[4]: L.append('LOCATION:' + esc(VENUES.get(f[4], {}).get('q') or (f[4] + ', ' + DATA.get('venues', {}).get(f[4], {})['a'] if DATA.get('venues', {}).get(f[4], {}).get('a') else f[4])))
         L.append('DESCRIPTION:' + esc(comp + '.' + ('' if f[1] else ' Kick-off time not published yet.') + ' Check FA Full-Time for late changes.'))
         if f[5]: L.append('URL:https://fulltime.thefa.com/displayFixture.html?id=' + str(f[5]))
         L.append('END:VEVENT')
