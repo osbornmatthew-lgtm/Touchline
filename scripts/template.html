@@ -164,6 +164,17 @@ button.stat{font:inherit;color:inherit;text-align:left;cursor:pointer;width:100%
 button.stat:hover{border-color:var(--accent)}
 .teambtn{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left;display:flex;align-items:center;gap:10px;min-height:44px;text-decoration:underline;text-decoration-color:var(--line-2);text-underline-offset:4px}
 .teambtn:hover{text-decoration-color:var(--accent)}
+#welcome{position:fixed;inset:0;z-index:30;background:rgba(5,7,10,.8);display:flex;justify-content:center;align-items:center;padding:16px}
+#welcome[hidden]{display:none!important}
+.welcome-panel{background:var(--bg);border:1px solid var(--accent);border-radius:16px;width:100%;max-width:420px;padding:24px 20px;display:flex;flex-direction:column;gap:14px;box-shadow:0 0 30px color-mix(in srgb, var(--accent) 25%, transparent)}
+.welcome-panel h2{font-size:34px}
+.welcome-panel p{margin:0;color:var(--fg-2);font-size:15px}
+.welcome-panel select{width:100%;padding:12px;border-radius:10px;border:1px solid var(--line-2);background:var(--panel);color:var(--fg);font:inherit;font-size:16px}
+#welcome-go{padding:13px;border-radius:999px;border:0;background:var(--accent);color:#0E1217;font:inherit;font-weight:700;font-size:16px;cursor:pointer}
+#welcome-go:disabled{opacity:.45;cursor:default}
+.linkish{background:none;border:0;color:var(--muted);font:inherit;text-decoration:underline;cursor:pointer;padding:4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.pickbtn{padding:9px 16px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer}
 #sheet{position:fixed;inset:0;z-index:20;background:rgba(5,7,10,.72);display:flex;justify-content:center;align-items:flex-end}
 #sheet[hidden]{display:none!important}
 .sheet-panel{background:var(--bg);border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0;width:100%;max-width:760px;max-height:92vh;overflow-y:auto;position:relative;padding:20px 16px calc(28px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 40px rgba(0,0,0,.5)}
@@ -305,6 +316,17 @@ a.partner:hover{border-color:var(--accent)}
   </div>
 </footer>
 
+<div id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="welcome-h">
+  <div class="welcome-panel">
+    <div class="eyebrow">Eastern Junior Alliance · Under 16</div>
+    <h2 id="welcome-h">Who do you follow?</h2>
+    <p>Pick your team and Touchline puts their next match, kick-off time, directions and stats first. You can change it any time.</p>
+    <label for="welcome-pick" class="sr">Your team</label>
+    <select id="welcome-pick"></select>
+    <button type="button" id="welcome-go" disabled>Show me my team</button>
+    <button type="button" id="welcome-skip" class="linkish">Just browsing</button>
+  </div>
+</div>
 <div id="sheet" hidden role="dialog" aria-modal="true" aria-label="Team stats">
   <div class="sheet-panel">
     <button type="button" class="sheet-close" aria-label="Close">×</button>
@@ -379,9 +401,9 @@ const today = new Date(); today.setHours(0, 0, 0, 0);
 
 const teamDiv = {};
 DATA.divisions.forEach((d, i) => d.teams.forEach(t => teamDiv[t[0]] = i));
-let mine = 'Hashtag United';
+let mine = null;
 try { const s = localStorage.getItem('touchline-team'); if (s && s in teamDiv) mine = s; } catch (e) {}
-let view = teamDiv[mine];
+let view = mine ? teamDiv[mine] : 0;
 const picks = {};
 
 function nextRound(d) {
@@ -438,6 +460,7 @@ function renderNext() {
   const mineF = all.filter(({ f }) => !f[6] && toDate(f[0]) >= today && (f[2] === mine || f[3] === mine))
     .sort((a, b) => toDate(a.f[0]) - toDate(b.f[0]) || (a.f[1] || '99').localeCompare(b.f[1] || '99'));
   const el = document.getElementById('next');
+  if (!mine) { el.innerHTML = `<div class="row"><div class="teams">Pick your team<small>See their next match, kick-off and directions here</small></div></div><div class="sub"><button type="button" class="pickbtn" data-pick>Choose your team</button></div>`; return; }
   if (!mineF.length) { el.innerHTML = `<div class="row"><div class="teams">No fixture listed yet<small>The next round has not been published on FA Full-Time</small></div></div>`; return; }
   const { f: [date, ko, h, a, venue, id], comp } = mineF[0];
   el.innerHTML = `<div class="row">
@@ -799,7 +822,7 @@ function renderView() {
   document.getElementById('cup-alive').hidden = !isCup || county;
   document.getElementById('title').textContent = comp.name;
   track('view/' + slug(comp.name), comp.name);
-  const myTeam = mine ? `<button type="button" class="myteam" data-team="${esc(mine)}" data-track="my-team" aria-label="My team: ${esc(mine)}">${crest(mine)}My team</button>` : '<a class="myteam" href="#team-pick">Pick your team</a>';
+  const myTeam = mine ? `<button type="button" class="myteam" data-team="${esc(mine)}" data-track="my-team" aria-label="My team: ${esc(mine)}">${crest(mine)}My team</button>` : '<button type="button" class="myteam pick" data-pick>Pick your team</button>';
   document.getElementById('secnav').innerHTML = myTeam + (isCup ? '' : '<a href="#table">Table</a>') + '<a href="#fixtures">Fixtures</a><a href="#results">Results</a>';
   if (isCup) { if (!county) renderCup(comp); }
   else { renderLatest(comp.results); renderPicks(); renderTable(); }
@@ -809,18 +832,41 @@ function renderView() {
 }
 
 const sel = document.getElementById('team-pick');
-sel.innerHTML = DATA.divisions.map(d => `<optgroup label="${esc(d.name)}">${d.teams.map(t => t[0]).slice().sort().map(n => `<option${n === mine ? ' selected' : ''}>${esc(n)}</option>`).join('')}</optgroup>`).join('');
-sel.addEventListener('change', () => {
-  mine = sel.value;
+const teamOptions = () => (mine ? '' : '<option value="" selected disabled>Choose your team</option>') + DATA.divisions.map(d => `<optgroup label="${esc(d.name)}">${d.teams.map(t => t[0]).slice().sort().map(n => `<option${n === mine ? ' selected' : ''}>${esc(n)}</option>`).join('')}</optgroup>`).join('');
+sel.innerHTML = teamOptions();
+function setTeam(name) {
+  if (!(name in teamDiv)) return;
+  mine = name;
   try { localStorage.setItem('touchline-team', mine); } catch (e) {}
+  sel.innerHTML = teamOptions();
   view = teamDiv[mine];
+  track('picked/' + slug(mine), mine);
   renderNext(); renderView();
-});
+}
+sel.addEventListener('change', () => setTeam(sel.value));
+
+// First visit: ask who they follow instead of assuming a team.
+const welcome = document.getElementById('welcome');
+const wsel = document.getElementById('welcome-pick');
+function openWelcome() {
+  wsel.innerHTML = '<option value="" selected disabled>Choose your team</option>' + DATA.divisions.map(d => `<optgroup label="${esc(d.name)}">${d.teams.map(t => t[0]).slice().sort().map(n => `<option>${esc(n)}</option>`).join('')}</optgroup>`).join('');
+  welcome.hidden = false; document.body.style.overflow = 'hidden'; wsel.focus();
+}
+function closeWelcome(browsing) {
+  welcome.hidden = true; document.body.style.overflow = '';
+  if (browsing) { try { localStorage.setItem('touchline-browsing', '1'); } catch (e) {} track('just-browsing'); }
+}
+document.getElementById('welcome-go').addEventListener('click', () => { if (wsel.value) { setTeam(wsel.value); closeWelcome(false); } else wsel.focus(); });
+wsel.addEventListener('change', () => { document.getElementById('welcome-go').disabled = !wsel.value; });
+document.getElementById('welcome-skip').addEventListener('click', () => closeWelcome(true));
+document.addEventListener('click', e => { if (e.target.closest('[data-pick]')) { e.preventDefault(); openWelcome(); } });
 document.getElementById('updated').textContent = `Results to ${DATA.updated} · from FA Full-Time on ${DATA.fetched}`;
 offlineNote();
 
 renderNext();
 renderView();
+let seen = false; try { seen = !!localStorage.getItem('touchline-browsing'); } catch (e) {}
+if (!mine && !seen) openWelcome();
 </script>
 
 </body>
