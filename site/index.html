@@ -71,6 +71,7 @@ section{display:flex;flex-direction:column;gap:14px}
 .next .row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding:18px}
 .next .teams{font-family:var(--display);font-weight:700;font-size:clamp(26px,5vw,36px);text-transform:uppercase;line-height:1.05}
 .next .teams small{display:block;font-family:var(--body);font-weight:500;font-size:13px;color:var(--muted);text-transform:none;margin-top:4px}
+.next .kowrap{display:flex;flex-direction:column;gap:4px}
 .next .ko{font-family:var(--display);font-weight:800;font-size:44px;color:var(--accent);line-height:1}
 .next .ko.tbc{color:var(--muted);font-size:28px}
 .next .sub{border-top:1px solid var(--line);padding:12px 18px;display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:var(--fg-2)}
@@ -238,18 +239,6 @@ a.partner:hover{border-color:var(--accent)}
   <div role="group" aria-label="Competition" class="chips" id="chips"></div>
 
   <div id="league-view" style="display:flex;flex-direction:column;gap:32px">
-    <div class="stats" id="stats"></div>
-
-    <section aria-labelledby="tp-h">
-      <div class="sec-head"><h2 id="tp-h">Talking points</h2><span class="note">Tap a team for its full stats</span></div>
-      <div class="stats" id="quirky"></div>
-    </section>
-
-    <section aria-labelledby="latest-h">
-      <div class="sec-head"><h2 id="latest-h">Latest results</h2><span class="note" id="latest-date"></span></div>
-      <div class="strip" id="latest"></div>
-    </section>
-
     <div class="split" id="table">
       <div class="tablecol">
         <div class="sec-head"><h2>Table</h2><span class="badge-pred" id="pred-badge" hidden></span></div>
@@ -278,6 +267,19 @@ a.partner:hover{border-color:var(--accent)}
         <button class="reset" id="reset" type="button">Reset picks</button>
       </aside>
     </div>
+
+    <section aria-labelledby="latest-h">
+      <div class="sec-head"><h2 id="latest-h">Latest results</h2><span class="note" id="latest-date"></span></div>
+      <div class="strip" id="latest"></div>
+    </section>
+
+    <div class="stats" id="stats"></div>
+
+    <section aria-labelledby="tp-h">
+      <div class="sec-head"><h2 id="tp-h">Talking points</h2><span class="note">Tap a team for its full stats</span></div>
+      <div class="stats" id="quirky"></div>
+    </section>
+
   </div>
 
   <section id="cup-alive" aria-labelledby="alive-h" hidden>
@@ -437,7 +439,7 @@ function renderNext() {
   const { f: [date, ko, h, a, venue, id], comp } = mineF[0];
   el.innerHTML = `<div class="row">
       <div class="teams">${esc(h)} v ${esc(a)}<small>${dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
-      <div class="ko ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'Time TBC'}</div>
+      <div class="kowrap"><div class="eyebrow">Kick-off</div><div class="ko ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'Time TBC'}</div></div>
     </div>
     <div class="sub">${venue ? `<span>${esc(venue)}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}</div>`;
 }
