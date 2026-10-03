@@ -113,6 +113,16 @@ a{color:var(--accent)}
     <section class="panel"><div class="head"><h2>Data on the site</h2></div><div class="facts" id="facts"><p class="empty">League data counts appear after the first update.</p></div><ul class="checks" id="runs"></ul></section>
   </div>
 
+  <section class="panel" id="keybox">
+    <div class="head"><h2>Visitor numbers key</h2></div>
+    <p class="empty" id="keyhelp">HQ reads visitor numbers from GoatCounter with your read-only key. Paste it once on each device; it stays in this browser only. Find it in GoatCounter under your account name, then API, then show on the Touchline HQ row.</p>
+    <form id="keyform" style="display:flex;gap:8px;flex-wrap:wrap">
+      <input id="gckey" type="password" autocomplete="off" placeholder="Paste key" style="flex:1 1 220px;min-width:0;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--panel-2);color:var(--fg);font:inherit">
+      <button type="submit" style="padding:10px 16px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer">Save key</button>
+      <button type="button" id="forget" style="padding:10px 16px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);font:inherit;cursor:pointer">Forget key</button>
+    </form>
+  </section>
+
   <footer>Usage from GoatCounter (cookie-free, no personal data). Results from FA Full-Time. Live: numbers update each time you open this page, and every 10 minutes while it is open.</footer>
 </div>
 
@@ -216,8 +226,10 @@ let last = null;
 setInterval(() => { if (last) $('stamp').textContent = 'Updated ' + ago(last.updated); }, 60000);
 
 // Live numbers straight from GoatCounter and the public site each time HQ is opened.
-// The read-only key is added when the site is deployed (it is never stored in the code repository).
-const GC = 'https://touchline.goatcounter.com/api/v0', KEY = '%GC_TOKEN%', SITE = 'https://touchline-eja.netlify.app';
+// The read-only GoatCounter key is pasted in once per device and kept only in that browser.
+const GC = 'https://touchline.goatcounter.com/api/v0', SITE = 'https://touchline-eja.netlify.app';
+let KEY = '';
+try { KEY = localStorage.getItem('touchline-hq-key') || ''; } catch (e) {}
 const iso = d => d.toISOString().slice(0, 10);
 const dayStr = i => iso(new Date(Date.now() - i * 86400000));
 async function gc(path, q) {
@@ -227,8 +239,9 @@ async function gc(path, q) {
 }
 async function collect() {
   const out = { updated: new Date().toISOString(), errors: [] };
+  if (!KEY) { out.errors.push('Add your GoatCounter key below to see visitor numbers on this device.'); }
   const rng = { start: '2026-10-01', end: dayStr(-1) };
-  try {
+  if (KEY) try {
     let hits = [], more = true;
     while (more && hits.length < 500) {
       const q = { ...rng, limit: 100 };
@@ -256,7 +269,7 @@ async function collect() {
       const N = { phone: 'Phones', tablet: 'Tablets', desktop: 'Computers', desktophd: 'Large screens', unknown: 'Unknown' };
       out.devices = (sz.stats || []).filter(x => x.count).map(x => ({ name: x.name || N[x.id] || x.id, n: x.count }));
     } catch (e) {}
-  } catch (e) { out.errors.push('Could not read visitor numbers (' + e.message + ').'); }
+  } catch (e) { out.errors.push(/401|403/.test(e.message) ? 'GoatCounter did not accept the key on this device. Paste it again below.' : 'Could not read visitor numbers (' + e.message + ').'); }
   const h = {};
   try {
     const page = await (await fetch(SITE + '/?x=' + Date.now(), { cache: 'no-store' })).text();
@@ -286,6 +299,24 @@ async function collect() {
   }
   return out;
 }
+function keyUI() {
+  $('keybox').open = true;
+  $('forget').hidden = !KEY;
+  $('keyhelp').textContent = KEY ? 'Key saved on this device. Paste a new one to replace it.' : $('keyhelp').textContent;
+}
+$('keyform').addEventListener('submit', e => {
+  e.preventDefault();
+  const v = $('gckey').value.trim();
+  if (!v) return;
+  KEY = v; $('gckey').value = '';
+  try { localStorage.setItem('touchline-hq-key', v); } catch (err) {}
+  keyUI(); load();
+});
+$('forget').addEventListener('click', () => {
+  KEY = ''; try { localStorage.removeItem('touchline-hq-key'); } catch (err) {}
+  keyUI(); load();
+});
+keyUI();
 let busy = false;
 async function load() {
   if (busy) return; busy = true;
