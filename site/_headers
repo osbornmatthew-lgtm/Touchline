@@ -1,0 +1,5 @@
+/cal/*
+  Content-Type: text/calendar; charset=utf-8
+  Cache-Control: public, max-age=3600
+/sw.js
+  Cache-Control: no-cache

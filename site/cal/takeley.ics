@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Takeley (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30863873@touchline-eja
+DTSTAMP:20261003T153835Z
+SUMMARY:Hornchurch v Takeley
+DTSTART;TZID=Europe/London:20261004T120000
+DTEND;TZID=Europe/London:20261004T134000
+DESCRIPTION:U16 Red league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30863873
+END:VEVENT
+BEGIN:VEVENT
+UID:30896903@touchline-eja
+DTSTAMP:20261003T153835Z
+SUMMARY:Sudbury Sports v Takeley
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+LOCATION:The Elite Travel Stadium
+DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30896903
+END:VEVENT
+BEGIN:VEVENT
+UID:30988165@touchline-eja
+DTSTAMP:20261003T153835Z
+SUMMARY:Stansted v Takeley
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30988165
+END:VEVENT
+BEGIN:VEVENT
+UID:30992931@touchline-eja
+DTSTAMP:20261003T153835Z
+SUMMARY:Takeley v Harlow Town (RT Litho Cup)
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+LOCATION:Mark Hall Sports Centre
+DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30992931
+END:VEVENT
+BEGIN:VEVENT
+UID:30618183@touchline-eja
+DTSTAMP:20261003T153835Z
+SUMMARY:Saffron Walden v Takeley (Essex Cassels U16 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Saffron Walden County High Sports Centre
+DESCRIPTION:Essex Cassels U16 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30618183
+END:VEVENT
+END:VCALENDAR
