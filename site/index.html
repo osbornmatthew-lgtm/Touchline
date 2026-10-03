@@ -183,6 +183,7 @@ button.stat:hover{border-color:var(--accent)}
 .partner .pn{font-weight:700;font-size:16px}
 .partner .go{margin-left:auto;color:var(--accent);font-size:13px;font-weight:600;white-space:nowrap}
 a.partner:hover{border-color:var(--accent)}
+.maps{display:inline-flex;gap:16px;flex-wrap:wrap}
 .calrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .calbtn{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:999px;border:1px solid var(--accent);color:var(--fg);background:transparent;font:inherit;font-size:14px;font-weight:600;text-decoration:none;cursor:pointer}
 .calbtn:hover{background:color-mix(in srgb, var(--accent) 18%, transparent)}
@@ -195,6 +196,7 @@ a.partner:hover{border-color:var(--accent)}
 .list .rt{flex:1 1 220px}
 .list .rc{font-size:12px;color:var(--muted)}
 .list a{font-size:13px;flex-basis:100%}
+.list .maps a{flex-basis:auto}
 .rp{width:22px;height:22px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--on-accent);flex:none}
 .rp.W{background:var(--win)} .rp.L{background:var(--loss)} .rp.D{background:var(--draw)} .rp.N{background:var(--line-2);color:var(--fg)}
 .ok{color:var(--win);font-weight:600} .out{color:var(--loss);font-weight:600}
@@ -314,6 +316,11 @@ DATA.updated = 'Sunday 27 September 2026';
 DATA.fetched = 'Saturday 3 October';
 
 const FT = 'https://fulltime.thefa.com/displayFixture.html?id=';
+// Directions: Google Maps (opens the app where installed) plus Waze. Full-Time only gives the pitch name, so add the county to help the search.
+function mapLinks(venue) {
+  const q = encodeURIComponent(venue + ', Essex, UK');
+  return `<span class="maps"><a href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">Directions</a><a href="https://waze.com/ul?q=${q}&navigate=yes" target="_blank" rel="noopener">Waze</a></span>`;
+}
 const BADGES = ['#C9D6E3','#E8C9A6','#BFD9C2','#D9C2DE','#E6D79A','#A9CFE0','#E3B7B0','#C8C8A0'];
 const DOTS = { Black:'#E8F1FF', Blue:'#2EC5FF', Brown:'#FF9F43', Green:'#39FF88', Purple:'#C77DFF', Red:'#FF3B5C', Yellow:'#FFE600' };
 const CUP_ACCENT = '#C9F24A';
@@ -432,14 +439,14 @@ function renderNext() {
       <div class="teams">${esc(h)} v ${esc(a)}<small>${dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
       <div class="ko ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'Time TBC'}</div>
     </div>
-    <div class="sub">${venue ? `<span>${esc(venue)}</span>` : '<span>Venue not yet listed</span>'}${id ? `<a href="${FT + id}" target="_blank" rel="noopener">Address and parking</a>` : ''}</div>`;
+    <div class="sub">${venue ? `<span>${esc(venue)}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}</div>`;
 }
 
 function renderStats(rows, n) {
   const played = rows.filter(r => r.p > 0);
   const best = f => played.reduce((a, b) => f(b) > f(a) ? b : a);
   const att = best(r => r.gf / r.p), def = best(r => -(r.ga / r.p)), top = rows[0];
-  const cards = [[n ? 'Predicted leader' : 'Top of the table', top.name, top.pts, `${top.p} played · ${gdTxt(top.gd)} goal difference`]];
+  const cards = [[n ? 'Predicted leader' : 'Top of the table', top.name, top.pts, `points · ${top.p} played · ${gdTxt(top.gd)} goal difference`]];
   const me = rows.find(r => r.name === mine);
   if (me) cards.push([mine, 'Position', ordinal(me.pos), `${me.pts} points · ${me.pts === top.pts ? 'level with the top' : (top.pts - me.pts) + ' behind the leader'}`]);
   cards.push(['Best attack', att.name, (att.gf / att.p).toFixed(1), 'goals scored per game']);
@@ -725,7 +732,7 @@ function openTeam(name) {
     .sort((a, b) => toDate(b.date) - toDate(a.date));
   const resHtml = allRes.map(r => `<li><span class="rp ${r.res || 'N'}">${r.res || '–'}</span><span class="rt">${r.txt}${r.note ? ` <em>(${esc(r.note)})</em>` : ''}</span><span class="rc">${esc(r.comp)} · ${toDate(r.date).getDate()} ${MONTHS[toDate(r.date).getMonth()].slice(0, 3)}</span></li>`).join('');
   const up = upcoming(name).slice(0, 6);
-  const upHtml = up.length ? up.map(({ f, comp }) => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="rc">${esc(comp)} · ${dayLabel(f[0])}${f[1] ? ' · ' + esc(f[1]) : ''}</span>${f[5] ? `<a href="${FT + f[5]}" target="_blank" rel="noopener">${f[4] ? esc(f[4]) : 'Venue details'}</a>` : ''}</li>`).join('') : '<li class="fine">No fixtures published yet</li>';
+  const upHtml = up.length ? up.map(({ f, comp }) => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="rc">${esc(comp)} · ${dayLabel(f[0])}${f[1] ? ' · ' + esc(f[1]) : ''}</span>${f[4] ? `<span class="rc">${esc(f[4])}</span>${mapLinks(f[4])}` : f[5] ? `<a href="${FT + f[5]}" target="_blank" rel="noopener">Venue details</a>` : ''}</li>`).join('') : '<li class="fine">No fixtures published yet</li>';
   const comps = [...new Set(cups.map(c => c.comp).concat(upcoming(name).filter(u => !/^U16 /.test(u.comp)).map(u => u.comp)))];
   const cupHtml = comps.map(cn => {
     const next = upcoming(name).find(u => u.comp === cn);
