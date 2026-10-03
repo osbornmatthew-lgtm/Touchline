@@ -54,7 +54,25 @@ for (const [label, re] of [['League Cup', /League Cup U16/], ['RT Litho Cup', /R
 }
 const shortName = s => s.replace(/\s+(sponsored|supported) by .*$/i, '');
 out.cups.push({ name: 'County Cups', county: true, results: [...ccR.values()].map(r => { r[6] = shortName(r[6]); return r; }), fixtures: [...ccF.values()].map(f => { f[7] = shortName(f[7]); return f; }) });
+// Venue address, map pin and parking: one lookup per venue name (corrections in the page still win)
+const pc = t => tc(t).replace(/\b([a-z]{1,2}\d[a-z\d]?)\s*(\d[a-z]{2})\b/i, (m, x, y) => x.toUpperCase() + ' ' + y.toUpperCase());
+const vids = new Map();
+out.divisions.flatMap(d => d.fixtures).concat(out.cups.flatMap(c => c.fixtures)).forEach(f => { if (f[4] && f[5] && !vids.has(f[4])) vids.set(f[4], f[5]); });
+out.venues = {};
+for (const [name, id] of vids) {
+  try {
+    const d = await get('/displayFixture.html?id=' + id);
+    const addr = txt(d.querySelector('address'));
+    const ll = ((d.querySelector('a[href*="maps.google"]') || { getAttribute: () => '' }).getAttribute('href') || '').match(/ll=(-?[\d.]+),(-?[\d.]+)/);
+    const park = [...d.querySelectorAll('p')].map(txt).find(t => /^Car park:/i.test(t));
+    const v = {};
+    if (addr) v.a = pc(addr);
+    if (ll && +ll[1] && +ll[2]) v.ll = (+ll[1]).toFixed(5) + ',' + (+ll[2]).toFixed(5);
+    if (park) v.p = park.replace(/^Car park:\s*/i, '');
+    if (Object.keys(v).length) out.venues[name] = v;
+  } catch (e) {}
+}
 const pre = document.createElement('pre'); pre.textContent = JSON.stringify(out);
 document.body.innerHTML = ''; const mm = document.createElement('main'); mm.appendChild(pre); document.body.appendChild(mm);
 const timed = out.divisions.reduce((n, d) => n + d.results.reduce((k, r) => k + (r[7] || []).length, 0), 0);
-out.divisions.map(d => d.name + ':' + d.teams.length + 't/' + d.results.length + 'r/' + d.fixtures.length + 'f').concat(out.cups.map(c => c.name + ':' + c.results.length + 'r/' + c.fixtures.length + 'f'), ['timed goals:' + timed]).join('; ')
+out.divisions.map(d => d.name + ':' + d.teams.length + 't/' + d.results.length + 'r/' + d.fixtures.length + 'f').concat(out.cups.map(c => c.name + ':' + c.results.length + 'r/' + c.fixtures.length + 'f'), ['timed goals:' + timed, 'venues:' + Object.keys(out.venues).length]).join('; ')
