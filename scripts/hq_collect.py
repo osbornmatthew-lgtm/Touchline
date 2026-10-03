@@ -3,7 +3,7 @@
 GOATCOUNTER_TOKEN=... python3 hq_collect.py > hq.json
 Without a token it still returns the site health part.
 """
-import json, os, re, sys, urllib.request
+import json, os, re, sys, urllib.request, urllib.error
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 
@@ -16,8 +16,11 @@ today = datetime.now(timezone.utc).date()
 
 def get(url, auth=True):
     req = urllib.request.Request(url, headers={'User-Agent': 'touchline-hq', **({'Authorization': 'Bearer ' + TOKEN} if auth else {})})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode('utf-8')
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read().decode('utf-8')
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f'{e.code} on {url.split("?")[0].replace(GC, "")}') from None
 
 
 def gc(path, **q):
@@ -31,14 +34,6 @@ out = {'updated': datetime.now(timezone.utc).isoformat(timespec='seconds'), 'err
 if TOKEN:
     try:
         rng = dict(start=LAUNCH.isoformat(), end=(today + timedelta(days=1)).isoformat())
-        tot = gc('/stats/total', **rng)
-        days = {s['day']: s.get('daily', 0) for s in tot.get('stats', [])}
-        span = [(today - timedelta(days=i)).isoformat() for i in range(27, -1, -1)]
-        out['daily'] = [{'d': d, 'n': days.get(d, 0)} for d in span]
-        wk = sum(days.get((today - timedelta(days=i)).isoformat(), 0) for i in range(7))
-        pwk = sum(days.get((today - timedelta(days=i)).isoformat(), 0) for i in range(7, 14))
-        out['totals'] = {'today': days.get(today.isoformat(), 0), 'week': wk, 'prevWeek': pwk,
-                         'all': tot.get('total', sum(days.values())), 'events': tot.get('total_events', 0)}
         hits, more, exclude = [], True, ''
         while more and len(hits) < 500:
             h = gc('/stats/hits', limit=100, **rng, **({'exclude_paths': exclude} if exclude else {}))
@@ -48,6 +43,18 @@ if TOKEN:
             exclude = ','.join(str(x['path_id']) for x in hits if 'path_id' in x)
         pages = [{'path': x.get('path', ''), 'title': x.get('title', ''), 'event': bool(x.get('event')), 'n': x.get('count', 0)} for x in hits]
         out['pages'] = sorted(pages, key=lambda p: -p['n'])
+        # Visits = app opens (page views); taps on divisions, teams and buttons are events.
+        days = defaultdict(int)
+        for x in hits:
+            if not x.get('event'):
+                for st in x.get('stats', []):
+                    days[st['day']] += st.get('daily', 0)
+        span = [(today - timedelta(days=i)).isoformat() for i in range(27, -1, -1)]
+        out['daily'] = [{'d': d, 'n': days.get(d, 0)} for d in span]
+        wk = sum(days.get((today - timedelta(days=i)).isoformat(), 0) for i in range(7))
+        pwk = sum(days.get((today - timedelta(days=i)).isoformat(), 0) for i in range(7, 14))
+        out['totals'] = {'today': days.get(today.isoformat(), 0), 'week': wk, 'prevWeek': pwk,
+                         'all': sum(days.values()), 'taps': sum(p['n'] for p in pages if p['event'])}
         div, team, cal = defaultdict(int), defaultdict(int), 0
         for p in pages:
             m = re.match(r'^/?(\w+)/(view|team)/', p['path'])
@@ -62,7 +69,8 @@ if TOKEN:
         out['calendar'] = cal
         try:
             sz = gc('/stats/sizes', **rng)
-            out['devices'] = [{'name': s.get('name') or s.get('id'), 'n': s.get('count', 0)} for s in sz.get('stats', []) if s.get('count')]
+            NAMES = {'phone': 'Phones', 'tablet': 'Tablets', 'desktop': 'Computers', 'desktophd': 'Large screens', 'unknown': 'Unknown'}
+            out['devices'] = [{'name': s.get('name') or NAMES.get(s.get('id'), s.get('id')), 'n': s.get('count', 0)} for s in sz.get('stats', []) if s.get('count')]
         except Exception as e:
             out['errors'].append(f'devices: {e}')
     except Exception as e:
