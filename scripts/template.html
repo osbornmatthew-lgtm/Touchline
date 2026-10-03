@@ -229,6 +229,7 @@ tr.detail b{color:var(--fg)}
 tr[data-row]{cursor:pointer}
 @media (min-width:641px){ tr.detail{display:none!important} tr[data-row]{cursor:default} }
 /* share */
+.noshare .sharebtn{display:none}
 .sharebtn{margin-left:auto;padding:6px 12px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--fg-2);font:inherit;font-size:13px;font-weight:600;cursor:pointer}
 .sharebtn:hover{border-color:var(--accent);color:var(--fg)}
 .sheet-body h3{margin:0 0 10px;font-family:var(--display);font-weight:700;font-size:22px;text-transform:uppercase}
@@ -507,6 +508,8 @@ async function drawCard(kind) {
   x.fillStyle = '#9AA4B0'; x.font = `500 26px ${B}`; x.fillText('From FA Full-Time · ' + (DATA.fetched || ''), 72, H - 50);
   return c;
 }
+// Sharing needs the public site (the Claude preview blocks it), so hide the buttons elsewhere.
+if (location.hostname !== SITE) document.documentElement.classList.add('noshare');
 document.addEventListener('click', async e => {
   const b = e.target.closest('[data-share]'); if (!b) return;
   const kind = b.dataset.share; b.disabled = true;
