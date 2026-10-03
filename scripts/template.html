@@ -320,7 +320,7 @@ function calHtml(name) {
   return `<div class="calrow"><a class="calbtn" href="${feed}" data-track="calendar">Add to iPhone / Outlook</a><a class="calbtn" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(feed)}" target="_blank" rel="noopener" data-track="calendar-google">Add to Google Calendar</a></div><p class="fine">Puts ${esc(name)}'s fixtures in your calendar. New and moved games update on their own.</p>`;
 }
 // Usage counts (GoatCounter, cookie-free). Only does anything on the public site once the counter script is loaded.
-function track(path, title) { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path, title: title || path, event: true }); } catch (e) {} }
+function track(path, title) { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: 'eja/' + path, title: title || path, event: true }); } catch (e) {} }
 document.addEventListener('click', e => { const a = e.target.closest('[data-track]'); if (a) track(a.dataset.track); });
 function offlineNote() {
   let el = document.getElementById('offline');

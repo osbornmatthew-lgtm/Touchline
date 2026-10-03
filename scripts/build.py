@@ -3,7 +3,8 @@ from datetime import datetime, timedelta, timezone
 from PIL import Image, ImageDraw, ImageFont
 src_path = sys.argv[1]
 # GoatCounter site code (cookie-free visit counts). Empty = no counting.
-GOATCOUNTER = ''
+GOATCOUNTER = 'touchline'
+LEAGUE = 'eja'  # prefix so several league sites can share one counter
 out = os.path.join(os.path.dirname(src_path), 'touchline-site')
 os.makedirs(out, exist_ok=True)
 src = open(src_path).read()
@@ -28,7 +29,7 @@ head = """<!doctype html>
 """
 body = src.replace('<title>Touchline U16</title>', '<title>Touchline EJA</title>', 1)
 i = body.index('<header class="top">')
-head = head.replace('%GC%', f'<script data-goatcounter="https://{GOATCOUNTER}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>\n' if GOATCOUNTER else '')
+head = head.replace('%GC%', f'<script>window.goatcounter = {{ path: p => "/{LEAGUE}" + p }};</script>\n<script data-goatcounter="https://{GOATCOUNTER}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>\n' if GOATCOUNTER else '')
 open(os.path.join(out, 'index.html'), 'w').write(head + body[:i] + '</head>\n<body>\n' + body[i:] + '\n</body>\n</html>\n')
 fp = '/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf'
 for size, name in [(512, 'icon-512.png'), (192, 'icon-192.png'), (180, 'apple-touch-icon.png')]:
