@@ -1,0 +1,1053 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="EJA Under 16 league tables, results, fixtures and stats.">
+<meta property="og:title" content="Touchline EJA">
+<meta property="og:description" content="EJA Under 16 league tables, results, fixtures and stats.">
+<meta property="og:image" content="https://osbornmatthew-lgtm.github.io/Touchline/og-image.png">
+<meta name="theme-color" content="#0E1217">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Touchline">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<script>if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js'));</script>
+<script>window.goatcounter = { path: p => "/eja" + p };</script>
+<script data-goatcounter="https://touchline.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<style>body{margin:0}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:#0E1217}</style>
+<title>Touchline EJA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one mobile-first column; division chips switch the whole page; table and predictor sit side by side on wide screens */
+:root{
+  --bg:#0E1217; --panel:#151B22; --line:#222A33; --line-2:#2E3742;
+  --fg:#ECEFF3; --fg-2:#C3CAD3; --muted:#9AA4B0;
+  --accent:#C9F24A; --on-accent:#0E1217; --mine:#1E2A14; --glow:none;
+  --win:#4ADE80; --loss:#F59E0B; --draw:#8A94A0;
+  --display:'Barlow Condensed','Arial Narrow',sans-serif;
+  --body:'IBM Plex Sans',system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45;margin:0}
+a{color:var(--accent)}
+a:hover{color:var(--fg)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px}
+header.top{border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
+header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;padding-block:12px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--fg)}
+.brand .mark{height:24.4px;width:auto;flex:none;position:relative;top:4.8px}
+.brand b{font-family:var(--display);font-weight:800;font-size:28px;line-height:1;letter-spacing:.02em;text-transform:uppercase}
+.brand span{font-family:var(--display);font-weight:600;font-size:28px;line-height:1;letter-spacing:.04em;text-transform:uppercase;color:var(--fg-2);border-left:2px solid var(--fg-2);padding-left:10px}
+nav.sections{display:flex;gap:2px;overflow-x:auto}
+nav.sections a{padding:10px 12px;color:var(--muted);text-decoration:none;font-weight:500;white-space:nowrap}
+nav.sections a:hover{color:var(--fg)}
+nav.sections{align-items:center}
+nav.sections .myteam{display:inline-flex;align-items:center;gap:8px;margin-right:6px;padding:6px 14px 6px 6px;border:1.5px solid var(--accent);border-radius:999px;background:color-mix(in srgb, var(--accent) 12%, transparent);color:var(--fg);font:inherit;font-weight:600;white-space:nowrap;cursor:pointer;text-decoration:none;box-shadow:0 0 12px color-mix(in srgb, var(--accent) 30%, transparent)}
+nav.sections .myteam .crest{width:26px;height:26px;font-size:10px}
+nav.sections .myteam:hover{background:color-mix(in srgb, var(--accent) 22%, transparent)}
+main{display:flex;flex-direction:column;gap:32px;padding-block:24px 56px}
+.eyebrow{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+h1{margin:0;font-family:var(--display);font-weight:800;font-size:clamp(44px,9vw,64px);line-height:1;text-transform:uppercase;text-wrap:balance}
+h2{margin:0;font-family:var(--display);font-weight:700;font-size:28px;line-height:1.1;text-transform:uppercase;text-wrap:balance}
+.intro{display:flex;flex-direction:column;gap:6px}
+.intro .meta{font-size:14px;color:var(--muted)}
+.follow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.follow label{font-size:14px;color:var(--fg-2)}
+select{font:inherit;color:var(--fg);background:var(--panel);border:1px solid var(--line-2);border-radius:8px;min-height:44px;padding:0 12px;max-width:100%}
+section{display:flex;flex-direction:column;gap:14px}
+.sec-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px}
+.sec-head .note{font-size:13px;color:var(--muted)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px}
+
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.chips button{flex:none;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--fg);font:inherit;font-weight:600;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.chips button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.chips .dot{width:10px;height:10px;border-radius:50%;border:1px solid rgba(255,255,255,.35)}
+
+.next{overflow:hidden;border-color:var(--accent)}
+.next .row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding:18px}
+.next .teams{font-family:var(--display);font-weight:700;font-size:clamp(26px,5vw,36px);text-transform:uppercase;line-height:1.05}
+.next .teams small{display:block;font-family:var(--body);font-weight:500;font-size:13px;color:var(--muted);text-transform:none;margin-top:4px}
+.next .kowrap{display:flex;flex-direction:column;gap:4px}
+.next .ko{font-family:var(--display);font-weight:800;font-size:44px;color:var(--accent);line-height:1}
+.next .ko.tbc{color:var(--muted);font-size:28px}
+.next .sub{border-top:1px solid var(--line);padding:12px 18px;display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:var(--fg-2)}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.stat{padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.stat .v{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.stat .club{font-weight:600}
+.stat .num{font-family:var(--display);font-weight:700;font-size:30px;color:var(--accent)}
+.stat .sub{font-size:13px;color:var(--muted)}
+
+.strip{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity}
+.match{flex:0 0 230px;scroll-snap-align:start;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.match.mine{border-color:var(--accent);background:var(--mine)}
+.match .line{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.match .sc{font-family:var(--display);font-weight:700;font-size:24px;font-variant-numeric:tabular-nums}
+.lost{color:var(--muted)}
+.won{font-weight:700}
+.tag{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+
+.split{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
+.split > .tablecol{flex:999 1 600px;min-width:0;display:flex;flex-direction:column;gap:12px}
+.split > .pred{flex:1 1 320px;min-width:0}
+.badge-pred{font-size:12px;font-weight:600;color:var(--on-accent);background:var(--accent);border-radius:999px;padding:6px 12px;text-transform:uppercase;letter-spacing:.06em}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th{font-size:12px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;text-align:right;padding:12px 6px}
+th.l,td.l{text-align:left}
+td{padding:0 6px;height:50px;text-align:right;color:var(--fg-2);border-top:1px solid var(--line)}
+tbody tr:first-child td{border-top:0}
+tr.mine td{background:var(--mine)}
+tr.mine td.team{font-weight:700}
+td.pos{padding-left:16px;font-weight:600;color:var(--fg);width:40px}
+td.mv{width:34px;font-size:12px;font-weight:600;text-align:left}
+td.mv.up{color:var(--win)} td.mv.down{color:var(--loss)}
+td.team{color:var(--fg);font-weight:500;white-space:nowrap}
+.tm{display:flex;align-items:center;gap:10px}
+.crest{width:28px;height:28px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:var(--on-accent);font-family:var(--display);font-weight:700;font-size:12px;flex:none}
+td.pts{font-family:var(--display);font-weight:700;font-size:20px;color:var(--fg)}
+td.gap{padding-right:16px;font-size:13px;color:var(--muted)}
+th.pts{color:var(--fg)} th.gap{padding-right:16px}
+.form{display:inline-flex;gap:3px}
+.form i{width:20px;height:20px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:11px;font-weight:700;color:var(--on-accent)}
+.form .W{background:var(--win)} .form .L{background:var(--loss)} .form .D{background:var(--draw)}
+.tnote{font-size:13px;color:var(--muted)}
+@media (max-width:640px){ .wide{display:none} }
+
+.pred .ph{padding:16px 16px 10px;display:flex;flex-direction:column;gap:6px}
+.pred .ph p{margin:0;font-size:13px;color:var(--muted)}
+.pick{border-top:1px solid var(--line);padding:10px 16px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:8px}
+.pick .h{text-align:right}
+.pick span{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pick span.on{font-weight:700}
+.opts{display:flex;gap:4px}
+.opts button{width:44px;height:44px;border-radius:8px;border:1px solid var(--line-2);background:transparent;color:var(--fg-2);font:inherit;font-weight:700;font-size:14px;cursor:pointer}
+.opts button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.reset{margin:12px 16px 16px;width:calc(100% - 32px);min-height:44px;border-radius:8px;border:1px solid var(--line-2);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer}
+
+.rounds{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;align-items:start}
+.round .rh{padding:12px 16px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.fx{border-top:1px solid var(--line);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.fx.mine{background:var(--mine)}
+.fx.mine .who > span:first-child{font-weight:700}
+.fx .who{font-size:14px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.fx .who a,.fx .who .nv{font-size:13px;font-weight:500}
+.fx .who .nv{color:var(--muted)}
+.fx .k{font-family:var(--display);font-weight:700;font-size:20px;color:var(--accent);white-space:nowrap}
+.fx .k.tbc{color:var(--muted);font-size:16px}
+.fx .k.pp{color:var(--loss);font-size:15px;text-transform:uppercase}
+.res{border-top:1px solid var(--line);padding:9px 16px;display:grid;grid-template-columns:minmax(0,1fr) 58px minmax(0,1fr);gap:8px;align-items:center;font-size:14px}
+.res.mine{background:var(--mine)}
+.res .h{text-align:right}
+.res .s{text-align:center;font-family:var(--display);font-weight:700;font-size:19px;color:var(--fg)}
+.res .s.void{font-family:var(--body);font-size:11px;font-weight:500;color:var(--muted);text-transform:uppercase}
+.res .n{grid-column:1/-1;text-align:center;font-size:11px;color:var(--muted);margin-top:-4px}
+.alive{display:flex;flex-wrap:wrap;gap:6px;padding:14px 16px}
+.alive span{font-size:13px;padding:6px 10px;border-radius:999px;border:1px solid var(--line-2);color:var(--fg-2)}
+.alive span.me{border-color:var(--accent);color:var(--fg);font-weight:600}
+footer{border-top:1px solid var(--line)}
+footer .wrap{padding-block:18px 28px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+.next{box-shadow:var(--glow)}
+.chips button[aria-pressed="true"]{box-shadow:var(--glow)}
+.stat .num,.next .ko{text-shadow:0 0 14px color-mix(in srgb, var(--accent) 55%, transparent)}
+.match.mine{border-color:var(--accent);background:var(--mine);box-shadow:var(--glow)}
+tr.mine td.pos{box-shadow:inset 4px 0 0 var(--accent)}
+.fx .k{transition:color .2s}
+footer .wrap div:last-child::after{content:''}
+
+button.stat{font:inherit;color:inherit;text-align:left;cursor:pointer;width:100%}
+button.stat:hover{border-color:var(--accent)}
+.teambtn{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left;display:flex;align-items:center;gap:10px;min-height:44px;text-decoration:underline;text-decoration-color:var(--line-2);text-underline-offset:4px}
+.teambtn:hover{text-decoration-color:var(--accent)}
+#welcome{position:fixed;inset:0;z-index:30;background:rgba(5,7,10,.8);display:flex;justify-content:center;align-items:center;padding:16px}
+#welcome[hidden]{display:none!important}
+.welcome-panel{background:var(--bg);border:1px solid var(--accent);border-radius:16px;width:100%;max-width:420px;padding:24px 20px;display:flex;flex-direction:column;gap:14px;box-shadow:0 0 30px color-mix(in srgb, var(--accent) 25%, transparent)}
+.welcome-panel h2{font-size:34px}
+.welcome-panel p{margin:0;color:var(--fg-2);font-size:15px}
+.welcome-panel select{width:100%;padding:12px;border-radius:10px;border:1px solid var(--line-2);background:var(--panel);color:var(--fg);font:inherit;font-size:16px}
+#welcome-go{padding:13px;border-radius:999px;border:0;background:var(--accent);color:#0E1217;font:inherit;font-weight:700;font-size:16px;cursor:pointer}
+#welcome-go:disabled{opacity:.45;cursor:default}
+.linkish{background:none;border:0;color:var(--muted);font:inherit;text-decoration:underline;cursor:pointer;padding:4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.pickbtn{padding:9px 16px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer}
+#sheet{position:fixed;inset:0;z-index:20;background:rgba(5,7,10,.72);display:flex;justify-content:center;align-items:flex-end}
+#sheet[hidden]{display:none!important}
+.sheet-panel{background:var(--bg);border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0;width:100%;max-width:760px;max-height:92vh;overflow-y:auto;position:relative;padding:20px 16px calc(28px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 40px rgba(0,0,0,.5)}
+.sheet-close{position:sticky;top:0;float:right;width:44px;height:44px;border-radius:50%;border:1px solid var(--line-2);background:var(--panel);color:var(--fg);font-size:22px;line-height:1;cursor:pointer;z-index:2}
+.sheet-body{display:flex;flex-direction:column;gap:22px}
+.sh-head{display:flex;flex-direction:column;gap:12px;padding-right:52px}
+.sh-head h2{font-size:34px}
+.sh-head .crest{width:44px;height:44px;font-size:16px}
+.sh-sum{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;font-size:14px;color:var(--fg-2)}
+.sh-sum .num{font-family:var(--display);font-weight:800;font-size:34px;color:var(--accent);text-shadow:0 0 14px color-mix(in srgb, var(--accent) 55%, transparent)}
+.sh-sum .run{border:1px solid var(--accent);color:var(--fg);border-radius:999px;padding:4px 10px;font-weight:600}
+.stats.six{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.stats.six .num{font-family:var(--display);font-weight:700;font-size:26px;color:var(--fg)}
+.partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.partner{display:flex;align-items:center;gap:14px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--fg);text-decoration:none}
+.partner .logo{flex:0 0 auto;width:112px;height:56px;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:center;padding:6px}
+.partner .logo img{max-width:100%;max-height:100%;object-fit:contain}
+.partner .pn{font-weight:700;font-size:16px}
+.partner .go{margin-left:auto;color:var(--accent);font-size:13px;font-weight:600;white-space:nowrap}
+a.partner:hover{border-color:var(--accent)}
+.maps{display:inline-flex;gap:16px;flex-wrap:wrap}
+.calrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.calbtn{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:999px;border:1px solid var(--accent);color:var(--fg);background:transparent;font:inherit;font-size:14px;font-weight:600;text-decoration:none;cursor:pointer}
+.calbtn:hover{background:color-mix(in srgb, var(--accent) 18%, transparent)}
+.offline{position:sticky;top:0;z-index:30;background:var(--accent);color:#05070A;text-align:center;font-size:13px;font-weight:700;padding:6px 12px}
+
+/* match day */
+.today{padding:6px 0}
+.trow{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) 92px;gap:10px;align-items:center;padding:10px 14px;border-top:1px solid var(--line);font-size:14px}
+.trow:first-child{border-top:0}
+.trow .h{text-align:right;min-width:0}
+.trow .a{min-width:0}
+.trow .sc{font-family:var(--display);font-weight:800;font-size:22px;min-width:56px;text-align:center;font-variant-numeric:tabular-nums}
+.trow .sc.ko{font-size:18px;color:var(--muted)}
+.trow .st{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-align:right;color:var(--muted)}
+.trow .st.ft{color:var(--accent)}
+.trow .st.live{color:var(--warn,#FFB547)}
+.trow.mine{background:var(--mine)}
+.trow.mine .h,.trow.mine .a{font-weight:700}
+/* opponent preview */
+.opp{border-top:1px solid var(--line);padding:12px 18px;display:flex;flex-direction:column;gap:6px;font-size:14px;color:var(--fg-2)}
+.opp .who{color:var(--fg);font-weight:600}
+.opp .form{display:inline-flex;gap:3px;vertical-align:middle}
+.ppnote{border-top:1px solid var(--line);padding:10px 18px;font-size:14px;color:var(--fg)}
+.ppnote b{color:#FF8A5C}
+.k.pp,.badge-pp{background:color-mix(in srgb, #FF8A5C 18%, transparent);color:#FF8A5C;border-radius:999px;padding:2px 8px;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.parking{font-size:13px;color:var(--muted)}
+/* expandable table rows on phones */
+tr.detail td{background:var(--panel);font-size:13px;color:var(--fg-2);padding:8px 16px 12px;text-align:left}
+tr.detail .dl{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
+tr.detail b{color:var(--fg)}
+tr[data-row]{cursor:pointer}
+@media (min-width:641px){ tr.detail{display:none!important} tr[data-row]{cursor:default} }
+/* share */
+.noshare .sharebtn{display:none}
+.sharebtn{margin-left:auto;padding:6px 12px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--fg-2);font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.sharebtn:hover{border-color:var(--accent);color:var(--fg)}
+.sheet-body h3{margin:0 0 10px;font-family:var(--display);font-weight:700;font-size:22px;text-transform:uppercase}
+.kv,.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.kv li,.list li{padding:11px 14px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;font-size:14px}
+.kv li:first-child,.list li:first-child{border-top:0}
+.kv b{min-width:160px;font-weight:600;color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.05em}
+.list .rt{flex:1 1 220px}
+.list .rc{font-size:12px;color:var(--muted)}
+.list a{font-size:13px;flex-basis:100%}
+.list .maps a{flex-basis:auto}
+.rp{width:22px;height:22px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--on-accent);flex:none}
+.rp.W{background:var(--win)} .rp.L{background:var(--loss)} .rp.D{background:var(--draw)} .rp.N{background:var(--line-2);color:var(--fg)}
+.ok{color:var(--win);font-weight:600} .out{color:var(--loss);font-weight:600}
+.fine{margin:8px 0 0;font-size:12px;color:var(--muted)}
+.bars{display:flex;flex-direction:column;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.bar{display:grid;grid-template-columns:56px 1fr 28px;align-items:center;gap:10px;font-size:13px}
+.bar .bt{height:12px;background:var(--line);border-radius:6px;overflow:hidden}
+.bar .bt i{display:block;height:100%;background:var(--accent);box-shadow:var(--glow);border-radius:6px}
+.bar .bn{text-align:right;font-variant-numeric:tabular-nums}
+.bl{color:var(--muted)}
+</style>
+
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Touchline EJA"><svg class="mark" viewBox="12 6 78 92" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M12 6H36L90 80H12Z M24 18H29.9L66.4 68H24Z"/><path fill="#C9F24A" d="M12 86H90V98H12Z"/></svg><b>Touchline</b><span>EJA</span></a>
+    <nav class="sections" aria-label="Sections" id="secnav"></nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <div class="intro">
+    <div class="eyebrow">Eastern Junior Alliance · Under 16 · 2026–27</div>
+    <h1 id="title"></h1>
+    <div class="meta" id="updated"></div>
+  </div>
+
+  <div class="follow">
+    <label for="team-pick">Your team</label>
+    <select id="team-pick"></select>
+  </div>
+
+  <section aria-labelledby="next-h">
+    <h2 id="next-h">Your next match</h2>
+    <div class="panel next" id="next"></div>
+  </section>
+
+  <div role="group" aria-label="Competition" class="chips" id="chips"></div>
+
+  <div id="league-view" style="display:flex;flex-direction:column;gap:32px">
+    <section aria-labelledby="today-h" id="today-sec" hidden>
+      <div class="sec-head"><h2 id="today-h">Today</h2><span class="note" id="today-note"></span><button type="button" class="sharebtn" data-share="today">Share</button></div>
+      <div class="panel today" id="today"></div>
+    </section>
+
+    <div class="split" id="table">
+      <div class="tablecol">
+        <div class="sec-head"><h2>Table</h2><span class="badge-pred" id="pred-badge" hidden></span><button type="button" class="sharebtn" data-share="table">Share</button></div>
+        <div class="panel scroll">
+          <table>
+            <thead><tr>
+              <th class="l" style="padding-left:16px">Pos</th>
+              <th class="l"><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Movement</span></th>
+              <th class="l">Team</th>
+              <th>P</th><th class="wide">W</th><th class="wide">D</th><th class="wide">L</th>
+              <th class="wide">GF</th><th class="wide">GA</th><th>GD</th>
+              <th class="pts">Pts</th><th class="l wide">Form</th><th class="gap">Gap</th>
+            </tr></thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+        <div class="tnote" id="tnote"></div>
+      </div>
+
+      <aside class="panel pred" aria-labelledby="pred-h" id="pred">
+        <div class="ph">
+          <h2 id="pred-h">Table predictor</h2>
+          <p id="pred-sub"></p>
+        </div>
+        <div id="picks"></div>
+        <button class="reset" id="reset" type="button">Reset picks</button>
+      </aside>
+    </div>
+
+    <section aria-labelledby="latest-h">
+      <div class="sec-head"><h2 id="latest-h">Latest results</h2><span class="note" id="latest-date"></span><button type="button" class="sharebtn" data-share="results">Share</button></div>
+      <div class="strip" id="latest"></div>
+    </section>
+
+    <div class="stats" id="stats"></div>
+
+    <section aria-labelledby="tp-h">
+      <div class="sec-head"><h2 id="tp-h">Talking points</h2><span class="note">Tap a team for its full stats</span></div>
+      <div class="stats" id="quirky"></div>
+    </section>
+
+  </div>
+
+  <section id="cup-alive" aria-labelledby="alive-h" hidden>
+    <h2 id="alive-h">Still in the cup</h2>
+    <div class="panel alive" id="alive"></div>
+  </section>
+
+  <section id="fixtures" aria-labelledby="fx-h">
+    <div class="sec-head"><h2 id="fx-h">Fixtures</h2><span class="note">Tap Directions or Waze to get to the ground</span></div>
+    <div class="rounds" id="fx"></div>
+  </section>
+
+  <section id="results" aria-labelledby="res-h">
+    <h2 id="res-h">Results</h2>
+    <div class="rounds" id="res"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>Tables, results, fixtures and venues from FA Full-Time. Team names only: no player names, photos or video.</div>
+    <div>Teams level on points are shown in the league's own order. Badges are placeholders.</div>
+  </div>
+</footer>
+
+<div id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="welcome-h">
+  <div class="welcome-panel">
+    <div class="eyebrow">Eastern Junior Alliance · Under 16</div>
+    <h2 id="welcome-h">Who do you follow?</h2>
+    <p>Pick your team and Touchline puts their next match, kick-off time, directions and stats first. You can change it any time.</p>
+    <label for="welcome-pick" class="sr">Your team</label>
+    <select id="welcome-pick"></select>
+    <button type="button" id="welcome-go" disabled>Show me my team</button>
+    <button type="button" id="welcome-skip" class="linkish">Just browsing</button>
+  </div>
+</div>
+<div id="sheet" hidden role="dialog" aria-modal="true" aria-label="Team stats">
+  <div class="sheet-panel">
+    <button type="button" class="sheet-close" aria-label="Close">×</button>
+    <div class="sheet-body"></div>
+  </div>
+</div>
+
+<script>
+const DATA = {"divisions":[{"name":"U16 Black","teams":[["Aylsham",2,2,0,0,8,0,6],["Fakenham Town",2,2,0,0,12,1,6],["Mildenhall Town",3,2,0,1,8,4,6],["Needham Market",3,2,0,1,5,6,6],["AFC Sudbury",2,1,1,0,2,1,4],["Bury Town",3,1,0,2,6,7,3],["Leiston",3,1,0,2,7,9,3],["Wroxham",3,0,1,2,2,4,1],["Mulbarton Wanderers",0,0,0,0,0,0,0],["Felixstowe & Walton United",3,0,0,3,3,21,0]],"results":[["27/09","Fakenham Town","Felixstowe & Walton United",10,0,"HT 3-0",null,[]],["27/09","Wroxham","AFC Sudbury",1,2,"",null,[]],["27/09","Bury Town","Needham Market",0,3,"HT 0-1",null,[]],["27/09","Mildenhall Town","Leiston",4,0,"",null,[]],["20/09","Aylsham","Leiston",3,0,"",null,[]],["20/09","Felixstowe & Walton United","Bury Town",1,4,"",null,[]],["20/09","Needham Market","Mildenhall Town",2,1,"",null,[]],["20/09","Wroxham","Fakenham Town",1,2,"",null,[]],["06/09","Leiston","Felixstowe & Walton United",7,2,"HT 1-1",null,[]],["06/09","AFC Sudbury","Wroxham",0,0,"",null,[]],["06/09","Bury Town","Mildenhall Town",2,3,"",null,[]],["06/09","Needham Market","Aylsham",0,5,"",null,[]],["06/09","Downham Town","Mulbarton Wanderers",null,null,"",null,[]]],"fixtures":[["27/09",null,"Mulbarton Wanderers","Aylsham","The FDC",30811383,"Postponed"],["04/10","10:00","Aylsham","AFC Sudbury","Youngs Park",30896517,""],["04/10","10:30","Mildenhall Town","Bury Town","Mildenhall Hub",30896521,""],["04/10","12:45","Leiston","Wroxham","Kesgrave High School",30896520,""],["04/10","13:00","Fakenham Town","Needham Market","Daly Group Stadium (Fakenham Town FC)",30896518,""],["04/10","14:00","Felixstowe & Walton United","Mulbarton Wanderers","Inspire Suffolk",30896519,""],["11/10",null,"Leiston","Needham Market","Leiston Town Athletic Association",30896794,""],["11/10","10:00","AFC Sudbury","Bury Town","The Elite Travel Stadium",30896793,""],["11/10","12:00","Mulbarton Wanderers","Wroxham","The FDC",30989177,""],["11/10","13:30","Mildenhall Town","Felixstowe & Walton United","Mildenhall Town FC",30896795,""],["25/10",null,"AFC Sudbury","Felixstowe & Walton United","The Elite Travel Stadium",30988026,""],["25/10",null,"Bury Town","Leiston",null,30988027,""],["25/10",null,"Fakenham Town","Mildenhall Town","Daly Group Stadium (Fakenham Town FC)",30988028,""],["25/10",null,"Mulbarton Wanderers","Needham Market","The FDC",30988029,"Postponed"],["25/10",null,"Wroxham","Aylsham",null,30988030,""]]},{"name":"U16 Blue","teams":[["Cambridge City",2,2,0,0,7,0,6],["Histon",2,2,0,0,6,0,6],["Netherton United",1,1,0,0,3,0,3],["Godmanchester Rovers",2,1,0,1,8,3,3],["Newmarket Town",2,1,0,1,1,3,3],["St Neots Town",1,0,0,1,0,3,0],["Soham Town Rangers",2,0,0,2,0,12,0],["St Ives Town",2,0,0,2,0,4,0]],"results":[["27/09","Newmarket Town","St Ives Town",1,0,"",null,[]],["27/09","Cambridge City","Soham Town Rangers",4,0,"",null,[]],["27/09","Godmanchester Rovers","Histon",0,3,"",null,[]],["27/09","St Neots Town","Netherton United",null,null,"",null,[]],["06/09","St Ives Town","Cambridge City",0,3,"",null,[]],["06/09","Godmanchester Rovers","Soham Town Rangers",8,0,"",null,[]],["06/09","Histon","St Neots Town",3,0,"",null,[[1,"H","G"],[1,"H","G"],[1,"H","G"]]],["06/09","Netherton United","Newmarket Town",3,0,"",null,[]]],"fixtures":[["20/09","10:30","Histon","St Ives Town","Northstowe Secondary College",30896152,"Postponed"],["04/10",null,"Soham Town Rangers","Godmanchester Rovers",null,30863814,"Postponed"],["04/10","10:00","Histon","Netherton United","Camtech and Caprice Stadium",30514643,""],["04/10","12:00","St Neots Town","St Ives Town","St Neots Town Football Club",30863815,""],["11/10","10:00","Histon","Newmarket Town","Camtech and Caprice Stadium",30863813,""],["11/10","12:00","St Neots Town","Soham Town Rangers","St Neots Town Football Club",30514645,""],["25/10",null,"Soham Town Rangers","Netherton United","Soham Village College",30988087,""],["25/10","10:00","Histon","Godmanchester Rovers","Camtech and Caprice Stadium",30988086,""]]},{"name":"U16 Brown","teams":[["Baldock Town",2,1,1,0,1,0,4],["Bedford Town",1,1,0,0,3,1,3],["Leighton Town",1,1,0,0,5,2,3],["Potters Bar Town",1,1,0,0,6,1,3],["Colney Heath",2,1,0,1,11,6,3],["LGCE",2,1,0,1,7,4,3],["Real Bedford",2,1,0,1,4,5,3],["St Margaretsbury",3,0,1,2,2,6,1],["Hertford Town",0,0,0,0,0,0,0],["Eynesbury Rovers",2,0,0,2,1,15,0]],"results":[["27/09","LGCE","Real Bedford",2,3,"",null,[[34,"H","G"],[65,"H","G"]]],["27/09","St Margaretsbury","Leighton Town",2,5,"",null,[]],["27/09","Colney Heath","Eynesbury Rovers",10,0,"HT 7-0",null,[]],["20/09","St Margaretsbury","Baldock Town",0,1,"HT 0-0",null,[]],["06/09","Baldock Town","St Margaretsbury",0,0,"HT 0-0",null,[]],["06/09","Real Bedford","Bedford Town",1,3,"HT 1-2",null,[]],["06/09","Hertford Town","Leighton Town",null,null,"",null,[]],["06/09","LGCE","Eynesbury Rovers",5,1,"HT 2-0",null,[]],["06/09","Colney Heath","Potters Bar Town",1,6,"HT 0-3",null,[[15,"A","G"]]]],"fixtures":[["20/09",null,"LGCE","Bedford Town","Letchworth Eagles FC (Pixmore Pitches)",30514941,"Postponed"],["27/09","14:15","Potters Bar Town","Baldock Town",null,30811401,"Postponed"],["04/10",null,"Leighton Town","Eynesbury Rovers",null,30863828,"Postponed"],["04/10","10:00","St Margaretsbury","Bedford Town","St Margaretsbury FC",30863829,""],["04/10","11:45","Colney Heath","Real Bedford","Samuel Ryder Academy",30863826,""],["04/10","12:00","Hertford Town","LGCE","Hertingfordbury Park",30863827,""],["04/10","13:30","Baldock Town","Potters Bar Town","Lea Manor Recreation Centre",30863825,""],["11/10",null,"Colney Heath","St Margaretsbury","Colney Heath Recreation Ground",30896818,""],["11/10",null,"Leighton Town","Baldock Town",null,30896819,""],["11/10","10:00","Bedford Town","Hertford Town","Bedford Town Football Club (The Eyrie)",30896827,""],["11/10","10:15","Potters Bar Town","Eynesbury Rovers",null,30896821,""],["11/10","10:30","LGCE","Colney Heath","Letchworth Eagles FC (Pixmore Pitches)",30896820,""],["25/10",null,"Colney Heath","Baldock Town","Colney Heath Recreation Ground",30988104,""],["25/10",null,"Leighton Town","Bedford Town",null,30988105,""],["25/10",null,"Potters Bar Town","Real Bedford",null,30988106,""],["25/10",null,"St Margaretsbury","Eynesbury Rovers","St Margaretsbury FC",30988107,""]]},{"name":"U16 Green","teams":[["Cheshunt",2,2,0,0,5,2,6],["Ware",2,2,0,0,7,2,6],["Wormley Rovers",3,1,1,1,7,5,4],["Norsemen",1,1,0,0,8,0,3],["London Lions",2,1,0,1,3,3,3],["Wingate & Finchley",2,1,0,1,3,4,3],["May & Baker Eastbrook",2,0,1,1,3,4,1],["Cockfosters",1,0,0,1,1,4,0],["Edgware & Kingsbury",1,0,0,1,0,8,0],["Broadfields United",2,0,0,2,1,6,0]],"results":[["27/09","Wormley Rovers","May & Baker Eastbrook",2,2,"HT 1-0",null,[[9,"H","G"],[69,"H","P"],[80,"A","G"],[80,"A","G"]]],["27/09","London Lions","Cheshunt",1,2,"",null,[]],["20/09","Wingate & Finchley","Broadfields United",2,1,"HT 2-0",null,[[17,"H","G"],[24,"H","G"]]],["20/09","Wormley Rovers","Ware",1,3,"",null,[[29,"H","G"]]],["06/09","Wingate & Finchley","Cheshunt",1,3,"",null,[[30,"H","G"]]],["06/09","Cockfosters","Ware",1,4,"",null,[]],["06/09","London Lions","May & Baker Eastbrook",2,1,"",null,[[1,"A","G"]]],["06/09","Norsemen","Edgware & Kingsbury",8,0,"",null,[[9,"H","G"],[29,"H","G"],[43,"H","G"],[49,"H","G"],[53,"H","G"],[63,"H","G"],[76,"H","G"]]],["06/09","Broadfields United","Wormley Rovers",0,4,"HT 0-2",null,[[12,"A","G"],[33,"A","G"],[62,"A","G"],[75,"A","G"]]]],"fixtures":[["04/10","10:00","Cockfosters","London Lions","Old Elizabethans Memorial Playing Fields",30863865,""],["04/10","10:00","Wormley Rovers","Cheshunt",null,30863867,""],["04/10","10:15","Edgware & Kingsbury","Ware",null,30863866,""],["04/10","14:00","May & Baker Eastbrook","Broadfields United","Leisure United Parsloes Park",30863864,""],["11/10",null,"May & Baker Eastbrook","Edgware & Kingsbury","Leisure United Parsloes Park",30896861,""],["11/10","10:00","Norsemen","Cockfosters","Edmonton Sports and Social Club",30896862,""],["11/10","12:00","Ware","Cheshunt","Ware Football Club",30896863,""],["11/10","12:15","London Lions","Broadfields United","Maccabi London Sports Ground",30896860,""],["11/10","13:15","Wingate & Finchley","Wormley Rovers","The Football Pad",30896864,""],["25/10",null,"Broadfields United","Edgware & Kingsbury","Tithe Farm Sports and Social Club",30988114,""],["25/10",null,"Cheshunt","Norsemen","Cheshunt FC (The Stadium)",30988115,"Postponed"],["25/10",null,"May & Baker Eastbrook","Ware","Leisure United Parsloes Park",30988116,""]]},{"name":"U16 Purple","teams":[["Redbridge",3,3,0,0,18,0,9],["Barking",2,2,0,0,6,3,6],["Frenford",3,2,0,1,8,4,6],["Buckhurst Hill",3,1,1,1,5,5,4],["Hackney Wick",3,1,1,1,4,3,4],["Ilford",2,1,0,1,5,4,3],["Ryan",2,1,0,1,5,4,3],["CSM London",2,0,0,2,1,9,0],["Walthamstow",2,0,0,2,1,16,0],["Woodford Town",2,0,0,2,3,8,0]],"results":[["27/09","Frenford","CSM London",6,0,"",null,[]],["27/09","Redbridge","Walthamstow",12,0,"",null,[]],["27/09","Barking","Ryan",3,2,"",null,[[9,"H","G"],[26,"H","G"],[55,"H","G"]]],["27/09","Hackney Wick","Buckhurst Hill",1,1,"",null,[[13,"H","G"]]],["27/09","Woodford Town","Ilford",2,5,"",null,[]],["20/09","Buckhurst Hill","Redbridge",0,3,"",null,[]],["20/09","Hackney Wick","Frenford",1,2,"",null,[[22,"A","G"],[55,"H","G"],[78,"A","G"]]],["06/09","Hackney Wick","Ilford",2,0,"HT 1-0",null,[[16,"H","G"],[60,"H","G"]]],["06/09","CSM London","Ryan",1,3,"HT 1-2",null,[[11,"H","G"]]],["06/09","Barking","Woodford Town",3,1,"HT 2-0",null,[[10,"H","P"],[32,"H","G"],[56,"H","G"]]],["06/09","Walthamstow","Buckhurst Hill",1,4,"",null,[[62,"H","G"]]],["06/09","Redbridge","Frenford",3,0,"",null,[]]],"fixtures":[["04/10","10:00","Barking","Ilford","Mayesbrook Park",30863868,""],["04/10","10:00","Hackney Wick","Redbridge","Mabley Green",30863870,""],["04/10","10:00","Woodford Town","Buckhurst Hill","Trinity Catholic High School (Whitbread Sports Ground)",30863872,""],["04/10","12:00","Ryan","Frenford",null,30863871,""],["04/10","14:15","CSM London","Walthamstow","Leisure United Parsloes Park",30863869,""],["11/10",null,"CSM London","Ilford","Leisure United Parsloes Park",30515001,""],["11/10",null,"Frenford","Redbridge",null,30896890,""],["11/10","10:00","Walthamstow","Barking","Wadham Lodge Sports Ground (Match Day Centres)",30515004,""],["11/10","12:00","Woodford Town","Ryan","Trinity Catholic High School (Whitbread Sports Ground)",30515005,""],["25/10",null,"Barking","Redbridge",null,30988117,""],["25/10",null,"CSM London","Buckhurst Hill","Leisure United Parsloes Park",30988118,""],["25/10",null,"Ryan","Hackney Wick",null,30988119,""],["25/10",null,"Woodford Town","Frenford","Trinity Catholic High School (Whitbread Sports Ground)",30988121,""],["25/10","10:00","Walthamstow","Ilford","Wadham Lodge Sports Ground (Match Day Centres)",30988120,""]]},{"name":"U16 Red","teams":[["Harlow Town",3,3,0,0,9,2,9],["Witham Town",3,2,1,0,6,2,7],["Stanway Rovers",2,2,0,0,7,0,6],["Rayleigh Town",3,2,0,1,3,2,6],["Chelmsford City",3,1,2,0,8,3,5],["Stansted",3,1,0,2,4,5,3],["Sudbury Sports",2,0,1,1,0,1,1],["Hornchurch",2,0,0,2,1,8,0],["Takeley",2,0,0,2,2,12,0],["Springfield",3,0,0,3,0,5,0]],"results":[["27/09","Harlow Town","Springfield",1,0,"HT 0-0",null,[]],["27/09","Chelmsford City","Sudbury Sports",0,0,"HT 0-0",null,[]],["27/09","Hornchurch","Rayleigh Town",1,2,"",null,[]],["27/09","Stansted","Witham Town",0,3,"HT 0-1",null,[]],["20/09","Witham Town","Sudbury Sports",1,0,"HT 0-0",null,[]],["20/09","Stansted","Harlow Town",1,2,"HT 0-2",null,[]],["20/09","Takeley","Chelmsford City",1,6,"HT 1-2",null,[[17,"A","G"],[23,"A","G"],[49,"A","G"],[67,"A","P"],[72,"A","G"],[80,"A","G"]]],["20/09","Hornchurch","Stanway Rovers",0,6,"",null,[]],["20/09","Springfield","Rayleigh Town",0,1,"HT 0-1",null,[]],["06/09","Chelmsford City","Witham Town",2,2,"HT 2-0",null,[[17,"H","G"],[33,"H","G"],[69,"A","G"],[80,"A","G"]]],["06/09","Springfield","Stansted",0,3,"HT 0-1",null,[]],["06/09","Stanway Rovers","Rayleigh Town",1,0,"",null,[]],["06/09","Takeley","Harlow Town",1,6,"HT 1-2",null,[]]],"fixtures":[["06/09",null,"Sudbury Sports","Hornchurch",null,30503773,"Postponed"],["27/09",null,"Stanway Rovers","Takeley",null,30811424,"Postponed"],["04/10","12:00","Hornchurch","Takeley",null,30863873,""],["04/10","13:30","Stansted","Chelmsford City","White Roding Sports and Social Club",30863875,""],["04/10","14:00","Springfield","Stanway Rovers","Springfield Hall Park",30863874,""],["04/10","14:00","Sudbury Sports","Rayleigh Town","The Elite Travel Stadium",30863876,""],["04/10","14:00","Witham Town","Harlow Town",null,30863877,""],["11/10",null,"Springfield","Hornchurch","Springfield Hall Park",30896902,""],["11/10",null,"Sudbury Sports","Takeley","The Elite Travel Stadium",30896903,""],["11/10",null,"Witham Town","Stansted",null,30896904,""],["11/10","10:00","Harlow Town","Stanway Rovers","Harlow Town Football Club",30896901,""],["11/10","12:00","Chelmsford City","Rayleigh Town","Melbourne Park",30896900,""],["25/10",null,"Rayleigh Town","Harlow Town","Rayleigh Town Sports and Social Club",30988164,""],["25/10",null,"Stansted","Takeley",null,30988165,""],["25/10",null,"Sudbury Sports","Stanway Rovers","Earls Colne Recreation Club",30988166,""],["25/10",null,"Witham Town","Springfield",null,30988167,""]]},{"name":"U16 Yellow","teams":[["Brentwood Town",3,3,0,0,15,7,9],["Aveley",3,2,1,0,7,3,7],["Heybridge Swifts",3,2,1,0,9,6,7],["Hashtag United",3,2,0,1,8,6,6],["Bowers & Pitsea",3,1,1,1,9,6,4],["Concord Rangers",3,1,1,1,9,6,4],["Billericay Town",3,1,0,2,6,11,3],["Grays Athletic",3,1,0,2,9,8,3],["Benfleet",3,0,0,3,3,17,0],["Canvey Island",3,0,0,3,5,10,0]],"results":[["27/09","Grays Athletic","Aveley",1,2,"HT 1-0",null,[[24,"H","G"]]],["27/09","Concord Rangers","Hashtag United",2,4,"",null,[[52,"A","G"],[67,"A","G"],[71,"A","G"]]],["27/09","Heybridge Swifts","Canvey Island",3,1,"HT 1-1",null,[]],["27/09","Billericay Town","Bowers & Pitsea",1,5,"HT 0-1",null,[[45,"H","G"]]],["27/09","Brentwood Town","Benfleet",7,1,"HT 3-1",null,[[31,"A","G"]]],["20/09","Concord Rangers","Benfleet",6,1,"HT 1-1",null,[[5,"A","G"]]],["20/09","Hashtag United","Aveley",0,3,"",null,[]],["20/09","Brentwood Town","Bowers & Pitsea",4,3,"HT 2-2",null,[]],["20/09","Billericay Town","Canvey Island",3,1,"HT 2-0",null,[[5,"H","G"],[20,"H","G"],[58,"A","G"],[59,"H","G"]]],["20/09","Heybridge Swifts","Grays Athletic",4,3,"HT 2-2",null,[]],["06/09","Concord Rangers","Bowers & Pitsea",1,1,"HT 0-0",null,[]],["06/09","Hashtag United","Benfleet",4,1,"HT 2-1",null,[[1,"A","G"],[22,"H","G"],[32,"H","G"],[59,"H","G"],[72,"H","G"]]],["06/09","Aveley","Heybridge Swifts",2,2,"HT 1-2",null,[[20,"A","G"],[35,"A","G"]]],["06/09","Billericay Town","Grays Athletic",2,5,"HT 2-1",null,[[15,"A","G"],[31,"H","G"],[37,"H","G"],[48,"A","G"],[61,"A","G"],[69,"A","G"],[78,"A","P"]]],["06/09","Brentwood Town","Canvey Island",4,3,"HT 1-2",null,[[29,"A","G"],[39,"A","G"],[44,"A","G"]]]],"fixtures":[["04/10","10:00","Billericay Town","Concord Rangers","Billericay Town FC (New Lodge)",30863878,""],["04/10","10:00","Brentwood Town","Aveley","Brentwood Town FC",30863879,""],["04/10","10:00","Hashtag United","Heybridge Swifts","Barleylands Farm (Site 2)",30863882,""],["04/10","12:00","Benfleet","Grays Athletic","Woodside Stadium",30863881,""],["04/10","12:30","Canvey Island","Bowers & Pitsea",null,30863880,""],["11/10",null,"Hashtag United","Grays Athletic","Barleylands Farm (Site 2)",30896908,""],["11/10","10:00","Benfleet","Canvey Island","Woodside Stadium",30896907,""],["11/10","10:00","Heybridge Swifts","Brentwood Town","Heybridge Swifts Football Club",30896909,""],["11/10","12:00","Bowers & Pitsea","Aveley","Len Salmon Stadium (Bowers and Pitsea FC)",30896906,""],["25/10",null,"Billericay Town","Aveley","Billericay Town FC (New Lodge)",30988193,""],["25/10",null,"Concord Rangers","Brentwood Town",null,30988194,""],["25/10",null,"Grays Athletic","Hashtag United",null,30988195,""],["25/10",null,"Heybridge Swifts","Bowers & Pitsea","Heybridge Swifts Football Club",30988196,""]]}],"cups":[{"name":"League Cup","results":[["27/09","Wingate & Finchley","Potters Bar Town",0,6,"HT 0-4"],["20/09","AFC Sudbury","Bedford Town",1,4,""],["20/09","Soham Town Rangers","Woodford Town",4,1,"HT 3-0"],["20/09","Ilford","Cockfosters",2,4,""],["20/09","London Lions","Barking",6,0,""],["20/09","Ryan","Cambridge City",2,6,""],["20/09","Newmarket Town","Netherton United",4,3,""],["13/09","Concord Rangers","Walthamstow",9,1,""],["13/09","Potters Bar Town","Stansted",3,1,"HT 1-1"],["13/09","CSM London","Hornchurch",3,0,"HT 2-0"],["13/09","Godmanchester Rovers","Felixstowe & Walton United",15,1,"HT 8-1"],["13/09","Hertford Town","Ware",2,1,"HT 1-1"],["13/09","Witham Town","LGCE",1,3,"HT 0-2"],["13/09","Wormley Rovers","Bedford Town",0,4,""],["13/09","Bury Town","Grays Athletic",1,2,"HT 0-1"],["13/09","Real Bedford","Eynesbury Rovers",8,2,""],["13/09","Springfield","Redbridge",0,2,"HT 0-1"],["13/09","Bowers & Pitsea","Stanway Rovers",4,1,""],["13/09","Harlow Town","Downham Town",null,null,""],["13/09","Aylsham","Leighton Town",3,2,""],["13/09","Benfleet","Cockfosters",1,3,""],["13/09","Cambridge City","Needham Market",4,1,""],["13/09","Hackney Wick","St Ives Town",4,1,""],["13/09","Hashtag United","Colney Heath",2,3,"AET"],["13/09","Mulbarton Wanderers","Chelmsford City",3,0,"HT 2-0"],["13/09","Frenford","St Neots Town",3,0,""],["13/09","Norsemen","Wroxham",1,2,"AET"],["13/09","Edgware & Kingsbury","Wingate & Finchley",0,3,""],["13/09","Fakenham Town","Rayleigh Town",4,1,""],["13/09","Sudbury Sports","Leiston",3,2,"AET"],["13/09","Histon","Canvey Island",5,0,""],["13/09","Mildenhall Town","May & Baker Eastbrook",2,1,""],["13/09","Billericay Town","Buckhurst Hill",2,1,"HT 2-1"],["13/09","Cheshunt","St Margaretsbury",7,0,""],["13/09","Heybridge Swifts","Takeley",2,0,""],["13/09","Ryan","Broadfields United",3,3,"Pens 4-2, HT 2-2"],["13/09","Baldock Town","Aveley",null,null,""],["13/09","Saffron Walden","Brentwood Town",null,null,""]],"fixtures":[["18/10",null,"Bedford Town","Potters Bar Town","Bedford Town Football Club (The Eyrie)",30967138,""],["18/10",null,"Cheshunt","Grays Athletic","Cheshunt FC (The Stadium)",30895132,""],["18/10",null,"Colney Heath","Heybridge Swifts","Colney Heath Recreation Ground",30895035,""],["18/10",null,"Mildenhall Town","CSM London","Mildenhall Hub",30892992,""],["18/10",null,"Sudbury Sports","Aveley","The Elite Travel Stadium",30893565,""],["18/10","10:00","Godmanchester Rovers","LGCE","Godmanchester Rovers FC",30903433,""],["18/10","12:00","Bowers & Pitsea","Soham Town Rangers","Len Salmon Stadium (Bowers and Pitsea FC)",30933080,""],["25/10",null,"Aylsham","Concord Rangers","Youngs Park",30895287,""],["25/10",null,"Billericay Town","Newmarket Town","Billericay Town FC (New Lodge)",30930674,""],["25/10",null,"Cockfosters","Cambridge City","Winchmore Hill Sports Club",30932266,""],["25/10",null,"Hackney Wick","Frenford","Mabley Green",30892990,""],["25/10",null,"Redbridge","London Lions","The TechSoc.com Stadium",30931186,""],["25/10",null,"Wroxham","Brentwood Town",null,30893250,""],["25/10","10:00","Harlow Town","Real Bedford","Harlow Town Football Club",30893547,""],["25/10","12:00","Mulbarton Wanderers","Histon","The FDC",30892794,""],["25/10","13:30","Hertford Town","Fakenham Town","Hertingfordbury Park",30894764,""]]},{"name":"RT Litho Cup","results":[["01/10","Colney Heath","London Lions",2,2,"Pens 4-5"],["01/10","Stansted","Takeley",0,2,"HT 0-0"],["30/09","Redbridge","Ilford",5,0,"HT 1-0"],["30/09","Heybridge Swifts","Witham Town",1,1,"Pens 3-0, HT 1-1"],["30/09","Canvey Island","Concord Rangers",2,4,"HT 1-2"],["30/09","Redbridge","Woodford Town",null,null,""],["29/09","Chelmsford City","Brentwood Town",2,0,"HT 0-0"],["29/09","Felixstowe & Walton United","Stanway Rovers",1,2,"HT 1-0"],["28/09","Cockfosters","Ware",2,3,""],["28/09","May & Baker Eastbrook","Hornchurch",2,0,""],["25/09","Real Bedford","Leighton Town",1,2,""],["23/09","Aveley","Grays Athletic",2,1,"HT 0-1"],["23/09","Cheshunt","Wormley Rovers",3,1,"HT 1-0"],["23/09","Aveley","Benfleet",4,1,"HT 2-0"],["23/09","Fakenham Town","Wroxham",5,0,""],["23/09","Mildenhall Town","Soham Town Rangers",5,1,""],["21/09","St Neots Town","Histon",2,4,""],["18/09","Bowers & Pitsea","Grays Athletic",2,2,"Pens 4-5, HT 0-1"],["16/09","Billericay Town","Rayleigh Town",2,2,"Pens 1-3, HT 0-2"],["16/09","Cambridge City","Newmarket Town",0,0,"Pens 3-2"],["15/09","Potters Bar Town","St Margaretsbury",3,2,"HT 2-0"]],"fixtures":[["30/09",null,"AFC Sudbury","Godmanchester Rovers","The Elite Travel Stadium",30629787,""],["20/10","19:45","Histon","Cambridge City","Camtech and Caprice Stadium",30942086,""],["31/10",null,"Aveley","Concord Rangers","Parkside (Aveley Football Club)",30987234,""],["31/10",null,"Fakenham Town","Mildenhall Town","Daly Group Stadium (Fakenham Town FC)",30955140,""],["31/10",null,"Leighton Town","Baldock Town",null,30960991,""],["31/10",null,"Redbridge","May & Baker Eastbrook","The TechSoc.com Stadium",30986828,""],["31/10",null,"Stanway Rovers","Heybridge Swifts","Stanway School",30986746,""],["31/10",null,"Takeley","Harlow Town","Mark Hall Sports Centre",30992931,""],["31/10",null,"Ware","Potters Bar Town","Ware Football Club",30977621,""]]},{"name":"County Cups","county":true,"results":[["04/10","Finedon Volta","Netherton United",null,null,"","U16 Youth Cup"],["13/09","Kettering Weekley Rovers","Netherton United",0,7,"","U16 Youth Cup"],["20/09","Hertford Town","St Albans City",2,2,"Pens 4-2, HT 1-1","Hertfordshire FA U16 Boys Challenge Cup"],["20/09","Colney Heath","Oxhey Jets",2,0,"HT 1-0","Hertfordshire FA U16 Boys Challenge Cup"],["20/09","FC Comets Hitchin","Potters Bar Town",null,null,"","Hertfordshire FA U16 Boys Challenge Cup"],["20/09","LGCE","Cheshunt",2,4,"","Hertfordshire FA U16 Boys Challenge Cup"],["27/09","Broadfields United","Pinnstars",null,null,"","Middlesex FA Under-16 Cup"],["27/09","Winchmore Hill","Norsemen",null,null,"","Middlesex FA Under-16 Cup"]],"fixtures":[["18/10","14:30","Caister","Aylsham","Caister Infant Nursery School and Children's Centre",30936181,"","John Savage Cup"],["18/10","14:30","Fakenham Town","Poringland Wanderers","Daly Group Stadium (Fakenham Town FC)",30936194,"","John Savage Cup"],["18/10","14:30","Wroxham","Great Yarmouth Town","Open Academy",30936189,"","John Savage Cup"],["18/10","14:30","Wymondham Town United","Mulbarton Wanderers","Ketts Park Community Recreation Centre",30936193,"","John Savage Cup"],["04/10","10:30","Orton Rangers","Godmanchester Rovers",null,30711793,"","County Youth U16 Cup"],["04/10","12:00","Park Farm Pumas","Eynesbury Rovers",null,30711790,"","County Youth U16 Cup"],["18/10","14:00","Leighton Park Rangers","Real Bedford",null,30919206,"","Under 16 Youth Challenge Cup"],["29/11","10:30","Ashwell Academicals","Potters Bar Town",null,30933149,"","Hertfordshire FA U16 Boys Challenge Cup"],["29/11","10:30","Baldock Town","Ware",null,30182827,"","Hertfordshire FA U16 Boys Challenge Cup"],["29/11","10:30","Colney Heath","Cheshunt",null,30932313,"","Hertfordshire FA U16 Boys Challenge Cup"],["29/11","10:30","St Margaretsbury","Hertford Town",null,30934288,"","Hertfordshire FA U16 Boys Challenge Cup"],["27/09","10:30","Enfield","Edgware & Kingsbury",null,30830292,"","Middlesex FA Under-16 Cup"],["11/10","10:30","Wealdstone","Norsemen",null,30953634,"","Middlesex FA Under-16 Cup"],["18/10","14:00","Cockfosters","Billericay Town",null,30530092,"","London Under 16 Boys Sunday Cup"],["18/10","14:00","Wingate & Finchley","Limitless Football Club",null,30530288,"","London Under 16 Boys Sunday Cup"],["18/10","14:00","East London Soccer School","Walthamstow",null,30530161,"","London Under 16 Boys Sunday Cup"],["18/10","14:00","Hackney Wick","Redbridge",null,30530101,"","London Under 16 Boys Sunday Cup"],["18/10","14:00","Whitestar","Woodford Town","Pymmes Park",30397254,"","London Under 16 Boys Sunday Cup"],["29/11",null,"Chelmsford City","Frenford","Melbourne Park",30618184,"","Essex Cassels U16 Cup"],["29/11",null,"Woodford Town","Stanway Rovers",null,30618182,"","Essex Cassels U16 Cup"],["29/11",null,"Canvey Island","Hornchurch",null,30618181,"","Essex Cassels U16 Cup"],["29/11",null,"Saffron Walden","Takeley","Saffron Walden County High Sports Centre",30618183,"","Essex Cassels U16 Cup"],["29/11",null,"Harold Wood Cougars","Heybridge Swifts","Harold Wood Park",30799560,"","Essex Cassels U16 Cup"]]}]};
+DATA.updated = 'Sunday 27 September 2026';
+DATA.fetched = 'Saturday 3 October';
+
+const FT = 'https://fulltime.thefa.com/displayFixture.html?id=';
+// Directions: Google Maps (opens the app where installed) plus Waze. Full-Time only gives the pitch name, so add the county to help the search.
+// Corrections where Full-Time's venue name or address sends people to the wrong place.
+const VENUES = {"Barleylands Farm (Site 2)":{"name":"Forest Glade Sports Club","q":"Forest Glade Sports Ground, Barleylands Road, Billericay CM11 2UD"}};
+const venueName = v => (VENUES[v] && VENUES[v].name) || v;
+function mapLinks(venue) {
+  const t = venueLink(venue);
+  const g = t.ll ? `https://www.google.com/maps/dir/?api=1&destination=${t.ll}` : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(t.q)}`;
+  const w = t.ll ? `https://waze.com/ul?ll=${t.ll}&navigate=yes` : `https://waze.com/ul?q=${encodeURIComponent(t.q)}&navigate=yes`;
+  return `<span class="maps"><a href="${g}" target="_blank" rel="noopener">Directions</a><a href="${w}" target="_blank" rel="noopener">Waze</a></span>`;
+}
+const BADGES = ['#C9D6E3','#E8C9A6','#BFD9C2','#D9C2DE','#E6D79A','#A9CFE0','#E3B7B0','#C8C8A0'];
+const DOTS = { Black:'#E8F1FF', Blue:'#2EC5FF', Brown:'#FF9F43', Green:'#39FF88', Purple:'#C77DFF', Red:'#FF3B5C', Yellow:'#FFE600' };
+const CUP_ACCENT = '#C9F24A';
+// ---- match day, opponent preview, postponements, row details, share images, venue pins ----
+const pad2 = n => String(n).padStart(2, '0');
+const ddmm = d => pad2(d.getDate()) + '/' + pad2(d.getMonth() + 1);
+const VINFO = DATA.venues || {};
+function venueLink(venue) {
+  const fix = VENUES[venue], info = VINFO[venue] || {};
+  if (fix) return { q: fix.q };
+  if (info.ll) return { ll: info.ll };
+  if (info.a) return { q: info.a };
+  return { q: venue + ', Essex, UK' };
+}
+function parkingFor(venue) { return VENUES[venue] ? '' : ((VINFO[venue] || {}).p || ''); }
+function renderToday() {
+  const sec = document.getElementById('today-sec');
+  if (typeof view === 'string') { sec.hidden = true; return; }
+  const d = DATA.divisions[view], key = ddmm(new Date());
+  const res = d.results.filter(r => r[0] === key);
+  const fx = d.fixtures.filter(f => f[0] === key);
+  if (!res.length && !fx.length) { sec.hidden = true; return; }
+  sec.hidden = false;
+  const now = new Date(), mins = s => { const [h, m] = s.split(':').map(Number); return h * 60 + m; };
+  const nowM = now.getHours() * 60 + now.getMinutes();
+  const items = res.map(r => ({ h: r[1], a: r[2], hs: r[3], as: r[4], ko: null, st: '' }))
+    .concat(fx.map(f => ({ h: f[2], a: f[3], hs: null, as: null, ko: f[1], st: f[6] })))
+    .sort((x, y) => (x.hs === null) - (y.hs === null) || (x.ko || '99').localeCompare(y.ko || '99'));
+  document.getElementById('today-note').textContent = `Scores from FA Full-Time · last checked ${DATA.fetched}`;
+  document.getElementById('today').innerHTML = items.map(g => {
+    const m = g.h === mine || g.a === mine;
+    let sc, st;
+    if (g.hs !== null) { sc = `${g.hs}–${g.as}`; st = '<span class="st ft">Full time</span>'; }
+    else if (g.st) { sc = '<span class="sc ko">–</span>'; st = `<span class="st"><span class="badge-pp">${esc(g.st)}</span></span>`; }
+    else if (g.ko && nowM >= mins(g.ko) + 100) { sc = '<span class="sc ko">?</span>'; st = '<span class="st live">Result due</span>'; }
+    else if (g.ko && nowM >= mins(g.ko)) { sc = '<span class="sc ko">v</span>'; st = '<span class="st live">Playing now</span>'; }
+    else { sc = `<span class="sc ko">${g.ko ? esc(g.ko) : 'TBC'}</span>`; st = '<span class="st">Kick-off</span>'; }
+    if (!sc.startsWith('<span')) sc = `<span class="sc">${sc}</span>`;
+    return `<div class="trow ${m ? 'mine' : ''}"><span class="h">${esc(g.h)}</span>${sc}<span class="a">${esc(g.a)}</span>${st}</div>`;
+  }).join('');
+}
+function oppPreview(opp) {
+  const bits = [];
+  const di = teamDiv[opp];
+  if (di !== undefined) {
+    const d = DATA.divisions[di], ti = d.teams.findIndex(t => t[0] === opp), t = d.teams[ti];
+    const fm = (formMap(d)[opp] || []).slice(-5).map(x => `<i class="${x}">${x}</i>`).join('');
+    bits.push(`<div><span class="who">${esc(opp)}</span> · ${ordinal(ti + 1)} in ${esc(d.name)} · ${t[7]} pts${fm ? ` · <span class="form">${fm}</span>` : ''}</div>`);
+    const s = teamSummary(opp), last = s.g[s.g.length - 1];
+    if (last) bits.push(`<div>Last game: ${last.res === 'W' ? 'beat' : last.res === 'L' ? 'lost to' : 'drew with'} ${esc(last.opp)} ${Math.max(last.gf, last.ga)}–${Math.min(last.gf, last.ga)}</div>`);
+  }
+  const prev = teamSummary(mine).g.filter(x => x.opp === opp).pop();
+  if (prev) bits.push(`<div>Last time you met: ${prev.home ? SCORE(mine, opp, prev.gf, prev.ga) : SCORE(opp, mine, prev.ga, prev.gf)}, ${dayLabel(prev.date)}</div>`);
+  return bits.length ? `<div class="opp"><div class="eyebrow">Opponent</div>${bits.join('')}</div>` : '';
+}
+function postponedFor(name) {
+  const out = [];
+  DATA.divisions.forEach(d => d.fixtures.forEach(f => { if (f[6] && (f[2] === name || f[3] === name) && toDate(f[0]) >= today) out.push(f); }));
+  DATA.cups.forEach(c => c.fixtures.forEach(f => { if (f[6] && (f[2] === name || f[3] === name) && toDate(f[0]) >= today) out.push(f); }));
+  return out.sort((a, b) => toDate(a[0]) - toDate(b[0]));
+}
+document.addEventListener('click', e => {
+  const tr = e.target.closest('tr[data-row]');
+  if (!tr || e.target.closest('.teambtn') || window.matchMedia('(min-width:641px)').matches) return;
+  const det = tr.nextElementSibling;
+  if (det && det.classList.contains('detail')) det.hidden = !det.hidden;
+});
+
+// Share images (Web Share on phones, download elsewhere)
+const MARK = new Path2D('M12 6H36L90 80H12Z M24 18H29.9L66.4 68H24Z'), BAR = new Path2D('M12 86H90V98H12Z');
+function fitText(ctx, t, max, size, weight, family) {
+  let s = size; do { ctx.font = `${weight} ${s}px ${family}`; s -= 2; } while (ctx.measureText(t).width > max && s > 18);
+  return t;
+}
+async function drawCard(kind) {
+  const W = 1080, H = 1350, c = document.createElement('canvas'); c.width = W; c.height = H;
+  const x = c.getContext('2d');
+  try { await Promise.all([document.fonts.load('800 80px "Barlow Condensed"'), document.fonts.load('600 40px "IBM Plex Sans"')]); } catch (e) {}
+  const D = "'Barlow Condensed', 'Arial Narrow', sans-serif", B = "'IBM Plex Sans', system-ui, sans-serif";
+  const acc = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#C9F24A';
+  x.fillStyle = '#0E1217'; x.fillRect(0, 0, W, H);
+  x.save(); x.translate(72, 64); x.scale(0.62, 0.62); x.fillStyle = '#FFFFFF'; x.fill(MARK, 'evenodd'); x.fillStyle = '#C9F24A'; x.fill(BAR); x.restore();
+  x.fillStyle = '#FFFFFF'; x.font = `800 52px ${D}`; x.textBaseline = 'alphabetic'; x.fillText('TOUCHLINE', 140, 110);
+  const tw = x.measureText('TOUCHLINE').width; x.fillStyle = '#9AA4B0'; x.fillRect(140 + tw + 16, 66, 3, 48); x.font = `600 46px ${D}`; x.fillText('EJA', 140 + tw + 34, 110);
+  const d = DATA.divisions[view];
+  let title, sub, rows = [];
+  if (kind === 'table') {
+    title = d.name.toUpperCase(); sub = 'League table · ' + (DATA.updated || '');
+    const { rows: r } = buildTable(view);
+    rows = r.slice(0, 12).map(t => ({ l: `${t.pos}`, n: t.name, m: `${t.p}`, g: gdTxt(t.gd), r: `${t.pts}`, me: t.name === mine }));
+  } else {
+    const key = kind === 'today' ? ddmm(new Date()) : null;
+    const scored = d.results.filter(r => r[3] !== null && (!key || r[0] === key));
+    const date = key || (groupByDate(scored, false)[0] || [])[0];
+    title = d.name.toUpperCase(); sub = (kind === 'today' ? 'Today · ' : 'Results · ') + (date ? dayLabel(date) : '');
+    rows = scored.filter(r => r[0] === date).map(r => ({ h: r[1], s: `${r[3]}–${r[4]}`, a: r[2], me: r[1] === mine || r[2] === mine }));
+    if (kind === 'today') d.fixtures.filter(f => f[0] === date).forEach(f => rows.push({ h: f[2], s: f[6] ? 'P–P' : (f[1] || 'TBC'), a: f[3], me: f[2] === mine || f[3] === mine, ko: true }));
+  }
+  x.fillStyle = acc; x.font = `800 112px ${D}`; x.fillText(title, 72, 270);
+  x.fillStyle = '#C3CAD3'; x.font = `500 34px ${B}`; x.fillText(sub, 72, 326);
+  const top = kind === 'table' ? 450 : 420, rh = kind === 'table' ? 70 : 88;
+  rows.slice(0, kind === 'table' ? 12 : 10).forEach((r, i) => {
+    const y = top + i * rh;
+    if (r.me) { x.fillStyle = 'rgba(201,242,74,0.14)'; x.fillRect(48, y - rh + 22, W - 96, rh - 6); x.fillStyle = acc; x.fillRect(48, y - rh + 22, 8, rh - 6); }
+    x.fillStyle = '#ECEFF3';
+    if (kind === 'table') {
+      x.font = `700 38px ${B}`; x.fillText(r.l, 80, y); fitText(x, r.n, 560, 38, r.me ? 700 : 500, B); x.fillText(r.n, 150, y);
+      x.font = `500 36px ${B}`; x.fillStyle = '#9AA4B0'; x.textAlign = 'right'; x.fillText(r.m, 790, y); x.fillText(r.g, 900, y);
+      x.fillStyle = '#ECEFF3'; x.font = `800 48px ${D}`; x.fillText(r.r, 1010, y); x.textAlign = 'left';
+    } else {
+      x.textAlign = 'right'; fitText(x, r.h, 380, 36, r.me ? 700 : 500, B); x.fillText(r.h, 440, y);
+      x.textAlign = 'center'; x.font = `800 ${r.ko ? 40 : 56}px ${D}`; x.fillStyle = r.ko ? '#9AA4B0' : '#FFFFFF'; x.fillText(r.s, 540, y + 4);
+      x.textAlign = 'left'; x.fillStyle = '#ECEFF3'; fitText(x, r.a, 380, 36, r.me ? 700 : 500, B); x.fillText(r.a, 640, y);
+    }
+  });
+  if (kind === 'table') { x.fillStyle = '#9AA4B0'; x.font = `600 26px ${B}`; x.textAlign = 'right'; x.fillText('P', 790, top - 70); x.fillText('GD', 900, top - 70); x.fillText('PTS', 1010, top - 70); x.textAlign = 'left'; }
+  x.fillStyle = '#222A33'; x.fillRect(72, H - 150, W - 144, 2);
+  x.fillStyle = acc; x.font = `700 34px ${B}`; x.fillText(SITE, 72, H - 92);
+  x.fillStyle = '#9AA4B0'; x.font = `500 26px ${B}`; x.fillText('From FA Full-Time · ' + (DATA.fetched || ''), 72, H - 50);
+  return c;
+}
+const SITE = 'osbornmatthew-lgtm.github.io/Touchline';
+// Sharing needs the public site (the Claude preview blocks it), so hide the buttons elsewhere.
+if (location.hostname !== SITE.split('/')[0]) document.documentElement.classList.add('noshare');
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-share]'); if (!b) return;
+  const kind = b.dataset.share; b.disabled = true;
+  try {
+    const c = await drawCard(kind);
+    const blob = await new Promise(r => c.toBlob(r, 'image/png'));
+    const file = new File([blob], `touchline-${kind}.png`, { type: 'image/png' });
+    track('share/' + kind);
+    if (navigator.canShare && navigator.canShare({ files: [file] })) { try { await navigator.share({ files: [file], text: 'https://' + SITE + '/' }); } catch (err) {} }
+    else { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = file.name; document.body.appendChild(a); a.click(); a.remove(); }
+  } finally { b.disabled = false; }
+});
+
+// Calendar feeds are built for every team by build.py and served from the public site.
+const slug = n => n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+function calHtml(name) {
+  const feed = `webcal://${SITE}/cal/${slug(name)}.ics`;
+  return `<div class="calrow"><a class="calbtn" href="${feed}" data-track="calendar">Add to iPhone / Outlook</a><a class="calbtn" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(feed)}" target="_blank" rel="noopener" data-track="calendar-google">Add to Google Calendar</a></div><p class="fine">Puts ${esc(name)}'s fixtures in your calendar. New and moved games update on their own.</p>`;
+}
+// Usage counts (GoatCounter, cookie-free). Only does anything on the public site once the counter script is loaded.
+function track(path, title) { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: 'eja/' + path, title: title || path, event: true }); } catch (e) {} }
+document.addEventListener('click', e => { const a = e.target.closest('[data-track]'); if (a) track(a.dataset.track); });
+function offlineNote() {
+  let el = document.getElementById('offline');
+  if (navigator.onLine) { if (el) el.remove(); return; }
+  if (!el) { el = document.createElement('div'); el.id = 'offline'; el.className = 'offline'; document.body.prepend(el); }
+  el.textContent = `No signal: showing data from ${DATA.fetched}`;
+}
+addEventListener('online', offlineNote); addEventListener('offline', offlineNote);
+
+// Team partners. Key is the club name as it appears in the table; value is one partner or a list. logo is a data: URI or https URL; url is optional.
+const SPONSORS = {"Hashtag United":[{"name":"Xe","logo":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANEAAACoCAYAAAB+FwvmAAAnXUlEQVR42u2deXhV1dX/P2ufc24SBsHZYlFpwSpzchOkVolardrJDmL91draqliHasEJsaXOYx2KrVO1+lbtq7b1rW1VpDigFCnkJuBAnXHEeYJAuPcM6/fHCSRglJtzz0lukvN9njzwR87JPnuv717DXnstIUXPRVadqoCtXcNQUXYUYZjCUGAIynYqbA4MFOiHUgk4CHa7NxRaf9YqrAZWivKeCisEVii8bGC5wiuuw+sslPfTSf84JJ2CHoKRmqmoYqgGjAwM44AxKCNE2B4YjJDp8DktURLC51crvCfKqyo8g/I4hiUVFk+v/o+8lZIoRXlislqZ5QxXZaLCJKBO4HMI/devmnaSKHFISvu/rbwDPAMsFOGRgk+OJlmRkihFd2qbAXY/shJwIMI+wCgM/doJbXlKj6wf27sojQpzJOBf7mYsY554KYlSJIt6rbSamWjgYIWvCIzAlClpipGmdRIVkEdZKsLfVbjbbZAnUxKliBWZat0Vw8EBTBYY02OJUwypAlqAx4A/uT5/Z4m8k5IoRTQM14rMIL4cwJEC+2Po3+uI80kwra5UwOui3IVws5uTxpREKYrDBN3M8fgewhSE2tbduftWULtZ4qTV3IP7AuF3fgMPggQpiVJ8HGN0c7uCH6EcI4ZdImkd6WClwvcEQAvQotC87v8C7kYUtRUyKJUi9Af6o1QhVG7gw3RH8MIAAYowL4Cr/GHczZ/FT0mUAnbXgXaBw1F+LoYRnRLO9oIdPveRwmsCL6I8p8JyI7wcKG9Zwrv5As1UspYqCsyj0OGOXq82eRxaqMCmKgODAtjKwHaBMEyUYSjDVRgmMASh30ZjSJ5M4d94KFAu8nMyJyVRn4Uap5ZDVDlDDGOLEsANI1quwovAEmCRKksc4fm1W/MWsyWf+PDHav9MFUMosAtCdSDUoYwTYeg6nyZRUrVqJhXuBi7wGmRxSqI+BDuruwmcjbD/Jv2OdcRRIOBNhAUKc8VigevzHDlZUzYfNk4H2zajUCZJeHZVi2FwooQKNdMaAm50hQvJyRspiXoz6nRLJ+AM4DgMVZ8YMGhHHIVXUB4wcLfj8tjqx+XtnvK5ldW6o2+oVzhIoB7Dlq1aNBEyqfKy+JztNnEziKYk6mWwsnqQwMVi+MImyeOzUg1zDNxesHmoNyRzVk3Qz3oeByJ8D9gDQ0Xs2qlVQlX5h/GZXlgiy1IS9QZkdSsHzkc4CjAdCk3b4v8X4VbL5858kzzfW6fEqdVqlB8qTBbD9rGTKTTx3tWAX3mNXFNOWiklUee1z94CV4lhVIfax6w3bR4FrnFb+AfLpLnPTNBuuq3tMRn4qQijNukfRtFK8BfHMLVlkbyWkqgnYbJa9nJOE2UmQuXHBKMtTDvH+FyRb2JOTz5ALBljtb+T4dsoJyLUxUomAxrwoirH+Y1yf0qiHoB+dbpdIeB3YvjOx7RP23nKPBNwUb6J+8vVAe4WDNcKZzDfV+UUMYyMzcwL5z2vAed4jVwM3XdIm5JoE7BrtQ7lpo+Zb60BAw14SuACdwB39oW0/8iYoJvZPkeLcDLCZ2KJ5rWtwe2ew/HdFaxJSfQpyGT1YIVrEbbcYPcMTbePVLnM87iKpfJhOlvFobJad/QMZ4pwBIITC5nC9VgkwuGFxfJsSqJy0UBZnSbCRYCznkBtyZP3AGe4OXkinamIAZoa3ccIl2DIxkakgJcVfuDlZH5Kom4OIDgvcD6G0z+mfQLeAs50c9zUp4MGcWGkDnCqOBU4FaGqZF8pPMz+UOCIQk7uTknUPYuasav4rRiOXr87tmmf+0SYWmiQZ9KJit3vrEeZJYaxJWulUKLXAse7DfKHlERdiaz2s4VrRPjhBgSCvCjnFuAScuKmE5UQJuoWtsvFEh5glxbBCzWSh3C82yDXpyTqCtRrpb2KW8Xiu+sJFDqrLxnlmHwPS83vyXDq9GgCfo2wWclEAl8DTvQa5eqURMlqIMdWbhCrnQYKCfSwMfwkv0iWp6Ld5ebd7ih/+NScxM5oJOU4t1F+n5IoKRMOrhebw9ovlio3ehmmskBWpSLdTajVoY5yM4Z9YiESHOnm5I8piWJG/91027zHLMBG0dYgwnyvgd+kWQdlgJE6wK7iGjH8oGQiwZrA51C/Sf6RkihF38JktZzlXIowNQaN9L4GfN1rksdSEqXoe35SVs8U4bxSgw2qLLeEffMN8mJcYzPp8qToCfBycr4EzChp21cQw7BAuY2sDkpJlKLPodAoF4pyRklECgDDRFu5CtSkJErR94iUk4tU+WWpRBKLw+0sP099ohR9Fk6NXo5VYrABWlQ40GuQeakmStHn4H6eUzXg1pIkOEx6vZ6xuk1KohR9D38W32vhWHwejizFYaBhZ9vh8pREKfomlkmzbXO4Bjwf2TEJQITDnFo9PPWJUvRZ2LW6uyizEQZGOkcKD2Lfcj0mslReSjVRij4Hr0EWoJwS+QUKGLa1bS4GlSgcTNHjoMIEBla6bO4rg9VigKUMUKUCsAFXDHlfaBZYadt80OLyQVnV+E5CI2X1D2L4ceSInaACkwsN8tfOkyirTqJf152X2SarxZ8TKbve2qor6URVlcpqdggMo4HxAYwU+LwqQwQGAf0Q7A63w3BkLtCsygcivKrwHMISlCWe4WkWy3u9hkXhxb5HRVpLc0VYUVWe8xwmdqZykNi1egrKYYmZdoKqz9/8JjmrSye0XivtZq4RYTRJVUMweOpzutckj8QsDFV2gVo17G+UvYFRCIM26BlEB/8vxt5oa+OCwusCTSrMNj4PFprkv73AP6oX5X6gIuKagscFbpOcWbSIO1k9H8OMRBs5KX4A+/k5eagLVfs0MVyW2He1CmPgcaDfJLPjeKVTrWMxHNracWFXDLJ+/Enp0nWk8mlBeAzhDlf4O4vlzZ5KJKtGLzIWp0faPMMgw0oRJhRbT0PIaj8H7sewR4I7NgTkXJd6HpfVSU9iZryOUIuFCFsk3JDqGjcnx5W4w5hMDV9VYQqwL6a16k133GZqa068QuBODDe4i+WpHseisFDkIyKMizSPYZniP3k5Oazo/bS1ov/DJd9r39TAfM70GuWCpH0IO8tfOiz5G+MOrsoyzzCpFJ/CyurXjHAKsFeszZDj0lABzSrcbpTLCjl5ukdpo1rd1yj3tQZaosxBQQPqvUZZWLS1bFfrVLG5PEnBAz4Sw+6FRcn1mHFq9BAMdyS6kwuFQDkgqnnqZHWMwlkifKesyPNJ2kn5EOVq13B5TwpE2Fm9SQxHRJpfA/jc6zbyjU3VGFwfTPDy/A6fuYmdHCkgDFKPS5msViJ/I6tbKVyYuFD5/CYSgYZrhZ3V6QiPiOE7re0myxvh+AZjmGEr860a/XZPIZHncTYB70Y6yAmvTBxg1bF3kVYwsEwKYnE8GvGPFj+wrzrL+X4iWkiZKRafS9gPWuzmOafTflq17uoM4l4xXAgMpifVT20lu8AuxnCXU6vXMFG3KPtxL5WXVLkisjwLxgSbvi4hHZhDU7C4LlGzLuBVx2LCmhgjQHaN7inCXCCT2LiVFlX2KcZO3iha9G0jXI1hO3pD8eHQ8W4S5Wi3UXJlPdawcfMiEUZEPDsqqDLJy8l/Nq2JWuE2cqMG3JWoWWcx1A04O7Z3TtQqgV8jCRGolUSinNdZAtk1eoox3IH0EgK1WhRiqEa4P5PVyWWujT6EkrRRBjihOHOu7SnfhqkEvJGoWQc/qajTL8eihQqcgMWEhM24RwvbcFkndgvjZPXXYriU9p0l6D1EQthShVvtap1a1r5RBbeqz7OR5FlB4KCKah3eCRLB2py8ApxCkqcVgu0H/Jqx2r+U12TqdGcRzkj0UFX5kIATmC35YglkZbkCw8nddubTVb6SkhGLy+1anVG241wgq5CI2ihMTh0YGH7YKRIBuDn5kyp/TNKsE8P4jMO0El4igc8lGDZPkkRGmek2yeNFBzhquNQYTqSvNF8Jd+vzM1k9s1yH6FVwW+R7R+FmcRgTdLNOkQjAM0xXn+WJmXUKCqc4tTo6yuNONYeI4aCEMy3uyw/gmqJNy6yejmEafa17kYIK59lZPblstRHcUII2+lzGZd9Ok4jF8qYRfobiJzXxGDYj6PzZ0YDxurWaBM+Ewiji20Y4odherJmsHiyUWGCw52uki5xaPbQstVHALZHPjQRUOjbpNmmsFXJyD3BdYmZdAFgc4LxAp67n5g0zxTAsUYENmF5spUynTkcpXINETDPpLRBslOvsrO5WdmNrkhXAXZEPX2HvinG6U6dJBOBW8Qv1eSpJ/0iFc6uqdUhRJlO1TsIwJUkzTgNud5u4uajfz2o/fK7HsBV9vQx+mJmyGXAT43Xrshue4WYConV5t9jMtzkwEomYLx+ocAJKIcEgw2ddU8TZ0UStEknwTEgAn9ccl1OLvXDnBJyGxe7d4gdJ6yp+2k/7Kw9dZdYZdrUtrohy3TpRk64fi1Eao86HKN/e+Js69SqnRi8i6j2Nos1Wvurn5F+f4rifJoaLE8yoCAQOKfaKsD1e68TmYZR+XUaatot1eVVeF+ElVV4T4R1RViL4Cg4wWJVtRRiGsiPCdq0JpV0Tdg/9yh+4jXJbORGpxGTrZuMyNv94W/O3zvFxrPZ3bB7Coi4RIQ6vGCz1WtiDZdLcgeO+i8JjCIMTEYLwusaNXqMcVdTv16vtNDMHw96Ja6G26wnvqvKwGO5FWOSu5uWO5qoDk3MrC0YbYV9Vvi7CuMQzyMMzttftgAktoT9SFmi9b9YE9I8iI/hMad95r9NKzc7qbiI8CPRLSpDF51eFRjlnY2vWyfI3DN9IkMDPeT5fYom8U5RmDqNQ/5vwtYv195eA6x3DX1sWyWslvXO4Vlibs7dRforyDQwm4WOC692cHFNGnpE4WeZG6sIXbrR/9Rrl4MgkAsjU6BlqcUGCu9gq4EtuTp5YL7BZ/T7CbQkeqrqB8nW/2CbHY7W/7fCYCGMSTjd6W+Fiz+IGFsnKuP+EldWvGDgPk5B1Ec5tXgP26mzeYaImXVZPFMNvOv3NoXZd4RYYzRPyQfGBhY1QWMnlBDySWLTOMBDanR19UbdRSO5GbOgnXO13oku4YzNZTOIEul8Me3o5uTwJAgH4OZnjtrAPARcCXiIBCKFC4JflFGQwPnMJyHf6wTD6+Bkrw7j2S9V5PC954AQCPkxk0sPkxv2d5eHhllPgLDHsmFSxDvVZ4lrMLPqZeq1UODFRAilXuB9xUGGxPJu4RC2TZjcnM1qrPn0Q+5q2rqeVpb5cSFQYxLPAkxEPXsUSJpVGIsDNyRNKiX1iNs36mU6NHgEcmZipoaxF+FlndvrMKvYVQ3VSPmEQcK7bINNaN6sug9sodwYBB0MCFzMNloHySQmaJx7CvKhpQKp8qWQSAXgDuBaf+xIx60IB3QnhRpK6aGcggEu8nMzvnFvKkYlsHqEJd5mfk5ndJVt+ozwYBHwP+CjWbww3wf2cOh1fLjwKfB4uYSMczRjdvGQSMU88YzhBA95KUCOZxN4a8JjvcFFnHquYoMOAfWPXjK3Jri6c0d3C5TfKg75ybOw5k4YKfH5SLiTKODShETaLkHjb2hlGxCKg+QZ5UYLuX/gIO+Mq4AQWSkunBMznaxgGxO2XEfCWEU7o1pLL7acnJ/8LXBnrFhYK33fW7eDdjZZFrEB5JuKGYAmMiW2Xd5u4WQNu7zE9JgwonOXmpLGTUiAC30okuKGcG2db+FjWtZmzNWBpbFZGmLW/veOwX3l8oQRAU+Tv0zBCF5PYi3o+pxDwWtn3mQhPnOd6cFVnH62sZgc05mvoAhrwuCfcVHZz9YysUsP0WM268ErBd8voKxtL+JZd4/U3lsrrAlMp50pq4UHZu2KimU2+YXesiI2kPm1McE25tj3xF3M/xFiPMLxztCcjy6PklipPEERY0fBC6U6M1AGxGmCFnPxFlT+Us1mnyi+KLVTewcTVx07qgLc9n7+W74yJBsKvCWLaHNcdVlaRLYevc+BlopyNKYiyTWYgn4ld3D2fGSX10EzSjFPu8r7O7yM9X6+2Er8pJ8oDxebqdZs2UuapxugbCZiAvcoiuGB4R+H1iN8xwC+wQ/w6Y4m8o3A8YXOp8jHjAt5wYSpnS7QdtYXtRGKurhpeRvxn2QdicuIiEW+EfvKmNrFcvk3glYiZC8YYdkrkKrOfkzkmq1djOKlMPCQFTiYsBRYJls8IhEFxkwg41snq9yjv1p+K8pnY1jL87l3YQzdnfpjE2c14pYRv2SmxegCuxUzbp16E8d16ZTpMXb/Fa5T/LVGZfaE1MBG3ltyjR3TOjfMiX+thpdPCMBc+KINPeylylFv4bHIhgDAX7Wcoa7vTjFOf5RmL00t3r9k5MeEMesCPxr65WSjDy8LaF94oQcQ+k2gczcvJ/AAu7cZona/Cz+IonK+wAyni3uPKgkRBwNtRNwlVtklcvH2HCwl4rMuJFEbjrvfDkl9xLPhn+nwln7iFV9mpLMhseD/y2goDkxfthdKC8jMCmrvM9g+zAJ50q4inrO1IzaiwRSr2sQvvtuUwDuPTDNEu6Il2BYkAt1FyCmd1oQNdUDgxtsiPQz+U/qnYxx6o2KosyOywFiKXg6vqMiPLg1kEPJC4WReacZdH7afaEfr7VIhQmUp+7Dzqn1jr0c6ITJ4CihvxrKii6zyVnLgiHK8BKxLTSGHhxQWuy3mx2u79cAjruKWIF5W8mmBjtiLRorgQOcnW6VJ3v9Agz4jyXJK+EMI8HpfVse6YPgaw0sBC7OslEff/eOGsD+RHUmRdSiI7q8dgmJSYMIbJjcc5tVqdSmiKLjMHu+oPVVTrcBHOI8n0lpBEg1BmsaPG5sOI1bpTSSowMa+XlkUjTr+kauVB15Boslq+4UqkC7omBIBhj8xW8VWWMWtwIaFi/n0beYZ2/7xWCQ5EbonjdgmJ7Bc5Wgxf67Jk1DA7eoZdq3VxvG61RV67M32p17pErOLP4nf3OAKHCqIGjpR84iTKjNcRIpzbpUo7NOv6iXIVE7Wq5Pe5rEFYnYp9vAwC3i0Lq9KlEshElNGWZEk0WS3tKjOuY7NuN7vAaSW/a5kUBN5PJT92IpVFp4jAMBChIspGoEJzoiSyX2QKFl/ttjtFAYjhNDurE0rerZQ3Yg8sFNOgqxf/KLxQFppI2byEtf0osftEmTrdWYMuNuM6RmjWZXXvUoqBSCkXtz5pF1OWojRCjyk2Ft/nB6zxPG4vh7EYZeuod8UE3k6GRPVq6yquxGLLbr/ZqoDFBMdnhgu/iD7TPB03iUSZ4+bkNFJ0r4gYto9eeo43E9kB7VVMweLAsimeFXYlmGbX6u6RX6E8G7dWVcIytCm6PcYxNPKzymuxkyhTq1/o8mhccTNVhXIVIzVSCeCMxfMoH8WqIZWRsUQPU5SKnUqwUJbHS6LJaqlyJYYtyo5EYUfrGqcqWt3wlh15Q+GFOEvqijDMWZvQtfMUxSGrjmrE3ldKEAS8FCuJ7Bf4KYYDyrYGajiuaXZW9+j0s38WX5TFMZeNctTw1VSSuw/9YCuBIRE3wmYr4NXYSNRqxp1T9pnOhkqUWZHMOsNDsY4lnKvDqNf0rlI3oWDYCWHzTstteEb0dqFfXIGFerVV+U1ZmnEdaCOxqHaqmNHZRy3lMXxWxmrSGUY5q/hmKs7d5CoHjMJEWFEBgZdZIKtiIZHdzE8x7F/GpexjMevW5ngVidmkA1Q4k7FaftfPJ+hmTq3+uKJah/daFmlJNcGfCg2UEuHU6mihDKNxmzbNKoBZ7K4DO7H9qMLfEgh4jHUcTi23KXI8zsPiD4FhoVOr51KtQ3oZgwxSUu/dx0sn0UjNEJpxgxMkUXNiZp2h2sl3zqyzXO7BZ1UCmvF0K6v7lYt4WTX6bYRj8QBhS4Rf2IZFdlZ/yXjdujdQqGoCQ4BdIq6ZrxIDiewqTsCwTyJmnIDCEwF8F1idyIW4cNxT7Rrds9hH8o/LcoR/xZ6oI1QauMmp01HdroFqtdoYrkVa79i0VmkVYXsxnGNb/MfO6tRyaRsZOajgUh2pvnooi296bljqwJQw0aNFmJmgBlIDM/2czAFmJVjcpALpnFkX+NwQ+3e3tmLUgP9zxnUfkZw6HaXKX4BtPvaNbWQaJobL7QwLnaweFfUAu9stemGviBV+AJ5kqXwYnUShGTcr9i4Jbf4Kqvy5kONuANfjEg14OhEihT7JeKtQfF6dX+ABVRpjH09oYo5Qm3usrO7V1UJl1+ruGnCPmE20kGkj084Yfm/3Y4FTo0cwXCt6DIMmq4VQH7l8MMxvJ64RJruSkzDsnZQZR8B7VsCZIOEnLpUPDUwnqVaWARg4ya7WSUX9/jIpiPDbpExMEXY0wj/tWj2FkdoFJaVU7KweI3CvCDsWPcvryARjMNzkDOJhp0YPIatlX14s8zw7o4yKmKmgJZHIqdVqEX6ZmBkX+kIX5Jvk+Q3s15zcrcpfErw0UIEp3qxzlTvU58mktCPQX4RLnSpm23VFkjvKhlittU6Wu0W4FiJaFuvarggTMdzhwANWrR4IWralXQLDvlgRCnKGVyZW+AWWRiNRvVa2RuMGJkKisPjiIm8AV3cYMYIZ+LyXoFk3zsnzq6J+PydrBM5NTjmw7nbu3qLMdbL6V6tOD4glu2GkZuw6nWRn9RaxmIfhG7H0H9L1vt2eBu51ssyxqvXLoXtbTlAR5aDIm7yykCfaSlR3ShztGj1DLC5I8FC1oAH7eU3yyCeOIavTxHBZYmMQ3MDnQL9JHihiU7GdVdyHxb6JHzSH5ZFR5QmB2QHMzQQ82TKctzZZ7COrTpXDNgWXkQb2VthfoBqDJDpuAwSowiQvJ/PLhUIV1To8MCyBCPXVw286ys3JjZ0mkVOr1SjzkIS0UDi4a9ycHLcpbeg08zCG3RILrStPeR57rIu+fOq8ZLUG4ZEuK3gv600KUN5T5VWEl0R5E+FDUdaqYAFVqmwhwrYKOwh8Fmm9Bh1n17tN+7cvusIe5OSNciGRXas/F+GKSPKjrDI24/KLZHnnSBQK7r8w7JFYMEF5JWMzYfV/5K0iNOKeYpiLJlTHOST0lW5OphblpNbor9TirC5Pe5IiV1E3+rfrxucGPt/0m2R22VhyofXwb0yETvAG8JnrNvKV9UGvYn0iexXTEiNQG35ZDIEAvEZ5FOWGxIIM4U3Y461a3bcoGzTDJQTM7/JKCUpx7Sq1GwgUbkQXlxWBALuZLEJN5NC2cFd7AhVFIierNSJMT4xA4WTPdj/HbZ15zLU5hyBi6/QiLVhRZjFRN93ca6G0SMAUAt5OSw2vX9N/uGsTDLxEVY7KjzERq536rLQD7u3ocz/VjEOZhWFgMl8EBDSjnN7pSpih1vplkru8GHZ13OIEodAk/xXlp1AWfQ66lUAa0OT6HMkyKa/Sy9U6BOG7kbSQAYQH1zbJy50ikb2Sk7H4UoKRMIAr3CZ5PMrjbo7bUGYnatbBlMx4PbAoIjXK/6kyvY8TaLkVcAhL5J1yG54tHIaJWEg0vM5/yyfxq2NbpkazYpie6KGqz1Ouxa9LeIlPwOmJ9oMV7MBw5cA63bIofy0nlxNwSZ+rJBemar0shu9sfFBeFviCDkSYEkmew4jtC4UM/yqeRGEFmlkYBiTYSygwMJ1FsrKU17RqscsTI5GCWOy81i+++57byBlBwKw+Q6RWDSQu33IXy5JyHKIzkMliGB6ZRPAnFsiqokmUcTkZi92TDCYo3F5olH/G8TrX4jL1eSoxIoXRuqMzWS2yqIgEfo6p+FxcUuebnqOBGo3P/u7S8iQQWe2nAdOiEoiAZhv+59PcpQ3txmqtVUnWjCPgHcvmzNjeuUhWKkxHEwzCC1YAV1KkWQcSuI0yXQOmAoVeSaQwCvf3CouvFpbIc+U6TEc4VKyIyaahKfd/+Zy8UByJJmqVGGYh9E84wfS8/H/kpThf6zfKPxVuT8yECqN1Ixy/c02VvUa5MoCDgdd7jXkXbggeARe4LUwu9nyvm7TQIFXOiCzPYVfx325qL2nTQi6nYPhiwmdCC7ytuS6J11sWvyDgnaTNOiurX+sUwRvkHyLsg996I7Yna6XQfHtW4FtuTs4suzD2xpYVHBvZFwrzFWd7ORYXRSK7VusETk80KyEgr8KpzJZ8Eq/PL5LlCucmKqSCJXAFWd2qM48VFsuz7lq+rj6noXzQ47RSSH4X5dqKDHsWcnJPuQ+5slp3FCL6QqG8egqXbJyh0DGJshq2HzEJJlGGrL7ea5AFSU6c9xHX47MgcbNOOb/Tzy6TgtcolyJMar2CrWVPpraE14cDZX+3QY5d/Zi83RN47xlmYtg6shaC+7wc/y7qVy04PbGs6LZgwktu0AVpIM9LXgNOJSCf2N8IzbojMzX69SiPuw3ypNcgkwM4gIA5HYd4ykLzACwC/p/bn/38nDxED4FVp18W+GFkmVYK6nPRprQQgNjjtV4s7oEEtVC4kx3m5uRPXRaRyepvMJyY5MagyvNehi9R4s5sZfUrRjgO2A+hX7ckjLbXOgEF4GEJuK6wint4XvL0JIzV/rbDv0UYF1ULacCtXk4OL2ra7Bp9USyGJbZoYfr4PW6Ob4IEXTiR2zgOizARK/4XJf2Ay/VuoxwTC/FrdTTwPVW+JbSWt03yGoNsYCmowtMi/B24w22Qpp4a+7Cyer4xzIi0gYYb/kci7FZokGeKCl4IPK1BzMUI24/JZ6UIJ3cpgQAel7clqycFykyUZDoC+qiB1+N6ndsgTwJPUq/n283USsBXgL2BUesv1G1MKO0EWdr/P9R2HwLLgIdUud8TcjREb8lZDrBrdE+BaZEtkHBDuaqQK45AbVOaVHWWFoRluMXYlYmhXu0EM+sgJ27i3zBBP2t5jLKEcQGMEfi8wvYCm7Wa4U6HXxgSxUNoVlgpsKK12fATaljqKE+tbeC1bl2fOLGHbm638KhICQerAc96PrsVc6u5oz0qRY+BCrszoLLAYF8ZrMJAVfpbSgUarqlvyIvQLD7NluHDtRV8wAKaew1hOtJCWb1RDD8pQQsFApMLDXJXFKs4RYoeDSerRyH8PrLvGAYT7vRy8r0obn+KFD1bA1XrF4HLSwqwBLxhB5wWkX8pUvRcVI3T7TH8T8lVqITTO7q1mpIoRe/GWO3v2dwihhElmXHKrW6D3EL0V6RI0ROhxna4pqSa8OuicVVMK8mcTBcjRY8MJNRwKYbDS8pIUVoQpjC/tHoQqSZK0fMCCTU6A1PCgeo6Mw7O9BpkXqnjSUPcKXoUMlmdrsKFJQURDKjPH71Gjojj3CzVRCl6DoFq9Iw4CETAAs/mZ3EdPFvp0qToESZcrc5AuKDEMDYoy43Ft/xF8V1pTwMLKcobk9VyXuRi4OQYCPSeKt9v39EhDvRpn6j/brqt6zErABtdl3XGAi/HFb05x6zHYKz2tzNcLVLC5bo2KV8tAYfGVaYt1UStWC2stJW8OBzSbpG+a2cZ7TXrSTwjq1JJ7h5UjdHPeg43ISU2UAs1kAcclwSB+rwmAiCrjg2/F8OP1i9W6HzOM8JP8g3yYirSXez/1OkXUf4gwi6xEEg5zm2U3yc13jQ6lxPX+4hj1OeP62cj7JVa78ODFdV6QCrWXQcnq0eJcp8QA4HATZpAqSZqj5Gasau4TgxHrF+8cHbyqpzvtXBxuddY69EYo5s7GS5CmAIQQxDBA451c3JD0kNPSdQe9Wo7zfwOw5QNiBQuyhxRTirk5Ol0omI232p0T4SrxDCu5MIy4Vq1tGqgm7ti/Kk51x7zxHM/x3EEXLhBLYKwRNZXFObZWT2m/FrK91jtP8Cp1fNEuD9GAn0gwqFdRaBUE3367niSGC4FnPWmRVtJqX8ScGbU5mQpwKrRfYxwMYbaWMqahcVBX1Hl+15O/t2V35KS6FOQqdbvqsW1sFF3tTB6tzKAK/wCv+EJ+SCdrSJRq0MdmAEcieDESKCFIvyosFie7epPSkm0CTg1mlXhZjGM3mDBW7WSBvxXhAvc/tzOPPHSGfsETNDNbJ+jgJPFMCQW8rStwZ+8Kk5gfvdsZimJisFo3dau5LciHPyxxW/zneaJcFmhgXu6vMZeOSOr/RzlEBWmiWFMbNVdWyOnEnB2oZGLu3POUxIVi8lq2S9yisCvEKo+JghtMzlHfH5bGM69ne6I3jvJc5II41s3mngQXul+wQo4Pt8o93f3p6Yk6qxDnNW9BH4rhlEdmiSGdUUTH0W5zq3k75/U67NXYrxubdscgnK0mNZa2BqvtKpyp+MxrWWpvF4On5ySKNouu5UDZwPHIFgdCknbgj+NcIvlc2dZdtWOy3es1WqUwxQOEcPQ2Ivyh5vT26rM9HJcX04JwimJStNKXxPhUhF2/URHuS0s/pHCXAN3FBweYKG839O/v2qcbu/ZHAAcCuyJoSJ28qzbjOBuI5zWHdG3lERJo063dAKmIxyH0G+TZFJQ5RXgAQN3F2wWUs49TzdCZVZ38GEvhYMEJmEIOwYm4daHVUlfEjjLzfHHcr2ekpIoJti1WodyjggHbNKJ3pBQbwosVHhADPPdgGfJlVFnhnE62HYYSUC9CPsAtRgGr/9GTYY8BKwBbnANF7JY3izntU9JFCtUnGoOUcMZRTvV0m4VAlyF5cAS4D9qWOoEPLf2I97qkkZbY7V/xjAEwxcQqhV207ALxVBM6yiTbEAWkkcV/ibK+W6j5HrCqqckSkgYbYcfIpwswuc7JXjtSRXm7a1U4VWB5SjPqrDcBLwcGN624N28yyoqWcv75KnG6zCsXq82eRxaqCBDZSZgcABbGdguUIaJsBPKzirsJDAEod9GfYySRVtE80ETcGm+SWb3pOVOSZQkJuoWtsuPCNvAj4gkkNLBSoXvUaAFWKPQDKxByYtQ2MBDUWwVMiiVAv0QBqBUIVRuQNiuIszHNQ/AAwFc4ee4ryceVKck6gpkdZADBwM/RahtjdZ13wpqN0tc+P1rgfsCuNbPMbcnZ3mkJOpKjNSMVcV+Aj8W2B/DgG5rctzVaLs1/BrwVww3u4tlSW/4tJRE3YRMrX4B5ZAADhYY284v6D1o0zotwAKE21yPf7KktNrXKYlSbOz0V9qr2U3gYFX2FxjRYwm1YaQxDzSJ8A8V7nYXy1O9dQlTEpUXoQbYa6iRgANR9kEYjaFftzj9nQ16hON7F8gpzJGAue5wnuoLSbgpicoVk9XKLGe4KhNVmYSQFfg8woANws9dFSjYOErYRpqngYWB8Kjv00CTrOhrS5WSqKcgq06FMFQDRgbh1YIxwHCB7YHBCBUdPqclSkL4/GpV3hd4VQ3/JeAJDEs84ZlyzyZISZRik8QCtrJhqIEdA/icwA7AEGBbhc2BgQL9UCqBDLK+iYECLlAAWhTWACtFeU/hDRFWKLyksNzAK65hBYt5Py2v/HH8f+bFdtBkGKxwAAAAAElFTkSuQmCC","url":"https://www.xe.com"},{"name":"SoWatt","logo":"data:image/png;base64,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","url":"https://so-watt.co.uk"}]};
+function partnerHtml(name) {
+  const list = [].concat(SPONSORS[name] || []);
+  if (!list.length) return '';
+  const card = p => {
+    const inner = `<span class="logo"><img src="${esc(p.logo)}" alt="${esc(p.name)} logo"></span><span class="pn">${esc(p.name)}</span>${p.url ? '<span class="go">Visit ↗</span>' : ''}`;
+    return p.url ? `<a class="partner" href="${esc(p.url)}" target="_blank" rel="noopener sponsored">${inner}</a>` : `<div class="partner">${inner}</div>`;
+  };
+  return `<section><div class="eyebrow" style="margin-bottom:8px">Team partner${list.length > 1 ? 's' : ''}</div><div class="partners">${list.map(card).join('')}</div></section>`;
+}
+
+function applyAccent(col) {
+  const acc = DOTS[col] || CUP_ACCENT, root = document.documentElement.style;
+  root.setProperty('--accent', acc);
+  root.setProperty('--mine', `color-mix(in srgb, ${acc} 16%, #0E1217)`);
+  root.setProperty('--glow', `0 0 18px color-mix(in srgb, ${acc} 45%, transparent)`);
+  const m = document.querySelector('meta[name=theme-color]'); if (m) m.content = '#0E1217';
+}
+const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const toDate = s => { const [d, m] = s.split('/').map(Number); return new Date(m >= 8 ? 2026 : 2027, m - 1, d); };
+const dayLabel = s => { const d = toDate(s); return `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`; };
+const initials = n => { const w = n.replace(/&/g, ' ').split(/\s+/).filter(Boolean); return (w.length > 1 ? w.slice(0, 3).map(x => x[0]).join('') : n.slice(0, 3)).toUpperCase(); };
+const crest = n => { const c = initials(n); return `<span class="crest" aria-hidden="true" style="background:${BADGES[(n.charCodeAt(0) + n.length) % BADGES.length]}">${esc(c)}</span>`; };
+const gdTxt = g => g > 0 ? '+' + g : g < 0 ? '−' + Math.abs(g) : '0';
+const ordinal = n => { const s = ['th','st','nd','rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
+const today = new Date(); today.setHours(0, 0, 0, 0);
+
+const teamDiv = {};
+DATA.divisions.forEach((d, i) => d.teams.forEach(t => teamDiv[t[0]] = i));
+let mine = null;
+try { const s = localStorage.getItem('touchline-team'); if (s && s in teamDiv) mine = s; } catch (e) {}
+let view = mine ? teamDiv[mine] : 0;
+const picks = {};
+
+function nextRound(d) {
+  const dates = [...new Set(d.fixtures.filter(f => !f[6] && toDate(f[0]) >= today).map(f => f[0]))].sort((a, b) => toDate(a) - toDate(b));
+  if (!dates.length) return null;
+  return { date: dates[0], games: d.fixtures.filter(f => f[0] === dates[0] && !f[6]) };
+}
+
+function formMap(d) {
+  const f = {};
+  d.results.filter(r => r[3] !== null).slice().sort((a, b) => toDate(a[0]) - toDate(b[0])).forEach(([, h, a, hs, as]) => {
+    const r = hs > as ? ['W','L'] : hs < as ? ['L','W'] : ['D','D'];
+    (f[h] = f[h] || []).push(r[0]); (f[a] = f[a] || []).push(r[1]);
+  });
+  return f;
+}
+
+function buildTable(i) {
+  const d = DATA.divisions[i];
+  const t = {};
+  d.teams.forEach(([n, p, w, dr, l, gf, ga, pts], k) => t[n] = { name: n, base: k + 1, p, w, d: dr, l, gf, ga, pts });
+  const nr = nextRound(d);
+  let n = 0;
+  const pk = picks[i] || {};
+  if (nr) nr.games.forEach((g, k) => {
+    const v = pk[k]; if (!v) return; n++;
+    const H = t[g[2]], A = t[g[3]]; if (!H || !A) return;
+    H.p++; A.p++;
+    if (v === 'H') { H.w++; A.l++; H.pts += 3; H.gf++; A.ga++; }
+    else if (v === 'A') { A.w++; H.l++; A.pts += 3; A.gf++; H.ga++; }
+    else { H.d++; A.d++; H.pts++; A.pts++; H.gf++; H.ga++; A.gf++; A.ga++; }
+  });
+  const rows = Object.values(t).map(r => ({ ...r, gd: r.gf - r.ga }));
+  rows.sort((x, y) => y.pts - x.pts || x.base - y.base);
+  rows.forEach((r, k) => r.pos = k + 1);
+  return { rows, n, nr };
+}
+
+function renderChips() {
+  const items = DATA.divisions.map((d, i) => { const col = d.name.replace('U16 ', ''); return `<button type="button" data-v="${i}" aria-pressed="${view === i}"><span class="dot" style="background:${DOTS[col] || '#999'}"></span>${esc(col)}</button>`; });
+  DATA.cups.forEach((c, i) => items.push(`<button type="button" data-v="c${i}" aria-pressed="${view === 'c' + i}">${esc(c.name)}</button>`));
+  document.getElementById('chips').innerHTML = items.join('');
+}
+document.getElementById('chips').addEventListener('click', e => {
+  const b = e.target.closest('button[data-v]'); if (!b) return;
+  view = b.dataset.v.startsWith('c') ? b.dataset.v : +b.dataset.v;
+  renderView();
+});
+
+function renderNext() {
+  const all = [];
+  DATA.divisions.forEach(d => d.fixtures.forEach(f => all.push({ f, comp: d.name })));
+  DATA.cups.forEach(c => c.fixtures.forEach(f => all.push({ f, comp: f[7] || c.name })));
+  const mineF = all.filter(({ f }) => !f[6] && toDate(f[0]) >= today && (f[2] === mine || f[3] === mine))
+    .sort((a, b) => toDate(a.f[0]) - toDate(b.f[0]) || (a.f[1] || '99').localeCompare(b.f[1] || '99'));
+  const el = document.getElementById('next');
+  if (!mine) { el.innerHTML = `<div class="row"><div class="teams">Pick your team<small>See their next match, kick-off and directions here</small></div></div><div class="sub"><button type="button" class="pickbtn" data-pick>Choose your team</button></div>`; return; }
+  if (!mineF.length) { el.innerHTML = `<div class="row"><div class="teams">No fixture listed yet<small>The next round has not been published on FA Full-Time</small></div></div>` + postponedFor(mine).map(f => `<div class="ppnote"><b>${esc(f[6])}:</b> ${esc(f[2])} v ${esc(f[3])}, ${dayLabel(f[0])}</div>`).join(''); return; }
+  const { f: [date, ko, h, a, venue, id], comp } = mineF[0];
+  const pps = postponedFor(mine).filter(f => toDate(f[0]) <= toDate(date));
+  const ppHtml = pps.map(f => `<div class="ppnote"><b>${esc(f[6])}:</b> ${esc(f[2])} v ${esc(f[3])}, ${dayLabel(f[0])}</div>`).join('');
+  el.innerHTML = `<div class="row">
+      <div class="teams">${esc(h)} v ${esc(a)}<small>${dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
+      <div class="kowrap"><div class="eyebrow">Kick-off</div><div class="ko ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'Time TBC'}</div></div>
+    </div>
+    <div class="sub">${venue ? `<span>${esc(venueName(venue))}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}${venue && parkingFor(venue) ? `<span class="parking">Parking: ${esc(parkingFor(venue))}</span>` : ''}</div>${ppHtml}${oppPreview(h === mine ? a : h)}`;
+}
+
+function renderStats(rows, n) {
+  const played = rows.filter(r => r.p > 0);
+  const best = f => played.reduce((a, b) => f(b) > f(a) ? b : a);
+  const att = best(r => r.gf / r.p), def = best(r => -(r.ga / r.p)), top = rows[0];
+  const cards = [[n ? 'Predicted leader' : 'Top of the table', top.name, top.pts, `points · ${top.p} played · ${gdTxt(top.gd)} goal difference`]];
+  const me = rows.find(r => r.name === mine);
+  if (me) cards.push([mine, 'Position', ordinal(me.pos), `${me.pts} points · ${me.pts === top.pts ? 'level with the top' : (top.pts - me.pts) + ' behind the leader'}`]);
+  cards.push(['Best attack', att.name, (att.gf / att.p).toFixed(1), 'goals scored per game']);
+  cards.push(['Best defence', def.name, (def.ga / def.p).toFixed(1), 'goals conceded per game']);
+  document.getElementById('stats').innerHTML = cards.map(([l, c, v, s]) =>
+    `<div class="panel stat"><div class="eyebrow">${esc(l)}</div><div class="v"><span class="club">${esc(c)}</span><span class="num">${esc(v)}</span></div><div class="sub">${esc(s)}</div></div>`).join('');
+}
+
+function renderTable() {
+  const i = view;
+  const { rows, n, nr } = buildTable(i);
+  const form = formMap(DATA.divisions[i]);
+  const lead = rows[0].pts;
+  document.getElementById('tbody').innerHTML = rows.map(r => {
+    const d = r.base - r.pos;
+    const mv = d > 0 ? `<td class="mv up">▲${d}</td>` : d < 0 ? `<td class="mv down">▼${-d}</td>` : '<td class="mv"></td>';
+    const gap = r.pts === lead ? (r.pos === 1 ? 'Leader' : 'Level') : '−' + (lead - r.pts);
+    const fm = (form[r.name] || []).slice(-5).map(x => `<i class="${x}">${x}</i>`).join('');
+    return `<tr data-row class="${r.name === mine ? 'mine' : ''}">
+      <td class="pos l">${r.pos}</td>${mv}
+      <td class="team l"><button type="button" class="teambtn" data-team="${esc(r.name)}">${crest(r.name)}${esc(r.name)}</button></td>
+      <td>${r.p}</td><td class="wide">${r.w}</td><td class="wide">${r.d}</td><td class="wide">${r.l}</td>
+      <td class="wide">${r.gf}</td><td class="wide">${r.ga}</td><td>${gdTxt(r.gd)}</td>
+      <td class="pts">${r.pts}</td><td class="l wide"><span class="form">${fm}</span></td><td class="gap">${gap}</td>
+    </tr><tr class="detail" hidden><td colspan="13"><div class="dl"><span>Won <b>${r.w}</b></span><span>Drawn <b>${r.d}</b></span><span>Lost <b>${r.l}</b></span><span>Scored <b>${r.gf}</b></span><span>Conceded <b>${r.ga}</b></span>${fm ? `<span class="form">${fm}</span>` : ''}<button type="button" class="linkish" data-team="${esc(r.name)}">Team page</button></div></td></tr>`;
+  }).join('');
+  const b = document.getElementById('pred-badge');
+  b.hidden = n === 0;
+  if (nr) b.textContent = `Predicted · ${n} of ${nr.games.length} picked`;
+  const ps = new Set(rows.map(r => r.p));
+  document.getElementById('tnote').textContent = n
+    ? 'Showing the table with your picks applied. Arrows show places gained or lost.'
+    : (ps.size > 1 ? 'Teams have played different numbers of games, so check the P column. Gap is points behind the leader.' : 'Gap is points behind the leader. Form shows the most recent result on the right.') + (window.matchMedia('(max-width:640px)').matches ? ' Tap a row for wins, draws and goals.' : '');
+  renderStats(rows, n);
+}
+
+function renderPicks() {
+  const i = view, d = DATA.divisions[i], nr = nextRound(d), el = document.getElementById('picks');
+  const pk = picks[i] || {};
+  document.getElementById('reset').hidden = !nr;
+  if (!nr) { document.getElementById('pred-sub').textContent = 'No upcoming league round has been published yet.'; el.innerHTML = ''; return; }
+  document.getElementById('pred-sub').textContent = `${dayLabel(nr.date)}. Pick each result and watch the table move. Wins count as 1–0, draws as 1–1.`;
+  el.innerHTML = nr.games.map((g, k) => {
+    const p = pk[k], h = g[2], a = g[3];
+    const btn = (v, label) => `<button type="button" data-k="${k}" data-v="${v}" aria-pressed="${p === v}" aria-label="${esc(label)}">${v}</button>`;
+    return `<div class="pick"><span class="h ${p === 'H' ? 'on' : ''}">${esc(h)}</span>
+      <div class="opts" role="group" aria-label="${esc(h)} v ${esc(a)}">${btn('H', h + ' win')}${btn('D', 'Draw')}${btn('A', a + ' win')}</div>
+      <span class="${p === 'A' ? 'on' : ''}">${esc(a)}</span></div>`;
+  }).join('');
+}
+document.getElementById('picks').addEventListener('click', e => {
+  const b = e.target.closest('button[data-k]'); if (!b) return;
+  const pk = picks[view] = picks[view] || {};
+  if (pk[b.dataset.k] === b.dataset.v) delete pk[b.dataset.k]; else pk[b.dataset.k] = b.dataset.v;
+  renderPicks(); renderTable();
+});
+document.getElementById('reset').addEventListener('click', () => { picks[view] = {}; renderPicks(); renderTable(); });
+
+function groupByDate(list, asc) {
+  const g = {};
+  list.forEach(x => (g[x[0]] = g[x[0]] || []).push(x));
+  return Object.keys(g).sort((a, b) => asc ? toDate(a) - toDate(b) : toDate(b) - toDate(a)).map(k => [k, g[k]]);
+}
+
+function renderLatest(results) {
+  const scored = results.filter(r => r[3] !== null);
+  const el = document.getElementById('latest');
+  if (!scored.length) { el.innerHTML = ''; return; }
+  const [date, games] = groupByDate(scored, false)[0];
+  document.getElementById('latest-date').textContent = dayLabel(date);
+  const cl = (x, y) => x > y ? 'won' : x < y ? 'lost' : '';
+  el.innerHTML = games.map(([, h, a, hs, as]) => `<article class="panel match ${h === mine || a === mine ? 'mine' : ''}"><div class="tag">Full time</div>
+    <div class="line ${cl(hs, as)}"><span>${esc(h)}</span><span class="sc">${hs}</span></div>
+    <div class="line ${cl(as, hs)}"><span>${esc(a)}</span><span class="sc">${as}</span></div></article>`).join('');
+}
+
+function groupBy(list, keyFn, order) {
+  const g = new Map();
+  list.forEach(x => { const k = keyFn(x); if (!g.has(k)) g.set(k, []); g.get(k).push(x); });
+  return [...g.entries()].sort(order);
+}
+function renderFixtures(fixtures, county) {
+  const el = document.getElementById('fx');
+  if (!fixtures.length) { el.innerHTML = '<div class="panel round"><div class="rh">No fixtures published yet</div></div>'; return; }
+  const byDate = (x, y) => toDate(x[0]) - toDate(y[0]) || (x[1] || '99').localeCompare(y[1] || '99');
+  const groups = county
+    ? groupBy(fixtures, f => f[7], (a, b) => a[0].localeCompare(b[0]))
+    : groupBy(fixtures, f => f[0], (a, b) => toDate(a[0]) - toDate(b[0]));
+  el.innerHTML = groups.map(([key, games]) => `<div class="panel round"><div class="rh">${county ? esc(key) : dayLabel(key)}</div>${
+    games.sort(byDate).map(([date, ko, h, a, venue, id, st]) => {
+      const m = h === mine || a === mine;
+      const v = venue ? `<span>${esc(venueName(venue))}</span> ${mapLinks(venue)}` : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : '<span class="nv">Venue not yet listed</span>';
+      const when = county ? `<span class="nv">${dayLabel(date)}</span>` : '';
+      const past = toDate(date) < today;
+      const k = st ? `<span class="k pp">${esc(st)}</span>` : past ? '<span class="k tbc">Result awaited</span>' : `<span class="k ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'TBC'}</span>`;
+      return `<div class="fx ${m ? 'mine' : ''}"><div class="who"><span>${esc(h)} v ${esc(a)}</span>${when}${v}</div>${k}</div>`;
+    }).join('')}</div>`).join('');
+}
+
+function renderResults(results, county) {
+  const c = (x, y) => x > y ? 'won' : x < y ? 'lost' : '';
+  const el = document.getElementById('res');
+  if (!results.length) { el.innerHTML = '<div class="panel round"><div class="rh">No results yet</div></div>'; return; }
+  const groups = county
+    ? groupBy(results, r => r[6], (a, b) => a[0].localeCompare(b[0]))
+    : groupByDate(results, false);
+  el.innerHTML = groups.map(([key, games]) => `<div class="panel round"><div class="rh">${county ? esc(key) : dayLabel(key)}</div>${
+    games.sort((x, y) => toDate(y[0]) - toDate(x[0])).map(([, h, a, hs, as, note]) => {
+      const m = h === mine || a === mine;
+      if (hs === null) return `<div class="res ${m ? 'mine' : ''}"><span class="h">${esc(h)}</span><span class="s void">No score</span><span>${esc(a)}</span></div>`;
+      const n = /AET|Pens/.test(note) ? `<span class="n">${esc(note.replace(/,?\s*HT [\d-]+/, ''))}</span>` : '';
+      return `<div class="res ${m ? 'mine' : ''}"><span class="h ${c(hs, as)}">${esc(h)}</span><span class="s">${hs}–${as}</span><span class="${c(as, hs)}">${esc(a)}</span>${n}</div>`;
+    }).join('')}</div>`).join('');
+}
+
+function renderCup(cup) {
+  const alive = [...new Set(cup.fixtures.filter(f => !f[6] && toDate(f[0]) >= today).flatMap(f => [f[2], f[3]]))].sort();
+  document.getElementById('alive').innerHTML = alive.length ? alive.map(n => `<span class="${n === mine ? 'me' : ''}">${esc(n)}</span>`).join('') : '<span>Next round not drawn yet</span>';
+}
+
+/* ===== Team pages and talking points ===== */
+const htOf = note => { const m = (note || '').match(/HT (\d+)-(\d+)/); return m ? [+m[1], +m[2]] : null; };
+const pts = r => r === 'W' ? 3 : r === 'D' ? 1 : 0;
+const SCORE = (h, a, hs, as) => `${esc(h)} ${hs}–${as} ${esc(a)}`;
+
+function leagueGames(name) {
+  const i = teamDiv[name]; if (i === undefined) return [];
+  const d = DATA.divisions[i];
+  return d.results.filter(r => r[3] !== null && (r[1] === name || r[2] === name)).map(r => {
+    const home = r[1] === name, gf = home ? r[3] : r[4], ga = home ? r[4] : r[3], h = htOf(r[5]);
+    const side = home ? 'H' : 'A', ev = (r[7] || []).filter(e => e[0] > 1);
+    return { date: r[0], opp: home ? r[2] : r[1], home, gf, ga, res: gf > ga ? 'W' : gf < ga ? 'L' : 'D',
+      htf: h ? (home ? h[0] : h[1]) : null, hta: h ? (home ? h[1] : h[0]) : null,
+      mine: ev.filter(e => e[1] === side), comp: d.name, row: r };
+  }).sort((a, b) => toDate(a.date) - toDate(b.date));
+}
+
+function cupGames(name) {
+  const out = [];
+  DATA.cups.forEach(c => c.results.forEach(r => {
+    if (r[1] !== name && r[2] !== name) return;
+    const home = r[1] === name;
+    out.push({ date: r[0], opp: home ? r[2] : r[1], home, gf: r[3] === null ? null : (home ? r[3] : r[4]), ga: r[3] === null ? null : (home ? r[4] : r[3]),
+      note: r[5] || '', comp: c.county ? r[6] : c.name, row: r });
+  }));
+  return out;
+}
+
+function cupOutcome(g) {
+  if (g.gf === null) return null;
+  if (g.gf !== g.ga) return g.gf > g.ga ? 'W' : 'L';
+  const p = (g.note.match(/Pens (\d+)-(\d+)/) || []);
+  if (p[1] !== undefined) { const ours = g.home ? +p[1] : +p[2], theirs = g.home ? +p[2] : +p[1]; return ours > theirs ? 'W' : 'L'; }
+  return 'D';
+}
+
+function upcoming(name) {
+  const out = [];
+  DATA.divisions.forEach(d => d.fixtures.forEach(f => { if ((f[2] === name || f[3] === name) && !f[6] && toDate(f[0]) >= today) out.push({ f, comp: d.name }); }));
+  DATA.cups.forEach(c => c.fixtures.forEach(f => { if ((f[2] === name || f[3] === name) && !f[6] && toDate(f[0]) >= today) out.push({ f, comp: f[7] || c.name }); }));
+  return out.sort((a, b) => toDate(a.f[0]) - toDate(b.f[0]));
+}
+
+function runText(games) {
+  if (!games.length) return 'No games yet';
+  const last = games[games.length - 1].res;
+  let n = 0; for (let i = games.length - 1; i >= 0 && games[i].res === last; i--) n++;
+  let u = 0; for (let i = games.length - 1; i >= 0 && games[i].res !== 'L'; i--) u++;
+  if (last !== 'L' && u > n) return `Unbeaten in ${u}`;
+  const word = last === 'W' ? 'Won' : last === 'L' ? 'Lost' : 'Drawn';
+  return n === 1 ? `${word} last game` : `${word} ${n} in a row`;
+}
+
+function teamSummary(name) {
+  const g = leagueGames(name);
+  const rec = arr => { const w = arr.filter(x => x.res === 'W').length, d = arr.filter(x => x.res === 'D').length, l = arr.filter(x => x.res === 'L').length; return { w, d, l, p: w * 3 + d, n: arr.length }; };
+  const withHt = g.filter(x => x.htf !== null);
+  const fromBehind = withHt.filter(x => x.htf < x.hta), fromAhead = withHt.filter(x => x.htf > x.hta);
+  const timed = g.flatMap(x => x.mine), goals = g.reduce((s, x) => s + x.gf, 0);
+  return {
+    g, all: rec(g), home: rec(g.filter(x => x.home)), away: rec(g.filter(x => !x.home)),
+    gf: goals, ga: g.reduce((s, x) => s + x.ga, 0), cs: g.filter(x => x.ga === 0).length, fts: g.filter(x => x.gf === 0).length,
+    bestWin: g.filter(x => x.res === 'W').sort((a, b) => (b.gf - b.ga) - (a.gf - a.ga) || b.gf - a.gf)[0],
+    worstLoss: g.filter(x => x.res === 'L').sort((a, b) => (b.ga - b.gf) - (a.ga - a.gf) || b.ga - a.ga)[0],
+    withHt, comebackPts: fromBehind.reduce((s, x) => s + pts(x.res), 0), comebacks: fromBehind.filter(x => x.res === 'W').length,
+    droppedPts: fromAhead.reduce((s, x) => s + (3 - pts(x.res)), 0), fromBehind, fromAhead,
+    secondHalf: withHt.reduce((s, x) => s + (x.gf - x.htf), 0),
+    timed, goals, late: timed.filter(e => e[0] >= 70 && e[2] !== 'O').length, pens: timed.filter(e => e[2] === 'P').length
+  };
+}
+
+function talkingPoints(i) {
+  const d = DATA.divisions[i];
+  const played = d.results.filter(r => r[3] !== null);
+  const cards = [];
+  if (played.length) {
+    const big = played.slice().sort((a, b) => Math.abs(b[3] - b[4]) - Math.abs(a[3] - a[4]) || (b[3] + b[4]) - (a[3] + a[4]))[0];
+    const winner = big[3] >= big[4] ? big[1] : big[2];
+    cards.push(['Biggest win', winner, `${Math.max(big[3], big[4])}–${Math.min(big[3], big[4])}`, `${big[3] >= big[4] ? 'v ' + big[2] : 'at ' + big[1]} · ${dayLabel(big[0])}`]);
+    const fest = played.slice().sort((a, b) => (b[3] + b[4]) - (a[3] + a[4]))[0];
+    cards.push(['Goal fest', `${fest[1]} v ${fest[2]}`, String(fest[3] + fest[4]), `Finished ${fest[3]}–${fest[4]} · ${dayLabel(fest[0])}`, fest[1]]);
+  }
+  const S = d.teams.map(t => ({ name: t[0], s: teamSummary(t[0]) })).filter(x => x.s.g.length);
+  const top = (f, min = 1) => { const c = S.filter(x => f(x) >= min).sort((a, b) => f(b) - f(a)); if (!c.length) return null; const j = c.filter(x => f(x) === f(c[0])).length - 1; return { ...c[0], joint: j }; };
+  const jt = t => t && t.joint ? ` · joint top with ${t.joint} other${t.joint > 1 ? 's' : ''}` : '';
+  const htGames = played.filter(r => htOf(r[5])).length;
+  let t = top(x => x.s.comebackPts);
+  if (t) cards.push(['Comeback kings', t.name, `${t.s.comebackPts} pts`, `won from losing at half-time${jt(t)} · HT known for ${htGames} of ${played.length} games`]);
+  t = top(x => x.s.secondHalf);
+  if (t) cards.push(['Second-half team', t.name, String(t.s.secondHalf), `goals after the break${jt(t)} · HT known for ${htGames} of ${played.length} games`]);
+  const ppg = r => r.n ? r.p / r.n : -1;
+  t = S.filter(x => x.s.home.n).sort((a, b) => ppg(b.s.home) - ppg(a.s.home) || b.s.home.n - a.s.home.n)[0];
+  if (t) cards.push(['Fortress', t.name, `${t.s.home.p} pts`, `from ${t.s.home.n} home game${t.s.home.n > 1 ? 's' : ''} · W${t.s.home.w} D${t.s.home.d} L${t.s.home.l}`]);
+  t = S.filter(x => x.s.away.n).sort((a, b) => ppg(b.s.away) - ppg(a.s.away) || b.s.away.n - a.s.away.n)[0];
+  if (t) cards.push(['Road warriors', t.name, `${t.s.away.p} pts`, `from ${t.s.away.n} away game${t.s.away.n > 1 ? 's' : ''} · W${t.s.away.w} D${t.s.away.d} L${t.s.away.l}`]);
+  t = top(x => x.s.cs);
+  if (t) cards.push(['Brick wall', t.name, String(t.s.cs), `clean sheet${t.s.cs > 1 ? 's' : ''}${jt(t)}`]);
+  t = top(x => x.s.all.d);
+  if (t) cards.push(['Draw specialists', t.name, String(t.s.all.d), `draw${t.s.all.d > 1 ? 's' : ''}${jt(t)}`]);
+  const timedTotal = played.reduce((n, r) => n + (r[7] || []).filter(e => e[0] > 1).length, 0);
+  const goalsTotal = played.reduce((n, r) => n + r[3] + r[4], 0);
+  t = top(x => x.s.late);
+  if (t) cards.push(['Late show', t.name, String(t.s.late), `goals from the 70th minute${jt(t)} · times known for ${timedTotal} of ${goalsTotal} goals`]);
+  return cards;
+}
+
+function renderTalkingPoints() {
+  const el = document.getElementById('quirky');
+  const cards = typeof view === 'number' ? talkingPoints(view) : [];
+  el.parentElement.hidden = !cards.length;
+  el.innerHTML = cards.map(([label, team, value, sub, link]) => {
+    const target = link || team;
+    const clickable = target in teamDiv;
+    const inner = `<div class="eyebrow">${esc(label)}</div><div class="v"><span class="club">${esc(team)}</span><span class="num">${esc(value)}</span></div><div class="sub">${esc(sub)}</div>`;
+    return clickable ? `<button type="button" class="panel stat tp" data-team="${esc(target)}">${inner}</button>` : `<div class="panel stat">${inner}</div>`;
+  }).join('');
+}
+
+function bar(label, n, max) {
+  const w = max ? Math.round(n / max * 100) : 0;
+  return `<div class="bar"><span class="bl">${label}</span><span class="bt"><i style="width:${w}%"></i></span><span class="bn">${n}</span></div>`;
+}
+
+function openTeam(name) {
+  track('team/' + slug(name), name);
+  const i = teamDiv[name], d = DATA.divisions[i];
+  const s = teamSummary(name);
+  const { rows } = buildTable(i);
+  const row = rows.find(r => r.name === name) || {};
+  const form = s.g.slice(-5).map(x => `<i class="${x.res}">${x.res}</i>`).join('');
+  const rec = r => `W${r.w} D${r.d} L${r.l}`;
+  const tiles = [
+    ['Record', rec(s.all), `${s.all.p} pts from ${s.all.n}`],
+    ['Home', rec(s.home), s.home.n ? `${s.home.p} pts` : 'No home games yet'],
+    ['Away', rec(s.away), s.away.n ? `${s.away.p} pts` : 'No away games yet'],
+    ['Scored', s.all.n ? (s.gf / s.all.n).toFixed(1) : '0', `per game · ${s.gf} total`],
+    ['Conceded', s.all.n ? (s.ga / s.all.n).toFixed(1) : '0', `per game · ${s.ga} total`],
+    ['Clean sheets', String(s.cs), `Failed to score in ${s.fts}`]
+  ];
+  const tileHtml = tiles.map(([l, v, sub]) => `<div class="panel stat"><div class="eyebrow">${l}</div><div class="num">${esc(v)}</div><div class="sub">${esc(sub)}</div></div>`).join('');
+  const hl = [];
+  if (s.bestWin) hl.push(`<li><b>Biggest win</b>${s.bestWin.home ? SCORE(name, s.bestWin.opp, s.bestWin.gf, s.bestWin.ga) : SCORE(s.bestWin.opp, name, s.bestWin.ga, s.bestWin.gf)}</li>`);
+  if (s.worstLoss) hl.push(`<li><b>Heaviest defeat</b>${s.worstLoss.home ? SCORE(name, s.worstLoss.opp, s.worstLoss.gf, s.worstLoss.ga) : SCORE(s.worstLoss.opp, name, s.worstLoss.ga, s.worstLoss.gf)}</li>`);
+  if (s.withHt.length) {
+    hl.push(`<li><b>Behind at half-time</b>${s.fromBehind.length ? `${s.fromBehind.length} time${s.fromBehind.length > 1 ? 's' : ''}, won ${s.comebackPts} pts back` : 'Never'}</li>`);
+    hl.push(`<li><b>Ahead at half-time</b>${s.fromAhead.length ? `${s.fromAhead.length} time${s.fromAhead.length > 1 ? 's' : ''}, dropped ${s.droppedPts} pts` : 'Never'}</li>`);
+    hl.push(`<li><b>Second-half goals</b>${s.secondHalf}</li>`);
+  }
+  const htNote = s.g.length ? `<p class="fine">Half-time score known for ${s.withHt.length} of ${s.g.length} league games.</p>` : '';
+  const timedOk = s.timed.filter(e => e[2] !== 'O');
+  let when;
+  if (timedOk.length >= 3) {
+    const b = [0, 0, 0, 0]; timedOk.forEach(e => b[Math.min(3, Math.floor((Math.min(e[0], 80) - 1) / 20))]++);
+    const mx = Math.max(...b);
+    when = `<div class="bars">${bar("1–20'", b[0], mx)}${bar("21–40'", b[1], mx)}${bar("41–60'", b[2], mx)}${bar("61–80'", b[3], mx)}</div>
+      <p class="fine">Based on ${timedOk.length} of ${s.goals} league goals with a time on Full-Time. Late goals (70'+): ${s.late}. Penalties: ${s.pens}.</p>`;
+  } else {
+    when = `<p class="fine">Goal times appear here once they're entered on FA Full-Time. ${timedOk.length ? `So far ${timedOk.length} of ${s.goals} goals have a time.` : ''}</p>`;
+  }
+  const cups = cupGames(name);
+  const allRes = s.g.map(x => ({ date: x.date, comp: x.comp.replace('U16 ', '') + ' league', txt: x.home ? SCORE(name, x.opp, x.gf, x.ga) : SCORE(x.opp, name, x.ga, x.gf), res: x.res, note: '' }))
+    .concat(cups.map(c => ({ date: c.date, comp: c.comp, txt: c.gf === null ? `${esc(c.home ? name : c.opp)} v ${esc(c.home ? c.opp : name)}` : (c.home ? SCORE(name, c.opp, c.gf, c.ga) : SCORE(c.opp, name, c.ga, c.gf)), res: cupOutcome(c), note: /AET|Pens/.test(c.note) ? c.note.replace(/,?\s*HT [\d-]+/, '') : '' })))
+    .sort((a, b) => toDate(b.date) - toDate(a.date));
+  const resHtml = allRes.map(r => `<li><span class="rp ${r.res || 'N'}">${r.res || '–'}</span><span class="rt">${r.txt}${r.note ? ` <em>(${esc(r.note)})</em>` : ''}</span><span class="rc">${esc(r.comp)} · ${toDate(r.date).getDate()} ${MONTHS[toDate(r.date).getMonth()].slice(0, 3)}</span></li>`).join('');
+  const up = upcoming(name).slice(0, 6);
+  const ppl = postponedFor(name).map(f => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="badge-pp">${esc(f[6])}</span><span class="rc">${dayLabel(f[0])}</span></li>`).join('');
+  const upHtml = (up.length || ppl) ? ppl + up.map(({ f, comp }) => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="rc">${esc(comp)} · ${dayLabel(f[0])}${f[1] ? ' · ' + esc(f[1]) : ''}</span>${f[4] ? `<span class="rc">${esc(venueName(f[4]))}</span>${mapLinks(f[4])}` : f[5] ? `<a href="${FT + f[5]}" target="_blank" rel="noopener">Venue details</a>` : ''}</li>`).join('') : '<li class="fine">No fixtures published yet</li>';
+  const comps = [...new Set(cups.map(c => c.comp).concat(upcoming(name).filter(u => !/^U16 /.test(u.comp)).map(u => u.comp)))];
+  const cupHtml = comps.map(cn => {
+    const next = upcoming(name).find(u => u.comp === cn);
+    const last = cups.filter(c => c.comp === cn).sort((a, b) => toDate(b.date) - toDate(a.date))[0];
+    let st;
+    if (next) st = `<span class="ok">Still in</span> · next ${esc(next.f[2] === name ? next.f[3] : next.f[2])}, ${dayLabel(next.f[0])}`;
+    else if (last && cupOutcome(last) === 'L') st = `<span class="out">Out</span> · lost to ${esc(last.opp)}`;
+    else if (last && cupOutcome(last) === 'W') st = `<span class="ok">Through</span> · awaiting next round`;
+    else st = 'No result yet';
+    return `<li><b>${esc(cn)}</b><span>${st}</span></li>`;
+  }).join('');
+  let h2h = '';
+  if (mine && mine !== name) {
+    const vs = s.g.filter(x => x.opp === mine).map(x => x.home ? SCORE(name, mine, x.gf, x.ga) : SCORE(mine, name, x.ga, x.gf))
+      .concat(cups.filter(c => c.opp === mine && c.gf !== null).map(c => c.home ? SCORE(name, mine, c.gf, c.ga) : SCORE(mine, name, c.ga, c.gf)));
+    const nextVs = upcoming(name).find(u => u.f[2] === mine || u.f[3] === mine);
+    h2h = `<section><h3>Versus ${esc(mine)}</h3><ul class="kv">${vs.length ? vs.map(v => `<li>${v}</li>`).join('') : '<li class="fine">Not played this season</li>'}${nextVs ? `<li class="fine">Next meeting: ${dayLabel(nextVs.f[0])}${nextVs.f[1] ? ', ' + esc(nextVs.f[1]) : ''}</li>` : ''}</ul></section>`;
+  }
+  const sh = document.getElementById('sheet');
+  document.documentElement.style.setProperty('--accent', DOTS[d.name.replace('U16 ', '')] || CUP_ACCENT);
+  sh.querySelector('.sheet-body').innerHTML = `
+    <header class="sh-head">
+      <div class="tm">${crest(name)}<div><div class="eyebrow">${esc(d.name)}</div><h2>${esc(name)}</h2></div></div>
+      <div class="sh-sum"><span class="num">${ordinal(row.pos || 0)}</span><span>${row.pts ?? 0} pts</span><span class="form">${form}</span><span class="run">${esc(runText(s.g))}</span></div>
+    </header>
+    ${partnerHtml(name)}
+    <div class="stats six">${tileHtml}</div>
+    <section><h3>Talking points</h3><ul class="kv">${hl.join('') || '<li class="fine">No league games yet</li>'}</ul>${htNote}</section>
+    <section><h3>When they score</h3>${when}</section>
+    <section><h3>Next up</h3><ul class="list">${upHtml}</ul>${calHtml(name)}</section>
+    ${comps.length ? `<section><h3>Cup runs</h3><ul class="kv">${cupHtml}</ul></section>` : ''}
+    ${h2h}
+    <section><h3>All results</h3><ul class="list">${resHtml || '<li class="fine">No results yet</li>'}</ul></section>`;
+  sh.hidden = false;
+  document.body.style.overflow = 'hidden';
+  sh.querySelector('.sheet-close').focus();
+}
+
+function closeTeam() {
+  const sh = document.getElementById('sheet');
+  sh.hidden = true;
+  document.body.style.overflow = '';
+  renderView();
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-team]');
+  if (b) { e.preventDefault(); openTeam(b.dataset.team); return; }
+  if (e.target.closest('.sheet-close') || e.target.id === 'sheet') closeTeam();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !document.getElementById('sheet').hidden) closeTeam(); });
+
+function renderView() {
+  renderChips();
+  const isCup = typeof view === 'string';
+  const comp = isCup ? DATA.cups[+view.slice(1)] : DATA.divisions[view];
+  const county = !!(isCup && comp.county);
+  applyAccent(isCup ? null : comp.name.replace('U16 ', ''));
+  document.getElementById('league-view').hidden = isCup;
+  document.getElementById('cup-alive').hidden = !isCup || county;
+  document.getElementById('title').textContent = comp.name;
+  track('view/' + slug(comp.name), comp.name);
+  const myTeam = mine ? `<button type="button" class="myteam" data-team="${esc(mine)}" data-track="my-team" aria-label="My team: ${esc(mine)}">${crest(mine)}My team</button>` : '<button type="button" class="myteam pick" data-pick>Pick your team</button>';
+  document.getElementById('secnav').innerHTML = myTeam + (isCup ? '' : '<a href="#table">Table</a>') + '<a href="#fixtures">Fixtures</a><a href="#results">Results</a>';
+  if (isCup) { if (!county) renderCup(comp); }
+  else { renderLatest(comp.results); renderPicks(); renderTable(); }
+  renderToday();
+  renderTalkingPoints();
+  renderFixtures(comp.fixtures, county);
+  renderResults(comp.results, county);
+}
+
+const sel = document.getElementById('team-pick');
+const teamOptions = () => (mine ? '' : '<option value="" selected disabled>Choose your team</option>') + DATA.divisions.map(d => `<optgroup label="${esc(d.name)}">${d.teams.map(t => t[0]).slice().sort().map(n => `<option${n === mine ? ' selected' : ''}>${esc(n)}</option>`).join('')}</optgroup>`).join('');
+sel.innerHTML = teamOptions();
+function setTeam(name) {
+  if (!(name in teamDiv)) return;
+  mine = name;
+  try { localStorage.setItem('touchline-team', mine); } catch (e) {}
+  sel.innerHTML = teamOptions();
+  view = teamDiv[mine];
+  track('picked/' + slug(mine), mine);
+  renderNext(); renderView();
+}
+sel.addEventListener('change', () => setTeam(sel.value));
+
+// First visit: ask who they follow instead of assuming a team.
+const welcome = document.getElementById('welcome');
+const wsel = document.getElementById('welcome-pick');
+function openWelcome() {
+  wsel.innerHTML = '<option value="" selected disabled>Choose your team</option>' + DATA.divisions.map(d => `<optgroup label="${esc(d.name)}">${d.teams.map(t => t[0]).slice().sort().map(n => `<option>${esc(n)}</option>`).join('')}</optgroup>`).join('');
+  welcome.hidden = false; document.body.style.overflow = 'hidden'; wsel.focus();
+}
+function closeWelcome(browsing) {
+  welcome.hidden = true; document.body.style.overflow = '';
+  if (browsing) { try { localStorage.setItem('touchline-browsing', '1'); } catch (e) {} track('just-browsing'); }
+}
+document.getElementById('welcome-go').addEventListener('click', () => { if (wsel.value) { setTeam(wsel.value); closeWelcome(false); } else wsel.focus(); });
+wsel.addEventListener('change', () => { document.getElementById('welcome-go').disabled = !wsel.value; });
+document.getElementById('welcome-skip').addEventListener('click', () => closeWelcome(true));
+document.addEventListener('click', e => { if (e.target.closest('[data-pick]')) { e.preventDefault(); openWelcome(); } });
+document.getElementById('updated').textContent = `Results to ${DATA.updated} · from FA Full-Time on ${DATA.fetched}`;
+offlineNote();
+
+renderNext();
+renderView();
+let seen = false; try { seen = !!localStorage.getItem('touchline-browsing'); } catch (e) {}
+if (!mine && !seen) openWelcome();
+</script>
+
+</body>
+</html>
