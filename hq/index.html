@@ -293,6 +293,14 @@ async function collect() {
   } catch (e) { h.siteUp = false; out.errors.push('Could not reach the public site.'); }
   try { h.calendarFeeds = (await (await fetch(SITE + '/cal/hashtag-united.ics', { cache: 'no-store' })).text()).startsWith('BEGIN:VCALENDAR'); } catch (e) { h.calendarFeeds = false; }
   out.health = h;
+  // Results updates: the home runner writes status.json to the repo's 'status' branch after every run.
+  try {
+    const st = await (await fetch('https://raw.githubusercontent.com/osbornmatthew-lgtm/Touchline/status/status.json?x=' + Date.now(), { cache: 'no-store' })).json();
+    out.runs = Object.entries(st.leagues || {}).map(([id, l]) => ({
+      name: `${id.toUpperCase()} results update${l.note ? ' (' + l.note + ')' : ''}`,
+      status: l.ok ? 'SUCCEEDED' : 'FAILED', at: l.ok ? (l.last_success || st.updated) : st.updated }));
+    for (const [id, l] of Object.entries(st.leagues || {})) if (!l.ok && l.error) out.errors.push(`${id.toUpperCase()} update: ${l.error}`);
+  } catch (e) { out.errors.push('Could not read the update status (status.json).'); }
   if (out.teams && h.partners) {
     const tv = Object.fromEntries(out.teams.map(t => [t.name, t.n]));
     out.partnerViews = h.partners.map(p => ({ ...p, n: tv[p.team] || 0 }));

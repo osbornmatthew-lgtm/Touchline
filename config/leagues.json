@@ -1,0 +1,78 @@
+{
+  "_help": "One entry per Touchline site. To add an EJA age group, copy the EJA entry, give it a new id and folder, change age, season, divisions, cups and brand, then run: python runner/touchline.py run --league <id> --dry-run. See runner/README.md.",
+  "site_base": "https://osbornmatthew-lgtm.github.io/Touchline/",
+  "fetch": {
+    "concurrency": 2,
+    "delay_ms": [600, 1200],
+    "retries": 2,
+    "run_limit_minutes": 10
+  },
+  "browser": {
+    "headless": true,
+    "channel": null
+  },
+  "match_day": {
+    "heartbeat_minutes": 45,
+    "goal_times_recheck_days": 0
+  },
+  "full_refresh": {
+    "goal_times_recheck_days": 14
+  },
+  "alerts": {
+    "stale_minutes": 45,
+    "window": ["10:00", "18:00"],
+    "ntfy_topic": null
+  },
+  "leagues": [
+    {
+      "id": "eja",
+      "enabled": true,
+      "code": "EJA",
+      "folder": "",
+      "age": "U16",
+      "season": "817991894",
+      "keep_side": false,
+      "divisions": [
+        ["U16 Black", "1_626466325", 71055166],
+        ["U16 Blue", "1_940550859", 833400234],
+        ["U16 Brown", "1_540512685", 362745292],
+        ["U16 Green", "1_467206401", 610727353],
+        ["U16 Purple", "1_706654984", 786917750],
+        ["U16 Red", "1_882985552", 209907016],
+        ["U16 Yellow", "1_132116272", 66673950]
+      ],
+      "cups": [
+        ["League Cup", "League Cup U16", ""],
+        ["RT Litho Cup", "RT litho", "i"]
+      ],
+      "desc": "EJA Under 16 league tables, results, fixtures and stats.",
+      "template": "native",
+      "assets": ""
+    },
+    {
+      "id": "bcfa",
+      "enabled": true,
+      "code": "BCFA",
+      "folder": "bcfa",
+      "age": "U13",
+      "season": "486141579",
+      "keep_side": true,
+      "divisions": [
+        ["Division 3", "1_420434328", 80469024]
+      ],
+      "cups": [],
+      "desc": "BCFA Youth League Under 13 Division 3 tables, results, fixtures and stats.",
+      "template": "brand",
+      "assets": "bcfa/",
+      "brand": {
+        "bar": "#3DD9FF",
+        "mine": "#12262C",
+        "eyebrow": "BCFA Youth League · Under 13 · 2026–27",
+        "eyebrow2": "BCFA Youth League · Under 13",
+        "dots": {"Division 3": "#3DD9FF"},
+        "venues": {},
+        "sponsors": {}
+      }
+    }
+  ]
+}

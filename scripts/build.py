@@ -9,12 +9,19 @@ LEAGUES = {
     'eja': {'code': 'EJA', 'desc': 'EJA Under 16 league tables, results, fixtures and stats.', 'site': 'https://osbornmatthew-lgtm.github.io/Touchline/', 'assets': ''},
     'bcfa': {'code': 'BCFA', 'desc': 'BCFA Youth League Under 13 Division 3 tables, results, fixtures and stats.', 'site': 'https://osbornmatthew-lgtm.github.io/Touchline/bcfa/', 'assets': 'bcfa/'},
 }
+# config/leagues.json is the list of leagues; the two above are only a fallback when this script is run on its own.
+_cfg = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'config', 'leagues.json')
+if os.path.exists(_cfg):
+    _c = json.load(open(_cfg, encoding='utf-8'))
+    for _l in _c['leagues']:
+        LEAGUES[_l['id']] = {'code': _l['code'], 'desc': _l['desc'], 'assets': _l.get('assets', ''),
+                             'site': _c['site_base'] + (_l['folder'] + '/' if _l['folder'] else '')}
 LEAGUE = sys.argv[2] if len(sys.argv) > 2 else 'eja'  # also the prefix so several league sites can share one counter
 LG = LEAGUES[LEAGUE]
 NAME = 'Touchline ' + LG['code']
 out = os.path.join(os.path.dirname(src_path), 'touchline-site')
 os.makedirs(out, exist_ok=True)
-src = open(src_path).read()
+src = open(src_path, encoding='utf-8').read()
 head = """<!doctype html>
 <html lang="en">
 <head>
@@ -39,7 +46,7 @@ head = head.replace('%DESC%', LG['desc']).replace('%NAME%', NAME).replace('%SITE
 body = src.replace('<title>Touchline U16</title>', f'<title>{NAME}</title>', 1).replace('<title>Touchline EJA</title>', f'<title>{NAME}</title>', 1)
 i = body.index('<header class="top">')
 head = head.replace('%GC%', f'<script>window.goatcounter = {{ path: p => "/{LEAGUE}" + p }};</script>\n<script data-goatcounter="https://{GOATCOUNTER}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>\n' if GOATCOUNTER else '')
-open(os.path.join(out, 'index.html'), 'w').write(head + body[:i] + '</head>\n<body>\n' + body[i:] + '\n</body>\n</html>\n')
+open(os.path.join(out, 'index.html'), 'w', encoding='utf-8', newline='').write(head + body[:i] + '</head>\n<body>\n' + body[i:] + '\n</body>\n</html>\n')
 # Brand icons from the repo's assets folder (next to this script's repo, or fetched from GitHub)
 import urllib.request
 ASSETS = 'https://raw.githubusercontent.com/osbornmatthew-lgtm/Touchline/main/assets/'
@@ -47,15 +54,17 @@ here = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'assets', 
 ASSETS += LG['assets']
 for src_name, name in [('app-icon-512.png', 'icon-512.png'), ('app-icon-192.png', 'icon-192.png'), ('app-icon-180.png', 'apple-touch-icon.png'), ('favicon-32.png', 'favicon-32.png'), ('app-icon-1024.png', 'og-image.png')]:
     local = os.path.join(here, src_name)
+    if not os.path.exists(local) and os.path.exists(os.path.join(here, '..', src_name)) and LG['assets']:
+        local = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'assets', src_name)  # no league icons yet: shared ones
     dest = os.path.join(out, name)
     if os.path.exists(local):
         open(dest, 'wb').write(open(local, 'rb').read())
     else:
         urllib.request.urlretrieve(ASSETS + src_name, dest)
-json.dump({"name": NAME, "short_name": NAME, "start_url": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}, open(os.path.join(out, 'manifest.json'), 'w'))
+json.dump({"name": NAME, "short_name": NAME, "start_url": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}, open(os.path.join(out, 'manifest.json'), 'w', encoding='utf-8', newline=''))
 
 # Offline: network first, fall back to the last copy after 3.5s or with no signal.
-open(os.path.join(out, 'sw.js'), 'w').write('''const C = 'touchline-' + '''+repr(LEAGUE)+''' + '-v3';
+open(os.path.join(out, 'sw.js'), 'w', encoding='utf-8', newline='').write('''const C = 'touchline-' + '''+repr(LEAGUE)+''' + '-v3';
 self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(C).then(c => c.addAll(['./', 'manifest.json', 'icon-192.png', 'apple-touch-icon.png']))); });
 self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', e => {
@@ -71,8 +80,8 @@ self.addEventListener('fetch', e => {
   }));
 });
 ''')
-open(os.path.join(out, '.nojekyll'), 'w').write('')
-open(os.path.join(out, '_headers'), 'w').write('''/*
+open(os.path.join(out, '.nojekyll'), 'w', newline='').write('')
+open(os.path.join(out, '_headers'), 'w', encoding='utf-8', newline='').write('''/*
   Access-Control-Allow-Origin: https://touchline-hq.netlify.app
 /cal/*
   Content-Type: text/calendar; charset=utf-8
@@ -125,7 +134,7 @@ for team in teams:
         if f[5]: L.append('URL:https://fulltime.thefa.com/displayFixture.html?id=' + str(f[5]))
         L.append('END:VEVENT')
     L.append('END:VCALENDAR')
-    open(os.path.join(out, 'cal', slug(team) + '.ics'), 'w', newline='').write('\r\n'.join(fold(x) for x in L) + '\r\n')
+    open(os.path.join(out, 'cal', slug(team) + '.ics'), 'w', encoding='utf-8', newline='').write('\r\n'.join(fold(x) for x in L) + '\r\n')
 
 z = os.path.join(os.path.dirname(src_path), 'touchline-site.zip')
 with zipfile.ZipFile(z, 'w') as zf:
