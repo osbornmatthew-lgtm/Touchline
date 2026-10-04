@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Touchline BCFA//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:BSC FC United (Touchline)
+X-WR-CALNAME:BSC (Touchline)
 X-WR-TIMEZONE:Europe/London
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
@@ -26,164 +26,178 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30722248@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v Aveley United
 DTSTART;TZID=Europe/London:20261004T100000
 DTEND;TZID=Europe/London:20261004T114000
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722248
 END:VEVENT
 BEGIN:VEVENT
 UID:30722253@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v BSC
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722253
 END:VEVENT
 BEGIN:VEVENT
 UID:30722258@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v Essex Minors (Hornchurch) Merlins
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v Essex Minors (Hornchurch)
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722258
 END:VEVENT
 BEGIN:VEVENT
 UID:30722268@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v Perry Street Blacks
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v Perry Street
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722268
 END:VEVENT
 BEGIN:VEVENT
 UID:30722275@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:CFC Rainham Lions v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:CFC Rainham v BSC
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-LOCATION:Spring Farm Park
+LOCATION:Spring Farm Park\, Spring Farm Park Lambs Lane North\, Rainham RM
+ 13 9SX
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722275
 END:VEVENT
 BEGIN:VEVENT
 UID:30722278@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v CFC Rainham Lions
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v CFC Rainham
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722278
 END:VEVENT
 BEGIN:VEVENT
 UID:30722282@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v BSC
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722282
 END:VEVENT
 BEGIN:VEVENT
 UID:30722287@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v Hannakins Farm Purple
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v Hannakins Farm
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722287
 END:VEVENT
 BEGIN:VEVENT
 UID:30722293@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v Risden Wood Warriors
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v Risden Wood
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722293
 END:VEVENT
 BEGIN:VEVENT
 UID:30722298@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v BSC
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722298
 END:VEVENT
 BEGIN:VEVENT
 UID:30722303@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v Tilbury
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722303
 END:VEVENT
 BEGIN:VEVENT
 UID:30722309@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Essex Minors (Hornchurch) Merlins v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:Essex Minors (Hornchurch) v BSC
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-LOCATION:Bretons Outdoor Recreation Centre
+LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
+ LP
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722309
 END:VEVENT
 BEGIN:VEVENT
 UID:30722313@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v Loughton Town Greens
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v Loughton Town
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722313
 END:VEVENT
 BEGIN:VEVENT
 UID:30722320@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Perry Street Blacks v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:Perry Street v BSC
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
-LOCATION:Barleylands Farm (Site 1b)
+LOCATION:Barleylands Farm (Site 1b)\, Southend Road\, Billericay\, Essex C
+ M11 2UL
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722320
 END:VEVENT
 BEGIN:VEVENT
 UID:30722264@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Loughton Town Greens v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:Loughton Town v BSC
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
-LOCATION:Davenant Foundation School
+LOCATION:Davenant Foundation School\, Chester Road\, Loughton\, Essex IG10
+  2LD
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722264

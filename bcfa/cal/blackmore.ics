@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Touchline BCFA//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Blackmore Blue (Touchline)
+X-WR-CALNAME:Blackmore (Touchline)
 X-WR-TIMEZONE:Europe/London
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
@@ -26,175 +26,190 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30722247@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v Tilbury
 DTSTART;TZID=Europe/London:20261004T103000
 DTEND;TZID=Europe/London:20261004T121000
-LOCATION:Blackmore Sports and Social Club
+LOCATION:Blackmore Sports and Social Club\, Blackmore Village Hall\, Recre
+ ation Ground Nine Ashes Road\, Blackmore\, Essex CM4 0QW
 DESCRIPTION:Division 3 league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722247
 END:VEVENT
 BEGIN:VEVENT
 UID:30722267@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v CFC Rainham Lions
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v CFC Rainham
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722267
 END:VEVENT
 BEGIN:VEVENT
 UID:30722257@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v Loughton Town Greens
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v Loughton Town
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722257
 END:VEVENT
 BEGIN:VEVENT
 UID:30722276@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Hannakins Farm Purple v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:Hannakins Farm v Blackmore
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-LOCATION:Hannakins Farm Community Centre
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722276
 END:VEVENT
 BEGIN:VEVENT
 UID:30722277@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v Hannakins Farm Purple
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v Hannakins Farm
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722277
 END:VEVENT
 BEGIN:VEVENT
 UID:30722282@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v BSC
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722282
 END:VEVENT
 BEGIN:VEVENT
 UID:30722288@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Risden Wood Warriors v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:Risden Wood v Blackmore
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-LOCATION:Long Ley Recreation Ground
+LOCATION:Long Ley Recreation Ground\, Long Ley Playground Monkswick Road\,
+  Harlow\, Essex CM20 3NU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722288
 END:VEVENT
 BEGIN:VEVENT
 UID:30722292@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v Aveley United
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722292
 END:VEVENT
 BEGIN:VEVENT
 UID:30722299@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v Blackmore
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722299
 END:VEVENT
 BEGIN:VEVENT
 UID:30722302@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v Essex Minors (Hornchurch) Merlins
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v Essex Minors (Hornchurch)
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722302
 END:VEVENT
 BEGIN:VEVENT
 UID:30722310@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Loughton Town Greens v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:Loughton Town v Blackmore
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-LOCATION:Davenant Foundation School
+LOCATION:Davenant Foundation School\, Chester Road\, Loughton\, Essex IG10
+  2LD
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722310
 END:VEVENT
 BEGIN:VEVENT
 UID:30722312@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v Perry Street Blacks
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v Perry Street
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722312
 END:VEVENT
 BEGIN:VEVENT
 UID:30722321@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:CFC Rainham Lions v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:CFC Rainham v Blackmore
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
-LOCATION:Spring Farm Park
+LOCATION:Spring Farm Park\, Spring Farm Park Lambs Lane North\, Rainham RM
+ 13 9SX
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722321
 END:VEVENT
 BEGIN:VEVENT
 UID:30722254@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Essex Minors (Hornchurch) Merlins v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:Essex Minors (Hornchurch) v Blackmore
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
-LOCATION:Bretons Outdoor Recreation Centre
+LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
+ LP
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722254
 END:VEVENT
 BEGIN:VEVENT
 UID:30722265@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Perry Street Blacks v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:Perry Street v Blackmore
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
-LOCATION:Barleylands Farm (Site 1b)
+LOCATION:Barleylands Farm (Site 1b)\, Southend Road\, Billericay\, Essex C
+ M11 2UL
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722265
 END:VEVENT
 BEGIN:VEVENT
 UID:30977879@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v Blackmore
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30977879

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Touchline BCFA//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Tilbury Titans (Touchline)
+X-WR-CALNAME:Tilbury (Touchline)
 X-WR-TIMEZONE:Europe/London
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
@@ -26,172 +26,180 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30722247@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v Tilbury
 DTSTART;TZID=Europe/London:20261004T103000
 DTEND;TZID=Europe/London:20261004T121000
-LOCATION:Blackmore Sports and Social Club
+LOCATION:Blackmore Sports and Social Club\, Blackmore Village Hall\, Recre
+ ation Ground Nine Ashes Road\, Blackmore\, Essex CM4 0QW
 DESCRIPTION:Division 3 league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722247
 END:VEVENT
 BEGIN:VEVENT
 UID:30722253@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v BSC
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722253
 END:VEVENT
 BEGIN:VEVENT
 UID:30722259@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Risden Wood Warriors v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:Risden Wood v Tilbury
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-LOCATION:Long Ley Recreation Ground
+LOCATION:Long Ley Recreation Ground\, Long Ley Playground Monkswick Road\,
+  Harlow\, Essex CM20 3NU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722259
 END:VEVENT
 BEGIN:VEVENT
 UID:30722262@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v Aveley United
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722262
 END:VEVENT
 BEGIN:VEVENT
 UID:30722271@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Hannakins Farm Purple v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:Hannakins Farm v Tilbury
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-LOCATION:Hannakins Farm Community Centre
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722271
 END:VEVENT
 BEGIN:VEVENT
 UID:30722272@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Essex Minors (Hornchurch) Merlins v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:Essex Minors (Hornchurch) v Tilbury
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-LOCATION:Bretons Outdoor Recreation Centre
+LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
+ LP
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722272
 END:VEVENT
 BEGIN:VEVENT
 UID:30722281@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v Essex Minors (Hornchurch) Merlins
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v Essex Minors (Hornchurch)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722281
 END:VEVENT
 BEGIN:VEVENT
 UID:30722283@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Loughton Town Greens v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:Loughton Town v Tilbury
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-LOCATION:Davenant Foundation School
+LOCATION:Davenant Foundation School\, Chester Road\, Loughton\, Essex IG10
+  2LD
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722283
 END:VEVENT
 BEGIN:VEVENT
 UID:30722290@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v Perry Street Blacks
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v Perry Street
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722290
 END:VEVENT
 BEGIN:VEVENT
 UID:30722295@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:CFC Rainham Lions v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:CFC Rainham v Tilbury
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-LOCATION:Spring Farm Park
+LOCATION:Spring Farm Park\, Spring Farm Park Lambs Lane North\, Rainham RM
+ 13 9SX
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722295
 END:VEVENT
 BEGIN:VEVENT
 UID:30722299@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v Blackmore
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722299
 END:VEVENT
 BEGIN:VEVENT
 UID:30722303@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v Tilbury
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722303
 END:VEVENT
 BEGIN:VEVENT
 UID:30722308@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v Risden Wood Warriors
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v Risden Wood
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722308
 END:VEVENT
 BEGIN:VEVENT
 UID:30722315@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v Tilbury
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722315
 END:VEVENT
 BEGIN:VEVENT
 UID:30722317@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v Hannakins Farm Purple
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v Hannakins Farm
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722317
 END:VEVENT
 BEGIN:VEVENT
 UID:30554813@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Brandon Groves Rockets v Tilbury Titans (Essex U13 Trophy)
+DTSTAMP:20261004T140906Z
+SUMMARY:Brandon Groves v Tilbury (Essex U13 Trophy)
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 DESCRIPTION:Essex U13 Trophy. Kick-off time not published yet. Check FA Fu

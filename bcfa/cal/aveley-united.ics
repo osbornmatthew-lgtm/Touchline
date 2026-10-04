@@ -26,208 +26,225 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30722248@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:BSC FC United v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:BSC v Aveley United
 DTSTART;TZID=Europe/London:20261004T100000
 DTEND;TZID=Europe/London:20261004T114000
-LOCATION:Friedberg Playing Fields
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
 DESCRIPTION:Division 3 league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722248
 END:VEVENT
 BEGIN:VEVENT
 UID:30722262@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Tilbury Titans v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:Tilbury v Aveley United
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-LOCATION:The Gateway Academy
+LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722262
 END:VEVENT
 BEGIN:VEVENT
 UID:30722270@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v Essex Minors (Hornchurch) Merlins
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v Essex Minors (Hornchurch)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722270
 END:VEVENT
 BEGIN:VEVENT
 UID:30722273@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Loughton Town Greens v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:Loughton Town v Aveley United
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-LOCATION:Davenant Foundation School
+LOCATION:Davenant Foundation School\, Chester Road\, Loughton\, Essex IG10
+  2LD
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722273
 END:VEVENT
 BEGIN:VEVENT
 UID:30722280@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v Loughton Town Greens
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v Loughton Town
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722280
 END:VEVENT
 BEGIN:VEVENT
 UID:30722284@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Perry Street Blacks v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:Perry Street v Aveley United
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-LOCATION:Barleylands Farm (Site 1b)
+LOCATION:Barleylands Farm (Site 1b)\, Southend Road\, Billericay\, Essex C
+ M11 2UL
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722284
 END:VEVENT
 BEGIN:VEVENT
 UID:30722289@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v CFC Rainham Lions
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v CFC Rainham
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722289
 END:VEVENT
 BEGIN:VEVENT
 UID:30722292@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Blackmore Blue v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:Blackmore v Aveley United
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722292
 END:VEVENT
 BEGIN:VEVENT
 UID:30722298@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v BSC FC United
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v BSC
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722298
 END:VEVENT
 BEGIN:VEVENT
 UID:30722304@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Risden Wood Warriors v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:Risden Wood v Aveley United
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-LOCATION:Long Ley Recreation Ground
+LOCATION:Long Ley Recreation Ground\, Long Ley Playground Monkswick Road\,
+  Harlow\, Essex CM20 3NU
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722304
 END:VEVENT
 BEGIN:VEVENT
 UID:30722307@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v Hannakins Farm Purple
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v Hannakins Farm
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722307
 END:VEVENT
 BEGIN:VEVENT
 UID:30722315@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v Tilbury Titans
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v Tilbury
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722315
 END:VEVENT
 BEGIN:VEVENT
 UID:30722318@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Essex Minors (Hornchurch) Merlins v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:Essex Minors (Hornchurch) v Aveley United
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
-LOCATION:Bretons Outdoor Recreation Centre
+LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
+ LP
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722318
 END:VEVENT
 BEGIN:VEVENT
 UID:30722261@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Hannakins Farm Purple v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:Hannakins Farm v Aveley United
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
-LOCATION:Hannakins Farm Community Centre
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722261
 END:VEVENT
 BEGIN:VEVENT
 UID:30977875@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v Perry Street Blacks
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v Perry Street
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30977875
 END:VEVENT
 BEGIN:VEVENT
 UID:30722252@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v Risden Wood Warriors
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v Risden Wood
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722252
 END:VEVENT
 BEGIN:VEVENT
 UID:30977877@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:CFC Rainham Lions v Aveley United
+DTSTAMP:20261004T140906Z
+SUMMARY:CFC Rainham v Aveley United
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
-LOCATION:Spring Farm Park
+LOCATION:Spring Farm Park\, Spring Farm Park Lambs Lane North\, Rainham RM
+ 13 9SX
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30977877
 END:VEVENT
 BEGIN:VEVENT
 UID:30977879@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Aveley United v Blackmore Blue
+DTSTAMP:20261004T140906Z
+SUMMARY:Aveley United v Blackmore
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-LOCATION:Chadwell Recreation Ground
+LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
+ Mary RM16 4UZ
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30977879
 END:VEVENT
 BEGIN:VEVENT
 UID:30554802@touchline-bcfa
-DTSTAMP:20261004T073647Z
-SUMMARY:Thundersley Rovers Leopards v Aveley United (Essex U13 Trophy)
+DTSTAMP:20261004T140906Z
+SUMMARY:Thundersley Rovers v Aveley United (Essex U13 Trophy)
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-LOCATION:Thundersley Common
+LOCATION:Thundersley Common\, Goodwood Close\, Benfleet\, Essex SS7 3SA
 DESCRIPTION:Essex U13 Trophy. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30554802
