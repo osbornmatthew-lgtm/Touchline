@@ -7,7 +7,9 @@ const S = CFG.S || '817991894';
 const P = h => new DOMParser().parseFromString(h, 'text/html');
 const get = async u => P(await fetch(u).then(r => r.text()));
 const txt = e => e ? e.innerText.replace(/\s+/g, ' ').trim() : '';
-const clean = n => { let s = n.replace(/\s+U1[0-9]\b.*$/, '').replace(/\s*\((Youth|Ltd|Youth Development)\)/g, '').trim(); let p; do { p = s; s = s.replace(/\s+(Youth|Y|FC|F\.C\.?|Community|Academy)$/, '').trim(); } while (s !== p); return s; };
+// EJA names end with the age group ("Aveley U16"); other leagues name the side after it ("Blackmore Youth U13 Blue"), so keep that.
+const KEEP_SIDE = CFG.KEEP_SIDE ?? !!CFG.DIVS;
+const clean = n => { let s = KEEP_SIDE ? n.replace(/\s+(?:Youth\s+|Y\s+)?U1[0-9]\b/, '') : n.replace(/\s+U1[0-9]\b.*$/, '').replace(/\s*\((Youth|Ltd|Youth Development)\)/g, '').trim(); let p; do { p = s; s = s.replace(/\s+(Youth|Y|FC|F\.C\.?|Community|Academy)$/, '').trim(); } while (s !== p); return s; };
 const tc = v => v.toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\bFc\b/g, 'FC').replace(/\bAnd\b/g, 'and').replace(/\bFdc\b/g, 'FDC').replace(/\bFa\b/g, 'FA').replace(/'S\b/g, "'s").replace(/\.Com\b/g, '.com').replace(/\bTechsoc\b/g, 'TechSoc');
 const venue = v => (!v || /\bU1[0-9]\b|#\d/.test(v)) ? null : tc(v);
 const fid = el => { const a = el && (el.querySelector('a[href*="displayFixture"]') || el.querySelector('a[href*="id="]')); return a ? +(((a.getAttribute('href') || '').match(/id=(\d+)/) || [])[1]) || null : null; };
