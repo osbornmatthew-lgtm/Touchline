@@ -398,7 +398,10 @@ function mapLinks(venue) {
 }
 const BADGES = ['#C9D6E3','#E8C9A6','#BFD9C2','#D9C2DE','#E6D79A','#A9CFE0','#E3B7B0','#C8C8A0'];
 const DOTS = { Black:'#E8F1FF', Blue:'#2EC5FF', Brown:'#FF9F43', Green:'#39FF88', Purple:'#C77DFF', Red:'#FF3B5C', Yellow:'#FFE600' };
-const CUP_ACCENT = '#C9F24A';
+const BRAND = { code: 'EJA', bar: '#C9F24A' };
+// Saved settings are per league (EJA keeps the original keys).
+const LSK = BRAND.code === 'EJA' ? 'touchline' : 'touchline-' + BRAND.code.toLowerCase();
+const CUP_ACCENT = BRAND.bar;
 // ---- match day, opponent preview, postponements, row details, share images, venue pins ----
 const pad2 = n => String(n).padStart(2, '0');
 const ddmm = d => pad2(d.getDate()) + '/' + pad2(d.getMonth() + 1);
@@ -485,9 +488,9 @@ async function drawCard(kind) {
   const D = "'Barlow Condensed', 'Arial Narrow', sans-serif", B = "'IBM Plex Sans', system-ui, sans-serif";
   const acc = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#C9F24A';
   x.fillStyle = '#0E1217'; x.fillRect(0, 0, W, H);
-  x.save(); x.translate(72, 64); x.scale(0.62, 0.62); x.fillStyle = '#FFFFFF'; x.fill(MARK, 'evenodd'); x.fillStyle = '#C9F24A'; x.fill(BAR); x.restore();
+  x.save(); x.translate(72, 64); x.scale(0.62, 0.62); x.fillStyle = '#FFFFFF'; x.fill(MARK, 'evenodd'); x.fillStyle = BRAND.bar; x.fill(BAR); x.restore();
   x.fillStyle = '#FFFFFF'; x.font = `800 52px ${D}`; x.textBaseline = 'alphabetic'; x.fillText('TOUCHLINE', 140, 110);
-  const tw = x.measureText('TOUCHLINE').width; x.fillStyle = '#9AA4B0'; x.fillRect(140 + tw + 16, 66, 3, 48); x.font = `600 46px ${D}`; x.fillText('EJA', 140 + tw + 34, 110);
+  const tw = x.measureText('TOUCHLINE').width; x.fillStyle = '#9AA4B0'; x.fillRect(140 + tw + 16, 66, 3, 48); x.font = `600 46px ${D}`; x.fillText(BRAND.code, 140 + tw + 34, 110);
   const d = DATA.divisions[view];
   let title, sub, rows = [];
   if (kind === 'table') {
@@ -595,7 +598,7 @@ const today = new Date(); today.setHours(0, 0, 0, 0);
 const teamDiv = {};
 DATA.divisions.forEach((d, i) => d.teams.forEach(t => teamDiv[t[0]] = i));
 let mine = null;
-try { const s = localStorage.getItem('touchline-team'); if (s && s in teamDiv) mine = s; } catch (e) {}
+try { const s = localStorage.getItem(LSK + '-team'); if (s && s in teamDiv) mine = s; } catch (e) {}
 let view = mine ? teamDiv[mine] : 0;
 const picks = {};
 
@@ -973,7 +976,7 @@ function openTeam(name) {
   const up = upcoming(name).slice(0, 6);
   const ppl = postponedFor(name).map(f => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="badge-pp">${esc(f[6])}</span><span class="rc">${dayLabel(f[0])}</span></li>`).join('');
   const upHtml = (up.length || ppl) ? ppl + up.map(({ f, comp }) => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="rc">${esc(comp)} · ${dayLabel(f[0])}${f[1] ? ' · ' + esc(f[1]) : ''}</span>${f[4] ? `<span class="rc">${esc(venueName(f[4]))}</span>${mapLinks(f[4])}` : f[5] ? `<a href="${FT + f[5]}" target="_blank" rel="noopener">Venue details</a>` : ''}</li>`).join('') : '<li class="fine">No fixtures published yet</li>';
-  const comps = [...new Set(cups.map(c => c.comp).concat(upcoming(name).filter(u => !/^U16 /.test(u.comp)).map(u => u.comp)))];
+  const comps = [...new Set(cups.map(c => c.comp).concat(upcoming(name).filter(u => !DATA.divisions.some(dd => dd.name === u.comp)).map(u => u.comp)))];
   const cupHtml = comps.map(cn => {
     const next = upcoming(name).find(u => u.comp === cn);
     const last = cups.filter(c => c.comp === cn).sort((a, b) => toDate(b.date) - toDate(a.date))[0];
@@ -1050,7 +1053,7 @@ sel.innerHTML = teamOptions();
 function setTeam(name) {
   if (!(name in teamDiv)) return;
   mine = name;
-  try { localStorage.setItem('touchline-team', mine); } catch (e) {}
+  try { localStorage.setItem(LSK + '-team', mine); } catch (e) {}
   sel.innerHTML = teamOptions();
   view = teamDiv[mine];
   track('picked/' + slug(mine), mine);
@@ -1067,7 +1070,7 @@ function openWelcome() {
 }
 function closeWelcome(browsing) {
   welcome.hidden = true; document.body.style.overflow = '';
-  if (browsing) { try { localStorage.setItem('touchline-browsing', '1'); } catch (e) {} track('just-browsing'); }
+  if (browsing) { try { localStorage.setItem(LSK + '-browsing', '1'); } catch (e) {} track('just-browsing'); }
 }
 document.getElementById('welcome-go').addEventListener('click', () => { if (wsel.value) { setTeam(wsel.value); closeWelcome(false); } else wsel.focus(); });
 wsel.addEventListener('change', () => { document.getElementById('welcome-go').disabled = !wsel.value; });
@@ -1078,7 +1081,7 @@ offlineNote();
 
 renderNext();
 renderView();
-let seen = false; try { seen = !!localStorage.getItem('touchline-browsing'); } catch (e) {}
+let seen = false; try { seen = !!localStorage.getItem(LSK + '-browsing'); } catch (e) {}
 if (!mine && !seen) openWelcome();
 </script>
 
