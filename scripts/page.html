@@ -1,21 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="EJA Under 16 league tables, results, fixtures and stats.">
-<meta property="og:title" content="Touchline EJA">
-<meta property="og:description" content="EJA Under 16 league tables, results, fixtures and stats.">
-<meta property="og:image" content="icon-512.png">
-<meta name="theme-color" content="#0E1217">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Touchline">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="icon" href="icon-192.png">
-<link rel="manifest" href="manifest.json">
-<style>body{margin:0}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:#0E1217}</style>
-<title>Touchline EJA</title>
+<title>Touchline U16</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
@@ -254,8 +237,6 @@ tr[data-row]{cursor:pointer}
 .bl{color:var(--muted)}
 </style>
 
-</head>
-<body>
 <header class="top">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Touchline EJA"><svg class="mark" viewBox="12 6 78 92" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M12 6H36L90 80H12Z M24 18H29.9L66.4 68H24Z"/><path fill="#C9F24A" d="M12 86H90V98H12Z"/></svg><b>Touchline</b><span>EJA</span></a>
@@ -378,8 +359,8 @@ tr[data-row]{cursor:pointer}
 
 <script>
 const DATA = /*DATA*/;
-DATA.updated = '/*UPDATED*/';
-DATA.fetched = '/*FETCHED*/';
+DATA.updated = 'Sunday 27 September 2026';
+DATA.fetched = 'Saturday 3 October';
 
 const FT = 'https://fulltime.thefa.com/displayFixture.html?id=';
 // Directions: Google Maps (opens the app where installed) plus Waze. Full-Time only gives the pitch name, so add the county to help the search.
@@ -1080,6 +1061,3 @@ renderView();
 let seen = false; try { seen = !!localStorage.getItem(LSK + '-browsing'); } catch (e) {}
 if (!mine && !seen) openWelcome();
 </script>
-
-</body>
-</html>
