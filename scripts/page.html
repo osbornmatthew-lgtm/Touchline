@@ -233,6 +233,9 @@ a.partner:hover{border-color:var(--accent)}
 .prow .pn{font-size:12px;color:var(--muted);text-align:right}
 .prow .pv{font-family:var(--display);font-weight:700;font-size:20px;text-align:right;color:var(--fg)}
 @media (max-width:640px){ .prow{grid-template-columns:24px minmax(0,1fr) 30px 36px 30px;gap:6px;padding:6px 12px} .prow .pt .crest{display:none} .prow .pn .w{display:none} }
+.projtoggle{display:block;min-height:44px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer;width:100%}
+.projsum{font-size:15px;color:var(--fg-2)}
+.projsum b{color:var(--fg)}
 .pfoot{margin:0;padding:10px 14px 14px;font-size:12px;color:var(--muted);border-top:1px solid var(--line)}
 /* what's at stake, round-up */
 .stake{border-top:1px solid var(--line);padding:12px 18px;display:flex;flex-direction:column;gap:4px;font-size:14px;color:var(--fg-2)}
@@ -348,7 +351,9 @@ tr[data-row]{cursor:pointer}
 
     <section aria-labelledby="proj-h" id="proj-sec" hidden>
       <div class="sec-head"><h2 id="proj-h">Season predictor</h2><span class="note" id="proj-note"></span><button type="button" class="sharebtn" data-share="projection">Share</button></div>
-      <div class="panel" id="proj"></div>
+      <div class="projsum" id="proj-sum"></div>
+      <button type="button" class="predtoggle projtoggle" id="projtoggle" aria-expanded="false" aria-controls="proj">Show predicted final table</button>
+      <div class="panel" id="proj" hidden></div>
     </section>
 
     <section aria-labelledby="latest-h">
@@ -826,6 +831,10 @@ function renderSeason() {
   sec.hidden = !pj.list.some(x => x.played);
   if (sec.hidden) return;
   document.getElementById('proj-note').textContent = `Final table after ${pj.games} games on current form${pj.early ? ' · early days' : ''}`;
+  const me = pj.list.find(x => x.name === mine), top = pj.list[0];
+  document.getElementById('proj-sum').innerHTML = me
+    ? `<b>${esc(mine)}</b>: predicted <b>${ordinal(me.pos)}</b> on about ${me.round} pts (now ${ordinal(me.now)}). Predicted winners: <b>${esc(top.name)}</b>.`
+    : `Predicted winners: <b>${esc(top.name)}</b> on about ${top.round} pts.`;
   document.getElementById('proj').innerHTML = pj.list.map(x => {
     const mv = x.now - x.pos, arrow = mv > 0 ? `<span class="up">▲${mv}</span>` : mv < 0 ? `<span class="down">▼${-mv}</span>` : '<span class="same">–</span>';
     return `<div class="prow ${x.name === mine ? 'mine' : ''}"><span class="pp">${x.pos}</span><span class="pt">${crest(x.name)}<button type="button" class="teambtn" data-team="${esc(x.name)}">${esc(x.name)}</button></span><span class="pm">${arrow}</span><span class="pn"><span class="w">Now </span>${ordinal(x.now)}</span><span class="pv">${x.round}</span></div>`;
@@ -1299,6 +1308,11 @@ function renderView() {
   renderResults(comp.results, county);
 }
 
+document.getElementById('projtoggle').addEventListener('click', e => {
+  const p = document.getElementById('proj'), open = p.hidden;
+  p.hidden = !open; e.currentTarget.setAttribute('aria-expanded', open); e.currentTarget.textContent = open ? 'Hide predicted final table' : 'Show predicted final table';
+  if (open) track('season-predictor');
+});
 document.getElementById('predtoggle').addEventListener('click', e => {
   const p = document.getElementById('pred'), open = p.classList.toggle('shut') === false;
   e.currentTarget.setAttribute('aria-expanded', open); e.currentTarget.textContent = open ? 'Hide predictor' : 'Predict the table';
