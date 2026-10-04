@@ -1,7 +1,9 @@
-// Touchline: pull EJA Under 16 data from FA Full-Time.
+// Touchline: pull league data from FA Full-Time. EJA Under 16 by default; set window.__tlcfg first for another league
+// ({ S: season id, DIVS: [[name, fixture group key, division id]], CUPS: [[label, regex source, flags]], AGE: 'U13' }).
 // Run in a browser tab on https://fulltime.thefa.com (same origin). Writes the data as JSON into a <pre>
 // inside <main> and returns a one-line summary of counts.
-const S = '817991894';
+const CFG = (typeof window !== 'undefined' && window.__tlcfg) || {};
+const S = CFG.S || '817991894';
 const P = h => new DOMParser().parseFromString(h, 'text/html');
 const get = async u => P(await fetch(u).then(r => r.text()));
 const txt = e => e ? e.innerText.replace(/\s+/g, ' ').trim() : '';
@@ -9,7 +11,7 @@ const clean = n => { let s = n.replace(/\s+U1[0-9]\b.*$/, '').replace(/\s*\((You
 const tc = v => v.toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\bFc\b/g, 'FC').replace(/\bAnd\b/g, 'and').replace(/\bFdc\b/g, 'FDC').replace(/\bFa\b/g, 'FA').replace(/'S\b/g, "'s").replace(/\.Com\b/g, '.com').replace(/\bTechsoc\b/g, 'TechSoc');
 const venue = v => (!v || /\bU1[0-9]\b|#\d/.test(v)) ? null : tc(v);
 const fid = el => { const a = el && (el.querySelector('a[href*="displayFixture"]') || el.querySelector('a[href*="id="]')); return a ? +(((a.getAttribute('href') || '').match(/id=(\d+)/) || [])[1]) || null : null; };
-const DIVS = [['U16 Black','1_626466325',71055166],['U16 Blue','1_940550859',833400234],['U16 Brown','1_540512685',362745292],['U16 Green','1_467206401',610727353],['U16 Purple','1_706654984',786917750],['U16 Red','1_882985552',209907016],['U16 Yellow','1_132116272',66673950]];
+const DIVS = CFG.DIVS || [['U16 Black','1_626466325',71055166],['U16 Blue','1_940550859',833400234],['U16 Brown','1_540512685',362745292],['U16 Green','1_467206401',610727353],['U16 Purple','1_706654984',786917750],['U16 Red','1_882985552',209907016],['U16 Yellow','1_132116272',66673950]];
 const opts = [...(await get(`/fixtures.html?selectedSeason=${S}`)).querySelector('select[name=selectedFixtureGroupKey]').options].map(o => [o.value, o.text.trim()]);
 const keyOf = re => (opts.find(o => re.test(o[1])) || [])[0];
 const results = async (key, opt) => [...(await get(`/results.html?selectedSeason=${S}&selectedFixtureGroupKey=${key}&selectedRelatedFixtureOption=${opt}&itemsPerPage=100`)).querySelectorAll('.tbody > div')].map(r => {
@@ -47,8 +49,8 @@ for (const [name, key, div] of DIVS) {
   (await results(key, 3)).filter(x => x.type.startsWith('CC')).forEach(x => ccR.set(x.row[0] + x.raw.join(), [...x.row, x.type.slice(3)]));
   (await fixtures(key, 3)).filter(x => x.type.startsWith('CC')).forEach(x => ccF.set(x.row[0] + x.raw.join(), [...x.row, x.type.slice(3)]));
 }
-const u16 = n => /\bU16\b/.test(n);
-for (const [label, re] of [['League Cup', /League Cup U16/], ['RT Litho Cup', /RT litho/i]]) {
+const AGE = new RegExp('\\b' + (CFG.AGE || 'U16') + '\\b'); const u16 = n => AGE.test(n);
+for (const [label, re] of (CFG.CUPS ? CFG.CUPS.map(([l, s, fl]) => [l, new RegExp(s, fl || '')]) : [['League Cup', /League Cup U16/], ['RT Litho Cup', /RT litho/i]])) {
   const k = keyOf(re); if (!k) continue;
   out.cups.push({ name: label, results: (await results(k, 1)).filter(x => x.raw.some(u16)).map(x => x.row), fixtures: (await fixtures(k, 1)).filter(x => x.raw.some(u16)).map(x => x.row) });
 }
