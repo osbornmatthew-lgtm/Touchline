@@ -25,50 +25,42 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30863872@touchline-eja
-DTSTAMP:20261004T073627Z
-SUMMARY:Woodford Town v Buckhurst Hill
-DTSTART;TZID=Europe/London:20261004T100000
-DTEND;TZID=Europe/London:20261004T114000
-LOCATION:Trinity Catholic High School (Whitbread Sports Ground)
-DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30863872
-END:VEVENT
-BEGIN:VEVENT
 UID:30515005@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Woodford Town v Ryan
 DTSTART;TZID=Europe/London:20261011T120000
 DTEND;TZID=Europe/London:20261011T134000
-LOCATION:Trinity Catholic High School (Whitbread Sports Ground)
+LOCATION:Trinity Catholic High School (Whitbread Sports Ground)\, Whitbrea
+ d Sports Ground\, Pavilion Durham Avenue\, Woodford Green IG8 7NJ
 DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30515005
 END:VEVENT
 BEGIN:VEVENT
 UID:30988121@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Woodford Town v Frenford
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-LOCATION:Trinity Catholic High School (Whitbread Sports Ground)
+LOCATION:Trinity Catholic High School (Whitbread Sports Ground)\, Whitbrea
+ d Sports Ground\, Pavilion Durham Avenue\, Woodford Green IG8 7NJ
 DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988121
 END:VEVENT
 BEGIN:VEVENT
 UID:30397254@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Whitestar v Woodford Town (London Under 16 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261018T140000
 DTEND;TZID=Europe/London:20261018T154000
-LOCATION:Pymmes Park
+LOCATION:Pymmes Park - N18 2ug
 DESCRIPTION:London Under 16 Boys Sunday Cup. Check FA Full-Time for late c
  hanges.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30397254
 END:VEVENT
 BEGIN:VEVENT
 UID:30618182@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Woodford Town v Stanway Rovers (Essex Cassels U16 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

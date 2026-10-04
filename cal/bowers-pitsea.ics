@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30863880@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Canvey Island v Bowers & Pitsea
 DTSTART;TZID=Europe/London:20261004T123000
 DTEND;TZID=Europe/London:20261004T141000
@@ -35,32 +35,35 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30863880
 END:VEVENT
 BEGIN:VEVENT
 UID:30896906@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Bowers & Pitsea v Aveley
 DTSTART;TZID=Europe/London:20261011T120000
 DTEND;TZID=Europe/London:20261011T134000
-LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)
+LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
+ \, Basildon\, Essex SS13 2BE
 DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896906
 END:VEVENT
 BEGIN:VEVENT
 UID:30988196@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Heybridge Swifts v Bowers & Pitsea
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-LOCATION:Heybridge Swifts Football Club
+LOCATION:Heybridge Swifts Football Club\, Scraley Road\, Heybridge\, Maldo
+ n\, Essex CM9 8FJ
 DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988196
 END:VEVENT
 BEGIN:VEVENT
 UID:30933080@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Bowers & Pitsea v Soham Town Rangers (League Cup)
 DTSTART;TZID=Europe/London:20261018T120000
 DTEND;TZID=Europe/London:20261018T134000
-LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)
+LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
+ \, Basildon\, Essex SS13 2BE
 DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30933080
 END:VEVENT

@@ -25,54 +25,48 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30863879@touchline-eja
-DTSTAMP:20261004T073627Z
-SUMMARY:Brentwood Town v Aveley
-DTSTART;TZID=Europe/London:20261004T100000
-DTEND;TZID=Europe/London:20261004T114000
-LOCATION:Brentwood Town FC
-DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30863879
-END:VEVENT
-BEGIN:VEVENT
 UID:30896906@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Bowers & Pitsea v Aveley
 DTSTART;TZID=Europe/London:20261011T120000
 DTEND;TZID=Europe/London:20261011T134000
-LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)
+LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
+ \, Basildon\, Essex SS13 2BE
 DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896906
 END:VEVENT
 BEGIN:VEVENT
 UID:30988193@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Billericay Town v Aveley
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-LOCATION:Billericay Town FC (New Lodge)
+LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
+ Essex CM12 9SA
 DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988193
 END:VEVENT
 BEGIN:VEVENT
 UID:30893565@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Sudbury Sports v Aveley (League Cup)
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-LOCATION:The Elite Travel Stadium
+LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
+ 7HN
 DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
  e for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30893565
 END:VEVENT
 BEGIN:VEVENT
 UID:30987234@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Aveley v Concord Rangers (RT Litho Cup)
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-LOCATION:Parkside (Aveley Football Club)
+LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
+ ndon RM15 4UA
 DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30987234

@@ -25,49 +25,43 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30863866@touchline-eja
-DTSTAMP:20261004T073627Z
-SUMMARY:Edgware & Kingsbury v Ware
-DTSTART;TZID=Europe/London:20261004T101500
-DTEND;TZID=Europe/London:20261004T115500
-DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30863866
-END:VEVENT
-BEGIN:VEVENT
 UID:30896863@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Ware v Cheshunt
 DTSTART;TZID=Europe/London:20261011T120000
 DTEND;TZID=Europe/London:20261011T134000
-LOCATION:Ware Football Club
+LOCATION:Ware Football Club\, Wadesmill Road\, Ware\, Hertfordshire SG12 0
+ UQ
 DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896863
 END:VEVENT
 BEGIN:VEVENT
 UID:30988116@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:May & Baker Eastbrook v Ware
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-LOCATION:Leisure United Parsloes Park
+LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
+ ham RM9 5PU
 DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988116
 END:VEVENT
 BEGIN:VEVENT
 UID:30977621@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Ware v Potters Bar Town (RT Litho Cup)
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-LOCATION:Ware Football Club
+LOCATION:Ware Football Club\, Wadesmill Road\, Ware\, Hertfordshire SG12 0
+ UQ
 DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30977621
 END:VEVENT
 BEGIN:VEVENT
 UID:30182827@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Baldock Town v Ware (Hertfordshire FA U16 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000

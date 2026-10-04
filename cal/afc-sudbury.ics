@@ -25,43 +25,36 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30896517@touchline-eja
-DTSTAMP:20261004T073627Z
-SUMMARY:Aylsham v AFC Sudbury
-DTSTART;TZID=Europe/London:20261004T100000
-DTEND;TZID=Europe/London:20261004T114000
-LOCATION:Youngs Park
-DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30896517
-END:VEVENT
-BEGIN:VEVENT
 UID:30896793@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:AFC Sudbury v Bury Town
 DTSTART;TZID=Europe/London:20261011T100000
 DTEND;TZID=Europe/London:20261011T114000
-LOCATION:The Elite Travel Stadium
+LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
+ 7HN
 DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896793
 END:VEVENT
 BEGIN:VEVENT
 UID:30988026@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:AFC Sudbury v Felixstowe & Walton United
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-LOCATION:The Elite Travel Stadium
+LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
+ 7HN
 DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988026
 END:VEVENT
 BEGIN:VEVENT
 UID:30629787@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:AFC Sudbury v Godmanchester Rovers (RT Litho Cup)
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
-LOCATION:The Elite Travel Stadium
+LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
+ 7HN
 DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30629787

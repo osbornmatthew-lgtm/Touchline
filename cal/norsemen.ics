@@ -26,17 +26,17 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896862@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Norsemen v Cockfosters
 DTSTART;TZID=Europe/London:20261011T100000
 DTEND;TZID=Europe/London:20261011T114000
-LOCATION:Edmonton Sports and Social Club
+LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
 DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896862
 END:VEVENT
 BEGIN:VEVENT
 UID:30953634@touchline-eja
-DTSTAMP:20261004T073627Z
+DTSTAMP:20261004T123636Z
 SUMMARY:Wealdstone v Norsemen (Middlesex FA Under-16 Cup)
 DTSTART;TZID=Europe/London:20261011T103000
 DTEND;TZID=Europe/London:20261011T121000
