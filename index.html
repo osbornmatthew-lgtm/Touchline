@@ -215,6 +215,7 @@ a.partner:hover{border-color:var(--accent)}
 .trow .sc.ko{font-size:18px;color:var(--muted)}
 .trow .st{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-align:right;color:var(--muted)}
 .trow .st.ft{color:var(--accent)}
+.trow .cp{grid-column:1/-1;font-size:11px;color:var(--muted);text-align:center;margin-top:-6px}
 .trow .st.live{color:var(--warn,#FFB547)}
 .trow.mine{background:var(--mine)}
 .trow.mine .h,.trow.mine .a{font-weight:700}
@@ -283,13 +284,14 @@ tr[data-row]{cursor:pointer}
     <div class="panel next" id="next"></div>
   </section>
 
+  <section aria-labelledby="today-h" id="today-sec" hidden>
+    <div class="sec-head"><h2 id="today-h">Match Day</h2><span class="note" id="today-note"></span><button type="button" class="sharebtn" data-share="today">Share</button></div>
+    <div class="panel today" id="today"></div>
+  </section>
+
   <div role="group" aria-label="Competition" class="chips" id="chips"></div>
 
   <div id="league-view" style="display:flex;flex-direction:column;gap:32px">
-    <section aria-labelledby="today-h" id="today-sec" hidden>
-      <div class="sec-head"><h2 id="today-h">Today</h2><span class="note" id="today-note"></span><button type="button" class="sharebtn" data-share="today">Share</button></div>
-      <div class="panel today" id="today"></div>
-    </section>
 
     <div class="split" id="table">
       <div class="tablecol">
@@ -406,30 +408,38 @@ function venueLink(venue) {
   return { q: venue + ', Essex, UK' };
 }
 function parkingFor(venue) { return VENUES[venue] ? '' : ((VINFO[venue] || {}).p || ''); }
+function matchDayGames() {
+  const di = mine && teamDiv[mine] !== undefined ? teamDiv[mine] : (typeof view === 'number' ? view : null);
+  if (di === null) return null;
+  const d = DATA.divisions[di], key = ddmm(new Date()), inDiv = new Set(d.teams.map(x => x[0])), items = [];
+  const addR = (r, comp) => items.push({ h: r[1], a: r[2], hs: r[3], as: r[4], ko: null, st: '', comp });
+  const addF = (f, comp) => items.push({ h: f[2], a: f[3], hs: null, as: null, ko: f[1], st: f[6], comp });
+  d.results.filter(r => r[0] === key).forEach(r => addR(r, ''));
+  d.fixtures.filter(f => f[0] === key).forEach(f => addF(f, ''));
+  DATA.cups.forEach(c => {
+    c.results.filter(r => r[0] === key && (inDiv.has(r[1]) || inDiv.has(r[2]))).forEach(r => addR(r, c.county ? (r[6] || c.name) : c.name));
+    c.fixtures.filter(f => f[0] === key && (inDiv.has(f[2]) || inDiv.has(f[3]))).forEach(f => addF(f, c.county ? (f[7] || c.name) : c.name));
+  });
+  const me = g => g.h === mine || g.a === mine;
+  items.sort((x, y) => me(y) - me(x) || (x.hs === null) - (y.hs === null) || (x.ko || '99').localeCompare(y.ko || '99'));
+  return { d, items };
+}
 function renderToday() {
-  const sec = document.getElementById('today-sec');
-  if (typeof view === 'string') { sec.hidden = true; return; }
-  const d = DATA.divisions[view], key = ddmm(new Date());
-  const res = d.results.filter(r => r[0] === key);
-  const fx = d.fixtures.filter(f => f[0] === key);
-  if (!res.length && !fx.length) { sec.hidden = true; return; }
+  const sec = document.getElementById('today-sec'), md = matchDayGames();
+  if (!md || !md.items.length) { sec.hidden = true; return; }
   sec.hidden = false;
   const now = new Date(), mins = s => { const [h, m] = s.split(':').map(Number); return h * 60 + m; };
   const nowM = now.getHours() * 60 + now.getMinutes();
-  const items = res.map(r => ({ h: r[1], a: r[2], hs: r[3], as: r[4], ko: null, st: '' }))
-    .concat(fx.map(f => ({ h: f[2], a: f[3], hs: null, as: null, ko: f[1], st: f[6] })))
-    .sort((x, y) => (x.hs === null) - (y.hs === null) || (x.ko || '99').localeCompare(y.ko || '99'));
-  document.getElementById('today-note').textContent = `Scores from FA Full-Time · last checked ${DATA.fetched}`;
-  document.getElementById('today').innerHTML = items.map(g => {
+  document.getElementById('today-note').textContent = `${md.d.name} · from FA Full-Time · checked ${DATA.fetched}`;
+  document.getElementById('today').innerHTML = md.items.map(g => {
     const m = g.h === mine || g.a === mine;
     let sc, st;
-    if (g.hs !== null) { sc = `${g.hs}–${g.as}`; st = '<span class="st ft">Full time</span>'; }
+    if (g.hs !== null && g.hs !== undefined) { sc = `<span class="sc">${g.hs}–${g.as}</span>`; st = '<span class="st ft">Full time</span>'; }
     else if (g.st) { sc = '<span class="sc ko">–</span>'; st = `<span class="st"><span class="badge-pp">${esc(g.st)}</span></span>`; }
-    else if (g.ko && nowM >= mins(g.ko) + 100) { sc = '<span class="sc ko">?</span>'; st = '<span class="st live">Result due</span>'; }
+    else if (g.ko && nowM >= mins(g.ko) + 100) { sc = '<span class="sc ko">v</span>'; st = '<span class="st"></span>'; }
     else if (g.ko && nowM >= mins(g.ko)) { sc = '<span class="sc ko">v</span>'; st = '<span class="st live">Playing now</span>'; }
     else { sc = `<span class="sc ko">${g.ko ? esc(g.ko) : 'TBC'}</span>`; st = '<span class="st">Kick-off</span>'; }
-    if (!sc.startsWith('<span')) sc = `<span class="sc">${sc}</span>`;
-    return `<div class="trow ${m ? 'mine' : ''}"><span class="h">${esc(g.h)}</span>${sc}<span class="a">${esc(g.a)}</span>${st}</div>`;
+    return `<div class="trow ${m ? 'mine' : ''}"><span class="h">${esc(g.h)}</span>${sc}<span class="a">${esc(g.a)}</span>${st}${g.comp ? `<span class="cp">${esc(g.comp)}</span>` : ''}</div>`;
   }).join('');
 }
 function oppPreview(opp) {
@@ -481,8 +491,12 @@ async function drawCard(kind) {
     title = d.name.toUpperCase(); sub = 'League table · ' + (DATA.updated || '');
     const { rows: r } = buildTable(view);
     rows = r.slice(0, 12).map(t => ({ l: `${t.pos}`, n: t.name, m: `${t.p}`, g: gdTxt(t.gd), r: `${t.pts}`, me: t.name === mine }));
+  } else if (kind === 'today') {
+    const md = matchDayGames() || { d, items: [] };
+    title = md.d.name.toUpperCase(); sub = 'Match day · ' + dayLabel(ddmm(new Date()));
+    rows = md.items.map(g => ({ h: g.h, s: g.hs !== null && g.hs !== undefined ? `${g.hs}–${g.as}` : g.st ? 'P–P' : (g.ko || 'TBC'), a: g.a, me: g.h === mine || g.a === mine, ko: !(g.hs !== null && g.hs !== undefined) }));
   } else {
-    const key = kind === 'today' ? ddmm(new Date()) : null;
+    const key = null;
     const scored = d.results.filter(r => r[3] !== null && (!key || r[0] === key));
     const date = key || (groupByDate(scored, false)[0] || [])[0];
     title = d.name.toUpperCase(); sub = (kind === 'today' ? 'Today · ' : 'Results · ') + (date ? dayLabel(date) : '');
@@ -635,14 +649,30 @@ function renderNext() {
   DATA.cups.forEach(c => c.fixtures.forEach(f => all.push({ f, comp: f[7] || c.name })));
   const mineF = all.filter(({ f }) => !f[6] && toDate(f[0]) >= today && (f[2] === mine || f[3] === mine))
     .sort((a, b) => toDate(a.f[0]) - toDate(b.f[0]) || (a.f[1] || '99').localeCompare(b.f[1] || '99'));
-  const el = document.getElementById('next');
+  const el = document.getElementById('next'), tk = ddmm(new Date());
+  document.getElementById('next-h').textContent = 'Your next match';
+  if (mine) {
+    let done = null;
+    DATA.divisions.forEach(d => d.results.forEach(r => { if (r[0] === tk && r[3] !== null && (r[1] === mine || r[2] === mine)) done = { r, comp: d.name }; }));
+    DATA.cups.forEach(c => c.results.forEach(r => { if (r[0] === tk && r[3] !== null && r[3] !== undefined && (r[1] === mine || r[2] === mine)) done = { r, comp: c.county ? (r[6] || c.name) : c.name }; }));
+    if (done || (mineF[0] && mineF[0].f[0] === tk)) document.getElementById('next-h').textContent = "Today's match";
+    if (done) {
+      const [, h, a, hs, as] = done.r, gf = h === mine ? hs : as, ga = h === mine ? as : hs, res = gf > ga ? 'Won' : gf < ga ? 'Lost' : 'Drew';
+      const nx = mineF.find(x => x.f[0] !== tk);
+      el.innerHTML = `<div class="row">
+      <div class="teams">${esc(h)} v ${esc(a)}<small>Today · ${esc(done.comp)} · ${res}</small></div>
+      <div class="kowrap"><div class="eyebrow">Full time</div><div class="ko">${hs}–${as}</div></div>
+    </div>` + (nx ? `<div class="sub"><span>Next: ${esc(nx.f[2])} v ${esc(nx.f[3])}, ${dayLabel(nx.f[0])}${nx.f[1] ? ', ' + esc(nx.f[1]) : ''}</span></div>` : '');
+      return;
+    }
+  }
   if (!mine) { el.innerHTML = `<div class="row"><div class="teams">Pick your team<small>See their next match, kick-off and directions here</small></div></div><div class="sub"><button type="button" class="pickbtn" data-pick>Choose your team</button></div>`; return; }
   if (!mineF.length) { el.innerHTML = `<div class="row"><div class="teams">No fixture listed yet<small>The next round has not been published on FA Full-Time</small></div></div>` + postponedFor(mine).map(f => `<div class="ppnote"><b>${esc(f[6])}:</b> ${esc(f[2])} v ${esc(f[3])}, ${dayLabel(f[0])}</div>`).join(''); return; }
   const { f: [date, ko, h, a, venue, id], comp } = mineF[0];
   const pps = postponedFor(mine).filter(f => toDate(f[0]) <= toDate(date));
   const ppHtml = pps.map(f => `<div class="ppnote"><b>${esc(f[6])}:</b> ${esc(f[2])} v ${esc(f[3])}, ${dayLabel(f[0])}</div>`).join('');
   el.innerHTML = `<div class="row">
-      <div class="teams">${esc(h)} v ${esc(a)}<small>${dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
+      <div class="teams">${esc(h)} v ${esc(a)}<small>${date === ddmm(new Date()) ? 'Today' : dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
       <div class="kowrap"><div class="eyebrow">Kick-off</div><div class="ko ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'Time TBC'}</div></div>
     </div>
     <div class="sub">${venue ? `<span>${esc(venueName(venue))}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}${venue && parkingFor(venue) ? `<span class="parking">Parking: ${esc(parkingFor(venue))}</span>` : ''}</div>${ppHtml}${oppPreview(h === mine ? a : h)}`;
