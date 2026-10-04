@@ -7,7 +7,7 @@ GOATCOUNTER = 'touchline'
 # League: python3 build.py <page.html> [eja|bcfa]
 LEAGUES = {
     'eja': {'code': 'EJA', 'desc': 'EJA Under 16 league tables, results, fixtures and stats.', 'site': 'https://osbornmatthew-lgtm.github.io/Touchline/', 'assets': ''},
-    'bcfa': {'code': 'BCFA', 'desc': 'BCFA Youth League Under 13 Division 3 tables, results, fixtures and stats.', 'site': 'https://osbornmatthew-lgtm.github.io/touchline-bcfa/', 'assets': 'bcfa/'},
+    'bcfa': {'code': 'BCFA', 'desc': 'BCFA Youth League Under 13 Division 3 tables, results, fixtures and stats.', 'site': 'https://osbornmatthew-lgtm.github.io/Touchline/bcfa/', 'assets': 'bcfa/'},
 }
 LEAGUE = sys.argv[2] if len(sys.argv) > 2 else 'eja'  # also the prefix so several league sites can share one counter
 LG = LEAGUES[LEAGUE]
@@ -60,7 +60,8 @@ self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.o
 self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', e => {
   const r = e.request, u = new URL(r.url);
-  if (r.method !== 'GET' || u.origin !== location.origin || u.pathname.includes('/cal/')) return;
+  // Only pages and files directly in this site's folder (not calendar feeds, not another league's folder).
+  if (r.method !== 'GET' || u.origin !== location.origin || u.pathname.includes('/cal/') || u.pathname.slice(new URL(self.registration.scope).pathname.length).includes('/')) return;
   const fromCache = () => caches.match(r, { ignoreSearch: true }).then(m => m || caches.match('./'));
   e.respondWith(new Promise(resolve => {
     let done = false; const finish = x => { if (!done && x) { done = true; resolve(x); } };

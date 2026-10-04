@@ -8,7 +8,7 @@ import json, re, sys, os, urllib.request
 LEAGUES = {
     'bcfa': {
         'code': 'BCFA', 'bar': '#3DD9FF', 'mine': '#12262C',
-        'site': 'osbornmatthew-lgtm.github.io/touchline-bcfa',
+        'site': 'osbornmatthew-lgtm.github.io/Touchline/bcfa',
         'eyebrow': 'BCFA Youth League · Under 13 · 2026–27', 'eyebrow2': 'BCFA Youth League · Under 13',
         'desc': 'BCFA Youth League Under 13 Division 3 tables, results, fixtures and stats.',
         'dots': {'Division 3': '#3DD9FF'}, 'venues': {}, 'sponsors': {},
