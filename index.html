@@ -264,6 +264,7 @@ tr.detail .dl{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
 tr.detail b{color:var(--fg)}
 tr[data-row]{cursor:pointer}
 @media (min-width:641px){ tr.detail{display:none!important} tr[data-row]{cursor:default} }
+@media (max-width:640px){ .split > .pred{order:-1} }
 /* share */
 .noshare .sharebtn{display:none}
 .sharebtn{margin-left:auto;padding:6px 12px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--fg-2);font:inherit;font-size:13px;font-weight:600;cursor:pointer}
@@ -804,6 +805,16 @@ function renderNext() {
     <div class="sub">${venue ? `<span>${esc(venueName(venue))}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}${venue && parkingFor(venue) ? `<span class="parking">Parking: ${esc(parkingFor(venue))}</span>` : ''}<button type="button" class="sharebtn" data-share="preview">Share preview</button></div>${ppHtml}${stakeHtml(mineF[0] && { ...mineF[0], div: DATA.divisions.find(dd => dd.name === mineF[0].comp) || null })}${oppPreview(h === mine ? a : h)}`;
 }
 
+// Projected final table: points per game so far carried over a full double round-robin.
+// Opponent strength is not weighted yet (planned once teams have played about 8).
+function projection(i) {
+  const d = DATA.divisions[i], G = (d.teams.length - 1) * 2;
+  const minP = Math.min(...d.teams.map(x => x[1]).filter(p => p > 0));
+  const list = d.teams.map(([name, p, , , , , , pts], k) => ({ name, k, pts: p ? pts + pts / p * Math.max(0, G - p) : pts }))
+    .sort((a, b) => b.pts - a.pts || a.k - b.k);
+  const out = {}; list.forEach((x, j) => out[x.name] = { pos: j + 1, pts: Math.round(x.pts) });
+  return { by: out, top: list[0] && list[0].name, games: G, early: !isFinite(minP) || minP < 6 };
+}
 function renderStats(rows, n) {
   const played = rows.filter(r => r.p > 0);
   const best = f => played.reduce((a, b) => f(b) > f(a) ? b : a);
@@ -811,6 +822,10 @@ function renderStats(rows, n) {
   const cards = [[n ? 'Predicted leader' : 'Top of the table', top.name, top.pts, `points · ${top.p} played · ${gdTxt(top.gd)} goal difference`]];
   const me = rows.find(r => r.name === mine);
   if (me) cards.push([mine, 'Position', ordinal(me.pos), `${me.pts} points · ${me.pts === top.pts ? 'level with the top' : (top.pts - me.pts) + ' behind the leader'}`]);
+  if (!n && typeof view === 'number') {
+    const pj = projection(view), who = me ? mine : pj.top;
+    if (who && pj.by[who]) cards.push([me ? 'Projected finish' : 'Projected champions', who, ordinal(pj.by[who].pos), `about ${pj.by[who].pts} pts over ${pj.games} games on current form${pj.early ? ' · early days' : ''}`]);
+  }
   cards.push(['Best attack', att.name, (att.gf / att.p).toFixed(1), 'goals scored per game']);
   cards.push(['Best defence', def.name, (def.ga / def.p).toFixed(1), 'goals conceded per game']);
   document.getElementById('stats').innerHTML = cards.map(([l, c, v, s]) =>
@@ -1062,8 +1077,9 @@ function openTeam(name) {
   const rec = r => `W${r.w} D${r.d} L${r.l}`;
   const tiles = [
     ['Record', rec(s.all), `${s.all.p} pts from ${s.all.n}`],
-    ['Home', rec(s.home), s.home.n ? `${s.home.p} pts` : 'No home games yet'],
-    ['Away', rec(s.away), s.away.n ? `${s.away.p} pts` : 'No away games yet'],
+    ...(() => { const pj = projection(i).by[name], pe = projection(i).early; return [
+      ['Projected finish', pj ? ordinal(pj.pos) : '–', pj ? `about ${pj.pts} pts on current form${pe ? ' · early days' : ''}` : 'No games yet'],
+      ['Points per game', s.all.n ? (s.all.p / s.all.n).toFixed(1) : '–', s.all.n ? `${s.all.p} pts from ${s.all.n} league games` : 'No games yet']]; })(),
     ['Scored', s.all.n ? (s.gf / s.all.n).toFixed(1) : '0', `per game · ${s.gf} total`],
     ['Conceded', s.all.n ? (s.ga / s.all.n).toFixed(1) : '0', `per game · ${s.ga} total`],
     ['Clean sheets', String(s.cs), `Failed to score in ${s.fts}`]
