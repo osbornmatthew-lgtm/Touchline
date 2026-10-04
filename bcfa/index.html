@@ -220,6 +220,22 @@ a.partner:hover{border-color:var(--accent)}
 .trow .st.ft{color:var(--accent)}
 .trow .cp{grid-column:1/-1;font-size:11px;color:var(--muted);text-align:center;margin-top:-6px}
 .trow .st.live{color:var(--warn,#FFB547)}
+.trow .st.wait{color:var(--fg-2)}
+.trow .short{display:none}
+@media (max-width:640px){ .trow .long{display:none} .trow .short{display:inline} .trow{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) 78px;gap:8px;padding:10px 12px} }
+.fresh{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--fg);border:1px solid var(--line-2);border-radius:999px;padding:4px 10px;width:fit-content}
+.fresh::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--win)}
+.fresh.old::before{background:#FF8A5C}
+.stale{border:1px solid #FF8A5C;background:color-mix(in srgb, #FF8A5C 12%, transparent);color:var(--fg);border-radius:10px;padding:10px 14px;font-size:14px}
+.stale b{color:#FF8A5C}
+.predtoggle{display:none}
+@media (max-width:640px){
+  .predtoggle{display:block;margin:4px 0 0;min-height:44px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer}
+  .pred.shut #picks,.pred.shut .reset,.pred.shut #pred-sub{display:none}
+  header.top .brand{transition:none}
+  header.top.slim .brand{display:none}
+  header.top.slim .wrap{padding-block:6px}
+}
 .trow.mine{background:var(--mine)}
 .trow.mine .h,.trow.mine .a{font-weight:700}
 /* opponent preview */
@@ -277,6 +293,7 @@ tr[data-row]{cursor:pointer}
     <div class="eyebrow">BCFA Youth League · Under 13 · 2026–27</div>
     <h1 id="title"></h1>
     <div class="meta" id="updated"></div>
+    <div class="stale" id="stale" hidden></div>
   </div>
 
   <div class="follow">
@@ -317,10 +334,11 @@ tr[data-row]{cursor:pointer}
         <div class="tnote" id="tnote"></div>
       </div>
 
-      <aside class="panel pred" aria-labelledby="pred-h" id="pred">
+      <aside class="panel pred shut" aria-labelledby="pred-h" id="pred">
         <div class="ph">
           <h2 id="pred-h">Table predictor</h2>
           <p id="pred-sub"></p>
+          <button type="button" class="predtoggle" id="predtoggle" aria-expanded="false" aria-controls="picks">Predict the table</button>
         </div>
         <div id="picks"></div>
         <button class="reset" id="reset" type="button">Reset picks</button>
@@ -435,6 +453,52 @@ function matchDayGames() {
   items.sort((x, y) => me(y) - me(x) || (x.hs === null) - (y.hs === null) || (x.ko || '99').localeCompare(y.ko || '99'));
   return { d, items };
 }
+// Short team names for tight phone rows, e.g. "Heybridge Swifts" -> "Heybridge".
+// Falls back to the full name if the short one could be confused with another team.
+const SUFFIX = /\s+(Town|United|City|Athletic|Rovers|Rangers|Swifts|Wanderers|Sports|Island|FC)$/;
+const ALL_TEAMS = [...new Set([].concat(...DATA.divisions.map(d => d.teams.map(t => t[0]))))];
+const shortCache = {};
+function shortName(t) {
+  if (shortCache[t]) return shortCache[t];
+  let s = t.replace(/\s*\(.*?\)\s*/g, ' ').trim();
+  if (s.split(' ').length > 1) s = s.replace(SUFFIX, '');
+  const amp = s.split(' & ');
+  if (amp.length === 2 && !amp[0].includes(' ') && !amp[1].includes(' ')) s = amp[0];
+  const clash = ALL_TEAMS.some(o => o !== t && (o === s || o.split(/[\s&()]+/).includes(s) || shortCache[o] === s));
+  return shortCache[t] = clash ? t : s;
+}
+// When was Full-Time last checked? DATA.fetched looks like "Sunday 4 October, 15:10".
+const MONTHS_LC = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+function fetchedAt() {
+  const m = /(\d{1,2})\s+([A-Za-z]+)(?:,\s*(\d{1,2}):(\d{2}))?/.exec(DATA.fetched || '');
+  if (!m) return null;
+  const mo = MONTHS_LC.indexOf(m[2].toLowerCase()); if (mo < 0) return null;
+  const now = new Date(), d = new Date(now.getFullYear(), mo, +m[1], m[3] ? +m[3] : 23, m[4] ? +m[4] : 59);
+  if (d - now > 180 * 864e5) d.setFullYear(d.getFullYear() - 1);
+  return { d, hasTime: !!m[3] };
+}
+function renderFresh() {
+  const f = fetchedAt(), now = new Date(), el = document.getElementById('updated'), st = document.getElementById('stale');
+  let label = `Updated ${DATA.fetched}`;
+  if (f) {
+    const sameDay = f.d.toDateString() === now.toDateString();
+    const y = new Date(now); y.setDate(y.getDate() - 1);
+    const hm = f.hasTime ? f.d.toTimeString().slice(0, 5) : '';
+    label = sameDay ? `Updated today${hm ? ' at ' + hm : ''}` : f.d.toDateString() === y.toDateString() ? `Updated yesterday${hm ? ' at ' + hm : ''}` : `Updated ${DATA.fetched}`;
+  }
+  // Stale = a game in view should have finished by now, has no score, and nobody has checked Full-Time since.
+  const md = matchDayGames(), mins = s => { const [h, m] = s.split(':').map(Number); return h * 60 + m; };
+  const nowM = now.getHours() * 60 + now.getMinutes();
+  const overdue = md ? md.items.filter(g => (g.hs === null || g.hs === undefined) && !g.st && g.ko && nowM >= mins(g.ko) + 100) : [];
+  const lastCheck = f ? f.d : null;
+  const stale = overdue.length && (!lastCheck || now - lastCheck > 75 * 6e4 ||
+    overdue.some(g => { const end = new Date(now); end.setHours(0, mins(g.ko) + 100, 0, 0); return lastCheck < end; }) && now - lastCheck > 30 * 6e4);
+  el.innerHTML = `<span class="fresh${stale ? ' old' : ''}">${esc(label)}</span> <span>Results to ${esc(DATA.updated || '')} · from FA Full-Time</span>`;
+  el.style.display = 'flex'; el.style.flexWrap = 'wrap'; el.style.gap = '6px 10px'; el.style.alignItems = 'center';
+  st.hidden = !stale;
+  if (stale) st.innerHTML = `<b>Scores may be behind.</b> ${overdue.length === 1 ? 'A game that should have finished' : overdue.length + ' games that should have finished'} ${overdue.length === 1 ? 'has' : 'have'} no result yet, and Full-Time was last checked ${esc(f && f.hasTime ? f.d.toTimeString().slice(0, 5) : DATA.fetched)}. Check back shortly.`;
+}
+
 function renderToday() {
   const sec = document.getElementById('today-sec'), md = matchDayGames();
   if (!md || !md.items.length) { sec.hidden = true; return; }
@@ -447,10 +511,11 @@ function renderToday() {
     let sc, st;
     if (g.hs !== null && g.hs !== undefined) { sc = `<span class="sc">${g.hs}–${g.as}</span>`; st = '<span class="st ft">Full time</span>'; }
     else if (g.st) { sc = '<span class="sc ko">–</span>'; st = `<span class="st"><span class="badge-pp">${esc(g.st)}</span></span>`; }
-    else if (g.ko && nowM >= mins(g.ko) + 100) { sc = '<span class="sc ko">v</span>'; st = '<span class="st"></span>'; }
+    else if (g.ko && nowM >= mins(g.ko) + 100) { sc = `<span class="sc ko">${esc(g.ko)}</span>`; st = '<span class="st wait">Awaiting result</span>'; }
     else if (g.ko && nowM >= mins(g.ko)) { sc = '<span class="sc ko">v</span>'; st = '<span class="st live">Playing now</span>'; }
     else { sc = `<span class="sc ko">${g.ko ? esc(g.ko) : 'TBC'}</span>`; st = '<span class="st">Kick-off</span>'; }
-    return `<div class="trow ${m ? 'mine' : ''}"><span class="h">${esc(g.h)}</span>${sc}<span class="a">${esc(g.a)}</span>${st}${g.comp ? `<span class="cp">${esc(g.comp)}</span>` : ''}</div>`;
+    const nm = t => `<span class="long">${esc(t)}</span><span class="short" title="${esc(t)}">${esc(shortName(t))}</span>`;
+    return `<div class="trow ${m ? 'mine' : ''}"><span class="h">${nm(g.h)}</span>${sc}<span class="a">${nm(g.a)}</span>${st}${g.comp ? `<span class="cp">${esc(g.comp)}</span>` : ''}</div>`;
   }).join('');
 }
 function oppPreview(opp) {
@@ -1048,10 +1113,18 @@ function renderView() {
   if (isCup) { if (!county) renderCup(comp); }
   else { renderLatest(comp.results); renderPicks(); renderTable(); }
   renderToday();
+  renderFresh();
   renderTalkingPoints();
   renderFixtures(comp.fixtures, county);
   renderResults(comp.results, county);
 }
+
+document.getElementById('predtoggle').addEventListener('click', e => {
+  const p = document.getElementById('pred'), open = p.classList.toggle('shut') === false;
+  e.currentTarget.setAttribute('aria-expanded', open); e.currentTarget.textContent = open ? 'Hide predictor' : 'Predict the table';
+});
+// On phones, drop the logo row once you scroll so the menu sits on one line
+window.addEventListener('scroll', () => { const h = document.querySelector('header.top'), y = window.scrollY; if (y > 140) h.classList.add('slim'); else if (y < 40) h.classList.remove('slim'); }, { passive: true });
 
 // Underline the section link for the part of the page in view
 let navLock = 0;
@@ -1096,7 +1169,7 @@ document.getElementById('welcome-go').addEventListener('click', () => { if (wsel
 wsel.addEventListener('change', () => { document.getElementById('welcome-go').disabled = !wsel.value; });
 document.getElementById('welcome-skip').addEventListener('click', () => closeWelcome(true));
 document.addEventListener('click', e => { if (e.target.closest('[data-pick]')) { e.preventDefault(); openWelcome(); } });
-document.getElementById('updated').textContent = `Results to ${DATA.updated} · from FA Full-Time on ${DATA.fetched}`;
+renderFresh();
 offlineNote();
 
 renderNext();
