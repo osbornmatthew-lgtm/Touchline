@@ -3,7 +3,8 @@ self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.o
 self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', e => {
   const r = e.request, u = new URL(r.url);
-  if (r.method !== 'GET' || u.origin !== location.origin || u.pathname.includes('/cal/')) return;
+  // Only pages and files directly in this site's folder (not calendar feeds, not another league's folder).
+  if (r.method !== 'GET' || u.origin !== location.origin || u.pathname.includes('/cal/') || u.pathname.slice(new URL(self.registration.scope).pathname.length).includes('/')) return;
   const fromCache = () => caches.match(r, { ignoreSearch: true }).then(m => m || caches.match('./'));
   e.respondWith(new Promise(resolve => {
     let done = false; const finish = x => { if (!done && x) { done = true; resolve(x); } };
