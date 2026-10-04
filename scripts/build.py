@@ -16,7 +16,7 @@ head = """<!doctype html>
 <meta name="description" content="EJA Under 16 league tables, results, fixtures and stats.">
 <meta property="og:title" content="Touchline EJA">
 <meta property="og:description" content="EJA Under 16 league tables, results, fixtures and stats.">
-<meta property="og:image" content="https://touchline-eja.netlify.app/og-image.png">
+<meta property="og:image" content="https://osbornmatthew-lgtm.github.io/Touchline/og-image.png">
 <meta name="theme-color" content="#0E1217">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Touchline">
@@ -46,12 +46,12 @@ for src_name, name in [('app-icon-512.png', 'icon-512.png'), ('app-icon-192.png'
 json.dump({"name": "Touchline EJA", "short_name": "Touchline", "start_url": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}, open(os.path.join(out, 'manifest.json'), 'w'))
 
 # Offline: network first, fall back to the last copy after 3.5s or with no signal.
-open(os.path.join(out, 'sw.js'), 'w').write('''const C = 'touchline-v2';
+open(os.path.join(out, 'sw.js'), 'w').write('''const C = 'touchline-v3';
 self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(C).then(c => c.addAll(['./', 'manifest.json', 'icon-192.png', 'apple-touch-icon.png']))); });
 self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', e => {
   const r = e.request, u = new URL(r.url);
-  if (r.method !== 'GET' || u.origin !== location.origin || u.pathname.startsWith('/cal/')) return;
+  if (r.method !== 'GET' || u.origin !== location.origin || u.pathname.includes('/cal/')) return;
   const fromCache = () => caches.match(r, { ignoreSearch: true }).then(m => m || caches.match('./'));
   e.respondWith(new Promise(resolve => {
     let done = false; const finish = x => { if (!done && x) { done = true; resolve(x); } };
@@ -61,6 +61,7 @@ self.addEventListener('fetch', e => {
   }));
 });
 ''')
+open(os.path.join(out, '.nojekyll'), 'w').write('')
 open(os.path.join(out, '_headers'), 'w').write('''/*
   Access-Control-Allow-Origin: https://touchline-hq.netlify.app
 /cal/*

@@ -504,13 +504,13 @@ async function drawCard(kind) {
   });
   if (kind === 'table') { x.fillStyle = '#9AA4B0'; x.font = `600 26px ${B}`; x.textAlign = 'right'; x.fillText('P', 790, top - 70); x.fillText('GD', 900, top - 70); x.fillText('PTS', 1010, top - 70); x.textAlign = 'left'; }
   x.fillStyle = '#222A33'; x.fillRect(72, H - 150, W - 144, 2);
-  x.fillStyle = acc; x.font = `700 34px ${B}`; x.fillText('touchline-eja.netlify.app', 72, H - 92);
+  x.fillStyle = acc; x.font = `700 34px ${B}`; x.fillText(SITE, 72, H - 92);
   x.fillStyle = '#9AA4B0'; x.font = `500 26px ${B}`; x.fillText('From FA Full-Time · ' + (DATA.fetched || ''), 72, H - 50);
   return c;
 }
-const SITE = 'touchline-eja.netlify.app';
+const SITE = 'osbornmatthew-lgtm.github.io/Touchline';
 // Sharing needs the public site (the Claude preview blocks it), so hide the buttons elsewhere.
-if (location.hostname !== SITE) document.documentElement.classList.add('noshare');
+if (location.hostname !== SITE.split('/')[0]) document.documentElement.classList.add('noshare');
 document.addEventListener('click', async e => {
   const b = e.target.closest('[data-share]'); if (!b) return;
   const kind = b.dataset.share; b.disabled = true;
@@ -519,7 +519,7 @@ document.addEventListener('click', async e => {
     const blob = await new Promise(r => c.toBlob(r, 'image/png'));
     const file = new File([blob], `touchline-${kind}.png`, { type: 'image/png' });
     track('share/' + kind);
-    if (navigator.canShare && navigator.canShare({ files: [file] })) { try { await navigator.share({ files: [file], text: 'touchline-eja.netlify.app' }); } catch (err) {} }
+    if (navigator.canShare && navigator.canShare({ files: [file] })) { try { await navigator.share({ files: [file], text: 'https://' + SITE + '/' }); } catch (err) {} }
     else { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = file.name; document.body.appendChild(a); a.click(); a.remove(); }
   } finally { b.disabled = false; }
 });
