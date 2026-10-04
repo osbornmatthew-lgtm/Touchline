@@ -121,7 +121,10 @@ th.pts{color:var(--fg)} th.gap{padding-right:16px}
 .form i{width:20px;height:20px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:11px;font-weight:700;color:var(--on-accent)}
 .form .W{background:var(--win)} .form .L{background:var(--loss)} .form .D{background:var(--draw)}
 .tnote{font-size:13px;color:var(--muted)}
-@media (max-width:640px){ .wide{display:none} }
+.nar{display:none}
+@media (max-width:640px){ .wide{display:none} .nar{display:table-cell}
+  th,td{padding-left:4px;padding-right:4px} td.pos{padding-left:12px;width:26px} td.mv{width:0;padding:0} td.gap,th.gap{padding-right:12px}
+  td.team .teambtn{max-width:40vw;overflow:hidden;gap:8px} td.team .crest{width:24px;height:24px;font-size:10px} }
 
 .pred .ph{padding:16px 16px 10px;display:flex;flex-direction:column;gap:6px}
 .pred .ph p{margin:0;font-size:13px;color:var(--muted)}
@@ -302,9 +305,9 @@ tr[data-row]{cursor:pointer}
               <th class="l" style="padding-left:16px">Pos</th>
               <th class="l"><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Movement</span></th>
               <th class="l">Team</th>
-              <th>P</th><th class="wide">W</th><th class="wide">D</th><th class="wide">L</th>
+              <th>P</th><th class="pts nar">Pts</th><th class="wide">W</th><th class="wide">D</th><th class="wide">L</th>
               <th class="wide">GF</th><th class="wide">GA</th><th>GD</th>
-              <th class="pts">Pts</th><th class="l wide">Form</th><th class="gap">Gap</th>
+              <th class="pts wide">Pts</th><th class="l wide">Form</th><th class="gap">Gap</th>
             </tr></thead>
             <tbody id="tbody"></tbody>
           </table>
@@ -705,15 +708,15 @@ function renderTable() {
   document.getElementById('tbody').innerHTML = rows.map(r => {
     const d = r.base - r.pos;
     const mv = d > 0 ? `<td class="mv up">▲${d}</td>` : d < 0 ? `<td class="mv down">▼${-d}</td>` : '<td class="mv"></td>';
-    const gap = r.pts === lead ? (r.pos === 1 ? 'Leader' : 'Level') : '−' + (lead - r.pts);
+    const gap = r.pts === lead ? (r.pos === 1 ? 'Top' : 'Level') : '−' + (lead - r.pts);
     const fm = (form[r.name] || []).slice(-5).map(x => `<i class="${x}">${x}</i>`).join('');
     return `<tr data-row class="${r.name === mine ? 'mine' : ''}">
       <td class="pos l">${r.pos}</td>${mv}
       <td class="team l"><button type="button" class="teambtn" data-team="${esc(r.name)}">${crest(r.name)}${esc(r.name)}</button></td>
-      <td>${r.p}</td><td class="wide">${r.w}</td><td class="wide">${r.d}</td><td class="wide">${r.l}</td>
+      <td>${r.p}</td><td class="pts nar">${r.pts}</td><td class="wide">${r.w}</td><td class="wide">${r.d}</td><td class="wide">${r.l}</td>
       <td class="wide">${r.gf}</td><td class="wide">${r.ga}</td><td>${gdTxt(r.gd)}</td>
-      <td class="pts">${r.pts}</td><td class="l wide"><span class="form">${fm}</span></td><td class="gap">${gap}</td>
-    </tr><tr class="detail" hidden><td colspan="13"><div class="dl"><span>Won <b>${r.w}</b></span><span>Drawn <b>${r.d}</b></span><span>Lost <b>${r.l}</b></span><span>Scored <b>${r.gf}</b></span><span>Conceded <b>${r.ga}</b></span>${fm ? `<span class="form">${fm}</span>` : ''}<button type="button" class="linkish" data-team="${esc(r.name)}">Team page</button></div></td></tr>`;
+      <td class="pts wide">${r.pts}</td><td class="l wide"><span class="form">${fm}</span></td><td class="gap">${gap}</td>
+    </tr><tr class="detail" hidden><td colspan="14"><div class="dl"><span>Won <b>${r.w}</b></span><span>Drawn <b>${r.d}</b></span><span>Lost <b>${r.l}</b></span><span>Scored <b>${r.gf}</b></span><span>Conceded <b>${r.ga}</b></span>${fm ? `<span class="form">${fm}</span>` : ''}<button type="button" class="linkish" data-team="${esc(r.name)}">Team page</button></div></td></tr>`;
   }).join('');
   const b = document.getElementById('pred-badge');
   b.hidden = n === 0;
