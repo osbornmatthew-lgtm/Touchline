@@ -224,7 +224,9 @@ a.partner:hover{border-color:var(--accent)}
 .trow.mine .h,.trow.mine .a{font-weight:700}
 /* opponent preview */
 .opp{border-top:1px solid var(--line);padding:12px 18px;display:flex;flex-direction:column;gap:6px;font-size:14px;color:var(--fg-2)}
-.opp .who{color:var(--fg);font-weight:600}
+.opp .who{color:var(--fg);font-weight:800;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:4px}
+nav.sections a.on{color:var(--fg);font-weight:700;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:6px}
+@media (max-width:640px){ nav.sections{flex:1 1 100%} nav.sections > :first-child{margin-left:auto} nav.sections > :last-child{margin-right:auto} }
 .opp .form{display:inline-flex;gap:3px;vertical-align:middle}
 .ppnote{border-top:1px solid var(--line);padding:10px 18px;font-size:14px;color:var(--fg)}
 .ppnote b{color:#FF8A5C}
@@ -1042,6 +1044,7 @@ function renderView() {
   track('view/' + slug(comp.name), comp.name);
   const myTeam = mine ? `<button type="button" class="myteam" data-team="${esc(mine)}" data-track="my-team" aria-label="My team: ${esc(mine)}">${crest(mine)}My team</button>` : '<button type="button" class="myteam pick" data-pick>Pick your team</button>';
   document.getElementById('secnav').innerHTML = myTeam + (isCup ? '' : '<a href="#table">Table</a>') + '<a href="#fixtures">Fixtures</a><a href="#results">Results</a>';
+  markNav();
   if (isCup) { if (!county) renderCup(comp); }
   else { renderLatest(comp.results); renderPicks(); renderTable(); }
   renderToday();
@@ -1049,6 +1052,20 @@ function renderView() {
   renderFixtures(comp.fixtures, county);
   renderResults(comp.results, county);
 }
+
+// Underline the section link for the part of the page in view
+let navLock = 0;
+function markNav(id) {
+  const links = [...document.querySelectorAll('#secnav a[href^="#"]')];
+  if (!id) {
+    const top = document.querySelector('header.top').getBoundingClientRect().bottom + 24;
+    id = '';
+    for (const a of links) { const el = document.getElementById(a.getAttribute('href').slice(1)); if (el && !el.hidden && el.getBoundingClientRect().top <= top) id = a.getAttribute('href').slice(1); }
+  }
+  links.forEach(a => { const on = a.getAttribute('href') === '#' + id; a.classList.toggle('on', on); if (on) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+}
+document.getElementById('secnav').addEventListener('click', e => { const a = e.target.closest('a[href^="#"]'); if (a) { markNav(a.getAttribute('href').slice(1)); navLock = Date.now(); } });
+window.addEventListener('scroll', () => { if (Date.now() - navLock > 900) markNav(); }, { passive: true });
 
 const sel = document.getElementById('team-pick');
 const teamOptions = () => (mine ? '' : '<option value="" selected disabled>Choose your team</option>') + DATA.divisions.map(d => `<optgroup label="${esc(d.name)}">${d.teams.map(t => t[0]).slice().sort().map(n => `<option${n === mine ? ' selected' : ''}>${esc(n)}</option>`).join('')}</optgroup>`).join('');
