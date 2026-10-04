@@ -1,0 +1,1089 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="BCFA Youth League Under 13 Division 3 tables, results, fixtures and stats.">
+<meta property="og:title" content="Touchline BCFA">
+<meta property="og:description" content="BCFA Youth League Under 13 Division 3 tables, results, fixtures and stats.">
+<meta property="og:image" content="https://osbornmatthew-lgtm.github.io/Touchline/bcfa/og-image.png">
+<meta name="theme-color" content="#0E1217">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Touchline BCFA">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<script>if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js'));</script>
+<script>window.goatcounter = { path: p => "/bcfa" + p };</script>
+<script data-goatcounter="https://touchline.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<style>body{margin:0}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:#0E1217}</style>
+<title>Touchline BCFA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one mobile-first column; division chips switch the whole page; table and predictor sit side by side on wide screens */
+:root{
+  --bg:#0E1217; --panel:#151B22; --line:#222A33; --line-2:#2E3742;
+  --fg:#ECEFF3; --fg-2:#C3CAD3; --muted:#9AA4B0;
+  --accent:#3DD9FF; --on-accent:#0E1217; --mine:#12262C; --glow:none;
+  --win:#4ADE80; --loss:#F59E0B; --draw:#8A94A0;
+  --display:'Barlow Condensed','Arial Narrow',sans-serif;
+  --body:'IBM Plex Sans',system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45;margin:0}
+a{color:var(--accent)}
+a:hover{color:var(--fg)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px}
+header.top{border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
+header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;padding-block:12px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--fg)}
+.brand .mark{height:24.4px;width:auto;flex:none;position:relative;top:4.8px}
+.brand b{font-family:var(--display);font-weight:800;font-size:28px;line-height:1;letter-spacing:.02em;text-transform:uppercase}
+.brand span{font-family:var(--display);font-weight:600;font-size:28px;line-height:1;letter-spacing:.04em;text-transform:uppercase;color:var(--fg-2);border-left:2px solid var(--fg-2);padding-left:10px}
+nav.sections{display:flex;gap:2px;overflow-x:auto}
+nav.sections a{padding:10px 12px;color:var(--muted);text-decoration:none;font-weight:500;white-space:nowrap}
+nav.sections a:hover{color:var(--fg)}
+nav.sections{align-items:center}
+nav.sections .myteam{display:inline-flex;align-items:center;gap:8px;margin-right:6px;padding:6px 14px 6px 6px;border:1.5px solid var(--accent);border-radius:999px;background:color-mix(in srgb, var(--accent) 12%, transparent);color:var(--fg);font:inherit;font-weight:600;white-space:nowrap;cursor:pointer;text-decoration:none;box-shadow:0 0 12px color-mix(in srgb, var(--accent) 30%, transparent)}
+nav.sections .myteam .crest{width:26px;height:26px;font-size:10px}
+nav.sections .myteam:hover{background:color-mix(in srgb, var(--accent) 22%, transparent)}
+main{display:flex;flex-direction:column;gap:32px;padding-block:24px 56px}
+.eyebrow{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+h1{margin:0;font-family:var(--display);font-weight:800;font-size:clamp(44px,9vw,64px);line-height:1;text-transform:uppercase;text-wrap:balance}
+h2{margin:0;font-family:var(--display);font-weight:700;font-size:28px;line-height:1.1;text-transform:uppercase;text-wrap:balance}
+.intro{display:flex;flex-direction:column;gap:6px}
+.intro .meta{font-size:14px;color:var(--muted)}
+.follow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.follow label{font-size:14px;color:var(--fg-2)}
+select{font:inherit;color:var(--fg);background:var(--panel);border:1px solid var(--line-2);border-radius:8px;min-height:44px;padding:0 12px;max-width:100%}
+section{display:flex;flex-direction:column;gap:14px}
+.sec-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px}
+.sec-head .note{font-size:13px;color:var(--muted)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px}
+
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.chips button{flex:none;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--fg);font:inherit;font-weight:600;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.chips button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.chips .dot{width:10px;height:10px;border-radius:50%;border:1px solid rgba(255,255,255,.35)}
+
+.next{overflow:hidden;border-color:var(--accent)}
+.next .row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding:18px}
+.next .teams{font-family:var(--display);font-weight:700;font-size:clamp(26px,5vw,36px);text-transform:uppercase;line-height:1.05}
+.next .teams small{display:block;font-family:var(--body);font-weight:500;font-size:13px;color:var(--muted);text-transform:none;margin-top:4px}
+.next .kowrap{display:flex;flex-direction:column;gap:4px}
+.next .ko{font-family:var(--display);font-weight:800;font-size:44px;color:var(--accent);line-height:1}
+.next .ko.tbc{color:var(--muted);font-size:28px}
+.next .sub{border-top:1px solid var(--line);padding:12px 18px;display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:var(--fg-2)}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.stat{padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.stat .v{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.stat .club{font-weight:600}
+.stat .num{font-family:var(--display);font-weight:700;font-size:30px;color:var(--accent)}
+.stat .sub{font-size:13px;color:var(--muted)}
+
+.strip{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity}
+.match{flex:0 0 230px;scroll-snap-align:start;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.match.mine{border-color:var(--accent);background:var(--mine)}
+.match .line{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.match .sc{font-family:var(--display);font-weight:700;font-size:24px;font-variant-numeric:tabular-nums}
+.lost{color:var(--muted)}
+.won{font-weight:700}
+.tag{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+
+.split{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
+.split > .tablecol{flex:999 1 600px;min-width:0;display:flex;flex-direction:column;gap:12px}
+.split > .pred{flex:1 1 320px;min-width:0}
+.badge-pred{font-size:12px;font-weight:600;color:var(--on-accent);background:var(--accent);border-radius:999px;padding:6px 12px;text-transform:uppercase;letter-spacing:.06em}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th{font-size:12px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;text-align:right;padding:12px 6px}
+th.l,td.l{text-align:left}
+td{padding:0 6px;height:50px;text-align:right;color:var(--fg-2);border-top:1px solid var(--line)}
+tbody tr:first-child td{border-top:0}
+tr.mine td{background:var(--mine)}
+tr.mine td.team{font-weight:700}
+td.pos{padding-left:16px;font-weight:600;color:var(--fg);width:40px}
+td.mv{width:34px;font-size:12px;font-weight:600;text-align:left}
+td.mv.up{color:var(--win)} td.mv.down{color:var(--loss)}
+td.team{color:var(--fg);font-weight:500;white-space:nowrap}
+.tm{display:flex;align-items:center;gap:10px}
+.crest{width:28px;height:28px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:var(--on-accent);font-family:var(--display);font-weight:700;font-size:12px;flex:none}
+td.pts{font-family:var(--display);font-weight:700;font-size:20px;color:var(--fg)}
+td.gap{padding-right:16px;font-size:13px;color:var(--muted)}
+th.pts{color:var(--fg)} th.gap{padding-right:16px}
+.form{display:inline-flex;gap:3px}
+.form i{width:20px;height:20px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:11px;font-weight:700;color:var(--on-accent)}
+.form .W{background:var(--win)} .form .L{background:var(--loss)} .form .D{background:var(--draw)}
+.tnote{font-size:13px;color:var(--muted)}
+@media (max-width:640px){ .wide{display:none} }
+
+.pred .ph{padding:16px 16px 10px;display:flex;flex-direction:column;gap:6px}
+.pred .ph p{margin:0;font-size:13px;color:var(--muted)}
+.pick{border-top:1px solid var(--line);padding:10px 16px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:8px}
+.pick .h{text-align:right}
+.pick span{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pick span.on{font-weight:700}
+.opts{display:flex;gap:4px}
+.opts button{width:44px;height:44px;border-radius:8px;border:1px solid var(--line-2);background:transparent;color:var(--fg-2);font:inherit;font-weight:700;font-size:14px;cursor:pointer}
+.opts button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.reset{margin:12px 16px 16px;width:calc(100% - 32px);min-height:44px;border-radius:8px;border:1px solid var(--line-2);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer}
+
+.rounds{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;align-items:start}
+.round .rh{padding:12px 16px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.fx{border-top:1px solid var(--line);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.fx.mine{background:var(--mine)}
+.fx.mine .who > span:first-child{font-weight:700}
+.fx .who{font-size:14px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.fx .who a,.fx .who .nv{font-size:13px;font-weight:500}
+.fx .who .nv{color:var(--muted)}
+.fx .k{font-family:var(--display);font-weight:700;font-size:20px;color:var(--accent);white-space:nowrap}
+.fx .k.tbc{color:var(--muted);font-size:16px}
+.fx .k.pp{color:var(--loss);font-size:15px;text-transform:uppercase}
+.res{border-top:1px solid var(--line);padding:9px 16px;display:grid;grid-template-columns:minmax(0,1fr) 58px minmax(0,1fr);gap:8px;align-items:center;font-size:14px}
+.res.mine{background:var(--mine)}
+.res .h{text-align:right}
+.res .s{text-align:center;font-family:var(--display);font-weight:700;font-size:19px;color:var(--fg)}
+.res .s.void{font-family:var(--body);font-size:11px;font-weight:500;color:var(--muted);text-transform:uppercase}
+.res .n{grid-column:1/-1;text-align:center;font-size:11px;color:var(--muted);margin-top:-4px}
+.alive{display:flex;flex-wrap:wrap;gap:6px;padding:14px 16px}
+.alive span{font-size:13px;padding:6px 10px;border-radius:999px;border:1px solid var(--line-2);color:var(--fg-2)}
+.alive span.me{border-color:var(--accent);color:var(--fg);font-weight:600}
+footer{border-top:1px solid var(--line)}
+footer .wrap{padding-block:18px 28px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+.next{box-shadow:var(--glow)}
+.chips button[aria-pressed="true"]{box-shadow:var(--glow)}
+.stat .num,.next .ko{text-shadow:0 0 14px color-mix(in srgb, var(--accent) 55%, transparent)}
+.match.mine{border-color:var(--accent);background:var(--mine);box-shadow:var(--glow)}
+tr.mine td.pos{box-shadow:inset 4px 0 0 var(--accent)}
+.fx .k{transition:color .2s}
+footer .wrap div:last-child::after{content:''}
+
+button.stat{font:inherit;color:inherit;text-align:left;cursor:pointer;width:100%}
+button.stat:hover{border-color:var(--accent)}
+.teambtn{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left;display:flex;align-items:center;gap:10px;min-height:44px;text-decoration:underline;text-decoration-color:var(--line-2);text-underline-offset:4px}
+.teambtn:hover{text-decoration-color:var(--accent)}
+#welcome{position:fixed;inset:0;z-index:30;background:rgba(5,7,10,.8);display:flex;justify-content:center;align-items:center;padding:16px}
+#welcome[hidden]{display:none!important}
+.welcome-panel{background:var(--bg);border:1px solid var(--accent);border-radius:16px;width:100%;max-width:420px;padding:24px 20px;display:flex;flex-direction:column;gap:14px;box-shadow:0 0 30px color-mix(in srgb, var(--accent) 25%, transparent)}
+.welcome-panel h2{font-size:34px}
+.welcome-panel p{margin:0;color:var(--fg-2);font-size:15px}
+.welcome-panel select{width:100%;padding:12px;border-radius:10px;border:1px solid var(--line-2);background:var(--panel);color:var(--fg);font:inherit;font-size:16px}
+#welcome-go{padding:13px;border-radius:999px;border:0;background:var(--accent);color:#0E1217;font:inherit;font-weight:700;font-size:16px;cursor:pointer}
+#welcome-go:disabled{opacity:.45;cursor:default}
+.linkish{background:none;border:0;color:var(--muted);font:inherit;text-decoration:underline;cursor:pointer;padding:4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.pickbtn{padding:9px 16px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer}
+#sheet{position:fixed;inset:0;z-index:20;background:rgba(5,7,10,.72);display:flex;justify-content:center;align-items:flex-end}
+#sheet[hidden]{display:none!important}
+.sheet-panel{background:var(--bg);border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0;width:100%;max-width:760px;max-height:92vh;overflow-y:auto;position:relative;padding:20px 16px calc(28px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 40px rgba(0,0,0,.5)}
+.sheet-close{position:sticky;top:0;float:right;width:44px;height:44px;border-radius:50%;border:1px solid var(--line-2);background:var(--panel);color:var(--fg);font-size:22px;line-height:1;cursor:pointer;z-index:2}
+.sheet-body{display:flex;flex-direction:column;gap:22px}
+.sh-head{display:flex;flex-direction:column;gap:12px;padding-right:52px}
+.sh-head h2{font-size:34px}
+.sh-head .crest{width:44px;height:44px;font-size:16px}
+.sh-sum{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;font-size:14px;color:var(--fg-2)}
+.sh-sum .num{font-family:var(--display);font-weight:800;font-size:34px;color:var(--accent);text-shadow:0 0 14px color-mix(in srgb, var(--accent) 55%, transparent)}
+.sh-sum .run{border:1px solid var(--accent);color:var(--fg);border-radius:999px;padding:4px 10px;font-weight:600}
+.stats.six{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.stats.six .num{font-family:var(--display);font-weight:700;font-size:26px;color:var(--fg)}
+.partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.partner{display:flex;align-items:center;gap:14px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--fg);text-decoration:none}
+.partner .logo{flex:0 0 auto;width:112px;height:56px;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:center;padding:6px}
+.partner .logo img{max-width:100%;max-height:100%;object-fit:contain}
+.partner .pn{font-weight:700;font-size:16px}
+.partner .go{margin-left:auto;color:var(--accent);font-size:13px;font-weight:600;white-space:nowrap}
+a.partner:hover{border-color:var(--accent)}
+.maps{display:inline-flex;gap:16px;flex-wrap:wrap}
+.calrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.calbtn{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:999px;border:1px solid var(--accent);color:var(--fg);background:transparent;font:inherit;font-size:14px;font-weight:600;text-decoration:none;cursor:pointer}
+.calbtn:hover{background:color-mix(in srgb, var(--accent) 18%, transparent)}
+.offline{position:sticky;top:0;z-index:30;background:var(--accent);color:#05070A;text-align:center;font-size:13px;font-weight:700;padding:6px 12px}
+
+/* match day */
+.today{padding:6px 0}
+.trow{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) 92px;gap:10px;align-items:center;padding:10px 14px;border-top:1px solid var(--line);font-size:14px}
+.trow:first-child{border-top:0}
+.trow .h{text-align:right;min-width:0}
+.trow .a{min-width:0}
+.trow .sc{font-family:var(--display);font-weight:800;font-size:22px;min-width:56px;text-align:center;font-variant-numeric:tabular-nums}
+.trow .sc.ko{font-size:18px;color:var(--muted)}
+.trow .st{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-align:right;color:var(--muted)}
+.trow .st.ft{color:var(--accent)}
+.trow .cp{grid-column:1/-1;font-size:11px;color:var(--muted);text-align:center;margin-top:-6px}
+.trow .st.live{color:var(--warn,#FFB547)}
+.trow.mine{background:var(--mine)}
+.trow.mine .h,.trow.mine .a{font-weight:700}
+/* opponent preview */
+.opp{border-top:1px solid var(--line);padding:12px 18px;display:flex;flex-direction:column;gap:6px;font-size:14px;color:var(--fg-2)}
+.opp .who{color:var(--fg);font-weight:600}
+.opp .form{display:inline-flex;gap:3px;vertical-align:middle}
+.ppnote{border-top:1px solid var(--line);padding:10px 18px;font-size:14px;color:var(--fg)}
+.ppnote b{color:#FF8A5C}
+.k.pp,.badge-pp{background:color-mix(in srgb, #FF8A5C 18%, transparent);color:#FF8A5C;border-radius:999px;padding:2px 8px;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.parking{font-size:13px;color:var(--muted)}
+/* expandable table rows on phones */
+tr.detail td{background:var(--panel);font-size:13px;color:var(--fg-2);padding:8px 16px 12px;text-align:left}
+tr.detail .dl{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
+tr.detail b{color:var(--fg)}
+tr[data-row]{cursor:pointer}
+@media (min-width:641px){ tr.detail{display:none!important} tr[data-row]{cursor:default} }
+/* share */
+.noshare .sharebtn{display:none}
+.sharebtn{margin-left:auto;padding:6px 12px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--fg-2);font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.sharebtn:hover{border-color:var(--accent);color:var(--fg)}
+.sheet-body h3{margin:0 0 10px;font-family:var(--display);font-weight:700;font-size:22px;text-transform:uppercase}
+.kv,.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.kv li,.list li{padding:11px 14px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;font-size:14px}
+.kv li:first-child,.list li:first-child{border-top:0}
+.kv b{min-width:160px;font-weight:600;color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.05em}
+.list .rt{flex:1 1 220px}
+.list .rc{font-size:12px;color:var(--muted)}
+.list a{font-size:13px;flex-basis:100%}
+.list .maps a{flex-basis:auto}
+.rp{width:22px;height:22px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--on-accent);flex:none}
+.rp.W{background:var(--win)} .rp.L{background:var(--loss)} .rp.D{background:var(--draw)} .rp.N{background:var(--line-2);color:var(--fg)}
+.ok{color:var(--win);font-weight:600} .out{color:var(--loss);font-weight:600}
+.fine{margin:8px 0 0;font-size:12px;color:var(--muted)}
+.bars{display:flex;flex-direction:column;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.bar{display:grid;grid-template-columns:56px 1fr 28px;align-items:center;gap:10px;font-size:13px}
+.bar .bt{height:12px;background:var(--line);border-radius:6px;overflow:hidden}
+.bar .bt i{display:block;height:100%;background:var(--accent);box-shadow:var(--glow);border-radius:6px}
+.bar .bn{text-align:right;font-variant-numeric:tabular-nums}
+.bl{color:var(--muted)}
+</style>
+
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Touchline BCFA"><svg class="mark" viewBox="12 6 78 92" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M12 6H36L90 80H12Z M24 18H29.9L66.4 68H24Z"/><path fill="#3DD9FF" d="M12 86H90V98H12Z"/></svg><b>Touchline</b><span>BCFA</span></a>
+    <nav class="sections" aria-label="Sections" id="secnav"></nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <div class="intro">
+    <div class="eyebrow">BCFA Youth League · Under 13 · 2026–27</div>
+    <h1 id="title"></h1>
+    <div class="meta" id="updated"></div>
+  </div>
+
+  <div class="follow">
+    <label for="team-pick">Your team</label>
+    <select id="team-pick"></select>
+  </div>
+
+  <section aria-labelledby="next-h">
+    <h2 id="next-h">Your next match</h2>
+    <div class="panel next" id="next"></div>
+  </section>
+
+  <section aria-labelledby="today-h" id="today-sec" hidden>
+    <div class="sec-head"><h2 id="today-h">Match Day</h2><span class="note" id="today-note"></span><button type="button" class="sharebtn" data-share="today">Share</button></div>
+    <div class="panel today" id="today"></div>
+  </section>
+
+  <div role="group" aria-label="Competition" class="chips" id="chips"></div>
+
+  <div id="league-view" style="display:flex;flex-direction:column;gap:32px">
+
+    <div class="split" id="table">
+      <div class="tablecol">
+        <div class="sec-head"><h2>Table</h2><span class="badge-pred" id="pred-badge" hidden></span><button type="button" class="sharebtn" data-share="table">Share</button></div>
+        <div class="panel scroll">
+          <table>
+            <thead><tr>
+              <th class="l" style="padding-left:16px">Pos</th>
+              <th class="l"><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Movement</span></th>
+              <th class="l">Team</th>
+              <th>P</th><th class="wide">W</th><th class="wide">D</th><th class="wide">L</th>
+              <th class="wide">GF</th><th class="wide">GA</th><th>GD</th>
+              <th class="pts">Pts</th><th class="l wide">Form</th><th class="gap">Gap</th>
+            </tr></thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+        <div class="tnote" id="tnote"></div>
+      </div>
+
+      <aside class="panel pred" aria-labelledby="pred-h" id="pred">
+        <div class="ph">
+          <h2 id="pred-h">Table predictor</h2>
+          <p id="pred-sub"></p>
+        </div>
+        <div id="picks"></div>
+        <button class="reset" id="reset" type="button">Reset picks</button>
+      </aside>
+    </div>
+
+    <section aria-labelledby="latest-h">
+      <div class="sec-head"><h2 id="latest-h">Latest results</h2><span class="note" id="latest-date"></span><button type="button" class="sharebtn" data-share="results">Share</button></div>
+      <div class="strip" id="latest"></div>
+    </section>
+
+    <section aria-labelledby="stats-h">
+      <div class="sec-head"><h2 id="stats-h">Division stats</h2></div>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <section aria-labelledby="tp-h">
+      <div class="sec-head"><h2 id="tp-h">Talking points</h2><span class="note">Tap a team for its full stats</span></div>
+      <div class="stats" id="quirky"></div>
+    </section>
+
+  </div>
+
+  <section id="cup-alive" aria-labelledby="alive-h" hidden>
+    <h2 id="alive-h">Still in the cup</h2>
+    <div class="panel alive" id="alive"></div>
+  </section>
+
+  <section id="fixtures" aria-labelledby="fx-h">
+    <div class="sec-head"><h2 id="fx-h">Fixtures</h2><span class="note">Tap Directions or Waze to get to the ground</span></div>
+    <div class="rounds" id="fx"></div>
+  </section>
+
+  <section id="results" aria-labelledby="res-h">
+    <h2 id="res-h">Results</h2>
+    <div class="rounds" id="res"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>Tables, results, fixtures and venues from FA Full-Time. Team names only: no player names, photos or video.</div>
+    <div>Teams level on points are shown in the league's own order. Badges are placeholders.</div>
+  </div>
+</footer>
+
+<div id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="welcome-h">
+  <div class="welcome-panel">
+    <div class="eyebrow">BCFA Youth League · Under 13</div>
+    <h2 id="welcome-h">Who do you follow?</h2>
+    <p>Pick your team and Touchline puts their next match, kick-off time, directions and stats first. You can change it any time.</p>
+    <label for="welcome-pick" class="sr">Your team</label>
+    <select id="welcome-pick"></select>
+    <button type="button" id="welcome-go" disabled>Show me my team</button>
+    <button type="button" id="welcome-skip" class="linkish">Just browsing</button>
+  </div>
+</div>
+<div id="sheet" hidden role="dialog" aria-modal="true" aria-label="Team stats">
+  <div class="sheet-panel">
+    <button type="button" class="sheet-close" aria-label="Close">×</button>
+    <div class="sheet-body"></div>
+  </div>
+</div>
+
+<script>
+const DATA = {"divisions":[{"name":"Division 3","teams":[["Hannakins Farm Purple",3,2,1,0,9,3,7],["CFC Rainham Lions",2,2,0,0,8,1,6],["Perry Street Blacks",2,1,1,0,3,2,4],["BSC FC United",3,1,1,1,7,7,4],["Blackmore Blue",2,1,0,1,5,4,3],["Loughton Town Greens",3,1,0,2,4,7,3],["Risden Wood Warriors",3,1,0,2,3,5,3],["Tilbury Titans",3,1,0,2,4,8,3],["Essex Minors (Hornchurch) Merlins",3,0,1,2,3,9,1],["Aveley United",0,0,0,0,0,0,0]],"results":[["27/09","Essex Minors (Hornchurch) Merlins","Perry Street Blacks",1,1,"",30722245,[[1,"H","G"],[55,"A","G"]]],["27/09","Hannakins Farm Purple","Loughton Town Greens",3,0,"HT 0-0",30722246,[]],["27/09","Risden Wood Warriors","BSC FC United",2,1,"",30722242,[[16,"A","G"]]],["27/09","Tilbury Titans","CFC Rainham Lions",0,6,"HT 0-2",30722244,[[28,"A","G"],[34,"A","G"],[37,"A","G"],[47,"A","G"],[47,"A","G"],[50,"A","G"],[55,"A","G"]]],["20/09","Perry Street Blacks","Tilbury Titans",2,1,"HT 2-0",30722239,[[15,"H","G"],[17,"H","G"]]],["20/09","Blackmore Blue","Risden Wood Warriors",2,0,"HT 2-0",30722237,[]],["20/09","Hannakins Farm Purple","BSC FC United",2,2,"HT 1-1",30722241,[[5,"A","G"],[56,"A","G"]]],["20/09","Loughton Town Greens","Essex Minors (Hornchurch) Merlins",4,1,"HT 0-0",30722238,[[1,"A","G"],[36,"H","G"]]],["13/09","BSC FC United","Blackmore Blue",4,3,"",30722232,[[17,"H","G"],[40,"H","G"],[50,"H","G"],[60,"H","G"]]],["13/09","Tilbury Titans","Loughton Town Greens",3,0,"HT 1-0",30722235,[]],["13/09","Essex Minors (Hornchurch) Merlins","Hannakins Farm Purple",1,4,"HT 1-3",30722236,[[1,"H","G"]]],["13/09","Risden Wood Warriors","CFC Rainham Lions",1,2,"HT 1-1",30722233,[[6,"A","G"],[35,"A","G"]]]],"fixtures":[["04/10","10:00","BSC FC United","Aveley United","Friedberg Playing Fields",30722248,""],["04/10","10:00","Hannakins Farm Purple","Risden Wood Warriors","Hannakins Farm Community Centre",30722251,""],["04/10","10:30","Blackmore Blue","Tilbury Titans","Blackmore Sports and Social Club",30722247,""],["04/10","11:30","CFC Rainham Lions","Essex Minors (Hornchurch) Merlins","Spring Farm Park",30722250,""],["04/10","12:30","Perry Street Blacks","Loughton Town Greens","Barleylands Farm (Site 1b)",30722249,""],["11/10",null,"Blackmore Blue","CFC Rainham Lions","Kelvedon Hatch Secret Nuclear Bunker",30722267,""],["11/10",null,"Tilbury Titans","BSC FC United","The Gateway Academy",30722253,""],["18/10",null,"Blackmore Blue","Loughton Town Greens","Kelvedon Hatch Secret Nuclear Bunker",30722257,""],["18/10",null,"BSC FC United","Essex Minors (Hornchurch) Merlins","Friedberg Playing Fields",30722258,""],["18/10",null,"CFC Rainham Lions","Perry Street Blacks","Spring Farm Park",30722260,""],["18/10",null,"Risden Wood Warriors","Tilbury Titans","Long Ley Recreation Ground",30722259,""],["25/10",null,"Essex Minors (Hornchurch) Merlins","Risden Wood Warriors","Bretons Outdoor Recreation Centre",30722263,""],["25/10",null,"Tilbury Titans","Aveley United","The Gateway Academy",30722262,""],["01/11",null,"Aveley United","Essex Minors (Hornchurch) Merlins","Chadwell Recreation Ground",30722270,""],["01/11",null,"BSC FC United","Perry Street Blacks","Friedberg Playing Fields",30722268,""],["01/11",null,"Hannakins Farm Purple","Tilbury Titans","Hannakins Farm Community Centre",30722271,""],["01/11",null,"Risden Wood Warriors","Loughton Town Greens","Long Ley Recreation Ground",30722269,""],["08/11",null,"CFC Rainham Lions","BSC FC United","Spring Farm Park",30722275,""],["08/11",null,"Essex Minors (Hornchurch) Merlins","Tilbury Titans","Bretons Outdoor Recreation Centre",30722272,""],["08/11",null,"Hannakins Farm Purple","Blackmore Blue","Hannakins Farm Community Centre",30722276,""],["08/11",null,"Loughton Town Greens","Aveley United","Davenant Foundation School",30722273,""],["08/11",null,"Perry Street Blacks","Risden Wood Warriors","Barleylands Farm (Site 1b)",30722274,""],["15/11",null,"Aveley United","Loughton Town Greens","Chadwell Recreation Ground",30722280,""],["15/11",null,"Blackmore Blue","Hannakins Farm Purple","Kelvedon Hatch Secret Nuclear Bunker",30722277,""],["15/11",null,"BSC FC United","CFC Rainham Lions","Friedberg Playing Fields",30722278,""],["15/11",null,"Risden Wood Warriors","Perry Street Blacks","Long Ley Recreation Ground",30722279,""],["15/11",null,"Tilbury Titans","Essex Minors (Hornchurch) Merlins","The Gateway Academy",30722281,""],["22/11",null,"Blackmore Blue","BSC FC United","Kelvedon Hatch Secret Nuclear Bunker",30722282,""],["22/11",null,"CFC Rainham Lions","Risden Wood Warriors","Spring Farm Park",30722285,""],["22/11",null,"Hannakins Farm Purple","Essex Minors (Hornchurch) Merlins","Hannakins Farm Community Centre",30722286,""],["22/11",null,"Loughton Town Greens","Tilbury Titans","Davenant Foundation School",30722283,""],["22/11",null,"Perry Street Blacks","Aveley United","Barleylands Farm (Site 1b)",30722284,""],["29/11",null,"Aveley United","CFC Rainham Lions","Chadwell Recreation Ground",30722289,""],["29/11",null,"BSC FC United","Hannakins Farm Purple","Friedberg Playing Fields",30722287,""],["29/11",null,"Essex Minors (Hornchurch) Merlins","Loughton Town Greens","Bretons Outdoor Recreation Centre",30722291,""],["29/11",null,"Risden Wood Warriors","Blackmore Blue","Long Ley Recreation Ground",30722288,""],["29/11",null,"Tilbury Titans","Perry Street Blacks","The Gateway Academy",30722290,""],["06/12",null,"Blackmore Blue","Aveley United","Kelvedon Hatch Secret Nuclear Bunker",30722292,""],["06/12",null,"BSC FC United","Risden Wood Warriors","Friedberg Playing Fields",30722293,""],["06/12",null,"CFC Rainham Lions","Tilbury Titans","Spring Farm Park",30722295,""],["06/12",null,"Loughton Town Greens","Hannakins Farm Purple","Davenant Foundation School",30722296,""],["06/12",null,"Perry Street Blacks","Essex Minors (Hornchurch) Merlins","Barleylands Farm (Site 1b)",30722294,""],["13/12",null,"Aveley United","BSC FC United","Chadwell Recreation Ground",30722298,""],["13/12",null,"Essex Minors (Hornchurch) Merlins","CFC Rainham Lions","Bretons Outdoor Recreation Centre",30722300,""],["13/12",null,"Loughton Town Greens","Perry Street Blacks","Davenant Foundation School",30722301,""],["13/12",null,"Risden Wood Warriors","Hannakins Farm Purple","Long Ley Recreation Ground",30722297,""],["13/12",null,"Tilbury Titans","Blackmore Blue","The Gateway Academy",30722299,""],["03/01",null,"Blackmore Blue","Essex Minors (Hornchurch) Merlins","Kelvedon Hatch Secret Nuclear Bunker",30722302,""],["03/01",null,"BSC FC United","Tilbury Titans","Friedberg Playing Fields",30722303,""],["03/01",null,"CFC Rainham Lions","Loughton Town Greens","Spring Farm Park",30722305,""],["03/01",null,"Hannakins Farm Purple","Perry Street Blacks","Hannakins Farm Community Centre",30722306,""],["03/01",null,"Risden Wood Warriors","Aveley United","Long Ley Recreation Ground",30722304,""],["10/01",null,"Aveley United","Hannakins Farm Purple","Chadwell Recreation Ground",30722307,""],["10/01",null,"Essex Minors (Hornchurch) Merlins","BSC FC United","Bretons Outdoor Recreation Centre",30722309,""],["10/01",null,"Loughton Town Greens","Blackmore Blue","Davenant Foundation School",30722310,""],["10/01",null,"Perry Street Blacks","CFC Rainham Lions","Barleylands Farm (Site 1b)",30722311,""],["10/01",null,"Tilbury Titans","Risden Wood Warriors","The Gateway Academy",30722308,""],["17/01",null,"Aveley United","Tilbury Titans","Chadwell Recreation Ground",30722315,""],["17/01",null,"Blackmore Blue","Perry Street Blacks","Kelvedon Hatch Secret Nuclear Bunker",30722312,""],["17/01",null,"BSC FC United","Loughton Town Greens","Friedberg Playing Fields",30722313,""],["17/01",null,"Hannakins Farm Purple","CFC Rainham Lions","Hannakins Farm Community Centre",30722316,""],["17/01",null,"Risden Wood Warriors","Essex Minors (Hornchurch) Merlins","Long Ley Recreation Ground",30722314,""],["24/01",null,"CFC Rainham Lions","Blackmore Blue","Spring Farm Park",30722321,""],["24/01",null,"Essex Minors (Hornchurch) Merlins","Aveley United","Bretons Outdoor Recreation Centre",30722318,""],["24/01",null,"Loughton Town Greens","Risden Wood Warriors","Davenant Foundation School",30722319,""],["24/01",null,"Perry Street Blacks","BSC FC United","Barleylands Farm (Site 1b)",30722320,""],["24/01",null,"Tilbury Titans","Hannakins Farm Purple","The Gateway Academy",30722317,""],["31/01",null,"Essex Minors (Hornchurch) Merlins","Blackmore Blue","Bretons Outdoor Recreation Centre",30722254,""],["31/01",null,"Hannakins Farm Purple","Aveley United","Hannakins Farm Community Centre",30722261,""],["31/01",null,"Loughton Town Greens","BSC FC United","Davenant Foundation School",30722264,""],["07/02",null,"Aveley United","Perry Street Blacks","Chadwell Recreation Ground",30977875,""],["07/02",null,"CFC Rainham Lions","Hannakins Farm Purple","Spring Farm Park",30722266,""],["07/02",null,"Perry Street Blacks","Blackmore Blue","Barleylands Farm (Site 1b)",30722265,""],["14/02",null,"Aveley United","Risden Wood Warriors","Chadwell Recreation Ground",30722252,""],["14/02",null,"Loughton Town Greens","CFC Rainham Lions","Davenant Foundation School",30722255,""],["14/02",null,"Perry Street Blacks","Hannakins Farm Purple","Barleylands Farm (Site 1b)",30722256,""],["21/02",null,"CFC Rainham Lions","Aveley United","Spring Farm Park",30977877,""],["28/02",null,"Aveley United","Blackmore Blue","Chadwell Recreation Ground",30977879,""]]}],"cups":[{"name":"County Cup","county":true,"results":[],"fixtures":[["11/10",null,"Brandon Groves Rockets","Tilbury Titans",null,30554813,"","Essex U13 Trophy"],["11/10",null,"CFC Rainham Lions","CSM London Red","Spring Farm Park",30554796,"","Essex U13 Trophy"],["11/10",null,"Perry Street Blacks","Dagenham United Blues","Barleylands Farm - Site 3",30554822,"","Essex U13 Trophy"],["11/10",null,"Shield Academy Red","Loughton Town Greens",null,30554814,"","Essex U13 Trophy"],["11/10",null,"Shield Academy White","Essex Minors (Hornchurch) Merlins",null,30554800,"","Essex U13 Trophy"],["11/10",null,"Thundersley Rovers Leopards","Aveley United","Thundersley Common",30554802,"","Essex U13 Trophy"]]}]};
+DATA.updated = 'Sunday 27 September 2026';
+DATA.fetched = 'Saturday 3 October';
+
+const FT = 'https://fulltime.thefa.com/displayFixture.html?id=';
+// Directions: Google Maps (opens the app where installed) plus Waze. Full-Time only gives the pitch name, so add the county to help the search.
+// Corrections where Full-Time's venue name or address sends people to the wrong place.
+const VENUES = {};
+const venueName = v => (VENUES[v] && VENUES[v].name) || v;
+function mapLinks(venue) {
+  const t = venueLink(venue);
+  const g = t.ll ? `https://www.google.com/maps/dir/?api=1&destination=${t.ll}` : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(t.q)}`;
+  const w = t.ll ? `https://waze.com/ul?ll=${t.ll}&navigate=yes` : `https://waze.com/ul?q=${encodeURIComponent(t.q)}&navigate=yes`;
+  return `<span class="maps"><a href="${g}" target="_blank" rel="noopener">Directions</a><a href="${w}" target="_blank" rel="noopener">Waze</a></span>`;
+}
+const BADGES = ['#C9D6E3','#E8C9A6','#BFD9C2','#D9C2DE','#E6D79A','#A9CFE0','#E3B7B0','#C8C8A0'];
+const DOTS = { Black:'#E8F1FF', Blue:'#2EC5FF', Brown:'#FF9F43', Green:'#39FF88', Purple:'#C77DFF', Red:'#FF3B5C', Yellow:'#FFE600', 'Division 3':'#3DD9FF' };
+const BRAND = { code: 'BCFA', bar: '#3DD9FF' };
+// Saved settings are per league (EJA keeps the original keys).
+const LSK = BRAND.code === 'EJA' ? 'touchline' : 'touchline-' + BRAND.code.toLowerCase();
+const CUP_ACCENT = BRAND.bar;
+// ---- match day, opponent preview, postponements, row details, share images, venue pins ----
+const pad2 = n => String(n).padStart(2, '0');
+const ddmm = d => pad2(d.getDate()) + '/' + pad2(d.getMonth() + 1);
+const VINFO = DATA.venues || {};
+function venueLink(venue) {
+  const fix = VENUES[venue], info = VINFO[venue] || {};
+  if (fix) return { q: fix.q };
+  if (info.ll) return { ll: info.ll };
+  if (info.a) return { q: info.a };
+  return { q: venue + ', Essex, UK' };
+}
+function parkingFor(venue) { return VENUES[venue] ? '' : ((VINFO[venue] || {}).p || ''); }
+function matchDayGames() {
+  const di = mine && teamDiv[mine] !== undefined ? teamDiv[mine] : (typeof view === 'number' ? view : null);
+  if (di === null) return null;
+  const d = DATA.divisions[di], key = ddmm(new Date()), inDiv = new Set(d.teams.map(x => x[0])), items = [];
+  const addR = (r, comp) => items.push({ h: r[1], a: r[2], hs: r[3], as: r[4], ko: null, st: '', comp });
+  const addF = (f, comp) => items.push({ h: f[2], a: f[3], hs: null, as: null, ko: f[1], st: f[6], comp });
+  d.results.filter(r => r[0] === key).forEach(r => addR(r, ''));
+  d.fixtures.filter(f => f[0] === key).forEach(f => addF(f, ''));
+  DATA.cups.forEach(c => {
+    c.results.filter(r => r[0] === key && (inDiv.has(r[1]) || inDiv.has(r[2]))).forEach(r => addR(r, c.county ? (r[6] || c.name) : c.name));
+    c.fixtures.filter(f => f[0] === key && (inDiv.has(f[2]) || inDiv.has(f[3]))).forEach(f => addF(f, c.county ? (f[7] || c.name) : c.name));
+  });
+  const me = g => g.h === mine || g.a === mine;
+  items.sort((x, y) => me(y) - me(x) || (x.hs === null) - (y.hs === null) || (x.ko || '99').localeCompare(y.ko || '99'));
+  return { d, items };
+}
+function renderToday() {
+  const sec = document.getElementById('today-sec'), md = matchDayGames();
+  if (!md || !md.items.length) { sec.hidden = true; return; }
+  sec.hidden = false;
+  const now = new Date(), mins = s => { const [h, m] = s.split(':').map(Number); return h * 60 + m; };
+  const nowM = now.getHours() * 60 + now.getMinutes();
+  document.getElementById('today-note').textContent = `${md.d.name} · from FA Full-Time · checked ${DATA.fetched}`;
+  document.getElementById('today').innerHTML = md.items.map(g => {
+    const m = g.h === mine || g.a === mine;
+    let sc, st;
+    if (g.hs !== null && g.hs !== undefined) { sc = `<span class="sc">${g.hs}–${g.as}</span>`; st = '<span class="st ft">Full time</span>'; }
+    else if (g.st) { sc = '<span class="sc ko">–</span>'; st = `<span class="st"><span class="badge-pp">${esc(g.st)}</span></span>`; }
+    else if (g.ko && nowM >= mins(g.ko) + 100) { sc = '<span class="sc ko">v</span>'; st = '<span class="st"></span>'; }
+    else if (g.ko && nowM >= mins(g.ko)) { sc = '<span class="sc ko">v</span>'; st = '<span class="st live">Playing now</span>'; }
+    else { sc = `<span class="sc ko">${g.ko ? esc(g.ko) : 'TBC'}</span>`; st = '<span class="st">Kick-off</span>'; }
+    return `<div class="trow ${m ? 'mine' : ''}"><span class="h">${esc(g.h)}</span>${sc}<span class="a">${esc(g.a)}</span>${st}${g.comp ? `<span class="cp">${esc(g.comp)}</span>` : ''}</div>`;
+  }).join('');
+}
+function oppPreview(opp) {
+  const bits = [];
+  const di = teamDiv[opp];
+  if (di !== undefined) {
+    const d = DATA.divisions[di], ti = d.teams.findIndex(t => t[0] === opp), t = d.teams[ti];
+    const fm = (formMap(d)[opp] || []).slice(-5).map(x => `<i class="${x}">${x}</i>`).join('');
+    bits.push(`<div><span class="who">${esc(opp)}</span> · ${ordinal(ti + 1)} in ${esc(d.name)} · ${t[7]} pts${fm ? ` · <span class="form">${fm}</span>` : ''}</div>`);
+    const s = teamSummary(opp), last = s.g[s.g.length - 1];
+    if (last) bits.push(`<div>Last game: ${last.res === 'W' ? 'beat' : last.res === 'L' ? 'lost to' : 'drew with'} ${esc(last.opp)} ${Math.max(last.gf, last.ga)}–${Math.min(last.gf, last.ga)}</div>`);
+  }
+  const prev = teamSummary(mine).g.filter(x => x.opp === opp).pop();
+  if (prev) bits.push(`<div>Last time you met: ${prev.home ? SCORE(mine, opp, prev.gf, prev.ga) : SCORE(opp, mine, prev.ga, prev.gf)}, ${dayLabel(prev.date)}</div>`);
+  return bits.length ? `<div class="opp"><div class="eyebrow">Opponent</div>${bits.join('')}</div>` : '';
+}
+function postponedFor(name) {
+  const out = [];
+  DATA.divisions.forEach(d => d.fixtures.forEach(f => { if (f[6] && (f[2] === name || f[3] === name) && toDate(f[0]) >= today) out.push(f); }));
+  DATA.cups.forEach(c => c.fixtures.forEach(f => { if (f[6] && (f[2] === name || f[3] === name) && toDate(f[0]) >= today) out.push(f); }));
+  return out.sort((a, b) => toDate(a[0]) - toDate(b[0]));
+}
+document.addEventListener('click', e => {
+  const tr = e.target.closest('tr[data-row]');
+  if (!tr || e.target.closest('.teambtn') || window.matchMedia('(min-width:641px)').matches) return;
+  const det = tr.nextElementSibling;
+  if (det && det.classList.contains('detail')) det.hidden = !det.hidden;
+});
+
+// Share images (Web Share on phones, download elsewhere)
+const MARK = new Path2D('M12 6H36L90 80H12Z M24 18H29.9L66.4 68H24Z'), BAR = new Path2D('M12 86H90V98H12Z');
+function fitText(ctx, t, max, size, weight, family) {
+  let s = size; do { ctx.font = `${weight} ${s}px ${family}`; s -= 2; } while (ctx.measureText(t).width > max && s > 18);
+  return t;
+}
+async function drawCard(kind) {
+  const W = 1080, H = 1350, c = document.createElement('canvas'); c.width = W; c.height = H;
+  const x = c.getContext('2d');
+  try { await Promise.all([document.fonts.load('800 80px "Barlow Condensed"'), document.fonts.load('600 40px "IBM Plex Sans"')]); } catch (e) {}
+  const D = "'Barlow Condensed', 'Arial Narrow', sans-serif", B = "'IBM Plex Sans', system-ui, sans-serif";
+  const acc = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#C9F24A';
+  x.fillStyle = '#0E1217'; x.fillRect(0, 0, W, H);
+  x.save(); x.translate(72, 64); x.scale(0.62, 0.62); x.fillStyle = '#FFFFFF'; x.fill(MARK, 'evenodd'); x.fillStyle = BRAND.bar; x.fill(BAR); x.restore();
+  x.fillStyle = '#FFFFFF'; x.font = `800 52px ${D}`; x.textBaseline = 'alphabetic'; x.fillText('TOUCHLINE', 140, 110);
+  const tw = x.measureText('TOUCHLINE').width; x.fillStyle = '#9AA4B0'; x.fillRect(140 + tw + 16, 66, 3, 48); x.font = `600 46px ${D}`; x.fillText(BRAND.code, 140 + tw + 34, 110);
+  const d = DATA.divisions[view];
+  let title, sub, rows = [];
+  if (kind === 'table') {
+    title = d.name.toUpperCase(); sub = 'League table · ' + (DATA.updated || '');
+    const { rows: r } = buildTable(view);
+    rows = r.slice(0, 12).map(t => ({ l: `${t.pos}`, n: t.name, m: `${t.p}`, g: gdTxt(t.gd), r: `${t.pts}`, me: t.name === mine }));
+  } else if (kind === 'today') {
+    const md = matchDayGames() || { d, items: [] };
+    title = md.d.name.toUpperCase(); sub = 'Match day · ' + dayLabel(ddmm(new Date()));
+    rows = md.items.map(g => ({ h: g.h, s: g.hs !== null && g.hs !== undefined ? `${g.hs}–${g.as}` : g.st ? 'P–P' : (g.ko || 'TBC'), a: g.a, me: g.h === mine || g.a === mine, ko: !(g.hs !== null && g.hs !== undefined) }));
+  } else {
+    const key = null;
+    const scored = d.results.filter(r => r[3] !== null && (!key || r[0] === key));
+    const date = key || (groupByDate(scored, false)[0] || [])[0];
+    title = d.name.toUpperCase(); sub = (kind === 'today' ? 'Today · ' : 'Results · ') + (date ? dayLabel(date) : '');
+    rows = scored.filter(r => r[0] === date).map(r => ({ h: r[1], s: `${r[3]}–${r[4]}`, a: r[2], me: r[1] === mine || r[2] === mine }));
+    if (kind === 'today') d.fixtures.filter(f => f[0] === date).forEach(f => rows.push({ h: f[2], s: f[6] ? 'P–P' : (f[1] || 'TBC'), a: f[3], me: f[2] === mine || f[3] === mine, ko: true }));
+  }
+  x.fillStyle = acc; x.font = `800 112px ${D}`; x.fillText(title, 72, 270);
+  x.fillStyle = '#C3CAD3'; x.font = `500 34px ${B}`; x.fillText(sub, 72, 326);
+  const top = kind === 'table' ? 450 : 420, rh = kind === 'table' ? 70 : 88;
+  rows.slice(0, kind === 'table' ? 12 : 10).forEach((r, i) => {
+    const y = top + i * rh;
+    if (r.me) { x.fillStyle = 'rgba(201,242,74,0.14)'; x.fillRect(48, y - rh + 22, W - 96, rh - 6); x.fillStyle = acc; x.fillRect(48, y - rh + 22, 8, rh - 6); }
+    x.fillStyle = '#ECEFF3';
+    if (kind === 'table') {
+      x.font = `700 38px ${B}`; x.fillText(r.l, 80, y); fitText(x, r.n, 560, 38, r.me ? 700 : 500, B); x.fillText(r.n, 150, y);
+      x.font = `500 36px ${B}`; x.fillStyle = '#9AA4B0'; x.textAlign = 'right'; x.fillText(r.m, 790, y); x.fillText(r.g, 900, y);
+      x.fillStyle = '#ECEFF3'; x.font = `800 48px ${D}`; x.fillText(r.r, 1010, y); x.textAlign = 'left';
+    } else {
+      x.textAlign = 'right'; fitText(x, r.h, 380, 36, r.me ? 700 : 500, B); x.fillText(r.h, 440, y);
+      x.textAlign = 'center'; x.font = `800 ${r.ko ? 40 : 56}px ${D}`; x.fillStyle = r.ko ? '#9AA4B0' : '#FFFFFF'; x.fillText(r.s, 540, y + 4);
+      x.textAlign = 'left'; x.fillStyle = '#ECEFF3'; fitText(x, r.a, 380, 36, r.me ? 700 : 500, B); x.fillText(r.a, 640, y);
+    }
+  });
+  if (kind === 'table') { x.fillStyle = '#9AA4B0'; x.font = `600 26px ${B}`; x.textAlign = 'right'; x.fillText('P', 790, top - 70); x.fillText('GD', 900, top - 70); x.fillText('PTS', 1010, top - 70); x.textAlign = 'left'; }
+  x.fillStyle = '#222A33'; x.fillRect(72, H - 150, W - 144, 2);
+  x.fillStyle = acc; x.font = `700 34px ${B}`; x.fillText(SITE, 72, H - 92);
+  x.fillStyle = '#9AA4B0'; x.font = `500 26px ${B}`; x.fillText('From FA Full-Time · ' + (DATA.fetched || ''), 72, H - 50);
+  return c;
+}
+const SITE = 'osbornmatthew-lgtm.github.io/Touchline/bcfa';
+// Sharing needs the public site (the Claude preview blocks it), so hide the buttons elsewhere.
+if (location.hostname !== SITE.split('/')[0]) document.documentElement.classList.add('noshare');
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-share]'); if (!b) return;
+  const kind = b.dataset.share; b.disabled = true;
+  try {
+    const c = await drawCard(kind);
+    const blob = await new Promise(r => c.toBlob(r, 'image/png'));
+    const file = new File([blob], `touchline-${kind}.png`, { type: 'image/png' });
+    track('share/' + kind);
+    if (navigator.canShare && navigator.canShare({ files: [file] })) { try { await navigator.share({ files: [file], text: 'https://' + SITE + '/' }); } catch (err) {} }
+    else { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = file.name; document.body.appendChild(a); a.click(); a.remove(); }
+  } finally { b.disabled = false; }
+});
+
+// Calendar feeds are built for every team by build.py and served from the public site.
+const slug = n => n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+function calHtml(name) {
+  const feed = `webcal://${SITE}/cal/${slug(name)}.ics`;
+  return `<div class="calrow"><a class="calbtn" href="${feed}" data-track="calendar">Add to iPhone / Outlook</a><a class="calbtn" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(feed)}" target="_blank" rel="noopener" data-track="calendar-google">Add to Google Calendar</a></div><p class="fine">Puts ${esc(name)}'s fixtures in your calendar. New and moved games update on their own.</p>`;
+}
+// Usage counts (GoatCounter, cookie-free). Only does anything on the public site once the counter script is loaded.
+function track(path, title) { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: 'eja/' + path, title: title || path, event: true }); } catch (e) {} }
+document.addEventListener('click', e => { const a = e.target.closest('[data-track]'); if (a) track(a.dataset.track); });
+function offlineNote() {
+  let el = document.getElementById('offline');
+  if (navigator.onLine) { if (el) el.remove(); return; }
+  if (!el) { el = document.createElement('div'); el.id = 'offline'; el.className = 'offline'; document.body.prepend(el); }
+  el.textContent = `No signal: showing data from ${DATA.fetched}`;
+}
+addEventListener('online', offlineNote); addEventListener('offline', offlineNote);
+
+// Team partners. Key is the club name as it appears in the table; value is one partner or a list. logo is a data: URI or https URL; url is optional.
+const SPONSORS = {};
+function partnerHtml(name) {
+  const list = [].concat(SPONSORS[name] || []);
+  if (!list.length) return '';
+  const card = p => {
+    const inner = `<span class="logo"><img src="${esc(p.logo)}" alt="${esc(p.name)} logo"></span><span class="pn">${esc(p.name)}</span>${p.url ? '<span class="go">Visit ↗</span>' : ''}`;
+    return p.url ? `<a class="partner" href="${esc(p.url)}" target="_blank" rel="noopener sponsored">${inner}</a>` : `<div class="partner">${inner}</div>`;
+  };
+  return `<section><div class="eyebrow" style="margin-bottom:8px">Team partner${list.length > 1 ? 's' : ''}</div><div class="partners">${list.map(card).join('')}</div></section>`;
+}
+
+function applyAccent(col) {
+  const acc = DOTS[col] || CUP_ACCENT, root = document.documentElement.style;
+  root.setProperty('--accent', acc);
+  root.setProperty('--mine', `color-mix(in srgb, ${acc} 16%, #0E1217)`);
+  root.setProperty('--glow', `0 0 18px color-mix(in srgb, ${acc} 45%, transparent)`);
+  const m = document.querySelector('meta[name=theme-color]'); if (m) m.content = '#0E1217';
+}
+const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const toDate = s => { const [d, m] = s.split('/').map(Number); return new Date(m >= 8 ? 2026 : 2027, m - 1, d); };
+const dayLabel = s => { const d = toDate(s); return `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`; };
+const initials = n => { const w = n.replace(/&/g, ' ').split(/\s+/).filter(Boolean); return (w.length > 1 ? w.slice(0, 3).map(x => x[0]).join('') : n.slice(0, 3)).toUpperCase(); };
+const crest = n => { const c = initials(n); return `<span class="crest" aria-hidden="true" style="background:${BADGES[(n.charCodeAt(0) + n.length) % BADGES.length]}">${esc(c)}</span>`; };
+const gdTxt = g => g > 0 ? '+' + g : g < 0 ? '−' + Math.abs(g) : '0';
+const ordinal = n => { const s = ['th','st','nd','rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
+const today = new Date(); today.setHours(0, 0, 0, 0);
+
+const teamDiv = {};
+DATA.divisions.forEach((d, i) => d.teams.forEach(t => teamDiv[t[0]] = i));
+let mine = null;
+try { const s = localStorage.getItem(LSK + '-team'); if (s && s in teamDiv) mine = s; } catch (e) {}
+let view = mine ? teamDiv[mine] : 0;
+const picks = {};
+
+function nextRound(d) {
+  const dates = [...new Set(d.fixtures.filter(f => !f[6] && toDate(f[0]) >= today).map(f => f[0]))].sort((a, b) => toDate(a) - toDate(b));
+  if (!dates.length) return null;
+  return { date: dates[0], games: d.fixtures.filter(f => f[0] === dates[0] && !f[6]) };
+}
+
+function formMap(d) {
+  const f = {};
+  d.results.filter(r => r[3] !== null).slice().sort((a, b) => toDate(a[0]) - toDate(b[0])).forEach(([, h, a, hs, as]) => {
+    const r = hs > as ? ['W','L'] : hs < as ? ['L','W'] : ['D','D'];
+    (f[h] = f[h] || []).push(r[0]); (f[a] = f[a] || []).push(r[1]);
+  });
+  return f;
+}
+
+function buildTable(i) {
+  const d = DATA.divisions[i];
+  const t = {};
+  d.teams.forEach(([n, p, w, dr, l, gf, ga, pts], k) => t[n] = { name: n, base: k + 1, p, w, d: dr, l, gf, ga, pts });
+  const nr = nextRound(d);
+  let n = 0;
+  const pk = picks[i] || {};
+  if (nr) nr.games.forEach((g, k) => {
+    const v = pk[k]; if (!v) return; n++;
+    const H = t[g[2]], A = t[g[3]]; if (!H || !A) return;
+    H.p++; A.p++;
+    if (v === 'H') { H.w++; A.l++; H.pts += 3; H.gf++; A.ga++; }
+    else if (v === 'A') { A.w++; H.l++; A.pts += 3; A.gf++; H.ga++; }
+    else { H.d++; A.d++; H.pts++; A.pts++; H.gf++; H.ga++; A.gf++; A.ga++; }
+  });
+  const rows = Object.values(t).map(r => ({ ...r, gd: r.gf - r.ga }));
+  rows.sort((x, y) => y.pts - x.pts || x.base - y.base);
+  rows.forEach((r, k) => r.pos = k + 1);
+  return { rows, n, nr };
+}
+
+function renderChips() {
+  const items = DATA.divisions.map((d, i) => { const col = d.name.replace('U16 ', ''); return `<button type="button" data-v="${i}" aria-pressed="${view === i}"><span class="dot" style="background:${DOTS[col] || '#999'}"></span>${esc(col)}</button>`; });
+  DATA.cups.forEach((c, i) => items.push(`<button type="button" data-v="c${i}" aria-pressed="${view === 'c' + i}">${esc(c.name)}</button>`));
+  document.getElementById('chips').innerHTML = items.join('');
+}
+document.getElementById('chips').addEventListener('click', e => {
+  const b = e.target.closest('button[data-v]'); if (!b) return;
+  view = b.dataset.v.startsWith('c') ? b.dataset.v : +b.dataset.v;
+  renderView();
+});
+
+function renderNext() {
+  const all = [];
+  DATA.divisions.forEach(d => d.fixtures.forEach(f => all.push({ f, comp: d.name })));
+  DATA.cups.forEach(c => c.fixtures.forEach(f => all.push({ f, comp: f[7] || c.name })));
+  const mineF = all.filter(({ f }) => !f[6] && toDate(f[0]) >= today && (f[2] === mine || f[3] === mine))
+    .sort((a, b) => toDate(a.f[0]) - toDate(b.f[0]) || (a.f[1] || '99').localeCompare(b.f[1] || '99'));
+  const el = document.getElementById('next'), tk = ddmm(new Date());
+  document.getElementById('next-h').textContent = 'Your next match';
+  if (mine) {
+    let done = null;
+    DATA.divisions.forEach(d => d.results.forEach(r => { if (r[0] === tk && r[3] !== null && (r[1] === mine || r[2] === mine)) done = { r, comp: d.name }; }));
+    DATA.cups.forEach(c => c.results.forEach(r => { if (r[0] === tk && r[3] !== null && r[3] !== undefined && (r[1] === mine || r[2] === mine)) done = { r, comp: c.county ? (r[6] || c.name) : c.name }; }));
+    if (done || (mineF[0] && mineF[0].f[0] === tk)) document.getElementById('next-h').textContent = "Today's match";
+    if (done) {
+      const [, h, a, hs, as] = done.r, gf = h === mine ? hs : as, ga = h === mine ? as : hs, res = gf > ga ? 'Won' : gf < ga ? 'Lost' : 'Drew';
+      const nx = mineF.find(x => x.f[0] !== tk);
+      el.innerHTML = `<div class="row">
+      <div class="teams">${esc(h)} v ${esc(a)}<small>Today · ${esc(done.comp)} · ${res}</small></div>
+      <div class="kowrap"><div class="eyebrow">Full time</div><div class="ko">${hs}–${as}</div></div>
+    </div>` + (nx ? `<div class="sub"><span>Next: ${esc(nx.f[2])} v ${esc(nx.f[3])}, ${dayLabel(nx.f[0])}${nx.f[1] ? ', ' + esc(nx.f[1]) : ''}</span></div>` : '');
+      return;
+    }
+  }
+  if (!mine) { el.innerHTML = `<div class="row"><div class="teams">Pick your team<small>See their next match, kick-off and directions here</small></div></div><div class="sub"><button type="button" class="pickbtn" data-pick>Choose your team</button></div>`; return; }
+  if (!mineF.length) { el.innerHTML = `<div class="row"><div class="teams">No fixture listed yet<small>The next round has not been published on FA Full-Time</small></div></div>` + postponedFor(mine).map(f => `<div class="ppnote"><b>${esc(f[6])}:</b> ${esc(f[2])} v ${esc(f[3])}, ${dayLabel(f[0])}</div>`).join(''); return; }
+  const { f: [date, ko, h, a, venue, id], comp } = mineF[0];
+  const pps = postponedFor(mine).filter(f => toDate(f[0]) <= toDate(date));
+  const ppHtml = pps.map(f => `<div class="ppnote"><b>${esc(f[6])}:</b> ${esc(f[2])} v ${esc(f[3])}, ${dayLabel(f[0])}</div>`).join('');
+  el.innerHTML = `<div class="row">
+      <div class="teams">${esc(h)} v ${esc(a)}<small>${date === ddmm(new Date()) ? 'Today' : dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
+      <div class="kowrap"><div class="eyebrow">Kick-off</div><div class="ko ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'Time TBC'}</div></div>
+    </div>
+    <div class="sub">${venue ? `<span>${esc(venueName(venue))}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}${venue && parkingFor(venue) ? `<span class="parking">Parking: ${esc(parkingFor(venue))}</span>` : ''}</div>${ppHtml}${oppPreview(h === mine ? a : h)}`;
+}
+
+function renderStats(rows, n) {
+  const played = rows.filter(r => r.p > 0);
+  const best = f => played.reduce((a, b) => f(b) > f(a) ? b : a);
+  const att = best(r => r.gf / r.p), def = best(r => -(r.ga / r.p)), top = rows[0];
+  const cards = [[n ? 'Predicted leader' : 'Top of the table', top.name, top.pts, `points · ${top.p} played · ${gdTxt(top.gd)} goal difference`]];
+  const me = rows.find(r => r.name === mine);
+  if (me) cards.push([mine, 'Position', ordinal(me.pos), `${me.pts} points · ${me.pts === top.pts ? 'level with the top' : (top.pts - me.pts) + ' behind the leader'}`]);
+  cards.push(['Best attack', att.name, (att.gf / att.p).toFixed(1), 'goals scored per game']);
+  cards.push(['Best defence', def.name, (def.ga / def.p).toFixed(1), 'goals conceded per game']);
+  document.getElementById('stats').innerHTML = cards.map(([l, c, v, s]) =>
+    `<div class="panel stat"><div class="eyebrow">${esc(l)}</div><div class="v"><span class="club">${esc(c)}</span><span class="num">${esc(v)}</span></div><div class="sub">${esc(s)}</div></div>`).join('');
+}
+
+function renderTable() {
+  const i = view;
+  const { rows, n, nr } = buildTable(i);
+  const form = formMap(DATA.divisions[i]);
+  const lead = rows[0].pts;
+  document.getElementById('tbody').innerHTML = rows.map(r => {
+    const d = r.base - r.pos;
+    const mv = d > 0 ? `<td class="mv up">▲${d}</td>` : d < 0 ? `<td class="mv down">▼${-d}</td>` : '<td class="mv"></td>';
+    const gap = r.pts === lead ? (r.pos === 1 ? 'Leader' : 'Level') : '−' + (lead - r.pts);
+    const fm = (form[r.name] || []).slice(-5).map(x => `<i class="${x}">${x}</i>`).join('');
+    return `<tr data-row class="${r.name === mine ? 'mine' : ''}">
+      <td class="pos l">${r.pos}</td>${mv}
+      <td class="team l"><button type="button" class="teambtn" data-team="${esc(r.name)}">${crest(r.name)}${esc(r.name)}</button></td>
+      <td>${r.p}</td><td class="wide">${r.w}</td><td class="wide">${r.d}</td><td class="wide">${r.l}</td>
+      <td class="wide">${r.gf}</td><td class="wide">${r.ga}</td><td>${gdTxt(r.gd)}</td>
+      <td class="pts">${r.pts}</td><td class="l wide"><span class="form">${fm}</span></td><td class="gap">${gap}</td>
+    </tr><tr class="detail" hidden><td colspan="13"><div class="dl"><span>Won <b>${r.w}</b></span><span>Drawn <b>${r.d}</b></span><span>Lost <b>${r.l}</b></span><span>Scored <b>${r.gf}</b></span><span>Conceded <b>${r.ga}</b></span>${fm ? `<span class="form">${fm}</span>` : ''}<button type="button" class="linkish" data-team="${esc(r.name)}">Team page</button></div></td></tr>`;
+  }).join('');
+  const b = document.getElementById('pred-badge');
+  b.hidden = n === 0;
+  if (nr) b.textContent = `Predicted · ${n} of ${nr.games.length} picked`;
+  const ps = new Set(rows.map(r => r.p));
+  document.getElementById('tnote').textContent = n
+    ? 'Showing the table with your picks applied. Arrows show places gained or lost.'
+    : (ps.size > 1 ? 'Teams have played different numbers of games, so check the P column. Gap is points behind the leader.' : 'Gap is points behind the leader. Form shows the most recent result on the right.') + (window.matchMedia('(max-width:640px)').matches ? ' Tap a row for wins, draws and goals.' : '');
+  renderStats(rows, n);
+}
+
+function renderPicks() {
+  const i = view, d = DATA.divisions[i], nr = nextRound(d), el = document.getElementById('picks');
+  const pk = picks[i] || {};
+  document.getElementById('reset').hidden = !nr;
+  if (!nr) { document.getElementById('pred-sub').textContent = 'No upcoming league round has been published yet.'; el.innerHTML = ''; return; }
+  document.getElementById('pred-sub').textContent = `${dayLabel(nr.date)}. Pick each result and watch the table move. Wins count as 1–0, draws as 1–1.`;
+  el.innerHTML = nr.games.map((g, k) => {
+    const p = pk[k], h = g[2], a = g[3];
+    const btn = (v, label) => `<button type="button" data-k="${k}" data-v="${v}" aria-pressed="${p === v}" aria-label="${esc(label)}">${v}</button>`;
+    return `<div class="pick"><span class="h ${p === 'H' ? 'on' : ''}">${esc(h)}</span>
+      <div class="opts" role="group" aria-label="${esc(h)} v ${esc(a)}">${btn('H', h + ' win')}${btn('D', 'Draw')}${btn('A', a + ' win')}</div>
+      <span class="${p === 'A' ? 'on' : ''}">${esc(a)}</span></div>`;
+  }).join('');
+}
+document.getElementById('picks').addEventListener('click', e => {
+  const b = e.target.closest('button[data-k]'); if (!b) return;
+  const pk = picks[view] = picks[view] || {};
+  if (pk[b.dataset.k] === b.dataset.v) delete pk[b.dataset.k]; else pk[b.dataset.k] = b.dataset.v;
+  renderPicks(); renderTable();
+});
+document.getElementById('reset').addEventListener('click', () => { picks[view] = {}; renderPicks(); renderTable(); });
+
+function groupByDate(list, asc) {
+  const g = {};
+  list.forEach(x => (g[x[0]] = g[x[0]] || []).push(x));
+  return Object.keys(g).sort((a, b) => asc ? toDate(a) - toDate(b) : toDate(b) - toDate(a)).map(k => [k, g[k]]);
+}
+
+function renderLatest(results) {
+  const scored = results.filter(r => r[3] !== null);
+  const el = document.getElementById('latest');
+  if (!scored.length) { el.innerHTML = ''; return; }
+  const [date, games] = groupByDate(scored, false)[0];
+  document.getElementById('latest-date').textContent = dayLabel(date);
+  const cl = (x, y) => x > y ? 'won' : x < y ? 'lost' : '';
+  el.innerHTML = games.map(([, h, a, hs, as]) => `<article class="panel match ${h === mine || a === mine ? 'mine' : ''}"><div class="tag">Full time</div>
+    <div class="line ${cl(hs, as)}"><span>${esc(h)}</span><span class="sc">${hs}</span></div>
+    <div class="line ${cl(as, hs)}"><span>${esc(a)}</span><span class="sc">${as}</span></div></article>`).join('');
+}
+
+function groupBy(list, keyFn, order) {
+  const g = new Map();
+  list.forEach(x => { const k = keyFn(x); if (!g.has(k)) g.set(k, []); g.get(k).push(x); });
+  return [...g.entries()].sort(order);
+}
+function renderFixtures(fixtures, county) {
+  const el = document.getElementById('fx');
+  if (!fixtures.length) { el.innerHTML = '<div class="panel round"><div class="rh">No fixtures published yet</div></div>'; return; }
+  const byDate = (x, y) => toDate(x[0]) - toDate(y[0]) || (x[1] || '99').localeCompare(y[1] || '99');
+  const groups = county
+    ? groupBy(fixtures, f => f[7], (a, b) => a[0].localeCompare(b[0]))
+    : groupBy(fixtures, f => f[0], (a, b) => toDate(a[0]) - toDate(b[0]));
+  el.innerHTML = groups.map(([key, games]) => `<div class="panel round"><div class="rh">${county ? esc(key) : dayLabel(key)}</div>${
+    games.sort(byDate).map(([date, ko, h, a, venue, id, st]) => {
+      const m = h === mine || a === mine;
+      const v = venue ? `<span>${esc(venueName(venue))}</span> ${mapLinks(venue)}` : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : '<span class="nv">Venue not yet listed</span>';
+      const when = county ? `<span class="nv">${dayLabel(date)}</span>` : '';
+      const past = toDate(date) < today;
+      const k = st ? `<span class="k pp">${esc(st)}</span>` : past ? '<span class="k tbc">Result awaited</span>' : `<span class="k ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'TBC'}</span>`;
+      return `<div class="fx ${m ? 'mine' : ''}"><div class="who"><span>${esc(h)} v ${esc(a)}</span>${when}${v}</div>${k}</div>`;
+    }).join('')}</div>`).join('');
+}
+
+function renderResults(results, county) {
+  const c = (x, y) => x > y ? 'won' : x < y ? 'lost' : '';
+  const el = document.getElementById('res');
+  if (!results.length) { el.innerHTML = '<div class="panel round"><div class="rh">No results yet</div></div>'; return; }
+  const groups = county
+    ? groupBy(results, r => r[6], (a, b) => a[0].localeCompare(b[0]))
+    : groupByDate(results, false);
+  el.innerHTML = groups.map(([key, games]) => `<div class="panel round"><div class="rh">${county ? esc(key) : dayLabel(key)}</div>${
+    games.sort((x, y) => toDate(y[0]) - toDate(x[0])).map(([, h, a, hs, as, note]) => {
+      const m = h === mine || a === mine;
+      if (hs === null) return `<div class="res ${m ? 'mine' : ''}"><span class="h">${esc(h)}</span><span class="s void">No score</span><span>${esc(a)}</span></div>`;
+      const n = /AET|Pens/.test(note) ? `<span class="n">${esc(note.replace(/,?\s*HT [\d-]+/, ''))}</span>` : '';
+      return `<div class="res ${m ? 'mine' : ''}"><span class="h ${c(hs, as)}">${esc(h)}</span><span class="s">${hs}–${as}</span><span class="${c(as, hs)}">${esc(a)}</span>${n}</div>`;
+    }).join('')}</div>`).join('');
+}
+
+function renderCup(cup) {
+  const alive = [...new Set(cup.fixtures.filter(f => !f[6] && toDate(f[0]) >= today).flatMap(f => [f[2], f[3]]))].sort();
+  document.getElementById('alive').innerHTML = alive.length ? alive.map(n => `<span class="${n === mine ? 'me' : ''}">${esc(n)}</span>`).join('') : '<span>Next round not drawn yet</span>';
+}
+
+/* ===== Team pages and talking points ===== */
+const htOf = note => { const m = (note || '').match(/HT (\d+)-(\d+)/); return m ? [+m[1], +m[2]] : null; };
+const pts = r => r === 'W' ? 3 : r === 'D' ? 1 : 0;
+const SCORE = (h, a, hs, as) => `${esc(h)} ${hs}–${as} ${esc(a)}`;
+
+function leagueGames(name) {
+  const i = teamDiv[name]; if (i === undefined) return [];
+  const d = DATA.divisions[i];
+  return d.results.filter(r => r[3] !== null && (r[1] === name || r[2] === name)).map(r => {
+    const home = r[1] === name, gf = home ? r[3] : r[4], ga = home ? r[4] : r[3], h = htOf(r[5]);
+    const side = home ? 'H' : 'A', ev = (r[7] || []).filter(e => e[0] > 1);
+    return { date: r[0], opp: home ? r[2] : r[1], home, gf, ga, res: gf > ga ? 'W' : gf < ga ? 'L' : 'D',
+      htf: h ? (home ? h[0] : h[1]) : null, hta: h ? (home ? h[1] : h[0]) : null,
+      mine: ev.filter(e => e[1] === side), comp: d.name, row: r };
+  }).sort((a, b) => toDate(a.date) - toDate(b.date));
+}
+
+function cupGames(name) {
+  const out = [];
+  DATA.cups.forEach(c => c.results.forEach(r => {
+    if (r[1] !== name && r[2] !== name) return;
+    const home = r[1] === name;
+    out.push({ date: r[0], opp: home ? r[2] : r[1], home, gf: r[3] === null ? null : (home ? r[3] : r[4]), ga: r[3] === null ? null : (home ? r[4] : r[3]),
+      note: r[5] || '', comp: c.county ? r[6] : c.name, row: r });
+  }));
+  return out;
+}
+
+function cupOutcome(g) {
+  if (g.gf === null) return null;
+  if (g.gf !== g.ga) return g.gf > g.ga ? 'W' : 'L';
+  const p = (g.note.match(/Pens (\d+)-(\d+)/) || []);
+  if (p[1] !== undefined) { const ours = g.home ? +p[1] : +p[2], theirs = g.home ? +p[2] : +p[1]; return ours > theirs ? 'W' : 'L'; }
+  return 'D';
+}
+
+function upcoming(name) {
+  const out = [];
+  DATA.divisions.forEach(d => d.fixtures.forEach(f => { if ((f[2] === name || f[3] === name) && !f[6] && toDate(f[0]) >= today) out.push({ f, comp: d.name }); }));
+  DATA.cups.forEach(c => c.fixtures.forEach(f => { if ((f[2] === name || f[3] === name) && !f[6] && toDate(f[0]) >= today) out.push({ f, comp: f[7] || c.name }); }));
+  return out.sort((a, b) => toDate(a.f[0]) - toDate(b.f[0]));
+}
+
+function runText(games) {
+  if (!games.length) return 'No games yet';
+  const last = games[games.length - 1].res;
+  let n = 0; for (let i = games.length - 1; i >= 0 && games[i].res === last; i--) n++;
+  let u = 0; for (let i = games.length - 1; i >= 0 && games[i].res !== 'L'; i--) u++;
+  if (last !== 'L' && u > n) return `Unbeaten in ${u}`;
+  const word = last === 'W' ? 'Won' : last === 'L' ? 'Lost' : 'Drawn';
+  return n === 1 ? `${word} last game` : `${word} ${n} in a row`;
+}
+
+function teamSummary(name) {
+  const g = leagueGames(name);
+  const rec = arr => { const w = arr.filter(x => x.res === 'W').length, d = arr.filter(x => x.res === 'D').length, l = arr.filter(x => x.res === 'L').length; return { w, d, l, p: w * 3 + d, n: arr.length }; };
+  const withHt = g.filter(x => x.htf !== null);
+  const fromBehind = withHt.filter(x => x.htf < x.hta), fromAhead = withHt.filter(x => x.htf > x.hta);
+  const timed = g.flatMap(x => x.mine), goals = g.reduce((s, x) => s + x.gf, 0);
+  return {
+    g, all: rec(g), home: rec(g.filter(x => x.home)), away: rec(g.filter(x => !x.home)),
+    gf: goals, ga: g.reduce((s, x) => s + x.ga, 0), cs: g.filter(x => x.ga === 0).length, fts: g.filter(x => x.gf === 0).length,
+    bestWin: g.filter(x => x.res === 'W').sort((a, b) => (b.gf - b.ga) - (a.gf - a.ga) || b.gf - a.gf)[0],
+    worstLoss: g.filter(x => x.res === 'L').sort((a, b) => (b.ga - b.gf) - (a.ga - a.gf) || b.ga - a.ga)[0],
+    withHt, comebackPts: fromBehind.reduce((s, x) => s + pts(x.res), 0), comebacks: fromBehind.filter(x => x.res === 'W').length,
+    droppedPts: fromAhead.reduce((s, x) => s + (3 - pts(x.res)), 0), fromBehind, fromAhead,
+    secondHalf: withHt.reduce((s, x) => s + (x.gf - x.htf), 0),
+    timed, goals, late: timed.filter(e => e[0] >= 70 && e[2] !== 'O').length, pens: timed.filter(e => e[2] === 'P').length
+  };
+}
+
+function talkingPoints(i) {
+  const d = DATA.divisions[i];
+  const played = d.results.filter(r => r[3] !== null);
+  const cards = [];
+  if (played.length) {
+    const big = played.slice().sort((a, b) => Math.abs(b[3] - b[4]) - Math.abs(a[3] - a[4]) || (b[3] + b[4]) - (a[3] + a[4]))[0];
+    const winner = big[3] >= big[4] ? big[1] : big[2];
+    cards.push(['Biggest win', winner, `${Math.max(big[3], big[4])}–${Math.min(big[3], big[4])}`, `${big[3] >= big[4] ? 'v ' + big[2] : 'at ' + big[1]} · ${dayLabel(big[0])}`]);
+    const fest = played.slice().sort((a, b) => (b[3] + b[4]) - (a[3] + a[4]))[0];
+    cards.push(['Goal fest', `${fest[1]} v ${fest[2]}`, String(fest[3] + fest[4]), `Finished ${fest[3]}–${fest[4]} · ${dayLabel(fest[0])}`, fest[1]]);
+  }
+  const S = d.teams.map(t => ({ name: t[0], s: teamSummary(t[0]) })).filter(x => x.s.g.length);
+  const top = (f, min = 1) => { const c = S.filter(x => f(x) >= min).sort((a, b) => f(b) - f(a)); if (!c.length) return null; const j = c.filter(x => f(x) === f(c[0])).length - 1; return { ...c[0], joint: j }; };
+  const jt = t => t && t.joint ? ` · joint top with ${t.joint} other${t.joint > 1 ? 's' : ''}` : '';
+  const htGames = played.filter(r => htOf(r[5])).length;
+  let t = top(x => x.s.comebackPts);
+  if (t) cards.push(['Comeback kings', t.name, `${t.s.comebackPts} pts`, `won from losing at half-time${jt(t)} · HT known for ${htGames} of ${played.length} games`]);
+  t = top(x => x.s.secondHalf);
+  if (t) cards.push(['Second-half team', t.name, String(t.s.secondHalf), `goals after the break${jt(t)} · HT known for ${htGames} of ${played.length} games`]);
+  const ppg = r => r.n ? r.p / r.n : -1;
+  t = S.filter(x => x.s.home.n).sort((a, b) => ppg(b.s.home) - ppg(a.s.home) || b.s.home.n - a.s.home.n)[0];
+  if (t) cards.push(['Fortress', t.name, `${t.s.home.p} pts`, `from ${t.s.home.n} home game${t.s.home.n > 1 ? 's' : ''} · W${t.s.home.w} D${t.s.home.d} L${t.s.home.l}`]);
+  t = S.filter(x => x.s.away.n).sort((a, b) => ppg(b.s.away) - ppg(a.s.away) || b.s.away.n - a.s.away.n)[0];
+  if (t) cards.push(['Road warriors', t.name, `${t.s.away.p} pts`, `from ${t.s.away.n} away game${t.s.away.n > 1 ? 's' : ''} · W${t.s.away.w} D${t.s.away.d} L${t.s.away.l}`]);
+  t = top(x => x.s.cs);
+  if (t) cards.push(['Brick wall', t.name, String(t.s.cs), `clean sheet${t.s.cs > 1 ? 's' : ''}${jt(t)}`]);
+  t = top(x => x.s.all.d);
+  if (t) cards.push(['Draw specialists', t.name, String(t.s.all.d), `draw${t.s.all.d > 1 ? 's' : ''}${jt(t)}`]);
+  const timedTotal = played.reduce((n, r) => n + (r[7] || []).filter(e => e[0] > 1).length, 0);
+  const goalsTotal = played.reduce((n, r) => n + r[3] + r[4], 0);
+  t = top(x => x.s.late);
+  if (t) cards.push(['Late show', t.name, String(t.s.late), `goals from the 70th minute${jt(t)} · times known for ${timedTotal} of ${goalsTotal} goals`]);
+  return cards;
+}
+
+function renderTalkingPoints() {
+  const el = document.getElementById('quirky');
+  const cards = typeof view === 'number' ? talkingPoints(view) : [];
+  el.parentElement.hidden = !cards.length;
+  el.innerHTML = cards.map(([label, team, value, sub, link]) => {
+    const target = link || team;
+    const clickable = target in teamDiv;
+    const inner = `<div class="eyebrow">${esc(label)}</div><div class="v"><span class="club">${esc(team)}</span><span class="num">${esc(value)}</span></div><div class="sub">${esc(sub)}</div>`;
+    return clickable ? `<button type="button" class="panel stat tp" data-team="${esc(target)}">${inner}</button>` : `<div class="panel stat">${inner}</div>`;
+  }).join('');
+}
+
+function bar(label, n, max) {
+  const w = max ? Math.round(n / max * 100) : 0;
+  return `<div class="bar"><span class="bl">${label}</span><span class="bt"><i style="width:${w}%"></i></span><span class="bn">${n}</span></div>`;
+}
+
+function openTeam(name) {
+  track('team/' + slug(name), name);
+  const i = teamDiv[name], d = DATA.divisions[i];
+  const s = teamSummary(name);
+  const { rows } = buildTable(i);
+  const row = rows.find(r => r.name === name) || {};
+  const form = s.g.slice(-5).map(x => `<i class="${x.res}">${x.res}</i>`).join('');
+  const rec = r => `W${r.w} D${r.d} L${r.l}`;
+  const tiles = [
+    ['Record', rec(s.all), `${s.all.p} pts from ${s.all.n}`],
+    ['Home', rec(s.home), s.home.n ? `${s.home.p} pts` : 'No home games yet'],
+    ['Away', rec(s.away), s.away.n ? `${s.away.p} pts` : 'No away games yet'],
+    ['Scored', s.all.n ? (s.gf / s.all.n).toFixed(1) : '0', `per game · ${s.gf} total`],
+    ['Conceded', s.all.n ? (s.ga / s.all.n).toFixed(1) : '0', `per game · ${s.ga} total`],
+    ['Clean sheets', String(s.cs), `Failed to score in ${s.fts}`]
+  ];
+  const tileHtml = tiles.map(([l, v, sub]) => `<div class="panel stat"><div class="eyebrow">${l}</div><div class="num">${esc(v)}</div><div class="sub">${esc(sub)}</div></div>`).join('');
+  const hl = [];
+  if (s.bestWin) hl.push(`<li><b>Biggest win</b>${s.bestWin.home ? SCORE(name, s.bestWin.opp, s.bestWin.gf, s.bestWin.ga) : SCORE(s.bestWin.opp, name, s.bestWin.ga, s.bestWin.gf)}</li>`);
+  if (s.worstLoss) hl.push(`<li><b>Heaviest defeat</b>${s.worstLoss.home ? SCORE(name, s.worstLoss.opp, s.worstLoss.gf, s.worstLoss.ga) : SCORE(s.worstLoss.opp, name, s.worstLoss.ga, s.worstLoss.gf)}</li>`);
+  if (s.withHt.length) {
+    hl.push(`<li><b>Behind at half-time</b>${s.fromBehind.length ? `${s.fromBehind.length} time${s.fromBehind.length > 1 ? 's' : ''}, won ${s.comebackPts} pts back` : 'Never'}</li>`);
+    hl.push(`<li><b>Ahead at half-time</b>${s.fromAhead.length ? `${s.fromAhead.length} time${s.fromAhead.length > 1 ? 's' : ''}, dropped ${s.droppedPts} pts` : 'Never'}</li>`);
+    hl.push(`<li><b>Second-half goals</b>${s.secondHalf}</li>`);
+  }
+  const htNote = s.g.length ? `<p class="fine">Half-time score known for ${s.withHt.length} of ${s.g.length} league games.</p>` : '';
+  const timedOk = s.timed.filter(e => e[2] !== 'O');
+  let when;
+  if (timedOk.length >= 3) {
+    const b = [0, 0, 0, 0]; timedOk.forEach(e => b[Math.min(3, Math.floor((Math.min(e[0], 80) - 1) / 20))]++);
+    const mx = Math.max(...b);
+    when = `<div class="bars">${bar("1–20'", b[0], mx)}${bar("21–40'", b[1], mx)}${bar("41–60'", b[2], mx)}${bar("61–80'", b[3], mx)}</div>
+      <p class="fine">Based on ${timedOk.length} of ${s.goals} league goals with a time on Full-Time. Late goals (70'+): ${s.late}. Penalties: ${s.pens}.</p>`;
+  } else {
+    when = `<p class="fine">Goal times appear here once they're entered on FA Full-Time. ${timedOk.length ? `So far ${timedOk.length} of ${s.goals} goals have a time.` : ''}</p>`;
+  }
+  const cups = cupGames(name);
+  const allRes = s.g.map(x => ({ date: x.date, comp: x.comp.replace('U16 ', '') + ' league', txt: x.home ? SCORE(name, x.opp, x.gf, x.ga) : SCORE(x.opp, name, x.ga, x.gf), res: x.res, note: '' }))
+    .concat(cups.map(c => ({ date: c.date, comp: c.comp, txt: c.gf === null ? `${esc(c.home ? name : c.opp)} v ${esc(c.home ? c.opp : name)}` : (c.home ? SCORE(name, c.opp, c.gf, c.ga) : SCORE(c.opp, name, c.ga, c.gf)), res: cupOutcome(c), note: /AET|Pens/.test(c.note) ? c.note.replace(/,?\s*HT [\d-]+/, '') : '' })))
+    .sort((a, b) => toDate(b.date) - toDate(a.date));
+  const resHtml = allRes.map(r => `<li><span class="rp ${r.res || 'N'}">${r.res || '–'}</span><span class="rt">${r.txt}${r.note ? ` <em>(${esc(r.note)})</em>` : ''}</span><span class="rc">${esc(r.comp)} · ${toDate(r.date).getDate()} ${MONTHS[toDate(r.date).getMonth()].slice(0, 3)}</span></li>`).join('');
+  const up = upcoming(name).slice(0, 6);
+  const ppl = postponedFor(name).map(f => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="badge-pp">${esc(f[6])}</span><span class="rc">${dayLabel(f[0])}</span></li>`).join('');
+  const upHtml = (up.length || ppl) ? ppl + up.map(({ f, comp }) => `<li><span class="rt">${esc(f[2])} v ${esc(f[3])}</span><span class="rc">${esc(comp)} · ${dayLabel(f[0])}${f[1] ? ' · ' + esc(f[1]) : ''}</span>${f[4] ? `<span class="rc">${esc(venueName(f[4]))}</span>${mapLinks(f[4])}` : f[5] ? `<a href="${FT + f[5]}" target="_blank" rel="noopener">Venue details</a>` : ''}</li>`).join('') : '<li class="fine">No fixtures published yet</li>';
+  const comps = [...new Set(cups.map(c => c.comp).concat(upcoming(name).filter(u => !DATA.divisions.some(dd => dd.name === u.comp)).map(u => u.comp)))];
+  const cupHtml = comps.map(cn => {
+    const next = upcoming(name).find(u => u.comp === cn);
+    const last = cups.filter(c => c.comp === cn).sort((a, b) => toDate(b.date) - toDate(a.date))[0];
+    let st;
+    if (next) st = `<span class="ok">Still in</span> · next ${esc(next.f[2] === name ? next.f[3] : next.f[2])}, ${dayLabel(next.f[0])}`;
+    else if (last && cupOutcome(last) === 'L') st = `<span class="out">Out</span> · lost to ${esc(last.opp)}`;
+    else if (last && cupOutcome(last) === 'W') st = `<span class="ok">Through</span> · awaiting next round`;
+    else st = 'No result yet';
+    return `<li><b>${esc(cn)}</b><span>${st}</span></li>`;
+  }).join('');
+  let h2h = '';
+  if (mine && mine !== name) {
+    const vs = s.g.filter(x => x.opp === mine).map(x => x.home ? SCORE(name, mine, x.gf, x.ga) : SCORE(mine, name, x.ga, x.gf))
+      .concat(cups.filter(c => c.opp === mine && c.gf !== null).map(c => c.home ? SCORE(name, mine, c.gf, c.ga) : SCORE(mine, name, c.ga, c.gf)));
+    const nextVs = upcoming(name).find(u => u.f[2] === mine || u.f[3] === mine);
+    h2h = `<section><h3>Versus ${esc(mine)}</h3><ul class="kv">${vs.length ? vs.map(v => `<li>${v}</li>`).join('') : '<li class="fine">Not played this season</li>'}${nextVs ? `<li class="fine">Next meeting: ${dayLabel(nextVs.f[0])}${nextVs.f[1] ? ', ' + esc(nextVs.f[1]) : ''}</li>` : ''}</ul></section>`;
+  }
+  const sh = document.getElementById('sheet');
+  document.documentElement.style.setProperty('--accent', DOTS[d.name.replace('U16 ', '')] || CUP_ACCENT);
+  sh.querySelector('.sheet-body').innerHTML = `
+    <header class="sh-head">
+      <div class="tm">${crest(name)}<div><div class="eyebrow">${esc(d.name)}</div><h2>${esc(name)}</h2></div></div>
+      <div class="sh-sum"><span class="num">${ordinal(row.pos || 0)}</span><span>${row.pts ?? 0} pts</span><span class="form">${form}</span><span class="run">${esc(runText(s.g))}</span></div>
+    </header>
+    ${partnerHtml(name)}
+    <div class="stats six">${tileHtml}</div>
+    <section><h3>Talking points</h3><ul class="kv">${hl.join('') || '<li class="fine">No league games yet</li>'}</ul>${htNote}</section>
+    <section><h3>When they score</h3>${when}</section>
+    <section><h3>Next up</h3><ul class="list">${upHtml}</ul>${calHtml(name)}</section>
+    ${comps.length ? `<section><h3>Cup runs</h3><ul class="kv">${cupHtml}</ul></section>` : ''}
+    ${h2h}
+    <section><h3>All results</h3><ul class="list">${resHtml || '<li class="fine">No results yet</li>'}</ul></section>`;
+  sh.hidden = false;
+  document.body.style.overflow = 'hidden';
+  sh.querySelector('.sheet-close').focus();
+}
+
+function closeTeam() {
+  const sh = document.getElementById('sheet');
+  sh.hidden = true;
+  document.body.style.overflow = '';
+  renderView();
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-team]');
+  if (b) { e.preventDefault(); openTeam(b.dataset.team); return; }
+  if (e.target.closest('.sheet-close') || e.target.id === 'sheet') closeTeam();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !document.getElementById('sheet').hidden) closeTeam(); });
+
+function renderView() {
+  renderChips();
+  const isCup = typeof view === 'string';
+  const comp = isCup ? DATA.cups[+view.slice(1)] : DATA.divisions[view];
+  const county = !!(isCup && comp.county);
+  applyAccent(isCup ? null : comp.name.replace('U16 ', ''));
+  document.getElementById('league-view').hidden = isCup;
+  document.getElementById('cup-alive').hidden = !isCup || county;
+  document.getElementById('title').textContent = comp.name;
+  track('view/' + slug(comp.name), comp.name);
+  const myTeam = mine ? `<button type="button" class="myteam" data-team="${esc(mine)}" data-track="my-team" aria-label="My team: ${esc(mine)}">${crest(mine)}My team</button>` : '<button type="button" class="myteam pick" data-pick>Pick your team</button>';
+  document.getElementById('secnav').innerHTML = myTeam + (isCup ? '' : '<a href="#table">Table</a>') + '<a href="#fixtures">Fixtures</a><a href="#results">Results</a>';
+  if (isCup) { if (!county) renderCup(comp); }
+  else { renderLatest(comp.results); renderPicks(); renderTable(); }
+  renderToday();
+  renderTalkingPoints();
+  renderFixtures(comp.fixtures, county);
+  renderResults(comp.results, county);
+}
+
+const sel = document.getElementById('team-pick');
+const teamOptions = () => (mine ? '' : '<option value="" selected disabled>Choose your team</option>') + DATA.divisions.map(d => `<optgroup label="${esc(d.name)}">${d.teams.map(t => t[0]).slice().sort().map(n => `<option${n === mine ? ' selected' : ''}>${esc(n)}</option>`).join('')}</optgroup>`).join('');
+sel.innerHTML = teamOptions();
+function setTeam(name) {
+  if (!(name in teamDiv)) return;
+  mine = name;
+  try { localStorage.setItem(LSK + '-team', mine); } catch (e) {}
+  sel.innerHTML = teamOptions();
+  view = teamDiv[mine];
+  track('picked/' + slug(mine), mine);
+  renderNext(); renderView();
+}
+sel.addEventListener('change', () => setTeam(sel.value));
+
+// First visit: ask who they follow instead of assuming a team.
+const welcome = document.getElementById('welcome');
+const wsel = document.getElementById('welcome-pick');
+function openWelcome() {
+  wsel.innerHTML = '<option value="" selected disabled>Choose your team</option>' + DATA.divisions.map(d => `<optgroup label="${esc(d.name)}">${d.teams.map(t => t[0]).slice().sort().map(n => `<option>${esc(n)}</option>`).join('')}</optgroup>`).join('');
+  welcome.hidden = false; document.body.style.overflow = 'hidden'; wsel.focus();
+}
+function closeWelcome(browsing) {
+  welcome.hidden = true; document.body.style.overflow = '';
+  if (browsing) { try { localStorage.setItem(LSK + '-browsing', '1'); } catch (e) {} track('just-browsing'); }
+}
+document.getElementById('welcome-go').addEventListener('click', () => { if (wsel.value) { setTeam(wsel.value); closeWelcome(false); } else wsel.focus(); });
+wsel.addEventListener('change', () => { document.getElementById('welcome-go').disabled = !wsel.value; });
+document.getElementById('welcome-skip').addEventListener('click', () => closeWelcome(true));
+document.addEventListener('click', e => { if (e.target.closest('[data-pick]')) { e.preventDefault(); openWelcome(); } });
+document.getElementById('updated').textContent = `Results to ${DATA.updated} · from FA Full-Time on ${DATA.fetched}`;
+offlineNote();
+
+renderNext();
+renderView();
+let seen = false; try { seen = !!localStorage.getItem(LSK + '-browsing'); } catch (e) {}
+if (!mine && !seen) openWelcome();
+</script>
+
+</body>
+</html>
