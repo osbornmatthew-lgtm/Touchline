@@ -19,7 +19,7 @@ head = """<!doctype html>
 <meta property="og:image" content="https://osbornmatthew-lgtm.github.io/Touchline/og-image.png">
 <meta name="theme-color" content="#0E1217">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Touchline">
+<meta name="apple-mobile-web-app-title" content="Touchline EJA">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
@@ -43,7 +43,7 @@ for src_name, name in [('app-icon-512.png', 'icon-512.png'), ('app-icon-192.png'
         open(dest, 'wb').write(open(local, 'rb').read())
     else:
         urllib.request.urlretrieve(ASSETS + src_name, dest)
-json.dump({"name": "Touchline EJA", "short_name": "Touchline", "start_url": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}, open(os.path.join(out, 'manifest.json'), 'w'))
+json.dump({"name": "Touchline EJA", "short_name": "Touchline EJA", "start_url": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}, open(os.path.join(out, 'manifest.json'), 'w'))
 
 # Offline: network first, fall back to the last copy after 3.5s or with no signal.
 open(os.path.join(out, 'sw.js'), 'w').write('''const C = 'touchline-v3';
