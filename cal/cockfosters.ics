@@ -25,29 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30896862@touchline-eja
-DTSTAMP:20261004T155320Z
-SUMMARY:Norsemen v Cockfosters
-DTSTART;TZID=Europe/London:20261011T100000
-DTEND;TZID=Europe/London:20261011T114000
-LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
-DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30896862
-END:VEVENT
-BEGIN:VEVENT
 UID:30932266@touchline-eja
-DTSTAMP:20261004T155320Z
+DTSTAMP:20261009T114144Z
 SUMMARY:Cockfosters v Cambridge City (League Cup)
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-LOCATION:Winchmore Hill Sports Club\, Firs Lane\, London N21 3ER
-DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
- e for late changes.
+DTSTART;TZID=Europe/London:20261025T103000
+DTEND;TZID=Europe/London:20261025T121000
+LOCATION:Old Elizabethans Memorial Playing Fields\, Mays Lane\, Barnet EN5
+  2AG
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30932266
 END:VEVENT
 BEGIN:VEVENT
 UID:30530092@touchline-eja
-DTSTAMP:20261004T155320Z
+DTSTAMP:20261009T114144Z
 SUMMARY:Cockfosters v Billericay Town (London Under 16 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261018T140000
 DTEND;TZID=Europe/London:20261018T154000
