@@ -15,7 +15,13 @@ Full-Time refuses cloud servers, so this has to run on a home broadband connecti
 5. If a league's data changed, rebuilds its site and publishes every changed site to gh-pages in **one** commit. On a match day it also republishes every 45 minutes with no change, so the site doesn't wrongly show "Scores may be behind".
 6. Saves the data to `data/<league>.json` on main (the single source of truth) and writes `status.json` to the `status` branch for Touchline HQ and the watchdog.
 
-## Set up (Windows, about 30 minutes)
+## Set up (Windows)
+
+**Quick way:** open PowerShell as administrator and paste
+`Set-ExecutionPolicy Bypass -Scope Process -Force; iwr -UseBasicParsing https://raw.githubusercontent.com/osbornmatthew-lgtm/Touchline/main/runner/windows/setup.ps1 | iex`
+It does steps 1 (power settings only) to 6 below, pausing once for you to add the deploy key on GitHub and once before going live.
+
+**Step by step (about 30 minutes):**
 
 **1. The machine.** BIOS: After Power Loss > Power On. Then in an admin PowerShell:
 `powercfg /change standby-timeout-ac 0` and `powercfg /change hibernate-timeout-ac 0`.
