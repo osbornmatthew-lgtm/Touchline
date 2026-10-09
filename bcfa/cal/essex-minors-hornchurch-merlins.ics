@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Touchline BCFA//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Essex Minors (Hornchurch) (Touchline)
+X-WR-CALNAME:Essex Minors (Hornchurch) Merlins (Touchline)
 X-WR-TIMEZONE:Europe/London
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
@@ -26,20 +26,19 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30722258@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:BSC v Essex Minors (Hornchurch)
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
+DTSTAMP:20261009T114144Z
+SUMMARY:BSC FC United v Essex Minors (Hornchurch) Merlins
+DTSTART;TZID=Europe/London:20261018T113000
+DTEND;TZID=Europe/London:20261018T131000
 LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
   Hertfordshire CM23 4RF
-DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DESCRIPTION:Division 3 league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722258
 END:VEVENT
 BEGIN:VEVENT
 UID:30722263@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Essex Minors (Hornchurch) v Risden Wood
+DTSTAMP:20261009T114144Z
+SUMMARY:Essex Minors (Hornchurch) Merlins v Risden Wood Warriors
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
@@ -50,8 +49,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722263
 END:VEVENT
 BEGIN:VEVENT
 UID:30722270@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Aveley United v Essex Minors (Hornchurch)
+DTSTAMP:20261009T114144Z
+SUMMARY:Aveley United v Essex Minors (Hornchurch) Merlins
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
@@ -62,8 +61,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722270
 END:VEVENT
 BEGIN:VEVENT
 UID:30722272@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Essex Minors (Hornchurch) v Tilbury
+DTSTAMP:20261009T114144Z
+SUMMARY:Essex Minors (Hornchurch) Merlins v Tilbury Titans
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
@@ -74,8 +73,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722272
 END:VEVENT
 BEGIN:VEVENT
 UID:30722281@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Tilbury v Essex Minors (Hornchurch)
+DTSTAMP:20261009T114144Z
+SUMMARY:Tilbury Titans v Essex Minors (Hornchurch) Merlins
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
@@ -85,8 +84,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722281
 END:VEVENT
 BEGIN:VEVENT
 UID:30722286@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Hannakins Farm v Essex Minors (Hornchurch)
+DTSTAMP:20261009T114144Z
+SUMMARY:Hannakins Farm Purple v Essex Minors (Hornchurch) Merlins
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
@@ -97,8 +96,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722286
 END:VEVENT
 BEGIN:VEVENT
 UID:30722291@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Essex Minors (Hornchurch) v Loughton Town
+DTSTAMP:20261009T114144Z
+SUMMARY:Essex Minors (Hornchurch) Merlins v Loughton Town Greens
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
@@ -109,8 +108,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722291
 END:VEVENT
 BEGIN:VEVENT
 UID:30722294@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Perry Street v Essex Minors (Hornchurch)
+DTSTAMP:20261009T114144Z
+SUMMARY:Perry Street Blacks v Essex Minors (Hornchurch) Merlins
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 LOCATION:Barleylands Farm (Site 1b)\, Southend Road\, Billericay\, Essex C
@@ -121,8 +120,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722294
 END:VEVENT
 BEGIN:VEVENT
 UID:30722300@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Essex Minors (Hornchurch) v CFC Rainham
+DTSTAMP:20261009T114144Z
+SUMMARY:Essex Minors (Hornchurch) Merlins v CFC Rainham Lions
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
@@ -133,8 +132,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722300
 END:VEVENT
 BEGIN:VEVENT
 UID:30722302@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Blackmore v Essex Minors (Hornchurch)
+DTSTAMP:20261009T114144Z
+SUMMARY:Blackmore Blue v Essex Minors (Hornchurch) Merlins
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
@@ -145,8 +144,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722302
 END:VEVENT
 BEGIN:VEVENT
 UID:30722309@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Essex Minors (Hornchurch) v BSC
+DTSTAMP:20261009T114144Z
+SUMMARY:Essex Minors (Hornchurch) Merlins v BSC FC United
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
@@ -157,8 +156,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722309
 END:VEVENT
 BEGIN:VEVENT
 UID:30722314@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Risden Wood v Essex Minors (Hornchurch)
+DTSTAMP:20261009T114144Z
+SUMMARY:Risden Wood Warriors v Essex Minors (Hornchurch) Merlins
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 LOCATION:Long Ley Recreation Ground\, Long Ley Playground Monkswick Road\,
@@ -169,8 +168,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722314
 END:VEVENT
 BEGIN:VEVENT
 UID:30722318@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Essex Minors (Hornchurch) v Aveley United
+DTSTAMP:20261009T114144Z
+SUMMARY:Essex Minors (Hornchurch) Merlins v Aveley United
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
@@ -181,8 +180,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722318
 END:VEVENT
 BEGIN:VEVENT
 UID:30722254@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Essex Minors (Hornchurch) v Blackmore
+DTSTAMP:20261009T114144Z
+SUMMARY:Essex Minors (Hornchurch) Merlins v Blackmore Blue
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 LOCATION:Bretons Outdoor Recreation Centre\, Rainham Road\, Rainham RM13 7
@@ -193,12 +192,12 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722254
 END:VEVENT
 BEGIN:VEVENT
 UID:30554800@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Shield v Essex Minors (Hornchurch) (Essex U13 Trophy)
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-DESCRIPTION:Essex U13 Trophy. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTAMP:20261009T114144Z
+SUMMARY:Shield Academy White v Essex Minors (Hornchurch) Merlins (Essex U1
+ 3 Trophy)
+DTSTART;TZID=Europe/London:20261011T123000
+DTEND;TZID=Europe/London:20261011T141000
+DESCRIPTION:Essex U13 Trophy. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30554800
 END:VEVENT
 END:VCALENDAR

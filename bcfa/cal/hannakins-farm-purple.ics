@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Touchline BCFA//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Hannakins Farm (Touchline)
+X-WR-CALNAME:Hannakins Farm Purple (Touchline)
 X-WR-TIMEZONE:Europe/London
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
@@ -25,9 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:30722276@touchline-bcfa
+DTSTAMP:20261009T114144Z
+SUMMARY:Blackmore Blue v Hannakins Farm Purple
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
+DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30722276
+END:VEVENT
+BEGIN:VEVENT
 UID:30722271@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Hannakins Farm v Tilbury
+DTSTAMP:20261009T114144Z
+SUMMARY:Hannakins Farm Purple v Tilbury Titans
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
@@ -37,33 +49,21 @@ DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722271
 END:VEVENT
 BEGIN:VEVENT
-UID:30722276@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Hannakins Farm v Blackmore
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
- ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
-DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30722276
-END:VEVENT
-BEGIN:VEVENT
 UID:30722277@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Blackmore v Hannakins Farm
+DTSTAMP:20261009T114144Z
+SUMMARY:Hannakins Farm Purple v Blackmore Blue
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
- h\, Brentwood\, Essex CM15 0LA
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722277
 END:VEVENT
 BEGIN:VEVENT
 UID:30722286@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Hannakins Farm v Essex Minors (Hornchurch)
+DTSTAMP:20261009T114144Z
+SUMMARY:Hannakins Farm Purple v Essex Minors (Hornchurch) Merlins
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
@@ -74,8 +74,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722286
 END:VEVENT
 BEGIN:VEVENT
 UID:30722287@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:BSC v Hannakins Farm
+DTSTAMP:20261009T114144Z
+SUMMARY:BSC FC United v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
@@ -86,8 +86,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722287
 END:VEVENT
 BEGIN:VEVENT
 UID:30722296@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Loughton Town v Hannakins Farm
+DTSTAMP:20261009T114144Z
+SUMMARY:Loughton Town Greens v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 LOCATION:Davenant Foundation School\, Chester Road\, Loughton\, Essex IG10
@@ -98,8 +98,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722296
 END:VEVENT
 BEGIN:VEVENT
 UID:30722297@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Risden Wood v Hannakins Farm
+DTSTAMP:20261009T114144Z
+SUMMARY:Risden Wood Warriors v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 LOCATION:Long Ley Recreation Ground\, Long Ley Playground Monkswick Road\,
@@ -110,8 +110,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722297
 END:VEVENT
 BEGIN:VEVENT
 UID:30722306@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Hannakins Farm v Perry Street
+DTSTAMP:20261009T114144Z
+SUMMARY:Hannakins Farm Purple v Perry Street Blacks
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
@@ -122,8 +122,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722306
 END:VEVENT
 BEGIN:VEVENT
 UID:30722307@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Aveley United v Hannakins Farm
+DTSTAMP:20261009T114144Z
+SUMMARY:Aveley United v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 LOCATION:Chadwell Recreation Ground\, Orsett Heath Crescent\, Chadwell St 
@@ -134,8 +134,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722307
 END:VEVENT
 BEGIN:VEVENT
 UID:30722316@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Hannakins Farm v CFC Rainham
+DTSTAMP:20261009T114144Z
+SUMMARY:Hannakins Farm Purple v CFC Rainham Lions
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
@@ -146,8 +146,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722316
 END:VEVENT
 BEGIN:VEVENT
 UID:30722317@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Tilbury v Hannakins Farm
+DTSTAMP:20261009T114144Z
+SUMMARY:Tilbury Titans v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
@@ -157,8 +157,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722317
 END:VEVENT
 BEGIN:VEVENT
 UID:30722261@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Hannakins Farm v Aveley United
+DTSTAMP:20261009T114144Z
+SUMMARY:Hannakins Farm Purple v Aveley United
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
@@ -169,8 +169,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722261
 END:VEVENT
 BEGIN:VEVENT
 UID:30722266@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:CFC Rainham v Hannakins Farm
+DTSTAMP:20261009T114144Z
+SUMMARY:CFC Rainham Lions v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 LOCATION:Spring Farm Park\, Spring Farm Park Lambs Lane North\, Rainham RM
@@ -181,8 +181,8 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722266
 END:VEVENT
 BEGIN:VEVENT
 UID:30722256@touchline-bcfa
-DTSTAMP:20261004T155349Z
-SUMMARY:Perry Street v Hannakins Farm
+DTSTAMP:20261009T114144Z
+SUMMARY:Perry Street Blacks v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 LOCATION:Barleylands Farm (Site 1b)\, Southend Road\, Billericay\, Essex C
