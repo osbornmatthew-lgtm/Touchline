@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988116@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:May & Baker Eastbrook v Ware
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
@@ -37,8 +37,20 @@ DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988116
 END:VEVENT
 BEGIN:VEVENT
+UID:31030350@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Cheshunt v Ware
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
+ ross\, Hertfordshire EN8 8RU
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030350
+END:VEVENT
+BEGIN:VEVENT
 UID:30977621@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Ware v Potters Bar Town (RT Litho Cup)
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
@@ -50,7 +62,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30977621
 END:VEVENT
 BEGIN:VEVENT
 UID:30182827@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Baldock Town v Ware (Hertfordshire FA U16 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000

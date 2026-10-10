@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896795@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Mildenhall Town v Felixstowe & Walton United
 DTSTART;TZID=Europe/London:20261011T133000
 DTEND;TZID=Europe/London:20261011T151000
@@ -36,8 +36,20 @@ DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896795
 END:VEVENT
 BEGIN:VEVENT
+UID:31030353@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Mildenhall Town v AFC Sudbury
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Mildenhall Hub\, Mildenhall Hub\, Mildenhall Leisure Centre Sheld
+ rick Way\, Mildenhall\, Suffolk IP28 7JX
+DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030353
+END:VEVENT
+BEGIN:VEVENT
 UID:30955140@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Fakenham Town v Mildenhall Town (RT Litho Cup)
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896904@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Witham Town v Stansted
 DTSTART;TZID=Europe/London:20261011T133000
 DTEND;TZID=Europe/London:20261011T151000
@@ -35,12 +35,22 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30896904
 END:VEVENT
 BEGIN:VEVENT
 UID:30988167@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Witham Town v Springfield
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988167
+END:VEVENT
+BEGIN:VEVENT
+UID:31030393@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Stanway Rovers v Witham Town
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030393
 END:VEVENT
 END:VCALENDAR

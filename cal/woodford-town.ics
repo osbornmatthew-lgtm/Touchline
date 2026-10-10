@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30515005@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Woodford Town v Ryan
 DTSTART;TZID=Europe/London:20261011T120000
 DTEND;TZID=Europe/London:20261011T134000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30515005
 END:VEVENT
 BEGIN:VEVENT
 UID:30988121@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Woodford Town v Frenford
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
@@ -48,8 +48,20 @@ DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988121
 END:VEVENT
 BEGIN:VEVENT
+UID:31030375@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Walthamstow v Woodford Town
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Wadham Lodge Sports Ground (Match Day Centres)\, Wadham Lodge Spo
+ rts Ground Brookscroft Road\, London E17 4JP
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030375
+END:VEVENT
+BEGIN:VEVENT
 UID:30397254@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Whitestar v Woodford Town (London Under 16 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261018T140000
 DTEND;TZID=Europe/London:20261018T154000
@@ -60,7 +72,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30397254
 END:VEVENT
 BEGIN:VEVENT
 UID:30618182@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Woodford Town v Stanway Rovers (Essex Cassels U16 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

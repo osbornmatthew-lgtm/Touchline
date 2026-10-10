@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896900@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Chelmsford City v Rayleigh Town
 DTSTART;TZID=Europe/London:20261011T120000
 DTEND;TZID=Europe/London:20261011T134000
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30896900
 END:VEVENT
 BEGIN:VEVENT
 UID:31020110@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Rayleigh Town v Stansted
 DTSTART;TZID=Europe/London:20261018T100000
 DTEND;TZID=Europe/London:20261018T114000
@@ -44,5 +44,17 @@ LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
  ssex SS6 9DT
 DESCRIPTION:U16 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31020110
+END:VEVENT
+BEGIN:VEVENT
+UID:31030391@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Harlow Town v Rayleigh Town
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Harlow Town Football Club\, The Harlow Arena Elizabeth Way\, Harl
+ ow\, Essex CM19 5BE
+DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030391
 END:VEVENT
 END:VCALENDAR

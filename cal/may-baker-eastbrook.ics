@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896861@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:May & Baker Eastbrook v Edgware & Kingsbury
 DTSTART;TZID=Europe/London:20261011T120000
 DTEND;TZID=Europe/London:20261011T134000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30896861
 END:VEVENT
 BEGIN:VEVENT
 UID:30988116@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:May & Baker Eastbrook v Ware
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
@@ -48,8 +48,19 @@ DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988116
 END:VEVENT
 BEGIN:VEVENT
+UID:31030362@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Wingate & Finchley v May & Baker Eastbrook
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030362
+END:VEVENT
+BEGIN:VEVENT
 UID:30986828@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Redbridge v May & Baker Eastbrook (RT Litho Cup)
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101

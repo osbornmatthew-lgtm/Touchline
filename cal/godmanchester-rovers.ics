@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988086@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Histon v Godmanchester Rovers
 DTSTART;TZID=Europe/London:20261025T100000
 DTEND;TZID=Europe/London:20261025T114000
@@ -36,8 +36,20 @@ DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988086
 END:VEVENT
 BEGIN:VEVENT
+UID:31030356@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Cambridge City v Godmanchester Rovers
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Cambridge City Football Club\, Cambridge City Football Club West 
+ Way\, Sawston\, Cambridgeshire CB22 3FG
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030356
+END:VEVENT
+BEGIN:VEVENT
 UID:30903433@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Godmanchester Rovers v LGCE (League Cup)
 DTSTART;TZID=Europe/London:20261018T100000
 DTEND;TZID=Europe/London:20261018T114000
@@ -46,16 +58,5 @@ LOCATION:Godmanchester Rovers FC\, Godmanchester Rovers FC The Peter Hodso
   2LQ
 DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30903433
-END:VEVENT
-BEGIN:VEVENT
-UID:30629787@touchline-eja
-DTSTAMP:20261009T114144Z
-SUMMARY:AFC Sudbury v Godmanchester Rovers (RT Litho Cup)
-DTSTART;TZID=Europe/London:20261009T194500
-DTEND;TZID=Europe/London:20261009T212500
-LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
- 7HN
-DESCRIPTION:RT Litho Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30629787
 END:VEVENT
 END:VCALENDAR

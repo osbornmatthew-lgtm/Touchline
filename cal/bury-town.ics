@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896793@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:AFC Sudbury v Bury Town
 DTSTART;TZID=Europe/London:20261011T100000
 DTEND;TZID=Europe/London:20261011T114000
@@ -37,12 +37,23 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30896793
 END:VEVENT
 BEGIN:VEVENT
 UID:30988027@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Bury Town v Leiston
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988027
+END:VEVENT
+BEGIN:VEVENT
+UID:31030351@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Aylsham v Bury Town
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Ayfc
+DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030351
 END:VEVENT
 END:VCALENDAR

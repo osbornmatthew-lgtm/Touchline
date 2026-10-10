@@ -25,8 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:31030425@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Hashtag United v Billericay Town
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Forest Glade Sports Ground\, Barleylands Road\, Billericay CM11 2
+ UD
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030425
+END:VEVENT
+BEGIN:VEVENT
 UID:30930674@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Billericay Town v Newmarket Town (League Cup)
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
@@ -38,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30930674
 END:VEVENT
 BEGIN:VEVENT
 UID:30530092@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Cockfosters v Billericay Town (London Under 16 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261018T140000
 DTEND;TZID=Europe/London:20261018T154000

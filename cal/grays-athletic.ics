@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896908@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Hashtag United v Grays Athletic
 DTSTART;TZID=Europe/London:20261011T120000
 DTEND;TZID=Europe/London:20261011T134000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30896908
 END:VEVENT
 BEGIN:VEVENT
 UID:30988195@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Grays Athletic v Hashtag United
 DTSTART;TZID=Europe/London:20261025T140000
 DTEND;TZID=Europe/London:20261025T154000
@@ -47,8 +47,20 @@ DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988195
 END:VEVENT
 BEGIN:VEVENT
+UID:31030423@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Brentwood Town v Grays Athletic
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030423
+END:VEVENT
+BEGIN:VEVENT
 UID:30895132@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Cheshunt v Grays Athletic (League Cup)
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019

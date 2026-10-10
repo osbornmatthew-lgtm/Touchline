@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896860@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:London Lions v Broadfields United
 DTSTART;TZID=Europe/London:20261011T121500
 DTEND;TZID=Europe/London:20261011T135500
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30896860
 END:VEVENT
 BEGIN:VEVENT
 UID:30988114@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Broadfields United v Edgware & Kingsbury
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
@@ -45,5 +45,15 @@ LOCATION:Tithe Farm Sports and Social Club\, 151 Rayners Lane\, Harrow HA2
 DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988114
+END:VEVENT
+BEGIN:VEVENT
+UID:31030361@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Norsemen v Broadfields United
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
+DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030361
 END:VEVENT
 END:VCALENDAR

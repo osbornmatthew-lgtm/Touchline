@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896827@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Bedford Town v Hertford Town
 DTSTART;TZID=Europe/London:20261011T100000
 DTEND;TZID=Europe/London:20261011T114000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30896827
 END:VEVENT
 BEGIN:VEVENT
 UID:30988105@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Leighton Town v Bedford Town
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
@@ -46,8 +46,18 @@ DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988105
 END:VEVENT
 BEGIN:VEVENT
+UID:31030402@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Baldock Town v Bedford Town
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030402
+END:VEVENT
+BEGIN:VEVENT
 UID:30967138@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Bedford Town v Potters Bar Town (League Cup)
 DTSTART;TZID=Europe/London:20261018T110000
 DTEND;TZID=Europe/London:20261018T124000

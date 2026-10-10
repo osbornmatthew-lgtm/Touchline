@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896820@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:LGCE v Colney Heath
 DTSTART;TZID=Europe/London:20261011T103000
 DTEND;TZID=Europe/London:20261011T121000
@@ -36,8 +36,20 @@ DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896820
 END:VEVENT
 BEGIN:VEVENT
+UID:31030405@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:LGCE v St Margaretsbury
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Letchworth Eagles FC (Pixmore Pitches)\, Baldock Road\, Letchwort
+ h Garden City\, Hertfordshire SG6 2EN
+DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030405
+END:VEVENT
+BEGIN:VEVENT
 UID:30903433@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Godmanchester Rovers v LGCE (League Cup)
 DTSTART;TZID=Europe/London:20261018T100000
 DTEND;TZID=Europe/London:20261018T114000

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30515005@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Woodford Town v Ryan
 DTSTART;TZID=Europe/London:20261011T120000
 DTEND;TZID=Europe/London:20261011T134000
@@ -37,11 +37,21 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30515005
 END:VEVENT
 BEGIN:VEVENT
 UID:30988119@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Ryan v Hackney Wick
 DTSTART;TZID=Europe/London:20261025T100000
 DTEND;TZID=Europe/London:20261025T114000
 DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988119
+END:VEVENT
+BEGIN:VEVENT
+UID:31030374@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Ryan v Redbridge
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030374
 END:VEVENT
 END:VCALENDAR

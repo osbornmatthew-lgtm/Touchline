@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988119@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Ryan v Hackney Wick
 DTSTART;TZID=Europe/London:20261025T100000
 DTEND;TZID=Europe/London:20261025T114000
@@ -34,8 +34,20 @@ DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988119
 END:VEVENT
 BEGIN:VEVENT
+UID:31030373@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Hackney Wick v CSM London
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Mabley Green\, Mabley Green Sports Green Lee Conservancy Road\, H
+ ackney\, London E9 5RN
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030373
+END:VEVENT
+BEGIN:VEVENT
 UID:30892990@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Hackney Wick v Frenford (League Cup)
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
@@ -47,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30892990
 END:VEVENT
 BEGIN:VEVENT
 UID:30530101@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Hackney Wick v Redbridge (London Under 16 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261018T140000
 DTEND;TZID=Europe/London:20261018T154000

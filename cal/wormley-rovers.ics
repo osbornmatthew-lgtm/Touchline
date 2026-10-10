@@ -26,12 +26,22 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30896864@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Wingate & Finchley v Wormley Rovers
 DTSTART;TZID=Europe/London:20261011T131500
 DTEND;TZID=Europe/London:20261011T145500
 LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
 DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896864
+END:VEVENT
+BEGIN:VEVENT
+UID:31030363@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Wormley Rovers v Cockfosters
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030363
 END:VEVENT
 END:VCALENDAR

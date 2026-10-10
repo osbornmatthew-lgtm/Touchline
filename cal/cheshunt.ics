@@ -25,8 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:31030350@touchline-eja
+DTSTAMP:20261010T160642Z
+SUMMARY:Cheshunt v Ware
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
+ ross\, Hertfordshire EN8 8RU
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030350
+END:VEVENT
+BEGIN:VEVENT
 UID:30895132@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Cheshunt v Grays Athletic (League Cup)
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
@@ -38,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30895132
 END:VEVENT
 BEGIN:VEVENT
 UID:30932313@touchline-eja
-DTSTAMP:20261009T114144Z
+DTSTAMP:20261010T160642Z
 SUMMARY:Colney Heath v Cheshunt (Hertfordshire FA U16 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000
