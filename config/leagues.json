@@ -8,8 +8,9 @@
     "run_limit_minutes": 10
   },
   "browser": {
-    "headless": true,
-    "channel": null
+    "headless": false,
+    "channel": "chrome",
+    "args": ["--disable-blink-features=AutomationControlled", "--start-minimized"]
   },
   "match_day": {
     "heartbeat_minutes": 45,

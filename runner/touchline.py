@@ -315,7 +315,8 @@ class FullTime:
         from playwright.sync_api import sync_playwright
         self.pw = sync_playwright().start()
         b = self.cfg.get('browser', {})
-        self.browser = self.pw.chromium.launch(headless=b.get('headless', True), channel=b.get('channel') or None)
+        self.browser = self.pw.chromium.launch(headless=b.get('headless', True), channel=b.get('channel') or None,
+                                                 args=b.get('args') or [], ignore_default_args=['--enable-automation'])
         major = self.browser.version.split('.')[0]
         ua = self.cfg['fetch'].get('user_agent') or \
             f'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{major}.0.0.0 Safari/537.36'

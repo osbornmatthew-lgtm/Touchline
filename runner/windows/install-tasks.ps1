@@ -17,7 +17,11 @@ $python = Join-Path $RepoDir ".venv\Scripts\python.exe"
 if (-not (Test-Path $python)) { throw "No Python found at $python. Follow runner\README.md step 3 first." }
 
 $action = New-ScheduledTaskAction -Execute $python -Argument "runner\touchline.py run" -WorkingDirectory $RepoDir
-$principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType S4U -RunLevel Limited
+# A visible (non-headless) Chrome needs your signed-in session; headless can run signed out.
+$cfg = Get-Content (Join-Path $RepoDir "config\leagues.json") -Raw | ConvertFrom-Json
+$logon = if ($cfg.browser.headless -eq $false) { "Interactive" } else { "S4U" }
+$principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType $logon -RunLevel Limited
+"Tasks will run as $env:USERNAME ($logon)"
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -WakeToRun -MultipleInstances IgnoreNew `
   -ExecutionTimeLimit (New-TimeSpan -Minutes 15) -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
   -RestartCount 0
