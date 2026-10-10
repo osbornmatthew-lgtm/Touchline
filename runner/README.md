@@ -65,13 +65,13 @@ Keep this folder for the runner only. Each run resets it to what's on GitHub.
 The dry run puts the built sites in `.runner\out`. Open `index.html` there to look before going live.
 
 **6. Schedule it.** `powershell -ExecutionPolicy Bypass -File runner\windows\install-tasks.ps1`
-Sundays every 10 minutes 10:00 to 18:00, Saturday 08:50, Monday 07:50. Runs whether or not you're signed in.
+Sundays every 10 minutes 10:00 to 21:00, Saturday 08:50, Monday 07:50. The laptop must be on and signed in (locked is fine), because the runner drives a real Chrome window.
 
 **7. Switch off the old Claude scheduled tasks** for Touchline, so two things don't publish at once.
 
 ## Alerts
 
-* **The watchdog** (`.github/workflows/watchdog.yml`) runs on GitHub every 15 minutes on Sundays. If a league has had no good update for 45 minutes between 10:45 and 18:00, it fails and GitHub emails you. Check GitHub > Settings > Notifications > Actions is set to email you for failed workflows. It catches everything: machine off, broadband down, Full-Time blocking, scraper broken.
+* **The watchdog** (`.github/workflows/watchdog.yml`) runs on GitHub every 15 minutes on Sundays. If a league has had no good update for 45 minutes between 10:45 and 21:00, it fails and GitHub emails you. Check GitHub > Settings > Notifications > Actions is set to email you for failed workflows. It catches everything: machine off, broadband down, Full-Time blocking, scraper broken.
 * **Phone push (optional):** install the ntfy app, subscribe to a topic name only you know, then put that name in `config/leagues.json` under `alerts.ntfy_topic` (the runner tells you the moment a run fails and when it recovers) and as a repo secret `NTFY_TOPIC` (the watchdog).
 * **Touchline HQ** shows each league's last update from `status.json`.
 

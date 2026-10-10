@@ -7,7 +7,7 @@
 param(
   [string]$RepoDir = (Resolve-Path "$PSScriptRoot\..\..").Path,
   [string]$SundayStart = "10:00",
-  [int]$SundayHours = 8,
+  [int]$SundayHours = 11,
   [int]$EveryMinutes = 10,
   [string]$SaturdayAt = "08:50",
   [string]$MondayAt = "07:50"

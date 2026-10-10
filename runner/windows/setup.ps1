@@ -69,7 +69,7 @@ $go = Read-Host 'Dry run done. Publish a real update and switch on the schedule?
 if ($go -ne 'y') { Write-Host 'Stopped before going live. Run this again when ready.'; return }
 & .venv\Scripts\python runner\touchline.py run --mode full --force; Check 'first live run'
 
-Step 7 'Schedule: Sundays every 10 minutes 10:00 to 18:00, Saturday 08:50, Monday 07:50'
+Step 7 'Schedule: Sundays every 10 minutes 10:00 to 21:00, Saturday 08:50, Monday 07:50'
 & powershell -ExecutionPolicy Bypass -File runner\windows\install-tasks.ps1; Check 'scheduling'
 Write-Host ''
 Write-Host 'All done. Logs are in C:\Touchline\.runner\logs. Tell Claude "runner is live" so the old Claude tasks get switched off.' -ForegroundColor Green
