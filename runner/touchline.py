@@ -315,27 +315,49 @@ class FullTime:
         from playwright.sync_api import sync_playwright
         self.pw = sync_playwright().start()
         b = self.cfg.get('browser', {})
-        self.browser = self.pw.chromium.launch(headless=b.get('headless', True), channel=b.get('channel') or None,
-                                                 args=b.get('args') or [], ignore_default_args=['--enable-automation'])
-        major = self.browser.version.split('.')[0]
-        ua = self.cfg['fetch'].get('user_agent') or \
-            f'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{major}.0.0.0 Safari/537.36'
-        self.ctx = self.browser.new_context(user_agent=ua, locale='en-GB', timezone_id='Europe/London')
-        self.page = self.ctx.new_page()
+        headless = b.get('headless', True)
+        opts = dict(headless=headless, channel=b.get('channel') or None, args=b.get('args') or [],
+                    ignore_default_args=['--enable-automation'], locale='en-GB', timezone_id='Europe/London')
+        if headless:  # the headless build announces itself in its user agent, so present a normal one
+            opts['user_agent'] = self.cfg['fetch'].get('user_agent') or \
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+        # A profile kept between runs, so once Full-Time's bot check trusts this browser its cookies are reused.
+        prof = ROOT / '.runner' / 'chrome-profile'
+        prof.mkdir(parents=True, exist_ok=True)
+        self.ctx = self.pw.chromium.launch_persistent_context(str(prof), **opts)
+        self.ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', { get: () => undefined })")
+        self.page = self.ctx.pages[0] if self.ctx.pages else self.ctx.new_page()
         return self
 
     def __exit__(self, *a):
         try:
-            self.browser.close()
+            self.ctx.close()
         finally:
             self.pw.stop()
 
-    def open(self, season):
-        r = self.page.goto(f'{FULLTIME}/index.html?selectedSeason={season}', wait_until='domcontentloaded', timeout=60000)
+    def _status(self, url):
+        return self.page.evaluate("async u => (await fetch(u)).status", url)
+
+    def open(self, season, probe_div=None):
+        """Load Full-Time like a person would and give its bot check time to finish before fetching."""
+        settle = int(self.cfg.get('browser', {}).get('settle_seconds', 6)) * 1000
+        r = self.page.goto(f'{FULLTIME}/index.html?selectedSeason={season}', wait_until='load', timeout=60000)
         if r is None or r.status in (403, 429):
             raise Blocked(f'Full-Time answered {r.status if r else "nothing"} on its home page')
         if r.status >= 400:
             raise RuntimeError(f'Full-Time answered {r.status} on its home page')
+        self.page.wait_for_timeout(settle)
+        if probe_div:
+            test = f'/table.html?selectedSeason={season}&selectedDivision={probe_div}'
+            for attempt in range(3):
+                if self._status(test) == 200:
+                    return
+                # open a real page as a navigation (not a background fetch), then wait and try again
+                self.page.goto(FULLTIME + test, wait_until='load', timeout=60000)
+                self.page.wait_for_timeout(settle)
+                self.page.goto(f'{FULLTIME}/index.html?selectedSeason={season}', wait_until='load', timeout=60000)
+                self.page.wait_for_timeout(settle // 2)
+            raise Blocked('Full-Time still refuses background requests after waiting for its bot check')
 
     def scrape(self, L, plan):
         f = self.cfg['fetch']
@@ -343,7 +365,7 @@ class FullTime:
                   'ONLY_DIVS': plan['only_divs'], 'ONLY_CUPS': plan['only_cups'], 'EVENTS': plan['events'],
                   'KNOWN_VENUES': plan['known_venues'], 'LIMIT': f.get('concurrency', 2), 'DELAY': f.get('delay_ms', [600, 1200]),
                   'RETRIES': f.get('retries', 2), 'DEADLINE_MS': int(f.get('run_limit_minutes', 10) * 60000), 'NO_DOM': True}
-        self.open(L['season'])
+        self.open(L['season'], L['divisions'][0][2] if L['divisions'] else None)
         src = (ROOT / 'scripts' / 'scrape.js').read_text(encoding='utf-8')
         try:
             res = self.page.evaluate(RUN_JS, [src, js_cfg])
@@ -660,10 +682,13 @@ def cmd_probe(a):
         print(f'   refused: HTTP {e.code}')
     except Exception as e:
         print(f'   failed: {e}')
-    print('2. Headless browser (what the runner uses)')
+    print('2. Browser (what the runner uses: ' + ('headless' if cfg.get('browser', {}).get('headless', True) else 'Chrome window') + ')')
     try:
         with FullTime(cfg) as ft:
-            ft.open(L['season'])
+            try:
+                ft.open(L['season'], div)
+            except Blocked as e:
+                print(f'   {e}')
             n = ft.page.evaluate("async u => { const r = await fetch(u); return [r.status, (await r.text()).length]; }",
                                  f'/table.html?selectedSeason={L["season"]}&selectedDivision={div}')
             print(f'   home page OK, league table: HTTP {n[0]}, {n[1]} bytes')

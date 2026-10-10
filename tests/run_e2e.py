@@ -47,9 +47,11 @@ def setup(tmp, real_delays):
         if item.name in ('.git', '.runner') or item.name.startswith('__'):
             continue
         (shutil.copytree(item, runner / item.name, ignore=shutil.ignore_patterns('__pycache__')) if item.is_dir() else shutil.copy2(item, runner / item.name))
+    cfgp = runner / 'config' / 'leagues.json'
+    c = json.loads(cfgp.read_text(encoding='utf-8'))
+    c['browser'] = {'headless': True, 'channel': None, 'args': [], 'settle_seconds': 0}  # the mock has no bot check
+    cfgp.write_text(json.dumps(c, indent=2, ensure_ascii=False), encoding='utf-8')
     if not real_delays:
-        cfgp = runner / 'config' / 'leagues.json'
-        c = json.loads(cfgp.read_text(encoding='utf-8'))
         c['fetch']['delay_ms'] = [5, 20]
         cfgp.write_text(json.dumps(c, indent=2, ensure_ascii=False), encoding='utf-8')
     sh('git', 'add', '-A', cwd=runner)
