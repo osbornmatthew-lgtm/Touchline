@@ -467,7 +467,8 @@ def publish_status(status):
         blob = git('hash-object', '-w', f.name)
     finally:
         os.unlink(f.name)
-    tree = subprocess.run(['git', 'mktree'], cwd=ROOT, input=f'100644 blob {blob}\tstatus.json\n', capture_output=True, text=True, check=True).stdout.strip()
+    # bytes, not text: on Windows text mode turns the newline into \r\n and the file ends up named "status.json\r"
+    tree = subprocess.run(['git', 'mktree'], cwd=ROOT, input=f'100644 blob {blob}\tstatus.json\n'.encode(), capture_output=True, check=True).stdout.decode().strip()
     commit = git(*commit_identity(), 'commit-tree', tree, '-m', f'Status {status["updated"]}')
     git('push', '-q', '-f', 'origin', f'{commit}:refs/heads/status')
 
