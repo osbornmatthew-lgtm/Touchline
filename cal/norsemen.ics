@@ -26,22 +26,12 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030361@touchline-eja
-DTSTAMP:20261011T095038Z
+DTSTAMP:20261011T145118Z
 SUMMARY:Norsemen v Broadfields United
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
 LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
 DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030361
-END:VEVENT
-BEGIN:VEVENT
-UID:30953634@touchline-eja
-DTSTAMP:20261011T095038Z
-SUMMARY:Wealdstone v Norsemen (Middlesex FA Under-16 Cup)
-DTSTART;TZID=Europe/London:20261011T120000
-DTEND;TZID=Europe/London:20261011T134000
-DESCRIPTION:Middlesex FA Under-16 Cup. Check FA Full-Time for late changes
- .
-URL:https://fulltime.thefa.com/displayFixture.html?id=30953634
 END:VEVENT
 END:VCALENDAR

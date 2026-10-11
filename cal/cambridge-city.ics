@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030356@touchline-eja
-DTSTAMP:20261011T095038Z
+DTSTAMP:20261011T145118Z
 SUMMARY:Cambridge City v Godmanchester Rovers
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
 LOCATION:Cambridge City Football Club\, Cambridge City Football Club West 
  Way\, Sawston\, Cambridgeshire CB22 3FG
-DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030356
 END:VEVENT
 BEGIN:VEVENT
 UID:30932266@touchline-eja
-DTSTAMP:20261011T095038Z
+DTSTAMP:20261011T145118Z
 SUMMARY:Cockfosters v Cambridge City (League Cup)
 DTSTART;TZID=Europe/London:20261025T103000
 DTEND;TZID=Europe/London:20261025T121000
@@ -49,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30932266
 END:VEVENT
 BEGIN:VEVENT
 UID:30942086@touchline-eja
-DTSTAMP:20261011T095038Z
+DTSTAMP:20261011T145118Z
 SUMMARY:Histon v Cambridge City (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261020T194500
 DTEND;TZID=Europe/London:20261020T212500
