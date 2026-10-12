@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988087@touchline-eja
-DTSTAMP:20261011T162114Z
+DTSTAMP:20261012T065116Z
 SUMMARY:Soham Town Rangers v Netherton United
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-LOCATION:Soham Village College\, Sand Street\, Soham\, Ely\, Cambridgeshir
- e CB7 5AA
-DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261025T140000
+DTEND;TZID=Europe/London:20261025T154000
+LOCATION:Soham Town Rangers Football Club\, Julius Martin Lane\, Soham\, E
+ ly\, Cambridgeshire CB7 5EQ
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988087
 END:VEVENT
 BEGIN:VEVENT
 UID:31030438@touchline-eja
-DTSTAMP:20261011T162114Z
+DTSTAMP:20261012T065116Z
 SUMMARY:Netherton United v St Neots Town
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -48,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030438
 END:VEVENT
 BEGIN:VEVENT
 UID:31012476@touchline-eja
-DTSTAMP:20261011T162114Z
+DTSTAMP:20261012T065116Z
 SUMMARY:Netherton United v Rushden & Higham United (U16 Youth Cup)
 DTSTART;TZID=Europe/London:20261108T140000
 DTEND;TZID=Europe/London:20261108T154000

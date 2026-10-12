@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030358@touchline-eja
-DTSTAMP:20261011T162114Z
+DTSTAMP:20261012T065116Z
 SUMMARY:Soham Town Rangers v Newmarket Town
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-LOCATION:Soham Village College\, Sand Street\, Soham\, Ely\, Cambridgeshir
- e CB7 5AA
-DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261101T103000
+DTEND;TZID=Europe/London:20261101T121000
+LOCATION:Soham Town Rangers Football Club\, Julius Martin Lane\, Soham\, E
+ ly\, Cambridgeshire CB7 5EQ
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030358
 END:VEVENT
 BEGIN:VEVENT
 UID:30930674@touchline-eja
-DTSTAMP:20261011T162114Z
+DTSTAMP:20261012T065116Z
 SUMMARY:Billericay Town v Newmarket Town (League Cup)
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
