@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030363@touchline-eja
-DTSTAMP:20261018T110043Z
+DTSTAMP:20261018T112101Z
 SUMMARY:Wormley Rovers v Cockfosters
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030363
 END:VEVENT
 BEGIN:VEVENT
 UID:30932266@touchline-eja
-DTSTAMP:20261018T110043Z
+DTSTAMP:20261018T112101Z
 SUMMARY:Cockfosters v Cambridge City (League Cup)
 DTSTART;TZID=Europe/London:20261025T103000
 DTEND;TZID=Europe/London:20261025T121000
@@ -43,15 +43,5 @@ LOCATION:Old Elizabethans Memorial Playing Fields\, Mays Lane\, Barnet EN5
   2AG
 DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30932266
-END:VEVENT
-BEGIN:VEVENT
-UID:30530092@touchline-eja
-DTSTAMP:20261018T110043Z
-SUMMARY:Cockfosters v Billericay Town (London Under 16 Boys Sunday Cup)
-DTSTART;TZID=Europe/London:20261018T100000
-DTEND;TZID=Europe/London:20261018T114000
-DESCRIPTION:London Under 16 Boys Sunday Cup. Check FA Full-Time for late c
- hanges.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30530092
 END:VEVENT
 END:VCALENDAR
