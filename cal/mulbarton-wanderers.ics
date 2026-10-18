@@ -26,23 +26,13 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30892794@touchline-eja
-DTSTAMP:20261012T065116Z
+DTSTAMP:20261018T090107Z
 SUMMARY:Mulbarton Wanderers v Histon (League Cup)
-DTSTART;TZID=Europe/London:20261025T120000
-DTEND;TZID=Europe/London:20261025T134000
-LOCATION:The FDC\, Bowthorpe Park Clover Hill Road\, Norwich\, Norfolk NR5
-  9ED
+DTSTART;TZID=Europe/London:20261025T110000
+DTEND;TZID=Europe/London:20261025T124000
+LOCATION:The Nest\, Horsford Manor Holt Road\, Horsford\, Norwich\, Norfol
+ k NR10 3AQ
 DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30892794
-END:VEVENT
-BEGIN:VEVENT
-UID:30936193@touchline-eja
-DTSTAMP:20261012T065116Z
-SUMMARY:Wymondham Town United v Mulbarton Wanderers (John Savage Cup)
-DTSTART;TZID=Europe/London:20261018T143000
-DTEND;TZID=Europe/London:20261018T161000
-LOCATION:Ketts Park Community Recreation Centre
-DESCRIPTION:John Savage Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30936193
 END:VEVENT
 END:VCALENDAR

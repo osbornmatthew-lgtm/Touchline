@@ -26,24 +26,13 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030362@touchline-eja
-DTSTAMP:20261012T065116Z
+DTSTAMP:20261018T090107Z
 SUMMARY:Wingate & Finchley v May & Baker Eastbrook
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
 LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
 DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030362
-END:VEVENT
-BEGIN:VEVENT
-UID:30530288@touchline-eja
-DTSTAMP:20261012T065116Z
-SUMMARY:Wingate & Finchley v Limitless Football Club (London Under 16 Boys
-  Sunday Cup)
-DTSTART;TZID=Europe/London:20261018T113000
-DTEND;TZID=Europe/London:20261018T131000
-DESCRIPTION:London Under 16 Boys Sunday Cup. Check FA Full-Time for late c
- hanges.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30530288
 END:VEVENT
 END:VCALENDAR

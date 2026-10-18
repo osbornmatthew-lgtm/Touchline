@@ -26,25 +26,14 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988166@touchline-eja
-DTSTAMP:20261012T065116Z
+DTSTAMP:20261018T090107Z
 SUMMARY:Sudbury Sports v Stanway Rovers
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-LOCATION:Earls Colne Recreation Club\, Halstead Road\, Earls Colne\, Colch
- ester\, Essex CO6 2NG
+LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
+ 7HN
 DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988166
-END:VEVENT
-BEGIN:VEVENT
-UID:30893565@touchline-eja
-DTSTAMP:20261012T065116Z
-SUMMARY:Sudbury Sports v Aveley (League Cup)
-DTSTART;TZID=Europe/London:20261018T140000
-DTEND;TZID=Europe/London:20261018T154000
-LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
- 7HN
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30893565
 END:VEVENT
 END:VCALENDAR

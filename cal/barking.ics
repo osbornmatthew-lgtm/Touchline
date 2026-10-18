@@ -25,18 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988117@touchline-eja
-DTSTAMP:20261012T065116Z
-SUMMARY:Barking v Redbridge
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988117
+UID:31037534@touchline-eja
+DTSTAMP:20261018T090107Z
+SUMMARY:Ryan v Barking
+DTSTART;TZID=Europe/London:20261025T100000
+DTEND;TZID=Europe/London:20261025T114000
+DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31037534
 END:VEVENT
 BEGIN:VEVENT
 UID:31030371@touchline-eja
-DTSTAMP:20261012T065116Z
+DTSTAMP:20261018T090107Z
 SUMMARY:Buckhurst Hill v Barking
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -45,5 +44,15 @@ LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
 DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030371
+END:VEVENT
+BEGIN:VEVENT
+UID:30988117@touchline-eja
+DTSTAMP:20261018T090107Z
+SUMMARY:Barking v Redbridge
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30988117
 END:VEVENT
 END:VCALENDAR

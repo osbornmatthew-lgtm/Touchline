@@ -26,17 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988027@touchline-eja
-DTSTAMP:20261012T065116Z
+DTSTAMP:20261018T090107Z
 SUMMARY:Bury Town v Leiston
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261025T103000
+DTEND;TZID=Europe/London:20261025T121000
+LOCATION:Skyliner Sports Centre\, Sybil Andrews Academy Rougham Tower Aven
+ ue\, Bury St. Edmunds\, Suffolk IP32 7QB
+DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988027
 END:VEVENT
 BEGIN:VEVENT
 UID:31030355@touchline-eja
-DTSTAMP:20261012T065116Z
+DTSTAMP:20261018T090107Z
 SUMMARY:Wroxham v Leiston
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
