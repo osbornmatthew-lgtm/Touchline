@@ -26,14 +26,13 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988166@touchline-eja
-DTSTAMP:20261018T163049Z
+DTSTAMP:20261018T164104Z
 SUMMARY:Sudbury Sports v Stanway Rovers
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;TZID=Europe/London:20261025T100000
+DTEND;TZID=Europe/London:20261025T114000
 LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
  7HN
-DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DESCRIPTION:U16 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988166
 END:VEVENT
 END:VCALENDAR
