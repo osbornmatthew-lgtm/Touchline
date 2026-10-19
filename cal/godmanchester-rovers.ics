@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988086@touchline-eja
-DTSTAMP:20261018T170101Z
-SUMMARY:Histon v Godmanchester Rovers
-DTSTART;TZID=Europe/London:20261025T100000
-DTEND;TZID=Europe/London:20261025T114000
-LOCATION:Camtech and Caprice Stadium\, Bridge Road\, Impington\, Cambridge
- \, Cambridgeshire CB24 9PH
-DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988086
-END:VEVENT
-BEGIN:VEVENT
 UID:31030356@touchline-eja
-DTSTAMP:20261018T170101Z
+DTSTAMP:20261019T065106Z
 SUMMARY:Cambridge City v Godmanchester Rovers
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -45,5 +34,16 @@ LOCATION:Cambridge City Football Club\, Cambridge City Football Club West
  Way\, Sawston\, Cambridgeshire CB22 3FG
 DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030356
+END:VEVENT
+BEGIN:VEVENT
+UID:30988086@touchline-eja
+DTSTAMP:20261019T065106Z
+SUMMARY:Histon v Godmanchester Rovers
+DTSTART;TZID=Europe/London:20261108T100000
+DTEND;TZID=Europe/London:20261108T114000
+LOCATION:Camtech and Caprice Stadium\, Bridge Road\, Impington\, Cambridge
+ \, Cambridgeshire CB24 9PH
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30988086
 END:VEVENT
 END:VCALENDAR

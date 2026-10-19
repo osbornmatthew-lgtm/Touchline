@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030424@touchline-eja
-DTSTAMP:20261018T170101Z
+DTSTAMP:20261019T065106Z
 SUMMARY:Canvey Island v Concord Rangers
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030424
 END:VEVENT
 BEGIN:VEVENT
 UID:30895287@touchline-eja
-DTSTAMP:20261018T170101Z
+DTSTAMP:20261019T065106Z
 SUMMARY:Aylsham v Concord Rangers (League Cup)
 DTSTART;TZID=Europe/London:20261025T120000
 DTEND;TZID=Europe/London:20261025T134000
@@ -44,17 +44,5 @@ LOCATION:Youngs Park\, Youngs Park\, Aylsham Community Sports Ltd Woodgate
   Way\, Aylsham\, Norfolk NR11 6FJ
 DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30895287
-END:VEVENT
-BEGIN:VEVENT
-UID:30987234@touchline-eja
-DTSTAMP:20261018T170101Z
-SUMMARY:Aveley v Concord Rangers (RT Litho Cup)
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
- ndon RM15 4UA
-DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30987234
 END:VEVENT
 END:VCALENDAR
