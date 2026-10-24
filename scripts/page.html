@@ -376,6 +376,12 @@ button.jstep.on,button.jstep:hover{border-color:var(--accent)}
 #jtable .mrow.me2{font-weight:700}
 #jtable .r{text-align:right;color:var(--fg-2)} #jtable .pts{font-family:var(--display);font-weight:700;font-size:18px;color:var(--fg)}
 .jt-h{padding:10px 14px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.honours{display:flex;flex-wrap:wrap;gap:6px}
+.honour{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;border:1px solid #E8C547;color:#F2D675;background:color-mix(in srgb, #E8C547 12%, transparent);font-size:12px;font-weight:700}
+.seasons li{flex-direction:column;align-items:flex-start;gap:3px}
+.seasons .sy{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.seasons b{color:var(--fg)}
+.hw{color:#F2D675;font-weight:700}
 .vs-sum{margin:0 0 8px;font-size:14px;color:var(--fg-2)} .vs-sum b{color:var(--fg)}
 .jstep.now{border-color:var(--accent);background:var(--mine)}
 .jstep .ja{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em}
@@ -1286,6 +1292,46 @@ function formTable(i) {
   return rows;
 }
 
+
+// ---- Honours and season by season (past seasons): league finish and how far they got in each cup
+const compName = c => String(c).replace(/_\s*\d{4}\s*-\s*\d{2,4}\s*$/, '').replace(/`/g, "'").replace(/\s*\((?:Mid ?Week(?: Cup)?|Midweek)\)/i, '').replace(/League Cup U1\d'?s/i, 'League Cup')
+  .replace(/U1\ds Division Play Offs/i, 'Play-offs').replace(/RT litho/i, 'RT Litho').replace(/^Chairmans/, "Chairman's").replace(/\s*\(\s*Plate\s*\)/i, ' (Plate)').replace(/\s+/g, ' ').trim();
+const tieWinner = r => { if (r[3] > r[4]) return r[1]; if (r[4] > r[3]) return r[2]; const m = String(r[5] || '').match(/pens?\s*(\d+)\s*-\s*(\d+)/i); return m ? (+m[1] > +m[2] ? r[1] : r[2]) : null; };
+function pastSeasons(name) {
+  return HIST.map(H => {
+    let league = null;
+    for (const d of H.divisions) { const i = d.teams.findIndex(t => t[0] === name); if (i >= 0) { league = { pos: i + 1, of: d.teams.length, div: d.name.replace(/^U1\d /, '') }; break; } }
+    const by = {}; H.results.filter(r => !isLeagueComp(r[6])).forEach(r => (by[r[6]] = by[r[6]] || []).push(r));
+    const cups = [];
+    for (const [comp, rs] of Object.entries(by)) {
+      const mineRs = rs.filter(r => r[1] === name || r[2] === name); if (!mineRs.length) continue;
+      const order = (a, b) => hDate(H.season, a[0]) - hDate(H.season, b[0]);
+      const last = mineRs.sort(order)[mineRs.length - 1], final = rs.slice().sort(order)[rs.length - 1];
+      const won = tieWinner(last) === name, opp = last[1] === name ? last[2] : last[1];
+      let res, honour = null;
+      if (/play.?off/i.test(comp)) res = won ? `won v ${opp}` : `lost to ${opp}`;
+      else if (last === final) { res = won ? 'Winners' : 'Runners-up'; honour = won ? 'win' : 'final'; }
+      else res = won ? `won v ${opp} (last game recorded)` : `out to ${opp}`;
+      cups.push({ comp: compName(comp), res, honour });
+    }
+    return { season: H.season, age: H.age, league, cups };
+  }).filter(x => x.league || x.cups.length);
+}
+const TROPHY = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3a3 3 0 0 1-3 4M7 5H4a3 3 0 0 0 3 4"/></svg>';
+function honoursHtml(name) {
+  const hs = [];
+  pastSeasons(name).forEach(x => {
+    if (x.league && x.league.pos === 1) hs.push(`${x.age} ${esc(x.league.div)} champions ${x.season}`);
+    x.cups.filter(c => c.honour === 'win').forEach(c => hs.push(`${esc(c.comp)} winners ${x.season}`));
+    x.cups.filter(c => c.honour === 'final').forEach(c => hs.push(`${esc(c.comp)} finalists ${x.season}`));
+  });
+  return hs.length ? `<div class="honours">${hs.map(h => `<span class="honour">${TROPHY}${h}</span>`).join('')}</div>` : '';
+}
+function seasonsHtml(name) {
+  const ss = pastSeasons(name); if (!ss.length) return '';
+  return `<section><h3>Season by season</h3><ul class="list seasons">${ss.map(x => `<li><b class="sy">${x.season} · ${x.age}</b>${x.league ? `<span>League: <b>${ordinal(x.league.pos)}</b> of ${x.league.of} · ${esc(x.league.div)}${x.league.pos === 1 ? ' · <span class="hw">Champions</span>' : ''}</span>` : ''}${x.cups.map(c => `<span>${esc(c.comp)}: ${c.honour ? `<span class="hw">${esc(c.res)}</span>` : esc(c.res)}</span>`).join('')}</li>`).join('')}</ul></section>`;
+}
+
 function talkingPoints(i) {
   const d = DATA.divisions[i];
   const played = d.results.filter(r => r[3] !== null);
@@ -1419,11 +1465,13 @@ function openTeam(name) {
   sh.querySelector('.sheet-body').innerHTML = `
     <header class="sh-head">
       <div class="tm">${crest(name)}<div><div class="sh-name"><span class="eyebrow">${esc(d.name)}</span>${name === mine ? '<button type="button" class="chg" data-pick>Change team</button>' : ''}</div><h2>${esc(name)}</h2></div></div>
+      ${honoursHtml(name)}
       <div class="sh-sum"><span class="num">${ordinal(row.pos || 0)}</span><span>${row.pts ?? 0} pts</span><span class="form">${form}</span><span class="run">${esc(runText(s.g))}</span></div>
     </header>
     ${partnerHtml(name)}
     <div class="stats six">${tileHtml}</div>
     ${journeyHtml(name, i)}
+    ${seasonsHtml(name)}
     <section><h3>Talking points</h3><ul class="kv">${hl.concat(historyKv(name)).join('') || '<li class="fine">No league games yet</li>'}</ul>${htNote}</section>
     <section><h3>When they score</h3>${when}</section>
     <section><h3>Next up</h3><ul class="list">${upHtml}</ul>${calHtml(name)}</section>
