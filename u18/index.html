@@ -375,6 +375,8 @@ nav.sections .myteam{margin-right:0}
 .seg button{min-height:40px;border:0;border-radius:999px;background:transparent;color:var(--fg-2);font:inherit;font-weight:600;font-size:14px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 10px}
 .seg button[aria-pressed=true]{background:var(--accent);color:var(--on-accent)}
 .others{display:flex;flex-direction:column;gap:10px}
+.owrap{display:flex;flex-direction:column;align-items:stretch}
+.orm{align-self:flex-end;background:none;border:0;color:var(--muted);font:inherit;font-size:13px;padding:6px 4px 0;cursor:pointer;text-decoration:underline}
 .oteam{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:12px 14px;text-decoration:none;color:var(--fg)}
 .oteam .ag{grid-row:span 2;font-family:var(--display);font-weight:800;font-size:20px;color:var(--fg);border:1px solid var(--line-2);border-radius:10px;padding:6px 8px;min-width:52px;text-align:center}
 .oteam .nm{font-weight:700;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -1680,9 +1682,15 @@ async function renderOthers() {
     const opp = nx ? (nx[2] === t ? nx[3] : nx[2]) : null;
     const sub = nx ? `${nx[0] === ddmm(new Date()) ? 'Today' : dayLabel(nx[0])} · ${nx[2] === t ? 'Home' : 'Away'} v ${esc(opp)}` : (sm && sm.pos ? `${ordinal(sm.pos)} in ${esc(sm.div)}` : 'No fixture listed yet');
     const ko = nx ? (nx[1] ? `<small>Kick-off</small>${esc(nx[1])}` : '<small>Kick-off</small>TBC') : '';
-    return `<a class="panel oteam" href="${ageHref(a)}?team=${slug(t)}"><span class="ag">${a}</span><span class="nm">${esc(t)}</span><span class="ko">${ko}</span><span class="nx">${sub}</span></a>`;
+    return `<div class="owrap"><a class="panel oteam" href="${ageHref(a)}?team=${slug(t)}"><span class="ag">${a}</span><span class="nm">${esc(t)}</span><span class="ko">${ko}</span><span class="nx">${sub}</span></a><button type="button" class="orm" data-rm="${a}" aria-label="Stop following ${esc(t)} (${a})">Remove</button></div>`;
   }).join('') + addBtn;
 }
+document.addEventListener('click', e => {
+  const rm = e.target.closest('[data-rm]'); if (!rm) return;
+  const a = rm.dataset.rm;
+  try { localStorage.removeItem(ageKey(a) + '-team'); if (localStorage.getItem('touchline-home') === a) localStorage.setItem('touchline-home', AGE); } catch (err) {}
+  track('remove-other/' + a); renderOthers(); renderAges();
+});
 document.addEventListener('click', e => { if (e.target.id === 'addteam') { const p = document.getElementById('agepick'); p.hidden = !p.hidden; } });
 
 function setTab(t) {
