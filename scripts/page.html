@@ -347,6 +347,10 @@ nav.sections .myteam{margin-right:0}
 @media (min-width:760px){ body{padding-bottom:110px} .tabbar{left:50%;right:auto;transform:translateX(-50%);width:520px;bottom:12px;border:1px solid var(--line);border-radius:18px;padding-bottom:4px} }
 .linkbtn{background:none;border:0;color:var(--fg-2);font:inherit;font-size:14px;font-weight:600;cursor:pointer;min-height:44px;padding:0 4px}
 .tlink{cursor:pointer}
+.next .teams .me{color:var(--accent)}
+/* latest result cards: one-line label so team rows line up across cards */
+.match .tag{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rounds{align-items:stretch}
 .tlink:focus-visible{outline:2px solid var(--accent)}
 .mini{overflow:hidden}
 .mini .mrow{display:grid;grid-template-columns:30px minmax(0,1fr) 34px 44px;align-items:center;gap:8px;padding:0 14px;min-height:48px;border-top:1px solid var(--line);font-size:14px;color:var(--fg)}
@@ -600,7 +604,7 @@ function renderToday() {
   sec.hidden = false;
   const now = new Date(), mins = s => { const [h, m] = s.split(':').map(Number); return h * 60 + m; };
   const nowM = now.getHours() * 60 + now.getMinutes();
-  document.getElementById('today-note').textContent = `${md.d.name} · from FA Full-Time · checked ${DATA.fetched}`;
+  document.getElementById('today-note').textContent = md.d.name;
   document.getElementById('today').innerHTML = md.items.map(g => {
     const m = g.h === mine || g.a === mine;
     let sc, st;
@@ -793,6 +797,7 @@ const dayLabel = s => { if (!dated(s)) return 'Date to be confirmed'; const d = 
 const initials = n => { const w = n.replace(/&/g, ' ').split(/\s+/).filter(Boolean); return (w.length > 1 ? w.slice(0, 3).map(x => x[0]).join('') : n.slice(0, 3)).toUpperCase(); };
 const crestCol = n => { const di = teamDiv[n]; return di === undefined ? '#8A94A0' : (DOTS[DATA.divisions[di].name.replace(/^U\d+ /, '')] || CUP_ACCENT); };
 const tlink = (n, inner) => n in teamDiv ? `<span class="tlink" data-team="${esc(n)}" role="button" tabindex="0">${inner === undefined ? esc(n) : inner}</span>` : (inner === undefined ? esc(n) : inner);
+const meLink = n => n === mine ? `<span class="me">${tlink(n)}</span>` : tlink(n);
 const crest = n => { const c = initials(n); return `<span class="crest" aria-hidden="true" style="--cc:${crestCol(n)}">${esc(c)}</span>`; };
 const gdTxt = g => g > 0 ? '+' + g : g < 0 ? '−' + Math.abs(g) : '0';
 const ordinal = n => { const s = ['th','st','nd','rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
@@ -877,7 +882,7 @@ function renderNext() {
       const [, h, a, hs, as] = done.r, gf = h === mine ? hs : as, ga = h === mine ? as : hs, res = gf > ga ? 'Won' : gf < ga ? 'Lost' : 'Drew';
       const nx = mineF.find(x => x.f[0] !== tk);
       el.innerHTML = `<div class="row">
-      <div class="teams">${esc(h)} v ${esc(a)}<small>Today · ${esc(done.comp)} · ${res}</small></div>
+      <div class="teams">${meLink(h)} v ${meLink(a)}<small>Today · ${esc(done.comp)} · ${res}</small></div>
       <div class="kowrap"><div class="eyebrow">Full time</div><div class="ko ft"><span class="${hs > as ? 'w' : hs < as ? 'l' : 'd'}">${hs}</span><span class="dash">–</span><span class="${as > hs ? 'w' : as < hs ? 'l' : 'd'}">${as}</span></div></div>
     </div>` + (nx ? `<div class="sub"><span>Next: ${esc(nx.f[2])} v ${esc(nx.f[3])}, ${dayLabel(nx.f[0])}${nx.f[1] ? ', ' + esc(nx.f[1]) : ''}</span></div>` : '');
       return;
@@ -889,7 +894,7 @@ function renderNext() {
   const pps = postponedFor(mine).filter(f => toDate(f[0]) <= toDate(date));
   const ppHtml = pps.map(f => `<div class="ppnote"><b>${esc(f[6])}:</b> ${esc(f[2])} v ${esc(f[3])}, ${dayLabel(f[0])}</div>`).join('');
   el.innerHTML = `<div class="row">
-      <div class="teams">${tlink(h)} v ${tlink(a)}<small>${date === ddmm(new Date()) ? 'Today' : dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
+      <div class="teams">${meLink(h)} v ${meLink(a)}<small>${date === ddmm(new Date()) ? 'Today' : dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
       <div class="kowrap"><div class="eyebrow">Kick-off</div><div class="ko ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'Time TBC'}</div></div>
     </div>
     <div class="sub">${venue ? `<span>${esc(venueName(venue))}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}${venue && parkingFor(venue) ? `<span class="parking">Parking: ${esc(parkingFor(venue))}</span>` : ''}<button type="button" class="sharebtn" data-share="preview">Share preview</button></div>${ppHtml}${stakeHtml(mineF[0] && { ...mineF[0], div: DATA.divisions.find(dd => dd.name === mineF[0].comp) || null })}${oppPreview(h === mine ? a : h)}`;
