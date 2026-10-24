@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cambridge City (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31030356@touchline-eja
+DTSTAMP:20261024T070230Z
+SUMMARY:Cambridge City v Godmanchester Rovers
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+LOCATION:Cambridge City Football Club\, Cambridge City Football Club West 
+ Way\, Sawston\, Cambridgeshire CB22 3FG
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030356
+END:VEVENT
+BEGIN:VEVENT
+UID:31093092@touchline-eja
+DTSTAMP:20261024T070230Z
+SUMMARY:Newmarket Town v Cambridge City
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093092
+END:VEVENT
+BEGIN:VEVENT
+UID:30932266@touchline-eja
+DTSTAMP:20261024T070230Z
+SUMMARY:Cockfosters v Cambridge City (League Cup)
+DTSTART;TZID=Europe/London:20261025T103000
+DTEND;TZID=Europe/London:20261025T121000
+LOCATION:Old Elizabethans Memorial Playing Fields\, Mays Lane\, Barnet EN5
+  2AG
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30932266
+END:VEVENT
+END:VCALENDAR

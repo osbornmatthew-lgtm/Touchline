@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CSM London (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30988118@touchline-eja
+DTSTAMP:20261024T070230Z
+SUMMARY:CSM London v Buckhurst Hill
+DTSTART;TZID=Europe/London:20261025T133000
+DTEND;TZID=Europe/London:20261025T151000
+LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
+ ham RM9 5PU
+DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30988118
+END:VEVENT
+BEGIN:VEVENT
+UID:31030373@touchline-eja
+DTSTAMP:20261024T070230Z
+SUMMARY:Hackney Wick v CSM London
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Mabley Green\, Mabley Green Sports Green Lee Conservancy Road\, H
+ ackney\, London E9 5RN
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030373
+END:VEVENT
+BEGIN:VEVENT
+UID:31093107@touchline-eja
+DTSTAMP:20261024T070230Z
+SUMMARY:Walthamstow v CSM London
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Wadham Lodge Sports Ground (Match Day Centres)\, Wadham Lodge Spo
+ rts Ground Brookscroft Road\, London E17 4JP
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093107
+END:VEVENT
+BEGIN:VEVENT
+UID:30892992@touchline-eja
+DTSTAMP:20261024T070230Z
+SUMMARY:Mildenhall Town v CSM London (League Cup)
+DTSTART;TZID=Europe/London:20261101T134500
+DTEND;TZID=Europe/London:20261101T152500
+LOCATION:Mildenhall Town FC\, Mildenhall Town FC Recreation Way\, Mildenha
+ ll\, Suffolk IP28 7HG
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30892992
+END:VEVENT
+END:VCALENDAR
