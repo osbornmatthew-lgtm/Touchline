@@ -643,7 +643,7 @@ def run(a):
                     meta_new['last_full'] = meta_new['last_check']
                 if not L.get('publish', True):
                     s['note'] = 'saved, not published yet (preview)'
-                elif changed or heartbeat or a.force:
+                elif changed or heartbeat or a.force or not last_pub:  # never published yet (e.g. a new age group): publish now
                     updated, fetched = label_updated(data, now), label_fetched(now)
                     site = build_site(L, data, updated, fetched, cfg, work)
                     to_publish.append((L, site))
