@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:St Neots Town (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31052595@touchline-eja-u14
+DTSTAMP:20261024T090725Z
+SUMMARY:Histon v St Neots Town
+DTSTART;TZID=Europe/London:20261025T130000
+DTEND;TZID=Europe/London:20261025T144000
+DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31052595
+END:VEVENT
+BEGIN:VEVENT
+UID:31002159@touchline-eja-u14
+DTSTAMP:20261024T090725Z
+SUMMARY:Downham Town v St Neots Town
+DTSTART;TZID=Europe/London:20261101T140000
+DTEND;TZID=Europe/London:20261101T154000
+DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31002159
+END:VEVENT
+BEGIN:VEVENT
+UID:31035012@touchline-eja-u14
+DTSTAMP:20261024T090725Z
+SUMMARY:St Neots Town v Soham Town Rangers
+DTSTART;TZID=Europe/London:20261108T100000
+DTEND;TZID=Europe/London:20261108T114000
+LOCATION:St Neots Town Football Club\, Rowley Park Kester Way\, St. Neots\
+ , Cambridgeshire PE19 6SL
+DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035012
+END:VEVENT
+BEGIN:VEVENT
+UID:31067507@touchline-eja-u14
+DTSTAMP:20261024T090725Z
+SUMMARY:Newmarket Town v St Neots Town
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31067507
+END:VEVENT
+BEGIN:VEVENT
+UID:30958367@touchline-eja-u14
+DTSTAMP:20261024T090725Z
+SUMMARY:St Neots Town v Real Bedford (Peter Cline Trophy)
+DTSTART;TZID=Europe/London:20261029T194500
+DTEND;TZID=Europe/London:20261029T212500
+LOCATION:St Neots Town Football Club\, Rowley Park Kester Way\, St. Neots\
+ , Cambridgeshire PE19 6SL
+DESCRIPTION:Peter Cline Trophy. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30958367
+END:VEVENT
+BEGIN:VEVENT
+UID:31087377@touchline-eja-u14
+DTSTAMP:20261024T090725Z
+SUMMARY:St Neots Town v St Ives Town (County Youth U14 Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:County Youth U14 Cup. Kick-off time not published yet. Check F
+ A Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31087377
+END:VEVENT
+END:VCALENDAR

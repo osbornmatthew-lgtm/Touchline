@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fakenham Town (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31029928@touchline-eja-u15
+DTSTAMP:20261024T090726Z
+SUMMARY:Needham Market v Fakenham Town
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31029928
+END:VEVENT
+BEGIN:VEVENT
+UID:30895110@touchline-eja-u15
+DTSTAMP:20261024T090726Z
+SUMMARY:Fakenham Town v Takeley (League Cup)
+DTSTART;TZID=Europe/London:20261101T110000
+DTEND;TZID=Europe/London:20261101T124000
+LOCATION:Daly Group Stadium (Fakenham Town FC)\, Clipbush Park Clipbush La
+ ne\, Fakenham\, Norfolk NR21 8SW
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30895110
+END:VEVENT
+BEGIN:VEVENT
+UID:31051867@touchline-eja-u15
+DTSTAMP:20261024T090726Z
+SUMMARY:Fakenham Town v Newmarket Town (Peter Peters Shield)
+DTSTART;TZID=Europe/London:20261118T194500
+DTEND;TZID=Europe/London:20261118T212500
+LOCATION:Daly Group Stadium (Fakenham Town FC)\, Clipbush Park Clipbush La
+ ne\, Fakenham\, Norfolk NR21 8SW
+DESCRIPTION:Peter Peters Shield. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31051867
+END:VEVENT
+END:VCALENDAR

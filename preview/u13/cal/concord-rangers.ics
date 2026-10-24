@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Concord Rangers (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31001951@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:May & Baker v Concord Rangers
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
+ ham RM9 5PU
+DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31001951
+END:VEVENT
+BEGIN:VEVENT
+UID:31035391@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Leigh Ramblers v Concord Rangers
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:The Len Forge Centre\, Eastwoodbury Lane\, Southend-On-Sea SS2 6U
+ H
+DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035391
+END:VEVENT
+BEGIN:VEVENT
+UID:31033867@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Risden Wood v Concord Rangers (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31033867
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wingate & Finchley (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30988241@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Wingate & Finchley v Welwyn Garden City U17
+DTSTART;TZID=Europe/London:20261025T100000
+DTEND;TZID=Europe/London:20261025T114000
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:U18 Blue league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30988241
+END:VEVENT
+BEGIN:VEVENT
+UID:31093152@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Wingate & Finchley v Edgware & Kingsbury
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093152
+END:VEVENT
+BEGIN:VEVENT
+UID:30863739@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Enfield Borough (Blue) v Wingate & Finchley
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Capital City College (Enfield Centre)\, 73 Hertford Road\, Enfiel
+ d EN3 5HA
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30863739
+END:VEVENT
+BEGIN:VEVENT
+UID:31018242@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Wingate & Finchley v Vallance (London Under 18 Boys Sunday Cup)
+DTSTART;TZID=Europe/London:20261101T101000
+DTEND;TZID=Europe/London:20261101T115000
+DESCRIPTION:London Under 18 Boys Sunday Cup. Check FA Full-Time for late c
+ hanges.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31018242
+END:VEVENT
+END:VCALENDAR

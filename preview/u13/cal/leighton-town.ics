@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Leighton Town (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30955019@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Baldock Town v Leighton Town
+DTSTART;TZID=Europe/London:20261025T140000
+DTEND;TZID=Europe/London:20261025T154000
+DESCRIPTION:U13 Brown league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30955019
+END:VEVENT
+BEGIN:VEVENT
+UID:31001833@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Leighton Town v Colney Heath
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U13 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31001833
+END:VEVENT
+BEGIN:VEVENT
+UID:31035273@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Colney Heath v Leighton Town
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
+ ham RM9 5PU
+DESCRIPTION:U13 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035273
+END:VEVENT
+BEGIN:VEVENT
+UID:31067411@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Leighton Town v Welwyn Garden City Development
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U13 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31067411
+END:VEVENT
+END:VCALENDAR

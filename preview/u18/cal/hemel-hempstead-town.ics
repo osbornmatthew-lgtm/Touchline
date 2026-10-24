@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hemel Hempstead Town (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31032023@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Enfield Town v Hemel Hempstead Town
+DTSTART;TZID=Europe/London:20261101T123000
+DTEND;TZID=Europe/London:20261101T141000
+DESCRIPTION:U18 Green league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31032023
+END:VEVENT
+BEGIN:VEVENT
+UID:31093276@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Hemel Hempstead Town v Hackney Wick U17
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
+ ordshire HP2 4HW
+DESCRIPTION:U18 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093276
+END:VEVENT
+BEGIN:VEVENT
+UID:31093585@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Hemel Hempstead Town v Takeley
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
+ ordshire HP2 4HW
+DESCRIPTION:U18 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093585
+END:VEVENT
+BEGIN:VEVENT
+UID:30960941@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Harpenden Town v Hemel Hempstead Town (Magnus Cup)
+DTSTART;TZID=Europe/London:20261030T200000
+DTEND;TZID=Europe/London:20261030T214000
+LOCATION:Harpenden Town Football Club\, Amenbury Lane\, Harpenden\, Hertfo
+ rdshire AL5 2EF
+DESCRIPTION:Magnus Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30960941
+END:VEVENT
+BEGIN:VEVENT
+UID:31036388@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Hemel Hempstead Town v BSC U17 Town (Hertfordshire FA U18 Boys Cha
+ llenge Cup)
+DTSTART;TZID=Europe/London:20261129T133000
+DTEND;TZID=Europe/London:20261129T151000
+DESCRIPTION:Hertfordshire FA U18 Boys Challenge Cup. Check FA Full-Time fo
+ r late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31036388
+END:VEVENT
+END:VCALENDAR

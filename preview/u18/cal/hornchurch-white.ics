@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hornchurch White (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30985947@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Redbridge Red v Hornchurch White
+DTSTART;TZID=Europe/London:20261025T141500
+DTEND;TZID=Europe/London:20261025T155500
+LOCATION:The TechSoc.com Stadium\, Station Road\, Barkingside\, Ilford IG6
+  1NB
+DESCRIPTION:U18 Red league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30985947
+END:VEVENT
+BEGIN:VEVENT
+UID:31032062@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Hornchurch White v Rayleigh Town Yellow
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31032062
+END:VEVENT
+BEGIN:VEVENT
+UID:31093284@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Tilbury Black v Hornchurch White
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:The Emr Stadium\, Chadfields\, Tilbury RM18 8NG
+DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093284
+END:VEVENT
+BEGIN:VEVENT
+UID:31093557@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Hornchurch White v Aveley Millers
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093557
+END:VEVENT
+BEGIN:VEVENT
+UID:30950504@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Barking v Hornchurch White (Magnus Cup)
+DTSTART;TZID=Europe/London:20261026T194500
+DTEND;TZID=Europe/London:20261026T212500
+LOCATION:Mayesbrook Park\, Lodge Avenue\, Dagenham RM8 2JA
+DESCRIPTION:Magnus Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30950504
+END:VEVENT
+BEGIN:VEVENT
+UID:30625586@touchline-eja-u18
+DTSTAMP:20261024T090726Z
+SUMMARY:Takeley v Hornchurch White (Essex Pelly U18 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:Essex Pelly U18 Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30625586
+END:VEVENT
+END:VCALENDAR

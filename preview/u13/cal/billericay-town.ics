@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Billericay Town (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30955089@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Billericay Town v Sudbury Sports
+DTSTART;TZID=Europe/London:20261025T100000
+DTEND;TZID=Europe/London:20261025T114000
+LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
+ Essex CM12 9SA
+DESCRIPTION:U13 Yellow league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30955089
+END:VEVENT
+BEGIN:VEVENT
+UID:31035380@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Bowers & Pitsea v Billericay Town
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
+ \, Basildon\, Essex SS13 2BE
+DESCRIPTION:U13 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035380
+END:VEVENT
+BEGIN:VEVENT
+UID:30901872@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Billericay Town v Heybridge Swifts (League Cup)
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
+ Essex CM12 9SA
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30901872
+END:VEVENT
+BEGIN:VEVENT
+UID:30954454@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Billericay Town v Bowers & Pitsea (Harrison Trophy)
+DTSTART;TZID=Europe/London:20261030T194500
+DTEND;TZID=Europe/London:20261030T212500
+LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
+ Essex CM12 9SA
+DESCRIPTION:Harrison Trophy. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30954454
+END:VEVENT
+BEGIN:VEVENT
+UID:31034410@touchline-eja-u13
+DTSTAMP:20261024T090725Z
+SUMMARY:Billericay Town v Billericay Town (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Billericay Town Colts (Dunton Road)\, Dunton Road\, Billericay\, 
+ Essex CM13 3SH
+DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31034410
+END:VEVENT
+END:VCALENDAR
