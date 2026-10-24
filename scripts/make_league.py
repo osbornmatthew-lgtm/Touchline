@@ -98,7 +98,7 @@ def reconcile(data):
     return data
 
 
-def make_page(L, data, updated, fetched, t, site_base='https://osbornmatthew-lgtm.github.io/Touchline/'):
+def make_page(L, data, updated, fetched, t, site_base='https://touchline-eja.netlify.app/'):
     def rep(a, b, n=1):
         nonlocal t
         assert t.count(a) == n, (a[:60], t.count(a))
@@ -115,7 +115,7 @@ def make_page(L, data, updated, fetched, t, site_base='https://osbornmatthew-lgt
         rep('Eastern Junior Alliance · Under 16 · 2026–27', B['eyebrow'])
         rep('Eastern Junior Alliance · Under 16</div>', B['eyebrow2'] + '</div>')
         rep("const BRAND = { code: 'EJA', bar: '#C9F24A' };", f"const BRAND = {{ code: '{L['code']}', bar: '{B['bar']}' }};")
-        rep("const SITE = 'osbornmatthew-lgtm.github.io/Touchline';", f"const SITE = '{site}';")
+        rep("const SITE = 'touchline-eja.netlify.app';", f"const SITE = '{site}';")
         t = re.sub(r'^const VENUES = .*;$', lambda _: 'const VENUES = ' + json.dumps(B.get('venues', {})) + ';', t, count=1, flags=re.M)
         t = re.sub(r'^const SPONSORS = .*;$', lambda _: 'const SPONSORS = ' + json.dumps(B.get('sponsors', {})) + ';', t, count=1, flags=re.M)
         t = re.sub(r"^(const DOTS = \{.*?)( \};)$", lambda mm: mm.group(1) + ''.join(f", '{k}':'{v}'" for k, v in B.get('dots', {}).items()) + mm.group(2), t, count=1, flags=re.M)

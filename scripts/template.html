@@ -531,7 +531,7 @@ async function drawCard(kind) {
   x.fillStyle = '#9AA4B0'; x.font = `500 26px ${B}`; x.fillText('From FA Full-Time · ' + (DATA.fetched || ''), 72, H - 50);
   return c;
 }
-const SITE = 'osbornmatthew-lgtm.github.io/Touchline';
+const SITE = 'touchline-eja.netlify.app';
 // Sharing needs the public site (the Claude preview blocks it), so hide the buttons elsewhere.
 if (location.hostname !== SITE.split('/')[0]) document.documentElement.classList.add('noshare');
 document.addEventListener('click', async e => {
