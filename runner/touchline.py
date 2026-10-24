@@ -530,6 +530,19 @@ def acquire_lock():
 
 def cmd_run(a):
     global LOGFILE
+    # Take the latest code first and, if it changed, restart on it: a fix pushed from anywhere then applies to this run,
+    # not the next one (Python has already loaded the old code by the time run() pulls).
+    if not a.no_pull and not a.dry_run:
+        try:
+            before = git('rev-parse', 'HEAD', check=False)
+            self_update()
+            if git('rev-parse', 'HEAD', check=False) != before:
+                print('Updated to the latest code; restarting on it.')
+                sys.stdout.flush()
+                r = subprocess.run([sys.executable] + sys.argv + ['--no-pull'])
+                return r.returncode
+        except Exception as e:
+            print(f'could not pull the latest from GitHub ({e}); carrying on with what is here')
     lock = acquire_lock()
     if not lock:
         print('Another run is still going, so this one is skipped.')
