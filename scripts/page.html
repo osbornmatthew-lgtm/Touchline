@@ -1013,12 +1013,15 @@ function renderLatest(results, cups) {
   const scored = results.filter(r => r[3] !== null && r[3] !== undefined).map(r => [r[0], r[1], r[2], r[3], r[4], r[5] || '', null]).concat(cups || []);
   const el = document.getElementById('latest');
   if (!scored.length) { el.innerHTML = ''; return; }
-  const [date, games] = groupByDate(scored, false)[0];
-  document.getElementById('latest-date').textContent = dayLabel(date);
+  // The last 7 days of results (league and cup), newest first, each card with its own date
+  const newest = Math.max(...scored.filter(r => dated(r[0])).map(r => +toDate(r[0])));
+  const games = scored.filter(r => dated(r[0]) && newest - toDate(r[0]) <= 6 * 864e5)
+    .sort((x, y) => toDate(y[0]) - toDate(x[0]) || (x[6] ? 1 : 0) - (y[6] ? 1 : 0));
+  document.getElementById('latest-date').textContent = '';
   const cl = (x, y) => x > y ? 'won' : x < y ? 'lost' : '';
-  const tag = (comp, note) => { const pens = String(note || '').split(',').map(x => x.trim()).filter(x => /^pens/i.test(x)); return comp ? esc(comp) + (pens.length ? ' · ' + esc(pens[0]) : '') : 'Full time'; };
-  games.sort((x, y) => (x[6] ? 1 : 0) - (y[6] ? 1 : 0));
-  el.innerHTML = games.map(([, h, a, hs, as, note, comp]) => `<article class="panel match ${h === mine || a === mine ? 'mine' : ''}"><div class="tag">${tag(comp, note)}</div>
+  const short = d => { const t = toDate(d); return `${DAYS[t.getDay()].slice(0, 3)} ${t.getDate()} ${MONTHS[t.getMonth()].slice(0, 3)}`; };
+  const tag = (date, comp, note) => { const pens = String(note || '').split(',').map(x => x.trim()).filter(x => /^pens/i.test(x)); return short(date) + ' · ' + (comp ? esc(comp) : 'League') + (pens.length ? ' · ' + esc(pens[0]) : ''); };
+  el.innerHTML = games.map(([date, h, a, hs, as, note, comp]) => `<article class="panel match ${h === mine || a === mine ? 'mine' : ''}"><div class="tag">${tag(date, comp, note)}</div>
     <div class="line ${cl(hs, as)}"><span>${tlink(h)}</span><span class="sc">${hs}</span></div>
     <div class="line ${cl(as, hs)}"><span>${tlink(a)}</span><span class="sc">${as}</span></div></article>`).join('');
 }
