@@ -45,6 +45,59 @@ def cohort_history(age):
     return out
 
 
+STOP = {'fc', 'youth', 'u17', 'u18', '18s', 'the', 'and', 'alliance', 'academy', 'development'}
+
+
+def tidy(n):
+    """Clean up untidy Full-Time names: "Bedford Town FC (Youth Development )U18", "St Neots Town St Neots Town"."""
+    n = re.sub(r'\s*\(\s*Youth(?: Development)?\s*\)\s*(?:U1[78]\b)?', ' ', n).strip()
+    w = n.split()
+    for k in range(len(w) // 2, 0, -1):
+        if w[:k] == w[k:2 * k]:
+            w = w[k:]; break
+    while len(w) > 1 and w[-1].upper() in ('FC', 'F.C.'):
+        w = w[:-1]
+    return ' '.join(w)
+
+
+def reconcile(data):
+    """Make results, fixtures and cups use the same names as the league tables (Full-Time sometimes spells a team
+    differently on its results pages). A name maps to the table name it shares most words with, if clearly the best."""
+    toks = lambda n: {t for t in re.findall(r'[a-z0-9]+', n.lower()) if t not in STOP}
+    for d in data.get('divisions', []):
+        for t in d['teams']:
+            t[0] = tidy(t[0])
+    table = [t[0] for d in data.get('divisions', []) for t in d['teams']]
+    cache = {}
+    def fix(n, pool):
+        if n is None or n in table:
+            return n
+        key = (n, id(pool))
+        if key not in cache:
+            tn, best, second, pick = toks(tidy(n)), 0, 0, tidy(n)
+            for c in pool:
+                tc = toks(c)
+                sc = len(tn & tc) / len(tn | tc) if tn | tc else 0
+                if sc > best:
+                    best, second, pick = sc, best, c
+                elif sc > second:
+                    second = sc
+            cache[key] = pick if best >= 0.5 and best > second else tidy(n)
+        return cache[key]
+    for d in data.get('divisions', []):
+        own = [t[0] for t in d['teams']]
+        for r in d['results']:
+            r[1], r[2] = fix(r[1], own), fix(r[2], own)
+        for f in d['fixtures']:
+            f[2], f[3] = fix(f[2], own), fix(f[3], own)
+    for c in data.get('cups', []):
+        for r in c['results']:
+            r[1], r[2] = fix(r[1], table), fix(r[2], table)
+        for f in c['fixtures']:
+            f[2], f[3] = fix(f[2], table), fix(f[3], table)
+    return data
+
+
 def make_page(L, data, updated, fetched, t, site_base='https://osbornmatthew-lgtm.github.io/Touchline/'):
     def rep(a, b, n=1):
         nonlocal t
@@ -72,6 +125,8 @@ def make_page(L, data, updated, fetched, t, site_base='https://osbornmatthew-lgt
         t, n = re.subn(r"^const AGE = '.*';$", f"const AGE = '{L['age']}';", t, count=1, flags=re.M)
         t = re.sub(r"^const SITE = '.*';$", f"const SITE = '{site}';", t, count=1, flags=re.M)
         t = re.sub(r'^const HIST = .*;$', lambda _: 'const HIST = ' + json.dumps(cohort_history(L['age']), separators=(',', ':'), ensure_ascii=False) + ';', t, count=1, flags=re.M)
+    if L.get('template') == 'native':
+        data = reconcile(json.loads(json.dumps(data)))
     data = {**data, 'cups': [c for c in data.get('cups', []) if c.get('county') or c.get('results') or c.get('fixtures')]}  # drop empty cups
     t, n = re.subn(r'^const DATA = .*;$', lambda _: 'const DATA = ' + json.dumps(data, separators=(',', ':'), ensure_ascii=False) + ';', t, count=1, flags=re.M)
     assert n == 1, 'const DATA line not found in the page'

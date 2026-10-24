@@ -1217,13 +1217,14 @@ function allGames(name) {
 }
 const tally = gs => { const w = gs.filter(g => g.res === 'W').length, d = gs.filter(g => g.res === 'D').length, l = gs.filter(g => g.res === 'L').length;
   return { n: gs.length, w, d, l, gf: gs.reduce((s, g) => s + g.gf, 0), ga: gs.reduce((s, g) => s + g.ga, 0), pts: w * 3 + d }; };
-const sinceAge = () => HIST.length ? HIST[HIST.length - 1].age : AGE;
+// The first age group this team appears in (they may not have had a team in every past season)
+const sinceAge = name => { const ages = allGames(name).map(g => g.age); return ages.length ? ages.sort()[0] : AGE; };
 function h2h(name, opp) { return allGames(name).filter(g => g.opp === opp); }
 function h2hHtml(name, opp) {
   const gs = h2h(name, opp); if (gs.length < 2) return '';
   const t = tally(gs), older = gs.some(g => g.season !== '2026-27');
   const line = g => `<li><span class="rp ${g.res}">${g.res}</span><span>${g.home ? `${esc(name)} ${g.hs}–${g.as} ${esc(opp)}` : `${esc(opp)} ${g.hs}–${g.as} ${esc(name)}`}</span><span class="rc">${g.age} · ${shortMonth(g.d)}</span></li>`;
-  return `<div class="h2h"><div>Head to head${older ? ' since ' + sinceAge() : ''}: <b>P${t.n} W${t.w} D${t.d} L${t.l}</b> · goals ${t.gf}–${t.ga}</div><ul class="h2hl">${gs.slice(0, 5).map(line).join('')}</ul></div>`;
+  return `<div class="h2h"><div>Head to head${older ? ' since ' + sinceAge(name) : ''}: <b>P${t.n} W${t.w} D${t.d} L${t.l}</b> · goals ${t.gf}–${t.ga}</div><ul class="h2hl">${gs.slice(0, 5).map(line).join('')}</ul></div>`;
 }
 // Where this team finished in each past season, oldest first
 function journey(name) {
@@ -1242,7 +1243,7 @@ function samePoint(name, n) {
 function historyTiles(name, s) {
   const out = [], all = allGames(name), t = tally(all), sp = samePoint(name, s.all.n);
   if (sp) { const diff = s.all.p - sp.pts; out.push(['This season v last', `${s.all.p} v ${sp.pts}`, `points after ${s.all.n} league games · ${diff > 0 ? diff + ' up on' : diff < 0 ? -diff + ' down on' : 'level with'} last season (${sp.age})`]); }
-  if (all.some(g => g.season !== '2026-27') && t.n >= 5) out.push([`Since ${sinceAge()}`, `W${t.w} D${t.d} L${t.l}`, `${t.n} games, all competitions · goals ${t.gf}–${t.ga}`]);
+  if (all.some(g => g.season !== '2026-27') && t.n >= 5) out.push([`Since ${sinceAge(name)}`, `W${t.w} D${t.d} L${t.l}`, `${t.n} games, all competitions · goals ${t.gf}–${t.ga}`]);
   return out;
 }
 function historyKv(name) {
@@ -1255,7 +1256,7 @@ function historyKv(name) {
     if (best.o !== worst.o) { out.push(`<li><b>Best record against</b>${esc(best.o)} · W${best.t.w} D${best.t.d} L${best.t.l}</li>`); out.push(`<li><b>Toughest opponent</b>${esc(worst.o)} · W${worst.t.w} D${worst.t.d} L${worst.t.l}</li>`); }
   }
   const big = all.filter(g => g.res === 'W').sort((a, b) => (b.gf - b.ga) - (a.gf - a.ga) || b.gf - a.gf)[0];
-  if (big) out.push(`<li><b>Biggest win since ${sinceAge()}</b>${big.home ? SCORE(name, big.opp, big.gf, big.ga) : SCORE(big.opp, name, big.ga, big.gf)} · ${big.age}, ${shortMonth(big.d)}</li>`);
+  if (big) out.push(`<li><b>Biggest win since ${sinceAge(name)}</b>${big.home ? SCORE(name, big.opp, big.gf, big.ga) : SCORE(big.opp, name, big.ga, big.gf)} · ${big.age}, ${shortMonth(big.d)}</li>`);
   let run = 0, best = 0; all.slice().reverse().forEach(g => { run = g.res === 'L' ? 0 : run + 1; best = Math.max(best, run); });
   if (best >= 4) out.push(`<li><b>Longest unbeaten run</b>${best} games</li>`);
   return out;
@@ -1483,7 +1484,7 @@ function roundup(i) {
   // Upset: winner was well below the loser in the table before this round
   const before = {};
   d.teams.forEach((x, k) => before[x[0]] = { pts: x[7], base: k });
-  games.forEach(r => { const w = winner(r); if (w) before[w].pts -= 3; else { before[r[1]] && (before[r[1]].pts -= 1); before[r[2]] && (before[r[2]].pts -= 1); } });
+  games.forEach(r => { const w = winner(r); if (w) { if (before[w]) before[w].pts -= 3; } else { before[r[1]] && (before[r[1]].pts -= 1); before[r[2]] && (before[r[2]].pts -= 1); } });
   const order = Object.keys(before).sort((a, b) => before[b].pts - before[a].pts || before[a].base - before[b].base);
   const pos = n => order.indexOf(n) + 1;
   const ups = games.filter(r => winner(r)).map(r => { const w = winner(r), l = w === r[1] ? r[2] : r[1]; return { r, w, l, gap: pos(w) - pos(l) }; })
