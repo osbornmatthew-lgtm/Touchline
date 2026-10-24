@@ -65,6 +65,33 @@ for src_name, name in [('app-icon-512.png', 'icon-512.png'), ('app-icon-192.png'
 def _manifest(start):
     return {"name": NAME, "short_name": NAME, "id": "./", "start_url": start, "scope": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}
 json.dump(_manifest("./"), open(os.path.join(out, 'manifest.json'), 'w', encoding='utf-8', newline=''))
+# summary.json: each team's next fixtures, last result and position, for "My other teams" on another age group's page
+_m = re.search(r'^const DATA = (.*);$', src, re.M)
+if _m:
+    try:
+        _d = json.loads(_m.group(1))
+        _now = datetime.now(); _sy = _now.year if _now.month >= 7 else _now.year - 1
+        def _day(s):
+            if not re.match(r'^\d\d/\d\d$', str(s or '')): return datetime(_sy + 1, 7, 31)
+            dd, mm = int(s[:2]), int(s[3:5]); return datetime(_sy + (1 if mm < 7 else 0), mm, dd)
+        _today = datetime(_now.year, _now.month, _now.day)
+        _sum = {}
+        for d in _d.get('divisions', []):
+            for i, t in enumerate(d.get('teams', [])):
+                _sum[t[0]] = {'div': d['name'], 'pos': i + 1, 'pts': t[7], 'next': [], 'last': None}
+        _fx = [(f, d['name']) for d in _d.get('divisions', []) for f in d.get('fixtures', [])] + [(f, (f[7] if c.get('county') and len(f) > 7 else c['name'])) for c in _d.get('cups', []) for f in c.get('fixtures', [])]
+        for f, comp in sorted(_fx, key=lambda x: (_day(x[0][0]), x[0][1] or '99')):
+            if f[6] or _day(f[0]) < _today - timedelta(days=1): continue
+            for side in (f[2], f[3]):
+                if side in _sum and len(_sum[side]['next']) < 3: _sum[side]['next'].append([f[0], f[1], f[2], f[3], f[4], comp])
+        _rs = [(r, d['name']) for d in _d.get('divisions', []) for r in d.get('results', [])] + [(r, c['name']) for c in _d.get('cups', []) for r in c.get('results', [])]
+        for r, comp in sorted(_rs, key=lambda x: _day(x[0][0])):
+            if r[3] is None: continue
+            for side in (r[1], r[2]):
+                if side in _sum: _sum[side]['last'] = [r[0], r[1], r[2], r[3], r[4], comp]
+        json.dump({'updated': _now.isoformat(timespec='minutes'), 'teams': _sum}, open(os.path.join(out, 'summary.json'), 'w', encoding='utf-8', newline=''), ensure_ascii=False, separators=(',', ':'))
+    except ValueError:
+        pass
 # One manifest per team, so "Add to Home Screen" opens on that team (the page points at manifest-<team>.json once a team is picked).
 _m = re.search(r'^const DATA = (.*);$', src, re.M)
 if _m:

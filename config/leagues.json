@@ -47,7 +47,12 @@
       ],
       "cups": [
         ["League Cup", "League Cup U16", ""],
-        ["RT Litho Cup", "RT litho", "i"]
+        ["RT Litho Cup", "RT litho", "i"],
+        ["Harrison Trophy", "Harrison Trophy", ""],
+        ["Magnus Cup", "Magnus Cup", ""],
+        ["Peter Cline Trophy", "Peter Cline", ""],
+        ["Peter Peters Shield", "Peter Peters", ""],
+        ["Chairman's Cup", "Chairmans Cup", ""]
       ],
       "desc": "EJA Under 16 league tables, results, fixtures and stats.",
       "template": "native",
@@ -81,7 +86,7 @@
       "desc": "EJA Under 13 league tables, results, fixtures and stats.",
       "template": "native",
       "assets": "",
-      "publish": false,
+      "publish": true,
       "events": false
     },
     {
@@ -114,7 +119,7 @@
       "desc": "EJA Under 14 league tables, results, fixtures and stats.",
       "template": "native",
       "assets": "",
-      "publish": false,
+      "publish": true,
       "events": false
     },
     {
@@ -146,7 +151,7 @@
       "desc": "EJA Under 15 league tables, results, fixtures and stats.",
       "template": "native",
       "assets": "",
-      "publish": false,
+      "publish": true,
       "events": false
     },
     {
@@ -179,7 +184,7 @@
       "assets": "",
       "clean": "u18",
       "age_match": "U1[78]",
-      "publish": false,
+      "publish": true,
       "events": false
     },
     {
