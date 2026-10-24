@@ -63,8 +63,13 @@ for src_name, name in [('app-icon-512.png', 'icon-512.png'), ('app-icon-192.png'
     else:
         urllib.request.urlretrieve(ASSETS + src_name, dest)
 def _manifest(start):
-    return {"name": NAME, "short_name": NAME, "id": "./", "start_url": start, "scope": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}
-json.dump(_manifest("./"), open(os.path.join(out, 'manifest.json'), 'w', encoding='utf-8', newline=''))
+    # No start_url in the general manifest: the home-screen icon then opens the address it was saved from,
+    # which carries ?team=... (iPhones read the manifest once at page load, before the page switches it to the team's own).
+    m = {"name": NAME, "short_name": NAME, "id": "./", "start_url": start, "scope": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}
+    if start is None:
+        del m['start_url']
+    return m
+json.dump(_manifest(None), open(os.path.join(out, 'manifest.json'), 'w', encoding='utf-8', newline=''))
 # summary.json: each team's next fixtures, last result and position, for "My other teams" on another age group's page
 _m = re.search(r'^const DATA = (.*);$', src, re.M)
 if _m:

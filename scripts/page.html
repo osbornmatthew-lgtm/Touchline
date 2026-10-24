@@ -550,7 +550,8 @@ button.jstep.on,button.jstep:hover{border-color:var(--accent)}
   <div class="welcome-panel">
     <div class="eyebrow" id="welcome-eyebrow">Eastern Junior Alliance · Under 16</div>
     <h2 id="welcome-h">Who do you follow?</h2>
-    <p>Pick your team and Touchline puts their next match, kick-off time, directions and stats first. You can change it any time.</p>
+    <div class="ages" id="welcome-ages" aria-label="Age group"></div>
+    <p>Choose the age group, then your team. Touchline puts their next match, kick-off time, directions and stats first. You can change it any time.</p>
     <label for="welcome-pick" class="sr">Your team</label>
     <select id="welcome-pick"></select>
     <button type="button" id="welcome-go" disabled>Show me my team</button>
@@ -1794,6 +1795,7 @@ sel.addEventListener('change', () => setTeam(sel.value));
 const welcome = document.getElementById('welcome');
 const wsel = document.getElementById('welcome-pick');
 function openWelcome() {
+  document.getElementById('welcome-ages').innerHTML = AGES.map(a => `<a href="${a === AGE ? '#' : ageHref(a) + '?pick=1'}" class="${a === AGE ? 'on' : ''}"${a === AGE ? ' aria-current="page"' : ''}>${a}</a>`).join('');
   wsel.innerHTML = '<option value="" selected disabled>Choose your team</option>' + teamsAZ().map(n => `<option>${esc(n)}</option>`).join('');
   if (mine) wsel.value = mine;
   document.getElementById('welcome-go').disabled = !wsel.value;
@@ -1807,6 +1809,7 @@ function closeWelcome(browsing) {
 document.getElementById('welcome-go').addEventListener('click', () => { if (wsel.value) { if (!document.getElementById('sheet').hidden) closeTeam(); setTeam(wsel.value); closeWelcome(false); } else wsel.focus(); });
 wsel.addEventListener('change', () => { document.getElementById('welcome-go').disabled = !wsel.value; });
 document.getElementById('welcome-skip').addEventListener('click', () => closeWelcome(true));
+document.getElementById('welcome-ages').addEventListener('click', e => { const l = e.target.closest('a.on'); if (l) e.preventDefault(); });
 document.addEventListener('click', e => { if (e.target.closest('[data-pick]')) { e.preventDefault(); openWelcome(); } });
 renderFresh();
 offlineNote();
