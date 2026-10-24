@@ -381,7 +381,7 @@ class FullTime:
 # ---------------------------------------------------------------------------------------------------- build and publish
 
 def build_site(L, data, updated, fetched, cfg, workdir):
-    tpl = (ROOT / 'scripts' / 'page.html').read_text(encoding='utf-8')
+    tpl = (ROOT / 'scripts' / L.get('page', 'page.html')).read_text(encoding='utf-8')  # a league can stay on an older design
     page = workdir / f'{L["id"]}' / 'page.html'
     page.parent.mkdir(parents=True, exist_ok=True)
     page.write_text(make_page(L, data, updated, fetched, tpl, cfg['site_base']), encoding='utf-8', newline='')

@@ -306,6 +306,13 @@ body:not([data-tab=home]) #title{font-size:40px}
 body:not([data-tab=home]) #updated > span:not(.fresh){display:none}
 body:not([data-tab=home]) main{gap:20px}
 #fixtures .sec-head,#res-h{display:none}
+/* division colour as structure, not glow */
+nav.sections .myteam[style]{border-color:var(--tc);background:color-mix(in srgb, var(--tc) 12%, transparent)}
+#ru .stat,#quirky .stat{border-left:3px solid var(--accent)}
+#ru .stat .num,#quirky .stat .num{color:var(--accent)}
+#ru .stat .eyebrow,#quirky .stat .eyebrow{color:color-mix(in srgb, var(--accent) 70%, var(--fg-2))}
+#ru .stat.mine,#quirky .stat.mine{background:var(--mine);border-color:var(--accent)}
+#ru-h::after,#tp-h::after,#mini-h::after,body:not([data-tab=home]) #title::after{content:'';display:block;width:40px;height:4px;border-radius:2px;background:var(--accent);margin-top:8px}
 /* stage 3: proper buttons, crests on the division colour */
 .next .maps{gap:8px}
 .next .maps a{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border-radius:999px;border:1px solid var(--accent);color:var(--fg);text-decoration:none;font-weight:600}
@@ -1155,7 +1162,8 @@ function talkingPoints(i) {
     cards.splice(2, 0, ['Best attack', att.name, (att.gf / att.p).toFixed(1), 'goals scored per game'], ['Best defence', def.name, (def.ga / def.p).toFixed(1), 'goals conceded per game']);
   }
   const ru = roundup(i), dup = new Set((ru ? ru.items : []).map(x => x.team + '|' + x.v));
-  return cards.filter(c => !dup.has(c[1] + '|' + c[2]));
+  const ruText = (ru ? ru.items : []).map(x => x.sub + ' ' + x.team).join(' ');
+  return cards.filter(c => !dup.has(c[1] + '|' + c[2]) && !(c[0] === 'Goal fest' && c[1].split(' v ').every(t => ruText.includes(t))));
 }
 
 function renderTalkingPoints() {
@@ -1166,7 +1174,8 @@ function renderTalkingPoints() {
     const target = link || team;
     const clickable = target in teamDiv;
     const inner = `<div class="eyebrow">${esc(label)}</div><div class="v"><span class="club">${esc(team)}</span><span class="num">${esc(value)}</span></div><div class="sub">${esc(sub)}</div>`;
-    return clickable ? `<button type="button" class="panel stat tp" data-team="${esc(target)}">${inner}</button>` : `<div class="panel stat">${inner}</div>`;
+    const me = mine && (target === mine || String(team).includes(mine)) ? ' mine' : '';
+    return clickable ? `<button type="button" class="panel stat tp${me}" data-team="${esc(target)}">${inner}</button>` : `<div class="panel stat${me}">${inner}</div>`;
   }).join('');
 }
 
@@ -1364,7 +1373,8 @@ function renderRoundup() {
   document.getElementById('ru').innerHTML = ru.items.map(({ k, team, v, sub, link }) => {
     const target = link || team, clickable = target in teamDiv;
     const inner = `<div class="eyebrow">${esc(k)}</div><div class="v"><span class="club">${esc(team)}</span><span class="num">${esc(v)}</span></div><div class="sub">${esc(sub)}</div>`;
-    return clickable ? `<button type="button" class="panel stat tp" data-team="${esc(target)}">${inner}</button>` : `<div class="panel stat">${inner}</div>`;
+    const me = mine && (target === mine || String(team).includes(mine)) ? ' mine' : '';
+    return clickable ? `<button type="button" class="panel stat tp${me}" data-team="${esc(target)}">${inner}</button>` : `<div class="panel stat${me}">${inner}</div>`;
   }).join('');
 }
 
@@ -1414,7 +1424,7 @@ function renderView() {
   document.getElementById('cup-alive').hidden = !isCup || county;
   document.getElementById('title').textContent = comp.name;
   track('view/' + slug(comp.name), comp.name);
-  const myTeam = mine ? `<button type="button" class="myteam" data-team="${esc(mine)}" data-track="my-team" aria-label="My team: ${esc(mine)}">${crest(mine)}My team</button>` : '<button type="button" class="myteam pick" data-pick>Pick your team</button>';
+  const myTeam = mine ? `<button type="button" class="myteam" style="--tc:${crestCol(mine)}" data-team="${esc(mine)}" data-track="my-team" aria-label="My team: ${esc(mine)}">${crest(mine)}My team</button>` : '<button type="button" class="myteam pick" data-pick>Pick your team</button>';
   document.getElementById('secnav').innerHTML = myTeam;
   if (isCup) { if (!county) renderCup(comp); }
   else { renderLatest(comp.results, cupResultsFor(view)); renderPicks(); renderTable(); }
@@ -1478,7 +1488,6 @@ function renderTips() {
       : ios ? `<div>Tap <b>Share</b>, then <b>Add to Home Screen</b>.</div>` : `<div>Open the browser menu, then <b>Add to Home screen</b>.</div>`;
     out.push(`<div class="panel tip"><div class="tip-h">Add Touchline to your home screen</div><div>It opens straight on ${esc(mine)}.</div>${how}<button type="button" class="x" data-tipx="home" aria-label="Hide">×</button></div>`);
   }
-  if (!off('test')) out.push(`<div class="panel tip"><div class="tip-h">Touchline is in testing</div><div>Unofficial, not run by the ${esc(BRAND.code)} or the FA. Something wrong, or an idea? <a href="${feedbackHref()}" data-track="feedback">Send feedback</a></div><button type="button" class="x" data-tipx="test" aria-label="Hide">×</button></div>`);
   el.innerHTML = out.join('');
   const fa = document.getElementById('foot-about');
   if (fa) fa.innerHTML = `Touchline is unofficial. It is not run by the ${esc(BRAND.code)} or the FA. Results appear once clubs enter them on Full-Time. <a href="${feedbackHref()}" data-track="feedback">Send feedback</a>`;

@@ -52,6 +52,7 @@
     },
     {
       "id": "bcfa",
+      "page": "page-classic.html",
       "enabled": true,
       "code": "BCFA",
       "folder": "bcfa",
