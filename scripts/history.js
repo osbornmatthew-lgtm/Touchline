@@ -8,12 +8,19 @@ const SEASONS = HC.SEASONS || [['239620789', '2025-26'], ['392615098', '2024-25'
 const P = h => new DOMParser().parseFromString(h, 'text/html');
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 let requests = 0;
+const T0 = Date.now(), DEADLINE = HC.DEADLINE_MS || 20 * 60000;
+// Each request gives up after 30 seconds; three tries; the whole fetch stops after DEADLINE.
 const get = async u => {
   for (let i = 0; ; i++) {
-    const r = await fetch(u, { credentials: 'same-origin' }); requests++;
-    if (r.ok) { await sleep(500 + Math.random() * 700); return P(await r.text()); }
-    if (i >= 2 || r.status === 404) throw new Error(`HTTP ${r.status} on ${u}`);
-    await sleep(r.status === 403 ? 60000 : 10000);
+    if (Date.now() - T0 > DEADLINE) throw new Error(`gave up after ${Math.round(DEADLINE / 60000)} minutes (${requests} requests)`);
+    let status = 'no answer';
+    const ac = new AbortController(), t = setTimeout(() => ac.abort(), 30000);
+    try {
+      const r = await fetch(u, { credentials: 'same-origin', signal: ac.signal }); requests++; status = r.status;
+      if (r.ok) { const h = await r.text(); clearTimeout(t); await sleep(400 + Math.random() * 600); return P(h); }
+    } catch (e) { status = 'no answer'; } finally { clearTimeout(t); }
+    if (i >= 2 || status === 404) throw new Error(`HTTP ${status} on ${u.split('?')[0]}`);
+    await sleep(status === 403 ? 60000 : status === 429 ? 20000 : 5000);
   }
 };
 const txt = e => e ? e.innerText.replace(/\s+/g, ' ').trim() : '';
