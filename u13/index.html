@@ -194,9 +194,9 @@ button.stat:hover{border-color:var(--accent)}
 .linkish{background:none;border:0;color:var(--muted);font:inherit;text-decoration:underline;cursor:pointer;padding:4px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .pickbtn{padding:9px 16px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer}
-#sheet{position:fixed;inset:0 0 calc(63px + env(safe-area-inset-bottom,0px)) 0;z-index:20;background:rgba(5,7,10,.72);display:flex;justify-content:center;align-items:flex-end}
+#sheet{position:fixed;inset:0 0 calc(63px + env(safe-area-inset-bottom,0px)) 0;padding-top:calc(env(safe-area-inset-top,0px) + 12px);box-sizing:border-box;z-index:20;background:rgba(5,7,10,.72);display:flex;justify-content:center;align-items:flex-end}
 #sheet[hidden]{display:none!important}
-.sheet-panel{background:var(--bg);border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0;width:100%;max-width:760px;max-height:calc(100% - 20px);overflow-y:auto;position:relative;padding:20px 16px calc(28px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 40px rgba(0,0,0,.5)}
+.sheet-panel{background:var(--bg);border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0;width:100%;max-width:760px;max-height:100%;overflow-y:auto;position:relative;padding:20px 16px calc(28px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 40px rgba(0,0,0,.5)}
 .sheet-close{position:sticky;top:0;float:right;width:44px;height:44px;border-radius:50%;border:1px solid var(--line-2);background:var(--panel);color:var(--fg);font-size:22px;line-height:1;cursor:pointer;z-index:2}
 .sheet-body{display:flex;flex-direction:column;gap:22px}
 .sh-head{display:flex;flex-direction:column;gap:12px;padding-right:52px}
@@ -1504,8 +1504,9 @@ function openTeam(name) {
     ${vsHtml}
     <section><h3>All results</h3><ul class="list">${resHtml || '<li class="fine">No results yet</li>'}</ul></section>`;
   sh.hidden = false;
+  sh.querySelector('.sheet-panel').scrollTop = 0;
   document.body.style.overflow = 'hidden';
-  sh.querySelector('.sheet-close').focus();
+  sh.querySelector('.sheet-close').focus({ preventScroll: true });
 }
 
 function closeTeam() {
