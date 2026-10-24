@@ -28,7 +28,7 @@ nav.sections{display:flex;gap:2px;overflow-x:auto}
 nav.sections a{padding:10px 12px;color:var(--muted);text-decoration:none;font-weight:500;white-space:nowrap}
 nav.sections a:hover{color:var(--fg)}
 nav.sections{align-items:center}
-nav.sections .myteam{display:inline-flex;align-items:center;gap:8px;margin-right:6px;padding:6px 14px 6px 6px;border:1.5px solid var(--accent);border-radius:999px;background:color-mix(in srgb, var(--accent) 12%, transparent);color:var(--fg);font:inherit;font-weight:600;white-space:nowrap;cursor:pointer;text-decoration:none;box-shadow:0 0 12px color-mix(in srgb, var(--accent) 30%, transparent)}
+nav.sections .myteam{display:inline-flex;align-items:center;gap:8px;margin-right:6px;padding:6px 14px 6px 6px;border:1.5px solid var(--accent);border-radius:999px;background:color-mix(in srgb, var(--accent) 12%, transparent);color:var(--fg);font:inherit;font-weight:600;white-space:nowrap;cursor:pointer;text-decoration:none;}
 nav.sections .myteam .crest{width:26px;height:26px;font-size:10px}
 nav.sections .myteam:hover{background:color-mix(in srgb, var(--accent) 22%, transparent)}
 main{display:flex;flex-direction:column;gap:32px;padding-block:24px 56px}
@@ -74,7 +74,7 @@ section{display:flex;flex-direction:column;gap:14px}
 .stat{padding:14px 16px;display:flex;flex-direction:column;gap:4px}
 .stat .v{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
 .stat .club{font-weight:600}
-.stat .num{font-family:var(--display);font-weight:700;font-size:30px;color:var(--accent)}
+.stat .num{font-family:var(--display);font-weight:700;font-size:28px;color:var(--fg)}
 .stat .sub{font-size:13px;color:var(--muted)}
 
 .strip{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity}
@@ -151,7 +151,7 @@ footer{border-top:1px solid var(--line)}
 footer .wrap{padding-block:18px 28px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
 .next{box-shadow:var(--glow)}
 .chips button[aria-pressed="true"]{box-shadow:var(--glow)}
-.stat .num,.next .ko{text-shadow:0 0 14px color-mix(in srgb, var(--accent) 55%, transparent)}
+
 .match.mine{border-color:var(--accent);background:var(--mine);box-shadow:var(--glow)}
 tr.mine td.pos{box-shadow:inset 4px 0 0 var(--accent)}
 .fx .k{transition:color .2s}
@@ -163,7 +163,7 @@ button.stat:hover{border-color:var(--accent)}
 .teambtn:hover{text-decoration-color:var(--accent)}
 #welcome{position:fixed;inset:0;z-index:30;background:rgba(5,7,10,.8);display:flex;justify-content:center;align-items:center;padding:16px}
 #welcome[hidden]{display:none!important}
-.welcome-panel{background:var(--bg);border:1px solid var(--accent);border-radius:16px;width:100%;max-width:420px;padding:24px 20px;display:flex;flex-direction:column;gap:14px;box-shadow:0 0 30px color-mix(in srgb, var(--accent) 25%, transparent)}
+.welcome-panel{background:var(--bg);border:1px solid var(--accent);border-radius:16px;width:100%;max-width:420px;padding:24px 20px;display:flex;flex-direction:column;gap:14px}
 .welcome-panel h2{font-size:34px}
 .welcome-panel p{margin:0;color:var(--fg-2);font-size:15px}
 .welcome-panel select{width:100%;padding:12px;border-radius:10px;border:1px solid var(--line-2);background:var(--panel);color:var(--fg);font:inherit;font-size:16px}
@@ -181,7 +181,7 @@ button.stat:hover{border-color:var(--accent)}
 .sh-head h2{font-size:34px}
 .sh-head .crest{width:44px;height:44px;font-size:16px}
 .sh-sum{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;font-size:14px;color:var(--fg-2)}
-.sh-sum .num{font-family:var(--display);font-weight:800;font-size:34px;color:var(--accent);text-shadow:0 0 14px color-mix(in srgb, var(--accent) 55%, transparent)}
+.sh-sum .num{font-family:var(--display);font-weight:800;font-size:34px;color:var(--fg)}
 .sh-sum .run{border:1px solid var(--accent);color:var(--fg);border-radius:999px;padding:4px 10px;font-weight:600}
 .stats.six{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
 .stats.six .num{font-family:var(--display);font-weight:700;font-size:26px;color:var(--fg)}
@@ -219,6 +219,9 @@ a.partner:hover{border-color:var(--accent)}
 .stale{border:1px solid #FF8A5C;background:color-mix(in srgb, #FF8A5C 12%, transparent);color:var(--fg);border-radius:10px;padding:10px 14px;font-size:14px}
 .stale b{color:#FF8A5C}
 .predtoggle{display:none}
+.projtoggle{margin-top:6px}
+#proj{margin:10px -16px 0;border-top:1px solid var(--line)}
+#proj-note{margin:4px 0 0;font-size:13px;color:var(--muted)}
 @media (max-width:640px){
   .predtoggle{display:block;margin:4px 0 0;min-height:44px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--fg);font:inherit;font-weight:600;cursor:pointer}
   .pred.shut #picks,.pred.shut .reset,.pred.shut #pred-sub{display:none}
@@ -266,7 +269,7 @@ tr.detail .dl{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
 tr.detail b{color:var(--fg)}
 tr[data-row]{cursor:pointer}
 @media (min-width:641px){ tr.detail{display:none!important} tr[data-row]{cursor:default} }
-@media (max-width:640px){ .split > .pred{order:-1} }
+
 /* share */
 .noshare .sharebtn{display:none}
 .sharebtn{margin-left:auto;padding:6px 12px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--fg-2);font:inherit;font-size:13px;font-weight:600;cursor:pointer}
@@ -290,6 +293,47 @@ tr[data-row]{cursor:pointer}
 .bar .bt i{display:block;height:100%;background:var(--accent);box-shadow:var(--glow);border-radius:6px}
 .bar .bn{text-align:right;font-variant-numeric:tabular-nums}
 .bl{color:var(--muted)}
+
+/* app layout: bottom tabs, one screen per tab */
+body[data-tab=home] [data-tabs]:not([data-tabs~=home]){display:none!important}
+body[data-tab=table] [data-tabs]:not([data-tabs~=table]){display:none!important}
+body[data-tab=fixtures] [data-tabs]:not([data-tabs~=fixtures]){display:none!important}
+body[data-tab=results] [data-tabs]:not([data-tabs~=results]){display:none!important}
+body[data-tab=stats] [data-tabs]:not([data-tabs~=stats]){display:none!important}
+body[data-tab=home] #title{display:none}
+body:not([data-tab=home]) .intro > .eyebrow{display:none}
+body:not([data-tab=home]) #title{font-size:40px}
+body:not([data-tab=home]) #updated > span:not(.fresh){display:none}
+body:not([data-tab=home]) main{gap:20px}
+#fixtures .sec-head,#res-h{display:none}
+/* stage 3: proper buttons, crests on the division colour */
+.next .maps{gap:8px}
+.next .maps a{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border-radius:999px;border:1px solid var(--accent);color:var(--fg);text-decoration:none;font-weight:600}
+.next .maps a:hover{background:color-mix(in srgb, var(--accent) 18%, transparent)}
+.fx .maps a{display:inline-block;padding:6px 0}
+.crest{background:color-mix(in srgb, var(--cc,#8A94A0) 18%, #151B22);color:var(--cc,#8A94A0);border:1px solid color-mix(in srgb, var(--cc,#8A94A0) 45%, transparent)}
+body{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+header.top .wrap{flex-wrap:nowrap}
+header.top.slim .brand{display:flex!important}
+header.top.slim .wrap{padding-block:12px!important}
+@media (max-width:640px){ nav.sections{flex:none!important} nav.sections > :first-child{margin-left:0!important} }
+nav.sections .myteam{margin-right:0}
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:15;background:color-mix(in srgb, var(--bg) 92%, transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:4px 4px calc(4px + env(safe-area-inset-bottom,0px))}
+.tabbar button{background:none;border:0;color:var(--muted);font:inherit;font-size:11px;font-weight:600;letter-spacing:.02em;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:54px;cursor:pointer;border-radius:10px;-webkit-tap-highlight-color:transparent}
+.tabbar svg{width:24px;height:24px}
+.tabbar button[aria-current=page]{color:var(--fg)}
+.tabbar button[aria-current=page] svg{color:var(--accent)}
+@media (min-width:760px){ body{padding-bottom:110px} .tabbar{left:50%;right:auto;transform:translateX(-50%);width:520px;bottom:12px;border:1px solid var(--line);border-radius:18px;padding-bottom:4px} }
+.linkbtn{background:none;border:0;color:var(--fg-2);font:inherit;font-size:14px;font-weight:600;cursor:pointer;min-height:44px;padding:0 4px}
+.mini{overflow:hidden}
+.mini .mrow{display:grid;grid-template-columns:30px minmax(0,1fr) 34px 44px;align-items:center;gap:8px;padding:0 14px;min-height:48px;border-top:1px solid var(--line);font-size:14px;color:var(--fg)}
+.mini .mrow:first-child{border-top:0}
+.mini .mrow.hd{min-height:34px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.mini .mrow.mine{background:var(--mine);box-shadow:inset 4px 0 0 var(--accent);font-weight:700}
+.mini .mrow.skip{min-height:22px;color:var(--muted);font-size:12px;justify-content:center;display:flex}
+.mini .tn{display:flex;align-items:center;gap:10px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini .r{text-align:right;color:var(--fg-2)}
+.mini .pts{font-family:var(--display);font-weight:700;font-size:20px;color:var(--fg)}
 </style>
 
 <header class="top">
@@ -300,35 +344,46 @@ tr[data-row]{cursor:pointer}
 </header>
 
 <main class="wrap" id="top">
-  <div class="intro">
+  <div class="intro" data-tabs="home table fixtures results stats">
     <div class="eyebrow">Eastern Junior Alliance · Under 16 · 2026–27</div>
     <h1 id="title"></h1>
     <div class="meta" id="updated"></div>
     <div class="stale" id="stale" hidden></div>
   </div>
 
-  <div class="follow">
+  <div class="follow" hidden>
     <label for="team-pick">Your team</label>
     <select id="team-pick"></select>
   </div>
 
-  <section aria-labelledby="next-h">
+  <section aria-labelledby="next-h" data-tabs="home">
     <h2 id="next-h">Your next match</h2>
     <div class="panel next" id="next"></div>
   </section>
 
-  <div class="tips" id="tips"></div>
 
-  <section aria-labelledby="today-h" id="today-sec" hidden>
+  <section aria-labelledby="today-h" id="today-sec" data-tabs="home" hidden>
     <div class="sec-head"><h2 id="today-h">Match Day</h2><span class="note" id="today-note"></span><button type="button" class="sharebtn" data-share="today">Share</button></div>
     <div class="panel today" id="today"></div>
   </section>
 
-  <div role="group" aria-label="Competition" class="chips" id="chips"></div>
+  <section aria-labelledby="latest-h" data-tabs="home">
+    <div class="sec-head"><h2 id="latest-h">Latest results</h2><span class="note" id="latest-date"></span></div>
+    <div class="strip" id="latest"></div>
+  </section>
+
+  <section aria-labelledby="mini-h" id="mini-sec" data-tabs="home" hidden>
+    <div class="sec-head"><h2 id="mini-h">Table</h2><button type="button" class="linkbtn" data-goto="table">Full table</button></div>
+    <div class="panel mini" id="mini"></div>
+  </section>
+
+  <div class="tips" id="tips" data-tabs="home"></div>
+
+  <div role="group" aria-label="Competition" class="chips" id="chips" data-tabs="table fixtures results stats"></div>
 
   <div id="league-view" style="display:flex;flex-direction:column;gap:32px">
 
-    <div class="split" id="table">
+    <div class="split" id="table" data-tabs="table">
       <div class="tablecol">
         <div class="sec-head"><h2>Table</h2><span class="badge-pred" id="pred-badge" hidden></span><button type="button" class="sharebtn" data-share="table">Share</button></div>
         <div class="panel scroll">
@@ -349,64 +404,56 @@ tr[data-row]{cursor:pointer}
 
       <aside class="panel pred shut" aria-labelledby="pred-h" id="pred">
         <div class="ph">
-          <h2 id="pred-h">Table predictor</h2>
+          <h2 id="pred-h">Predictor</h2>
+          <div id="proj-sec" hidden>
+            <div class="projsum" id="proj-sum"></div>
+            <p class="note" id="proj-note"></p>
+            <button type="button" class="predtoggle projtoggle" id="projtoggle" aria-expanded="false" aria-controls="proj">Predicted final table</button>
+            <div id="proj" hidden></div>
+          </div>
           <p id="pred-sub"></p>
-          <button type="button" class="predtoggle" id="predtoggle" aria-expanded="false" aria-controls="picks">Predict the table</button>
+          <button type="button" class="predtoggle" id="predtoggle" aria-expanded="false" aria-controls="picks">Pick the next results</button>
         </div>
         <div id="picks"></div>
         <button class="reset" id="reset" type="button">Reset picks</button>
       </aside>
     </div>
 
-    <section aria-labelledby="proj-h" id="proj-sec" hidden>
-      <div class="sec-head"><h2 id="proj-h">Season predictor</h2><span class="note" id="proj-note"></span><button type="button" class="sharebtn" data-share="projection">Share</button></div>
-      <div class="projsum" id="proj-sum"></div>
-      <button type="button" class="predtoggle projtoggle" id="projtoggle" aria-expanded="false" aria-controls="proj">Show predicted final table</button>
-      <div class="panel" id="proj" hidden></div>
-    </section>
 
-    <section aria-labelledby="latest-h">
-      <div class="sec-head"><h2 id="latest-h">Latest results</h2><span class="note" id="latest-date"></span><button type="button" class="sharebtn" data-share="results">Share</button></div>
-      <div class="strip" id="latest"></div>
-    </section>
-
-    <section aria-labelledby="ru-h" id="ru-sec" hidden>
+    <section aria-labelledby="ru-h" id="ru-sec" data-tabs="stats" hidden>
       <div class="sec-head"><h2 id="ru-h">Weekend round-up</h2><span class="note" id="ru-date"></span><button type="button" class="sharebtn" data-share="roundup">Share</button></div>
       <div class="stats" id="ru"></div>
     </section>
 
-    <section aria-labelledby="stats-h">
-      <div class="sec-head"><h2 id="stats-h">Division stats</h2></div>
-      <div class="stats" id="stats"></div>
-    </section>
 
-    <section aria-labelledby="tp-h">
+    <section aria-labelledby="tp-h" data-tabs="stats">
       <div class="sec-head"><h2 id="tp-h">Talking points</h2><span class="note">Tap a team for its full stats</span></div>
       <div class="stats" id="quirky"></div>
     </section>
 
   </div>
 
-  <section id="cup-alive" aria-labelledby="alive-h" hidden>
+  <section id="cup-alive" aria-labelledby="alive-h" data-tabs="table" hidden>
     <h2 id="alive-h">Still in the cup</h2>
     <div class="panel alive" id="alive"></div>
   </section>
 
-  <section id="fixtures" aria-labelledby="fx-h">
+  <section id="fixtures" aria-labelledby="fx-h" data-tabs="fixtures">
     <div class="sec-head"><h2 id="fx-h">Fixtures</h2><span class="note">Tap Directions or Waze to get to the ground</span></div>
     <div class="rounds" id="fx"></div>
   </section>
 
-  <section id="results" aria-labelledby="res-h">
+  <section id="results" aria-labelledby="res-h" data-tabs="results">
     <h2 id="res-h">Results</h2>
     <div class="rounds" id="res"></div>
   </section>
 </main>
 
+<nav class="tabbar" id="tabbar" aria-label="Sections"><button type="button" data-tab="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Home</button><button type="button" data-tab="table"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M3 15h18M9 4v16"/></svg>Table</button><button type="button" data-tab="fixtures"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Fixtures</button><button type="button" data-tab="results"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>Results</button><button type="button" data-tab="stats"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20V11M12 20V5M19 20v-7"/></svg>Stats</button></nav>
 <footer>
   <div class="wrap">
     <div>Tables, results, fixtures and venues from FA Full-Time. Team names only: no player names, photos or video.</div>
-    <div>Teams level on points are shown in the league's own order. Badges are placeholders.</div>
+    <div>Teams level on points are shown in the league's own order. Club badges are shown as initials.</div>
     <div id="foot-about"></div>
   </div>
 </footer>
@@ -719,7 +766,7 @@ function applyAccent(col) {
   const acc = DOTS[col] || CUP_ACCENT, root = document.documentElement.style;
   root.setProperty('--accent', acc);
   root.setProperty('--mine', `color-mix(in srgb, ${acc} 16%, #0E1217)`);
-  root.setProperty('--glow', `0 0 18px color-mix(in srgb, ${acc} 45%, transparent)`);
+  root.setProperty('--glow', 'none');
   const m = document.querySelector('meta[name=theme-color]'); if (m) m.content = '#0E1217';
 }
 const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
@@ -730,7 +777,8 @@ const dated = s => /^\d\d\/\d\d$/.test(s || '');
 const toDate = s => { if (!dated(s)) return new Date(2027, 6, 31); const [d, m] = s.split('/').map(Number); return new Date(m >= 8 ? 2026 : 2027, m - 1, d); };
 const dayLabel = s => { if (!dated(s)) return 'Date to be confirmed'; const d = toDate(s); return `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`; };
 const initials = n => { const w = n.replace(/&/g, ' ').split(/\s+/).filter(Boolean); return (w.length > 1 ? w.slice(0, 3).map(x => x[0]).join('') : n.slice(0, 3)).toUpperCase(); };
-const crest = n => { const c = initials(n); return `<span class="crest" aria-hidden="true" style="background:${BADGES[(n.charCodeAt(0) + n.length) % BADGES.length]}">${esc(c)}</span>`; };
+const crestCol = n => { const di = teamDiv[n]; return di === undefined ? '#8A94A0' : (DOTS[DATA.divisions[di].name.replace(/^U\d+ /, '')] || CUP_ACCENT); };
+const crest = n => { const c = initials(n); return `<span class="crest" aria-hidden="true" style="--cc:${crestCol(n)}">${esc(c)}</span>`; };
 const gdTxt = g => g > 0 ? '+' + g : g < 0 ? '−' + Math.abs(g) : '0';
 const ordinal = n => { const s = ['th','st','nd','rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
 const today = new Date(); today.setHours(0, 0, 0, 0);
@@ -743,6 +791,10 @@ try { const s = localStorage.getItem(LSK + '-team'); if (s && s in teamDiv) mine
 const qTeam = new URLSearchParams(location.search).get('team');
 if (qTeam) { const n = Object.keys(teamDiv).find(t => slug(t) === slug(qTeam)); if (n) { mine = linked = n; try { localStorage.setItem(LSK + '-team', n); } catch (e) {} } }
 let view = mine ? teamDiv[mine] : 0;
+// Tabs: Home (your team), Table, Fixtures, Results, Stats. The address keeps the tab (#table) so a refresh stays put.
+const TABS = ['home', 'table', 'fixtures', 'results', 'stats'];
+let tab = TABS.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'home';
+document.body.dataset.tab = tab;
 const picks = {};
 
 function nextRound(d) {
@@ -783,7 +835,7 @@ function buildTable(i) {
 
 function renderChips() {
   const items = DATA.divisions.map((d, i) => { const col = d.name.replace('U16 ', ''); return `<button type="button" data-v="${i}" aria-pressed="${view === i}"><span class="dot" style="background:${DOTS[col] || '#999'}"></span>${esc(col)}</button>`; });
-  DATA.cups.forEach((c, i) => items.push(`<button type="button" data-v="c${i}" aria-pressed="${view === 'c' + i}">${esc(c.name)}</button>`));
+  if (tab !== 'stats') DATA.cups.forEach((c, i) => items.push(`<button type="button" data-v="c${i}" aria-pressed="${view === 'c' + i}">${esc(c.name)}</button>`));
   document.getElementById('chips').innerHTML = items.join('');
 }
 document.getElementById('chips').addEventListener('click', e => {
@@ -847,7 +899,7 @@ function renderSeason() {
   const pj = projection(view);
   sec.hidden = !pj.list.some(x => x.played);
   if (sec.hidden) return;
-  document.getElementById('proj-note').textContent = `Final table after ${pj.games} games on current form${pj.early ? ' · early days' : ''}`;
+  document.getElementById('proj-note').textContent = `End of season (${pj.games} games) on current form${pj.early ? ' · early days, so take it lightly' : ''}`;
   const me = pj.list.find(x => x.name === mine), top = pj.list[0];
   document.getElementById('proj-sum').innerHTML = me
     ? `<b>${esc(mine)}</b>: predicted <b>${ordinal(me.pos)}</b> on about ${me.round} pts (now ${ordinal(me.now)}). Predicted winners: <b>${esc(top.name)}</b>.`
@@ -870,7 +922,8 @@ function renderStats(rows, n) {
   }
   cards.push(['Best attack', att.name, (att.gf / att.p).toFixed(1), 'goals scored per game']);
   cards.push(['Best defence', def.name, (def.ga / def.p).toFixed(1), 'goals conceded per game']);
-  document.getElementById('stats').innerHTML = cards.map(([l, c, v, s]) =>
+  const el = document.getElementById('stats'); if (!el) return;
+  el.innerHTML = cards.map(([l, c, v, s]) =>
     `<div class="panel stat"><div class="eyebrow">${esc(l)}</div><div class="v"><span class="club">${esc(c)}</span><span class="num">${esc(v)}</span></div><div class="sub">${esc(s)}</div></div>`).join('');
 }
 
@@ -1096,7 +1149,13 @@ function talkingPoints(i) {
   const goalsTotal = played.reduce((n, r) => n + r[3] + r[4], 0);
   t = top(x => x.s.late);
   if (t) cards.push(['Late show', t.name, String(t.s.late), `goals from the 70th minute${jt(t)} · times known for ${timedTotal} of ${goalsTotal} goals`]);
-  return cards;
+  const rows = d.teams.filter(x => x[1] > 0).map(([name, p, , , , gf, ga]) => ({ name, p, gf, ga }));
+  if (rows.length) {
+    const att = rows.reduce((a, b) => b.gf / b.p > a.gf / a.p ? b : a), def = rows.reduce((a, b) => b.ga / b.p < a.ga / a.p ? b : a);
+    cards.splice(2, 0, ['Best attack', att.name, (att.gf / att.p).toFixed(1), 'goals scored per game'], ['Best defence', def.name, (def.ga / def.p).toFixed(1), 'goals conceded per game']);
+  }
+  const ru = roundup(i), dup = new Set((ru ? ru.items : []).map(x => x.team + '|' + x.v));
+  return cards.filter(c => !dup.has(c[1] + '|' + c[2]));
 }
 
 function renderTalkingPoints() {
@@ -1184,6 +1243,7 @@ function openTeam(name) {
   sh.querySelector('.sheet-body').innerHTML = `
     <header class="sh-head">
       <div class="tm">${crest(name)}<div><div class="eyebrow">${esc(d.name)}</div><h2>${esc(name)}</h2></div></div>
+      ${name === mine ? '<button type="button" class="pickbtn" data-pick style="width:fit-content">Change team</button>' : ''}
       <div class="sh-sum"><span class="num">${ordinal(row.pos || 0)}</span><span>${row.pts ?? 0} pts</span><span class="form">${form}</span><span class="run">${esc(runText(s.g))}</span></div>
     </header>
     ${partnerHtml(name)}
@@ -1308,6 +1368,42 @@ function renderRoundup() {
   }).join('');
 }
 
+function renderMini() {
+  const sec = document.getElementById('mini-sec');
+  if (typeof view !== 'number') { sec.hidden = true; return; }
+  const { rows } = buildTable(view), me = rows.findIndex(r => r.name === mine);
+  const keep = new Set(me < 0 ? [0, 1, 2, 3] : [0, me - 1, me, me + 1].filter(k => k >= 0 && k < rows.length));
+  if (me >= 0 && me <= 2) [0, 1, 2, 3].forEach(k => k < rows.length && keep.add(k));
+  const ks = [...keep].sort((a, b) => a - b);
+  let html = '<div class="mrow hd"><span>Pos</span><span>Team</span><span class="r">P</span><span class="r">Pts</span></div>', last = -1;
+  ks.forEach(k => {
+    const r = rows[k];
+    if (k > last + 1) html += '<div class="mrow skip">···</div>';
+    html += `<div class="mrow ${r.name === mine ? 'mine' : ''}"><span>${r.pos}</span><span class="tn">${crest(r.name)}${esc(r.name)}</span><span class="r">${r.p}</span><span class="r pts">${r.pts}</span></div>`;
+    last = k;
+  });
+  document.getElementById('mini-h').textContent = DATA.divisions[view].name;
+  document.getElementById('mini').innerHTML = html;
+  sec.hidden = false;
+}
+function renderTabbar() {
+  document.querySelectorAll('#tabbar button').forEach(b => b.setAttribute('aria-current', b.dataset.tab === tab ? 'page' : 'false'));
+}
+function setTab(t) {
+  t = TABS.includes(t) ? t : 'home';
+  const changed = t !== tab; tab = t; document.body.dataset.tab = t;
+  try { history.replaceState(null, '', location.pathname + location.search + (t === 'home' ? '' : '#' + t)); } catch (e) {}
+  // Home always shows your team's division; Stats only has league divisions
+  const home = mine ? teamDiv[mine] : 0;
+  if (t === 'home' && view !== home) view = home;
+  if (t === 'stats' && typeof view !== 'number') view = home;
+  renderView();
+  if (changed) { window.scrollTo(0, 0); track('tab/' + t); }
+}
+document.getElementById('tabbar').addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b) setTab(b.dataset.tab); });
+document.addEventListener('click', e => { const g = e.target.closest('[data-goto]'); if (g) { e.preventDefault(); setTab(g.dataset.goto); } });
+window.addEventListener('hashchange', () => setTab(location.hash.slice(1)));
+
 function renderView() {
   renderChips();
   const isCup = typeof view === 'string';
@@ -1319,10 +1415,11 @@ function renderView() {
   document.getElementById('title').textContent = comp.name;
   track('view/' + slug(comp.name), comp.name);
   const myTeam = mine ? `<button type="button" class="myteam" data-team="${esc(mine)}" data-track="my-team" aria-label="My team: ${esc(mine)}">${crest(mine)}My team</button>` : '<button type="button" class="myteam pick" data-pick>Pick your team</button>';
-  document.getElementById('secnav').innerHTML = myTeam + (isCup ? '' : '<a href="#table">Table</a>') + '<a href="#fixtures">Fixtures</a><a href="#results">Results</a>';
-  markNav();
+  document.getElementById('secnav').innerHTML = myTeam;
   if (isCup) { if (!county) renderCup(comp); }
   else { renderLatest(comp.results, cupResultsFor(view)); renderPicks(); renderTable(); }
+  renderMini();
+  renderTabbar();
   renderToday();
   renderFresh();
   renderTalkingPoints();
@@ -1334,12 +1431,12 @@ function renderView() {
 
 document.getElementById('projtoggle').addEventListener('click', e => {
   const p = document.getElementById('proj'), open = p.hidden;
-  p.hidden = !open; e.currentTarget.setAttribute('aria-expanded', open); e.currentTarget.textContent = open ? 'Hide predicted final table' : 'Show predicted final table';
+  p.hidden = !open; e.currentTarget.setAttribute('aria-expanded', open); e.currentTarget.textContent = open ? 'Hide predicted final table' : 'Predicted final table';
   if (open) track('season-predictor');
 });
 document.getElementById('predtoggle').addEventListener('click', e => {
   const p = document.getElementById('pred'), open = p.classList.toggle('shut') === false;
-  e.currentTarget.setAttribute('aria-expanded', open); e.currentTarget.textContent = open ? 'Hide predictor' : 'Predict the table';
+  e.currentTarget.setAttribute('aria-expanded', open); e.currentTarget.textContent = open ? 'Hide picks' : 'Pick the next results';
 });
 // On phones, drop the logo row once you scroll so the menu sits on one line
 window.addEventListener('scroll', () => { const h = document.querySelector('header.top'), y = window.scrollY; if (y > 140) h.classList.add('slim'); else if (y < 40) h.classList.remove('slim'); }, { passive: true });
@@ -1409,13 +1506,16 @@ const welcome = document.getElementById('welcome');
 const wsel = document.getElementById('welcome-pick');
 function openWelcome() {
   wsel.innerHTML = '<option value="" selected disabled>Choose your team</option>' + teamsAZ().map(n => `<option>${esc(n)}</option>`).join('');
+  if (mine) wsel.value = mine;
+  document.getElementById('welcome-go').disabled = !wsel.value;
+  document.getElementById('welcome-skip').textContent = mine ? 'Cancel' : 'Just browsing';
   welcome.hidden = false; document.body.style.overflow = 'hidden'; wsel.focus();
 }
 function closeWelcome(browsing) {
   welcome.hidden = true; document.body.style.overflow = '';
   if (browsing) { try { localStorage.setItem(LSK + '-browsing', '1'); } catch (e) {} track('just-browsing'); }
 }
-document.getElementById('welcome-go').addEventListener('click', () => { if (wsel.value) { setTeam(wsel.value); closeWelcome(false); } else wsel.focus(); });
+document.getElementById('welcome-go').addEventListener('click', () => { if (wsel.value) { if (!document.getElementById('sheet').hidden) closeTeam(); setTeam(wsel.value); closeWelcome(false); } else wsel.focus(); });
 wsel.addEventListener('change', () => { document.getElementById('welcome-go').disabled = !wsel.value; });
 document.getElementById('welcome-skip').addEventListener('click', () => closeWelcome(true));
 document.addEventListener('click', e => { if (e.target.closest('[data-pick]')) { e.preventDefault(); openWelcome(); } });
@@ -1427,6 +1527,8 @@ syncLink();
 renderNext();
 renderView();
 renderTips();
+// #table, #fixtures and #results are also element ids: stop the browser jumping down to them on load
+if (location.hash) { window.scrollTo(0, 0); addEventListener('load', () => window.scrollTo(0, 0)); }
 let seen = false; try { seen = !!localStorage.getItem(LSK + '-browsing'); } catch (e) {}
 if (!mine && !seen) openWelcome();
 </script>
