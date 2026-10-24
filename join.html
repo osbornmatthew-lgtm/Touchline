@@ -13,7 +13,9 @@
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45;margin:0;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 main{max-width:520px;margin:0 auto;padding:20px 16px 40px}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--fg);margin-bottom:22px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}
+.back{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line-2);color:var(--fg);text-decoration:none;font-weight:600}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--fg)}
 .brand b{font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:.02em;text-transform:uppercase}
 .brand span{font-family:var(--display);font-weight:600;font-size:26px;letter-spacing:.04em;text-transform:uppercase;color:var(--fg-2);border-left:2px solid var(--fg-2);padding-left:10px}
 .eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
@@ -41,7 +43,7 @@ a{color:var(--accent)}
 </head>
 <body>
 <main>
-  <a class="brand" href="/"><b>Touchline</b><span>EJA</span></a>
+  <div class="top"><a class="back" href="/" id="close" aria-label="Back to Touchline">‹ Back</a><a class="brand" href="/"><b>Touchline</b><span>EJA</span></a></div>
 
   <div id="ask">
     <div class="eyebrow" id="who">Your team</div>
@@ -103,6 +105,7 @@ a{color:var(--accent)}
       <label>Anything else<textarea name="notes"></textarea></label>
 
       <button type="submit" id="go">Send</button>
+      <a class="back" id="cancel" href="/" style="justify-content:center">Cancel</a>
       <p class="fine">Please only send crests and logos you're happy for us to show. No player names or photos.</p>
     </form>
   </div>
@@ -111,14 +114,20 @@ a{color:var(--accent)}
     <div class="eyebrow">Thanks</div>
     <h1>Got it</h1>
     <p class="lead">We'll add your details to the team page, usually within a few days.</p>
-    <p><a href="/" id="back">Back to Touchline</a></p>
+    <p><a class="back" href="/" id="back">Back to Touchline</a></p>
   </div>
 </main>
 <script>
 var q = new URLSearchParams(location.search), age = q.get('age'), team = q.get('team');
 if (age) document.getElementById('age').value = age;
 if (team) { document.getElementById('team').value = team; document.getElementById('who').textContent = team + (age ? ' · ' + age : ''); }
-if (q.get('back')) document.getElementById('back').href = q.get('back').replace(/^(?!\/)/, '/');
+var back = (q.get('back') || '/').replace(/^(?!\/)/, '/');
+if (!/^\/(u1[3-8]\/)?(\?team=[a-z0-9-]+)?$/.test(back)) back = '/';
+['close', 'cancel', 'back'].forEach(function (id) { document.getElementById(id).href = back; });
+// Back and Cancel return to exactly where they came from when possible (so a parent's own team is not changed)
+var cameFromApp = document.referrer && document.referrer.indexOf(location.origin) === 0 && history.length > 1;
+['close', 'cancel'].forEach(function (id) { document.getElementById(id).addEventListener('click', function (e) { if (cameFromApp) { e.preventDefault(); history.back(); } }); });
+
 document.getElementById('f').addEventListener('submit', function (e) {
   e.preventDefault();
   var b = document.getElementById('go'); b.disabled = true; b.textContent = 'Sending…';
