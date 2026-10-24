@@ -1,0 +1,8 @@
+# Touchline Girls on Netlify: serve the girls pages from GitHub Pages under this address.
+# U12 at the top level, the other age groups in /u13/ ... /u18/. The laptop pushes to GitHub; Netlify never redeploys.
+/u13/*  https://osbornmatthew-lgtm.github.io/Touchline/girls-u13/:splat  200
+/u14/*  https://osbornmatthew-lgtm.github.io/Touchline/girls-u14/:splat  200
+/u15/*  https://osbornmatthew-lgtm.github.io/Touchline/girls-u15/:splat  200
+/u16/*  https://osbornmatthew-lgtm.github.io/Touchline/girls-u16/:splat  200
+/u18/*  https://osbornmatthew-lgtm.github.io/Touchline/girls-u18/:splat  200
+/*      https://osbornmatthew-lgtm.github.io/Touchline/girls/:splat  200
