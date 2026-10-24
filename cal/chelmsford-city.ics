@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093071@touchline-eja
-DTSTAMP:20261024T064838Z
+DTSTAMP:20261024T104422Z
 SUMMARY:Chelmsford City v Hornchurch
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -36,8 +36,19 @@ DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093071
 END:VEVENT
 BEGIN:VEVENT
+UID:31016107@touchline-eja
+DTSTAMP:20261024T104422Z
+SUMMARY:Wingate & Finchley v Chelmsford City (Chairman's Cup)
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31016107
+END:VEVENT
+BEGIN:VEVENT
 UID:30618184@touchline-eja
-DTSTAMP:20261024T064838Z
+DTSTAMP:20261024T104422Z
 SUMMARY:Chelmsford City v Frenford (Essex Cassels U16 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
