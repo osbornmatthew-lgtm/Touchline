@@ -32,6 +32,8 @@ button{padding:14px;border-radius:999px;border:0;background:var(--accent);color:
 button:disabled{opacity:.5}
 .fine{font-size:13px;color:var(--muted)}
 .hp{position:absolute;left:-9999px}
+label.tick{flex-direction:row;align-items:center;gap:10px;font-weight:500}
+label.tick input{width:20px;height:20px;accent-color:var(--accent);flex:none}
 #done{display:none}
 #done h1{margin-top:0}
 a{color:var(--accent)}
@@ -88,6 +90,14 @@ a{color:var(--accent)}
         <label>Sponsor 2 name<input name="sponsor2_name"></label>
         <label>Sponsor 2 logo<input type="file" name="sponsor2_logo" accept="image/*"></label>
         <label>Sponsor 2 website<input name="sponsor2_link" inputmode="url"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Working with Touchline</legend>
+        <p class="fine" style="margin:0">Optional. Interested in any of these?</p>
+        <label class="tick"><input type="checkbox" name="interest" value="Sponsoring an age group or the app"> Sponsoring an age group or the whole app</label>
+        <label class="tick"><input type="checkbox" name="interest" value="Official club app"> Using Touchline as our club's official app</label>
+        <label class="tick"><input type="checkbox" name="interest" value="Not right now"> Not right now</label>
       </fieldset>
 
       <label>Anything else<textarea name="notes"></textarea></label>
