@@ -13,10 +13,7 @@
   "browser": {
     "headless": false,
     "channel": "chrome",
-    "args": [
-      "--disable-blink-features=AutomationControlled",
-      "--start-minimized"
-    ]
+    "args": ["--disable-blink-features=AutomationControlled", "--start-minimized"]
   },
   "match_day": {
     "heartbeat_minutes": 45,
@@ -27,10 +24,7 @@
   },
   "alerts": {
     "stale_minutes": 45,
-    "window": [
-      "10:00",
-      "21:00"
-    ],
+    "window": ["10:00", "21:00"],
     "ntfy_topic": null
   },
   "leagues": [
@@ -91,7 +85,9 @@
       ],
       "desc": "EJA Under 13 league tables, results, fixtures and stats.",
       "template": "native",
-      "assets": ""
+      "assets": "",
+      "publish": false,
+      "events": false
     },
     {
       "id": "eja-u14",
@@ -122,7 +118,9 @@
       ],
       "desc": "EJA Under 14 league tables, results, fixtures and stats.",
       "template": "native",
-      "assets": ""
+      "assets": "",
+      "publish": false,
+      "events": false
     },
     {
       "id": "eja-u15",
@@ -152,7 +150,9 @@
       ],
       "desc": "EJA Under 15 league tables, results, fixtures and stats.",
       "template": "native",
-      "assets": ""
+      "assets": "",
+      "publish": false,
+      "events": false
     },
     {
       "id": "eja-u18",
@@ -183,7 +183,9 @@
       "template": "native",
       "assets": "",
       "clean": "u18",
-      "age_match": "U1[78]"
+      "age_match": "U1[78]",
+      "publish": false,
+      "events": false
     },
     {
       "id": "bcfa",
@@ -213,5 +215,13 @@
         "sponsors": {}
       }
     }
-  ]
+  ],
+  "history": {
+    "_help": "Past seasons, fetched once by the runner into data/history/<season>.json (season id from Full-Time).",
+    "seasons": [
+      ["239620789", "2025-26"],
+      ["392615098", "2024-25"],
+      ["456453103", "2023-24"]
+    ]
+  }
 }
