@@ -3,14 +3,20 @@
   "site_base": "https://osbornmatthew-lgtm.github.io/Touchline/",
   "fetch": {
     "concurrency": 2,
-    "delay_ms": [600, 1200],
+    "delay_ms": [
+      600,
+      1200
+    ],
     "retries": 2,
     "run_limit_minutes": 10
   },
   "browser": {
     "headless": false,
     "channel": "chrome",
-    "args": ["--disable-blink-features=AutomationControlled", "--start-minimized"]
+    "args": [
+      "--disable-blink-features=AutomationControlled",
+      "--start-minimized"
+    ]
   },
   "match_day": {
     "heartbeat_minutes": 45,
@@ -21,7 +27,10 @@
   },
   "alerts": {
     "stale_minutes": 45,
-    "window": ["10:00", "21:00"],
+    "window": [
+      "10:00",
+      "21:00"
+    ],
     "ntfy_topic": null
   },
   "leagues": [
@@ -44,11 +53,137 @@
       ],
       "cups": [
         ["League Cup", "League Cup U16", ""],
-        ["RT Litho Cup", "RT litho", "i"]
+        ["RT Litho Cup", "RT litho", "i"],
+        ["Harrison Trophy", "Harrison Trophy", ""],
+        ["Magnus Cup", "Magnus Cup", ""],
+        ["Peter Cline Trophy", "Peter Cline", ""],
+        ["Peter Peters Shield", "Peter Peters", ""],
+        ["Chairman's Cup", "Chairmans Cup", ""]
       ],
       "desc": "EJA Under 16 league tables, results, fixtures and stats.",
       "template": "native",
       "assets": ""
+    },
+    {
+      "id": "eja-u13",
+      "enabled": true,
+      "code": "EJA",
+      "folder": "u13",
+      "age": "U13",
+      "season": "817991894",
+      "keep_side": false,
+      "divisions": [
+        ["U13 Black", "1_306853669", 234943185],
+        ["U13 Blue", "1_406853053", 180665156],
+        ["U13 Brown", "1_949637793", 577423414],
+        ["U13 Green", "1_858202400", 24800606],
+        ["U13 Red", "1_210583028", 972131970],
+        ["U13 Yellow", "1_253592557", 103837833]
+      ],
+      "cups": [
+        ["League Cup", "League Cup U13", ""],
+        ["RT Litho Cup", "RT litho", "i"],
+        ["Harrison Trophy", "Harrison Trophy", ""],
+        ["Magnus Cup", "Magnus Cup", ""],
+        ["Peter Cline Trophy", "Peter Cline", ""],
+        ["Peter Peters Shield", "Peter Peters", ""],
+        ["Chairman's Cup", "Chairmans Cup", ""]
+      ],
+      "desc": "EJA Under 13 league tables, results, fixtures and stats.",
+      "template": "native",
+      "assets": ""
+    },
+    {
+      "id": "eja-u14",
+      "enabled": true,
+      "code": "EJA",
+      "folder": "u14",
+      "age": "U14",
+      "season": "817991894",
+      "keep_side": false,
+      "divisions": [
+        ["U14 Black", "1_623569176", 833350152],
+        ["U14 Blue", "1_113598679", 906991950],
+        ["U14 Brown", "1_697209004", 86874115],
+        ["U14 Green", "1_589740064", 238960101],
+        ["U14 Orange", "1_161541628", 28154464],
+        ["U14 Purple", "1_484623551", 386756937],
+        ["U14 Red", "1_661844359", 564100209],
+        ["U14 Yellow", "1_863645213", 620811103]
+      ],
+      "cups": [
+        ["League Cup", "League Cup U14", ""],
+        ["RT Litho Cup", "RT litho", "i"],
+        ["Harrison Trophy", "Harrison Trophy", ""],
+        ["Magnus Cup", "Magnus Cup", ""],
+        ["Peter Cline Trophy", "Peter Cline", ""],
+        ["Peter Peters Shield", "Peter Peters", ""],
+        ["Chairman's Cup", "Chairmans Cup", ""]
+      ],
+      "desc": "EJA Under 14 league tables, results, fixtures and stats.",
+      "template": "native",
+      "assets": ""
+    },
+    {
+      "id": "eja-u15",
+      "enabled": true,
+      "code": "EJA",
+      "folder": "u15",
+      "age": "U15",
+      "season": "817991894",
+      "keep_side": false,
+      "divisions": [
+        ["U15 Black", "1_973994535", 280705571],
+        ["U15 Blue", "1_526574053", 120925642],
+        ["U15 Brown", "1_488408752", 164789533],
+        ["U15 Green", "1_723307407", 169613496],
+        ["U15 Purple", "1_878898393", 708864884],
+        ["U15 Red", "1_29122781", 651570732],
+        ["U15 Yellow", "1_619895969", 517111102]
+      ],
+      "cups": [
+        ["League Cup", "League Cup U15", ""],
+        ["RT Litho Cup", "RT litho", "i"],
+        ["Harrison Trophy", "Harrison Trophy", ""],
+        ["Magnus Cup", "Magnus Cup", ""],
+        ["Peter Cline Trophy", "Peter Cline", ""],
+        ["Peter Peters Shield", "Peter Peters", ""],
+        ["Chairman's Cup", "Chairmans Cup", ""]
+      ],
+      "desc": "EJA Under 15 league tables, results, fixtures and stats.",
+      "template": "native",
+      "assets": ""
+    },
+    {
+      "id": "eja-u18",
+      "enabled": true,
+      "code": "EJA",
+      "folder": "u18",
+      "age": "U18",
+      "season": "817991894",
+      "keep_side": false,
+      "divisions": [
+        ["U18 Black", "1_252594442", 713020888],
+        ["U18 Blue", "1_220339721", 935168621],
+        ["U18 Brown", "1_986411956", 95067680],
+        ["U18 Green", "1_180968130", 186205629],
+        ["U18 Red", "1_869339732", 836913197],
+        ["U18 Yellow", "1_159735582", 755370393]
+      ],
+      "cups": [
+        ["League Cup", "League Cup U18", ""],
+        ["RT Litho Cup", "RT litho", "i"],
+        ["Harrison Trophy", "Harrison Trophy", ""],
+        ["Magnus Cup", "Magnus Cup", ""],
+        ["Peter Cline Trophy", "Peter Cline", ""],
+        ["Peter Peters Shield", "Peter Peters", ""],
+        ["Chairman's Cup", "Chairmans Cup", ""]
+      ],
+      "desc": "EJA Under 18 league tables, results, fixtures and stats.",
+      "template": "native",
+      "assets": "",
+      "clean": "u18",
+      "age_match": "U1[78]"
     },
     {
       "id": "bcfa",
@@ -71,7 +206,9 @@
         "mine": "#12262C",
         "eyebrow": "BCFA Youth League · Under 13 · 2026–27",
         "eyebrow2": "BCFA Youth League · Under 13",
-        "dots": {"Division 3": "#3DD9FF"},
+        "dots": {
+          "Division 3": "#3DD9FF"
+        },
         "venues": {},
         "sponsors": {}
       }

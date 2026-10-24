@@ -362,7 +362,7 @@ class FullTime:
 
     def scrape(self, L, plan):
         f = self.cfg['fetch']
-        js_cfg = {'S': L['season'], 'DIVS': L['divisions'], 'CUPS': L['cups'], 'AGE': L['age'], 'KEEP_SIDE': L['keep_side'],
+        js_cfg = {'S': L['season'], 'DIVS': L['divisions'], 'CUPS': L['cups'], 'AGE': L.get('age_match', L['age']), 'KEEP_SIDE': L['keep_side'], 'CLEAN': L.get('clean'),
                   'ONLY_DIVS': plan['only_divs'], 'ONLY_CUPS': plan['only_cups'], 'EVENTS': plan['events'],
                   'KNOWN_VENUES': plan['known_venues'], 'LIMIT': f.get('concurrency', 2), 'DELAY': f.get('delay_ms', [600, 1200]),
                   'RETRIES': f.get('retries', 2), 'DEADLINE_MS': int(f.get('run_limit_minutes', 10) * 60000), 'NO_DOM': True}
