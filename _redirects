@@ -1,3 +1,6 @@
 # Touchline EJA on Netlify: serve the live GitHub Pages site under this address.
 # The laptop keeps pushing to GitHub as before; Netlify never needs a new deploy.
+# BCFA paused on this address for now.
+/bcfa/*  /404.html  404!
+/bcfa    /404.html  404!
 /*  https://osbornmatthew-lgtm.github.io/Touchline/:splat  200
