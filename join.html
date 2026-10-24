@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Touchline EJA: add your team details</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#0E1217;--panel:#151B22;--line:#222A33;--line-2:#2E3742;--fg:#ECEFF3;--fg-2:#C3CAD3;--muted:#9AA4B0;--accent:#C9F24A;--on-accent:#0E1217;--display:'Barlow Condensed',system-ui,sans-serif;--body:'IBM Plex Sans',system-ui,sans-serif}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45;margin:0;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+main{max-width:520px;margin:0 auto;padding:20px 16px 40px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--fg);margin-bottom:22px}
+.brand b{font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:.02em;text-transform:uppercase}
+.brand span{font-family:var(--display);font-weight:600;font-size:26px;letter-spacing:.04em;text-transform:uppercase;color:var(--fg-2);border-left:2px solid var(--fg-2);padding-left:10px}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{margin:4px 0 8px;font-family:var(--display);font-weight:800;font-size:40px;line-height:1;text-transform:uppercase}
+p.lead{margin:0 0 20px;color:var(--fg-2)}
+form{display:flex;flex-direction:column;gap:16px}
+label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:14px}
+label small{font-weight:400;color:var(--muted)}
+input,select,textarea{width:100%;padding:12px;border-radius:10px;border:1px solid var(--line-2);background:var(--panel);color:var(--fg);font:inherit;font-size:16px}
+input[type=file]{padding:10px}
+textarea{min-height:80px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+fieldset{border:1px solid var(--line);border-radius:12px;padding:14px;margin:0;display:flex;flex-direction:column;gap:12px}
+legend{padding:0 6px;font-family:var(--display);font-weight:700;font-size:18px;text-transform:uppercase}
+button{padding:14px;border-radius:999px;border:0;background:var(--accent);color:var(--on-accent);font:inherit;font-weight:700;font-size:16px;cursor:pointer}
+button:disabled{opacity:.5}
+.fine{font-size:13px;color:var(--muted)}
+.hp{position:absolute;left:-9999px}
+#done{display:none}
+#done h1{margin-top:0}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <a class="brand" href="/"><b>Touchline</b><span>EJA</span></a>
+
+  <div id="ask">
+    <div class="eyebrow" id="who">Your team</div>
+    <h1>Add your team details</h1>
+    <p class="lead">Send us your crest, kit colours and sponsors and we'll put them on your team's page. Only the team name and stats are shown now.</p>
+
+    <form name="team-details" method="POST" action="/join.html" data-netlify="true" netlify-honeypot="website" enctype="multipart/form-data" id="f">
+      <input type="hidden" name="form-name" value="team-details">
+      <p class="hp"><label>Leave this empty <input name="website" tabindex="-1" autocomplete="off"></label></p>
+
+      <div class="row">
+        <label>Age group
+          <select name="age" id="age" required>
+            <option value="">Choose</option><option>U13</option><option>U14</option><option>U15</option><option>U16</option><option>U18</option>
+          </select>
+        </label>
+        <label>Team
+          <input name="team" id="team" required autocomplete="organization">
+        </label>
+      </div>
+
+      <div class="row">
+        <label>Your name<input name="name" required autocomplete="name"></label>
+        <label>Your role
+          <select name="role" required>
+            <option value="">Choose</option><option>Manager</option><option>Coach</option><option>Club secretary</option><option>Sponsor</option><option>Other</option>
+          </select>
+        </label>
+      </div>
+      <label>Email or phone <small>So we can check anything with you. Not shown on the app.</small>
+        <input name="contact" required autocomplete="email">
+      </label>
+
+      <fieldset>
+        <legend>Club</legend>
+        <label>Club crest <small>PNG or JPG, ideally square</small><input type="file" name="crest" accept="image/*"></label>
+        <label>Kit colours <small>For example: red shirts, white shorts</small><input name="kit"></label>
+        <label>Club website or social link<input name="club_link" inputmode="url"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Team sponsors</legend>
+        <label>Sponsor 1 name<input name="sponsor1_name"></label>
+        <label>Sponsor 1 logo<input type="file" name="sponsor1_logo" accept="image/*"></label>
+        <label>Sponsor 1 website<input name="sponsor1_link" inputmode="url"></label>
+        <label>Sponsor 2 name<input name="sponsor2_name"></label>
+        <label>Sponsor 2 logo<input type="file" name="sponsor2_logo" accept="image/*"></label>
+        <label>Sponsor 2 website<input name="sponsor2_link" inputmode="url"></label>
+      </fieldset>
+
+      <label>Anything else<textarea name="notes"></textarea></label>
+
+      <button type="submit" id="go">Send</button>
+      <p class="fine">Please only send crests and logos you're happy for us to show. No player names or photos.</p>
+    </form>
+  </div>
+
+  <div id="done">
+    <div class="eyebrow">Thanks</div>
+    <h1>Got it</h1>
+    <p class="lead">We'll add your details to the team page, usually within a few days.</p>
+    <p><a href="/" id="back">Back to Touchline</a></p>
+  </div>
+</main>
+<script>
+var q = new URLSearchParams(location.search), age = q.get('age'), team = q.get('team');
+if (age) document.getElementById('age').value = age;
+if (team) { document.getElementById('team').value = team; document.getElementById('who').textContent = team + (age ? ' · ' + age : ''); }
+if (q.get('back')) document.getElementById('back').href = q.get('back').replace(/^(?!\/)/, '/');
+document.getElementById('f').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var b = document.getElementById('go'); b.disabled = true; b.textContent = 'Sending…';
+  fetch('/join.html', { method: 'POST', body: new FormData(this) }).then(function (r) {
+    if (!r.ok) throw new Error(r.status);
+    document.getElementById('ask').style.display = 'none'; document.getElementById('done').style.display = 'block'; scrollTo(0, 0);
+    try { window.goatcounter && goatcounter.count && !window.goatcounter.no_onload && goatcounter.count({ path: 'eja/team-details-sent', event: true }); } catch (x) {}
+  }).catch(function () { b.disabled = false; b.textContent = 'Send'; alert('That didn\'t send. Please try again.'); });
+});
+</script>
+<script>window.goatcounter = { path: function (p) { return '/eja' + p; } }; try { if (localStorage.getItem('skipgc')) window.goatcounter.no_onload = true; } catch (e) {}</script>
+<script data-goatcounter="https://touchline.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
