@@ -112,7 +112,7 @@ if (q.get('back')) document.getElementById('back').href = q.get('back').replace(
 document.getElementById('f').addEventListener('submit', function (e) {
   e.preventDefault();
   var b = document.getElementById('go'); b.disabled = true; b.textContent = 'Sending…';
-  fetch('/join.html', { method: 'POST', body: new FormData(this) }).then(function (r) {
+  fetch(this.getAttribute('action') || '/join', { method: 'POST', body: new FormData(this) }).then(function (r) {
     if (!r.ok) throw new Error(r.status);
     document.getElementById('ask').style.display = 'none'; document.getElementById('done').style.display = 'block'; scrollTo(0, 0);
     try { window.goatcounter && goatcounter.count && !window.goatcounter.no_onload && goatcounter.count({ path: 'eja/team-details-sent', event: true }); } catch (x) {}
