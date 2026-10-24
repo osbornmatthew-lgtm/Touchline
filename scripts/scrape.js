@@ -14,6 +14,8 @@
 //   RETRIES: 2                    retries on 429, 5xx or a network error; one slow retry on 403, then give up
 //   DEADLINE_MS: 600000           give up after this long
 //   NO_DOM: true                  leave the page alone (the runner reads window.__tlout instead)
+//   NO_EVENTS: true               skip goal-time pages (a first fetch of a new league)
+//   CLEAN: 'u18'                  keep side names (U18 divisions have two sides from some clubs)
 const CFG = (typeof window !== 'undefined' && window.__tlcfg) || {};
 const S = CFG.S || '817991894';
 const P = h => new DOMParser().parseFromString(h, 'text/html');
@@ -54,7 +56,17 @@ const get = async u => P(await fetchText(u));
 const txt = e => e ? e.innerText.replace(/\s+/g, ' ').trim() : '';
 // EJA names end with the age group ("Aveley U16"); other leagues name the side after it ("Blackmore Youth U13 Blue"), so keep that.
 const KEEP_SIDE = CFG.KEEP_SIDE ?? !!CFG.DIVS;
-const clean = n => { let s = KEEP_SIDE ? n.replace(/\s+(?:Youth\s+|Y\s+)?U1[0-9]\b/, '') : n.replace(/\s+U1[0-9]\b.*$/, '').replace(/\s*\((Youth|Ltd|Youth Development)\)/g, '').trim(); let p; do { p = s; s = s.replace(/\s+(Youth|Y|FC|F\.C\.?|Community|Academy)$/, '').trim(); } while (s !== p); return s; };
+const clean0 = n => { let s = KEEP_SIDE ? n.replace(/\s+(?:Youth\s+|Y\s+)?U1[0-9]\b/, '') : n.replace(/\s+U1[0-9]\b.*$/, '').replace(/\s*\((Youth|Ltd|Youth Development)\)/g, '').trim(); let p; do { p = s; s = s.replace(/\s+(Youth|Y|FC|F\.C\.?|Community|Academy)$/, '').trim(); } while (s !== p); return s; };
+// U18 divisions hold two sides from some clubs (U17s play up), so keep the side: "Cheshunt Youth U18 EJA Ambers" -> "Cheshunt Ambers".
+const cleanU18 = n => {
+  const m = n.match(/^(.*?)\s+(?:Youth\s+|Y\s+)?(U1[78])\b(.*)$/i); if (!m) return clean0(n);
+  const club = clean0(m[1].replace(/\s*\((Youth|Ltd|Youth Development)\)/g, ''));
+  let side = m[3].replace(/\bEJA\b/gi, '').replace(/\bU18\b/gi, '').replace(/[()]/g, ' ').replace(/\s+/g, ' ').trim();
+  if (m[2].toUpperCase() === 'U17' && !/U17/i.test(side)) side = ('U17 ' + side).trim();
+  side = side.replace(/\b([a-z])/g, c => c.toUpperCase());
+  return side ? club + ' ' + side : club;
+};
+const clean = n => CFG.CLEAN === 'u18' ? cleanU18(n) : clean0(n);
 const tc = v => v.toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\bFc\b/g, 'FC').replace(/\bAnd\b/g, 'and').replace(/\bFdc\b/g, 'FDC').replace(/\bFa\b/g, 'FA').replace(/'S\b/g, "'s").replace(/\.Com\b/g, '.com').replace(/\bTechsoc\b/g, 'TechSoc');
 const venue = v => (!v || /\bU1[0-9]\b|#\d/.test(v)) ? null : tc(v);
 const fid = el => { const a = el && (el.querySelector('a[href*="displayFixture"]') || el.querySelector('a[href*="id="]')); return a ? +(((a.getAttribute('href') || '').match(/id=(\d+)/) || [])[1]) || null : null; };
@@ -73,7 +85,7 @@ const fixtures = async (key, opt) => [...(await get(`/fixtures.html?selectedSeas
 // Goal times: [minute, 'H' or 'A', 'G' goal | 'P' penalty | 'O' own goal]
 const KNOWN_EVENTS = CFG.EVENTS || {};
 const events = async (id, home, away, hs, as) => {
-  if (!id) return [];
+  if (!id || CFG.NO_EVENTS) return [];
   const known = KNOWN_EVENTS[id];
   if (known && known.s === hs + '-' + as) { stats.eventsReused++; return known.e; }
   stats.matchPages++;
@@ -103,6 +115,13 @@ for (const { div, R3, F3 } of perDiv) {
   out.divisions.push(div);
   R3.filter(x => x.type.startsWith('CC')).forEach(x => ccR.set(x.row[0] + x.raw.join(), [...x.row, x.type.slice(3)]));
   F3.filter(x => x.type.startsWith('CC')).forEach(x => ccF.set(x.row[0] + x.raw.join(), [...x.row, x.type.slice(3)]));
+}
+// Two sides with the same name in different divisions (U18 only): add the division colour.
+if (CFG.CLEAN === 'u18') {
+  const seen = {}; out.divisions.forEach(d => d.teams.forEach(t => (seen[t[0]] = seen[t[0]] || new Set()).add(d.name)));
+  const dup = new Set(Object.keys(seen).filter(k => seen[k].size > 1));
+  if (dup.size) out.divisions.forEach(d => { const col = d.name.replace(/^U\d+ /, ''), rn = n => dup.has(n) ? `${n} (${col})` : n;
+    d.teams.forEach(t => t[0] = rn(t[0])); d.results.forEach(r => { r[1] = rn(r[1]); r[2] = rn(r[2]); }); d.fixtures.forEach(f => { f[2] = rn(f[2]); f[3] = rn(f[3]); }); });
 }
 const AGE = new RegExp('\\b' + (CFG.AGE || 'U16') + '\\b'); const u16 = n => AGE.test(n);
 const doCups = CUPS.filter(([label]) => !CFG.ONLY_CUPS || CFG.ONLY_CUPS.includes(label));

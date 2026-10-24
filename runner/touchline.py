@@ -362,9 +362,9 @@ class FullTime:
 
     def scrape(self, L, plan):
         f = self.cfg['fetch']
-        js_cfg = {'S': L['season'], 'DIVS': L['divisions'], 'CUPS': L['cups'], 'AGE': L['age'], 'KEEP_SIDE': L['keep_side'],
+        js_cfg = {'S': L['season'], 'DIVS': L['divisions'], 'CUPS': L['cups'], 'AGE': L.get('age_match', L['age']), 'KEEP_SIDE': L['keep_side'], 'CLEAN': L.get('clean'),
                   'ONLY_DIVS': plan['only_divs'], 'ONLY_CUPS': plan['only_cups'], 'EVENTS': plan['events'],
-                  'KNOWN_VENUES': plan['known_venues'], 'LIMIT': f.get('concurrency', 2), 'DELAY': f.get('delay_ms', [600, 1200]),
+                  'KNOWN_VENUES': plan['known_venues'], 'NO_EVENTS': not L.get('events', True), 'LIMIT': f.get('concurrency', 2), 'DELAY': f.get('delay_ms', [600, 1200]),
                   'RETRIES': f.get('retries', 2), 'DEADLINE_MS': int(f.get('run_limit_minutes', 10) * 60000), 'NO_DOM': True}
         self.open(L['season'], L['divisions'][0][2] if L['divisions'] else None)
         src = (ROOT / 'scripts' / 'scrape.js').read_text(encoding='utf-8')
@@ -377,11 +377,26 @@ class FullTime:
             raise RuntimeError(msg) from None
         return res['out']['data'], res['out']['meta'], res['summary']
 
+    def history(self, seasons):
+        """One-off fetch of past seasons (scripts/history.js): {label: {divisions, results}}."""
+        self.open(seasons[0][0], None)
+        src = (ROOT / 'scripts' / 'history.js').read_text(encoding='utf-8')
+        js = """async ([src, cfg]) => { window.__thcfg = cfg; const AF = Object.getPrototypeOf(async function(){}).constructor;
+          const summary = await new AF(src.replace(/\\n([^\\n]*)\\s*$/, '\\nreturn $1'))(); return { summary, out: window.__thout }; }"""
+        try:
+            res = self.page.evaluate(js, [src, {'SEASONS': seasons}])
+        except Exception as e:
+            msg = str(e).split('\n')[0]
+            if re.search(r'HTTP (403|429)', msg):
+                raise Blocked(msg) from None
+            raise RuntimeError(msg) from None
+        return res['out'], res['summary']
+
 
 # ---------------------------------------------------------------------------------------------------- build and publish
 
 def build_site(L, data, updated, fetched, cfg, workdir):
-    tpl = (ROOT / 'scripts' / 'page.html').read_text(encoding='utf-8')
+    tpl = (ROOT / 'scripts' / L.get('page', 'page.html')).read_text(encoding='utf-8')  # a league can stay on an older design
     page = workdir / f'{L["id"]}' / 'page.html'
     page.parent.mkdir(parents=True, exist_ok=True)
     page.write_text(make_page(L, data, updated, fetched, tpl, cfg['site_base']), encoding='utf-8', newline='')
@@ -586,7 +601,9 @@ def run(a):
                 meta_new = {**meta, 'venue_misses': misses, 'last_check': now.isoformat(timespec='seconds')}
                 if plan['full']:
                     meta_new['last_full'] = meta_new['last_check']
-                if changed or heartbeat or a.force:
+                if not L.get('publish', True):
+                    s['note'] = 'saved, not published yet (preview)'
+                elif changed or heartbeat or a.force:
                     updated, fetched = label_updated(data, now), label_fetched(now)
                     site = build_site(L, data, updated, fetched, cfg, work)
                     to_publish.append((L, site))
@@ -614,6 +631,20 @@ def run(a):
                     traceback.print_exc()
             finally:
                 s['duration_s'] = round(time.time() - lt, 1)
+        # Past seasons: fetched once, never change (config "history": {"seasons": [[season id, "2025-26"], ...]})
+        hist = [x for x in cfg.get('history', {}).get('seasons', []) if not (ROOT / 'data' / 'history' / f'{x[1]}.json').exists()]
+        if hist and not blocked and not a.dry_run and not a.league:
+            try:
+                if browser is None:
+                    browser = FullTime(cfg).__enter__()
+                got, summary = browser.history(hist)
+                for label, h in got.items():
+                    p = ROOT / 'data' / 'history' / f'{label}.json'
+                    write_json(p, {'divisions': h['divisions'], 'results': h['results']})
+                    data_files.append(p)
+                log(f'history: {summary}')
+            except Exception as e:
+                log(f'history: FAILED: {e}')
         if browser:
             browser.__exit__(None, None, None)
 
