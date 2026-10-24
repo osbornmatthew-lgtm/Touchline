@@ -427,7 +427,7 @@ button.jstep.on,button.jstep:hover{border-color:var(--accent)}
 <main class="wrap" id="top">
   <div class="intro" data-tabs="home table fixtures results stats">
     <nav class="ages" id="ages" aria-label="Age group"></nav>
-    <div class="eyebrow">Eastern Junior Alliance<span class="lg-sub" id="lg-sub">Under 16 · 2026–27</span></div>
+    <div class="eyebrow"><span id="lg-name">Eastern Junior Alliance</span><span class="lg-sub" id="lg-sub">Under 16 · 2026–27</span></div>
     <h1 id="title"></h1>
     <div class="meta" id="updated"></div>
     <div class="stale" id="stale" hidden></div>
@@ -592,9 +592,14 @@ const BRAND = { code: 'EJA', bar: '#C9F24A' };
 const AGE = 'U16';
 const MANAGE = true;  // "Manage this team?" link to the team details form
 const AGES = ['U13', 'U14', 'U15', 'U16', 'U18'];
+// The age group at the top level of the site, and (other leagues) the full address of each age group's page
+const HOME_AGE = 'U16';
+const AGE_URLS = null;
+const LEAGUE_NAME = 'Eastern Junior Alliance';
+const ageKey = a => BRAND.code === 'EJA' ? (a === 'U16' ? 'touchline' : 'touchline-' + a.toLowerCase()) : 'touchline-' + BRAND.code.toLowerCase() + '-' + a.toLowerCase();
 const HIST = /*HIST*/[];
 // Saved settings are per league (EJA keeps the original keys).
-const LSK = BRAND.code === 'EJA' ? (AGE === 'U16' ? 'touchline' : 'touchline-' + AGE.toLowerCase()) : 'touchline-' + BRAND.code.toLowerCase();
+const LSK = ageKey(AGE);
 const CUP_ACCENT = BRAND.bar;
 // Test run: parent feedback goes here (email address).
 const FEEDBACK = 'osborn.matthew@gmail.com';
@@ -881,7 +886,7 @@ const ordinal = n => { const s = ['th','st','nd','rd'], v = n % 100; return n + 
 const today = new Date(); today.setHours(0, 0, 0, 0);
 
 const teamDiv = {};
-DATA.divisions.forEach((d, i) => d.teams.forEach(t => teamDiv[t[0]] = i));
+DATA.divisions.forEach((d, i) => d.teams.forEach(t => { if (!(t[0] in teamDiv)) teamDiv[t[0]] = i; }));  // a team in two stages' divisions: the first listed is its home
 let mine = null, linked = null;
 try { const s = localStorage.getItem(LSK + '-team'); if (s && s in teamDiv) mine = s; } catch (e) {}
 // A team link (?team=hashtag-united) picks that team and saves it, so the home-screen icon opens on it too.
@@ -1630,13 +1635,12 @@ function renderTabbar() {
   document.querySelectorAll('#tabbar button').forEach(b => b.setAttribute('aria-current', b.dataset.tab === tab ? 'page' : 'false'));
 }
 // ---- Age groups (EJA): one page per age; your team is saved per age, so "My teams" spans them
-const ageBase = AGE === 'U16' ? './' : '../';
-const ageHref = a => a === 'U16' ? ageBase : ageBase + a.toLowerCase() + '/';
-const ageKey = a => a === 'U16' ? 'touchline' : 'touchline-' + a.toLowerCase();
+const ageBase = AGE === HOME_AGE ? './' : '../';
+const ageHref = a => AGE_URLS ? AGE_URLS[a] : a === HOME_AGE ? ageBase : ageBase + a.toLowerCase() + '/';
 const savedFor = a => { if (a === AGE) return mine; try { return localStorage.getItem(ageKey(a) + '-team'); } catch (e) { return null; } };
 function renderAges() {
   const el = document.getElementById('ages');
-  if (BRAND.code !== 'EJA') { el.innerHTML = ''; return; }
+  if (AGES.length < 2) { el.innerHTML = ''; return; }
   const keep = tab === 'home' ? '' : '#' + tab;
   el.innerHTML = AGES.map(a => { const t = savedFor(a), on = a === AGE;
     return `<a href="${ageHref(a)}${t && !on ? '?team=' + slug(t) : ''}${keep}" class="${on ? 'on' : ''}" ${on ? 'aria-current="page"' : ''} data-track="age">${a}${t && !on ? '<span class="dot" aria-label="your team"></span>' : ''}</a>`; }).join('');
@@ -1644,7 +1648,7 @@ function renderAges() {
 const summaries = {};
 async function renderOthers() {
   const sec = document.getElementById('others-sec'), el = document.getElementById('others');
-  if (BRAND.code !== 'EJA') { sec.hidden = true; return; }
+  if (AGES.length < 2) { sec.hidden = true; return; }
   const list = AGES.filter(a => a !== AGE && savedFor(a));
   const missing = AGES.filter(a => a !== AGE && !savedFor(a));
   const addBtn = missing.length ? `<button type="button" class="addteam" id="addteam">+ Add a team in another age group</button><div class="agepick" id="agepick" hidden>${missing.map(a => `<a href="${ageHref(a)}?pick=1">${a}</a>`).join('')}</div>` : '';
@@ -1829,7 +1833,8 @@ offlineNote();
 
 if (linked) track('link/' + slug(linked), linked);
 document.getElementById('lg-sub').textContent = `Under ${AGE.slice(1)} · 2026–27`;
-document.getElementById('welcome-eyebrow').textContent = `Eastern Junior Alliance · Under ${AGE.slice(1)}`;
+document.getElementById('welcome-eyebrow').textContent = `${LEAGUE_NAME} · Under ${AGE.slice(1)}`;
+document.getElementById('lg-name').textContent = LEAGUE_NAME;
 syncLink();
 renderNext();
 renderView();

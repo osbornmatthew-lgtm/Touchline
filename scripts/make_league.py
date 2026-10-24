@@ -104,7 +104,7 @@ def make_page(L, data, updated, fetched, t, site_base='https://touchline-eja.net
         assert t.count(a) == n, (a[:60], t.count(a))
         t = t.replace(a, b)
 
-    if L.get('template', 'brand') != 'native':
+    if L.get('template', 'brand') not in ('native', 'league'):
         B = L['brand']
         site = (site_base + L['folder']).rstrip('/').replace('https://', '')
         rep('--accent:#C9F24A;', f'--accent:{B["bar"]};')
@@ -125,6 +125,28 @@ def make_page(L, data, updated, fetched, t, site_base='https://touchline-eja.net
         t, n = re.subn(r"^const AGE = '.*';$", f"const AGE = '{L['age']}';", t, count=1, flags=re.M)
         t = re.sub(r"^const SITE = '.*';$", f"const SITE = '{site}';", t, count=1, flags=re.M)
         t = re.sub(r'^const HIST = .*;$', lambda _: 'const HIST = ' + json.dumps(cohort_history(L['age']), separators=(',', ':'), ensure_ascii=False) + ';', t, count=1, flags=re.M)
+    if L.get('template') == 'league':
+        # Another league on the current design (e.g. Touchline Girls): its own name, colours, ages and address
+        G = L['league']
+        site = L['site'].rstrip('/').replace('https://', '')
+        rep('--accent:#C9F24A;', f'--accent:{G["bar"]};')
+        rep('--mine:#1E2A14;', f'--mine:{G["mine"]};')
+        rep('aria-label="Touchline EJA"', f'aria-label="Touchline {L["code"]}"')
+        rep('<path fill="#C9F24A" d="M12 86H90V98H12Z"/>', f'<path fill="{G["bar"]}" d="M12 86H90V98H12Z"/>')
+        rep('<b>Touchline</b><span>EJA</span>', f'<b>Touchline</b><span>{G.get("label", L["code"])}</span>')
+        rep("const BRAND = { code: 'EJA', bar: '#C9F24A' };", f"const BRAND = {{ code: '{L['code']}', bar: '{G['bar']}' }};")
+        rep('const MANAGE = true;', 'const MANAGE = false;')
+        rep('>Eastern Junior Alliance<', f'>{G["name"]}<')
+        t = re.sub(r"^const AGE = '.*';$", f"const AGE = '{L['age']}';", t, count=1, flags=re.M)
+        t = re.sub(r"^const AGES = .*;$", 'const AGES = ' + json.dumps(G['ages']) + ';', t, count=1, flags=re.M)
+        t = re.sub(r"^const HOME_AGE = .*;$", f"const HOME_AGE = '{G['ages'][0]}';", t, count=1, flags=re.M)
+        t = re.sub(r"^const AGE_URLS = .*;$", lambda _: 'const AGE_URLS = ' + json.dumps(G['age_urls']) + ';', t, count=1, flags=re.M)
+        t = re.sub(r"^const LEAGUE_NAME = .*;$", lambda _: 'const LEAGUE_NAME = ' + json.dumps(G['name']) + ';', t, count=1, flags=re.M)
+        t = re.sub(r"^const SITE = '.*';$", f"const SITE = '{site}';", t, count=1, flags=re.M)
+        t = re.sub(r'^const HIST = .*;$', 'const HIST = [];', t, count=1, flags=re.M)
+        t = re.sub(r'^const VENUES = .*;$', lambda _: 'const VENUES = ' + json.dumps(G.get('venues', {})) + ';', t, count=1, flags=re.M)
+        t = re.sub(r'^const SPONSORS = .*;$', lambda _: 'const SPONSORS = ' + json.dumps(G.get('sponsors', {})) + ';', t, count=1, flags=re.M)
+        t = re.sub(r"^(const DOTS = \{.*?)( \};)$", lambda mm: mm.group(1) + ''.join(f", '{k}':'{v}'" for k, v in G.get('dots', {}).items()) + mm.group(2), t, count=1, flags=re.M)
     if L.get('template') == 'native':
         data = reconcile(json.loads(json.dumps(data)))
     data = {**data, 'cups': [c for c in data.get('cups', []) if c.get('county') or c.get('results') or c.get('fixtures')]}  # drop empty cups

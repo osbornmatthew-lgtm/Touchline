@@ -155,7 +155,7 @@ def write_json(p, obj, compact=True):
 
 def seed_from_live(L, cfg):
     """First run for a league: start from the data on the live site, so caches are warm from day one."""
-    url = cfg['site_base'] + (L['folder'] + '/' if L['folder'] else '') + f'?x={int(time.time())}'
+    url = (L.get('site') or cfg['site_base'] + (L['folder'] + '/' if L['folder'] else '')) + f'?x={int(time.time())}'
     try:
         page = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'touchline-runner'}), timeout=30).read().decode('utf-8')
         m = re.search(r'^const DATA = (.*);$', page, re.M)
@@ -364,7 +364,7 @@ class FullTime:
         f = self.cfg['fetch']
         js_cfg = {'S': L['season'], 'DIVS': L['divisions'], 'CUPS': L['cups'], 'AGE': L.get('age_match', L['age']), 'KEEP_SIDE': L['keep_side'], 'CLEAN': L.get('clean'),
                   'ONLY_DIVS': plan['only_divs'], 'ONLY_CUPS': plan['only_cups'], 'EVENTS': plan['events'],
-                  'KNOWN_VENUES': plan['known_venues'], 'NO_EVENTS': not L.get('events', True), 'LIMIT': f.get('concurrency', 2), 'DELAY': f.get('delay_ms', [600, 1200]),
+                  'KNOWN_VENUES': plan['known_venues'], 'NO_EVENTS': not L.get('events', True), 'FILTER_FIXTURES': L.get('filter_fixtures', False), 'LIMIT': f.get('concurrency', 2), 'DELAY': f.get('delay_ms', [600, 1200]),
                   'RETRIES': f.get('retries', 2), 'DEADLINE_MS': int(f.get('run_limit_minutes', 10) * 60000), 'NO_DOM': True}
         self.open(L['season'], L['divisions'][0][2] if L['divisions'] else None)
         src = (ROOT / 'scripts' / 'scrape.js').read_text(encoding='utf-8')

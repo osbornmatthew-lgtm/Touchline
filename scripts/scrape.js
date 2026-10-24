@@ -109,7 +109,9 @@ const perDiv = await Promise.all(doDivs.map(async ([name, key, div]) => {
   const teams = [...tables[tables.length - 1].querySelectorAll('tbody tr')].map(r => { const v = [...r.children].map(c => c.innerText.trim()).filter(x => x !== ''); const n = v.length; return [clean(v[1]), +v[2], +v[n-7], +v[n-6], +v[n-5], +v[n-4], +v[n-3], +v[n-1]]; });
   const ev = await Promise.all(R.map(x => x.row[3] === null ? [] : events(x.id, x.row[1], x.row[2], x.row[3], x.row[4])));
   R.forEach((x, i) => x.row.push(x.id, ev[i]));
-  return { div: { name, teams, results: R.map(x => x.row), fixtures: F.map(x => x.row) }, R3, F3 };
+  // FILTER_FIXTURES: some leagues' finished stages have no fixture list of their own, so Full-Time returns every fixture; keep this division's games only
+  const names = new Set(teams.map(t => t[0])), mineR = r => !CFG.FILTER_FIXTURES || (names.has(r[1]) && names.has(r[2])), mineF = f => !CFG.FILTER_FIXTURES || (names.has(f[2]) && names.has(f[3]));
+  return { div: { name, teams, results: R.map(x => x.row).filter(mineR), fixtures: F.map(x => x.row).filter(mineF) }, R3, F3 };
 }));
 for (const { div, R3, F3 } of perDiv) {
   out.divisions.push(div);

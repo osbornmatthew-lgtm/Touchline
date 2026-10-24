@@ -15,7 +15,7 @@ if os.path.exists(_cfg):
     _c = json.load(open(_cfg, encoding='utf-8'))
     for _l in _c['leagues']:
         LEAGUES[_l['id']] = {'code': _l['code'], 'desc': _l['desc'], 'assets': _l.get('assets', ''),
-                             'site': _c['site_base'] + (_l['folder'] + '/' if _l['folder'] else '')}
+                             'site': _l.get('site') or (_c['site_base'] + (_l['folder'] + '/' if _l['folder'] else ''))}
 LEAGUE = sys.argv[2] if len(sys.argv) > 2 else 'eja'  # also the prefix so several league sites can share one counter
 LG = LEAGUES[LEAGUE]
 NAME = 'Touchline ' + LG['code']
