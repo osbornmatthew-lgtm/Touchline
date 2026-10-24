@@ -360,6 +360,8 @@ nav.sections .myteam{margin-right:0}
 .tabbar button[aria-current=page] svg{color:var(--accent)}
 @media (min-width:760px){ body{padding-bottom:110px} .tabbar{left:50%;right:auto;transform:translateX(-50%);width:520px;bottom:12px;border:1px solid var(--line);border-radius:18px;padding-bottom:4px} }
 .linkbtn{background:none;border:0;color:var(--fg-2);font:inherit;font-size:14px;font-weight:600;cursor:pointer;min-height:44px;padding:0 4px}
+.tlink{cursor:pointer}
+.tlink:focus-visible{outline:2px solid var(--accent)}
 .mini{overflow:hidden}
 .mini .mrow{display:grid;grid-template-columns:30px minmax(0,1fr) 34px 44px;align-items:center;gap:8px;padding:0 14px;min-height:48px;border-top:1px solid var(--line);font-size:14px;color:var(--fg)}
 .mini .mrow:first-child{border-top:0}
@@ -410,10 +412,6 @@ nav.sections .myteam{margin-right:0}
     <div class="strip" id="latest"></div>
   </section>
 
-  <section aria-labelledby="mini-h" id="mini-sec" data-tabs="home" hidden>
-    <div class="sec-head"><h2 id="mini-h">Table</h2><button type="button" class="linkbtn" data-goto="table">Full table</button></div>
-    <div class="panel mini" id="mini"></div>
-  </section>
 
   <div class="tips" id="tips" data-tabs="home"></div>
 
@@ -628,7 +626,7 @@ function renderToday() {
     else if (g.ko && nowM >= mins(g.ko)) { sc = '<span class="sc ko">v</span>'; st = '<span class="st live">Playing now</span>'; }
     else { sc = `<span class="sc ko">${g.ko ? esc(g.ko) : 'TBC'}</span>`; st = '<span class="st">Kick-off</span>'; }
     const nm = t => `<span class="long">${esc(t)}</span><span class="short" title="${esc(t)}">${esc(shortName(t))}</span>`;
-    return `<div class="trow ${m ? 'mine' : ''}"><span class="h">${nm(g.h)}</span>${sc}<span class="a">${nm(g.a)}</span>${st}${g.comp ? `<span class="cp">${esc(g.comp)}</span>` : ''}</div>`;
+    return `<div class="trow ${m ? 'mine' : ''}"><span class="h">${tlink(g.h, nm(g.h))}</span>${sc}<span class="a">${tlink(g.a, nm(g.a))}</span>${st}${g.comp ? `<span class="cp">${esc(g.comp)}</span>` : ''}</div>`;
   }).join('');
 }
 function oppPreview(opp) {
@@ -637,7 +635,7 @@ function oppPreview(opp) {
   if (di !== undefined) {
     const d = DATA.divisions[di], ti = d.teams.findIndex(t => t[0] === opp), t = d.teams[ti];
     const fm = (formMap(d)[opp] || []).slice(-5).map(x => `<i class="${x}">${x}</i>`).join('');
-    bits.push(`<div><span class="who">${esc(opp)}</span> · ${ordinal(ti + 1)} in ${esc(d.name)} · ${t[7]} pts${fm ? ` · <span class="form">${fm}</span>` : ''}</div>`);
+    bits.push(`<div>${tlink(opp).replace('class="tlink"', 'class="tlink who"')} · ${ordinal(ti + 1)} in ${esc(d.name)} · ${t[7]} pts${fm ? ` · <span class="form">${fm}</span>` : ''}</div>`);
     const s = teamSummary(opp), last = s.g[s.g.length - 1];
     if (last) bits.push(`<div>Last game: ${last.res === 'W' ? 'beat' : last.res === 'L' ? 'lost to' : 'drew with'} ${esc(last.opp)} ${Math.max(last.gf, last.ga)}–${Math.min(last.gf, last.ga)}</div>`);
   }
@@ -810,6 +808,7 @@ const toDate = s => { if (!dated(s)) return new Date(2027, 6, 31); const [d, m] 
 const dayLabel = s => { if (!dated(s)) return 'Date to be confirmed'; const d = toDate(s); return `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`; };
 const initials = n => { const w = n.replace(/&/g, ' ').split(/\s+/).filter(Boolean); return (w.length > 1 ? w.slice(0, 3).map(x => x[0]).join('') : n.slice(0, 3)).toUpperCase(); };
 const crestCol = n => { const di = teamDiv[n]; return di === undefined ? '#8A94A0' : (DOTS[DATA.divisions[di].name.replace(/^U\d+ /, '')] || CUP_ACCENT); };
+const tlink = (n, inner) => n in teamDiv ? `<span class="tlink" data-team="${esc(n)}" role="button" tabindex="0">${inner === undefined ? esc(n) : inner}</span>` : (inner === undefined ? esc(n) : inner);
 const crest = n => { const c = initials(n); return `<span class="crest" aria-hidden="true" style="--cc:${crestCol(n)}">${esc(c)}</span>`; };
 const gdTxt = g => g > 0 ? '+' + g : g < 0 ? '−' + Math.abs(g) : '0';
 const ordinal = n => { const s = ['th','st','nd','rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
@@ -906,7 +905,7 @@ function renderNext() {
   const pps = postponedFor(mine).filter(f => toDate(f[0]) <= toDate(date));
   const ppHtml = pps.map(f => `<div class="ppnote"><b>${esc(f[6])}:</b> ${esc(f[2])} v ${esc(f[3])}, ${dayLabel(f[0])}</div>`).join('');
   el.innerHTML = `<div class="row">
-      <div class="teams">${esc(h)} v ${esc(a)}<small>${date === ddmm(new Date()) ? 'Today' : dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
+      <div class="teams">${tlink(h)} v ${tlink(a)}<small>${date === ddmm(new Date()) ? 'Today' : dayLabel(date)} · ${h === mine ? 'Home' : 'Away'} · ${esc(comp)}</small></div>
       <div class="kowrap"><div class="eyebrow">Kick-off</div><div class="ko ${ko ? '' : 'tbc'}">${ko ? esc(ko) : 'Time TBC'}</div></div>
     </div>
     <div class="sub">${venue ? `<span>${esc(venueName(venue))}</span>` : '<span>Venue not yet listed</span>'}${venue ? mapLinks(venue) : id ? `<a href="${FT + id}" target="_blank" rel="noopener">Venue details</a>` : ''}${venue && parkingFor(venue) ? `<span class="parking">Parking: ${esc(parkingFor(venue))}</span>` : ''}<button type="button" class="sharebtn" data-share="preview">Share preview</button></div>${ppHtml}${stakeHtml(mineF[0] && { ...mineF[0], div: DATA.divisions.find(dd => dd.name === mineF[0].comp) || null })}${oppPreview(h === mine ? a : h)}`;
@@ -1031,8 +1030,8 @@ function renderLatest(results, cups) {
   const tag = (comp, note) => { const pens = String(note || '').split(',').map(x => x.trim()).filter(x => /^pens/i.test(x)); return comp ? esc(comp) + (pens.length ? ' · ' + esc(pens[0]) : '') : 'Full time'; };
   games.sort((x, y) => (x[6] ? 1 : 0) - (y[6] ? 1 : 0));
   el.innerHTML = games.map(([, h, a, hs, as, note, comp]) => `<article class="panel match ${h === mine || a === mine ? 'mine' : ''}"><div class="tag">${tag(comp, note)}</div>
-    <div class="line ${cl(hs, as)}"><span>${esc(h)}</span><span class="sc">${hs}</span></div>
-    <div class="line ${cl(as, hs)}"><span>${esc(a)}</span><span class="sc">${as}</span></div></article>`).join('');
+    <div class="line ${cl(hs, as)}"><span>${tlink(h)}</span><span class="sc">${hs}</span></div>
+    <div class="line ${cl(as, hs)}"><span>${tlink(a)}</span><span class="sc">${as}</span></div></article>`).join('');
 }
 
 function groupBy(list, keyFn, order) {
@@ -1404,7 +1403,7 @@ function renderRoundup() {
 }
 
 function renderMini() {
-  const sec = document.getElementById('mini-sec');
+  const sec = document.getElementById('mini-sec'); if (!sec) return;
   if (typeof view !== 'number') { sec.hidden = true; return; }
   const { rows } = buildTable(view), me = rows.findIndex(r => r.name === mine);
   const keep = new Set(me < 0 ? [0, 1, 2, 3] : [0, me - 1, me, me + 1].filter(k => k >= 0 && k < rows.length));
