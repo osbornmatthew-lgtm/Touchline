@@ -1,6 +1,6 @@
 {
   "_help": "One entry per Touchline site. To add an EJA age group, copy the EJA entry, give it a new id and folder, change age, season, divisions, cups and brand, then run: python runner/touchline.py run --league <id> --dry-run. See runner/README.md.",
-  "site_base": "https://osbornmatthew-lgtm.github.io/Touchline/",
+  "site_base": "https://touchline-eja.netlify.app/",
   "fetch": {
     "concurrency": 2,
     "delay_ms": [

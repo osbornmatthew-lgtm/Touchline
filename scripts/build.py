@@ -6,8 +6,8 @@ src_path = sys.argv[1]
 GOATCOUNTER = 'touchline'
 # League: python3 build.py <page.html> [eja|bcfa]
 LEAGUES = {
-    'eja': {'code': 'EJA', 'desc': 'EJA Under 16 league tables, results, fixtures and stats.', 'site': 'https://osbornmatthew-lgtm.github.io/Touchline/', 'assets': ''},
-    'bcfa': {'code': 'BCFA', 'desc': 'BCFA Youth League Under 13 Division 3 tables, results, fixtures and stats.', 'site': 'https://osbornmatthew-lgtm.github.io/Touchline/bcfa/', 'assets': 'bcfa/'},
+    'eja': {'code': 'EJA', 'desc': 'EJA Under 16 league tables, results, fixtures and stats.', 'site': 'https://touchline-eja.netlify.app/', 'assets': ''},
+    'bcfa': {'code': 'BCFA', 'desc': 'BCFA Youth League Under 13 Division 3 tables, results, fixtures and stats.', 'site': 'https://touchline-eja.netlify.app/bcfa/', 'assets': 'bcfa/'},
 }
 # config/leagues.json is the list of leagues; the two above are only a fallback when this script is run on its own.
 _cfg = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'config', 'leagues.json')
