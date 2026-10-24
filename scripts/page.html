@@ -881,7 +881,7 @@ let mine = null, linked = null;
 try { const s = localStorage.getItem(LSK + '-team'); if (s && s in teamDiv) mine = s; } catch (e) {}
 // A team link (?team=hashtag-united) picks that team and saves it, so the home-screen icon opens on it too.
 const qTeam = new URLSearchParams(location.search).get('team');
-if (qTeam) { const n = Object.keys(teamDiv).find(t => slug(t) === slug(qTeam)); if (n) { mine = linked = n; try { localStorage.setItem(LSK + '-team', n); } catch (e) {} } }
+if (qTeam) { const n = Object.keys(teamDiv).find(t => slug(t) === slug(qTeam)); if (n) { mine = linked = n; try { localStorage.setItem(LSK + '-team', n); localStorage.setItem('touchline-home', AGE); } catch (e) {} } }
 let view = mine ? teamDiv[mine] : 0;
 // Tabs: Home (your team), Table, Fixtures, Results, Stats. The address keeps the tab (#table) so a refresh stays put.
 const TABS = ['home', 'table', 'fixtures', 'results', 'stats'];
@@ -1782,7 +1782,7 @@ sel.innerHTML = teamOptions();
 function setTeam(name) {
   if (!(name in teamDiv)) return;
   mine = name;
-  try { localStorage.setItem(LSK + '-team', mine); } catch (e) {}
+  try { localStorage.setItem(LSK + '-team', mine); localStorage.setItem('touchline-home', AGE); } catch (e) {}
   sel.innerHTML = teamOptions();
   view = teamDiv[mine];
   track('picked/' + slug(mine), mine);
@@ -1826,5 +1826,9 @@ renderOthers();
 if (location.hash) { window.scrollTo(0, 0); addEventListener('load', () => window.scrollTo(0, 0)); }
 let seen = false; try { seen = !!localStorage.getItem(LSK + '-browsing'); } catch (e) {}
 if (new URLSearchParams(location.search).get('pick')) { try { history.replaceState(null, '', location.pathname); } catch (e) {} openWelcome(); }
-else if (!mine && !seen) openWelcome();
+else if (!mine && !seen) {
+  // The home-screen icon opens the address it was saved from. If their team is in another age group, go there.
+  let home = null, t = null; try { home = localStorage.getItem('touchline-home'); t = home && home !== AGE && AGES.includes(home) ? localStorage.getItem(ageKey(home) + '-team') : null; } catch (e) {}
+  if (t) location.replace(ageHref(home) + '?team=' + slug(t)); else openWelcome();
+}
 </script>
