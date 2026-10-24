@@ -404,7 +404,7 @@ def pages_worktree():
 
 
 def place_sites(wt, sites, cfg):
-    other_folders = {L['folder'] for L in cfg['leagues'] if L['folder']}
+    other_folders = {L['folder'] for L in cfg['leagues'] if L['folder']} | {'preview'}  # preview: design previews, left alone
     for L, site in sites:
         if L['folder'] == '':
             for item in wt.iterdir():
