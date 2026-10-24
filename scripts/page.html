@@ -367,12 +367,22 @@ nav.sections .myteam{margin-right:0}
 .h2hl .rc{margin-left:auto;color:var(--muted);font-size:12px;white-space:nowrap}
 .journey{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
 .jstep{flex:1 0 92px;border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+button.jstep{font:inherit;color:inherit;text-align:left;cursor:pointer}
+button.jstep.on,button.jstep:hover{border-color:var(--accent)}
+#jtable{margin-top:10px;overflow:hidden}
+#jtable .mrow{display:grid;grid-template-columns:30px minmax(0,1fr) 34px 44px;align-items:center;gap:8px;padding:0 14px;min-height:42px;border-top:1px solid var(--line);font-size:14px}
+#jtable .mrow.hd{min-height:30px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+#jtable .mrow.mine{background:var(--mine);box-shadow:inset 4px 0 0 var(--accent);font-weight:700}
+#jtable .mrow.me2{font-weight:700}
+#jtable .r{text-align:right;color:var(--fg-2)} #jtable .pts{font-family:var(--display);font-weight:700;font-size:18px;color:var(--fg)}
+.jt-h{padding:10px 14px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.vs-sum{margin:0 0 8px;font-size:14px;color:var(--fg-2)} .vs-sum b{color:var(--fg)}
 .jstep.now{border-color:var(--accent);background:var(--mine)}
 .jstep .ja{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em}
 .jstep .jp{font-family:var(--display);font-weight:800;font-size:28px;line-height:1}
 .jstep .js{font-size:12px;color:var(--fg-2)}
 .mrow.ft{grid-template-columns:24px minmax(0,1fr) auto 34px}
-.ages{display:flex;gap:6px;flex-wrap:wrap}
+.ages{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
 .ages:empty{display:none}
 .ages a{display:inline-flex;align-items:center;min-height:34px;padding:0 13px;border-radius:999px;border:1px solid var(--line-2);color:var(--fg-2);text-decoration:none;font-weight:700;font-size:13px;position:relative}
 .ages a::after{content:'';position:absolute;inset:-5px -2px}
@@ -406,8 +416,8 @@ nav.sections .myteam{margin-right:0}
 
 <main class="wrap" id="top">
   <div class="intro" data-tabs="home table fixtures results stats">
-    <div class="eyebrow">Eastern Junior Alliance<span class="lg-sub" id="lg-sub">Under 16 · 2026–27</span></div>
     <nav class="ages" id="ages" aria-label="Age group"></nav>
+    <div class="eyebrow">Eastern Junior Alliance<span class="lg-sub" id="lg-sub">Under 16 · 2026–27</span></div>
     <h1 id="title"></h1>
     <div class="meta" id="updated"></div>
     <div class="stale" id="stale" hidden></div>
@@ -1264,8 +1274,8 @@ function historyKv(name) {
 function journeyHtml(name, i) {
   const j = journey(name); if (!j.length) return '';
   const { rows } = buildTable(i), now = rows.find(r => r.name === name), pj = projection(i).by[name];
-  const step = (age, pos, sub, cls = '') => `<div class="jstep ${cls}"><span class="ja">${age}</span><span class="jp">${pos}</span><span class="js">${sub}</span></div>`;
-  return `<section><h3>Their journey</h3><div class="journey">${j.map(x => step(x.age, ordinal(x.pos), `of ${x.of} · ${esc(x.div)}`)).join('')}${now ? step(AGE, ordinal(now.pos), pj ? `now · heading for ${ordinal(pj.pos)}` : 'now', 'now') : ''}</div><p class="fine">Final league positions. Divisions change from season to season, so positions aren't directly comparable.</p></section>`;
+  const step = (age, pos, sub, cls = '', key = '') => `<${key ? 'button type="button"' : 'div'} class="jstep ${cls}"${key ? ` data-season="${key}" aria-expanded="false"` : ''}><span class="ja">${age}${key ? ' ›' : ''}</span><span class="jp">${pos}</span><span class="js">${sub}</span></${key ? 'button' : 'div'}>`;
+  return `<section><h3>Their journey</h3><p class="fine" style="margin:-6px 0 8px">Tap a season for its final table</p><div class="journey">${j.map(x => step(x.age, ordinal(x.pos), `of ${x.of} · ${esc(x.div)}`, '', esc(x.season + '|' + x.age + ' ' + x.div))).join('')}${now ? step(AGE, ordinal(now.pos), pj ? `now · heading for ${ordinal(pj.pos)}` : 'now', 'now') : ''}</div><div class="panel" id="jtable" hidden></div><p class="fine">Final league positions. Divisions change from season to season, so positions aren't directly comparable.</p></section>`;
 }
 // Stats tab: form table (last 5 league games)
 function formTable(i) {
@@ -1396,12 +1406,12 @@ function openTeam(name) {
     else st = 'No result yet';
     return `<li><b>${esc(cn)}</b><span>${st}</span></li>`;
   }).join('');
-  let h2h = '';
+  let vsHtml = '';
   if (mine && mine !== name) {
-    const vs = s.g.filter(x => x.opp === mine).map(x => x.home ? SCORE(name, mine, x.gf, x.ga) : SCORE(mine, name, x.ga, x.gf))
-      .concat(cups.filter(c => c.opp === mine && c.gf !== null).map(c => c.home ? SCORE(name, mine, c.gf, c.ga) : SCORE(mine, name, c.ga, c.gf)));
+    const gs = h2h(mine, name), t = tally(gs), older = gs.some(g => g.season !== '2026-27');
     const nextVs = upcoming(name).find(u => u.f[2] === mine || u.f[3] === mine);
-    h2h = `<section><h3>Versus ${esc(mine)}</h3><ul class="kv">${vs.length ? vs.map(v => `<li>${v}</li>`).join('') : '<li class="fine">Not played this season</li>'}${nextVs ? `<li class="fine">Next meeting: ${dayLabel(nextVs.f[0])}${nextVs.f[1] ? ', ' + esc(nextVs.f[1]) : ''}</li>` : ''}</ul></section>`;
+    const rows = gs.map(g => `<li><span class="rp ${g.res}">${g.res}</span><span class="rt">${g.home ? `${esc(mine)} ${g.hs}–${g.as} ${esc(name)}` : `${esc(name)} ${g.hs}–${g.as} ${esc(mine)}`}</span><span class="rc">${g.age} · ${esc(g.league ? 'League' : g.comp)} · ${shortMonth(g.d)}</span></li>`).join('');
+    vsHtml = `<section><h3>Versus ${esc(mine)}</h3>${gs.length ? `<p class="vs-sum">${esc(mine)}: <b>W${t.w} D${t.d} L${t.l}</b> · goals ${t.gf}–${t.ga}${older ? ' · since ' + sinceAge(mine) : ''}</p>` : ''}<ul class="list">${rows || '<li class="fine">Never played each other</li>'}${nextVs ? `<li class="fine">Next meeting: ${dayLabel(nextVs.f[0])}${nextVs.f[1] ? ', ' + esc(nextVs.f[1]) : ''}</li>` : ''}</ul></section>`;
   }
   const sh = document.getElementById('sheet');
   document.documentElement.style.setProperty('--accent', DOTS[d.name.replace(/^U1\d /, '')] || CUP_ACCENT);
@@ -1417,7 +1427,7 @@ function openTeam(name) {
     <section><h3>When they score</h3>${when}</section>
     <section><h3>Next up</h3><ul class="list">${upHtml}</ul>${calHtml(name)}</section>
     ${comps.length ? `<section><h3>Cup runs</h3><ul class="kv">${cupHtml}</ul></section>` : ''}
-    ${h2h}
+    ${vsHtml}
     <section><h3>All results</h3><ul class="list">${resHtml || '<li class="fine">No results yet</li>'}</ul></section>`;
   sh.hidden = false;
   document.body.style.overflow = 'hidden';
@@ -1607,6 +1617,18 @@ function setTab(t) {
   renderView();
   if (changed) { window.scrollTo(0, 0); track('tab/' + t); }
 }
+// Past season's final table, from the journey on a team page
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-season]'); if (!b) return;
+  const el = document.getElementById('jtable'), [season, div] = b.dataset.season.split('|'), open = b.getAttribute('aria-expanded') !== 'true';
+  document.querySelectorAll('[data-season]').forEach(x => { x.setAttribute('aria-expanded', 'false'); x.classList.remove('on'); });
+  if (!open) { el.hidden = true; return; }
+  const H = HIST.find(h => h.season === season), d = H && H.divisions.find(x => x.name === div); if (!d) return;
+  const team = document.querySelector('.sh-head h2')?.textContent;
+  el.innerHTML = `<div class="jt-h">${esc(div)} · ${season} · final table</div><div class="mrow hd"><span>#</span><span>Team</span><span class="r">P</span><span class="r">Pts</span></div>` + d.teams.map((t, k) =>
+    `<div class="mrow ${t[0] === team ? 'mine' : t[0] === mine ? 'me2' : ''}"><span>${k + 1}</span><span class="tn">${esc(t[0])}</span><span class="r">${t[1]}</span><span class="r pts">${t[7]}</span></div>`).join('');
+  el.hidden = false; b.setAttribute('aria-expanded', 'true'); b.classList.add('on'); track('history-table/' + season);
+});
 document.getElementById('seg').addEventListener('click', e => { const b = e.target.closest('[data-only]'); if (!b) return; onlyMine = b.dataset.only === '1'; track('filter/' + (onlyMine ? 'mine' : 'all')); renderView(); });
 document.getElementById('tabbar').addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b) setTab(b.dataset.tab); });
 document.addEventListener('click', e => { const g = e.target.closest('[data-goto]'); if (g) { e.preventDefault(); setTab(g.dataset.goto); } });
