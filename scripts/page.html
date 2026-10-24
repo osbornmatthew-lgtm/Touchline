@@ -1474,7 +1474,7 @@ function openTeam(name) {
     </header>
     ${partnerHtml(name)}
     <div class="stats six">${tileHtml}</div>
-    ${MANAGE && BRAND.code === 'EJA' ? `<a class="manage" href="https://touchline-eja.netlify.app/join.html?age=${AGE}&team=${encodeURIComponent(name)}" target="_blank" rel="noopener" data-track="manage"><b>Manage ${esc(name)}?</b><span>Add your crest, kit colours and sponsors</span></a>` : ''}
+    ${MANAGE && BRAND.code === 'EJA' ? `<a class="manage" href="https://touchline-eja.netlify.app/join.html?age=${AGE}&team=${encodeURIComponent(name)}&back=${encodeURIComponent(AGE === 'U16' ? '/' : '/' + AGE.toLowerCase() + '/')}" data-track="manage"><b>Manage ${esc(name)}?</b><span>Add your crest, kit colours and sponsors</span></a>` : ''}
     ${journeyHtml(name, i)}
     ${seasonsHtml(name)}
     <section><h3>Talking points</h3><ul class="kv">${hl.concat(historyKv(name)).join('') || '<li class="fine">No league games yet</li>'}</ul>${htNote}</section>
