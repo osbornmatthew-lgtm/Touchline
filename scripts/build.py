@@ -134,17 +134,18 @@ for team in teams:
          'X-WR-CALNAME:' + esc(team + ' (Touchline)'), 'X-WR-TIMEZONE:Europe/London', 'REFRESH-INTERVAL;VALUE=DURATION:PT6H', 'X-PUBLISHED-TTL:PT6H'] + TZ
     for f, comp in fx:
         if team not in (f[2], f[3]) or f[6]: continue
+        if not re.match(r'^\d\d/\d\d$', str(f[0] or '')): continue  # no date yet ("TBC"): nothing to put in a calendar
         dd, mm = int(f[0][:2]), int(f[0][3:5])
         day = datetime(start_year + (1 if mm < 7 else 0), mm, dd)
         uid = (str(f[5]) if f[5] else hashlib.md5((f[0] + f[2] + f[3]).encode()).hexdigest()) + '@touchline-' + LEAGUE
         L += ['BEGIN:VEVENT', 'UID:' + uid, 'DTSTAMP:' + stamp, 'SUMMARY:' + esc(f'{f[2]} v {f[3]}' + ('' if comp.endswith(' league') else f' ({comp})'))]
-        if f[1]:
+        if f[1] and re.match(r'^\d{1,2}:\d\d$', str(f[1])):
             h, m = map(int, f[1].split(':')); st = day.replace(hour=h, minute=m)
             L += ['DTSTART;TZID=Europe/London:' + st.strftime('%Y%m%dT%H%M%S'), 'DTEND;TZID=Europe/London:' + (st + timedelta(minutes=100)).strftime('%Y%m%dT%H%M%S')]
         else:
             L += ['DTSTART;VALUE=DATE:' + day.strftime('%Y%m%d'), 'DTEND;VALUE=DATE:' + (day + timedelta(days=1)).strftime('%Y%m%d')]
         if f[4]: L.append('LOCATION:' + esc(VENUES.get(f[4], {}).get('q') or (f[4] + ', ' + DATA.get('venues', {}).get(f[4], {})['a'] if DATA.get('venues', {}).get(f[4], {}).get('a') else f[4])))
-        L.append('DESCRIPTION:' + esc(comp + '.' + ('' if f[1] else ' Kick-off time not published yet.') + ' Check FA Full-Time for late changes.'))
+        L.append('DESCRIPTION:' + esc(comp + '.' + ('' if f[1] and re.match(r'^\d{1,2}:\d\d$', str(f[1])) else ' Kick-off time not published yet.') + ' Check FA Full-Time for late changes.'))
         if f[5]: L.append('URL:https://fulltime.thefa.com/displayFixture.html?id=' + str(f[5]))
         L.append('END:VEVENT')
     L.append('END:VCALENDAR')

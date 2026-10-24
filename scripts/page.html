@@ -725,8 +725,10 @@ function applyAccent(col) {
 const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const toDate = s => { const [d, m] = s.split('/').map(Number); return new Date(m >= 8 ? 2026 : 2027, m - 1, d); };
-const dayLabel = s => { const d = toDate(s); return `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`; };
+// Full-Time sometimes lists a fixture with no date ("TBC"): sort those last and label them.
+const dated = s => /^\d\d\/\d\d$/.test(s || '');
+const toDate = s => { if (!dated(s)) return new Date(2027, 6, 31); const [d, m] = s.split('/').map(Number); return new Date(m >= 8 ? 2026 : 2027, m - 1, d); };
+const dayLabel = s => { if (!dated(s)) return 'Date to be confirmed'; const d = toDate(s); return `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`; };
 const initials = n => { const w = n.replace(/&/g, ' ').split(/\s+/).filter(Boolean); return (w.length > 1 ? w.slice(0, 3).map(x => x[0]).join('') : n.slice(0, 3)).toUpperCase(); };
 const crest = n => { const c = initials(n); return `<span class="crest" aria-hidden="true" style="background:${BADGES[(n.charCodeAt(0) + n.length) % BADGES.length]}">${esc(c)}</span>`; };
 const gdTxt = g => g > 0 ? '+' + g : g < 0 ? '−' + Math.abs(g) : '0';
