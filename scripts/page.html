@@ -268,7 +268,8 @@ tr.detail td{background:var(--panel);font-size:13px;color:var(--fg-2);padding:8p
 tr.detail .dl{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
 tr.detail b{color:var(--fg)}
 tr[data-row]{cursor:pointer}
-@media (min-width:641px){ tr.detail{display:none!important} tr[data-row]{cursor:default} }
+tr[data-row]:hover td{background:color-mix(in srgb, var(--fg) 4%, transparent)} tr.mine[data-row]:hover td{background:var(--mine)}
+td.team .teambtn{text-decoration:none}
 
 /* share */
 .noshare .sharebtn{display:none}
@@ -341,6 +342,7 @@ nav.sections .myteam{margin-right:0}
 .mini{overflow:hidden}
 .mini .mrow{display:grid;grid-template-columns:30px minmax(0,1fr) 34px 44px;align-items:center;gap:8px;padding:0 14px;min-height:48px;border-top:1px solid var(--line);font-size:14px;color:var(--fg)}
 .mini .mrow:first-child{border-top:0}
+.mini .mrow[data-team]{cursor:pointer}
 .mini .mrow.hd{min-height:34px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 .mini .mrow.mine{background:var(--mine);box-shadow:inset 4px 0 0 var(--accent);font-weight:700}
 .mini .mrow.skip{min-height:22px;color:var(--muted);font-size:12px;justify-content:center;display:flex}
@@ -626,12 +628,6 @@ function postponedFor(name) {
   DATA.cups.forEach(c => c.fixtures.forEach(f => { if (f[6] && (f[2] === name || f[3] === name) && toDate(f[0]) >= today) out.push(f); }));
   return out.sort((a, b) => toDate(a[0]) - toDate(b[0]));
 }
-document.addEventListener('click', e => {
-  const tr = e.target.closest('tr[data-row]');
-  if (!tr || e.target.closest('.teambtn') || window.matchMedia('(min-width:641px)').matches) return;
-  const det = tr.nextElementSibling;
-  if (det && det.classList.contains('detail')) det.hidden = !det.hidden;
-});
 
 // Share images (Web Share on phones, download elsewhere)
 const MARK = new Path2D('M12 6H36L90 80H12Z M24 18H29.9L66.4 68H24Z'), BAR = new Path2D('M12 86H90V98H12Z');
@@ -951,13 +947,13 @@ function renderTable() {
     const mv = d > 0 ? `<td class="mv up">▲${d}</td>` : d < 0 ? `<td class="mv down">▼${-d}</td>` : '<td class="mv"></td>';
     const gap = r.pts === lead ? (r.pos === 1 ? 'Top' : 'Level') : '−' + (lead - r.pts);
     const fm = (form[r.name] || []).slice(-5).map(x => `<i class="${x}">${x}</i>`).join('');
-    return `<tr data-row class="${r.name === mine ? 'mine' : ''}">
+    return `<tr data-row data-team="${esc(r.name)}" class="${r.name === mine ? 'mine' : ''}">
       <td class="pos l">${r.pos}</td>${mv}
       <td class="team l"><button type="button" class="teambtn" data-team="${esc(r.name)}">${crest(r.name)}${esc(r.name)}</button></td>
       <td>${r.p}</td><td class="pts nar">${r.pts}</td><td class="wide">${r.w}</td><td class="wide">${r.d}</td><td class="wide">${r.l}</td>
       <td class="wide">${r.gf}</td><td class="wide">${r.ga}</td><td>${gdTxt(r.gd)}</td>
       <td class="pts wide">${r.pts}</td><td class="l wide"><span class="form">${fm}</span></td><td class="gap">${gap}</td>
-    </tr><tr class="detail" hidden><td colspan="14"><div class="dl"><span>Won <b>${r.w}</b></span><span>Drawn <b>${r.d}</b></span><span>Lost <b>${r.l}</b></span><span>Scored <b>${r.gf}</b></span><span>Conceded <b>${r.ga}</b></span>${fm ? `<span class="form">${fm}</span>` : ''}<button type="button" class="linkish" data-team="${esc(r.name)}">Team page</button></div></td></tr>`;
+    </tr>`;
   }).join('');
   const b = document.getElementById('pred-badge');
   b.hidden = n === 0;
@@ -965,7 +961,7 @@ function renderTable() {
   const ps = new Set(rows.map(r => r.p));
   document.getElementById('tnote').textContent = n
     ? 'Showing the table with your picks applied. Arrows show places gained or lost.'
-    : (ps.size > 1 ? 'Teams have played different numbers of games, so check the P column. Gap is points behind the leader.' : 'Gap is points behind the leader. Form shows the most recent result on the right.') + (window.matchMedia('(max-width:640px)').matches ? ' Tap a row for wins, draws and goals.' : '');
+    : (ps.size > 1 ? 'Teams have played different numbers of games, so check the P column. Gap is points behind the leader.' : 'Gap is points behind the leader. Form shows the most recent result on the right.') + ' Tap a team for its page.';
   renderStats(rows, n);
 }
 
@@ -1395,7 +1391,7 @@ function renderMini() {
   ks.forEach(k => {
     const r = rows[k];
     if (k > last + 1) html += '<div class="mrow skip">···</div>';
-    html += `<div class="mrow ${r.name === mine ? 'mine' : ''}"><span>${r.pos}</span><span class="tn">${crest(r.name)}${esc(r.name)}</span><span class="r">${r.p}</span><span class="r pts">${r.pts}</span></div>`;
+    html += `<div class="mrow ${r.name === mine ? 'mine' : ''}" data-team="${esc(r.name)}" role="button" tabindex="0"><span>${r.pos}</span><span class="tn">${crest(r.name)}${esc(r.name)}</span><span class="r">${r.p}</span><span class="r pts">${r.pts}</span></div>`;
     last = k;
   });
   document.getElementById('mini-h').textContent = DATA.divisions[view].name;
