@@ -193,16 +193,17 @@ def plan_for(L, prev, meta, mode, now, cfg):
     p = {'full': full, 'events': events, 'known_venues': known, 'only_divs': None, 'only_cups': None}
     if full:
         return p
-    today = now.strftime('%d/%m')
+    # Today's games, plus yesterday's: midweek scores are often entered on Full-Time the next morning.
+    days = {now.strftime('%d/%m'), (now - timedelta(days=1)).strftime('%d/%m')}
     active = []
     county = next((c for c in prev['cups'] if c.get('county')), {'results': [], 'fixtures': []})
-    county_teams = {x for rows in (county['results'], county['fixtures']) for r in rows if r[0] == today
+    county_teams = {x for rows in (county['results'], county['fixtures']) for r in rows if r[0] in days
                     for x in ((r[1], r[2]) if rows is county['results'] else (r[2], r[3]))}
     for d in prev['divisions']:
-        if any(f[0] == today for f in d['fixtures']) or any(r[0] == today for r in d['results']) or teams_of(d) & county_teams:
+        if any(f[0] in days for f in d['fixtures']) or any(r[0] in days for r in d['results']) or teams_of(d) & county_teams:
             active.append(d['name'])
     cups = [c['name'] for c in prev['cups'] if not c.get('county') and
-            (any(f[0] == today for f in c['fixtures']) or any(r[0] == today for r in c['results']))]
+            (any(f[0] in days for f in c['fixtures']) or any(r[0] in days for r in c['results']))]
     p['only_divs'], p['only_cups'] = active, [c for c in cups if c in {x[0] for x in L['cups']}]
     return p
 

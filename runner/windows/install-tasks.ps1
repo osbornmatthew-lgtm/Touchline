@@ -10,7 +10,11 @@ param(
   [int]$SundayHours = 11,
   [int]$EveryMinutes = 10,
   [string]$SaturdayAt = "08:50",
-  [string]$MondayAt = "07:50"
+  [string]$MondayAt = "07:50",
+  [string]$MidweekEveningStart = "21:00",
+  [int]$MidweekEveningHours = 2,
+  [int]$MidweekEveryMinutes = 30,
+  [string]$MidweekMorningAt = "07:50"
 )
 $ErrorActionPreference = "Stop"
 $python = Join-Path $RepoDir ".venv\Scripts\python.exe"
@@ -35,6 +39,16 @@ $sunday.Repetition = $repeat.Repetition
 $saturday = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Saturday -At $SaturdayAt
 $monday = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday -At $MondayAt
 
+# Midweek: evening checks Monday to Friday (cup ties and catch-up games kick off 19:30 to 19:45), and a
+# morning check Tuesday to Friday for scores entered late. Days with no games stop straight away.
+$evening = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday, Tuesday, Wednesday, Thursday, Friday -At $MidweekEveningStart
+$erep = New-ScheduledTaskTrigger -Once -At $MidweekEveningStart -RepetitionInterval (New-TimeSpan -Minutes $MidweekEveryMinutes) `
+  -RepetitionDuration (New-TimeSpan -Hours $MidweekEveningHours -Minutes 1)
+$evening.Repetition = $erep.Repetition
+$morning = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Tuesday, Wednesday, Thursday, Friday -At $MidweekMorningAt
+
+Register-ScheduledTask -TaskPath "\Touchline\" -TaskName "Midweek checks" -Action $action -Trigger @($evening, $morning) `
+  -Principal $principal -Settings $settings -Description "Touchline results from FA Full-Time, midweek games" -Force | Out-Null
 Register-ScheduledTask -TaskPath "\Touchline\" -TaskName "Sunday match-day checks" -Action $action -Trigger $sunday `
   -Principal $principal -Settings $settings -Description "Touchline results from FA Full-Time, match-day checks" -Force | Out-Null
 Register-ScheduledTask -TaskPath "\Touchline\" -TaskName "Saturday and Monday full refresh" -Action $action `
