@@ -1,6 +1,6 @@
 """Add or replace a club partner on a Touchline page.
 
-python3 add_sponsor.py page.html "Hashtag United" "Sponsor Ltd" logo.png [https://sponsor.example]
+python3 add_sponsor.py page.html "U16 Hashtag United" "Sponsor Ltd" logo.png [https://sponsor.example]   (EJA teams are "<age> <team>")
     adds the partner, or replaces one with the same name; a team can have several
 python3 add_sponsor.py page.html "Hashtag United" --remove ["Sponsor Ltd"]
 """
