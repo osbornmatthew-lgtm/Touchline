@@ -393,7 +393,7 @@ nav.sections .myteam{margin-right:0}
   </div>
 
   <section aria-labelledby="next-h" data-tabs="home">
-    <h2 id="next-h">Your next match</h2>
+    <div class="sh-name"><h2 id="next-h">Your next match</h2><button type="button" class="chg" id="next-chg" data-pick hidden>Change team</button></div>
     <div class="panel next" id="next"></div>
   </section>
 
@@ -888,6 +888,7 @@ function renderNext() {
     .sort((a, b) => toDate(a.f[0]) - toDate(b.f[0]) || (a.f[1] || '99').localeCompare(b.f[1] || '99'));
   const el = document.getElementById('next'), tk = ddmm(new Date());
   document.getElementById('next-h').textContent = 'Your next match';
+  document.getElementById('next-chg').hidden = !mine;
   if (mine) {
     let done = null;
     DATA.divisions.forEach(d => d.results.forEach(r => { if (r[0] === tk && r[3] !== null && (r[1] === mine || r[2] === mine)) done = { r, comp: d.name }; }));
