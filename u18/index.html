@@ -197,7 +197,7 @@ button.stat:hover{border-color:var(--accent)}
 #sheet{position:fixed;inset:0 0 calc(63px + env(safe-area-inset-bottom,0px)) 0;box-sizing:border-box;z-index:20;background:rgba(5,7,10,.72);display:flex;justify-content:center;align-items:flex-end}
 #sheet[hidden]{display:none!important}
 .sheet-panel{background:var(--bg);border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0;width:100%;max-width:760px;max-height:100%;overflow-y:auto;position:relative;padding:calc(env(safe-area-inset-top,0px) + 16px) 16px calc(28px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 40px rgba(0,0,0,.5)}
-.manage{display:flex;flex-direction:column;gap:2px;margin-top:22px;padding:14px 16px;border:1px dashed var(--line-2);border-radius:12px;color:var(--fg);text-decoration:none}
+.manage{display:flex;flex-direction:column;gap:2px;margin:18px 0 4px;padding:14px 16px;border:1px dashed var(--line-2);border-radius:12px;color:var(--fg);text-decoration:none}
 .manage b{font-weight:600}.manage span{color:var(--muted);font-size:13px}
 .sheet-close{position:sticky;top:env(safe-area-inset-top,0px);float:right;width:44px;height:44px;border-radius:50%;border:1px solid var(--line-2);background:var(--panel);color:var(--fg);font-size:22px;line-height:1;cursor:pointer;z-index:2}
 .sheet-body{display:flex;flex-direction:column;gap:22px}
@@ -1498,6 +1498,7 @@ function openTeam(name) {
     </header>
     ${partnerHtml(name)}
     <div class="stats six">${tileHtml}</div>
+    ${MANAGE && BRAND.code === 'EJA' ? `<a class="manage" href="https://touchline-eja.netlify.app/join.html?age=${AGE}&team=${encodeURIComponent(name)}" target="_blank" rel="noopener" data-track="manage"><b>Manage ${esc(name)}?</b><span>Add your crest, kit colours and sponsors</span></a>` : ''}
     ${journeyHtml(name, i)}
     ${seasonsHtml(name)}
     <section><h3>Talking points</h3><ul class="kv">${hl.concat(historyKv(name)).join('') || '<li class="fine">No league games yet</li>'}</ul>${htNote}</section>
@@ -1505,8 +1506,7 @@ function openTeam(name) {
     <section><h3>Next up</h3><ul class="list">${upHtml}</ul>${calHtml(name)}</section>
     ${comps.length ? `<section><h3>Cup runs</h3><ul class="kv">${cupHtml}</ul></section>` : ''}
     ${vsHtml}
-    <section><h3>All results</h3><ul class="list">${resHtml || '<li class="fine">No results yet</li>'}</ul></section>
-    ${MANAGE && BRAND.code === 'EJA' ? `<a class="manage" href="https://touchline-eja.netlify.app/join.html?age=${AGE}&team=${encodeURIComponent(name)}" target="_blank" rel="noopener" data-track="manage"><b>Manage ${esc(name)}?</b><span>Add your crest, kit colours and sponsors</span></a>` : ''}`;
+    <section><h3>All results</h3><ul class="list">${resHtml || '<li class="fine">No results yet</li>'}</ul></section>`;
   sh.hidden = false;
   sh.querySelector('.sheet-panel').scrollTop = 0;
   document.body.style.overflow = 'hidden';
