@@ -306,6 +306,12 @@ body:not([data-tab=home]) #title{font-size:40px}
 body:not([data-tab=home]) #updated > span:not(.fresh){display:none}
 body:not([data-tab=home]) main{gap:20px}
 #fixtures .sec-head,#res-h{display:none}
+@media (max-width:370px){ .brand b,.brand span{font-size:22px} .brand .mark{height:19px;top:3.6px} .brand{gap:7px} .brand span{padding-left:7px} nav.sections .myteam{padding:6px;gap:0;font-size:0} nav.sections .myteam .crest{font-size:10px} }
+/* team page: small change button beside the name */
+.sh-name{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:4px}
+.chg{min-height:26px;padding:0 10px;border-radius:999px;border:1px solid var(--line-2);background:var(--panel);color:var(--fg-2);font:inherit;font-size:12px;font-weight:600;cursor:pointer;position:relative}
+.chg::before{content:'';position:absolute;inset:-7px -4px}
+.chg:hover{border-color:var(--accent);color:var(--fg)}
 /* division colour as structure, not glow */
 nav.sections .myteam[style]{border-color:var(--tc);background:color-mix(in srgb, var(--tc) 12%, transparent)}
 #ru .stat,#quirky .stat{border-left:3px solid var(--accent)}
@@ -1251,8 +1257,7 @@ function openTeam(name) {
   document.documentElement.style.setProperty('--accent', DOTS[d.name.replace('U16 ', '')] || CUP_ACCENT);
   sh.querySelector('.sheet-body').innerHTML = `
     <header class="sh-head">
-      <div class="tm">${crest(name)}<div><div class="eyebrow">${esc(d.name)}</div><h2>${esc(name)}</h2></div></div>
-      ${name === mine ? '<button type="button" class="pickbtn" data-pick style="width:fit-content">Change team</button>' : ''}
+      <div class="tm">${crest(name)}<div><div class="sh-name"><span class="eyebrow">${esc(d.name)}</span>${name === mine ? '<button type="button" class="chg" data-pick>Change team</button>' : ''}</div><h2>${esc(name)}</h2></div></div>
       <div class="sh-sum"><span class="num">${ordinal(row.pos || 0)}</span><span>${row.pts ?? 0} pts</span><span class="form">${form}</span><span class="run">${esc(runText(s.g))}</span></div>
     </header>
     ${partnerHtml(name)}
