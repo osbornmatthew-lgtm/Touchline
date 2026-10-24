@@ -20,6 +20,31 @@ def load_league(lg):
     return next(x for x in cfg['leagues'] if x['id'] == lg), cfg
 
 
+HISTORY = os.path.join(HERE, '..', 'data', 'history')
+EJA_AGES = [13, 14, 15, 16, 18]
+
+
+def cohort_history(age):
+    """Past seasons for the players now in this age group: last season's U15s are this season's U16s, and so on.
+    Newest first: [{season, age, divisions: [{name, teams}], results: [[dd/mm, home, away, hs, as, note, comp]]}]."""
+    out = []
+    if not os.path.isdir(HISTORY):
+        return out
+    seasons = sorted((f[:-5] for f in os.listdir(HISTORY) if re.match(r'\d{4}-\d{2}\.json$', f)), reverse=True)
+    now = int(age[1:])
+    for k, season in enumerate(seasons[:3], start=1):
+        was = now - k
+        if was not in EJA_AGES:
+            was = 16 if now == 18 and k == 1 else (now if now == 18 else None)  # U18 holds two years: use last season's U16s first
+        if was is None or was < 13:
+            continue
+        a = f'U{was}'
+        h = json.load(open(os.path.join(HISTORY, season + '.json'), encoding='utf-8'))
+        out.append({'season': season, 'age': a, 'divisions': [d for d in h['divisions'] if d['name'].startswith(a + ' ')],
+                    'results': [r[:7] for r in h['results'] if r[7] == a]})
+    return out
+
+
 def make_page(L, data, updated, fetched, t, site_base='https://osbornmatthew-lgtm.github.io/Touchline/'):
     def rep(a, b, n=1):
         nonlocal t
@@ -41,6 +66,13 @@ def make_page(L, data, updated, fetched, t, site_base='https://osbornmatthew-lgt
         t = re.sub(r'^const VENUES = .*;$', lambda _: 'const VENUES = ' + json.dumps(B.get('venues', {})) + ';', t, count=1, flags=re.M)
         t = re.sub(r'^const SPONSORS = .*;$', lambda _: 'const SPONSORS = ' + json.dumps(B.get('sponsors', {})) + ';', t, count=1, flags=re.M)
         t = re.sub(r"^(const DOTS = \{.*?)( \};)$", lambda mm: mm.group(1) + ''.join(f", '{k}':'{v}'" for k, v in B.get('dots', {}).items()) + mm.group(2), t, count=1, flags=re.M)
+    if L.get('template') == 'native':
+        # EJA age groups share one page: set the age, the public address and this cohort's past seasons
+        site = (site_base + L['folder']).rstrip('/').replace('https://', '')
+        t, n = re.subn(r"^const AGE = '.*';$", f"const AGE = '{L['age']}';", t, count=1, flags=re.M)
+        t = re.sub(r"^const SITE = '.*';$", f"const SITE = '{site}';", t, count=1, flags=re.M)
+        t = re.sub(r'^const HIST = .*;$', lambda _: 'const HIST = ' + json.dumps(cohort_history(L['age']), separators=(',', ':'), ensure_ascii=False) + ';', t, count=1, flags=re.M)
+    data = {**data, 'cups': [c for c in data.get('cups', []) if c.get('county') or c.get('results') or c.get('fixtures')]}  # drop empty cups
     t, n = re.subn(r'^const DATA = .*;$', lambda _: 'const DATA = ' + json.dumps(data, separators=(',', ':'), ensure_ascii=False) + ';', t, count=1, flags=re.M)
     assert n == 1, 'const DATA line not found in the page'
     t, n = re.subn(r"^DATA\.updated = '.*';$", lambda _: f"DATA.updated = '{updated}';", t, count=1, flags=re.M)

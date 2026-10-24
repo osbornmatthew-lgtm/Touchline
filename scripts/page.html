@@ -350,6 +350,34 @@ nav.sections .myteam{margin-right:0}
 .seg[hidden]{display:none!important}
 .seg button{min-height:40px;border:0;border-radius:999px;background:transparent;color:var(--fg-2);font:inherit;font-weight:600;font-size:14px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 10px}
 .seg button[aria-pressed=true]{background:var(--accent);color:var(--on-accent)}
+.others{display:flex;flex-direction:column;gap:10px}
+.oteam{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:12px 14px;text-decoration:none;color:var(--fg)}
+.oteam .ag{grid-row:span 2;font-family:var(--display);font-weight:800;font-size:20px;color:var(--fg);border:1px solid var(--line-2);border-radius:10px;padding:6px 8px;min-width:52px;text-align:center}
+.oteam .nm{font-weight:700;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.oteam .nx{grid-column:2;font-size:13px;color:var(--fg-2)}
+.oteam .ko{grid-row:span 2;grid-column:3;font-family:var(--display);font-weight:800;font-size:22px;text-align:right}
+.oteam .ko small{display:block;font-family:var(--body);font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.addteam{min-height:44px;border-radius:999px;border:1px dashed var(--line-2);background:transparent;color:var(--fg-2);font:inherit;font-weight:600;cursor:pointer;width:100%}
+.agepick{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.agepick[hidden]{display:none}
+.agepick a{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--accent);color:var(--fg);text-decoration:none;font-weight:700}
+.h2h{display:flex;flex-direction:column;gap:6px;margin-top:4px}
+.h2hl{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
+.h2hl li{display:flex;align-items:center;gap:8px;font-size:13px}
+.h2hl .rc{margin-left:auto;color:var(--muted);font-size:12px;white-space:nowrap}
+.journey{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.jstep{flex:1 0 92px;border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.jstep.now{border-color:var(--accent);background:var(--mine)}
+.jstep .ja{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em}
+.jstep .jp{font-family:var(--display);font-weight:800;font-size:28px;line-height:1}
+.jstep .js{font-size:12px;color:var(--fg-2)}
+.mrow.ft{grid-template-columns:24px minmax(0,1fr) auto 34px}
+.ages{display:flex;gap:6px;flex-wrap:wrap}
+.ages:empty{display:none}
+.ages a{display:inline-flex;align-items:center;min-height:34px;padding:0 13px;border-radius:999px;border:1px solid var(--line-2);color:var(--fg-2);text-decoration:none;font-weight:700;font-size:13px;position:relative}
+.ages a::after{content:'';position:absolute;inset:-5px -2px}
+.ages a.on{background:var(--fg);border-color:var(--fg);color:var(--bg)}
+.ages a .dot{width:6px;height:6px;border-radius:50%;background:var(--win);margin-left:6px}
 .tlink{cursor:pointer;position:relative}
 .tlink::after{content:'';position:absolute;inset:-10px -3px}
 .next .teams .me{color:var(--accent)}
@@ -378,7 +406,8 @@ nav.sections .myteam{margin-right:0}
 
 <main class="wrap" id="top">
   <div class="intro" data-tabs="home table fixtures results stats">
-    <div class="eyebrow">Eastern Junior Alliance<span class="lg-sub">Under 16 · 2026–27</span></div>
+    <div class="eyebrow">Eastern Junior Alliance<span class="lg-sub" id="lg-sub">Under 16 · 2026–27</span></div>
+    <nav class="ages" id="ages" aria-label="Age group"></nav>
     <h1 id="title"></h1>
     <div class="meta" id="updated"></div>
     <div class="stale" id="stale" hidden></div>
@@ -394,6 +423,11 @@ nav.sections .myteam{margin-right:0}
     <div class="panel next" id="next"></div>
   </section>
 
+
+  <section aria-labelledby="others-h" id="others-sec" data-tabs="home" hidden>
+    <div class="sec-head"><h2 id="others-h">My other teams</h2></div>
+    <div class="others" id="others"></div>
+  </section>
 
   <section aria-labelledby="today-h" id="today-sec" data-tabs="home" hidden>
     <div class="sec-head"><h2 id="today-h">Match Day</h2><span class="note" id="today-note"></span><button type="button" class="sharebtn" data-share="today">Share</button></div>
@@ -455,6 +489,11 @@ nav.sections .myteam{margin-right:0}
     </section>
 
 
+    <section aria-labelledby="ft-h" id="ft-sec" data-tabs="stats" hidden>
+      <div class="sec-head"><h2 id="ft-h">Form table</h2><span class="note">Last 5 league games</span></div>
+      <div class="panel mini" id="ft"></div>
+    </section>
+
     <section aria-labelledby="tp-h" data-tabs="stats">
       <div class="sec-head"><h2 id="tp-h">Talking points</h2><span class="note">Tap a team for its full stats</span></div>
       <div class="stats" id="quirky"></div>
@@ -493,7 +532,7 @@ nav.sections .myteam{margin-right:0}
 
 <div id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="welcome-h">
   <div class="welcome-panel">
-    <div class="eyebrow">Eastern Junior Alliance · Under 16</div>
+    <div class="eyebrow" id="welcome-eyebrow">Eastern Junior Alliance · Under 16</div>
     <h2 id="welcome-h">Who do you follow?</h2>
     <p>Pick your team and Touchline puts their next match, kick-off time, directions and stats first. You can change it any time.</p>
     <label for="welcome-pick" class="sr">Your team</label>
@@ -526,10 +565,14 @@ function mapLinks(venue) {
   return `<span class="maps"><a href="${g}" target="_blank" rel="noopener">Directions</a><a href="${w}" target="_blank" rel="noopener">Waze</a></span>`;
 }
 const BADGES = ['#C9D6E3','#E8C9A6','#BFD9C2','#D9C2DE','#E6D79A','#A9CFE0','#E3B7B0','#C8C8A0'];
-const DOTS = { Black:'#E8F1FF', Blue:'#2EC5FF', Brown:'#FF9F43', Green:'#39FF88', Purple:'#C77DFF', Red:'#FF3B5C', Yellow:'#F5FF00' };
+const DOTS = { Black:'#E8F1FF', Blue:'#2EC5FF', Brown:'#C8865A', Orange:'#FF8A1F', Green:'#39FF88', Purple:'#C77DFF', Red:'#FF3B5C', Yellow:'#F5FF00' };
 const BRAND = { code: 'EJA', bar: '#C9F24A' };
+// Age group of this page (EJA has one page per age group: U16 at the top level, the others in u13/, u14/, u15/, u18/)
+const AGE = 'U16';
+const AGES = ['U13', 'U14', 'U15', 'U16', 'U18'];
+const HIST = /*HIST*/[];
 // Saved settings are per league (EJA keeps the original keys).
-const LSK = BRAND.code === 'EJA' ? 'touchline' : 'touchline-' + BRAND.code.toLowerCase();
+const LSK = BRAND.code === 'EJA' ? (AGE === 'U16' ? 'touchline' : 'touchline-' + AGE.toLowerCase()) : 'touchline-' + BRAND.code.toLowerCase();
 const CUP_ACCENT = BRAND.bar;
 // Test run: parent feedback goes here (email address).
 const FEEDBACK = 'osborn.matthew@gmail.com';
@@ -636,7 +679,9 @@ function oppPreview(opp) {
     const s = teamSummary(opp), last = s.g[s.g.length - 1];
     if (last) bits.push(`<div>Last game: ${last.res === 'W' ? 'beat' : last.res === 'L' ? 'lost to' : 'drew with'} ${esc(last.opp)} ${Math.max(last.gf, last.ga)}–${Math.min(last.gf, last.ga)}</div>`);
   }
-  const prev = teamSummary(mine).g.filter(x => x.opp === opp).pop();
+  const hh = h2hHtml(mine, opp);
+  if (hh) bits.push(hh);
+  const prev = hh ? null : teamSummary(mine).g.filter(x => x.opp === opp).pop();
   if (prev) bits.push(`<div>Last time you met: ${prev.home ? SCORE(mine, opp, prev.gf, prev.ga) : SCORE(opp, mine, prev.ga, prev.gf)}, ${dayLabel(prev.date)}</div>`);
   return bits.length ? `<div class="opp"><div class="eyebrow">Opponent</div>${bits.join('')}</div>` : '';
 }
@@ -864,7 +909,7 @@ function buildTable(i) {
 }
 
 function renderChips() {
-  const items = DATA.divisions.map((d, i) => { const col = d.name.replace('U16 ', ''); return `<button type="button" data-v="${i}" aria-pressed="${view === i}"><span class="dot" style="background:${DOTS[col] || '#999'}"></span>${esc(col)}</button>`; });
+  const items = DATA.divisions.map((d, i) => { const col = d.name.replace(/^U1\d /, ''); return `<button type="button" data-v="${i}" aria-pressed="${view === i}"><span class="dot" style="background:${DOTS[col] || '#999'}"></span>${esc(col)}</button>`; });
   if (tab !== 'stats') DATA.cups.forEach((c, i) => items.push(`<button type="button" data-v="c${i}" aria-pressed="${view === 'c' + i}">${esc(c.name)}</button>`));
   document.getElementById('chips').innerHTML = items.join('');
 }
@@ -917,12 +962,15 @@ function projection(i) {
   const minP = Math.min(...d.teams.map(x => x[1]).filter(p => p > 0));
   const list = d.teams.map(([name, p, , , , gf, ga, pts], k) => {
     const last = (fm[name] || []).slice(-5), lp = last.reduce((s, r) => s + (r === 'W' ? 3 : r === 'D' ? 1 : 0), 0);
-    const rate = p ? (last.length ? (pts / p + lp / last.length) / 2 : pts / p) : 0;
+    let rate = p ? (last.length ? (pts / p + lp / last.length) / 2 : pts / p) : 0;
+    const prior = lastPpg(name);  // last season's points a game: weighs like 4 games, so it fades as this season goes on
+    if (prior) rate = (rate * p + prior.ppg * 4) / (p + 4);
     const left = Math.max(0, G - p);
     return { name, k, now: k + 1, played: p, left, rate, pts: pts + rate * left, gd: gf - ga };
   }).sort((a, b) => b.pts - a.pts || b.gd - a.gd || a.k - b.k);
   const out = {}; list.forEach((x, j) => { x.pos = j + 1; x.round = Math.round(x.pts); out[x.name] = { pos: j + 1, pts: x.round }; });
-  return { by: out, list, top: list[0] && list[0].name, games: G, early: !isFinite(minP) || minP < 6 };
+  const priors = d.teams.filter(t => lastPpg(t[0])).length >= d.teams.length / 2;
+  return { by: out, list, top: list[0] && list[0].name, games: G, early: !isFinite(minP) || minP < (priors ? 3 : 6), priors };
 }
 function renderSeason() {
   const sec = document.getElementById('proj-sec');
@@ -938,7 +986,7 @@ function renderSeason() {
   document.getElementById('proj').innerHTML = pj.list.map(x => {
     const mv = x.now - x.pos, arrow = mv > 0 ? `<span class="up">▲${mv}</span>` : mv < 0 ? `<span class="down">▼${-mv}</span>` : '<span class="same">–</span>';
     return `<div class="prow ${x.name === mine ? 'mine' : ''}"><span class="pp">${x.pos}</span><span class="pt">${crest(x.name)}<button type="button" class="teambtn" data-team="${esc(x.name)}">${esc(x.name)}</button></span><span class="pm">${arrow}</span><span class="pn"><span class="w">Now </span>${ordinal(x.now)}</span><span class="pv">${x.round}</span></div>`;
-  }).join('') + `<p class="pfoot">Points each team would end on if they keep picking up points at their current rate (season average blended with their last five). It doesn't yet allow for who they still have to play.</p>`;
+  }).join('') + `<p class="pfoot">Points each team would end on if they keep picking up points at their current rate (season average blended with their last five${pj.priors ? ", plus last season's form while it's early" : ''}). It doesn't yet allow for who they still have to play.</p>`;
 }
 function renderStats(rows, n) {
   const played = rows.filter(r => r.p > 0);
@@ -1151,6 +1199,81 @@ function teamSummary(name) {
   };
 }
 
+
+// ---- History: this age group's players in past seasons (HIST is newest first; last season's U15s are this season's U16s)
+const hDate = (season, dm) => { const [d, m] = dm.split('/').map(Number); return new Date(+season.slice(0, 4) + (m < 7 ? 1 : 0), m - 1, d); };
+const isLeagueComp = c => /^U1\d [A-Za-z]+$/.test(c || '');
+const shortMonth = d => `${MONTHS[d.getMonth()].slice(0, 3)} ${String(d.getFullYear()).slice(2)}`;
+// Every game a team has played: this season (league and cups) and past seasons, newest first
+function allGames(name) {
+  const out = [];
+  const add = (season, age, d, h, a, hs, as, comp, league) => { if (hs === null || hs === undefined || (h !== name && a !== name)) return;
+    const home = h === name, gf = home ? hs : as, ga = home ? as : hs;
+    out.push({ season, age, d, h, a, hs, as, comp, league, home, opp: home ? a : h, gf, ga, res: gf > ga ? 'W' : gf < ga ? 'L' : 'D' }); };
+  DATA.divisions.forEach(dv => dv.results.forEach(r => dated(r[0]) && add('2026-27', AGE, toDate(r[0]), r[1], r[2], r[3], r[4], dv.name, true)));
+  DATA.cups.forEach(c => c.results.forEach(r => dated(r[0]) && add('2026-27', AGE, toDate(r[0]), r[1], r[2], r[3], r[4], c.county ? r[6] : c.name, false)));
+  HIST.forEach(H => H.results.forEach(r => add(H.season, H.age, hDate(H.season, r[0]), r[1], r[2], r[3], r[4], r[6], isLeagueComp(r[6]))));
+  return out.sort((x, y) => y.d - x.d);
+}
+const tally = gs => { const w = gs.filter(g => g.res === 'W').length, d = gs.filter(g => g.res === 'D').length, l = gs.filter(g => g.res === 'L').length;
+  return { n: gs.length, w, d, l, gf: gs.reduce((s, g) => s + g.gf, 0), ga: gs.reduce((s, g) => s + g.ga, 0), pts: w * 3 + d }; };
+const sinceAge = () => HIST.length ? HIST[HIST.length - 1].age : AGE;
+function h2h(name, opp) { return allGames(name).filter(g => g.opp === opp); }
+function h2hHtml(name, opp) {
+  const gs = h2h(name, opp); if (gs.length < 2) return '';
+  const t = tally(gs), older = gs.some(g => g.season !== '2026-27');
+  const line = g => `<li><span class="rp ${g.res}">${g.res}</span><span>${g.home ? `${esc(name)} ${g.hs}–${g.as} ${esc(opp)}` : `${esc(opp)} ${g.hs}–${g.as} ${esc(name)}`}</span><span class="rc">${g.age} · ${shortMonth(g.d)}</span></li>`;
+  return `<div class="h2h"><div>Head to head${older ? ' since ' + sinceAge() : ''}: <b>P${t.n} W${t.w} D${t.d} L${t.l}</b> · goals ${t.gf}–${t.ga}</div><ul class="h2hl">${gs.slice(0, 5).map(line).join('')}</ul></div>`;
+}
+// Where this team finished in each past season, oldest first
+function journey(name) {
+  return HIST.slice().reverse().map(H => { for (const d of H.divisions) { const i = d.teams.findIndex(t => t[0] === name);
+    if (i >= 0) return { season: H.season, age: H.age, pos: i + 1, of: d.teams.length, div: d.name.replace(/^U1\d /, ''), pts: d.teams[i][7], p: d.teams[i][1] }; } return null; }).filter(Boolean);
+}
+// Last season's points per game in the league (null if not in last season's tables)
+function lastPpg(name) { const H = HIST[0]; if (!H) return null; for (const d of H.divisions) { const t = d.teams.find(x => x[0] === name); if (t && t[1]) return { ppg: t[7] / t[1], age: H.age }; } return null; }
+// Points after the same number of league games last season
+function samePoint(name, n) {
+  const H = HIST[0]; if (!H || n < 2) return null;
+  const gs = allGames(name).filter(g => g.season === H.season && g.league).sort((x, y) => x.d - y.d);
+  if (gs.length < n) return null;
+  return { pts: tally(gs.slice(0, n)).pts, age: H.age };
+}
+function historyTiles(name, s) {
+  const out = [], all = allGames(name), t = tally(all), sp = samePoint(name, s.all.n);
+  if (sp) { const diff = s.all.p - sp.pts; out.push(['This season v last', `${s.all.p} v ${sp.pts}`, `points after ${s.all.n} league games · ${diff > 0 ? diff + ' up on' : diff < 0 ? -diff + ' down on' : 'level with'} last season (${sp.age})`]); }
+  if (all.some(g => g.season !== '2026-27') && t.n >= 5) out.push([`Since ${sinceAge()}`, `W${t.w} D${t.d} L${t.l}`, `${t.n} games, all competitions · goals ${t.gf}–${t.ga}`]);
+  return out;
+}
+function historyKv(name) {
+  const all = allGames(name), out = [];
+  if (!all.some(g => g.season !== '2026-27')) return out;
+  const by = {}; all.forEach(g => (by[g.opp] = by[g.opp] || []).push(g));
+  const opps = Object.entries(by).filter(([, gs]) => gs.length >= 3).map(([o, gs]) => ({ o, t: tally(gs) })).map(x => ({ ...x, ppg: x.t.pts / x.t.n }));
+  if (opps.length >= 2) {
+    const best = opps.slice().sort((a, b) => b.ppg - a.ppg || (b.t.gf - b.t.ga) - (a.t.gf - a.t.ga))[0], worst = opps.slice().sort((a, b) => a.ppg - b.ppg || (a.t.gf - a.t.ga) - (b.t.gf - b.t.ga))[0];
+    if (best.o !== worst.o) { out.push(`<li><b>Best record against</b>${esc(best.o)} · W${best.t.w} D${best.t.d} L${best.t.l}</li>`); out.push(`<li><b>Toughest opponent</b>${esc(worst.o)} · W${worst.t.w} D${worst.t.d} L${worst.t.l}</li>`); }
+  }
+  const big = all.filter(g => g.res === 'W').sort((a, b) => (b.gf - b.ga) - (a.gf - a.ga) || b.gf - a.gf)[0];
+  if (big) out.push(`<li><b>Biggest win since ${sinceAge()}</b>${big.home ? SCORE(name, big.opp, big.gf, big.ga) : SCORE(big.opp, name, big.ga, big.gf)} · ${big.age}, ${shortMonth(big.d)}</li>`);
+  let run = 0, best = 0; all.slice().reverse().forEach(g => { run = g.res === 'L' ? 0 : run + 1; best = Math.max(best, run); });
+  if (best >= 4) out.push(`<li><b>Longest unbeaten run</b>${best} games</li>`);
+  return out;
+}
+function journeyHtml(name, i) {
+  const j = journey(name); if (!j.length) return '';
+  const { rows } = buildTable(i), now = rows.find(r => r.name === name), pj = projection(i).by[name];
+  const step = (age, pos, sub, cls = '') => `<div class="jstep ${cls}"><span class="ja">${age}</span><span class="jp">${pos}</span><span class="js">${sub}</span></div>`;
+  return `<section><h3>Their journey</h3><div class="journey">${j.map(x => step(x.age, ordinal(x.pos), `of ${x.of} · ${esc(x.div)}`)).join('')}${now ? step(AGE, ordinal(now.pos), pj ? `now · heading for ${ordinal(pj.pos)}` : 'now', 'now') : ''}</div><p class="fine">Final league positions. Divisions change from season to season, so positions aren't directly comparable.</p></section>`;
+}
+// Stats tab: form table (last 5 league games)
+function formTable(i) {
+  const d = DATA.divisions[i], fm = formMap(d);
+  const rows = d.teams.map(t => { const f = (fm[t[0]] || []).slice(-5); return { name: t[0], f, pts: f.reduce((s, r) => s + (r === 'W' ? 3 : r === 'D' ? 1 : 0), 0) }; }).filter(r => r.f.length >= 3)
+    .sort((a, b) => b.pts - a.pts || b.f.length - a.f.length);
+  return rows;
+}
+
 function talkingPoints(i) {
   const d = DATA.divisions[i];
   const played = d.results.filter(r => r[3] !== null);
@@ -1189,6 +1312,8 @@ function talkingPoints(i) {
     const att = rows.reduce((a, b) => b.gf / b.p > a.gf / a.p ? b : a), def = rows.reduce((a, b) => b.ga / b.p < a.ga / a.p ? b : a);
     cards.splice(2, 0, ['Best attack', att.name, (att.gf / att.p).toFixed(1), 'goals scored per game'], ['Best defence', def.name, (def.ga / def.p).toFixed(1), 'goals conceded per game']);
   }
+  const imp = d.teams.filter(x => x[1] >= 3).map(x => ({ name: x[0], now: x[7] / x[1], was: lastPpg(x[0]) })).filter(x => x.was).map(x => ({ ...x, up: x.now - x.was.ppg })).sort((a, b) => b.up - a.up)[0];
+  if (imp && imp.up >= 0.3) cards.unshift(['Most improved', imp.name, `+${imp.up.toFixed(1)}`, `points a game: ${imp.now.toFixed(1)}, up from ${imp.was.ppg.toFixed(1)} last season (${imp.was.age})`]);
   const ru = roundup(i), dup = new Set((ru ? ru.items : []).map(x => x.team + '|' + x.v));
   const ruText = (ru ? ru.items : []).map(x => x.sub + ' ' + x.team).join(' ');
   return cards.filter(c => !dup.has(c[1] + '|' + c[2]) && !(c[0] === 'Goal fest' && c[1].split(' v ').every(t => ruText.includes(t))));
@@ -1229,6 +1354,7 @@ function openTeam(name) {
     ['Conceded', s.all.n ? (s.ga / s.all.n).toFixed(1) : '0', `per game · ${s.ga} total`],
     ['Clean sheets', String(s.cs), `Failed to score in ${s.fts}`]
   ];
+  historyTiles(name, s).forEach(x => tiles.push(x));
   const tileHtml = tiles.map(([l, v, sub]) => `<div class="panel stat"><div class="eyebrow">${l}</div><div class="num">${esc(v)}</div><div class="sub">${esc(sub)}</div></div>`).join('');
   const hl = [];
   if (s.bestWin) hl.push(`<li><b>Biggest win</b>${s.bestWin.home ? SCORE(name, s.bestWin.opp, s.bestWin.gf, s.bestWin.ga) : SCORE(s.bestWin.opp, name, s.bestWin.ga, s.bestWin.gf)}</li>`);
@@ -1251,7 +1377,7 @@ function openTeam(name) {
     when = `<p class="fine">Goal times appear here once they're entered on FA Full-Time. ${timedOk.length ? `So far ${timedOk.length} of ${s.goals} goals have a time.` : ''}</p>`;
   }
   const cups = cupGames(name);
-  const allRes = s.g.map(x => ({ date: x.date, comp: x.comp.replace('U16 ', '') + ' league', txt: x.home ? SCORE(name, x.opp, x.gf, x.ga) : SCORE(x.opp, name, x.ga, x.gf), res: x.res, note: '' }))
+  const allRes = s.g.map(x => ({ date: x.date, comp: x.comp.replace(/^U1\d /, '') + ' league', txt: x.home ? SCORE(name, x.opp, x.gf, x.ga) : SCORE(x.opp, name, x.ga, x.gf), res: x.res, note: '' }))
     .concat(cups.map(c => ({ date: c.date, comp: c.comp, txt: c.gf === null ? `${esc(c.home ? name : c.opp)} v ${esc(c.home ? c.opp : name)}` : (c.home ? SCORE(name, c.opp, c.gf, c.ga) : SCORE(c.opp, name, c.ga, c.gf)), res: cupOutcome(c), note: /AET|Pens/.test(c.note) ? c.note.replace(/,?\s*HT [\d-]+/, '') : '' })))
     .sort((a, b) => toDate(b.date) - toDate(a.date));
   const resHtml = allRes.map(r => `<li><span class="rp ${r.res || 'N'}">${r.res || '–'}</span><span class="rt">${r.txt}${r.note ? ` <em>(${esc(r.note)})</em>` : ''}</span><span class="rc">${esc(r.comp)} · ${toDate(r.date).getDate()} ${MONTHS[toDate(r.date).getMonth()].slice(0, 3)}</span></li>`).join('');
@@ -1277,7 +1403,7 @@ function openTeam(name) {
     h2h = `<section><h3>Versus ${esc(mine)}</h3><ul class="kv">${vs.length ? vs.map(v => `<li>${v}</li>`).join('') : '<li class="fine">Not played this season</li>'}${nextVs ? `<li class="fine">Next meeting: ${dayLabel(nextVs.f[0])}${nextVs.f[1] ? ', ' + esc(nextVs.f[1]) : ''}</li>` : ''}</ul></section>`;
   }
   const sh = document.getElementById('sheet');
-  document.documentElement.style.setProperty('--accent', DOTS[d.name.replace('U16 ', '')] || CUP_ACCENT);
+  document.documentElement.style.setProperty('--accent', DOTS[d.name.replace(/^U1\d /, '')] || CUP_ACCENT);
   sh.querySelector('.sheet-body').innerHTML = `
     <header class="sh-head">
       <div class="tm">${crest(name)}<div><div class="sh-name"><span class="eyebrow">${esc(d.name)}</span>${name === mine ? '<button type="button" class="chg" data-pick>Change team</button>' : ''}</div><h2>${esc(name)}</h2></div></div>
@@ -1285,7 +1411,8 @@ function openTeam(name) {
     </header>
     ${partnerHtml(name)}
     <div class="stats six">${tileHtml}</div>
-    <section><h3>Talking points</h3><ul class="kv">${hl.join('') || '<li class="fine">No league games yet</li>'}</ul>${htNote}</section>
+    ${journeyHtml(name, i)}
+    <section><h3>Talking points</h3><ul class="kv">${hl.concat(historyKv(name)).join('') || '<li class="fine">No league games yet</li>'}</ul>${htNote}</section>
     <section><h3>When they score</h3>${when}</section>
     <section><h3>Next up</h3><ul class="list">${upHtml}</ul>${calHtml(name)}</section>
     ${comps.length ? `<section><h3>Cup runs</h3><ul class="kv">${cupHtml}</ul></section>` : ''}
@@ -1406,6 +1533,13 @@ function renderRoundup() {
   }).join('');
 }
 
+function renderForm() {
+  const sec = document.getElementById('ft-sec');
+  if (typeof view !== 'number') { sec.hidden = true; return; }
+  const rows = formTable(view); sec.hidden = rows.length < 4; if (sec.hidden) return;
+  document.getElementById('ft').innerHTML = '<div class="mrow hd ft"><span>#</span><span>Team</span><span>Form</span><span class="r">Pts</span></div>' + rows.map((r, k) =>
+    `<div class="mrow ft ${r.name === mine ? 'mine' : ''}" data-team="${esc(r.name)}" role="button" tabindex="0"><span>${k + 1}</span><span class="tn">${crest(r.name)}${esc(r.name)}</span><span class="form">${r.f.map(x => `<i class="${x}">${x}</i>`).join('')}</span><span class="r pts">${r.pts}</span></div>`).join('');
+}
 function renderMini() {
   const sec = document.getElementById('mini-sec'); if (!sec) return;
   if (typeof view !== 'number') { sec.hidden = true; return; }
@@ -1427,6 +1561,40 @@ function renderMini() {
 function renderTabbar() {
   document.querySelectorAll('#tabbar button').forEach(b => b.setAttribute('aria-current', b.dataset.tab === tab ? 'page' : 'false'));
 }
+// ---- Age groups (EJA): one page per age; your team is saved per age, so "My teams" spans them
+const ageBase = AGE === 'U16' ? './' : '../';
+const ageHref = a => a === 'U16' ? ageBase : ageBase + a.toLowerCase() + '/';
+const ageKey = a => a === 'U16' ? 'touchline' : 'touchline-' + a.toLowerCase();
+const savedFor = a => { if (a === AGE) return mine; try { return localStorage.getItem(ageKey(a) + '-team'); } catch (e) { return null; } };
+function renderAges() {
+  const el = document.getElementById('ages');
+  if (BRAND.code !== 'EJA') { el.innerHTML = ''; return; }
+  const keep = tab === 'home' ? '' : '#' + tab;
+  el.innerHTML = AGES.map(a => { const t = savedFor(a), on = a === AGE;
+    return `<a href="${ageHref(a)}${t && !on ? '?team=' + slug(t) : ''}${keep}" class="${on ? 'on' : ''}" ${on ? 'aria-current="page"' : ''} data-track="age">${a}${t && !on ? '<span class="dot" aria-label="your team"></span>' : ''}</a>`; }).join('');
+}
+const summaries = {};
+async function renderOthers() {
+  const sec = document.getElementById('others-sec'), el = document.getElementById('others');
+  if (BRAND.code !== 'EJA') { sec.hidden = true; return; }
+  const list = AGES.filter(a => a !== AGE && savedFor(a));
+  const missing = AGES.filter(a => a !== AGE && !savedFor(a));
+  const addBtn = missing.length ? `<button type="button" class="addteam" id="addteam">+ Add a team in another age group</button><div class="agepick" id="agepick" hidden>${missing.map(a => `<a href="${ageHref(a)}?pick=1">${a}</a>`).join('')}</div>` : '';
+  sec.hidden = !mine;
+  if (!list.length) { el.innerHTML = addBtn; document.getElementById('others-h').textContent = 'Got another team?'; return; }
+  document.getElementById('others-h').textContent = 'My other teams';
+  await Promise.all(list.map(async a => { if (summaries[a] === undefined) { try { summaries[a] = await (await fetch(ageHref(a) + 'summary.json', { cache: 'no-cache' })).json(); } catch (e) { summaries[a] = null; } } }));
+  el.innerHTML = list.map(a => {
+    const t = savedFor(a), sm = summaries[a] && summaries[a].teams[t];
+    const nx = sm && (sm.next || []).find(f => toDate(f[0]) >= today);
+    const opp = nx ? (nx[2] === t ? nx[3] : nx[2]) : null;
+    const sub = nx ? `${nx[0] === ddmm(new Date()) ? 'Today' : dayLabel(nx[0])} · ${nx[2] === t ? 'Home' : 'Away'} v ${esc(opp)}` : (sm && sm.pos ? `${ordinal(sm.pos)} in ${esc(sm.div)}` : 'No fixture listed yet');
+    const ko = nx ? (nx[1] ? `<small>Kick-off</small>${esc(nx[1])}` : '<small>Kick-off</small>TBC') : '';
+    return `<a class="panel oteam" href="${ageHref(a)}?team=${slug(t)}"><span class="ag">${a}</span><span class="nm">${esc(t)}</span><span class="ko">${ko}</span><span class="nx">${sub}</span></a>`;
+  }).join('') + addBtn;
+}
+document.addEventListener('click', e => { if (e.target.id === 'addteam') { const p = document.getElementById('agepick'); p.hidden = !p.hidden; } });
+
 function setTab(t) {
   t = TABS.includes(t) ? t : 'home';
   const changed = t !== tab; tab = t; document.body.dataset.tab = t;
@@ -1448,7 +1616,7 @@ function renderView() {
   const isCup = typeof view === 'string';
   const comp = isCup ? DATA.cups[+view.slice(1)] : DATA.divisions[view];
   const county = !!(isCup && comp.county);
-  applyAccent(isCup ? null : comp.name.replace('U16 ', ''));
+  applyAccent(isCup ? null : comp.name.replace(/^U1\d /, ''));
   document.getElementById('league-view').hidden = isCup;
   document.getElementById('cup-alive').hidden = !isCup || county;
   document.getElementById('title').textContent = comp.name;
@@ -1458,7 +1626,9 @@ function renderView() {
   if (isCup) { if (!county) renderCup(comp); }
   else { renderLatest(comp.results, cupResultsFor(view)); renderPicks(); renderTable(); }
   renderMini();
+  renderForm();
   renderTabbar();
+  renderAges();
   renderToday();
   renderFresh();
   renderTalkingPoints();
@@ -1544,7 +1714,7 @@ function setTeam(name) {
   view = teamDiv[mine];
   track('picked/' + slug(mine), mine);
   syncLink();
-  renderNext(); renderView(); renderTips();
+  renderNext(); renderView(); renderTips(); renderOthers();
 }
 sel.addEventListener('change', () => setTeam(sel.value));
 
@@ -1570,12 +1740,16 @@ renderFresh();
 offlineNote();
 
 if (linked) track('link/' + slug(linked), linked);
+document.getElementById('lg-sub').textContent = `Under ${AGE.slice(1)} · 2026–27`;
+document.getElementById('welcome-eyebrow').textContent = `Eastern Junior Alliance · Under ${AGE.slice(1)}`;
 syncLink();
 renderNext();
 renderView();
 renderTips();
+renderOthers();
 // #table, #fixtures and #results are also element ids: stop the browser jumping down to them on load
 if (location.hash) { window.scrollTo(0, 0); addEventListener('load', () => window.scrollTo(0, 0)); }
 let seen = false; try { seen = !!localStorage.getItem(LSK + '-browsing'); } catch (e) {}
-if (!mine && !seen) openWelcome();
+if (new URLSearchParams(location.search).get('pick')) { try { history.replaceState(null, '', location.pathname); } catch (e) {} openWelcome(); }
+else if (!mine && !seen) openWelcome();
 </script>
