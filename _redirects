@@ -1,8 +1,3 @@
 # Touchline EJA on Netlify: serve the live GitHub Pages site under this address.
 # The laptop keeps pushing to GitHub as before; Netlify never needs a new deploy.
-/u13   /u13/   301
-/u14   /u14/   301
-/u15   /u15/   301
-/u18   /u18/   301
-/bcfa  /bcfa/  301
 /*  https://osbornmatthew-lgtm.github.io/Touchline/:splat  200
