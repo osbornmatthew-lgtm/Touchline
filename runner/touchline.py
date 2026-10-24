@@ -544,6 +544,46 @@ def cmd_run(a):
         lock.unlink(missing_ok=True)
 
 
+def cmd_history(a):
+    """One-off: fetch past seasons (config "history") into data/history/<season>.json, one season at a time.
+    Also saves any league data an interrupted run left on this machine."""
+    global LOGFILE
+    lock = acquire_lock()
+    if not lock:
+        print('A results run is still going; try again in a few minutes.')
+        return 0
+    try:
+        (STATE / 'logs').mkdir(parents=True, exist_ok=True)
+        LOGFILE = STATE / 'logs' / f'{datetime.now(LDN):%Y-%m-%d}.log'
+        if not a.no_pull:
+            try:
+                self_update()
+            except Exception as e:
+                log(f'could not pull the latest from GitHub ({e}); carrying on with what is here')
+        cfg = load_config()
+        left = [p for L in cfg['leagues'] for p in (data_path(L), meta_path(L)) if p.exists()]
+        if left:
+            save_data(left, 'Data saved after an interrupted run')
+        seasons = [x for x in cfg.get('history', {}).get('seasons', []) if a.force or not (ROOT / 'data' / 'history' / f'{x[1]}.json').exists()]
+        if not seasons:
+            log('history: nothing to fetch')
+            return 0
+        browser = FullTime(cfg).__enter__()
+        try:
+            for sid, label in seasons:
+                log(f'history {label}: fetching...')
+                got, summary = browser.history([[sid, label]])
+                p = ROOT / 'data' / 'history' / f'{label}.json'
+                write_json(p, {'divisions': got[label]['divisions'], 'results': got[label]['results']})
+                save_data([p], f'History {label}')
+                log(f'history {label}: {summary}; saved')
+        finally:
+            browser.__exit__(None, None, None)
+        return 0
+    finally:
+        lock.unlink(missing_ok=True)
+
+
 def run(a):
     t0 = time.time()
     if not a.no_pull and not a.dry_run:
@@ -631,20 +671,6 @@ def run(a):
                     traceback.print_exc()
             finally:
                 s['duration_s'] = round(time.time() - lt, 1)
-        # Past seasons: fetched once, never change (config "history": {"seasons": [[season id, "2025-26"], ...]})
-        hist = [x for x in cfg.get('history', {}).get('seasons', []) if not (ROOT / 'data' / 'history' / f'{x[1]}.json').exists()]
-        if hist and not blocked and not a.dry_run and not a.league:
-            try:
-                if browser is None:
-                    browser = FullTime(cfg).__enter__()
-                got, summary = browser.history(hist)
-                for label, h in got.items():
-                    p = ROOT / 'data' / 'history' / f'{label}.json'
-                    write_json(p, {'divisions': h['divisions'], 'results': h['results']})
-                    data_files.append(p)
-                log(f'history: {summary}')
-            except Exception as e:
-                log(f'history: FAILED: {e}')
         if browser:
             browser.__exit__(None, None, None)
 
@@ -757,11 +783,14 @@ def main():
     r.add_argument('--force', action='store_true', help='publish even if nothing changed')
     r.add_argument('--no-pull', action='store_true', help="don't update from GitHub first")
     r.add_argument('-v', '--verbose', action='store_true')
+    h = sub.add_parser('history', help='one-off: fetch past seasons')
+    h.add_argument('--force', action='store_true', help='fetch again even if saved')
+    h.add_argument('--no-pull', action='store_true')
     sub.add_parser('probe')
     c = sub.add_parser('check')
     c.add_argument('--mode', choices=['auto', 'matchday', 'full'], default='auto')
     a = ap.parse_args()
-    sys.exit({'run': cmd_run, 'probe': cmd_probe, 'check': cmd_check}[a.cmd](a))
+    sys.exit({'run': cmd_run, 'history': cmd_history, 'probe': cmd_probe, 'check': cmd_check}[a.cmd](a))
 
 
 if __name__ == '__main__':
