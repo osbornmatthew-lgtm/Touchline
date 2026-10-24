@@ -329,6 +329,13 @@ body:not([data-tab=home]) #updated > span:not(.fresh){display:none}
 body:not([data-tab=home]) main{gap:20px}
 #fixtures .sec-head,#res-h{display:none}
 @media (max-width:370px){ .brand b,.brand span{font-size:22px} .brand .mark{height:19px;top:3.6px} .brand{gap:7px} .brand span{padding-left:7px} nav.sections .myteam{padding:6px;gap:0;font-size:0} nav.sections .myteam .crest{font-size:10px} }
+/* top of page: league name prominent, update line small and quiet */
+.intro > .eyebrow{font-family:var(--display);font-weight:700;font-size:24px;line-height:1.1;letter-spacing:.02em;color:var(--fg);text-transform:uppercase}
+.intro > .eyebrow .lg-sub{display:block;margin-top:4px;font-family:var(--body);font-size:14px;font-weight:600;letter-spacing:.06em;color:var(--fg-2)}
+#updated{font-size:12px!important;gap:4px 8px!important}
+#updated > span:not(.fresh){display:none}
+#updated .fresh{border:0;padding:0;font-size:12px;font-weight:500;color:var(--muted)}
+#updated .fresh::before{width:6px;height:6px}
 /* team page: small change button beside the name */
 .sh-name{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:4px}
 .chg{min-height:26px;padding:0 10px;border-radius:999px;border:1px solid var(--line-2);background:var(--panel);color:var(--fg-2);font:inherit;font-size:12px;font-weight:600;cursor:pointer;position:relative}
@@ -385,7 +392,7 @@ nav.sections .myteam{margin-right:0}
 
 <main class="wrap" id="top">
   <div class="intro" data-tabs="home table fixtures results stats">
-    <div class="eyebrow">Eastern Junior Alliance · Under 16 · 2026–27</div>
+    <div class="eyebrow">Eastern Junior Alliance<span class="lg-sub">Under 16 · 2026–27</span></div>
     <h1 id="title"></h1>
     <div class="meta" id="updated"></div>
     <div class="stale" id="stale" hidden></div>
