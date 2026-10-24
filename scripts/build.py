@@ -40,6 +40,7 @@ head = """<!doctype html>
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="manifest" href="manifest.json">
 <script>if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js'));</script>
+<script>try{var h=location.hash;if(h==='#me'||h==='#notme'){if(h==='#me')localStorage.setItem('skipgc','t');else localStorage.removeItem('skipgc');history.replaceState(null,'',location.pathname+location.search);addEventListener('load',function(){alert(h==='#me'?'Touchline will no longer count visits from this browser.':'Touchline will count visits from this browser again.')})}}catch(e){}</script>
 %GC%<style>body{margin:0}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:#0E1217}</style>
 """
 head = head.replace('%DESC%', LG['desc']).replace('%NAME%', NAME).replace('%SITE%', LG['site'])
@@ -61,7 +62,20 @@ for src_name, name in [('app-icon-512.png', 'icon-512.png'), ('app-icon-192.png'
         open(dest, 'wb').write(open(local, 'rb').read())
     else:
         urllib.request.urlretrieve(ASSETS + src_name, dest)
-json.dump({"name": NAME, "short_name": NAME, "start_url": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}, open(os.path.join(out, 'manifest.json'), 'w', encoding='utf-8', newline=''))
+def _manifest(start):
+    return {"name": NAME, "short_name": NAME, "id": "./", "start_url": start, "scope": "./", "display": "standalone", "background_color": "#0E1217", "theme_color": "#0E1217", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}
+json.dump(_manifest("./"), open(os.path.join(out, 'manifest.json'), 'w', encoding='utf-8', newline=''))
+# One manifest per team, so "Add to Home Screen" opens on that team (the page points at manifest-<team>.json once a team is picked).
+_m = re.search(r'^const DATA = (.*);$', src, re.M)
+if _m:
+    try:
+        _teams = {t[0] for d in json.loads(_m.group(1)).get('divisions', []) for t in d.get('teams', [])}
+    except ValueError:
+        _teams = set()
+    for _t in _teams:
+        _s = re.sub(r'^-|-$', '', re.sub(r'[^a-z0-9]+', '-', _t.lower()))
+        if _s:
+            json.dump(_manifest('./?team=' + _s), open(os.path.join(out, f'manifest-{_s}.json'), 'w', encoding='utf-8', newline=''))
 
 # Offline: network first, fall back to the last copy after 3.5s or with no signal.
 open(os.path.join(out, 'sw.js'), 'w', encoding='utf-8', newline='').write('''const C = 'touchline-' + '''+repr(LEAGUE)+''' + '-v3';
