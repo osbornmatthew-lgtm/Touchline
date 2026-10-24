@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988027@touchline-eja
-DTSTAMP:20261024T061936Z
+DTSTAMP:20261024T064838Z
 SUMMARY:Bury Town v Leiston
 DTSTART;TZID=Europe/London:20261025T103000
 DTEND;TZID=Europe/London:20261025T121000
@@ -37,13 +37,24 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30988027
 END:VEVENT
 BEGIN:VEVENT
 UID:31030351@touchline-eja
-DTSTAMP:20261024T061936Z
+DTSTAMP:20261024T064838Z
 SUMMARY:Aylsham v Bury Town
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-LOCATION:Ayfc
-DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261101T140000
+DTEND;TZID=Europe/London:20261101T154000
+LOCATION:Youngs Park\, Youngs Park\, Aylsham Community Sports Ltd Woodgate
+  Way\, Aylsham\, Norfolk NR11 6FJ
+DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030351
+END:VEVENT
+BEGIN:VEVENT
+UID:31091381@touchline-eja
+DTSTAMP:20261024T064838Z
+SUMMARY:Mulbarton Wanderers v Bury Town
+DTSTART;TZID=Europe/London:20261108T120000
+DTEND;TZID=Europe/London:20261108T134000
+LOCATION:The FDC\, Bowthorpe Park Clover Hill Road\, Norwich\, Norfolk NR5
+  9ED
+DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31091381
 END:VEVENT
 END:VCALENDAR

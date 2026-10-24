@@ -26,14 +26,37 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030422@touchline-eja
-DTSTAMP:20261024T061936Z
+DTSTAMP:20261024T064838Z
 SUMMARY:Bowers & Pitsea v Heybridge Swifts
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
+ \, Basildon\, Essex SS13 2BE
+DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030422
+END:VEVENT
+BEGIN:VEVENT
+UID:31093068@touchline-eja
+DTSTAMP:20261024T064838Z
+SUMMARY:Bowers & Pitsea v Benfleet
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
 LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
  \, Basildon\, Essex SS13 2BE
 DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030422
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093068
+END:VEVENT
+BEGIN:VEVENT
+UID:31094400@touchline-eja
+DTSTAMP:20261024T064838Z
+SUMMARY:Bowers & Pitsea v Grays Athletic
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
+ \, Basildon\, Essex SS13 2BE
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31094400
 END:VEVENT
 END:VCALENDAR

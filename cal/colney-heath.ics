@@ -26,29 +26,40 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988104@touchline-eja
-DTSTAMP:20261024T061936Z
+DTSTAMP:20261024T064838Z
 SUMMARY:Colney Heath v Baldock Town
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-LOCATION:Colney Heath Recreation Ground\, Sports Ground High Street\, Coln
- ey Heath\, St Albans\, Hertfordshire AL4 0NP
-DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261025T100000
+DTEND;TZID=Europe/London:20261025T114000
+LOCATION:Samuel Ryder Academy\, Drakes Drive\, St. Albans\, Hertfordshire 
+ AL1 5AR
+DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988104
 END:VEVENT
 BEGIN:VEVENT
+UID:31093076@touchline-eja
+DTSTAMP:20261024T064838Z
+SUMMARY:Hertford Town v Colney Heath
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Hertingfordbury Park\, West Street\, Hertford\, Hertfordshire SG1
+ 3 8EZ
+DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093076
+END:VEVENT
+BEGIN:VEVENT
 UID:31030403@touchline-eja
-DTSTAMP:20261024T061936Z
+DTSTAMP:20261024T064838Z
 SUMMARY:Eynesbury Rovers v Colney Heath
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
 DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030403
 END:VEVENT
 BEGIN:VEVENT
 UID:30932313@touchline-eja
-DTSTAMP:20261024T061936Z
+DTSTAMP:20261024T064838Z
 SUMMARY:Colney Heath v Cheshunt (Hertfordshire FA U16 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000

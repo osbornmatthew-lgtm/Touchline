@@ -26,17 +26,27 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030424@touchline-eja
-DTSTAMP:20261024T061936Z
+DTSTAMP:20261024T064838Z
 SUMMARY:Canvey Island v Concord Rangers
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
 DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030424
 END:VEVENT
 BEGIN:VEVENT
+UID:31094399@touchline-eja
+DTSTAMP:20261024T064838Z
+SUMMARY:Aveley v Concord Rangers
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31094399
+END:VEVENT
+BEGIN:VEVENT
 UID:30895287@touchline-eja
-DTSTAMP:20261024T061936Z
+DTSTAMP:20261024T064838Z
 SUMMARY:Aylsham v Concord Rangers (League Cup)
 DTSTART;TZID=Europe/London:20261025T120000
 DTEND;TZID=Europe/London:20261025T134000

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988027@touchline-eja
-DTSTAMP:20261024T061936Z
+DTSTAMP:20261024T064838Z
 SUMMARY:Bury Town v Leiston
 DTSTART;TZID=Europe/London:20261025T103000
 DTEND;TZID=Europe/London:20261025T121000
@@ -36,13 +36,24 @@ DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988027
 END:VEVENT
 BEGIN:VEVENT
-UID:31030355@touchline-eja
-DTSTAMP:20261024T061936Z
-SUMMARY:Wroxham v Leiston
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+UID:31091311@touchline-eja
+DTSTAMP:20261024T064838Z
+SUMMARY:Mulbarton Wanderers v Leiston
+DTSTART;TZID=Europe/London:20261101T120000
+DTEND;TZID=Europe/London:20261101T134000
+LOCATION:The Nest\, Horsford Manor Holt Road\, Horsford\, Norwich\, Norfol
+ k NR10 3AQ
+DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31091311
+END:VEVENT
+BEGIN:VEVENT
+UID:31091462@touchline-eja
+DTSTAMP:20261024T064838Z
+SUMMARY:Felixstowe & Walton United v Leiston
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
 DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030355
+URL:https://fulltime.thefa.com/displayFixture.html?id=31091462
 END:VEVENT
 END:VCALENDAR
