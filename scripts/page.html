@@ -1295,7 +1295,7 @@ function formTable(i) {
 
 // ---- Honours and season by season (past seasons): league finish and how far they got in each cup
 const compName = c => String(c).replace(/_\s*\d{4}\s*-\s*\d{2,4}\s*$/, '').replace(/`/g, "'").replace(/\s*\((?:Mid ?Week(?: Cup)?|Midweek)\)/i, '').replace(/League Cup U1\d'?s/i, 'League Cup')
-  .replace(/U1\ds? Division Play ?Offs?/i, 'Champions of Champions').replace(/U1\ds? Play ?off Semi Final/i, 'Champions of Champions semi-final').replace(/U1\ds? Play ?off Final/i, 'Champions of Champions').replace(/^Head to Head U1\d'?s?$/i, 'Head to Head final').replace(/RT litho/i, 'RT Litho').replace(/^Chairmans/, "Chairman's").replace(/\s*\(\s*Plate\s*\)/i, ' (Plate)').replace(/\s+/g, ' ').trim();
+  .replace(/U1\ds? Division Play ?Offs?/i, 'Champions of Champions').replace(/U1\ds? Play ?off Semi Final/i, 'Champions of Champions semi-final').replace(/U1\ds? Play ?off Final/i, 'Champions of Champions').replace(/^Head to Head U1\d'?s?$/i, 'Title decider').replace(/RT litho/i, 'RT Litho').replace(/^Chairmans/, "Chairman's").replace(/\s*\(\s*Plate\s*\)/i, ' (Plate)').replace(/\s+/g, ' ').trim();
 const tieWinner = r => { if (r[3] > r[4]) return r[1]; if (r[4] > r[3]) return r[2]; const m = String(r[5] || '').match(/pens?\s*(\d+)\s*-\s*(\d+)/i); return m ? (+m[1] > +m[2] ? r[1] : r[2]) : null; };
 function pastSeasons(name) {
   return HIST.map(H => {
@@ -1309,7 +1309,7 @@ function pastSeasons(name) {
       const last = mineRs.sort(order)[mineRs.length - 1], final = rs.slice().sort(order)[rs.length - 1];
       const won = tieWinner(last) === name, opp = last[1] === name ? last[2] : last[1];
       let res, honour = null;
-      if (/semi/i.test(comp)) res = won ? `won v ${opp}` : `lost to ${opp}`;
+      if (/semi|title decider/i.test(comp)) res = won ? `won v ${opp}` : `lost to ${opp}`;  // a semi or a one-off decider is not a trophy
       else if (last === final) { res = won ? 'Winners' : 'Runners-up'; honour = won ? 'win' : 'final'; }
       else res = won ? `won v ${opp} (last game recorded)` : `out to ${opp}`;
       cups.push({ comp, res, honour });
