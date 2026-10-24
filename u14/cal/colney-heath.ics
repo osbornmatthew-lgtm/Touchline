@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Colney Heath (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31020255@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Takeley v Colney Heath
+DTSTART;TZID=Europe/London:20261025T100000
+DTEND;TZID=Europe/London:20261025T114000
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:U14 Green league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31020255
+END:VEVENT
+BEGIN:VEVENT
+UID:31002242@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Colney Heath v Ware
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+LOCATION:Samuel Ryder Academy\, Drakes Drive\, St. Albans\, Hertfordshire 
+ AL1 5AR
+DESCRIPTION:U14 Green league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31002242
+END:VEVENT
+BEGIN:VEVENT
+UID:31067546@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Colney Heath v Hertford Town
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Colney Heath Recreation Ground\, Sports Ground High Street\, Coln
+ ey Heath\, St Albans\, Hertfordshire AL4 0NP
+DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31067546
+END:VEVENT
+BEGIN:VEVENT
+UID:30931288@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Colney Heath v LGCE (Hertfordshire FA U14 Boys Challenge Cup)
+DTSTART;TZID=Europe/London:20261122T103000
+DTEND;TZID=Europe/London:20261122T121000
+DESCRIPTION:Hertfordshire FA U14 Boys Challenge Cup. Check FA Full-Time fo
+ r late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30931288
+END:VEVENT
+END:VCALENDAR

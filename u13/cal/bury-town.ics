@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bury Town (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30955014@touchline-eja-u13
+DTSTAMP:20261024T110033Z
+SUMMARY:Mildenhall Town v Bury Town
+DTSTART;TZID=Europe/London:20261025T103000
+DTEND;TZID=Europe/London:20261025T121000
+LOCATION:Mildenhall Hub\, Mildenhall Hub\, Mildenhall Leisure Centre Sheld
+ rick Way\, Mildenhall\, Suffolk IP28 7JX
+DESCRIPTION:U13 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30955014
+END:VEVENT
+BEGIN:VEVENT
+UID:31001697@touchline-eja-u13
+DTSTAMP:20261024T110033Z
+SUMMARY:Woodbridge Town v Bury Town
+DTSTART;TZID=Europe/London:20261101T110000
+DTEND;TZID=Europe/London:20261101T124000
+DESCRIPTION:U13 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31001697
+END:VEVENT
+BEGIN:VEVENT
+UID:31035179@touchline-eja-u13
+DTSTAMP:20261024T110033Z
+SUMMARY:Bury Town v Felixstowe & Walton United
+DTSTART;TZID=Europe/London:20261108T103000
+DTEND;TZID=Europe/London:20261108T121000
+LOCATION:Skyliner Sports Centre\, Sybil Andrews Academy Rougham Tower Aven
+ ue\, Bury St. Edmunds\, Suffolk IP32 7QB
+DESCRIPTION:U13 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035179
+END:VEVENT
+BEGIN:VEVENT
+UID:31067381@touchline-eja-u13
+DTSTAMP:20261024T110033Z
+SUMMARY:Bury Town v Ipswich Wanderers
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Skyliner Sports Centre\, Sybil Andrews Academy Rougham Tower Aven
+ ue\, Bury St. Edmunds\, Suffolk IP32 7QB
+DESCRIPTION:U13 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31067381
+END:VEVENT
+END:VCALENDAR

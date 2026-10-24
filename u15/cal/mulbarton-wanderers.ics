@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mulbarton Wanderers (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31029927@touchline-eja-u15
+DTSTAMP:20261024T110151Z
+SUMMARY:Mulbarton Wanderers v Felixstowe & Walton United
+DTSTART;TZID=Europe/London:20261101T121500
+DTEND;TZID=Europe/London:20261101T135500
+DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31029927
+END:VEVENT
+BEGIN:VEVENT
+UID:31091969@touchline-eja-u15
+DTSTAMP:20261024T110151Z
+SUMMARY:Leiston v Mulbarton Wanderers
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Leiston Town Athletic Association\, The Flannery Stadium Victory 
+ Road\, Leiston\, Suffolk IP16 4DQ
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31091969
+END:VEVENT
+BEGIN:VEVENT
+UID:31091484@touchline-eja-u15
+DTSTAMP:20261024T110151Z
+SUMMARY:Woodbridge Town v Mulbarton Wanderers
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31091484
+END:VEVENT
+BEGIN:VEVENT
+UID:30895090@touchline-eja-u15
+DTSTAMP:20261024T110151Z
+SUMMARY:Mulbarton Wanderers v Leighton Town (League Cup)
+DTSTART;TZID=Europe/London:20261025T121500
+DTEND;TZID=Europe/London:20261025T135500
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30895090
+END:VEVENT
+END:VCALENDAR

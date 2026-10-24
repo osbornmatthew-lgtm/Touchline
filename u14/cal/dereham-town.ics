@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dereham Town (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31002079@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Dereham Town v Fakenham Town
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31002079
+END:VEVENT
+BEGIN:VEVENT
+UID:31034961@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Stowmarket Town v Dereham Town
+DTSTART;TZID=Europe/London:20261108T140000
+DTEND;TZID=Europe/London:20261108T154000
+LOCATION:Stowmarket High School\, Onehouse Road\, Stowmarket\, Suffolk IP1
+ 4 1QR
+DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31034961
+END:VEVENT
+BEGIN:VEVENT
+UID:31067496@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Aylsham v Dereham Town
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31067496
+END:VEVENT
+BEGIN:VEVENT
+UID:30901839@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Dereham Town v Godmanchester Rovers (League Cup)
+DTSTART;TZID=Europe/London:20261025T120000
+DTEND;TZID=Europe/London:20261025T134000
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30901839
+END:VEVENT
+BEGIN:VEVENT
+UID:31066598@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Brundall Bolts v Dereham Town (Stuart Dracup Cup)
+DTSTART;TZID=Europe/London:20261115T113000
+DTEND;TZID=Europe/London:20261115T131000
+LOCATION:Brundall Sports Hub
+DESCRIPTION:Stuart Dracup Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31066598
+END:VEVENT
+END:VCALENDAR

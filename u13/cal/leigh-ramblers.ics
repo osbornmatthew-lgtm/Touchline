@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Leigh Ramblers (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30955069@touchline-eja-u13
+DTSTAMP:20261024T110033Z
+SUMMARY:Leigh Ramblers v Southend Manor
+DTSTART;TZID=Europe/London:20261025T100000
+DTEND;TZID=Europe/London:20261025T114000
+LOCATION:Belfairs Park/Sports Ground\, Belfairs Park Eastwood Road North\,
+  Leigh-On-Sea SS9 4LR
+DESCRIPTION:U13 Red league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30955069
+END:VEVENT
+BEGIN:VEVENT
+UID:31001950@touchline-eja-u13
+DTSTAMP:20261024T110033Z
+SUMMARY:Leigh Ramblers v CSM London
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Belfairs Park/Sports Ground\, Belfairs Park Eastwood Road North\,
+  Leigh-On-Sea SS9 4LR
+DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31001950
+END:VEVENT
+BEGIN:VEVENT
+UID:31035391@touchline-eja-u13
+DTSTAMP:20261024T110033Z
+SUMMARY:Leigh Ramblers v Concord Rangers
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:The Len Forge Centre\, Eastwoodbury Lane\, Southend-On-Sea SS2 6U
+ H
+DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035391
+END:VEVENT
+BEGIN:VEVENT
+UID:31035055@touchline-eja-u13
+DTSTAMP:20261024T110033Z
+SUMMARY:Ilford v Leigh Ramblers (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035055
+END:VEVENT
+END:VCALENDAR

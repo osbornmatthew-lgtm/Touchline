@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Downham Town (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31002159@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Downham Town v St Neots Town
+DTSTART;TZID=Europe/London:20261101T140000
+DTEND;TZID=Europe/London:20261101T154000
+DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31002159
+END:VEVENT
+BEGIN:VEVENT
+UID:31035009@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:AFC Sudbury v Downham Town
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035009
+END:VEVENT
+BEGIN:VEVENT
+UID:31067506@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Downham Town v Haverhill Rovers EJA
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31067506
+END:VEVENT
+BEGIN:VEVENT
+UID:30901844@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:St Margaretsbury v Downham Town (League Cup)
+DTSTART;TZID=Europe/London:20261025T120000
+DTEND;TZID=Europe/London:20261025T134000
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30901844
+END:VEVENT
+BEGIN:VEVENT
+UID:30913127@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Fakenham Town v Downham Town (Peter Cline Trophy)
+DTSTART;TZID=Europe/London:20261028T193000
+DTEND;TZID=Europe/London:20261028T211000
+LOCATION:Daly Group Stadium (Fakenham Town FC)\, Clipbush Park Clipbush La
+ ne\, Fakenham\, Norfolk NR21 8SW
+DESCRIPTION:Peter Cline Trophy. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30913127
+END:VEVENT
+BEGIN:VEVENT
+UID:31066742@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Downham Town v Dereham Saints (Stuart Dracup Cup)
+DTSTART;TZID=Europe/London:20261115T133000
+DTEND;TZID=Europe/London:20261115T151000
+LOCATION:Downham Market Academy
+DESCRIPTION:Stuart Dracup Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31066742
+END:VEVENT
+END:VCALENDAR

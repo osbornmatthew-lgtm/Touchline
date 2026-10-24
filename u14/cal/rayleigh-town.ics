@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rayleigh Town (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30955203@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Hashtag United v Rayleigh Town
+DTSTART;TZID=Europe/London:20261025T100000
+DTEND;TZID=Europe/London:20261025T114000
+DESCRIPTION:U14 Yellow league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30955203
+END:VEVENT
+BEGIN:VEVENT
+UID:31002665@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Benfleet v Rayleigh Town
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Woodside Stadium\, Woodside Park Recreation Ground\, Benfleet Foo
+ tball Club Manor Road\, Benfleet\, Essex SS7 4PD
+DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31002665
+END:VEVENT
+BEGIN:VEVENT
+UID:31067719@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Rayleigh Town v Bowers & Pitsea
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
+ ssex SS6 9DT
+DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31067719
+END:VEVENT
+BEGIN:VEVENT
+UID:31002662@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Rayleigh Town v Billericay Town (Essex Andrews U14 Cup)
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
+ ssex SS6 9DT
+DESCRIPTION:Essex Andrews U14 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31002662
+END:VEVENT
+END:VCALENDAR

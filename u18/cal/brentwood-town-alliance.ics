@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brentwood Town Alliance (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30985946@touchline-eja-u18
+DTSTAMP:20261024T110222Z
+SUMMARY:Brentwood Town Alliance v Rayleigh Town Yellow
+DTSTART;TZID=Europe/London:20261025T120000
+DTEND;TZID=Europe/London:20261025T134000
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U18 Red league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30985946
+END:VEVENT
+BEGIN:VEVENT
+UID:31093281@touchline-eja-u18
+DTSTAMP:20261024T110222Z
+SUMMARY:Bowers & Pitsea v Brentwood Town Alliance
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Ford Sports and Social Club (Basildon)\, Gardiners Close\, Basild
+ on\, Essex SS14 3AN
+DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093281
+END:VEVENT
+BEGIN:VEVENT
+UID:31093556@touchline-eja-u18
+DTSTAMP:20261024T110222Z
+SUMMARY:Brentwood Town Alliance v Heybridge Swifts U17 Red
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093556
+END:VEVENT
+END:VCALENDAR

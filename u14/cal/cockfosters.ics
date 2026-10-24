@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline EJA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cockfosters (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30955165@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Cockfosters v Norsemen
+DTSTART;TZID=Europe/London:20261025T140000
+DTEND;TZID=Europe/London:20261025T154000
+LOCATION:Winchmore Hill Sports Club\, Firs Lane\, London N21 3ER
+DESCRIPTION:U14 Orange league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30955165
+END:VEVENT
+BEGIN:VEVENT
+UID:31002299@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Wormley Rovers v Cockfosters
+DTSTART;TZID=Europe/London:20261101T110000
+DTEND;TZID=Europe/London:20261101T124000
+DESCRIPTION:U14 Orange league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31002299
+END:VEVENT
+BEGIN:VEVENT
+UID:31035114@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Cockfosters v Enfield Borough
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035114
+END:VEVENT
+BEGIN:VEVENT
+UID:31048686@touchline-eja-u14
+DTSTAMP:20261024T110115Z
+SUMMARY:Rotherhithe v Cockfosters (London Under 14 Boys Sunday Cup)
+DTSTART;TZID=Europe/London:20261115T101000
+DTEND;TZID=Europe/London:20261115T115000
+LOCATION:University Of Greenwich (Sparrows Farm)\, Sparrows Farm Leisure C
+ entre Sparrows Lane\, London SE9 2BT
+DESCRIPTION:London Under 14 Boys Sunday Cup. Check FA Full-Time for late c
+ hanges.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31048686
+END:VEVENT
+END:VCALENDAR
