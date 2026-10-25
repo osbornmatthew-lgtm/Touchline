@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Leigh Lionesses Girls Pride (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735171@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Leigh Lionesses Girls Pride
+DTSTART;TZID=Europe/London:20261101T140000
+DTEND;TZID=Europe/London:20261101T154000
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735171
+END:VEVENT
+BEGIN:VEVENT
+UID:30735172@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Tigers Girls Black v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735172
+END:VEVENT
+BEGIN:VEVENT
+UID:30853097@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853097
+END:VEVENT
+BEGIN:VEVENT
+UID:30735190@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Atletico Trotters Girls
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735190
+END:VEVENT
+BEGIN:VEVENT
+UID:30735195@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Loughton Town Purples v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735195
+END:VEVENT
+BEGIN:VEVENT
+UID:30735199@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Broomfield Girls Black
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735199
+END:VEVENT
+BEGIN:VEVENT
+UID:30735208@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v BSC FC Azures
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735208
+END:VEVENT
+BEGIN:VEVENT
+UID:30735215@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735215
+END:VEVENT
+BEGIN:VEVENT
+UID:30735217@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Great Bradfords Girls Quartz
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735217
+END:VEVENT
+BEGIN:VEVENT
+UID:30735139@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Atletico Trotters Girls v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Old Brentwoods Sports Club\, Ashwells Road\, Pilgrims Hatch\, Bre
+ ntwood\, Essex CM15 9SE
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735139
+END:VEVENT
+BEGIN:VEVENT
+UID:30853220@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Tigers Girls Black
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853220
+END:VEVENT
+BEGIN:VEVENT
+UID:30735144@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Loughton Town Purples
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735144
+END:VEVENT
+BEGIN:VEVENT
+UID:30853227@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Broomfield Girls Black v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853227
+END:VEVENT
+BEGIN:VEVENT
+UID:30853234@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Nazeing Wildcats
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853234
+END:VEVENT
+BEGIN:VEVENT
+UID:30853237@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853237
+END:VEVENT
+BEGIN:VEVENT
+UID:30853240@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Runwell Sports Sapphires v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Runwell Sports Club\, St. Lukes Way\, Runwell\, Wickford\, Essex 
+ SS11 7QA
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853240
+END:VEVENT
+END:VCALENDAR

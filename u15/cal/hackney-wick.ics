@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31029972@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Ilford v Hackney Wick
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31029972
 END:VEVENT
 BEGIN:VEVENT
 UID:31093058@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:West Essex v Hackney Wick
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -48,8 +48,18 @@ DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093058
 END:VEVENT
 BEGIN:VEVENT
+UID:31100620@touchline-eja-u15
+DTSTAMP:20261025T180243Z
+SUMMARY:Hackney Wick v Ryan
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31100620
+END:VEVENT
+BEGIN:VEVENT
 UID:30362833@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Limitless v Hackney Wick (Norman Higgs Under 15 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261025T100000
 DTEND;TZID=Europe/London:20261025T114000

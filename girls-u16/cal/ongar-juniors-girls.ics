@@ -1,0 +1,204 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ongar Juniors Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735282@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:South Woodham Ferrers United Women M v Ongar Juniors Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735282
+END:VEVENT
+BEGIN:VEVENT
+UID:30735291@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v South Woodham Ferrers United Women M
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735291
+END:VEVENT
+BEGIN:VEVENT
+UID:30735293@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Hutton Girls Sharks v Ongar Juniors Girls
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Flints Community Ground\, Land Adjacent To 152 Chelmsford Road\, 
+ Shenfield\, Essex CM15 8RT
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735293
+END:VEVENT
+BEGIN:VEVENT
+UID:30735305@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:East Thurrock Community Raider v Ongar Juniors Girls
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Horndon On The Hill Recreation Ground\, Horndon On The Hill Crick
+ et Club Orsett Road\, Horndon On The Hill SS17 8NR
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735305
+END:VEVENT
+BEGIN:VEVENT
+UID:30735309@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v Billericay Town Girls ECGL
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735309
+END:VEVENT
+BEGIN:VEVENT
+UID:30735313@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Barking Barking Girls v Ongar Juniors Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Barking FC\, Lodge Avenue\, Dagenham RM8 2JR
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735313
+END:VEVENT
+BEGIN:VEVENT
+UID:30735318@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v AFC Leyton s
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735318
+END:VEVENT
+BEGIN:VEVENT
+UID:30735325@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Walthamstow EGCL v Ongar Juniors Girls
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Low Hall Sports Ground\, South Access Road\, London E17 8AX
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735325
+END:VEVENT
+BEGIN:VEVENT
+UID:30735327@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v Bowers & Pitsea Girls Hammers
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735327
+END:VEVENT
+BEGIN:VEVENT
+UID:30735249@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Buckhurst Hill Girls Lionesses v Ongar Juniors Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735249
+END:VEVENT
+BEGIN:VEVENT
+UID:30735263@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v Barking Barking Girls
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735263
+END:VEVENT
+BEGIN:VEVENT
+UID:30735300@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v Buckhurst Hill Girls Lionesses
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735300
+END:VEVENT
+BEGIN:VEVENT
+UID:30735245@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v Hutton Girls Sharks
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735245
+END:VEVENT
+BEGIN:VEVENT
+UID:30735272@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v Walthamstow EGCL
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Jubilee Park Pavilion\, Love Lane\, Ongar\, Essex CM5 9BL
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735272
+END:VEVENT
+BEGIN:VEVENT
+UID:31034819@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v South Woodham Ferrers United Women M (Essex 
+ U16 Girls Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Jubilee Park Pavilion\, Love Lane\, Ongar\, Essex CM5 9BL
+DESCRIPTION:Essex U16 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31034819
+END:VEVENT
+END:VCALENDAR

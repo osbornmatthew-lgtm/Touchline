@@ -1,0 +1,163 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Byron Red Star Girls Panthers (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735038@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v South Woodham Ferrers United Women
+  S
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735038
+END:VEVENT
+BEGIN:VEVENT
+UID:30735047@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Stones Athletic Girls Panthers v Byron Red Star Girls Panthers
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735047
+END:VEVENT
+BEGIN:VEVENT
+UID:30735048@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v Corinthians Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735048
+END:VEVENT
+BEGIN:VEVENT
+UID:30735112@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Corinthians Girls v Byron Red Star Girls Panthers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
+ e Road\, Stambridge\, Essex SS4 2AR
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735112
+END:VEVENT
+BEGIN:VEVENT
+UID:30735063@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v Takeley Lionesses
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735063
+END:VEVENT
+BEGIN:VEVENT
+UID:30735068@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Baddow Spartak Girls Pumas v Byron Red Star Girls Panthers
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735068
+END:VEVENT
+BEGIN:VEVENT
+UID:30735073@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735073
+END:VEVENT
+BEGIN:VEVENT
+UID:30735083@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v Loughton Town Violets
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735083
+END:VEVENT
+BEGIN:VEVENT
+UID:30735093@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735093
+END:VEVENT
+BEGIN:VEVENT
+UID:30735101@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:South Woodham Ferrers United Women S v Byron Red Star Girls Panthe
+ rs
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735101
+END:VEVENT
+BEGIN:VEVENT
+UID:30735103@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v Stones Athletic Girls Panthers
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735103
+END:VEVENT
+BEGIN:VEVENT
+UID:30735025@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Loughton Town Violets v Byron Red Star Girls Panthers
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735025
+END:VEVENT
+END:VCALENDAR

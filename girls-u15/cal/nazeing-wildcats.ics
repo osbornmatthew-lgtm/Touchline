@@ -1,0 +1,205 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nazeing Wildcats (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30853086@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Great Bradfords Girls Quartz
+DTSTART;TZID=Europe/London:20261025T133000
+DTEND;TZID=Europe/London:20261025T151000
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853086
+END:VEVENT
+BEGIN:VEVENT
+UID:30853090@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Nazeing Wildcats
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853090
+END:VEVENT
+BEGIN:VEVENT
+UID:30853096@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Atletico Trotters Girls v Nazeing Wildcats
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Old Brentwoods Sports Club\, Ashwells Road\, Pilgrims Hatch\, Bre
+ ntwood\, Essex CM15 9SE
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853096
+END:VEVENT
+BEGIN:VEVENT
+UID:30853097@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853097
+END:VEVENT
+BEGIN:VEVENT
+UID:30853180@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Runwell Sports Sapphires
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853180
+END:VEVENT
+BEGIN:VEVENT
+UID:30853181@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Tendring Borough Belles v Nazeing Wildcats
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853181
+END:VEVENT
+BEGIN:VEVENT
+UID:30853189@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Broomfield Girls Black
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853189
+END:VEVENT
+BEGIN:VEVENT
+UID:30853200@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Loughton Town Purples
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853200
+END:VEVENT
+BEGIN:VEVENT
+UID:30853201@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Nazeing Wildcats
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853201
+END:VEVENT
+BEGIN:VEVENT
+UID:30853205@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853205
+END:VEVENT
+BEGIN:VEVENT
+UID:30853234@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Nazeing Wildcats
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853234
+END:VEVENT
+BEGIN:VEVENT
+UID:30853231@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Tigers Girls Black v Nazeing Wildcats
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853231
+END:VEVENT
+BEGIN:VEVENT
+UID:30853101@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Tigers Girls Black
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853101
+END:VEVENT
+BEGIN:VEVENT
+UID:30853084@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v BSC FC Azures
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853084
+END:VEVENT
+BEGIN:VEVENT
+UID:30853199@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:BSC FC Azures v Nazeing Wildcats
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853199
+END:VEVENT
+END:VCALENDAR

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31029967@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:BSC v Cheshunt
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31029967
 END:VEVENT
 BEGIN:VEVENT
 UID:30811486@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Wingate & Finchley v Cheshunt
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -44,5 +44,17 @@ LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
 DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30811486
+END:VEVENT
+BEGIN:VEVENT
+UID:31099900@touchline-eja-u15
+DTSTAMP:20261025T180243Z
+SUMMARY:Cheshunt v Cockfosters
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
+ ross\, Hertfordshire EN8 8RU
+DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31099900
 END:VEVENT
 END:VCALENDAR

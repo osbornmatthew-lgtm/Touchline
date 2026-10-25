@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:121 Football Blacks (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773293@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:121 Football Blacks v Rayleigh Girls Hawks
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
+  Basildon\, Essex SS14 2EX
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773293
+END:VEVENT
+BEGIN:VEVENT
+UID:30773303@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:121 Football Blacks v Toby Women Girls
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
+  Basildon\, Essex SS14 2EX
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773303
+END:VEVENT
+BEGIN:VEVENT
+UID:30773329@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:FC Redwing Girls Buzzards v 121 Football Blacks
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Barleylands Farm (Site 1a)\, Southend Road\, Billericay\, Essex C
+ M11 2UQ
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773329
+END:VEVENT
+BEGIN:VEVENT
+UID:30773313@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:121 Football Blacks v Benfleet Girls
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
+  Basildon\, Essex SS14 2EX
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773313
+END:VEVENT
+BEGIN:VEVENT
+UID:30773318@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Town Girls v 121 Football Blacks
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773318
+END:VEVENT
+BEGIN:VEVENT
+UID:30773323@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:121 Football Blacks v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
+  Basildon\, Essex SS14 2EX
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773323
+END:VEVENT
+BEGIN:VEVENT
+UID:30773340@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Jays Lionesses v 121 Football Blacks
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:The Leys\, Ballards Road\, Dagenham RM10 9TP
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773340
+END:VEVENT
+BEGIN:VEVENT
+UID:30773351@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Rayleigh Girls Hawks v 121 Football Blacks
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Chichester Playing Fields\, Land North Of Sunnyview Old London Ro
+ ad\, Rawreth\, Essex SS11 8UE
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773351
+END:VEVENT
+BEGIN:VEVENT
+UID:30773353@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:121 Football Blacks v Tigers Girls Yellow
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
+  Basildon\, Essex SS14 2EX
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773353
+END:VEVENT
+BEGIN:VEVENT
+UID:30773362@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Toby Women Girls v 121 Football Blacks
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:The Brook Sports Club\, Barleylands Road\, Basildon\, Essex CM11 
+ 2UD
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773362
+END:VEVENT
+BEGIN:VEVENT
+UID:30773302@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Yellow v 121 Football Blacks
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773302
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,215 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tigers Girls Stripes (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773926@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v Witham Town Belles
+DTSTART;TZID=Europe/London:20261101T130000
+DTEND;TZID=Europe/London:20261101T144000
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773926
+END:VEVENT
+BEGIN:VEVENT
+UID:30773931@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Wickford Town Girls Purple v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Bartlett Park (Wickford)\, Southend Road\, Wickford\, Essex SS11 
+ 8RZ
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773931
+END:VEVENT
+BEGIN:VEVENT
+UID:30773937@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773937
+END:VEVENT
+BEGIN:VEVENT
+UID:30773940@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:East Thurrock Community Raider v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Horndon On The Hill Recreation Ground\, Horndon On The Hill Crick
+ et Club Orsett Road\, Horndon On The Hill SS17 8NR
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773940
+END:VEVENT
+BEGIN:VEVENT
+UID:30773948@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773948
+END:VEVENT
+BEGIN:VEVENT
+UID:30773954@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v Leigh Lionesses Girls Courage
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773954
+END:VEVENT
+BEGIN:VEVENT
+UID:30773960@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Loughton Town Purples v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773960
+END:VEVENT
+BEGIN:VEVENT
+UID:30773966@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v Ridgeway Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773966
+END:VEVENT
+BEGIN:VEVENT
+UID:30773973@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women R v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773973
+END:VEVENT
+BEGIN:VEVENT
+UID:30773978@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v Southend Wanderers Swifts
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773978
+END:VEVENT
+BEGIN:VEVENT
+UID:30773986@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Thundersley Rovers Girls Tigresses v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773986
+END:VEVENT
+BEGIN:VEVENT
+UID:30773992@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Witham Town Belles v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773992
+END:VEVENT
+BEGIN:VEVENT
+UID:30773998@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v Wickford Town Girls Purple
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773998
+END:VEVENT
+BEGIN:VEVENT
+UID:30773999@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Girls AFC Lionesses v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:The Brentwood Centre\, Doddinghurst Road\, Pilgrims Hatch\, Brent
+ wood\, Essex CM15 9NN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773999
+END:VEVENT
+BEGIN:VEVENT
+UID:30774009@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v East Thurrock Community Raider
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774009
+END:VEVENT
+BEGIN:VEVENT
+UID:30774013@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774013
+END:VEVENT
+END:VCALENDAR

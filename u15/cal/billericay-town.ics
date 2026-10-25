@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30985442@touchline-eja-u15
-DTSTAMP:20261024T131635Z
-SUMMARY:Brentwood Town v Billericay Town
-DTSTART;TZID=Europe/London:20261025T100000
-DTEND;TZID=Europe/London:20261025T114000
-LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
- , Essex CM15 9NN
-DESCRIPTION:U15 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30985442
-END:VEVENT
-BEGIN:VEVENT
 UID:31030061@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Billericay Town v Rayleigh Town
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -47,8 +36,20 @@ DESCRIPTION:U15 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030061
 END:VEVENT
 BEGIN:VEVENT
+UID:31100622@touchline-eja-u15
+DTSTAMP:20261025T180243Z
+SUMMARY:Billericay Town v Leigh Ramblers
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
+ Essex CM12 9SA
+DESCRIPTION:U15 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31100622
+END:VEVENT
+BEGIN:VEVENT
 UID:31033786@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Chigwell v Billericay Town (Essex Rosser U15 Cup)
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109

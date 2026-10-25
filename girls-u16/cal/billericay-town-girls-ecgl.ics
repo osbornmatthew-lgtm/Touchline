@@ -1,0 +1,201 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Billericay Town Girls ECGL (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735277@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Billericay Town Girls ECGL v East Thurrock Community Raider
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+DESCRIPTION:U16 A league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735277
+END:VEVENT
+BEGIN:VEVENT
+UID:30735286@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Bowers & Pitsea Girls Hammers v Billericay Town Girls ECGL
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
+ ex SS16 5BA
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735286
+END:VEVENT
+BEGIN:VEVENT
+UID:30735287@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Billericay Town Girls ECGL v Bowers & Pitsea Girls Hammers
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735287
+END:VEVENT
+BEGIN:VEVENT
+UID:30735322@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Billericay Town Girls ECGL v Buckhurst Hill Girls Lionesses
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735322
+END:VEVENT
+BEGIN:VEVENT
+UID:30735302@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Billericay Town Girls ECGL v Walthamstow EGCL
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735302
+END:VEVENT
+BEGIN:VEVENT
+UID:30735309@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Ongar Juniors Girls v Billericay Town Girls ECGL
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735309
+END:VEVENT
+BEGIN:VEVENT
+UID:30735312@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Billericay Town Girls ECGL v South Woodham Ferrers United Women M
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735312
+END:VEVENT
+BEGIN:VEVENT
+UID:30735320@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Hutton Girls Sharks v Billericay Town Girls ECGL
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Flints Community Ground\, Land Adjacent To 152 Chelmsford Road\, 
+ Shenfield\, Essex CM15 8RT
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735320
+END:VEVENT
+BEGIN:VEVENT
+UID:30735275@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Buckhurst Hill Girls Lionesses v Billericay Town Girls ECGL
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735275
+END:VEVENT
+BEGIN:VEVENT
+UID:30735331@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:East Thurrock Community Raider v Billericay Town Girls ECGL
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Horndon On The Hill Recreation Ground\, Horndon On The Hill Crick
+ et Club Orsett Road\, Horndon On The Hill SS17 8NR
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735331
+END:VEVENT
+BEGIN:VEVENT
+UID:30735247@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Billericay Town Girls ECGL v AFC Leyton s
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735247
+END:VEVENT
+BEGIN:VEVENT
+UID:30735267@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Billericay Town Girls ECGL v Hutton Girls Sharks
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735267
+END:VEVENT
+BEGIN:VEVENT
+UID:30735264@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:South Woodham Ferrers United Women M v Billericay Town Girls ECGL
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735264
+END:VEVENT
+BEGIN:VEVENT
+UID:30735292@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Billericay Town Girls ECGL v Barking Barking Girls
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735292
+END:VEVENT
+BEGIN:VEVENT
+UID:30735298@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:AFC Leyton s v Billericay Town Girls ECGL
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735298
+END:VEVENT
+BEGIN:VEVENT
+UID:31034709@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Barking Barking Girls v Billericay Town Girls ECGL (Essex U16 Girl
+ s Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Barking FC\, Lodge Avenue\, Dagenham RM8 2JR
+DESCRIPTION:Essex U16 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31034709
+END:VEVENT
+END:VCALENDAR

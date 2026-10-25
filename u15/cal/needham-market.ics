@@ -25,22 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30985356@touchline-eja-u15
-DTSTAMP:20261024T131635Z
-SUMMARY:Downham Town v Needham Market
-DTSTART;TZID=Europe/London:20261025T100000
-DTEND;TZID=Europe/London:20261025T114000
-DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30985356
-END:VEVENT
-BEGIN:VEVENT
 UID:31029928@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Needham Market v Fakenham Town
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31029928
+END:VEVENT
+BEGIN:VEVENT
+UID:31099880@touchline-eja-u15
+DTSTAMP:20261025T180243Z
+SUMMARY:Needham Market v Bury Town
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31099880
 END:VEVENT
 END:VCALENDAR

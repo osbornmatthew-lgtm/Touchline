@@ -25,33 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30985367@touchline-eja-u15
-DTSTAMP:20261024T131635Z
-SUMMARY:Godmanchester Rovers v St Ives Town
-DTSTART;TZID=Europe/London:20261025T100000
-DTEND;TZID=Europe/London:20261025T114000
+UID:31075165@touchline-eja-u15
+DTSTAMP:20261025T180243Z
+SUMMARY:Godmanchester Rovers v Saffron Walden
+DTSTART;TZID=Europe/London:20261101T120000
+DTEND;TZID=Europe/London:20261101T134000
 LOCATION:Godmanchester Rovers FC\, Godmanchester Rovers FC The Peter Hodso
  n Community Ground\, Bearscroft Lane\, Godmanchester\, Cambridgeshire PE29
   2LQ
 DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30985367
-END:VEVENT
-BEGIN:VEVENT
-UID:31075165@touchline-eja-u15
-DTSTAMP:20261024T131635Z
-SUMMARY:Godmanchester Rovers v Saffron Walden
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-LOCATION:Godmanchester Rovers FC\, Godmanchester Rovers FC The Peter Hodso
- n Community Ground\, Bearscroft Lane\, Godmanchester\, Cambridgeshire PE29
-  2LQ
-DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31075165
 END:VEVENT
 BEGIN:VEVENT
 UID:31029946@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Histon v Godmanchester Rovers
 DTSTART;TZID=Europe/London:20261108T103000
 DTEND;TZID=Europe/London:20261108T121000
@@ -59,5 +46,18 @@ LOCATION:Comberton Village College\, West Street\, Comberton\, Cambridge\,
   Cambridgeshire CB23 7DU
 DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31029946
+END:VEVENT
+BEGIN:VEVENT
+UID:31099886@touchline-eja-u15
+DTSTAMP:20261025T180243Z
+SUMMARY:Godmanchester Rovers v Newmarket Town
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Godmanchester Rovers FC\, Godmanchester Rovers FC The Peter Hodso
+ n Community Ground\, Bearscroft Lane\, Godmanchester\, Cambridgeshire PE29
+  2LQ
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31099886
 END:VEVENT
 END:VCALENDAR

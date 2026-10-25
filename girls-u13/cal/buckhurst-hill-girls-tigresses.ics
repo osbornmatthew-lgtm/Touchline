@@ -1,0 +1,196 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Buckhurst Hill Girls Tigresses (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773406@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Finesse Sport Finesse Sport United F v Buckhurst Hill Girls Tigres
+ ses
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:London Marathon Playing Field Redbridge\, Forest Road\, Ilford IG
+ 6 3HJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773406
+END:VEVENT
+BEGIN:VEVENT
+UID:30773412@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Buckhurst Hill Girls Tigresses v Colchester City Ladies
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773412
+END:VEVENT
+BEGIN:VEVENT
+UID:30773417@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Harlow Tekkers Coyotes v Buckhurst Hill Girls Tigresses
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Harlow Tekkers Football Club\, Old Oak Way\, Harlow\, Essex CM17 
+ 0GD
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773417
+END:VEVENT
+BEGIN:VEVENT
+UID:30773422@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Buckhurst Hill Girls Tigresses v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773422
+END:VEVENT
+BEGIN:VEVENT
+UID:30773428@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls White v Buckhurst Hill Girls Tigresses
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773428
+END:VEVENT
+BEGIN:VEVENT
+UID:30773434@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Wivenhoe Tempest Girls v Buckhurst Hill Girls Tigresses
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Broad Lane Sports Ground\, Elmstead Road\, Wivenhoe\, Colchester\
+ , Essex CO7 9FP
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773434
+END:VEVENT
+BEGIN:VEVENT
+UID:30773435@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Buckhurst Hill Girls Tigresses v Broomfield Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773435
+END:VEVENT
+BEGIN:VEVENT
+UID:30773441@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:121 Football Yellows v Buckhurst Hill Girls Tigresses
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
+  Basildon\, Essex SS14 2EX
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773441
+END:VEVENT
+BEGIN:VEVENT
+UID:30773455@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Dagenham United Women Belles Clarets v Buckhurst Hill Girls Tigres
+ ses
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Dagenham United FC\, Manor Road\, Dagenham RM10 8BE
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773455
+END:VEVENT
+BEGIN:VEVENT
+UID:30773462@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Buckhurst Hill Girls Tigresses v Finesse Sport Finesse Sport Unite
+ d F
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773462
+END:VEVENT
+BEGIN:VEVENT
+UID:30773466@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v Buckhurst Hill Girls Tigresses
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773466
+END:VEVENT
+BEGIN:VEVENT
+UID:30773472@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Buckhurst Hill Girls Tigresses v Harlow Tekkers Coyotes
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773472
+END:VEVENT
+BEGIN:VEVENT
+UID:30773477@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Leigh Lionesses Girls Pride v Buckhurst Hill Girls Tigresses
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773477
+END:VEVENT
+BEGIN:VEVENT
+UID:30773481@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Buckhurst Hill Girls Tigresses v Tigers Girls White
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773481
+END:VEVENT
+END:VCALENDAR

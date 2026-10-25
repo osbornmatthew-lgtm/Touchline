@@ -1,0 +1,185 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:South Woodham Ferrers United Women L (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30774074@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women L v Leigh Lionesses Spirit
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774074
+END:VEVENT
+BEGIN:VEVENT
+UID:30774081@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women L v Southminster United Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774081
+END:VEVENT
+BEGIN:VEVENT
+UID:30774082@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:BSC FC Cyans v South Woodham Ferrers United Women L
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774082
+END:VEVENT
+BEGIN:VEVENT
+UID:30774141@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Leigh Lionesses Spirit v South Woodham Ferrers United Women L
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774141
+END:VEVENT
+BEGIN:VEVENT
+UID:30774153@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women L v BSC FC Cyans
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774153
+END:VEVENT
+BEGIN:VEVENT
+UID:30774102@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Great Wakering Colts Vikings v South Woodham Ferrers United Women 
+ L
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Shoeburyness High School\, Caulfield Road\, Shoeburyness\, Southe
+ nd-On-Sea SS3 9LL
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774102
+END:VEVENT
+BEGIN:VEVENT
+UID:30774110@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women L v Harwich & Parkeston Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774110
+END:VEVENT
+BEGIN:VEVENT
+UID:30774115@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Hawkwell Athletic Ladies Hawks v South Woodham Ferrers United Wome
+ n L
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Apex Sports Ground\, Hawkwell FC Plumberow Mount Avenue\, Hockley
+ \, Essex SS5 5AU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774115
+END:VEVENT
+BEGIN:VEVENT
+UID:30774122@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women L v Herongate Athletic Herons
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774122
+END:VEVENT
+BEGIN:VEVENT
+UID:30774128@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women L v Perry Street Girls Tigers
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774128
+END:VEVENT
+BEGIN:VEVENT
+UID:30774147@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Southminster United Girls v South Woodham Ferrers United Women L
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:King George V Playing Field (Southminster)\, King George V Playin
+ g Field Station Road\, Southminster\, Essex CM0 7EW
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774147
+END:VEVENT
+BEGIN:VEVENT
+UID:30774042@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Harwich & Parkeston Girls v South Woodham Ferrers United Women L
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:The Harwich and Dovercourt High School\, Hall Lane\, Harwich\, Es
+ sex CO12 3TG
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774042
+END:VEVENT
+BEGIN:VEVENT
+UID:30774038@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women L v Great Wakering Colts Viking
+ s
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774038
+END:VEVENT
+END:VCALENDAR

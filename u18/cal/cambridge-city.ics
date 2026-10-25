@@ -24,4 +24,15 @@ DTSTART:19701025T020000
 RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:31093685@touchline-eja-u18
+DTSTAMP:20261025T180308Z
+SUMMARY:Cambridge City v Arlesey Town
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Cambridge City Football Club\, Cambridge City Football Club West 
+ Way\, Sawston\, Cambridgeshire CB22 3FG
+DESCRIPTION:U18 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31093685
+END:VEVENT
 END:VCALENDAR

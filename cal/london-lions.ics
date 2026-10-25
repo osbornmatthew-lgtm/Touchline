@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030360@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Edgware & Kingsbury v London Lions
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030360
 END:VEVENT
 BEGIN:VEVENT
 UID:31093102@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Wormley Rovers v London Lions
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -45,14 +45,14 @@ DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093102
 END:VEVENT
 BEGIN:VEVENT
-UID:30931186@touchline-eja
-DTSTAMP:20261024T131635Z
-SUMMARY:Redbridge v London Lions (League Cup)
-DTSTART;TZID=Europe/London:20261025T111000
-DTEND;TZID=Europe/London:20261025T125000
-LOCATION:The TechSoc.com Stadium\, Station Road\, Barkingside\, Ilford IG6
-  1NB
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30931186
+UID:31100731@touchline-eja
+DTSTAMP:20261025T180058Z
+SUMMARY:Wingate & Finchley v London Lions
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31100731
 END:VEVENT
 END:VCALENDAR

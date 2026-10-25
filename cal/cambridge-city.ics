@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030356@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Cambridge City v Godmanchester Rovers
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030356
 END:VEVENT
 BEGIN:VEVENT
 UID:31093092@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Newmarket Town v Cambridge City
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -46,14 +46,15 @@ DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093092
 END:VEVENT
 BEGIN:VEVENT
-UID:30932266@touchline-eja
-DTSTAMP:20261024T131635Z
-SUMMARY:Cockfosters v Cambridge City (League Cup)
-DTSTART;TZID=Europe/London:20261025T103000
-DTEND;TZID=Europe/London:20261025T121000
-LOCATION:Old Elizabethans Memorial Playing Fields\, Mays Lane\, Barnet EN5
-  2AG
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30932266
+UID:31100647@touchline-eja
+DTSTAMP:20261025T180058Z
+SUMMARY:St Neots Town v Cambridge City
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:St Neots Town Football Club\, Rowley Park Kester Way\, St. Neots\
+ , Cambridgeshire PE19 6SL
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31100647
 END:VEVENT
 END:VCALENDAR

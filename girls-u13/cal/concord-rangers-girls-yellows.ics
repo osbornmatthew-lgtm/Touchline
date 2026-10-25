@@ -1,0 +1,202 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Concord Rangers Girls Yellows (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30853446@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v Stones Athletic Girls Lionesses
+DTSTART;TZID=Europe/London:20261025T140000
+DTEND;TZID=Europe/London:20261025T154000
+LOCATION:Waterside Farm Leisure Centre\, Somnes Avenue\, Canvey Island\, E
+ ssex SS8 9RA
+DESCRIPTION:U13 C league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853446
+END:VEVENT
+BEGIN:VEVENT
+UID:30853449@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Ongar Juniors Girls v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853449
+END:VEVENT
+BEGIN:VEVENT
+UID:30853450@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v Abbey Girls Falcons
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853450
+END:VEVENT
+BEGIN:VEVENT
+UID:30853456@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Hornets v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853456
+END:VEVENT
+BEGIN:VEVENT
+UID:30853457@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v Stanway Rovers Girls Tigers
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853457
+END:VEVENT
+BEGIN:VEVENT
+UID:30853459@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Euro Dagenham Girls v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Mayesbrook Park\, Lodge Avenue\, Dagenham RM8 2JA
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853459
+END:VEVENT
+BEGIN:VEVENT
+UID:30853460@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Writtle Minors Girls v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Writtle Sports and Social Club 4\, The Hall Paradise Road\, Writt
+ le\, Chelmsford\, Essex CM1 3HW
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853460
+END:VEVENT
+BEGIN:VEVENT
+UID:30853467@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v Byron Red Star Girls Jaguars
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853467
+END:VEVENT
+BEGIN:VEVENT
+UID:30853474@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v FC Redwing Girls Kestrels
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853474
+END:VEVENT
+BEGIN:VEVENT
+UID:30853475@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stones Athletic Girls Lionesses v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853475
+END:VEVENT
+BEGIN:VEVENT
+UID:30853488@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v Ongar Juniors Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853488
+END:VEVENT
+BEGIN:VEVENT
+UID:30853501@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Abbey Girls Falcons v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853501
+END:VEVENT
+BEGIN:VEVENT
+UID:30853508@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v Stanway Rovers Girls Hornets
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853508
+END:VEVENT
+BEGIN:VEVENT
+UID:30853509@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853509
+END:VEVENT
+BEGIN:VEVENT
+UID:30853458@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v Rayleigh Girls Tawnys
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853458
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,200 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Broomfield Girls Lionesses (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734720@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Southend Manor Purples
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734720
+END:VEVENT
+BEGIN:VEVENT
+UID:30734728@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tendring Borough Tornadoes v Broomfield Girls Lionesses
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734728
+END:VEVENT
+BEGIN:VEVENT
+UID:30734732@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Chigwell Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734732
+END:VEVENT
+BEGIN:VEVENT
+UID:30734708@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Weeley
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734708
+END:VEVENT
+BEGIN:VEVENT
+UID:30734744@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Top Tekkers Girls
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734744
+END:VEVENT
+BEGIN:VEVENT
+UID:30734749@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Byron Red Star Girls Jaguars v Broomfield Girls Lionesses
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734749
+END:VEVENT
+BEGIN:VEVENT
+UID:30734755@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Perry Street Girls Lynx
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734755
+END:VEVENT
+BEGIN:VEVENT
+UID:30734768@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tigers Girls White v Broomfield Girls Lionesses
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734768
+END:VEVENT
+BEGIN:VEVENT
+UID:30734774@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Hawkwell Athletic Ladies Hawks
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734774
+END:VEVENT
+BEGIN:VEVENT
+UID:30734781@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Weeley v Broomfield Girls Lionesses
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734781
+END:VEVENT
+BEGIN:VEVENT
+UID:30734786@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Runwell Sports Pink
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734786
+END:VEVENT
+BEGIN:VEVENT
+UID:30734794@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Southend Manor Purples v Broomfield Girls Lionesses
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Southchurch Park\, Shaftesbury Avenue\, Southend-On-Sea SS1 2YN
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734794
+END:VEVENT
+BEGIN:VEVENT
+UID:30734798@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734798
+END:VEVENT
+BEGIN:VEVENT
+UID:30734807@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Broomfield Girls Lionesses
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734807
+END:VEVENT
+BEGIN:VEVENT
+UID:30734741@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Top Tekkers Girls v Broomfield Girls Lionesses
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734741
+END:VEVENT
+END:VCALENDAR

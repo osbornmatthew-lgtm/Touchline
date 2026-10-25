@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30955090@touchline-eja-u13
-DTSTAMP:20261024T131635Z
-SUMMARY:Bowers & Pitsea v Witham Town
-DTSTART;TZID=Europe/London:20261025T100000
-DTEND;TZID=Europe/London:20261025T114000
-LOCATION:Eversley Leisure Centre\, Crest Avenue\, Basildon\, Essex SS13 2E
- F
-DESCRIPTION:U13 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30955090
-END:VEVENT
-BEGIN:VEVENT
 UID:31001983@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Chelmsford City v Bowers & Pitsea
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -46,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31001983
 END:VEVENT
 BEGIN:VEVENT
 UID:31035380@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Bowers & Pitsea v Billericay Town
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -57,8 +46,20 @@ DESCRIPTION:U13 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035380
 END:VEVENT
 BEGIN:VEVENT
+UID:31105238@touchline-eja-u13
+DTSTAMP:20261025T180127Z
+SUMMARY:Bowers & Pitsea v Dunmow Town
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
+ \, Basildon\, Essex SS13 2BE
+DESCRIPTION:U13 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31105238
+END:VEVENT
+BEGIN:VEVENT
 UID:30954454@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Billericay Town v Bowers & Pitsea (Harrison Trophy)
 DTSTART;TZID=Europe/London:20261030T194500
 DTEND;TZID=Europe/London:20261030T212500
@@ -69,7 +70,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30954454
 END:VEVENT
 BEGIN:VEVENT
 UID:31034871@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Aveley v Bowers & Pitsea (Essex Cordell U13 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

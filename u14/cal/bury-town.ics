@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30955137@touchline-eja-u14
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180213Z
 SUMMARY:Bury Town v Leiston
 DTSTART;TZID=Europe/London:20261101T103000
 DTEND;TZID=Europe/London:20261101T121000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30955137
 END:VEVENT
 BEGIN:VEVENT
 UID:31034958@touchline-eja-u14
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180213Z
 SUMMARY:Felixstowe & Walton United v Bury Town
 DTSTART;TZID=Europe/London:20261108T100000
 DTEND;TZID=Europe/London:20261108T114000
@@ -47,12 +47,13 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31034958
 END:VEVENT
 BEGIN:VEVENT
 UID:31067497@touchline-eja-u14
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180213Z
 SUMMARY:Bury Town v Wroxham
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T130000
+DTEND;TZID=Europe/London:20261115T144000
+LOCATION:Skyliner Sports Centre\, Sybil Andrews Academy Rougham Tower Aven
+ ue\, Bury St. Edmunds\, Suffolk IP32 7QB
+DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067497
 END:VEVENT
 END:VCALENDAR

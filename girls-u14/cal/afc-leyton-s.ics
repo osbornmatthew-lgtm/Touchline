@@ -1,0 +1,216 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AFC Leyton s (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734300@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Billericay Town Girls Blue
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734300
+END:VEVENT
+BEGIN:VEVENT
+UID:30734378@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Perry Street Girls Jaguars
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734378
+END:VEVENT
+BEGIN:VEVENT
+UID:30734288@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Finesse Sport Finesse Sport United F
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734288
+END:VEVENT
+BEGIN:VEVENT
+UID:30734324@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734324
+END:VEVENT
+BEGIN:VEVENT
+UID:30734257@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Stanway Rovers Girls Phoenix
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734257
+END:VEVENT
+BEGIN:VEVENT
+UID:30734335@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v South Woodham Ferrers United Women P
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734335
+END:VEVENT
+BEGIN:VEVENT
+UID:30734348@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Thundersley Rovers Girls Lionesses v AFC Leyton s
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734348
+END:VEVENT
+BEGIN:VEVENT
+UID:30734354@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Cheshunt Girls
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734354
+END:VEVENT
+BEGIN:VEVENT
+UID:30734361@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Finesse Sport Finesse Sport United F v AFC Leyton s
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:London Marathon Playing Field Redbridge\, Forest Road\, Ilford IG
+ 6 3HJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734361
+END:VEVENT
+BEGIN:VEVENT
+UID:30734366@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Hashtag United Girls Blue
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734366
+END:VEVENT
+BEGIN:VEVENT
+UID:30734374@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Billericay Town Girls Blue v AFC Leyton s
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734374
+END:VEVENT
+BEGIN:VEVENT
+UID:30734387@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tigers Girls Red v AFC Leyton s
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734387
+END:VEVENT
+BEGIN:VEVENT
+UID:30734312@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Tigers Girls Red
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734312
+END:VEVENT
+BEGIN:VEVENT
+UID:30734321@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v AFC Leyton s
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734321
+END:VEVENT
+BEGIN:VEVENT
+UID:30734282@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Cheshunt Girls v AFC Leyton s
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
+ ross\, Hertfordshire EN8 8RU
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734282
+END:VEVENT
+BEGIN:VEVENT
+UID:30734342@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Perry Street Girls Panthers
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734342
+END:VEVENT
+BEGIN:VEVENT
+UID:31066502@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v AFC Leyton s (Essex U14 Girls Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:Essex U14 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31066502
+END:VEVENT
+END:VCALENDAR

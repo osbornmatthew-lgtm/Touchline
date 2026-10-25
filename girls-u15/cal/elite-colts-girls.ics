@@ -1,0 +1,186 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elite Colts Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734849@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Ramblers Girls Black v Elite Colts Girls
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734849
+END:VEVENT
+BEGIN:VEVENT
+UID:30734857@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Elite Colts Girls v Hannakins Farm Girls Hurricanes
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734857
+END:VEVENT
+BEGIN:VEVENT
+UID:30734860@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hannakins Farm Girls Hurricanes v Elite Colts Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734860
+END:VEVENT
+BEGIN:VEVENT
+UID:30734867@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Elite Colts Girls v Perry Street Girls Bengals
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734867
+END:VEVENT
+BEGIN:VEVENT
+UID:30734877@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Elite Colts Girls v Broomfield Girls Red
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734877
+END:VEVENT
+BEGIN:VEVENT
+UID:30734882@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Elite Colts Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734882
+END:VEVENT
+BEGIN:VEVENT
+UID:30734887@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Elite Colts Girls v Intersports Girls Stars
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734887
+END:VEVENT
+BEGIN:VEVENT
+UID:30734893@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Barking Barking Girls v Elite Colts Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Barking FC\, Lodge Avenue\, Dagenham RM8 2JR
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734893
+END:VEVENT
+BEGIN:VEVENT
+UID:30734903@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Elite Colts Girls v Leigh Ramblers Girls Black
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734903
+END:VEVENT
+BEGIN:VEVENT
+UID:30734822@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Elite Colts Girls v Chelmsford City Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734822
+END:VEVENT
+BEGIN:VEVENT
+UID:30734848@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Elite Colts Girls v Sporting 77 Girls Fire Hawks
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734848
+END:VEVENT
+BEGIN:VEVENT
+UID:30734837@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Elite Colts Girls
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734837
+END:VEVENT
+BEGIN:VEVENT
+UID:30734871@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Elite Colts Girls
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734871
+END:VEVENT
+BEGIN:VEVENT
+UID:31035481@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Takeley Lionesses v Elite Colts Girls (Essex U15 Girls Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:Essex U15 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31035481
+END:VEVENT
+END:VCALENDAR

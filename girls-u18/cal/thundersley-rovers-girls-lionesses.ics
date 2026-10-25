@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Thundersley Rovers Girls Lionesses (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30732083@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Epping Town Girls v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732083
+END:VEVENT
+BEGIN:VEVENT
+UID:30732088@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Braintree Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732088
+END:VEVENT
+BEGIN:VEVENT
+UID:30732097@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brantham Athletic F.C. Girls PSG Aca v Thundersley Rovers Girls Li
+ onesses
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Brantham Leisure Centre\, Brantham Athletic Sports and Social Clu
+ b New Village\, Brantham\, Suffolk CO11 1RZ
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732097
+END:VEVENT
+BEGIN:VEVENT
+UID:30732162@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Braintree Girls v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:John Ray Recreation Ground\, The Recreation Ground John Ray Stree
+ t\, Braintree\, Essex CM7 9DZ
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732162
+END:VEVENT
+BEGIN:VEVENT
+UID:30732110@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Broomfield Girls Black v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732110
+END:VEVENT
+BEGIN:VEVENT
+UID:30732116@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Broomfield Girls Red v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732116
+END:VEVENT
+BEGIN:VEVENT
+UID:30732122@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Byron Red Star Girls Leopards
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732122
+END:VEVENT
+BEGIN:VEVENT
+UID:30732125@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Colchester City Ladies v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732125
+END:VEVENT
+BEGIN:VEVENT
+UID:30880063@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Brooklands Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880063
+END:VEVENT
+BEGIN:VEVENT
+UID:30732144@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Baddow Spartak Girls Pumas
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732144
+END:VEVENT
+BEGIN:VEVENT
+UID:30732148@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Bealonians Girls Blue v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Bealonians Football Club\, Jack Carter Pavilion Fencepiece Road\,
+  Oakfield Playing Fields\, Barkingside IG6 2JL
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732148
+END:VEVENT
+BEGIN:VEVENT
+UID:30732155@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Epping Town Girls
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732155
+END:VEVENT
+BEGIN:VEVENT
+UID:30732166@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Brantham Athletic F.C. Girls 
+ PSG Aca
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732166
+END:VEVENT
+BEGIN:VEVENT
+UID:30732069@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Baddow Spartak Girls Pumas v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732069
+END:VEVENT
+BEGIN:VEVENT
+UID:30732046@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Byron Red Star Girls Leopards v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732046
+END:VEVENT
+BEGIN:VEVENT
+UID:30732099@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Broomfield Girls Black
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732099
+END:VEVENT
+END:VCALENDAR

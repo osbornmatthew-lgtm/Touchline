@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31029959@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Harpenden Town v Dunstable
 DTSTART;TZID=Europe/London:20261101T112000
 DTEND;TZID=Europe/London:20261101T130000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31029959
 END:VEVENT
 BEGIN:VEVENT
 UID:30988254@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Dunstable v Leighton Town
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -46,18 +46,20 @@ DESCRIPTION:U15 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988254
 END:VEVENT
 BEGIN:VEVENT
-UID:30895082@touchline-eja-u15
-DTSTAMP:20261024T131635Z
-SUMMARY:Real Bedford v Dunstable (League Cup)
-DTSTART;TZID=Europe/London:20261025T110000
-DTEND;TZID=Europe/London:20261025T124000
-LOCATION:Bedford Academy\, Mile Road\, Bedford MK42 9TR
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30895082
+UID:31099894@touchline-eja-u15
+DTSTAMP:20261025T180243Z
+SUMMARY:Hemel Hempstead Town v Dunstable
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
+ ordshire HP2 4HW
+DESCRIPTION:U15 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31099894
 END:VEVENT
 BEGIN:VEVENT
 UID:31066928@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Ampthill Town v Dunstable (Under 15 Youth Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000

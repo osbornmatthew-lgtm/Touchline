@@ -1,0 +1,214 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stanway Rovers Girls Tigers (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773527@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Byron Red Star Girls Jaguars v Stanway Rovers Girls Tigers
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773527
+END:VEVENT
+BEGIN:VEVENT
+UID:30773531@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v Writtle Minors Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773531
+END:VEVENT
+BEGIN:VEVENT
+UID:30853516@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v Abbey Girls Falcons
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853516
+END:VEVENT
+BEGIN:VEVENT
+UID:30853457@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v Stanway Rovers Girls Tigers
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853457
+END:VEVENT
+BEGIN:VEVENT
+UID:30773557@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Rayleigh Girls Tawnys v Stanway Rovers Girls Tigers
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Chichester Playing Fields\, Land North Of Sunnyview Old London Ro
+ ad\, Rawreth\, Essex SS11 8UE
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773557
+END:VEVENT
+BEGIN:VEVENT
+UID:30773563@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v Stones Athletic Girls Lionesses
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773563
+END:VEVENT
+BEGIN:VEVENT
+UID:30773572@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v Ongar Juniors Girls
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773572
+END:VEVENT
+BEGIN:VEVENT
+UID:30773576@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Hornets v Stanway Rovers Girls Tigers
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773576
+END:VEVENT
+BEGIN:VEVENT
+UID:30773581@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v Byron Red Star Girls Jaguars
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773581
+END:VEVENT
+BEGIN:VEVENT
+UID:30773588@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Writtle Minors Girls v Stanway Rovers Girls Tigers
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Writtle Sports and Social Club 4\, The Hall Paradise Road\, Writt
+ le\, Chelmsford\, Essex CM1 3HW
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773588
+END:VEVENT
+BEGIN:VEVENT
+UID:30773599@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Abbey Girls Falcons v Stanway Rovers Girls Tigers
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773599
+END:VEVENT
+BEGIN:VEVENT
+UID:30853509@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853509
+END:VEVENT
+BEGIN:VEVENT
+UID:30857892@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Ongar Juniors Girls v Stanway Rovers Girls Tigers
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30857892
+END:VEVENT
+BEGIN:VEVENT
+UID:30773513@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v FC Redwing Girls Kestrels
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773513
+END:VEVENT
+BEGIN:VEVENT
+UID:30853615@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v Euro Dagenham Girls
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853615
+END:VEVENT
+BEGIN:VEVENT
+UID:30857893@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:FC Redwing Girls Kestrels v Stanway Rovers Girls Tigers
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30857893
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Leigh Ramblers Girls Black (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735439@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Great Bradfords Girls Diamonds v Leigh Ramblers Girls Black
+DTSTART;TZID=Europe/London:20261101T120000
+DTEND;TZID=Europe/London:20261101T134000
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735439
+END:VEVENT
+BEGIN:VEVENT
+UID:30735440@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v Valley Green Girls Valkyries
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735440
+END:VEVENT
+BEGIN:VEVENT
+UID:30735447@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Valley Green Girls Valkyries v Leigh Ramblers Girls Black
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735447
+END:VEVENT
+BEGIN:VEVENT
+UID:30735462@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v West Essex Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735462
+END:VEVENT
+BEGIN:VEVENT
+UID:30735464@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Bowers & Pitsea Girls Lionesses v Leigh Ramblers Girls Black
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
+ ex SS16 5BA
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735464
+END:VEVENT
+BEGIN:VEVENT
+UID:30735469@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v Broomfield Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735469
+END:VEVENT
+BEGIN:VEVENT
+UID:30735474@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Colchester City Ladies v Leigh Ramblers Girls Black
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735474
+END:VEVENT
+BEGIN:VEVENT
+UID:30735476@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v Great Bradfords Girls Diamonds
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735476
+END:VEVENT
+BEGIN:VEVENT
+UID:30735426@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v Bowers & Pitsea Girls Lionesses
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735426
+END:VEVENT
+BEGIN:VEVENT
+UID:30735455@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v St Clere's Girls
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735455
+END:VEVENT
+BEGIN:VEVENT
+UID:30735413@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:St Clere's Girls v Leigh Ramblers Girls Black
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735413
+END:VEVENT
+BEGIN:VEVENT
+UID:30735433@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v Colchester City Ladies
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735433
+END:VEVENT
+BEGIN:VEVENT
+UID:31033962@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v Great Bradfords Girls Diamonds (Essex
+  U16 Girls Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Belfairs Park Golf Course\, Eastwood Road North\, Leigh-On-Sea SS
+ 9 4LR
+DESCRIPTION:Essex U16 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31033962
+END:VEVENT
+END:VCALENDAR

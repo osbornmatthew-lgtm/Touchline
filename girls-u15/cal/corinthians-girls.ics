@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Corinthians Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735042@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Corinthians Girls v Stones Athletic Girls Panthers
+DTSTART;TZID=Europe/London:20261101T140000
+DTEND;TZID=Europe/London:20261101T154000
+LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
+ e Road\, Stambridge\, Essex SS4 2AR
+DESCRIPTION:U15 C league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735042
+END:VEVENT
+BEGIN:VEVENT
+UID:30735048@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v Corinthians Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735048
+END:VEVENT
+BEGIN:VEVENT
+UID:30735057@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Corinthians Girls v Takeley Lionesses
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
+ e Road\, Stambridge\, Essex SS4 2AR
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735057
+END:VEVENT
+BEGIN:VEVENT
+UID:30735112@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Corinthians Girls v Byron Red Star Girls Panthers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
+ e Road\, Stambridge\, Essex SS4 2AR
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735112
+END:VEVENT
+BEGIN:VEVENT
+UID:30735067@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Corinthians Girls v Baddow Spartak Girls Pumas
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
+ e Road\, Stambridge\, Essex SS4 2AR
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735067
+END:VEVENT
+BEGIN:VEVENT
+UID:30735069@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Pumas v Corinthians Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735069
+END:VEVENT
+BEGIN:VEVENT
+UID:30735077@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Corinthians Girls v Great Danes Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
+ e Road\, Stambridge\, Essex SS4 2AR
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735077
+END:VEVENT
+BEGIN:VEVENT
+UID:30735080@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Loughton Town Violets v Corinthians Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735080
+END:VEVENT
+BEGIN:VEVENT
+UID:30735091@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Romford Town Flyers Women v Corinthians Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735091
+END:VEVENT
+BEGIN:VEVENT
+UID:30735097@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Corinthians Girls v South Woodham Ferrers United Women S
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
+ e Road\, Stambridge\, Essex SS4 2AR
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735097
+END:VEVENT
+BEGIN:VEVENT
+UID:30735102@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Stones Athletic Girls Panthers v Corinthians Girls
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735102
+END:VEVENT
+BEGIN:VEVENT
+UID:30735012@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Corinthians Girls v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
+ e Road\, Stambridge\, Essex SS4 2AR
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735012
+END:VEVENT
+BEGIN:VEVENT
+UID:30735058@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Takeley Lionesses v Corinthians Girls
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735058
+END:VEVENT
+END:VCALENDAR

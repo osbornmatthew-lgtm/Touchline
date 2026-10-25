@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Byron Red Star Girls Pumas (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735041@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Pumas v Loughton Town Violets
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735041
+END:VEVENT
+BEGIN:VEVENT
+UID:30735051@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Pumas v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735051
+END:VEVENT
+BEGIN:VEVENT
+UID:30735055@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:South Woodham Ferrers United Women S v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735055
+END:VEVENT
+BEGIN:VEVENT
+UID:30735060@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Pumas v South Woodham Ferrers United Women S
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735060
+END:VEVENT
+BEGIN:VEVENT
+UID:30735066@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Stones Athletic Girls Panthers v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735066
+END:VEVENT
+BEGIN:VEVENT
+UID:30735069@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Pumas v Corinthians Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735069
+END:VEVENT
+BEGIN:VEVENT
+UID:30735073@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735073
+END:VEVENT
+BEGIN:VEVENT
+UID:30735078@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Pumas v Takeley Lionesses
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735078
+END:VEVENT
+BEGIN:VEVENT
+UID:30735085@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Baddow Spartak Girls Pumas v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735085
+END:VEVENT
+BEGIN:VEVENT
+UID:30735096@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Pumas v Great Danes Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735096
+END:VEVENT
+BEGIN:VEVENT
+UID:30735098@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Loughton Town Violets v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735098
+END:VEVENT
+BEGIN:VEVENT
+UID:30735109@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Romford Town Flyers Women v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735109
+END:VEVENT
+BEGIN:VEVENT
+UID:30735012@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Corinthians Girls v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
+ e Road\, Stambridge\, Essex SS4 2AR
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735012
+END:VEVENT
+BEGIN:VEVENT
+UID:30735033@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Danes Girls v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735033
+END:VEVENT
+END:VCALENDAR

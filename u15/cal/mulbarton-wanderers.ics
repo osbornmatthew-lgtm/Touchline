@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31029927@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Mulbarton Wanderers v Felixstowe & Walton United
 DTSTART;TZID=Europe/London:20261101T121500
 DTEND;TZID=Europe/London:20261101T135500
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31029927
 END:VEVENT
 BEGIN:VEVENT
 UID:31091969@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Leiston v Mulbarton Wanderers
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -47,21 +47,12 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31091969
 END:VEVENT
 BEGIN:VEVENT
 UID:31091484@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Woodbridge Town v Mulbarton Wanderers
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31091484
-END:VEVENT
-BEGIN:VEVENT
-UID:30895090@touchline-eja-u15
-DTSTAMP:20261024T131635Z
-SUMMARY:Mulbarton Wanderers v Leighton Town (League Cup)
-DTSTART;TZID=Europe/London:20261025T121500
-DTEND;TZID=Europe/London:20261025T135500
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30895090
 END:VEVENT
 END:VCALENDAR

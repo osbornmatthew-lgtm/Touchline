@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030363@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Wormley Rovers v Cockfosters
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030363
 END:VEVENT
 BEGIN:VEVENT
 UID:31093101@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Ware v Cockfosters
 DTSTART;TZID=Europe/London:20261108T100000
 DTEND;TZID=Europe/London:20261108T114000
@@ -45,19 +45,20 @@ DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093101
 END:VEVENT
 BEGIN:VEVENT
-UID:30932266@touchline-eja
-DTSTAMP:20261024T131635Z
-SUMMARY:Cockfosters v Cambridge City (League Cup)
-DTSTART;TZID=Europe/London:20261025T103000
-DTEND;TZID=Europe/London:20261025T121000
-LOCATION:Old Elizabethans Memorial Playing Fields\, Mays Lane\, Barnet EN5
-  2AG
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30932266
+UID:31100730@touchline-eja
+DTSTAMP:20261025T180058Z
+SUMMARY:May & Baker Eastbrook v Cockfosters
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
+ ham RM9 5PU
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31100730
 END:VEVENT
 BEGIN:VEVENT
 UID:31079076@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Cockfosters v Dulwich Village (London Under 16 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261101T101000
 DTEND;TZID=Europe/London:20261101T115000

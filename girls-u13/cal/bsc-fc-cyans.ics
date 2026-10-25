@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BSC FC Cyans (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30774080@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Leigh Lionesses Spirit v BSC FC Cyans
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774080
+END:VEVENT
+BEGIN:VEVENT
+UID:30774082@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:BSC FC Cyans v South Woodham Ferrers United Women L
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774082
+END:VEVENT
+BEGIN:VEVENT
+UID:30774093@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Southminster United Girls v BSC FC Cyans
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:King George V Playing Field (Southminster)\, King George V Playin
+ g Field Station Road\, Southminster\, Essex CM0 7EW
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774093
+END:VEVENT
+BEGIN:VEVENT
+UID:30774153@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women L v BSC FC Cyans
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774153
+END:VEVENT
+BEGIN:VEVENT
+UID:30774130@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:BSC FC Cyans v Perry Street Girls Tigers
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774130
+END:VEVENT
+BEGIN:VEVENT
+UID:30774106@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:BSC FC Cyans v Great Wakering Colts Vikings
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774106
+END:VEVENT
+BEGIN:VEVENT
+UID:30774114@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Harwich & Parkeston Girls v BSC FC Cyans
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:The Harwich and Dovercourt High School\, Hall Lane\, Harwich\, Es
+ sex CO12 3TG
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774114
+END:VEVENT
+BEGIN:VEVENT
+UID:30774118@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:BSC FC Cyans v Hawkwell Athletic Ladies Hawks
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774118
+END:VEVENT
+BEGIN:VEVENT
+UID:30774127@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Herongate Athletic Herons v BSC FC Cyans
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Herongate Athletic Football Club\, Billericay Road\, Herongate\, 
+ Brentwood\, Essex CM13 3PU
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774127
+END:VEVENT
+BEGIN:VEVENT
+UID:30774142@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:BSC FC Cyans v Leigh Lionesses Spirit
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774142
+END:VEVENT
+BEGIN:VEVENT
+UID:30774058@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:BSC FC Cyans v Herongate Athletic Herons
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774058
+END:VEVENT
+END:VCALENDAR

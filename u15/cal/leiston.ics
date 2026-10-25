@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31091969@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Leiston v Mulbarton Wanderers
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -35,5 +35,17 @@ LOCATION:Leiston Town Athletic Association\, The Flannery Stadium Victory
 DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31091969
+END:VEVENT
+BEGIN:VEVENT
+UID:31099879@touchline-eja-u15
+DTSTAMP:20261025T180243Z
+SUMMARY:Fakenham Town v Leiston
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Daly Group Stadium (Fakenham Town FC)\, Clipbush Park Clipbush La
+ ne\, Fakenham\, Norfolk NR21 8SW
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31099879
 END:VEVENT
 END:VCALENDAR

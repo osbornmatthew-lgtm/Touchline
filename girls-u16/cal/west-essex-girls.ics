@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:West Essex Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735436@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Bowers & Pitsea Girls Lionesses v West Essex Girls
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
+ ex SS16 5BA
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735436
+END:VEVENT
+BEGIN:VEVENT
+UID:30735443@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:West Essex Girls v Broomfield Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735443
+END:VEVENT
+BEGIN:VEVENT
+UID:30735444@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Broomfield Girls v West Essex Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735444
+END:VEVENT
+BEGIN:VEVENT
+UID:30735409@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Colchester City Ladies v West Essex Girls
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735409
+END:VEVENT
+BEGIN:VEVENT
+UID:30735459@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:West Essex Girls v Valley Green Girls Valkyries
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735459
+END:VEVENT
+BEGIN:VEVENT
+UID:30735462@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v West Essex Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735462
+END:VEVENT
+BEGIN:VEVENT
+UID:30735467@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:West Essex Girls v St Clere's Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735467
+END:VEVENT
+BEGIN:VEVENT
+UID:30735479@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:West Essex Girls v Bowers & Pitsea Girls Lionesses
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735479
+END:VEVENT
+BEGIN:VEVENT
+UID:30735451@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:West Essex Girls v Colchester City Ladies
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735451
+END:VEVENT
+BEGIN:VEVENT
+UID:30735415@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:West Essex Girls v Great Bradfords Girls Diamonds
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735415
+END:VEVENT
+BEGIN:VEVENT
+UID:30735453@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Great Bradfords Girls Diamonds v West Essex Girls
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735453
+END:VEVENT
+END:VCALENDAR

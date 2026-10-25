@@ -1,0 +1,142 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Broomfield Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735443@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:West Essex Girls v Broomfield Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735443
+END:VEVENT
+BEGIN:VEVENT
+UID:30735444@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Broomfield Girls v West Essex Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735444
+END:VEVENT
+BEGIN:VEVENT
+UID:30735448@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Bowers & Pitsea Girls Lionesses v Broomfield Girls
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
+ ex SS16 5BA
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735448
+END:VEVENT
+BEGIN:VEVENT
+UID:30735457@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Broomfield Girls v Colchester City Ladies
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735457
+END:VEVENT
+BEGIN:VEVENT
+UID:30735460@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Great Bradfords Girls Diamonds v Broomfield Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735460
+END:VEVENT
+BEGIN:VEVENT
+UID:30735465@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Broomfield Girls v Valley Green Girls Valkyries
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735465
+END:VEVENT
+BEGIN:VEVENT
+UID:30735469@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v Broomfield Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735469
+END:VEVENT
+BEGIN:VEVENT
+UID:30735473@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Broomfield Girls v St Clere's Girls
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735473
+END:VEVENT
+BEGIN:VEVENT
+UID:30735434@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:St Clere's Girls v Broomfield Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735434
+END:VEVENT
+BEGIN:VEVENT
+UID:30735425@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Valley Green Girls Valkyries v Broomfield Girls
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735425
+END:VEVENT
+END:VCALENDAR

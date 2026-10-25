@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Romford Town Flyers Women (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735039@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Takeley Lionesses v Romford Town Flyers Women
+DTSTART;TZID=Europe/London:20261101T111500
+DTEND;TZID=Europe/London:20261101T125500
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:U15 C league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735039
+END:VEVENT
+BEGIN:VEVENT
+UID:30735045@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Romford Town Flyers Women v Baddow Spartak Girls Pumas
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735045
+END:VEVENT
+BEGIN:VEVENT
+UID:30735051@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Pumas v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735051
+END:VEVENT
+BEGIN:VEVENT
+UID:30735054@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Romford Town Flyers Women v Great Danes Girls
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735054
+END:VEVENT
+BEGIN:VEVENT
+UID:30735061@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Danes Girls v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735061
+END:VEVENT
+BEGIN:VEVENT
+UID:30735064@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Romford Town Flyers Women v Loughton Town Violets
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735064
+END:VEVENT
+BEGIN:VEVENT
+UID:30735082@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Romford Town Flyers Women v South Woodham Ferrers United Women S
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735082
+END:VEVENT
+BEGIN:VEVENT
+UID:30735086@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Stones Athletic Girls Panthers v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735086
+END:VEVENT
+BEGIN:VEVENT
+UID:30735091@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Romford Town Flyers Women v Corinthians Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735091
+END:VEVENT
+BEGIN:VEVENT
+UID:30735093@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Byron Red Star Girls Panthers v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735093
+END:VEVENT
+BEGIN:VEVENT
+UID:30735100@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Romford Town Flyers Women v Takeley Lionesses
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735100
+END:VEVENT
+BEGIN:VEVENT
+UID:30735105@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Baddow Spartak Girls Pumas v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735105
+END:VEVENT
+BEGIN:VEVENT
+UID:30735109@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Romford Town Flyers Women v Byron Red Star Girls Pumas
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735109
+END:VEVENT
+END:VCALENDAR

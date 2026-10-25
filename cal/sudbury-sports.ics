@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988166@touchline-eja
-DTSTAMP:20261024T131635Z
-SUMMARY:Sudbury Sports v Stanway Rovers
-DTSTART;TZID=Europe/London:20261025T100000
-DTEND;TZID=Europe/London:20261025T114000
-LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
- 7HN
-DESCRIPTION:U16 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988166
-END:VEVENT
-BEGIN:VEVENT
 UID:31093074@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Sudbury Sports v Witham Town
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -46,5 +35,15 @@ LOCATION:Earls Colne Recreation Club\, Halstead Road\, Earls Colne\, Colch
 DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093074
+END:VEVENT
+BEGIN:VEVENT
+UID:31100776@touchline-eja
+DTSTAMP:20261025T180058Z
+SUMMARY:Hornchurch v Sudbury Sports
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31100776
 END:VEVENT
 END:VCALENDAR

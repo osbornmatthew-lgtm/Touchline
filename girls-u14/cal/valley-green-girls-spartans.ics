@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Valley Green Girls Spartans (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734476@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:St Clere's Girls Rhinos v Valley Green Girls Spartans
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734476
+END:VEVENT
+BEGIN:VEVENT
+UID:30734437@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Saint Pierre Girls Lionesses v Valley Green Girls Spartans
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:St Thomas More High School\, Kenilworth Gardens\, Westcliff-On-Se
+ a\, (Pseudo) England (Ua/Md/Lb) SS0 0BW
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734437
+END:VEVENT
+BEGIN:VEVENT
+UID:30734442@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Clacton Regent Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734442
+END:VEVENT
+BEGIN:VEVENT
+UID:30734426@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Tigers Girls Yellow
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734426
+END:VEVENT
+BEGIN:VEVENT
+UID:30734454@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Billericay Town Girls Red v Valley Green Girls Spartans
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734454
+END:VEVENT
+BEGIN:VEVENT
+UID:30734461@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Byron Red Star Girls Lionesses
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734461
+END:VEVENT
+BEGIN:VEVENT
+UID:30734465@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Walthamstow ECGL v Valley Green Girls Spartans
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Low Hall Sports Ground\, South Access Road\, London E17 8AX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734465
+END:VEVENT
+BEGIN:VEVENT
+UID:30734471@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Leigh Lionesses Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734471
+END:VEVENT
+BEGIN:VEVENT
+UID:30734481@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Broomfield Girls Red
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734481
+END:VEVENT
+BEGIN:VEVENT
+UID:30734487@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tigers Girls Yellow v Valley Green Girls Spartans
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734487
+END:VEVENT
+BEGIN:VEVENT
+UID:30734497@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Saint Pierre Girls Lionesses
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734497
+END:VEVENT
+BEGIN:VEVENT
+UID:30734422@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v Valley Green Girls Spartans
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734422
+END:VEVENT
+BEGIN:VEVENT
+UID:30734444@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Buckhurst Hill Girls Lionesses v Valley Green Girls Spartans
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734444
+END:VEVENT
+BEGIN:VEVENT
+UID:30734451@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Billericay Town Girls Red
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734451
+END:VEVENT
+BEGIN:VEVENT
+UID:30734498@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Clacton Regent Girls v Valley Green Girls Spartans
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734498
+END:VEVENT
+BEGIN:VEVENT
+UID:30734406@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Walthamstow ECGL
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734406
+END:VEVENT
+BEGIN:VEVENT
+UID:30734506@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Buckhurst Hill Girls Lionesses
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734506
+END:VEVENT
+BEGIN:VEVENT
+UID:31066502@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v AFC Leyton s (Essex U14 Girls Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:Essex U14 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31066502
+END:VEVENT
+END:VCALENDAR

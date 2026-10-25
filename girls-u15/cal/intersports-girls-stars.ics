@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Intersports Girls Stars (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734855@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Chelmsford City Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734855
+END:VEVENT
+BEGIN:VEVENT
+UID:30734865@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Broomfield Girls Red
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734865
+END:VEVENT
+BEGIN:VEVENT
+UID:30734878@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Sporting 77 Girls Fire Hawks v Intersports Girls Stars
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Witham Sports Ground\, Spinks Lane\, Witham CM8 1EP
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734878
+END:VEVENT
+BEGIN:VEVENT
+UID:30734883@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Barking Barking Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734883
+END:VEVENT
+BEGIN:VEVENT
+UID:30734887@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Elite Colts Girls v Intersports Girls Stars
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734887
+END:VEVENT
+BEGIN:VEVENT
+UID:30734892@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Leigh Ramblers Girls Black
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734892
+END:VEVENT
+BEGIN:VEVENT
+UID:30734901@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Perry Street Girls Bengals
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734901
+END:VEVENT
+BEGIN:VEVENT
+UID:30734820@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Hutton Girls Hornets
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734820
+END:VEVENT
+BEGIN:VEVENT
+UID:30734851@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Perry Street Girls Bengals v Intersports Girls Stars
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734851
+END:VEVENT
+BEGIN:VEVENT
+UID:30734895@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hannakins Farm Girls Hurricanes v Intersports Girls Stars
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734895
+END:VEVENT
+BEGIN:VEVENT
+UID:30734837@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Elite Colts Girls
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734837
+END:VEVENT
+BEGIN:VEVENT
+UID:30734846@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Hannakins Farm Girls Hurricanes
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734846
+END:VEVENT
+BEGIN:VEVENT
+UID:30734873@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Intersports Girls Stars
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734873
+END:VEVENT
+BEGIN:VEVENT
+UID:30734862@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Intersports Girls Stars
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734862
+END:VEVENT
+END:VCALENDAR

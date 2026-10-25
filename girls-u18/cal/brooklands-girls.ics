@@ -1,0 +1,204 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brooklands Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30880043@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Byron Red Star Girls Leopards v Brooklands Girls
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880043
+END:VEVENT
+BEGIN:VEVENT
+UID:30880050@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brooklands Girls v Baddow Spartak Girls Pumas
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Colchester Academy\, Hawthorn Avenue\, Colchester\, Essex CO4 3JL
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880050
+END:VEVENT
+BEGIN:VEVENT
+UID:30880053@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Bealonians Girls Blue v Brooklands Girls
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Bealonians Football Club\, Jack Carter Pavilion Fencepiece Road\,
+  Oakfield Playing Fields\, Barkingside IG6 2JL
+DESCRIPTION:U18 B league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880053
+END:VEVENT
+BEGIN:VEVENT
+UID:30880056@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brooklands Girls v Epping Town Girls
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Colchester Academy\, Hawthorn Avenue\, Colchester\, Essex CO4 3JL
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880056
+END:VEVENT
+BEGIN:VEVENT
+UID:30880057@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Epping Town Girls v Brooklands Girls
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880057
+END:VEVENT
+BEGIN:VEVENT
+UID:30880059@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brooklands Girls v Braintree Girls
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Colchester Academy\, Hawthorn Avenue\, Colchester\, Essex CO4 3JL
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880059
+END:VEVENT
+BEGIN:VEVENT
+UID:30880060@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brantham Athletic F.C. Girls PSG Aca v Brooklands Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Brantham Leisure Centre\, Brantham Athletic Sports and Social Clu
+ b New Village\, Brantham\, Suffolk CO11 1RZ
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880060
+END:VEVENT
+BEGIN:VEVENT
+UID:30880062@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brooklands Girls v Broomfield Girls Black
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Colchester Academy\, Hawthorn Avenue\, Colchester\, Essex CO4 3JL
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880062
+END:VEVENT
+BEGIN:VEVENT
+UID:30880063@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Brooklands Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880063
+END:VEVENT
+BEGIN:VEVENT
+UID:30880064@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brooklands Girls v Byron Red Star Girls Leopards
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Colchester Academy\, Hawthorn Avenue\, Colchester\, Essex CO4 3JL
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880064
+END:VEVENT
+BEGIN:VEVENT
+UID:30880065@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Colchester City Ladies v Brooklands Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880065
+END:VEVENT
+BEGIN:VEVENT
+UID:30880066@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Broomfield Girls Red v Brooklands Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880066
+END:VEVENT
+BEGIN:VEVENT
+UID:30880069@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Baddow Spartak Girls Pumas v Brooklands Girls
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880069
+END:VEVENT
+BEGIN:VEVENT
+UID:30880070@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brooklands Girls v Bealonians Girls Blue
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Colchester Academy\, Hawthorn Avenue\, Colchester\, Essex CO4 3JL
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880070
+END:VEVENT
+BEGIN:VEVENT
+UID:30880071@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brooklands Girls v Colchester City Ladies
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Colchester Academy\, Hawthorn Avenue\, Colchester\, Essex CO4 3JL
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880071
+END:VEVENT
+BEGIN:VEVENT
+UID:30880040@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Brooklands Girls v Brantham Athletic F.C. Girls PSG Aca
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Colchester Academy\, Hawthorn Avenue\, Colchester\, Essex CO4 3JL
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880040
+END:VEVENT
+END:VCALENDAR

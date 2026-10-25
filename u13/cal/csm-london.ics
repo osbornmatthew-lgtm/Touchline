@@ -25,31 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30955070@touchline-eja-u13
-DTSTAMP:20261024T131635Z
-SUMMARY:May & Baker v CSM London
-DTSTART;TZID=Europe/London:20261025T100000
-DTEND;TZID=Europe/London:20261025T114000
-LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
- ham RM9 5PU
-DESCRIPTION:U13 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30955070
-END:VEVENT
-BEGIN:VEVENT
 UID:31001950@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Leigh Ramblers v CSM London
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
 LOCATION:Belfairs Park/Sports Ground\, Belfairs Park Eastwood Road North\,
   Leigh-On-Sea SS9 4LR
-DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DESCRIPTION:U13 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31001950
 END:VEVENT
 BEGIN:VEVENT
 UID:31035390@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:CSM London v Hullbridge Sports
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -61,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31035390
 END:VEVENT
 BEGIN:VEVENT
 UID:31034827@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:CSM London v Frenford (Essex Cordell U13 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

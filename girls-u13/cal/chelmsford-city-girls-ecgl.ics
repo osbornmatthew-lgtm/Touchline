@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chelmsford City Girls ECGL (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773288@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:FC Redwing Girls Buzzards v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Barleylands Farm (Site 1a)\, Southend Road\, Billericay\, Essex C
+ M11 2UQ
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773288
+END:VEVENT
+BEGIN:VEVENT
+UID:30773296@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Chelmsford City Girls ECGL v Hannakins Farm Girls Panthers
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773296
+END:VEVENT
+BEGIN:VEVENT
+UID:30773299@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Jays Lionesses v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:The Leys\, Ballards Road\, Dagenham RM10 9TP
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773299
+END:VEVENT
+BEGIN:VEVENT
+UID:30773348@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Hannakins Farm Girls Panthers v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773348
+END:VEVENT
+BEGIN:VEVENT
+UID:30773310@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Rayleigh Girls Hawks v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Chichester Playing Fields\, Land North Of Sunnyview Old London Ro
+ ad\, Rawreth\, Essex SS11 8UE
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773310
+END:VEVENT
+BEGIN:VEVENT
+UID:30773316@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Yellow v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773316
+END:VEVENT
+BEGIN:VEVENT
+UID:30773319@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Chelmsford City Girls ECGL v Toby Women Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Melbourne Park\, Salerno Way\, Chelmsford\, Essex CM1 2EH
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773319
+END:VEVENT
+BEGIN:VEVENT
+UID:30773323@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:121 Football Blacks v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
+  Basildon\, Essex SS14 2EX
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773323
+END:VEVENT
+BEGIN:VEVENT
+UID:30773328@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Chelmsford City Girls ECGL v Benfleet Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773328
+END:VEVENT
+BEGIN:VEVENT
+UID:30773335@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Town Girls v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773335
+END:VEVENT
+BEGIN:VEVENT
+UID:30773346@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Chelmsford City Girls ECGL v FC Redwing Girls Buzzards
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773346
+END:VEVENT
+BEGIN:VEVENT
+UID:30773356@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Chelmsford City Girls ECGL v Jays Lionesses
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773356
+END:VEVENT
+BEGIN:VEVENT
+UID:30773365@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Chelmsford City Girls ECGL v Rayleigh Girls Hawks
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773365
+END:VEVENT
+BEGIN:VEVENT
+UID:30773260@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Chelmsford City Girls ECGL v Tigers Girls Yellow
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773260
+END:VEVENT
+END:VCALENDAR

@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988206@touchline-eja-u18
-DTSTAMP:20261024T131635Z
-SUMMARY:Newmarket Town 18 Sundays v Arlesey Town
-DTSTART;TZID=Europe/London:20261025T123000
-DTEND;TZID=Europe/London:20261025T141000
-LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
-  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
-DESCRIPTION:U18 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988206
-END:VEVENT
-BEGIN:VEVENT
 UID:31030437@touchline-eja-u18
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180308Z
 SUMMARY:St Neots Town v Newmarket Town 18 Sundays
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -48,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030437
 END:VEVENT
 BEGIN:VEVENT
 UID:31093686@touchline-eja-u18
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180308Z
 SUMMARY:Newmarket Town 18 Sundays v BSC U17 Town
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

@@ -1,0 +1,176 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Concord Rangers Girls Yellows (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30731963@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Concord Rangers Girls Yellows v Springfield Girls
+DTSTART;TZID=Europe/London:20261101T023000
+DTEND;TZID=Europe/London:20261101T041000
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U18 A league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731963
+END:VEVENT
+BEGIN:VEVENT
+UID:30731970@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Tigers Girls v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731970
+END:VEVENT
+BEGIN:VEVENT
+UID:30731982@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Concord Rangers Girls Yellows v Walthamstow EGCL
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731982
+END:VEVENT
+BEGIN:VEVENT
+UID:30732028@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Concord Rangers Girls Yellows v Tigers Girls
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732028
+END:VEVENT
+BEGIN:VEVENT
+UID:30732013@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Hashtag United Girls Yellow v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732013
+END:VEVENT
+BEGIN:VEVENT
+UID:30731998@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Concord Rangers Girls Yellows v Cornard Dynamos Youth F.C. Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731998
+END:VEVENT
+BEGIN:VEVENT
+UID:30732002@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Easton A Girls v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732002
+END:VEVENT
+BEGIN:VEVENT
+UID:30731953@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Concord Rangers Girls Yellows v Hashtag United Girls Yellow
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731953
+END:VEVENT
+BEGIN:VEVENT
+UID:30731959@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Oyster Girls v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731959
+END:VEVENT
+BEGIN:VEVENT
+UID:30732018@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Concord Rangers Girls Yellows v Oyster Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732018
+END:VEVENT
+BEGIN:VEVENT
+UID:30732024@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Springfield Girls v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Springfield Hall Park\, Springfield Hall Park\, Car Park Arun Clo
+ se\, Chelmsford\, Essex CM1 7QE
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732024
+END:VEVENT
+BEGIN:VEVENT
+UID:30731981@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Walthamstow EGCL v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Low Hall Sports Ground\, South Access Road\, London E17 8AX
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731981
+END:VEVENT
+BEGIN:VEVENT
+UID:31066608@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Concord Rangers Girls Yellows v Broomfield Girls Black (Essex U18 
+ Girls Cup)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Usp College (Seevic Campus)\, Runnymeade Chase\, Benfleet\, Essex
+  SS7 1TW
+DESCRIPTION:Essex U18 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31066608
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,146 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Romford Town Flyers Women (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735369@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Torquespeed Girls Lionesses v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Leisure World Tiptree\, Maypole Road\, Tiptree\, Colchester\, Ess
+ ex CO5 0EW
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735369
+END:VEVENT
+BEGIN:VEVENT
+UID:30735371@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Romford Town Flyers Women v FC Redwing Girls Buzzards
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735371
+END:VEVENT
+BEGIN:VEVENT
+UID:30735378@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Trinity Girls Lionesses v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:The Youth Ground (Trinity Football Club)\, New Youth Ground Royal
+  Artillery Way\, Southend-On-Sea SS2 4QX
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735378
+END:VEVENT
+BEGIN:VEVENT
+UID:30735379@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Lawford Junior Girls Lionesses v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:School Lane Playing Fields\, School Lane\, Lawford\, Essex CO11 2
+ HZ
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735379
+END:VEVENT
+BEGIN:VEVENT
+UID:30735384@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Romford Town Flyers Women v Leigh Ramblers Girls Blue
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735384
+END:VEVENT
+BEGIN:VEVENT
+UID:30735388@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735388
+END:VEVENT
+BEGIN:VEVENT
+UID:30735392@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Romford Town Flyers Women v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735392
+END:VEVENT
+BEGIN:VEVENT
+UID:30735343@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Romford Town Flyers Women v Trinity Girls Lionesses
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735343
+END:VEVENT
+BEGIN:VEVENT
+UID:30735339@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:FC Redwing Girls Buzzards v Romford Town Flyers Women
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Barleylands Farm (Site 2) 2\, Barleylands Road\, Billericay\, Ess
+ ex CM11 2UF
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735339
+END:VEVENT
+BEGIN:VEVENT
+UID:30735348@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Romford Town Flyers Women v Lawford Junior Girls Lionesses
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735348
+END:VEVENT
+BEGIN:VEVENT
+UID:30735356@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Romford Town Flyers Women v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735356
+END:VEVENT
+END:VCALENDAR

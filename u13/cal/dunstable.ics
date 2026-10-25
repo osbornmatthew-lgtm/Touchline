@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30955021@touchline-eja-u13
-DTSTAMP:20261024T131635Z
-SUMMARY:Dunstable v Real Bedford
-DTSTART;TZID=Europe/London:20261025T110000
-DTEND;TZID=Europe/London:20261025T124000
-DESCRIPTION:U13 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30955021
-END:VEVENT
-BEGIN:VEVENT
 UID:31035276@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Welwyn Garden City Development v Dunstable
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -45,12 +36,23 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31035276
 END:VEVENT
 BEGIN:VEVENT
 UID:31067409@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Harpenden Town v Dunstable
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:U13 Brown league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067409
+END:VEVENT
+BEGIN:VEVENT
+UID:31103293@touchline-eja-u13
+DTSTAMP:20261025T180127Z
+SUMMARY:Real Bedford v Dunstable (League Cup)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Bedford Academy\, Mile Road\, Bedford MK42 9TR
+DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
+ e for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31103293
 END:VEVENT
 END:VCALENDAR

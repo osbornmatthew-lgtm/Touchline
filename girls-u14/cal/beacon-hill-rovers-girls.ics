@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Beacon Hill Rovers Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734568@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v Ridgeway Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734568
+END:VEVENT
+BEGIN:VEVENT
+UID:30734578@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Great Bradfords Girls Amethyst v Beacon Hill Rovers Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734578
+END:VEVENT
+BEGIN:VEVENT
+UID:30734580@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v Epping Town Cobras
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734580
+END:VEVENT
+BEGIN:VEVENT
+UID:30734556@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v South Woodham Ferrers United Women H
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734556
+END:VEVENT
+BEGIN:VEVENT
+UID:30734592@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v Elite Colts Girls
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734592
+END:VEVENT
+BEGIN:VEVENT
+UID:30734598@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v Bowers & Pitsea Girls Under 14
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734598
+END:VEVENT
+BEGIN:VEVENT
+UID:30734605@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v Beacon Hill Rovers Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734605
+END:VEVENT
+BEGIN:VEVENT
+UID:30734610@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v East Thurrock Community Ravens
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734610
+END:VEVENT
+BEGIN:VEVENT
+UID:30734622@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v West Essex Girls Gold
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734622
+END:VEVENT
+BEGIN:VEVENT
+UID:30734631@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:South Woodham Ferrers United Women H v Beacon Hill Rovers Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734631
+END:VEVENT
+BEGIN:VEVENT
+UID:30734634@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v Lawford Junior Girls Lionesses
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734634
+END:VEVENT
+BEGIN:VEVENT
+UID:30734644@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Ridgeway Rovers Girls Lionesses v Beacon Hill Rovers Girls
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Peter May Sports Centre 3\, Wadham Road\, London E17 4HR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734644
+END:VEVENT
+BEGIN:VEVENT
+UID:30734565@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Lawford Junior Girls Lionesses v Beacon Hill Rovers Girls
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:School Lane Playing Fields\, School Lane\, Lawford\, Essex CO11 2
+ HZ
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734565
+END:VEVENT
+BEGIN:VEVENT
+UID:30734552@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v Beacon Hill Rovers Girls
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734552
+END:VEVENT
+BEGIN:VEVENT
+UID:30734646@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v Great Bradfords Girls Amethyst
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734646
+END:VEVENT
+END:VCALENDAR

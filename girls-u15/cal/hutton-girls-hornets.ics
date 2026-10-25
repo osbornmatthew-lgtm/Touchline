@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hutton Girls Hornets (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734854@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Broomfield Girls Red
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734854
+END:VEVENT
+BEGIN:VEVENT
+UID:30734863@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Broomfield Girls Red v Hutton Girls Hornets
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734863
+END:VEVENT
+BEGIN:VEVENT
+UID:30734868@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Sporting 77 Girls Fire Hawks v Hutton Girls Hornets
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Witham Sports Ground\, Spinks Lane\, Witham CM8 1EP
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734868
+END:VEVENT
+BEGIN:VEVENT
+UID:30734876@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Barking Barking Girls v Hutton Girls Hornets
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Barking FC\, Lodge Avenue\, Dagenham RM8 2JR
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734876
+END:VEVENT
+BEGIN:VEVENT
+UID:30734882@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Elite Colts Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734882
+END:VEVENT
+BEGIN:VEVENT
+UID:30734884@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Ramblers Girls Black v Hutton Girls Hornets
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734884
+END:VEVENT
+BEGIN:VEVENT
+UID:30734891@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Hannakins Farm Girls Hurricanes
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734891
+END:VEVENT
+BEGIN:VEVENT
+UID:30734845@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Perry Street Girls Bengals
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734845
+END:VEVENT
+BEGIN:VEVENT
+UID:30734900@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Chelmsford City Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734900
+END:VEVENT
+BEGIN:VEVENT
+UID:30734820@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Hutton Girls Hornets
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734820
+END:VEVENT
+BEGIN:VEVENT
+UID:30734836@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Leigh Ramblers Girls Black
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734836
+END:VEVENT
+BEGIN:VEVENT
+UID:30734852@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Hutton Girls Hornets
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734852
+END:VEVENT
+BEGIN:VEVENT
+UID:30734873@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Intersports Girls Stars
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734873
+END:VEVENT
+BEGIN:VEVENT
+UID:31034841@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Broomfield Girls Red (Essex U15 Girls Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Shenfield High School\, Alexander Lane\, Shenfield\, Brentwood\, 
+ Essex CM15 8RY
+DESCRIPTION:Essex U15 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31034841
+END:VEVENT
+END:VCALENDAR

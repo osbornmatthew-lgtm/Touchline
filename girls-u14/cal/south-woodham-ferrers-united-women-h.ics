@@ -1,0 +1,207 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:South Woodham Ferrers United Women H (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734570@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v South Woodham Ferrers United Women H
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734570
+END:VEVENT
+BEGIN:VEVENT
+UID:30734575@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:South Woodham Ferrers United Women H v East Thurrock Community Rav
+ ens
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734575
+END:VEVENT
+BEGIN:VEVENT
+UID:30734556@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v South Woodham Ferrers United Women H
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734556
+END:VEVENT
+BEGIN:VEVENT
+UID:30734597@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v South Woodham Ferrers United Women H
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734597
+END:VEVENT
+BEGIN:VEVENT
+UID:30734603@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Elite Colts Girls v South Woodham Ferrers United Women H
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Westlands Playing Field 2\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734603
+END:VEVENT
+BEGIN:VEVENT
+UID:30734609@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:South Woodham Ferrers United Women H v Lawford Junior Girls Liones
+ ses
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734609
+END:VEVENT
+BEGIN:VEVENT
+UID:30734612@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Ridgeway Rovers Girls Lionesses v South Woodham Ferrers United Wom
+ en H
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734612
+END:VEVENT
+BEGIN:VEVENT
+UID:30734620@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:South Woodham Ferrers United Women H v Great Bradfords Girls Ameth
+ yst
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734620
+END:VEVENT
+BEGIN:VEVENT
+UID:30734626@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Epping Town Cobras v South Woodham Ferrers United Women H
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734626
+END:VEVENT
+BEGIN:VEVENT
+UID:30734631@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:South Woodham Ferrers United Women H v Beacon Hill Rovers Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734631
+END:VEVENT
+BEGIN:VEVENT
+UID:30734635@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Bowers & Pitsea Girls Under 14 v South Woodham Ferrers United Wome
+ n H
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
+ ex SS16 5BA
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734635
+END:VEVENT
+BEGIN:VEVENT
+UID:30734649@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:East Thurrock Community Ravens v South Woodham Ferrers United Wome
+ n H
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Wyldecrest Sports Country Club\, Herd Lane\, Corringham\, Stanfor
+ d-Le-Hope SS17 9BJ
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734649
+END:VEVENT
+BEGIN:VEVENT
+UID:30734586@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:South Woodham Ferrers United Women H v West Essex Girls Gold
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734586
+END:VEVENT
+BEGIN:VEVENT
+UID:30734553@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:South Woodham Ferrers United Women H v Epping Town Cobras
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734553
+END:VEVENT
+BEGIN:VEVENT
+UID:31066485@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Hashtag United Girls Blue v South Woodham Ferrers United Women H (
+ Essex U14 Girls Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Barleylands Farm (Site 2)\, Barleylands Road\, Billericay\, Essex
+  CM11 2UF
+DESCRIPTION:Essex U14 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31066485
+END:VEVENT
+END:VCALENDAR

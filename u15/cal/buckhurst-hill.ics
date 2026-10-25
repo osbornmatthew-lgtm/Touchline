@@ -25,31 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30985428@touchline-eja-u15
-DTSTAMP:20261024T131635Z
-SUMMARY:Frenford v Buckhurst Hill
-DTSTART;TZID=Europe/London:20261025T120000
-DTEND;TZID=Europe/London:20261025T134000
-LOCATION:Frenford Youth Club\, Jack Carter Centre The Drive\, Ilford IG1 3
- PS
-DESCRIPTION:U15 Purple league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30985428
-END:VEVENT
-BEGIN:VEVENT
 UID:31029976@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Woodford Town v Buckhurst Hill
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;TZID=Europe/London:20261101T130000
+DTEND;TZID=Europe/London:20261101T144000
 LOCATION:Trinity Catholic High School (Whitbread Sports Ground)\, Whitbrea
  d Sports Ground\, Pavilion Durham Avenue\, Woodford Green IG8 7NJ
-DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DESCRIPTION:U15 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31029976
 END:VEVENT
 BEGIN:VEVENT
 UID:31093057@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Ryan v Buckhurst Hill
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -59,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093057
 END:VEVENT
 BEGIN:VEVENT
 UID:31016345@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Romford United v Buckhurst Hill (Essex Rosser U15 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chelmsford City Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734855@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Intersports Girls Stars v Chelmsford City Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734855
+END:VEVENT
+BEGIN:VEVENT
+UID:30734866@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Barking Barking Girls v Chelmsford City Girls
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Barking FC\, Lodge Avenue\, Dagenham RM8 2JR
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734866
+END:VEVENT
+BEGIN:VEVENT
+UID:30734889@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Sporting 77 Girls Fire Hawks
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734889
+END:VEVENT
+BEGIN:VEVENT
+UID:30734874@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Ramblers Girls Black v Chelmsford City Girls
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734874
+END:VEVENT
+BEGIN:VEVENT
+UID:30734880@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Hannakins Farm Girls Hurricanes
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734880
+END:VEVENT
+BEGIN:VEVENT
+UID:30734886@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Perry Street Girls Bengals v Chelmsford City Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734886
+END:VEVENT
+BEGIN:VEVENT
+UID:30734897@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Broomfield Girls Red
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734897
+END:VEVENT
+BEGIN:VEVENT
+UID:30734900@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Hutton Girls Hornets v Chelmsford City Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734900
+END:VEVENT
+BEGIN:VEVENT
+UID:30734822@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Elite Colts Girls v Chelmsford City Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734822
+END:VEVENT
+BEGIN:VEVENT
+UID:30734844@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Broomfield Girls Red v Chelmsford City Girls
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734844
+END:VEVENT
+BEGIN:VEVENT
+UID:30734834@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Perry Street Girls Bengals
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734834
+END:VEVENT
+BEGIN:VEVENT
+UID:30734852@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Hutton Girls Hornets
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734852
+END:VEVENT
+BEGIN:VEVENT
+UID:30734871@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Elite Colts Girls
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734871
+END:VEVENT
+BEGIN:VEVENT
+UID:30734862@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Chelmsford City Girls v Intersports Girls Stars
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734862
+END:VEVENT
+END:VCALENDAR

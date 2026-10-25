@@ -1,0 +1,218 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Witham Town Belles Pink (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30853090@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Nazeing Wildcats
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853090
+END:VEVENT
+BEGIN:VEVENT
+UID:30735173@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Runwell Sports Sapphires v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Runwell Sports Club\, St. Lukes Way\, Runwell\, Wickford\, Essex 
+ SS11 7QA
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735173
+END:VEVENT
+BEGIN:VEVENT
+UID:30735180@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Runwell Sports Sapphires
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735180
+END:VEVENT
+BEGIN:VEVENT
+UID:30735184@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Atletico Trotters Girls v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Old Brentwoods Sports Club\, Ashwells Road\, Pilgrims Hatch\, Bre
+ ntwood\, Essex CM15 9SE
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735184
+END:VEVENT
+BEGIN:VEVENT
+UID:30735189@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Loughton Town Purples
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735189
+END:VEVENT
+BEGIN:VEVENT
+UID:30735192@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Broomfield Girls Black v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735192
+END:VEVENT
+BEGIN:VEVENT
+UID:30735207@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Great Bradfords Girls Quartz
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735207
+END:VEVENT
+BEGIN:VEVENT
+UID:30735215@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735215
+END:VEVENT
+BEGIN:VEVENT
+UID:30735218@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Tigers Girls Black v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735218
+END:VEVENT
+BEGIN:VEVENT
+UID:30735140@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Loughton Town Purples v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735140
+END:VEVENT
+BEGIN:VEVENT
+UID:30853205@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853205
+END:VEVENT
+BEGIN:VEVENT
+UID:30735204@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:BSC FC Azures v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735204
+END:VEVENT
+BEGIN:VEVENT
+UID:30853232@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Tendring Borough Belles
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853232
+END:VEVENT
+BEGIN:VEVENT
+UID:30853236@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Tigers Girls Black
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853236
+END:VEVENT
+BEGIN:VEVENT
+UID:30853237@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Witham Town Belles Pink
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853237
+END:VEVENT
+BEGIN:VEVENT
+UID:30853241@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v BSC FC Azures
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853241
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,216 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brentwood Girls AFC Lionesses (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773924@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Southend Wanderers Swifts v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Southchurch High School\, Upper College Building Southchurch Boul
+ evard\, Southend-On-Sea SS2 4XA
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773924
+END:VEVENT
+BEGIN:VEVENT
+UID:30773927@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Girls AFC Lionesses v Thundersley Rovers Girls Tigresses
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:The Brentwood Centre\, Doddinghurst Road\, Pilgrims Hatch\, Brent
+ wood\, Essex CM15 9NN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773927
+END:VEVENT
+BEGIN:VEVENT
+UID:30773937@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773937
+END:VEVENT
+BEGIN:VEVENT
+UID:30773939@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Girls AFC Lionesses v Wickford Town Girls Purple
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:The Brentwood Centre\, Doddinghurst Road\, Pilgrims Hatch\, Brent
+ wood\, Essex CM15 9NN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773939
+END:VEVENT
+BEGIN:VEVENT
+UID:30773950@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Witham Town Belles v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773950
+END:VEVENT
+BEGIN:VEVENT
+UID:30773951@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Girls AFC Lionesses v East Thurrock Community Raider
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:The Brentwood Centre\, Doddinghurst Road\, Pilgrims Hatch\, Brent
+ wood\, Essex CM15 9NN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773951
+END:VEVENT
+BEGIN:VEVENT
+UID:30773958@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773958
+END:VEVENT
+BEGIN:VEVENT
+UID:30773963@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Girls AFC Lionesses v Leigh Lionesses Girls Courage
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:The Brentwood Centre\, Doddinghurst Road\, Pilgrims Hatch\, Brent
+ wood\, Essex CM15 9NN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773963
+END:VEVENT
+BEGIN:VEVENT
+UID:30773971@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Loughton Town Purples v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773971
+END:VEVENT
+BEGIN:VEVENT
+UID:30773975@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Girls AFC Lionesses v Ridgeway Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:The Brentwood Centre\, Doddinghurst Road\, Pilgrims Hatch\, Brent
+ wood\, Essex CM15 9NN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773975
+END:VEVENT
+BEGIN:VEVENT
+UID:30773984@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women R v Brentwood Girls AFC Lioness
+ es
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773984
+END:VEVENT
+BEGIN:VEVENT
+UID:30773997@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Thundersley Rovers Girls Tigresses v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773997
+END:VEVENT
+BEGIN:VEVENT
+UID:30773999@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Girls AFC Lionesses v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:The Brentwood Centre\, Doddinghurst Road\, Pilgrims Hatch\, Brent
+ wood\, Essex CM15 9NN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773999
+END:VEVENT
+BEGIN:VEVENT
+UID:30774010@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Wickford Town Girls Purple v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Bartlett Park (Wickford)\, Southend Road\, Wickford\, Essex SS11 
+ 8RZ
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774010
+END:VEVENT
+BEGIN:VEVENT
+UID:30774011@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Girls AFC Lionesses v Witham Town Belles
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:The Brentwood Centre\, Doddinghurst Road\, Pilgrims Hatch\, Brent
+ wood\, Essex CM15 9NN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774011
+END:VEVENT
+BEGIN:VEVENT
+UID:30773911@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Ridgeway Rovers Girls Lionesses v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Peter May Sports Centre 4\, Wadham Road\, London E17 4HR
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773911
+END:VEVENT
+END:VCALENDAR

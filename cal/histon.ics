@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988086@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Histon v Soham Town Rangers
 DTSTART;TZID=Europe/London:20261108T100000
 DTEND;TZID=Europe/London:20261108T114000
@@ -36,19 +36,19 @@ DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988086
 END:VEVENT
 BEGIN:VEVENT
-UID:30892794@touchline-eja
-DTSTAMP:20261024T131635Z
-SUMMARY:Mulbarton Wanderers v Histon (League Cup)
-DTSTART;TZID=Europe/London:20261025T110000
-DTEND;TZID=Europe/London:20261025T124000
-LOCATION:The Nest\, Horsford Manor Holt Road\, Horsford\, Norwich\, Norfol
- k NR10 3AQ
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30892794
+UID:31100645@touchline-eja
+DTSTAMP:20261025T180058Z
+SUMMARY:Histon v St Ives Town
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Camtech and Caprice Stadium\, Bridge Road\, Impington\, Cambridge
+ \, Cambridgeshire CB24 9PH
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31100645
 END:VEVENT
 BEGIN:VEVENT
 UID:31078185@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Histon v Godmanchester Rovers (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261130T194500
 DTEND;TZID=Europe/London:20261130T212500

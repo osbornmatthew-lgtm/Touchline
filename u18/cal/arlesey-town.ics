@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988206@touchline-eja-u18
-DTSTAMP:20261024T131635Z
-SUMMARY:Newmarket Town 18 Sundays v Arlesey Town
-DTSTART;TZID=Europe/London:20261025T123000
-DTEND;TZID=Europe/London:20261025T141000
-LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
-  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
-DESCRIPTION:U18 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988206
-END:VEVENT
-BEGIN:VEVENT
 UID:31030434@touchline-eja-u18
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180308Z
 SUMMARY:Arlesey Town v BSC U17 Town
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -48,21 +37,22 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030434
 END:VEVENT
 BEGIN:VEVENT
 UID:31093685@touchline-eja-u18
-DTSTAMP:20261024T131635Z
-SUMMARY:BSC U17 Town v Arlesey Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U18 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTAMP:20261025T180308Z
+SUMMARY:Cambridge City v Arlesey Town
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Cambridge City Football Club\, Cambridge City Football Club West 
+ Way\, Sawston\, Cambridgeshire CB22 3FG
+DESCRIPTION:U18 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093685
 END:VEVENT
 BEGIN:VEVENT
 UID:31066902@touchline-eja-u18
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180308Z
 SUMMARY:Biggleswade United Reds v Arlesey Town (Under 18 Youth Challenge C
  up)
-DTSTART;TZID=Europe/London:20261122T140000
-DTEND;TZID=Europe/London:20261122T154000
+DTSTART;TZID=Europe/London:20261122T113000
+DTEND;TZID=Europe/London:20261122T131000
 DESCRIPTION:Under 18 Youth Challenge Cup. Check FA Full-Time for late chan
  ges.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31066902

@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brentwood Town Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773289@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Hannakins Farm Girls Panthers v Brentwood Town Girls
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773289
+END:VEVENT
+BEGIN:VEVENT
+UID:30773295@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Town Girls v Jays Lionesses
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773295
+END:VEVENT
+BEGIN:VEVENT
+UID:30773311@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Yellow v Brentwood Town Girls
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773311
+END:VEVENT
+BEGIN:VEVENT
+UID:30773317@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Toby Women Girls v Brentwood Town Girls
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:The Brook Sports Club\, Barleylands Road\, Basildon\, Essex CM11 
+ 2UD
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773317
+END:VEVENT
+BEGIN:VEVENT
+UID:30773318@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Town Girls v 121 Football Blacks
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773318
+END:VEVENT
+BEGIN:VEVENT
+UID:30773324@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Benfleet Girls v Brentwood Town Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Woodside Stadium\, Woodside Park Recreation Ground\, Benfleet Foo
+ tball Club Manor Road\, Benfleet\, Essex SS7 4PD
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773324
+END:VEVENT
+BEGIN:VEVENT
+UID:30773335@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Town Girls v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773335
+END:VEVENT
+BEGIN:VEVENT
+UID:30773338@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:FC Redwing Girls Buzzards v Brentwood Town Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Barleylands Farm (Site 1a)\, Southend Road\, Billericay\, Essex C
+ M11 2UQ
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773338
+END:VEVENT
+BEGIN:VEVENT
+UID:30773345@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Town Girls v Hannakins Farm Girls Panthers
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773345
+END:VEVENT
+BEGIN:VEVENT
+UID:30773349@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Jays Lionesses v Brentwood Town Girls
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:The Leys\, Ballards Road\, Dagenham RM10 9TP
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773349
+END:VEVENT
+BEGIN:VEVENT
+UID:30773364@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Town Girls v Tigers Girls Yellow
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773364
+END:VEVENT
+BEGIN:VEVENT
+UID:30773305@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Town Girls v Rayleigh Girls Hawks
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773305
+END:VEVENT
+BEGIN:VEVENT
+UID:31066406@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Rayleigh Girls Hawks v Brentwood Town Girls (Essex U13 Girls Cup)
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Chichester Playing Fields\, Land North Of Sunnyview Old London Ro
+ ad\, Rawreth\, Essex SS11 8UE
+DESCRIPTION:Essex U13 Girls Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31066406
+END:VEVENT
+END:VCALENDAR

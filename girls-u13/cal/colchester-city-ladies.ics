@@ -1,0 +1,218 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Colchester City Ladies (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773407@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v 121 Football Yellows
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773407
+END:VEVENT
+BEGIN:VEVENT
+UID:30773412@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Buckhurst Hill Girls Tigresses v Colchester City Ladies
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773412
+END:VEVENT
+BEGIN:VEVENT
+UID:30773424@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Dagenham United Women Belles Clarets v Colchester City Ladies
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Dagenham United FC\, Manor Road\, Dagenham RM10 8BE
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773424
+END:VEVENT
+BEGIN:VEVENT
+UID:30773425@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v Finesse Sport Finesse Sport United F
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773425
+END:VEVENT
+BEGIN:VEVENT
+UID:30773439@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v Harlow Tekkers Coyotes
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773439
+END:VEVENT
+BEGIN:VEVENT
+UID:30773442@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Leigh Lionesses Girls Pride v Colchester City Ladies
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773442
+END:VEVENT
+BEGIN:VEVENT
+UID:30773448@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v Tigers Girls White
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773448
+END:VEVENT
+BEGIN:VEVENT
+UID:30773454@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Wivenhoe Tempest Girls v Colchester City Ladies
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Broad Lane Sports Ground\, Elmstead Road\, Wivenhoe\, Colchester\
+ , Essex CO7 9FP
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773454
+END:VEVENT
+BEGIN:VEVENT
+UID:30773457@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v Broomfield Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773457
+END:VEVENT
+BEGIN:VEVENT
+UID:30773461@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:121 Football Yellows v Colchester City Ladies
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
+  Basildon\, Essex SS14 2EX
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773461
+END:VEVENT
+BEGIN:VEVENT
+UID:30773466@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v Buckhurst Hill Girls Tigresses
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773466
+END:VEVENT
+BEGIN:VEVENT
+UID:30773475@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v Dagenham United Women Belles Clarets
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773475
+END:VEVENT
+BEGIN:VEVENT
+UID:30773484@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Finesse Sport Finesse Sport United F v Colchester City Ladies
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:London Marathon Playing Field Redbridge\, Forest Road\, Ilford IG
+ 6 3HJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773484
+END:VEVENT
+BEGIN:VEVENT
+UID:30773400@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Broomfield Girls v Colchester City Ladies
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773400
+END:VEVENT
+BEGIN:VEVENT
+UID:30773398@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v Wivenhoe Tempest Girls
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773398
+END:VEVENT
+BEGIN:VEVENT
+UID:31065668@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Colchester City Ladies v Chelmsford City Clarets (Essex U13 Girls 
+ Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:King George V Playing Field (Boxted)\, King George V Playing Fiel
+ ds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:Essex U13 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31065668
+END:VEVENT
+END:VCALENDAR

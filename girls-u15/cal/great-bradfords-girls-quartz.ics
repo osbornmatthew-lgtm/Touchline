@@ -1,0 +1,216 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Great Bradfords Girls Quartz (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30853086@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Nazeing Wildcats v Great Bradfords Girls Quartz
+DTSTART;TZID=Europe/London:20261025T133000
+DTEND;TZID=Europe/London:20261025T151000
+LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
+ , Roydon\, Harlow\, Essex CM19 5HL
+DESCRIPTION:U15 D league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853086
+END:VEVENT
+BEGIN:VEVENT
+UID:30735171@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Leigh Lionesses Girls Pride
+DTSTART;TZID=Europe/London:20261101T140000
+DTEND;TZID=Europe/London:20261101T154000
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735171
+END:VEVENT
+BEGIN:VEVENT
+UID:30735177@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Broomfield Girls Black v Great Bradfords Girls Quartz
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735177
+END:VEVENT
+BEGIN:VEVENT
+UID:30735186@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Tigers Girls Black
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735186
+END:VEVENT
+BEGIN:VEVENT
+UID:30735187@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Tendring Borough Belles v Great Bradfords Girls Quartz
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735187
+END:VEVENT
+BEGIN:VEVENT
+UID:30735197@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:BSC FC Azures v Great Bradfords Girls Quartz
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
+  Hertfordshire CM23 4RF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735197
+END:VEVENT
+BEGIN:VEVENT
+UID:30735206@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Atletico Trotters Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735206
+END:VEVENT
+BEGIN:VEVENT
+UID:30735207@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Witham Town Belles Pink v Great Bradfords Girls Quartz
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Witham Town Football Club\, The Simarco Stadium Spa Road\, Witham
+ \, Essex CM8 1UN
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735207
+END:VEVENT
+BEGIN:VEVENT
+UID:30735216@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Loughton Town Purples
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735216
+END:VEVENT
+BEGIN:VEVENT
+UID:30735217@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Girls Pride v Great Bradfords Girls Quartz
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735217
+END:VEVENT
+BEGIN:VEVENT
+UID:30853201@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Nazeing Wildcats
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853201
+END:VEVENT
+BEGIN:VEVENT
+UID:30735176@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Broomfield Girls Black
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735176
+END:VEVENT
+BEGIN:VEVENT
+UID:30853222@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Tendring Borough Belles
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853222
+END:VEVENT
+BEGIN:VEVENT
+UID:30853229@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Great Bradfords Girls Quartz v Runwell Sports Sapphires
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853229
+END:VEVENT
+BEGIN:VEVENT
+UID:30735156@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Atletico Trotters Girls v Great Bradfords Girls Quartz
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Old Brentwoods Sports Club\, Ashwells Road\, Pilgrims Hatch\, Bre
+ ntwood\, Essex CM15 9SE
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735156
+END:VEVENT
+BEGIN:VEVENT
+UID:30853238@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Loughton Town Purples v Great Bradfords Girls Quartz
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853238
+END:VEVENT
+END:VCALENDAR

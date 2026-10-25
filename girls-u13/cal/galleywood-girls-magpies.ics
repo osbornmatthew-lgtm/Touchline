@@ -1,0 +1,200 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Galleywood Girls Magpies (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773922@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Ridgeway Rovers Girls Lionesses v Galleywood Girls Magpies
+DTSTART;TZID=Europe/London:20261101T120000
+DTEND;TZID=Europe/London:20261101T134000
+LOCATION:Peter May Sports Centre 4\, Wadham Road\, London E17 4HR
+DESCRIPTION:U13 D league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773922
+END:VEVENT
+BEGIN:VEVENT
+UID:30773929@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v South Woodham Ferrers United Women R
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773929
+END:VEVENT
+BEGIN:VEVENT
+UID:30773935@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Southend Wanderers Swifts v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Southchurch High School\, Upper College Building Southchurch Boul
+ evard\, Southend-On-Sea SS2 4XA
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773935
+END:VEVENT
+BEGIN:VEVENT
+UID:30773941@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v Thundersley Rovers Girls Tigresses
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773941
+END:VEVENT
+BEGIN:VEVENT
+UID:30773948@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Stripes v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773948
+END:VEVENT
+BEGIN:VEVENT
+UID:30773955@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Wickford Town Girls Purple v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Bartlett Park (Wickford)\, Southend Road\, Wickford\, Essex SS11 
+ 8RZ
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773955
+END:VEVENT
+BEGIN:VEVENT
+UID:30773958@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773958
+END:VEVENT
+BEGIN:VEVENT
+UID:30773964@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:East Thurrock Community Raider v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Horndon On The Hill Recreation Ground\, Horndon On The Hill Crick
+ et Club Orsett Road\, Horndon On The Hill SS17 8NR
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773964
+END:VEVENT
+BEGIN:VEVENT
+UID:30773969@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v Witham Town Belles
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773969
+END:VEVENT
+BEGIN:VEVENT
+UID:30773977@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v Leigh Lionesses Girls Courage
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773977
+END:VEVENT
+BEGIN:VEVENT
+UID:30773982@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Loughton Town Purples v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773982
+END:VEVENT
+BEGIN:VEVENT
+UID:30773989@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v Ridgeway Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773989
+END:VEVENT
+BEGIN:VEVENT
+UID:30773995@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:South Woodham Ferrers United Women R v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773995
+END:VEVENT
+BEGIN:VEVENT
+UID:30774001@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v Southend Wanderers Swifts
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774001
+END:VEVENT
+BEGIN:VEVENT
+UID:30774008@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Thundersley Rovers Girls Tigresses v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774008
+END:VEVENT
+BEGIN:VEVENT
+UID:30774013@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Galleywood Girls Magpies v Tigers Girls Stripes
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U13 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774013
+END:VEVENT
+END:VCALENDAR

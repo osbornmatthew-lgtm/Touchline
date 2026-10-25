@@ -1,0 +1,215 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brandon Groves Emeralds (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734570@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v South Woodham Ferrers United Women H
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734570
+END:VEVENT
+BEGIN:VEVENT
+UID:30734576@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Lawford Junior Girls Lionesses v Brandon Groves Emeralds
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:School Lane Playing Fields\, School Lane\, Lawford\, Essex CO11 2
+ HZ
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734576
+END:VEVENT
+BEGIN:VEVENT
+UID:30734594@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v Great Bradfords Girls Amethyst
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734594
+END:VEVENT
+BEGIN:VEVENT
+UID:30734602@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Epping Town Cobras v Brandon Groves Emeralds
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734602
+END:VEVENT
+BEGIN:VEVENT
+UID:30734605@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v Beacon Hill Rovers Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734605
+END:VEVENT
+BEGIN:VEVENT
+UID:30734611@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Bowers & Pitsea Girls Under 14 v Brandon Groves Emeralds
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
+ ex SS16 5BA
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734611
+END:VEVENT
+BEGIN:VEVENT
+UID:30734616@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v Elite Colts Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734616
+END:VEVENT
+BEGIN:VEVENT
+UID:30734624@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v East Thurrock Community Ravens
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734624
+END:VEVENT
+BEGIN:VEVENT
+UID:30734636@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v West Essex Girls Gold
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734636
+END:VEVENT
+BEGIN:VEVENT
+UID:30734582@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v Ridgeway Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734582
+END:VEVENT
+BEGIN:VEVENT
+UID:30734648@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v Lawford Junior Girls Lionesses
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734648
+END:VEVENT
+BEGIN:VEVENT
+UID:30734655@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Ridgeway Rovers Girls Lionesses v Brandon Groves Emeralds
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734655
+END:VEVENT
+BEGIN:VEVENT
+UID:30734589@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Great Bradfords Girls Amethyst v Brandon Groves Emeralds
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734589
+END:VEVENT
+BEGIN:VEVENT
+UID:30734538@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v Bowers & Pitsea Girls Under 14
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734538
+END:VEVENT
+BEGIN:VEVENT
+UID:30734563@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v Brandon Groves Emeralds
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734563
+END:VEVENT
+BEGIN:VEVENT
+UID:31067549@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Brandon Groves Emeralds (Esse
+ x U14 Girls Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:King George V Playing Fields (Benfleet)\, Shipwrights Drive\, Ben
+ fleet\, Essex SS7 1RW
+DESCRIPTION:Essex U14 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31067549
+END:VEVENT
+END:VCALENDAR

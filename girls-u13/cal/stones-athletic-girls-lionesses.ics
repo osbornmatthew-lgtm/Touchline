@@ -1,0 +1,194 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stones Athletic Girls Lionesses (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30853446@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Concord Rangers Girls Yellows v Stones Athletic Girls Lionesses
+DTSTART;TZID=Europe/London:20261025T140000
+DTEND;TZID=Europe/London:20261025T154000
+LOCATION:Waterside Farm Leisure Centre\, Somnes Avenue\, Canvey Island\, E
+ ssex SS8 9RA
+DESCRIPTION:U13 C league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853446
+END:VEVENT
+BEGIN:VEVENT
+UID:30773529@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:FC Redwing Girls Kestrels v Stones Athletic Girls Lionesses
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+DESCRIPTION:U13 C league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773529
+END:VEVENT
+BEGIN:VEVENT
+UID:30773534@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stones Athletic Girls Lionesses v Ongar Juniors Girls
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773534
+END:VEVENT
+BEGIN:VEVENT
+UID:30773543@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stones Athletic Girls Lionesses v Byron Red Star Girls Jaguars
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773543
+END:VEVENT
+BEGIN:VEVENT
+UID:30773548@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stones Athletic Girls Lionesses v Writtle Minors Girls
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773548
+END:VEVENT
+BEGIN:VEVENT
+UID:30773558@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stones Athletic Girls Lionesses v Abbey Girls Falcons
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773558
+END:VEVENT
+BEGIN:VEVENT
+UID:30773563@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Tigers v Stones Athletic Girls Lionesses
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773563
+END:VEVENT
+BEGIN:VEVENT
+UID:30773568@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stones Athletic Girls Lionesses v Euro Dagenham Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773568
+END:VEVENT
+BEGIN:VEVENT
+UID:30853475@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stones Athletic Girls Lionesses v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853475
+END:VEVENT
+BEGIN:VEVENT
+UID:30773584@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stones Athletic Girls Lionesses v FC Redwing Girls Kestrels
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773584
+END:VEVENT
+BEGIN:VEVENT
+UID:30773585@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Ongar Juniors Girls v Stones Athletic Girls Lionesses
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773585
+END:VEVENT
+BEGIN:VEVENT
+UID:30773593@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stones Athletic Girls Lionesses v Stanway Rovers Girls Hornets
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773593
+END:VEVENT
+BEGIN:VEVENT
+UID:30773596@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Byron Red Star Girls Jaguars v Stones Athletic Girls Lionesses
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773596
+END:VEVENT
+BEGIN:VEVENT
+UID:30857884@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Rayleigh Girls Tawnys v Stones Athletic Girls Lionesses
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Chichester Playing Fields\, Land North Of Sunnyview Old London Ro
+ ad\, Rawreth\, Essex SS11 8UE
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30857884
+END:VEVENT
+BEGIN:VEVENT
+UID:30853604@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Stanway Rovers Girls Hornets v Stones Athletic Girls Lionesses
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853604
+END:VEVENT
+END:VCALENDAR

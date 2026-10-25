@@ -1,0 +1,168 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hannakins Farm Girls Panthers (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30773289@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Hannakins Farm Girls Panthers v Brentwood Town Girls
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773289
+END:VEVENT
+BEGIN:VEVENT
+UID:30773296@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Chelmsford City Girls ECGL v Hannakins Farm Girls Panthers
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773296
+END:VEVENT
+BEGIN:VEVENT
+UID:30773298@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Hannakins Farm Girls Panthers v FC Redwing Girls Buzzards
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773298
+END:VEVENT
+BEGIN:VEVENT
+UID:30773348@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Hannakins Farm Girls Panthers v Chelmsford City Girls ECGL
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773348
+END:VEVENT
+BEGIN:VEVENT
+UID:30773308@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Jays Lionesses v Hannakins Farm Girls Panthers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:The Leys\, Ballards Road\, Dagenham RM10 9TP
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773308
+END:VEVENT
+BEGIN:VEVENT
+UID:30773321@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Hannakins Farm Girls Panthers v Rayleigh Girls Hawks
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773321
+END:VEVENT
+BEGIN:VEVENT
+UID:30773326@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Tigers Girls Yellow v Hannakins Farm Girls Panthers
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773326
+END:VEVENT
+BEGIN:VEVENT
+UID:30773330@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Hannakins Farm Girls Panthers v Toby Women Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773330
+END:VEVENT
+BEGIN:VEVENT
+UID:30773339@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Hannakins Farm Girls Panthers v Benfleet Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773339
+END:VEVENT
+BEGIN:VEVENT
+UID:30773345@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Brentwood Town Girls v Hannakins Farm Girls Panthers
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
+ , Essex CM15 9NN
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773345
+END:VEVENT
+BEGIN:VEVENT
+UID:30773357@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:FC Redwing Girls Buzzards v Hannakins Farm Girls Panthers
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Barleylands Farm (Site 1a)\, Southend Road\, Billericay\, Essex C
+ M11 2UQ
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773357
+END:VEVENT
+BEGIN:VEVENT
+UID:30773284@touchline-girls-u13
+DTSTAMP:20261025T180356Z
+SUMMARY:Benfleet Girls v Hannakins Farm Girls Panthers
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Woodside Stadium\, Woodside Park Recreation Ground\, Benfleet Foo
+ tball Club Manor Road\, Benfleet\, Essex SS7 4PD
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773284
+END:VEVENT
+END:VCALENDAR

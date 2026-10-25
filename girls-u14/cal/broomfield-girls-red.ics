@@ -1,0 +1,213 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Broomfield Girls Red (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734434@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Buckhurst Hill Girls Lionesses v Broomfield Girls Red
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734434
+END:VEVENT
+BEGIN:VEVENT
+UID:30734440@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v Billericay Town Girls Red
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734440
+END:VEVENT
+BEGIN:VEVENT
+UID:30734459@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v Leigh Lionesses Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734459
+END:VEVENT
+BEGIN:VEVENT
+UID:30734427@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Saint Pierre Girls Lionesses v Broomfield Girls Red
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:St Thomas More High School\, Kenilworth Gardens\, Westcliff-On-Se
+ a\, (Pseudo) England (Ua/Md/Lb) SS0 0BW
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734427
+END:VEVENT
+BEGIN:VEVENT
+UID:30734456@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Walthamstow ECGL v Broomfield Girls Red
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Low Hall Sports Ground\, South Access Road\, London E17 8AX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734456
+END:VEVENT
+BEGIN:VEVENT
+UID:30734467@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:St Clere's Girls Rhinos v Broomfield Girls Red
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734467
+END:VEVENT
+BEGIN:VEVENT
+UID:30734477@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v Tigers Girls Yellow
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734477
+END:VEVENT
+BEGIN:VEVENT
+UID:30734481@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Valley Green Girls Spartans v Broomfield Girls Red
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734481
+END:VEVENT
+BEGIN:VEVENT
+UID:30734486@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v Saint Pierre Girls Lionesses
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734486
+END:VEVENT
+BEGIN:VEVENT
+UID:30734488@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Clacton Regent Girls v Broomfield Girls Red
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734488
+END:VEVENT
+BEGIN:VEVENT
+UID:30734422@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v Valley Green Girls Spartans
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734422
+END:VEVENT
+BEGIN:VEVENT
+UID:30734504@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v Byron Red Star Girls Lionesses
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734504
+END:VEVENT
+BEGIN:VEVENT
+UID:30734449@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v Walthamstow ECGL
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734449
+END:VEVENT
+BEGIN:VEVENT
+UID:30734404@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v St Clere's Girls Rhinos
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734404
+END:VEVENT
+BEGIN:VEVENT
+UID:30734446@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Byron Red Star Girls Lionesses v Broomfield Girls Red
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734446
+END:VEVENT
+BEGIN:VEVENT
+UID:30734431@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Red v Clacton Regent Girls
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734431
+END:VEVENT
+END:VCALENDAR

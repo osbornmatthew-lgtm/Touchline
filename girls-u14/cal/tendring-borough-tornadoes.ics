@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tendring Borough Tornadoes (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734719@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Byron Red Star Girls Jaguars v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734719
+END:VEVENT
+BEGIN:VEVENT
+UID:30734728@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tendring Borough Tornadoes v Broomfield Girls Lionesses
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734728
+END:VEVENT
+BEGIN:VEVENT
+UID:30734710@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734710
+END:VEVENT
+BEGIN:VEVENT
+UID:30734746@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tigers Girls White v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734746
+END:VEVENT
+BEGIN:VEVENT
+UID:30734751@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tendring Borough Tornadoes v Hawkwell Athletic Ladies Hawks
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734751
+END:VEVENT
+BEGIN:VEVENT
+UID:30734759@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Weeley v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734759
+END:VEVENT
+BEGIN:VEVENT
+UID:30734763@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tendring Borough Tornadoes v Runwell Sports Pink
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734763
+END:VEVENT
+BEGIN:VEVENT
+UID:30734772@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Southend Manor Purples v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Southchurch Park\, Shaftesbury Avenue\, Southend-On-Sea SS1 2YN
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734772
+END:VEVENT
+BEGIN:VEVENT
+UID:30734778@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Perry Street Girls Lynx v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734778
+END:VEVENT
+BEGIN:VEVENT
+UID:30734784@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tendring Borough Tornadoes v Chigwell Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734784
+END:VEVENT
+BEGIN:VEVENT
+UID:30734789@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Top Tekkers Girls v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734789
+END:VEVENT
+BEGIN:VEVENT
+UID:30734795@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tendring Borough Tornadoes v Byron Red Star Girls Jaguars
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734795
+END:VEVENT
+BEGIN:VEVENT
+UID:30734798@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734798
+END:VEVENT
+BEGIN:VEVENT
+UID:30734739@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tendring Borough Tornadoes v Tigers Girls White
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734739
+END:VEVENT
+END:VCALENDAR

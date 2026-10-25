@@ -1,0 +1,156 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tigers Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30731970@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Tigers Girls v Concord Rangers Girls Yellows
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731970
+END:VEVENT
+BEGIN:VEVENT
+UID:30731974@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Cornard Dynamos Youth F.C. Girls v Tigers Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Blackhouse Lane Recreation Ground\, Recreation Ground Blackhouse 
+ Lane\, Great Cornard\, Suffolk CO10 0NL
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731974
+END:VEVENT
+BEGIN:VEVENT
+UID:30731984@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Easton A Girls v Tigers Girls
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731984
+END:VEVENT
+BEGIN:VEVENT
+UID:30732028@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Concord Rangers Girls Yellows v Tigers Girls
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732028
+END:VEVENT
+BEGIN:VEVENT
+UID:30732034@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Tigers Girls v Cornard Dynamos Youth F.C. Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732034
+END:VEVENT
+BEGIN:VEVENT
+UID:30731999@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Tigers Girls v Oyster Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731999
+END:VEVENT
+BEGIN:VEVENT
+UID:30732006@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Springfield Girls v Tigers Girls
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Springfield Hall Park\, Springfield Hall Park\, Car Park Arun Clo
+ se\, Chelmsford\, Essex CM1 7QE
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732006
+END:VEVENT
+BEGIN:VEVENT
+UID:30732021@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Walthamstow EGCL v Tigers Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Low Hall Sports Ground\, South Access Road\, London E17 8AX
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732021
+END:VEVENT
+BEGIN:VEVENT
+UID:30731989@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Tigers Girls v Great Bradfords Girls Sapphires
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731989
+END:VEVENT
+BEGIN:VEVENT
+UID:30731979@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Tigers Girls v Easton A Girls
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30731979
+END:VEVENT
+BEGIN:VEVENT
+UID:31066792@touchline-girls-u18
+DTSTAMP:20261025T180610Z
+SUMMARY:Tigers Girls v Springfield Girls (Essex U18 Girls Cup)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:Essex U18 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31066792
+END:VEVENT
+END:VCALENDAR

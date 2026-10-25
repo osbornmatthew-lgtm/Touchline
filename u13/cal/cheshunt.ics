@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31001869@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Ilford v Cheshunt
 DTSTART;TZID=Europe/London:20261101T140000
 DTEND;TZID=Europe/London:20261101T154000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31001869
 END:VEVENT
 BEGIN:VEVENT
 UID:31035311@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Cheshunt v Ryan
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -49,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31035311
 END:VEVENT
 BEGIN:VEVENT
 UID:31067251@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Hertford Heath v Cheshunt
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -58,15 +58,15 @@ DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067251
 END:VEVENT
 BEGIN:VEVENT
-UID:30221195@touchline-eja-u13
-DTSTAMP:20261024T131635Z
-SUMMARY:Hackney Downs All Stars v Cheshunt (London Under 13 Boys Sunday Cu
- p (9v9))
-DTSTART;TZID=Europe/London:20261025T100000
-DTEND;TZID=Europe/London:20261025T114000
-LOCATION:Hackney Marshes (North Marsh) - E5 0dh
-DESCRIPTION:London Under 13 Boys Sunday Cup (9v9). Check FA Full-Time for 
- late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30221195
+UID:31103291@touchline-eja-u13
+DTSTAMP:20261025T180127Z
+SUMMARY:Cheshunt v Takeley (League Cup)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
+ ross\, Hertfordshire EN8 8RU
+DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
+ e for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31103291
 END:VEVENT
 END:VCALENDAR

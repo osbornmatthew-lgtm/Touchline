@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Galleywood Girls Magpies (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735368@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Galleywood Girls Magpies v Lawford Junior Girls Lionesses
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+DESCRIPTION:U16 B league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735368
+END:VEVENT
+BEGIN:VEVENT
+UID:30735373@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Blue v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735373
+END:VEVENT
+BEGIN:VEVENT
+UID:30735376@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Galleywood Girls Magpies v Thundersley Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735376
+END:VEVENT
+BEGIN:VEVENT
+UID:30735382@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Galleywood Girls Magpies v Trinity Girls Lionesses
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735382
+END:VEVENT
+BEGIN:VEVENT
+UID:30735385@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Torquespeed Girls Lionesses v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Leisure World Tiptree\, Maypole Road\, Tiptree\, Colchester\, Ess
+ ex CO5 0EW
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735385
+END:VEVENT
+BEGIN:VEVENT
+UID:30735389@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Galleywood Girls Magpies v FC Redwing Girls Buzzards
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735389
+END:VEVENT
+BEGIN:VEVENT
+UID:30735392@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Romford Town Flyers Women v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735392
+END:VEVENT
+BEGIN:VEVENT
+UID:30735346@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735346
+END:VEVENT
+BEGIN:VEVENT
+UID:30735365@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Lawford Junior Girls Lionesses v Galleywood Girls Magpies
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:School Lane Playing Fields\, School Lane\, Lawford\, Essex CO11 2
+ HZ
+DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735365
+END:VEVENT
+END:VCALENDAR

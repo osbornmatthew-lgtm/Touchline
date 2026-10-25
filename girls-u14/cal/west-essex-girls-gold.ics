@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:West Essex Girls Gold (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734571@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:East Thurrock Community Ravens v West Essex Girls Gold
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Wyldecrest Sports Country Club\, Herd Lane\, Corringham\, Stanfor
+ d-Le-Hope SS17 9BJ
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734571
+END:VEVENT
+BEGIN:VEVENT
+UID:30734585@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Elite Colts Girls v West Essex Girls Gold
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Westlands Playing Field 2\, Pavilion London Road\, Romford RM7 9N
+ U
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734585
+END:VEVENT
+BEGIN:VEVENT
+UID:30734557@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Bowers & Pitsea Girls Under 14 v West Essex Girls Gold
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
+ ex SS16 5BA
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734557
+END:VEVENT
+BEGIN:VEVENT
+UID:30734597@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v South Woodham Ferrers United Women H
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734597
+END:VEVENT
+BEGIN:VEVENT
+UID:30734599@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Lawford Junior Girls Lionesses v West Essex Girls Gold
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:School Lane Playing Fields\, School Lane\, Lawford\, Essex CO11 2
+ HZ
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734599
+END:VEVENT
+BEGIN:VEVENT
+UID:30734608@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v Ridgeway Rovers Girls Lionesses
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734608
+END:VEVENT
+BEGIN:VEVENT
+UID:30734613@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Great Bradfords Girls Amethyst v West Essex Girls Gold
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734613
+END:VEVENT
+BEGIN:VEVENT
+UID:30734619@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v Epping Town Cobras
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734619
+END:VEVENT
+BEGIN:VEVENT
+UID:30734622@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Beacon Hill Rovers Girls v West Essex Girls Gold
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734622
+END:VEVENT
+BEGIN:VEVENT
+UID:30734630@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v Bowers & Pitsea Girls Under 14
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734630
+END:VEVENT
+BEGIN:VEVENT
+UID:30734636@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brandon Groves Emeralds v West Essex Girls Gold
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:South Ockendon Recreation Ground\, South Ockendon Recreation Grou
+ nd\, Sports Pavillion Cliff Place\, South Ockendon RM15 6QR
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734636
+END:VEVENT
+BEGIN:VEVENT
+UID:30734641@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v East Thurrock Community Ravens
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734641
+END:VEVENT
+BEGIN:VEVENT
+UID:30734652@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v Elite Colts Girls
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734652
+END:VEVENT
+BEGIN:VEVENT
+UID:30734586@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:South Woodham Ferrers United Women H v West Essex Girls Gold
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734586
+END:VEVENT
+BEGIN:VEVENT
+UID:30734552@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v Beacon Hill Rovers Girls
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734552
+END:VEVENT
+BEGIN:VEVENT
+UID:30734563@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:West Essex Girls Gold v Brandon Groves Emeralds
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734563
+END:VEVENT
+END:VCALENDAR

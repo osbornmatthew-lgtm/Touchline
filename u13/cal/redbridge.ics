@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31001870@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Ryan v Redbridge
 DTSTART;TZID=Europe/London:20261101T094500
 DTEND;TZID=Europe/London:20261101T112500
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31001870
 END:VEVENT
 BEGIN:VEVENT
 UID:31035315@touchline-eja-u13
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180127Z
 SUMMARY:Redbridge v Ilford
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -44,14 +44,13 @@ DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035315
 END:VEVENT
 BEGIN:VEVENT
-UID:30221196@touchline-eja-u13
-DTSTAMP:20261024T131635Z
-SUMMARY:Redbridge v Wickford Wolves (London Under 13 Boys Sunday Cup (9v9)
- )
-DTSTART;TZID=Europe/London:20261025T094500
-DTEND;TZID=Europe/London:20261025T112500
-DESCRIPTION:London Under 13 Boys Sunday Cup (9v9). Check FA Full-Time for 
- late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30221196
+UID:31105204@touchline-eja-u13
+DTSTAMP:20261025T180127Z
+SUMMARY:Hornchurch v Redbridge
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31105204
 END:VEVENT
 END:VCALENDAR

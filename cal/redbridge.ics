@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030374@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Ryan v Redbridge
 DTSTART;TZID=Europe/London:20261101T133000
 DTEND;TZID=Europe/London:20261101T151000
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030374
 END:VEVENT
 BEGIN:VEVENT
 UID:30988117@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Barking v Redbridge
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -44,19 +44,18 @@ DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988117
 END:VEVENT
 BEGIN:VEVENT
-UID:30931186@touchline-eja
-DTSTAMP:20261024T131635Z
-SUMMARY:Redbridge v London Lions (League Cup)
-DTSTART;TZID=Europe/London:20261025T111000
-DTEND;TZID=Europe/London:20261025T125000
-LOCATION:The TechSoc.com Stadium\, Station Road\, Barkingside\, Ilford IG6
-  1NB
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30931186
+UID:31100764@touchline-eja
+DTSTAMP:20261025T180058Z
+SUMMARY:Redbridge v Ilford
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31100764
 END:VEVENT
 BEGIN:VEVENT
 UID:30986828@touchline-eja
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180058Z
 SUMMARY:Redbridge v May & Baker Eastbrook (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261030T194500
 DTEND;TZID=Europe/London:20261030T212500

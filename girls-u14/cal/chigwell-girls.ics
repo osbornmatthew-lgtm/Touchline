@@ -1,0 +1,201 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chigwell Girls (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734723@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Top Tekkers Girls v Chigwell Girls
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734723
+END:VEVENT
+BEGIN:VEVENT
+UID:30734729@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Byron Red Star Girls Jaguars
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734729
+END:VEVENT
+BEGIN:VEVENT
+UID:30734732@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Broomfield Girls Lionesses v Chigwell Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734732
+END:VEVENT
+BEGIN:VEVENT
+UID:30734710@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Tendring Borough Tornadoes
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734710
+END:VEVENT
+BEGIN:VEVENT
+UID:30734752@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Tigers Girls White
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734752
+END:VEVENT
+BEGIN:VEVENT
+UID:30734758@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Hawkwell Athletic Ladies Hawks v Chigwell Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Apex Sports Ground\, Hawkwell FC Plumberow Mount Avenue\, Hockley
+ \, Essex SS5 5AU
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734758
+END:VEVENT
+BEGIN:VEVENT
+UID:30734764@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Weeley
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734764
+END:VEVENT
+BEGIN:VEVENT
+UID:30734776@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Southend Manor Purples
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734776
+END:VEVENT
+BEGIN:VEVENT
+UID:30734784@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tendring Borough Tornadoes v Chigwell Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Plough Corner Playing Fields\, Plough Corner Harwich Road\, Littl
+ e Clacton\, Clacton-On-Sea\, Essex CO16 9ND
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734784
+END:VEVENT
+BEGIN:VEVENT
+UID:30734790@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Perry Street Girls Lynx v Chigwell Girls
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734790
+END:VEVENT
+BEGIN:VEVENT
+UID:30734796@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Top Tekkers Girls
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734796
+END:VEVENT
+BEGIN:VEVENT
+UID:30734797@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Byron Red Star Girls Jaguars v Chigwell Girls
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Raphael Park\, Lake Rise\, Romford RM1 4EE
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734797
+END:VEVENT
+BEGIN:VEVENT
+UID:30734807@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Broomfield Girls Lionesses
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734807
+END:VEVENT
+BEGIN:VEVENT
+UID:30734705@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Southend Manor Purples v Chigwell Girls
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Southchurch Park\, Shaftesbury Avenue\, Southend-On-Sea SS1 2YN
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734705
+END:VEVENT
+BEGIN:VEVENT
+UID:30734718@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Chigwell Girls v Perry Street Girls Lynx
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Fairlop Oak Playing Field\, Fairlop Oak Playing Field Forest Road
+ \, Hainault\, Ilford IG6 3HJ
+DESCRIPTION:U14 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734718
+END:VEVENT
+END:VCALENDAR

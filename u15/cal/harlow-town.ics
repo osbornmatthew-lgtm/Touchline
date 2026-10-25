@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030008@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Haverhill Rovers EJA v Harlow Town
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -36,19 +36,19 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030008
 END:VEVENT
 BEGIN:VEVENT
 UID:31093061@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Springfield v Harlow Town
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-LOCATION:Chelmer Valley High School\, Court Road\, Broomfield\, Chelmsford
- \, Essex CM1 7ER
+LOCATION:Springfield Hall Park\, Springfield Hall Park\, Car Park Arun Clo
+ se\, Chelmsford\, Essex CM1 7QE
 DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093061
 END:VEVENT
 BEGIN:VEVENT
 UID:30617218@touchline-eja-u15
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180243Z
 SUMMARY:Little Oakley v Harlow Town (Essex Rosser U15 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

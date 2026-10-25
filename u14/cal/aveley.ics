@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30955184@touchline-eja-u14
-DTSTAMP:20261024T131635Z
-SUMMARY:Hullbridge Sports v Aveley
-DTSTART;TZID=Europe/London:20261025T140000
-DTEND;TZID=Europe/London:20261025T154000
-DESCRIPTION:U14 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30955184
-END:VEVENT
-BEGIN:VEVENT
 UID:31069732@touchline-eja-u14
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180213Z
 SUMMARY:Aveley v AFC Pegasus Colchester
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -45,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31069732
 END:VEVENT
 BEGIN:VEVENT
 UID:31067685@touchline-eja-u14
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180213Z
 SUMMARY:Brentwood Town v Aveley
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -56,8 +47,20 @@ DESCRIPTION:U14 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067685
 END:VEVENT
 BEGIN:VEVENT
+UID:31103355@touchline-eja-u14
+DTSTAMP:20261025T180213Z
+SUMMARY:Mildenhall Town v Aveley (League Cup)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Mildenhall Hub\, Mildenhall Hub\, Mildenhall Leisure Centre Sheld
+ rick Way\, Mildenhall\, Suffolk IP28 7JX
+DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
+ e for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31103355
+END:VEVENT
+BEGIN:VEVENT
 UID:30983068@touchline-eja-u14
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180213Z
 SUMMARY:Grays Athletic v Aveley (Peter Cline Trophy)
 DTSTART;TZID=Europe/London:20261031T193000
 DTEND;TZID=Europe/London:20261031T211000
@@ -68,7 +71,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30983068
 END:VEVENT
 BEGIN:VEVENT
 UID:31001373@touchline-eja-u14
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180213Z
 SUMMARY:Aveley v Frenford (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -80,7 +83,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31001373
 END:VEVENT
 BEGIN:VEVENT
 UID:31001210@touchline-eja-u14
-DTSTAMP:20261024T131635Z
+DTSTAMP:20261025T180213Z
 SUMMARY:Intersports v Aveley (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109

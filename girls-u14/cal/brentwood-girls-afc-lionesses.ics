@@ -1,0 +1,233 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brentwood Girls AFC Lionesses (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734303@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v Tigers Girls Red
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734303
+END:VEVENT
+BEGIN:VEVENT
+UID:30734310@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v South Woodham Ferrers United Women
+  P
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734310
+END:VEVENT
+BEGIN:VEVENT
+UID:30734291@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v Billericay Town Girls Blue
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734291
+END:VEVENT
+BEGIN:VEVENT
+UID:30734324@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:AFC Leyton s v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734324
+END:VEVENT
+BEGIN:VEVENT
+UID:30734258@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v Perry Street Girls Panthers
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734258
+END:VEVENT
+BEGIN:VEVENT
+UID:30734337@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Thundersley Rovers Girls Lionesses v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Harris Academy Benfleet\, Croft Road\, Benfleet\, Essex SS7 5RN
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734337
+END:VEVENT
+BEGIN:VEVENT
+UID:30734345@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v Cheshunt Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734345
+END:VEVENT
+BEGIN:VEVENT
+UID:30734357@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v Hashtag United Girls Blue
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734357
+END:VEVENT
+BEGIN:VEVENT
+UID:30734363@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Billericay Town Girls Blue v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734363
+END:VEVENT
+BEGIN:VEVENT
+UID:30734369@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v Perry Street Girls Jaguars
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734369
+END:VEVENT
+BEGIN:VEVENT
+UID:30734376@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Tigers Girls Red v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734376
+END:VEVENT
+BEGIN:VEVENT
+UID:30734382@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:South Woodham Ferrers United Women P v Brentwood Girls AFC Lioness
+ es
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
+ CM3 5GU
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734382
+END:VEVENT
+BEGIN:VEVENT
+UID:30734388@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v Stanway Rovers Girls Phoenix
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734388
+END:VEVENT
+BEGIN:VEVENT
+UID:30734321@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v AFC Leyton s
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734321
+END:VEVENT
+BEGIN:VEVENT
+UID:30734297@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Perry Street Girls Jaguars v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734297
+END:VEVENT
+BEGIN:VEVENT
+UID:30734284@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Hashtag United Girls Blue v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734284
+END:VEVENT
+BEGIN:VEVENT
+UID:30734350@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Finesse Sport Finesse Sport United F v Brentwood Girls AFC Lioness
+ es
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:London Marathon Playing Field Redbridge\, Forest Road\, Ilford IG
+ 6 3HJ
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734350
+END:VEVENT
+BEGIN:VEVENT
+UID:30734311@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Stanway Rovers Girls Phoenix v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734311
+END:VEVENT
+BEGIN:VEVENT
+UID:31033971@touchline-girls-u14
+DTSTAMP:20261025T180434Z
+SUMMARY:Brentwood Girls AFC Lionesses v Perry Street Girls Panthers (Essex
+  U14 Girls Cup)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Larkins Playing Fields\, Larkins Field\, The Pavilion Ongar Road\
+ , Pilgrims Hatch\, Essex CM15 9JB
+DESCRIPTION:Essex U14 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31033971
+END:VEVENT
+END:VCALENDAR

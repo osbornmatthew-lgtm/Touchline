@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Great Bradfords Girls Diamonds (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30735439@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Great Bradfords Girls Diamonds v Leigh Ramblers Girls Black
+DTSTART;TZID=Europe/London:20261101T120000
+DTEND;TZID=Europe/London:20261101T134000
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735439
+END:VEVENT
+BEGIN:VEVENT
+UID:30735441@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:St Clere's Girls v Great Bradfords Girls Diamonds
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735441
+END:VEVENT
+BEGIN:VEVENT
+UID:30735446@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Great Bradfords Girls Diamonds v St Clere's Girls
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735446
+END:VEVENT
+BEGIN:VEVENT
+UID:30735456@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Bowers & Pitsea Girls Lionesses v Great Bradfords Girls Diamonds
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
+ ex SS16 5BA
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735456
+END:VEVENT
+BEGIN:VEVENT
+UID:30735460@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Great Bradfords Girls Diamonds v Broomfield Girls
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735460
+END:VEVENT
+BEGIN:VEVENT
+UID:30735466@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Colchester City Ladies v Great Bradfords Girls Diamonds
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
+ elds Cage Lane\, Boxted\, Essex CO4 5SQ
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735466
+END:VEVENT
+BEGIN:VEVENT
+UID:30735475@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Great Bradfords Girls Diamonds v Valley Green Girls Valkyries
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735475
+END:VEVENT
+BEGIN:VEVENT
+UID:30735476@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v Great Bradfords Girls Diamonds
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735476
+END:VEVENT
+BEGIN:VEVENT
+UID:30735424@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Great Bradfords Girls Diamonds v Colchester City Ladies
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735424
+END:VEVENT
+BEGIN:VEVENT
+UID:30735432@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Valley Green Girls Valkyries v Great Bradfords Girls Diamonds
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+LOCATION:Rickstones Sports Ground\, Dorothy Sayers Drive\, Witham\, Essex 
+ CM8 2LX
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735432
+END:VEVENT
+BEGIN:VEVENT
+UID:30735415@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:West Essex Girls v Great Bradfords Girls Diamonds
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735415
+END:VEVENT
+BEGIN:VEVENT
+UID:30735453@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Great Bradfords Girls Diamonds v West Essex Girls
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735453
+END:VEVENT
+BEGIN:VEVENT
+UID:31033962@touchline-girls-u16
+DTSTAMP:20261025T180546Z
+SUMMARY:Leigh Ramblers Girls Black v Great Bradfords Girls Diamonds (Essex
+  U16 Girls Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Belfairs Park Golf Course\, Eastwood Road North\, Leigh-On-Sea SS
+ 9 4LR
+DESCRIPTION:Essex U16 Girls Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31033962
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Touchline ECGL//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Academy Soccer Girls White (Touchline)
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:30734943@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Tigers Girls Yellow v Academy Soccer Girls White
+DTSTART;TZID=Europe/London:20261101T113000
+DTEND;TZID=Europe/London:20261101T131000
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U15 B league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734943
+END:VEVENT
+BEGIN:VEVENT
+UID:30734949@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Academy Soccer Girls White v Epping Town Lionesses
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734949
+END:VEVENT
+BEGIN:VEVENT
+UID:30734954@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Epping Town Lionesses v Academy Soccer Girls White
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734954
+END:VEVENT
+BEGIN:VEVENT
+UID:30734909@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Leigh Lionesses Courage v Academy Soccer Girls White
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734909
+END:VEVENT
+BEGIN:VEVENT
+UID:30734965@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Stanway Rovers Girls Flares v Academy Soccer Girls White
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Spring Lane Playing Field\, Spring Lane\, Colchester\, Essex CO3 
+ 4AR
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734965
+END:VEVENT
+BEGIN:VEVENT
+UID:30734969@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Academy Soccer Girls White v Holland Girls
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734969
+END:VEVENT
+BEGIN:VEVENT
+UID:30734976@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Island Panthers v Academy Soccer Girls White
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Smallgains Recreation Ground 2\, Island Boys Pavilion Creek Road\
+ , Canvey Island\, Essex SS8 8QP
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734976
+END:VEVENT
+BEGIN:VEVENT
+UID:30734981@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:AFC Pegasus Colchester Girls v Academy Soccer Girls White
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Shrub End Community and Sports Centre\, Shrub End Community and S
+ ports Centre Boadicea Way\, Colchester\, Essex CO2 9BG
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734981
+END:VEVENT
+BEGIN:VEVENT
+UID:30734986@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Academy Soccer Girls White v Hashtag United Girls Blue
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734986
+END:VEVENT
+BEGIN:VEVENT
+UID:30734987@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Finesse Sport Finesse Sport United F v Academy Soccer Girls White
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:London Marathon Playing Field Redbridge\, Forest Road\, Ilford IG
+ 6 3HJ
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734987
+END:VEVENT
+BEGIN:VEVENT
+UID:30734995@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Academy Soccer Girls White v Tigers Girls Yellow
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734995
+END:VEVENT
+BEGIN:VEVENT
+UID:30734914@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Academy Soccer Girls White v Stanway Rovers Girls Flares
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734914
+END:VEVENT
+BEGIN:VEVENT
+UID:30734931@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Academy Soccer Girls White v AFC Pegasus Colchester Girls
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734931
+END:VEVENT
+BEGIN:VEVENT
+UID:30734940@touchline-girls-u15
+DTSTAMP:20261025T180511Z
+SUMMARY:Academy Soccer Girls White v Finesse Sport Finesse Sport United F
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734940
+END:VEVENT
+END:VCALENDAR
