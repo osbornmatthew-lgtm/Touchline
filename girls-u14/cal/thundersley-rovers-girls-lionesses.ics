@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30734302@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Finesse Sport Finesse Sport U
  nited F
 DTSTART;VALUE=DATE:20261101
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734302
 END:VEVENT
 BEGIN:VEVENT
 UID:30734306@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Hashtag United Girls Blue v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734306
 END:VEVENT
 BEGIN:VEVENT
 UID:30734292@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:South Woodham Ferrers United Women P v Thundersley Rovers Girls Li
  onesses
 DTSTART;VALUE=DATE:20261122
@@ -61,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734292
 END:VEVENT
 BEGIN:VEVENT
 UID:30734332@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Tigers Girls Red v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -73,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734332
 END:VEVENT
 BEGIN:VEVENT
 UID:30734337@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -84,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734337
 END:VEVENT
 BEGIN:VEVENT
 UID:30734348@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Thundersley Rovers Girls Lionesses v AFC Leyton s
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -95,7 +95,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734348
 END:VEVENT
 BEGIN:VEVENT
 UID:30734355@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Perry Street Girls Panthers v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -105,7 +105,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734355
 END:VEVENT
 BEGIN:VEVENT
 UID:30734359@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Thundersley Rovers Girls Lionesses v South Woodham Ferrers United 
  Women P
 DTSTART;VALUE=DATE:20270124
@@ -117,7 +117,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734359
 END:VEVENT
 BEGIN:VEVENT
 UID:30734368@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Cheshunt Girls
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -128,7 +128,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734368
 END:VEVENT
 BEGIN:VEVENT
 UID:30734372@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Finesse Sport Finesse Sport United F v Thundersley Rovers Girls Li
  onesses
 DTSTART;VALUE=DATE:20270207
@@ -141,7 +141,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734372
 END:VEVENT
 BEGIN:VEVENT
 UID:30734380@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Hashtag United Girls Blue
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -152,7 +152,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734380
 END:VEVENT
 BEGIN:VEVENT
 UID:30734385@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Billericay Town Girls Blue v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -162,7 +162,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734385
 END:VEVENT
 BEGIN:VEVENT
 UID:30734319@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Perry Street Girls Jaguars v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -172,7 +172,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734319
 END:VEVENT
 BEGIN:VEVENT
 UID:30734341@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Stanway Rovers Girls Phoenix v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -184,7 +184,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734341
 END:VEVENT
 BEGIN:VEVENT
 UID:30734314@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Billericay Town Girls Blue
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
@@ -195,7 +195,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734314
 END:VEVENT
 BEGIN:VEVENT
 UID:30734326@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
@@ -206,7 +206,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734326
 END:VEVENT
 BEGIN:VEVENT
 UID:31067549@touchline-girls-u14
-DTSTAMP:20261025T192311Z
+DTSTAMP:20261025T193305Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Brandon Groves Emeralds (Esse
  x U14 Girls Cup)
 DTSTART;VALUE=DATE:20261115
