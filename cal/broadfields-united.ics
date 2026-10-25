@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988114@touchline-eja
-DTSTAMP:20261025T180058Z
-SUMMARY:Broadfields United v Edgware & Kingsbury
-DTSTART;TZID=Europe/London:20261025T140000
-DTEND;TZID=Europe/London:20261025T154000
-LOCATION:Tithe Farm Sports and Social Club\, 151 Rayners Lane\, Harrow HA2
-  0XH
-DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988114
-END:VEVENT
-BEGIN:VEVENT
 UID:31030361@touchline-eja
-DTSTAMP:20261025T180058Z
+DTSTAMP:20261025T181048Z
 SUMMARY:Norsemen v Broadfields United
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -47,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030361
 END:VEVENT
 BEGIN:VEVENT
 UID:31100733@touchline-eja
-DTSTAMP:20261025T180058Z
+DTSTAMP:20261025T181048Z
 SUMMARY:Broadfields United v Cheshunt
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -59,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31100733
 END:VEVENT
 BEGIN:VEVENT
 UID:31070325@touchline-eja
-DTSTAMP:20261025T180058Z
+DTSTAMP:20261025T181048Z
 SUMMARY:Broadfields United v Whetstone Wanderers (Middlesex FA Under-16 Cu
  p)
 DTSTART;TZID=Europe/London:20261108T103000
