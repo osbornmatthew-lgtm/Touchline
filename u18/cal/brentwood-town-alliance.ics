@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093281@touchline-eja-u18
-DTSTAMP:20261025T180308Z
+DTSTAMP:20261025T184230Z
 SUMMARY:Bowers & Pitsea v Brentwood Town Alliance
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Ford Sports and Social Club (Basildon)\, Gardiners Close\, Basild
- on\, Essex SS14 3AN
-DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DTSTART;TZID=Europe/London:20261108T121500
+DTEND;TZID=Europe/London:20261108T135500
+LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
+ \, Basildon\, Essex SS13 2BE
+DESCRIPTION:U18 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093281
 END:VEVENT
 BEGIN:VEVENT
 UID:31093556@touchline-eja-u18
-DTSTAMP:20261025T180308Z
+DTSTAMP:20261025T184230Z
 SUMMARY:Brentwood Town Alliance v Heybridge Swifts U17 Red
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
