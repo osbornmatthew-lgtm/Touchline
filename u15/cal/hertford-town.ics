@@ -26,17 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31029968@touchline-eja-u15
-DTSTAMP:20261025T192205Z
+DTSTAMP:20261025T200205Z
 SUMMARY:Cockfosters v Hertford Town
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+LOCATION:Apg Park\, Yaxley Football Club Leading Drove\, Yaxley\, Cambridg
+ eshire PE7 3NA
+DESCRIPTION:U15 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31029968
 END:VEVENT
 BEGIN:VEVENT
 UID:31099901@touchline-eja-u15
-DTSTAMP:20261025T192205Z
+DTSTAMP:20261025T200205Z
 SUMMARY:Hertford Heath v Hertford Town
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -46,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31099901
 END:VEVENT
 BEGIN:VEVENT
 UID:30966807@touchline-eja-u15
-DTSTAMP:20261025T192205Z
+DTSTAMP:20261025T200205Z
 SUMMARY:Hertford Town v Colney Heath (Hertfordshire FA U15 Boys Challenge 
  Cup)
 DTSTART;TZID=Europe/London:20261122T133000
