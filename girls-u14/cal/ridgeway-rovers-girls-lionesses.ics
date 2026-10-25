@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30734568@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Beacon Hill Rovers Girls v Ridgeway Rovers Girls Lionesses
 DTSTART;TZID=Europe/London:20261101T121500
 DTEND;TZID=Europe/London:20261101T135500
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734568
 END:VEVENT
 BEGIN:VEVENT
 UID:30734577@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Bowers & Pitsea Girls Under 14
 DTSTART;TZID=Europe/London:20261108T100000
 DTEND;TZID=Europe/London:20261108T114000
@@ -45,7 +45,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734577
 END:VEVENT
 BEGIN:VEVENT
 UID:30734647@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Bowers & Pitsea Girls Under 14 v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -57,7 +57,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734647
 END:VEVENT
 BEGIN:VEVENT
 UID:30734559@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Great Bradfords Girls Amethyst v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -69,7 +69,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734559
 END:VEVENT
 BEGIN:VEVENT
 UID:30734595@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:East Thurrock Community Ravens v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -81,7 +81,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734595
 END:VEVENT
 BEGIN:VEVENT
 UID:30734608@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:West Essex Girls Gold v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -92,7 +92,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734608
 END:VEVENT
 BEGIN:VEVENT
 UID:30734612@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v South Woodham Ferrers United Wom
  en H
 DTSTART;VALUE=DATE:20270103
@@ -103,7 +103,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734612
 END:VEVENT
 BEGIN:VEVENT
 UID:30734621@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Lawford Junior Girls Lionesses v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -115,7 +115,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734621
 END:VEVENT
 BEGIN:VEVENT
 UID:30734627@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Elite Colts Girls v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -127,7 +127,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734627
 END:VEVENT
 BEGIN:VEVENT
 UID:30734633@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Great Bradfords Girls Amethyst
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -137,7 +137,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734633
 END:VEVENT
 BEGIN:VEVENT
 UID:30734638@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Epping Town Cobras v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -147,7 +147,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734638
 END:VEVENT
 BEGIN:VEVENT
 UID:30734582@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Brandon Groves Emeralds v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -159,7 +159,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734582
 END:VEVENT
 BEGIN:VEVENT
 UID:30734644@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Beacon Hill Rovers Girls
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -170,7 +170,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734644
 END:VEVENT
 BEGIN:VEVENT
 UID:30734655@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Brandon Groves Emeralds
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -180,7 +180,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734655
 END:VEVENT
 BEGIN:VEVENT
 UID:30734588@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v East Thurrock Community Ravens
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -190,7 +190,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734588
 END:VEVENT
 BEGIN:VEVENT
 UID:30734566@touchline-girls-u14
-DTSTAMP:20261025T205309Z
+DTSTAMP:20261025T210308Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Epping Town Cobras
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
