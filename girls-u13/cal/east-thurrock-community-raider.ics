@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30773923@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:South Woodham Ferrers United Women R v East Thurrock Community Rai
  der
 DTSTART;VALUE=DATE:20261101
@@ -39,7 +39,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773923
 END:VEVENT
 BEGIN:VEVENT
 UID:30773928@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:East Thurrock Community Raider v Southend Wanderers Swifts
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -51,7 +51,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773928
 END:VEVENT
 BEGIN:VEVENT
 UID:30773936@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:Thundersley Rovers Girls Tigresses v East Thurrock Community Raide
  r
 DTSTART;VALUE=DATE:20261115
@@ -63,7 +63,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773936
 END:VEVENT
 BEGIN:VEVENT
 UID:30773940@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:East Thurrock Community Raider v Tigers Girls Stripes
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -75,7 +75,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773940
 END:VEVENT
 BEGIN:VEVENT
 UID:30773949@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:Wickford Town Girls Purple v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -87,7 +87,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773949
 END:VEVENT
 BEGIN:VEVENT
 UID:30773951@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:Brentwood Girls AFC Lionesses v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -99,7 +99,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773951
 END:VEVENT
 BEGIN:VEVENT
 UID:30773957@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:East Thurrock Community Raider v Witham Town Belles
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -111,7 +111,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773957
 END:VEVENT
 BEGIN:VEVENT
 UID:30773964@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:East Thurrock Community Raider v Galleywood Girls Magpies
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -123,7 +123,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773964
 END:VEVENT
 BEGIN:VEVENT
 UID:30773970@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:Leigh Lionesses Girls Courage v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -134,7 +134,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773970
 END:VEVENT
 BEGIN:VEVENT
 UID:30773976@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:East Thurrock Community Raider v Loughton Town Purples
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -146,7 +146,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773976
 END:VEVENT
 BEGIN:VEVENT
 UID:30773983@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -157,7 +157,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773983
 END:VEVENT
 BEGIN:VEVENT
 UID:30773988@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:East Thurrock Community Raider v South Woodham Ferrers United Wome
  n R
 DTSTART;VALUE=DATE:20270131
@@ -170,7 +170,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773988
 END:VEVENT
 BEGIN:VEVENT
 UID:30773996@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:Southend Wanderers Swifts v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -182,7 +182,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773996
 END:VEVENT
 BEGIN:VEVENT
 UID:30774000@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:East Thurrock Community Raider v Thundersley Rovers Girls Tigresse
  s
 DTSTART;VALUE=DATE:20270214
@@ -195,7 +195,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774000
 END:VEVENT
 BEGIN:VEVENT
 UID:30774009@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:Tigers Girls Stripes v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -207,7 +207,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774009
 END:VEVENT
 BEGIN:VEVENT
 UID:30774012@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:East Thurrock Community Raider v Wickford Town Girls Purple
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -219,7 +219,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774012
 END:VEVENT
 BEGIN:VEVENT
 UID:30773910@touchline-girls-u13
-DTSTAMP:20261025T184251Z
+DTSTAMP:20261025T185250Z
 SUMMARY:Loughton Town Purples v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
