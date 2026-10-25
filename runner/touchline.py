@@ -57,6 +57,9 @@ class Blocked(Exception):
 def load_config():
     cfg = json.loads((ROOT / 'config' / 'leagues.json').read_text(encoding='utf-8'))
     ids, folders = set(), set()
+    # Leagues for Under 12s and below are dropped on their own, so one bad entry never stops every other league updating.
+    cfg['refused'] = [L['id'] for L in cfg['leagues'] if (m := re.match(r'U(\d+)$', str(L.get('age', '')))) and int(m.group(1)) <= 12]
+    cfg['leagues'] = [L for L in cfg['leagues'] if L['id'] not in cfg['refused']]
     for L in cfg['leagues']:
         for k in ('id', 'code', 'folder', 'age', 'season', 'divisions', 'cups', 'desc', 'template', 'keep_side'):
             if k not in L:
@@ -67,8 +70,6 @@ def load_config():
         m = re.match(r'U(\d+)$', L['age'])
         if not m:
             raise SystemExit(f'config: {L["id"]} age should look like U16')
-        if int(m.group(1)) <= 12:
-            raise SystemExit(f'config: {L["id"]} is {L["age"]}. Touchline does not publish tables for Under 12s and below.')
         if L['template'] == 'brand' and 'brand' not in L:
             raise SystemExit(f'config: {L["id"]} needs a "brand" block (colours and labels)')
         if not L['divisions']:
@@ -615,6 +616,8 @@ def run(a):
     status = {'updated': now.isoformat(timespec='seconds'), 'host': socket.gethostname(), 'mode': mode,
               'version': git('rev-parse', '--short', 'HEAD', check=False), 'ok': True, 'leagues': dict(prev_lg)}
     log(f'Touchline run, {mode}, leagues: {", ".join(L["id"] for L in leagues)}')
+    if cfg.get('refused'):
+        log(f'skipped (Under 12s and below are never published): {", ".join(cfg["refused"])}')
 
     work = Path(tempfile.mkdtemp(prefix='touchline-'))
     to_publish, data_files, blocked = [], [], None
