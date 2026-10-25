@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31030351@touchline-eja
-DTSTAMP:20261025T185047Z
-SUMMARY:Aylsham v Bury Town
-DTSTART;TZID=Europe/London:20261101T140000
-DTEND;TZID=Europe/London:20261101T154000
-LOCATION:Youngs Park\, Youngs Park\, Aylsham Community Sports Ltd Woodgate
-  Way\, Aylsham\, Norfolk NR11 6FJ
-DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030351
-END:VEVENT
-BEGIN:VEVENT
 UID:30988030@touchline-eja
-DTSTAMP:20261025T185047Z
+DTSTAMP:20261025T191048Z
 SUMMARY:Wroxham v Aylsham
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -46,8 +35,20 @@ DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988030
 END:VEVENT
 BEGIN:VEVENT
+UID:30895287@touchline-eja
+DTSTAMP:20261025T191048Z
+SUMMARY:Aylsham v Concord Rangers (League Cup)
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+LOCATION:Youngs Park\, Youngs Park\, Aylsham Community Sports Ltd Woodgate
+  Way\, Aylsham\, Norfolk NR11 6FJ
+DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
+ e for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30895287
+END:VEVENT
+BEGIN:VEVENT
 UID:31065517@touchline-eja
-DTSTAMP:20261025T185047Z
+DTSTAMP:20261025T191048Z
 SUMMARY:Aylsham v Wymondham Town United (John Savage Cup)
 DTSTART;TZID=Europe/London:20261115T133000
 DTEND;TZID=Europe/London:20261115T151000
