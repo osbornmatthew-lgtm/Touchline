@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31002351@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Buckhurst Hill v May & Baker Eastbrook
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31002351
 END:VEVENT
 BEGIN:VEVENT
 UID:31067644@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:May & Baker Eastbrook v Frenford
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -49,8 +49,18 @@ DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067644
 END:VEVENT
 BEGIN:VEVENT
+UID:31107265@touchline-eja-u14
+DTSTAMP:20261026T075215Z
+SUMMARY:Redbridge v May & Baker Eastbrook
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107265
+END:VEVENT
+BEGIN:VEVENT
 UID:30999852@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:May & Baker Eastbrook v Wilvale Rangers (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109

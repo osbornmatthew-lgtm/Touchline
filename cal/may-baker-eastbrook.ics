@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030362@touchline-eja
-DTSTAMP:20261025T205047Z
+DTSTAMP:20261026T075103Z
 SUMMARY:Wingate & Finchley v May & Baker Eastbrook
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030362
 END:VEVENT
 BEGIN:VEVENT
 UID:31100730@touchline-eja
-DTSTAMP:20261025T205047Z
+DTSTAMP:20261026T075103Z
 SUMMARY:May & Baker Eastbrook v Cockfosters
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -49,12 +49,22 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31100730
 END:VEVENT
 BEGIN:VEVENT
 UID:30986828@touchline-eja
-DTSTAMP:20261025T205047Z
+DTSTAMP:20261026T075103Z
 SUMMARY:Redbridge v May & Baker Eastbrook (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261030T194500
 DTEND;TZID=Europe/London:20261030T212500
 LOCATION:Parsloes Park Bobby Moore Centre
 DESCRIPTION:RT Litho Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30986828
+END:VEVENT
+BEGIN:VEVENT
+UID:31067374@touchline-eja
+DTSTAMP:20261026T075103Z
+SUMMARY:Netherton United v May & Baker Eastbrook (Chairman's Cup)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31067374
 END:VEVENT
 END:VCALENDAR

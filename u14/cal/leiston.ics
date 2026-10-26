@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30955137@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Bury Town v Leiston
 DTSTART;TZID=Europe/London:20261101T103000
 DTEND;TZID=Europe/London:20261101T121000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30955137
 END:VEVENT
 BEGIN:VEVENT
 UID:31034960@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Leiston v Aylsham
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -46,13 +46,23 @@ DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31034960
 END:VEVENT
 BEGIN:VEVENT
-UID:31067499@touchline-eja-u14
-DTSTAMP:20261025T210140Z
-SUMMARY:Leiston v Fakenham Town
+UID:31107245@touchline-eja-u14
+DTSTAMP:20261026T075215Z
+SUMMARY:Leiston v Bury Town
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067499
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107245
+END:VEVENT
+BEGIN:VEVENT
+UID:31107248@touchline-eja-u14
+DTSTAMP:20261026T075215Z
+SUMMARY:Felixstowe & Walton United v Leiston
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107248
 END:VEVENT
 END:VCALENDAR

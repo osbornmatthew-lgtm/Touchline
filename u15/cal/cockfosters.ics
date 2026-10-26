@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31029968@touchline-eja-u15
-DTSTAMP:20261025T210208Z
+DTSTAMP:20261026T075249Z
 SUMMARY:Cockfosters v Hertford Town
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -37,17 +37,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31029968
 END:VEVENT
 BEGIN:VEVENT
 UID:30985425@touchline-eja-u15
-DTSTAMP:20261025T210208Z
+DTSTAMP:20261026T075249Z
 SUMMARY:BSC v Cockfosters
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261108T100000
+DTEND;TZID=Europe/London:20261108T114000
+LOCATION:Bishop's Stortford College\, Bishops Stortford College Maze Green
+  Road\, Bishops Stortford\, Hertfordshire CM23 2PJ
+DESCRIPTION:U15 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30985425
 END:VEVENT
 BEGIN:VEVENT
 UID:31099900@touchline-eja-u15
-DTSTAMP:20261025T210208Z
+DTSTAMP:20261026T075249Z
 SUMMARY:Cheshunt v Cockfosters
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -59,7 +60,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31099900
 END:VEVENT
 BEGIN:VEVENT
 UID:30362829@touchline-eja-u15
-DTSTAMP:20261025T210208Z
+DTSTAMP:20261026T075249Z
 SUMMARY:London Lions v Cockfosters (Norman Higgs Under 15 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261101T113000
 DTEND;TZID=Europe/London:20261101T131000

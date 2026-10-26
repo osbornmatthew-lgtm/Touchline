@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31002163@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Soham Town Rangers v Histon
 DTSTART;TZID=Europe/London:20261101T110000
 DTEND;TZID=Europe/London:20261101T124000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31002163
 END:VEVENT
 BEGIN:VEVENT
 UID:31035012@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:St Neots Town v Soham Town Rangers
 DTSTART;TZID=Europe/London:20261108T100000
 DTEND;TZID=Europe/London:20261108T114000
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31035012
 END:VEVENT
 BEGIN:VEVENT
 UID:31067509@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Soham Town Rangers v Mildenhall Town
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -58,11 +58,21 @@ DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067509
 END:VEVENT
 BEGIN:VEVENT
-UID:31103361@touchline-eja-u14
-DTSTAMP:20261025T210140Z
-SUMMARY:BSC v Soham Town Rangers (League Cup)
+UID:31107262@touchline-eja-u14
+DTSTAMP:20261026T075215Z
+SUMMARY:Newmarket Town v Soham Town Rangers
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
+DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107262
+END:VEVENT
+BEGIN:VEVENT
+UID:31103361@touchline-eja-u14
+DTSTAMP:20261026T075215Z
+SUMMARY:BSC v Soham Town Rangers (League Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
 LOCATION:Bishop's Stortford College\, Bishops Stortford College Maze Green
   Road\, Bishops Stortford\, Hertfordshire CM23 2PJ
 DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim

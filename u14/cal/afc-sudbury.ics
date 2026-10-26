@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31002160@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Haverhill Rovers EJA v AFC Sudbury
 DTSTART;TZID=Europe/London:20261101T110000
 DTEND;TZID=Europe/London:20261101T124000
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31002160
 END:VEVENT
 BEGIN:VEVENT
 UID:31035009@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:AFC Sudbury v Downham Town
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -45,18 +45,28 @@ DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035009
 END:VEVENT
 BEGIN:VEVENT
-UID:31067505@touchline-eja-u14
-DTSTAMP:20261025T210140Z
-SUMMARY:AFC Sudbury v Cambridge City
+UID:31107250@touchline-eja-u14
+DTSTAMP:20261026T075215Z
+SUMMARY:AFC Sudbury v Newmarket Town
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
  l-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067505
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107250
+END:VEVENT
+BEGIN:VEVENT
+UID:31107261@touchline-eja-u14
+DTSTAMP:20261026T075215Z
+SUMMARY:AFC Sudbury v Haverhill Rovers EJA
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107261
 END:VEVENT
 BEGIN:VEVENT
 UID:30950357@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Felixstowe & Walton United v AFC Sudbury (Peter Cline Trophy)
 DTSTART;TZID=Europe/London:20261028T190000
 DTEND;TZID=Europe/London:20261028T204000

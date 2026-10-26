@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30734572@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Epping Town Cobras v Great Bradfords Girls Amethyst
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734572
 END:VEVENT
 BEGIN:VEVENT
 UID:30734578@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v Beacon Hill Rovers Girls
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734578
 END:VEVENT
 BEGIN:VEVENT
 UID:30734559@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -60,7 +60,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734559
 END:VEVENT
 BEGIN:VEVENT
 UID:30734594@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Brandon Groves Emeralds v Great Bradfords Girls Amethyst
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -72,7 +72,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734594
 END:VEVENT
 BEGIN:VEVENT
 UID:30734601@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v East Thurrock Community Ravens
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -84,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734601
 END:VEVENT
 BEGIN:VEVENT
 UID:30734613@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v West Essex Girls Gold
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -96,7 +96,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734613
 END:VEVENT
 BEGIN:VEVENT
 UID:30734620@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:South Woodham Ferrers United Women H v Great Bradfords Girls Ameth
  yst
 DTSTART;VALUE=DATE:20270110
@@ -109,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734620
 END:VEVENT
 BEGIN:VEVENT
 UID:30734625@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v Lawford Junior Girls Lionesses
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -121,7 +121,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734625
 END:VEVENT
 BEGIN:VEVENT
 UID:30734633@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Great Bradfords Girls Amethyst
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -131,7 +131,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734633
 END:VEVENT
 BEGIN:VEVENT
 UID:30734639@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Elite Colts Girls v Great Bradfords Girls Amethyst
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -143,7 +143,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734639
 END:VEVENT
 BEGIN:VEVENT
 UID:30734645@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v Epping Town Cobras
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -155,7 +155,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734645
 END:VEVENT
 BEGIN:VEVENT
 UID:30734581@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Bowers & Pitsea Girls Under 14 v Great Bradfords Girls Amethyst
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -167,7 +167,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734581
 END:VEVENT
 BEGIN:VEVENT
 UID:30734656@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v Bowers & Pitsea Girls Under 14
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -179,7 +179,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734656
 END:VEVENT
 BEGIN:VEVENT
 UID:30734589@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v Brandon Groves Emeralds
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -191,7 +191,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734589
 END:VEVENT
 BEGIN:VEVENT
 UID:30734567@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v Elite Colts Girls
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -203,7 +203,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734567
 END:VEVENT
 BEGIN:VEVENT
 UID:30734646@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Beacon Hill Rovers Girls v Great Bradfords Girls Amethyst
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
@@ -213,7 +213,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734646
 END:VEVENT
 BEGIN:VEVENT
 UID:31066873@touchline-girls-u14
-DTSTAMP:20261025T210308Z
+DTSTAMP:20261026T075357Z
 SUMMARY:Great Bradfords Girls Amethyst v Stanway Rovers Girls Phoenix (Ess
  ex U14 Girls Cup)
 DTSTART;VALUE=DATE:20261115

@@ -26,27 +26,25 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030360@touchline-eja
-DTSTAMP:20261025T205047Z
+DTSTAMP:20261026T075103Z
 SUMMARY:Edgware & Kingsbury v London Lions
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030360
 END:VEVENT
 BEGIN:VEVENT
 UID:31093102@touchline-eja
-DTSTAMP:20261025T205047Z
+DTSTAMP:20261026T075103Z
 SUMMARY:Wormley Rovers v London Lions
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261108T100000
+DTEND;TZID=Europe/London:20261108T114000
+DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093102
 END:VEVENT
 BEGIN:VEVENT
 UID:31100731@touchline-eja
-DTSTAMP:20261025T205047Z
+DTSTAMP:20261026T075103Z
 SUMMARY:Wingate & Finchley v London Lions
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30773923@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:South Woodham Ferrers United Women R v East Thurrock Community Rai
  der
 DTSTART;VALUE=DATE:20261101
@@ -39,7 +39,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773923
 END:VEVENT
 BEGIN:VEVENT
 UID:30773929@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:Galleywood Girls Magpies v South Woodham Ferrers United Women R
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -49,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773929
 END:VEVENT
 BEGIN:VEVENT
 UID:30773934@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:South Woodham Ferrers United Women R v Leigh Lionesses Girls Coura
  ge
 DTSTART;VALUE=DATE:20261115
@@ -62,7 +62,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773934
 END:VEVENT
 BEGIN:VEVENT
 UID:30773943@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:Loughton Town Purples v South Woodham Ferrers United Women R
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -74,7 +74,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773943
 END:VEVENT
 BEGIN:VEVENT
 UID:30773945@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:South Woodham Ferrers United Women R v Ridgeway Rovers Girls Lione
  sses
 DTSTART;VALUE=DATE:20261129
@@ -87,7 +87,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773945
 END:VEVENT
 BEGIN:VEVENT
 UID:30773956@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:Witham Town Belles v South Woodham Ferrers United Women R
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -99,7 +99,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773956
 END:VEVENT
 BEGIN:VEVENT
 UID:30773962@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:South Woodham Ferrers United Women R v Southend Wanderers Swifts
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -111,7 +111,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773962
 END:VEVENT
 BEGIN:VEVENT
 UID:30773965@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:Thundersley Rovers Girls Tigresses v South Woodham Ferrers United 
  Women R
 DTSTART;VALUE=DATE:20270103
@@ -123,7 +123,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773965
 END:VEVENT
 BEGIN:VEVENT
 UID:30773973@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:South Woodham Ferrers United Women R v Tigers Girls Stripes
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -135,7 +135,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773973
 END:VEVENT
 BEGIN:VEVENT
 UID:30773979@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:Wickford Town Girls Purple v South Woodham Ferrers United Women R
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -147,7 +147,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773979
 END:VEVENT
 BEGIN:VEVENT
 UID:30773984@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:South Woodham Ferrers United Women R v Brentwood Girls AFC Lioness
  es
 DTSTART;VALUE=DATE:20270124
@@ -160,7 +160,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773984
 END:VEVENT
 BEGIN:VEVENT
 UID:30773988@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:East Thurrock Community Raider v South Woodham Ferrers United Wome
  n R
 DTSTART;VALUE=DATE:20270131
@@ -173,7 +173,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773988
 END:VEVENT
 BEGIN:VEVENT
 UID:30773995@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:South Woodham Ferrers United Women R v Galleywood Girls Magpies
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -185,7 +185,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773995
 END:VEVENT
 BEGIN:VEVENT
 UID:30774002@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:Leigh Lionesses Girls Courage v South Woodham Ferrers United Women
   R
 DTSTART;VALUE=DATE:20270214
@@ -197,7 +197,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774002
 END:VEVENT
 BEGIN:VEVENT
 UID:30774006@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:South Woodham Ferrers United Women R v Loughton Town Purples
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -209,7 +209,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774006
 END:VEVENT
 BEGIN:VEVENT
 UID:30774016@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v South Woodham Ferrers United Wom
  en R
 DTSTART;VALUE=DATE:20270228
@@ -221,7 +221,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774016
 END:VEVENT
 BEGIN:VEVENT
 UID:30773912@touchline-girls-u13
-DTSTAMP:20261025T210251Z
+DTSTAMP:20261026T075340Z
 SUMMARY:South Woodham Ferrers United Women R v Wickford Town Girls Purple
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308

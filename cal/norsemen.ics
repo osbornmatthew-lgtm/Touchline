@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030361@touchline-eja
-DTSTAMP:20261025T205047Z
+DTSTAMP:20261026T075103Z
 SUMMARY:Norsemen v Broadfields United
 DTSTART;TZID=Europe/London:20261101T100000
 DTEND;TZID=Europe/London:20261101T114000
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030361
 END:VEVENT
 BEGIN:VEVENT
 UID:30896862@touchline-eja
-DTSTAMP:20261025T205047Z
+DTSTAMP:20261026T075103Z
 SUMMARY:Norsemen v Wormley Rovers
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -46,8 +46,20 @@ DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896862
 END:VEVENT
 BEGIN:VEVENT
+UID:31016123@touchline-eja
+DTSTAMP:20261026T075103Z
+SUMMARY:Stansted v Norsemen (Chairman's Cup)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:White Roding Sports and Social Club\, Marks Hall Lane\, White Rod
+ ing\, Dunmow\, Essex CM6 1RT
+DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31016123
+END:VEVENT
+BEGIN:VEVENT
 UID:31070106@touchline-eja
-DTSTAMP:20261025T205047Z
+DTSTAMP:20261026T075103Z
 SUMMARY:Wealdstone v Norsemen (Middlesex FA Under-16 Cup)
 DTSTART;TZID=Europe/London:20261108T103000
 DTEND;TZID=Europe/London:20261108T121000

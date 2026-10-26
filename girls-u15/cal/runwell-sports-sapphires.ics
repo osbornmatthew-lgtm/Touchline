@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735169@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:BSC FC Azures v Runwell Sports Sapphires
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
-  Hertfordshire CM23 4RF
-DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DTSTART;TZID=Europe/London:20261101T100000
+DTEND;TZID=Europe/London:20261101T114000
+LOCATION:Leventhorpe School\, Cambridge Road\, Sawbridgeworth\, Hertfordsh
+ ire CM21 9BY
+DESCRIPTION:U15 D league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735169
 END:VEVENT
 BEGIN:VEVENT
 UID:30735173@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Runwell Sports Sapphires v Witham Town Belles Pink
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -50,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735173
 END:VEVENT
 BEGIN:VEVENT
 UID:30735180@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Witham Town Belles Pink v Runwell Sports Sapphires
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -62,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735180
 END:VEVENT
 BEGIN:VEVENT
 UID:30735191@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Tigers Girls Black v Runwell Sports Sapphires
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -74,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735191
 END:VEVENT
 BEGIN:VEVENT
 UID:30853180@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Nazeing Wildcats v Runwell Sports Sapphires
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -86,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853180
 END:VEVENT
 BEGIN:VEVENT
 UID:30735201@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Runwell Sports Sapphires v Atletico Trotters Girls
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -98,7 +97,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735201
 END:VEVENT
 BEGIN:VEVENT
 UID:30735205@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Loughton Town Purples v Runwell Sports Sapphires
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -110,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735205
 END:VEVENT
 BEGIN:VEVENT
 UID:30735213@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Tendring Borough Belles v Runwell Sports Sapphires
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -122,7 +121,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735213
 END:VEVENT
 BEGIN:VEVENT
 UID:30735219@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Runwell Sports Sapphires v BSC FC Azures
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -134,7 +133,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735219
 END:VEVENT
 BEGIN:VEVENT
 UID:30735138@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Runwell Sports Sapphires v Tigers Girls Black
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -146,7 +145,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735138
 END:VEVENT
 BEGIN:VEVENT
 UID:30735164@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Runwell Sports Sapphires v Tendring Borough Belles
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -158,7 +157,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735164
 END:VEVENT
 BEGIN:VEVENT
 UID:30853229@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Great Bradfords Girls Quartz v Runwell Sports Sapphires
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -170,7 +169,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853229
 END:VEVENT
 BEGIN:VEVENT
 UID:30853239@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Runwell Sports Sapphires v Broomfield Girls Black
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -182,7 +181,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853239
 END:VEVENT
 BEGIN:VEVENT
 UID:30853240@touchline-girls-u15
-DTSTAMP:20261025T210323Z
+DTSTAMP:20261026T075415Z
 SUMMARY:Runwell Sports Sapphires v Leigh Lionesses Girls Pride
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315

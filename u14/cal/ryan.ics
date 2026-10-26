@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31035127@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Ryan v Harlow Town
 DTSTART;TZID=Europe/London:20261108T100000
 DTEND;TZID=Europe/London:20261108T114000
@@ -34,8 +34,20 @@ DESCRIPTION:U14 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035127
 END:VEVENT
 BEGIN:VEVENT
+UID:31107266@touchline-eja-u14
+DTSTAMP:20261026T075215Z
+SUMMARY:Woodford Town v Ryan
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Trinity Catholic High School (Whitbread Sports Ground)\, Whitbrea
+ d Sports Ground\, Pavilion Durham Avenue\, Woodford Green IG8 7NJ
+DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107266
+END:VEVENT
+BEGIN:VEVENT
 UID:30901860@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Ryan v Dunstable (League Cup)
 DTSTART;TZID=Europe/London:20261101T114500
 DTEND;TZID=Europe/London:20261101T132500
@@ -46,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30901860
 END:VEVENT
 BEGIN:VEVENT
 UID:30977638@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Ryan v Woodford Town (Peter Cline Trophy)
 DTSTART;TZID=Europe/London:20261029T191500
 DTEND;TZID=Europe/London:20261029T205500
@@ -55,7 +67,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30977638
 END:VEVENT
 BEGIN:VEVENT
 UID:31048680@touchline-eja-u14
-DTSTAMP:20261025T210140Z
+DTSTAMP:20261026T075215Z
 SUMMARY:Fisher v Ryan (London Under 14 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261115T101000
 DTEND;TZID=Europe/London:20261115T115000

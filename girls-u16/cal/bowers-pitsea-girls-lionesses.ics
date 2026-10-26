@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735436@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:Bowers & Pitsea Girls Lionesses v West Essex Girls
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
- ex SS16 5BA
-DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DTSTART;TZID=Europe/London:20261101T130000
+DTEND;TZID=Europe/London:20261101T144000
+LOCATION:James Hornsby School\, Leinster Road\, Laindon\, Basildon\, Essex
+  SS15 5NX
+DESCRIPTION:U16 C league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735436
 END:VEVENT
 BEGIN:VEVENT
 UID:30735448@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:Bowers & Pitsea Girls Lionesses v Broomfield Girls
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -50,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735448
 END:VEVENT
 BEGIN:VEVENT
 UID:30735452@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:Colchester City Ladies v Bowers & Pitsea Girls Lionesses
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -62,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735452
 END:VEVENT
 BEGIN:VEVENT
 UID:30735456@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:Bowers & Pitsea Girls Lionesses v Great Bradfords Girls Diamonds
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -74,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735456
 END:VEVENT
 BEGIN:VEVENT
 UID:30735461@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:Valley Green Girls Valkyries v Bowers & Pitsea Girls Lionesses
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -86,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735461
 END:VEVENT
 BEGIN:VEVENT
 UID:30735464@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:Bowers & Pitsea Girls Lionesses v Leigh Ramblers Girls Black
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -98,7 +97,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735464
 END:VEVENT
 BEGIN:VEVENT
 UID:30735470@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:St Clere's Girls v Bowers & Pitsea Girls Lionesses
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -108,7 +107,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735470
 END:VEVENT
 BEGIN:VEVENT
 UID:30735479@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:West Essex Girls v Bowers & Pitsea Girls Lionesses
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -119,7 +118,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735479
 END:VEVENT
 BEGIN:VEVENT
 UID:30735426@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:Leigh Ramblers Girls Black v Bowers & Pitsea Girls Lionesses
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -129,7 +128,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735426
 END:VEVENT
 BEGIN:VEVENT
 UID:30735412@touchline-girls-u16
-DTSTAMP:20261025T210335Z
+DTSTAMP:20261026T075435Z
 SUMMARY:Bowers & Pitsea Girls Lionesses v Colchester City Ladies
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
