@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067518@touchline-eja-u14
-DTSTAMP:20261028T123503Z
+DTSTAMP:20261030T072233Z
 SUMMARY:Real Bedford v Kempston Rovers Colts
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -36,19 +36,8 @@ DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067518
 END:VEVENT
 BEGIN:VEVENT
-UID:30958367@touchline-eja-u14
-DTSTAMP:20261028T123503Z
-SUMMARY:St Neots Town v Real Bedford (Peter Cline Trophy)
-DTSTART;TZID=Europe/London:20261029T194500
-DTEND;TZID=Europe/London:20261029T212500
-LOCATION:St Neots Town Football Club\, Rowley Park Kester Way\, St. Neots\
- , Cambridgeshire PE19 6SL
-DESCRIPTION:Peter Cline Trophy. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30958367
-END:VEVENT
-BEGIN:VEVENT
 UID:31073355@touchline-eja-u14
-DTSTAMP:20261028T123503Z
+DTSTAMP:20261030T072233Z
 SUMMARY:Flitwick Eagles v Real Bedford (Under 14 Youth Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000
