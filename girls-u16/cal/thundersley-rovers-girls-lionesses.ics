@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735376@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:Galleywood Girls Magpies v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735376
 END:VEVENT
 BEGIN:VEVENT
 UID:30735381@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Torquespeed Girls Lionesses
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735381
 END:VEVENT
 BEGIN:VEVENT
 UID:30735383@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:FC Redwing Girls Buzzards v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -59,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735383
 END:VEVENT
 BEGIN:VEVENT
 UID:30735388@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Romford Town Flyers Women
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -70,7 +70,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735388
 END:VEVENT
 BEGIN:VEVENT
 UID:30735393@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:Lawford Junior Girls Lionesses v Thundersley Rovers Girls Lionesse
  s
 DTSTART;VALUE=DATE:20261213
@@ -83,7 +83,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735393
 END:VEVENT
 BEGIN:VEVENT
 UID:30735346@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Galleywood Girls Magpies
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -94,7 +94,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735346
 END:VEVENT
 BEGIN:VEVENT
 UID:30735366@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:Leigh Ramblers Girls Blue v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -104,7 +104,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735366
 END:VEVENT
 BEGIN:VEVENT
 UID:30735342@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:Trinity Girls Lionesses v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -116,7 +116,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735342
 END:VEVENT
 BEGIN:VEVENT
 UID:30735356@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:Romford Town Flyers Women v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -126,7 +126,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735356
 END:VEVENT
 BEGIN:VEVENT
 UID:30735374@touchline-girls-u16
-DTSTAMP:20261101T190807Z
+DTSTAMP:20261101T191754Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Trinity Girls Lionesses
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
