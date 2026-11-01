@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067546@touchline-eja-u14
-DTSTAMP:20261101T192554Z
+DTSTAMP:20261101T193559Z
 SUMMARY:Colney Heath v Hertford Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-LOCATION:Colney Heath Recreation Ground\, Sports Ground High Street\, Coln
- ey Heath\, St Albans\, Hertfordshire AL4 0NP
-DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Samuel Ryder Academy\, Drakes Drive\, St. Albans\, Hertfordshire 
+ AL1 5AR
+DESCRIPTION:U14 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067546
 END:VEVENT
 BEGIN:VEVENT
 UID:31103363@touchline-eja-u14
-DTSTAMP:20261101T192554Z
+DTSTAMP:20261101T193559Z
 SUMMARY:Norsemen v Colney Heath (League Cup)
 DTSTART;TZID=Europe/London:20261129T100000
 DTEND;TZID=Europe/London:20261129T114000
@@ -48,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103363
 END:VEVENT
 BEGIN:VEVENT
 UID:30931288@touchline-eja-u14
-DTSTAMP:20261101T192554Z
+DTSTAMP:20261101T193559Z
 SUMMARY:Colney Heath v LGCE (Hertfordshire FA U14 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261122T103000
 DTEND;TZID=Europe/London:20261122T121000
