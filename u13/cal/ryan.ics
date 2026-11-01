@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31035311@touchline-eja-u13
-DTSTAMP:20261101T164542Z
+DTSTAMP:20261101T170520Z
 SUMMARY:Cheshunt v Ryan
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31035311
 END:VEVENT
 BEGIN:VEVENT
 UID:31067252@touchline-eja-u13
-DTSTAMP:20261101T164542Z
+DTSTAMP:20261101T170520Z
 SUMMARY:Ryan v Wingate & Finchley
 DTSTART;TZID=Europe/London:20261115T093000
 DTEND;TZID=Europe/London:20261115T111000
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067252
 END:VEVENT
 BEGIN:VEVENT
 UID:31153413@touchline-eja-u13
-DTSTAMP:20261101T164542Z
+DTSTAMP:20261101T170520Z
 SUMMARY:Ryan v Hertford Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -57,7 +57,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153413
 END:VEVENT
 BEGIN:VEVENT
 UID:31103288@touchline-eja-u13
-DTSTAMP:20261101T164542Z
+DTSTAMP:20261101T170520Z
 SUMMARY:Harpenden Town v Ryan (League Cup)
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -66,14 +66,13 @@ DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103288
 END:VEVENT
 BEGIN:VEVENT
-UID:30222061@touchline-eja-u13
-DTSTAMP:20261101T164542Z
-SUMMARY:Ryan v Prostar (London Under 13 Boys Sunday Cup (9v9))
-DTSTART;TZID=Europe/London:20261101T133000
-DTEND;TZID=Europe/London:20261101T151000
-LOCATION:Wadham Lodge Sports Ground E17 4jp
+UID:31154677@touchline-eja-u13
+DTSTAMP:20261101T170520Z
+SUMMARY:Ryan v Slough Town Junior (London Under 13 Boys Sunday Cup (9v9))
+DTSTART;TZID=Europe/London:20261115T101000
+DTEND;TZID=Europe/London:20261115T115000
 DESCRIPTION:London Under 13 Boys Sunday Cup (9v9). Check FA Full-Time for 
  late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30222061
+URL:https://fulltime.thefa.com/displayFixture.html?id=31154677
 END:VEVENT
 END:VCALENDAR
