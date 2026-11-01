@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31002296@touchline-eja-u14
-DTSTAMP:20261101T160611Z
+DTSTAMP:20261101T161600Z
 SUMMARY:Enfield Borough v Edgware & Kingsbury
 DTSTART;TZID=Europe/London:20261101T143000
 DTEND;TZID=Europe/London:20261101T161000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31002296
 END:VEVENT
 BEGIN:VEVENT
 UID:31035115@touchline-eja-u14
-DTSTAMP:20261101T160611Z
+DTSTAMP:20261101T161600Z
 SUMMARY:Edgware & Kingsbury v Norsemen
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31035115
 END:VEVENT
 BEGIN:VEVENT
 UID:31067574@touchline-eja-u14
-DTSTAMP:20261101T160611Z
+DTSTAMP:20261101T161600Z
 SUMMARY:Enfield Town v Edgware & Kingsbury
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -55,8 +55,18 @@ DESCRIPTION:U14 Orange league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067574
 END:VEVENT
 BEGIN:VEVENT
+UID:31154362@touchline-eja-u14
+DTSTAMP:20261101T161600Z
+SUMMARY:Edgware & Kingsbury v Wingate & Finchley
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31154362
+END:VEVENT
+BEGIN:VEVENT
 UID:31076354@touchline-eja-u14
-DTSTAMP:20261101T160611Z
+DTSTAMP:20261101T161600Z
 SUMMARY:Edgware & Kingsbury v Panthera (Middlesex FA Under-14 Cup)
 DTSTART;TZID=Europe/London:20261122T103000
 DTEND;TZID=Europe/London:20261122T121000
