@@ -1,8 +1,10 @@
 {
- "venue_misses": [],
- "last_check": "2026-10-28T12:34:33+00:00",
+ "venue_misses": [
+  "Ark Academy Bridge Road - Ha9 9jp"
+ ],
+ "last_check": "2026-11-01T15:54:15+00:00",
  "last_full": "2026-10-26T07:50:09+00:00",
- "updated": "Sunday 25 October 2026",
- "fetched": "Wednesday 28 October, 12:34",
- "published_at": "2026-10-28T12:34:33+00:00"
+ "updated": "Sunday 1 November 2026",
+ "fetched": "Sunday 1 November, 15:54",
+ "published_at": "2026-11-01T15:54:15+00:00"
 }
