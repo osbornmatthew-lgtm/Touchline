@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31091311@touchline-eja
-DTSTAMP:20261030T072202Z
-SUMMARY:Mulbarton Wanderers v Leiston
-DTSTART;TZID=Europe/London:20261101T120000
-DTEND;TZID=Europe/London:20261101T134000
-LOCATION:The Nest\, Horsford Manor Holt Road\, Horsford\, Norwich\, Norfol
- k NR10 3AQ
-DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31091311
-END:VEVENT
-BEGIN:VEVENT
 UID:31091381@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Mulbarton Wanderers v Bury Town
 DTSTART;TZID=Europe/London:20261108T120000
 DTEND;TZID=Europe/London:20261108T134000
@@ -48,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31091381
 END:VEVENT
 BEGIN:VEVENT
 UID:31066562@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Cromer Adult & v Mulbarton Wanderers (John Savage Cup)
 DTSTART;TZID=Europe/London:20261115T133000
 DTEND;TZID=Europe/London:20261115T151000

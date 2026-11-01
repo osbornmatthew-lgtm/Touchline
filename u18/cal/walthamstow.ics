@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30863736@touchline-eja-u18
-DTSTAMP:20261030T072252Z
+DTSTAMP:20261101T155741Z
 SUMMARY:Walthamstow v Ilford
 DTSTART;TZID=Europe/London:20261108T103000
 DTEND;TZID=Europe/London:20261108T121000
@@ -35,21 +35,11 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30863736
 END:VEVENT
 BEGIN:VEVENT
 UID:30894894@touchline-eja-u18
-DTSTAMP:20261030T072252Z
+DTSTAMP:20261101T155741Z
 SUMMARY:Walthamstow v Enfield Borough (League Cup)
-DTSTART;TZID=Europe/London:20261101T103000
-DTEND;TZID=Europe/London:20261101T121000
+DTSTART;TZID=Europe/London:20261115T003000
+DTEND;TZID=Europe/London:20261115T021000
 DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30894894
-END:VEVENT
-BEGIN:VEVENT
-UID:31018238@touchline-eja-u18
-DTSTAMP:20261030T072252Z
-SUMMARY:Walthamstow v Billericay Town (London Under 18 Boys Sunday Cup)
-DTSTART;TZID=Europe/London:20261101T101000
-DTEND;TZID=Europe/London:20261101T115000
-DESCRIPTION:London Under 18 Boys Sunday Cup. Check FA Full-Time for late c
- hanges.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31018238
 END:VEVENT
 END:VCALENDAR

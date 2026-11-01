@@ -25,29 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31030063@touchline-eja-u15
-DTSTAMP:20261028T123515Z
-SUMMARY:Hornchurch v Brentwood Town
-DTSTART;TZID=Europe/London:20261101T100000
-DTEND;TZID=Europe/London:20261101T114000
-LOCATION:Old Parkonians FC\, Oakfield Playing Fields\, The Pavilion Forest
-  Road\, Ilford IG6 3HD
-DESCRIPTION:U15 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030063
-END:VEVENT
-BEGIN:VEVENT
 UID:31093066@touchline-eja-u15
-DTSTAMP:20261028T123515Z
+DTSTAMP:20261101T155714Z
 SUMMARY:Hornchurch v Leigh Ramblers
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
 DESCRIPTION:U15 Yellow league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093066
 END:VEVENT
 BEGIN:VEVENT
+UID:30895094@touchline-eja-u15
+DTSTAMP:20261101T155714Z
+SUMMARY:Hornchurch v Bowers & Pitsea (League Cup)
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Old Parkonians FC\, Oakfield Playing Fields\, The Pavilion Forest
+  Road\, Ilford IG6 3HD
+DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
+ e for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30895094
+END:VEVENT
+BEGIN:VEVENT
 UID:31034149@touchline-eja-u15
-DTSTAMP:20261028T123515Z
+DTSTAMP:20261101T155714Z
 SUMMARY:Runwell Sports v Hornchurch (Essex Rosser U15 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

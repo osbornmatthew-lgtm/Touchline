@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30734945@touchline-girls-u15
-DTSTAMP:20261026T075415Z
-SUMMARY:Leigh Lionesses Courage v Holland Girls
-DTSTART;TZID=Europe/London:20261101T100000
-DTEND;TZID=Europe/London:20261101T114000
-LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
-DESCRIPTION:U15 B league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30734945
-END:VEVENT
-BEGIN:VEVENT
 UID:30734947@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Holland Girls v Stanway Rovers Girls Flares
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -48,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734947
 END:VEVENT
 BEGIN:VEVENT
 UID:30734956@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Stanway Rovers Girls Flares v Holland Girls
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -60,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734956
 END:VEVENT
 BEGIN:VEVENT
 UID:30734961@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:AFC Pegasus Colchester Girls v Holland Girls
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -71,20 +61,20 @@ DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30734961
 END:VEVENT
 BEGIN:VEVENT
-UID:30734966@touchline-girls-u15
-DTSTAMP:20261026T075415Z
-SUMMARY:Holland Girls v Island Panthers
+UID:30734933@touchline-girls-u15
+DTSTAMP:20261101T155847Z
+SUMMARY:Tigers Girls Yellow v Holland Girls
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-LOCATION:The Club House (Holland FC)\, The Clubhouse Dulwich Road\, Hollan
- d-On-Sea\, Clacton-On-Sea\, Essex CO15 5HP
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
 DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30734966
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734933
 END:VEVENT
 BEGIN:VEVENT
 UID:30734969@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Academy Soccer Girls White v Holland Girls
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -94,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734969
 END:VEVENT
 BEGIN:VEVENT
 UID:30734975@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Holland Girls v Hashtag United Girls Blue
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -106,7 +96,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734975
 END:VEVENT
 BEGIN:VEVENT
 UID:30734977@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Finesse Sport Finesse Sport United F v Holland Girls
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -118,7 +108,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734977
 END:VEVENT
 BEGIN:VEVENT
 UID:30734984@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Holland Girls v Tigers Girls Yellow
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -130,7 +120,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734984
 END:VEVENT
 BEGIN:VEVENT
 UID:30734989@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Epping Town Lionesses v Holland Girls
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -140,7 +130,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734989
 END:VEVENT
 BEGIN:VEVENT
 UID:30734993@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Holland Girls v Leigh Lionesses Courage
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -152,7 +142,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734993
 END:VEVENT
 BEGIN:VEVENT
 UID:30734913@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Island Panthers v Holland Girls
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -164,7 +154,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734913
 END:VEVENT
 BEGIN:VEVENT
 UID:30734911@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Holland Girls v AFC Pegasus Colchester Girls
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -175,15 +165,15 @@ DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30734911
 END:VEVENT
 BEGIN:VEVENT
-UID:30734933@touchline-girls-u15
-DTSTAMP:20261026T075415Z
-SUMMARY:Tigers Girls Yellow v Holland Girls
+UID:30734966@touchline-girls-u15
+DTSTAMP:20261101T155847Z
+SUMMARY:Holland Girls v Island Panthers
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
-LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
- on Centre Dagenham Road\, Rainham RM13 8SP
+LOCATION:The Club House (Holland FC)\, The Clubhouse Dulwich Road\, Hollan
+ d-On-Sea\, Clacton-On-Sea\, Essex CO15 5HP
 DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30734933
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734966
 END:VEVENT
 END:VCALENDAR

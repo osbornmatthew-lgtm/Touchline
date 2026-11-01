@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31030362@touchline-eja
-DTSTAMP:20261030T072202Z
-SUMMARY:Wingate & Finchley v May & Baker Eastbrook
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
-DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030362
-END:VEVENT
-BEGIN:VEVENT
 UID:31100730@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:May & Baker Eastbrook v Cockfosters
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -48,8 +37,19 @@ DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100730
 END:VEVENT
 BEGIN:VEVENT
+UID:31030362@touchline-eja
+DTSTAMP:20261101T155519Z
+SUMMARY:Wingate & Finchley v May & Baker Eastbrook
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030362
+END:VEVENT
+BEGIN:VEVENT
 UID:30986828@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Redbridge v May & Baker Eastbrook (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261030T194500
 DTEND;TZID=Europe/London:20261030T212500
@@ -59,12 +59,11 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30986828
 END:VEVENT
 BEGIN:VEVENT
 UID:31067374@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Netherton United v May & Baker Eastbrook (Chairman's Cup)
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DTSTART;TZID=Europe/London:20261122T133000
+DTEND;TZID=Europe/London:20261122T151000
+DESCRIPTION:Chairman's Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067374
 END:VEVENT
 END:VCALENDAR

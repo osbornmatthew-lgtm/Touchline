@@ -25,32 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30734946@touchline-girls-u15
-DTSTAMP:20261026T075415Z
-SUMMARY:AFC Pegasus Colchester Girls v Stanway Rovers Girls Flares
-DTSTART;TZID=Europe/London:20261101T120000
-DTEND;TZID=Europe/London:20261101T134000
-LOCATION:Shrub End Community and Sports Centre\, Shrub End Community and S
- ports Centre Boadicea Way\, Colchester\, Essex CO2 9BG
-DESCRIPTION:U15 B league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30734946
-END:VEVENT
-BEGIN:VEVENT
 UID:30734951@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:AFC Pegasus Colchester Girls v Finesse Sport Finesse Sport United 
  F
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Shrub End Community and Sports Centre\, Shrub End Community and S
- ports Centre Boadicea Way\, Colchester\, Essex CO2 9BG
-DESCRIPTION:U15 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DTSTART;TZID=Europe/London:20261108T141500
+DTEND;TZID=Europe/London:20261108T155500
+LOCATION:Philip Morant School\, Rembrandt Way\, Colchester\, Essex CO3 4QS
+DESCRIPTION:U15 B league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30734951
 END:VEVENT
 BEGIN:VEVENT
 UID:30734952@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Finesse Sport Finesse Sport United F v AFC Pegasus Colchester Girl
  s
 DTSTART;VALUE=DATE:20261115
@@ -63,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734952
 END:VEVENT
 BEGIN:VEVENT
 UID:30734961@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:AFC Pegasus Colchester Girls v Holland Girls
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -75,7 +62,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734961
 END:VEVENT
 BEGIN:VEVENT
 UID:30734971@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:AFC Pegasus Colchester Girls v Island Panthers
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -87,7 +74,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734971
 END:VEVENT
 BEGIN:VEVENT
 UID:30734972@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Epping Town Lionesses v AFC Pegasus Colchester Girls
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -97,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734972
 END:VEVENT
 BEGIN:VEVENT
 UID:30734981@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:AFC Pegasus Colchester Girls v Academy Soccer Girls White
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -109,7 +96,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734981
 END:VEVENT
 BEGIN:VEVENT
 UID:30734982@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Leigh Lionesses Courage v AFC Pegasus Colchester Girls
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -120,7 +107,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734982
 END:VEVENT
 BEGIN:VEVENT
 UID:30734991@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:AFC Pegasus Colchester Girls v Hashtag United Girls Blue
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -132,7 +119,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734991
 END:VEVENT
 BEGIN:VEVENT
 UID:30734992@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Stanway Rovers Girls Flares v AFC Pegasus Colchester Girls
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -144,7 +131,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734992
 END:VEVENT
 BEGIN:VEVENT
 UID:30734916@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:AFC Pegasus Colchester Girls v Tigers Girls Yellow
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -156,7 +143,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734916
 END:VEVENT
 BEGIN:VEVENT
 UID:30734931@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Academy Soccer Girls White v AFC Pegasus Colchester Girls
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -166,7 +153,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734931
 END:VEVENT
 BEGIN:VEVENT
 UID:30734911@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Holland Girls v AFC Pegasus Colchester Girls
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -178,7 +165,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734911
 END:VEVENT
 BEGIN:VEVENT
 UID:30734962@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Tigers Girls Yellow v AFC Pegasus Colchester Girls
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -190,7 +177,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734962
 END:VEVENT
 BEGIN:VEVENT
 UID:31034427@touchline-girls-u15
-DTSTAMP:20261026T075415Z
+DTSTAMP:20261101T155847Z
 SUMMARY:Leigh Ramblers Girls Black v AFC Pegasus Colchester Girls (Essex U
  15 Girls Cup)
 DTSTART;VALUE=DATE:20261129

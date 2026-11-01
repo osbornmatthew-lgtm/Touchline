@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31029947@touchline-eja-u15
-DTSTAMP:20261028T123515Z
-SUMMARY:Newmarket Town v Soham Town Rangers
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31029947
-END:VEVENT
-BEGIN:VEVENT
 UID:31091975@touchline-eja-u15
-DTSTAMP:20261028T123515Z
+DTSTAMP:20261101T155714Z
 SUMMARY:St Ives Town v Soham Town Rangers
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -46,12 +36,13 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31091975
 END:VEVENT
 BEGIN:VEVENT
 UID:31099889@touchline-eja-u15
-DTSTAMP:20261028T123515Z
+DTSTAMP:20261101T155714Z
 SUMMARY:Soham Town Rangers v Histon
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
+LOCATION:Soham Village College\, Sand Street\, Soham\, Ely\, Cambridgeshir
+ e CB7 5AA
+DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31099889
 END:VEVENT
 END:VCALENDAR

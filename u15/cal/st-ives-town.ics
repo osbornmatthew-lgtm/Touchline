@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31029948@touchline-eja-u15
-DTSTAMP:20261028T123515Z
-SUMMARY:Yaxley v St Ives Town
-DTSTART;TZID=Europe/London:20261101T100000
-DTEND;TZID=Europe/London:20261101T114000
-LOCATION:Apg Park\, Yaxley Football Club Leading Drove\, Yaxley\, Cambridg
- eshire PE7 3NA
-DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31029948
-END:VEVENT
-BEGIN:VEVENT
 UID:31091975@touchline-eja-u15
-DTSTAMP:20261028T123515Z
+DTSTAMP:20261101T155714Z
 SUMMARY:St Ives Town v Soham Town Rangers
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -47,12 +36,23 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31091975
 END:VEVENT
 BEGIN:VEVENT
 UID:31099887@touchline-eja-u15
-DTSTAMP:20261028T123515Z
+DTSTAMP:20261101T155714Z
 SUMMARY:Netherton United v St Ives Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
+DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31099887
+END:VEVENT
+BEGIN:VEVENT
+UID:31152988@touchline-eja-u15
+DTSTAMP:20261101T155714Z
+SUMMARY:St Ives Town v Fakenham Town (League Cup)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:St Ives Town Football Club\, Westwood Road\, St. Ives\, Cambridge
+ shire PE27 6DT
+DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
+ e for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31152988
 END:VEVENT
 END:VCALENDAR

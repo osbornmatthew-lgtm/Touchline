@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31035382@touchline-eja-u13
-DTSTAMP:20261030T072219Z
+DTSTAMP:20261101T155553Z
 SUMMARY:Sudbury Sports v Heybridge Swifts
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -35,19 +35,18 @@ DESCRIPTION:U13 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035382
 END:VEVENT
 BEGIN:VEVENT
-UID:30901872@touchline-eja-u13
-DTSTAMP:20261030T072219Z
-SUMMARY:Billericay Town v Heybridge Swifts (League Cup)
-DTSTART;TZID=Europe/London:20261101T100000
-DTEND;TZID=Europe/London:20261101T114000
-LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
- Essex CM12 9SA
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30901872
+UID:31153499@touchline-eja-u13
+DTSTAMP:20261101T155553Z
+SUMMARY:Chelmsford City v Heybridge Swifts
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U13 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31153499
 END:VEVENT
 BEGIN:VEVENT
 UID:31045514@touchline-eja-u13
-DTSTAMP:20261030T072219Z
+DTSTAMP:20261101T155553Z
 SUMMARY:AFC Pegasus Colchester v Heybridge Swifts (Harrison Trophy)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
@@ -59,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31045514
 END:VEVENT
 BEGIN:VEVENT
 UID:31034152@touchline-eja-u13
-DTSTAMP:20261030T072219Z
+DTSTAMP:20261101T155553Z
 SUMMARY:Heybridge Swifts v Holland (Essex Cordell U13 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

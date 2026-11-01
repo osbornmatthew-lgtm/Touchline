@@ -25,36 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31002225@touchline-eja-u14
-DTSTAMP:20261030T072233Z
-SUMMARY:St Ives Town v Netherton United
-DTSTART;TZID=Europe/London:20261101T123000
-DTEND;TZID=Europe/London:20261101T141000
-DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31002225
-END:VEVENT
-BEGIN:VEVENT
 UID:31107237@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Netherton United v Dunstable
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107237
 END:VEVENT
 BEGIN:VEVENT
-UID:31067517@touchline-eja-u14
-DTSTAMP:20261030T072233Z
-SUMMARY:Netherton United v Yaxley
-DTSTART;TZID=Europe/London:20261122T100000
-DTEND;TZID=Europe/London:20261122T114000
-DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067517
-END:VEVENT
-BEGIN:VEVENT
 UID:31012467@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Netherton United v Bugbrooke St.Michael (U14 Youth Cup)
 DTSTART;TZID=Europe/London:20261108T103000
 DTEND;TZID=Europe/London:20261108T121000

@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31002351@touchline-eja-u14
-DTSTAMP:20261030T072233Z
-SUMMARY:Buckhurst Hill v May & Baker Eastbrook
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
- g Lane\, Buckhurst Hill\, Essex IG9 6BJ
-DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31002351
-END:VEVENT
-BEGIN:VEVENT
 UID:31067644@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:May & Baker Eastbrook v Frenford
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -50,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067644
 END:VEVENT
 BEGIN:VEVENT
 UID:31107265@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Redbridge v May & Baker Eastbrook
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -60,14 +48,13 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107265
 END:VEVENT
 BEGIN:VEVENT
 UID:30999852@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:May & Baker Eastbrook v Wilvale Rangers (Essex Andrews U14 Cup)
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;TZID=Europe/London:20261108T120000
+DTEND;TZID=Europe/London:20261108T134000
 LOCATION:May & Baker Sports and Social Club\, May and Baker Sports Ground 
  May and Baker Way\, Dagenham RM7 0QX
-DESCRIPTION:Essex Andrews U14 Cup. Kick-off time not published yet. Check 
- FA Full-Time for late changes.
+DESCRIPTION:Essex Andrews U14 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30999852
 END:VEVENT
 END:VCALENDAR

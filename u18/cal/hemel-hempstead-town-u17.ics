@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030447@touchline-eja-u18
-DTSTAMP:20261030T072252Z
+DTSTAMP:20261101T155741Z
 SUMMARY:Hemel Hempstead Town U17 v Ware U17
 DTSTART;TZID=Europe/London:20261101T133000
 DTEND;TZID=Europe/London:20261101T151000
@@ -37,19 +37,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030447
 END:VEVENT
 BEGIN:VEVENT
 UID:31093150@touchline-eja-u18
-DTSTAMP:20261030T072252Z
+DTSTAMP:20261101T155741Z
 SUMMARY:Enfield Borough (Blue) v Hemel Hempstead Town U17
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;TZID=Europe/London:20261108T123000
+DTEND;TZID=Europe/London:20261108T141000
 LOCATION:Capital City College (Enfield Centre)\, 73 Hertford Road\, Enfiel
  d EN3 5HA
-DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DESCRIPTION:U18 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093150
 END:VEVENT
 BEGIN:VEVENT
 UID:30183700@touchline-eja-u18
-DTSTAMP:20261030T072252Z
+DTSTAMP:20261101T155741Z
 SUMMARY:Cheshunt Ambers v Hemel Hempstead Town U17 (Hertfordshire FA U18 B
  oys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000

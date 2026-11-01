@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31001953@touchline-eja-u13
-DTSTAMP:20261030T072219Z
-SUMMARY:Southend Manor v Aveley
-DTSTART;TZID=Europe/London:20261101T103000
-DTEND;TZID=Europe/London:20261101T121000
-LOCATION:Southchurch Park Arena\, Southend Manor Football Club Northumberl
- and Crescent\, Southend-On-Sea SS1 2XB
-DESCRIPTION:U13 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31001953
-END:VEVENT
-BEGIN:VEVENT
 UID:31035389@touchline-eja-u13
-DTSTAMP:20261030T072219Z
+DTSTAMP:20261101T155553Z
 SUMMARY:Aveley v Rayleigh Town
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -48,8 +37,20 @@ DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035389
 END:VEVENT
 BEGIN:VEVENT
+UID:31153437@touchline-eja-u13
+DTSTAMP:20261101T155553Z
+SUMMARY:Concord Rangers v Aveley
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
+ cliff-On-Sea SS0 0RT
+DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31153437
+END:VEVENT
+BEGIN:VEVENT
 UID:31034871@touchline-eja-u13
-DTSTAMP:20261030T072219Z
+DTSTAMP:20261101T155553Z
 SUMMARY:Aveley v Bowers & Pitsea (Essex Cordell U13 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

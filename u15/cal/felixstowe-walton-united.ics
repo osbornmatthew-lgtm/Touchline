@@ -25,38 +25,27 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31029927@touchline-eja-u15
-DTSTAMP:20261028T123515Z
-SUMMARY:Mulbarton Wanderers v Felixstowe & Walton United
-DTSTART;TZID=Europe/London:20261101T121500
-DTEND;TZID=Europe/London:20261101T135500
-DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31029927
-END:VEVENT
-BEGIN:VEVENT
 UID:31091542@touchline-eja-u15
-DTSTAMP:20261028T123515Z
+DTSTAMP:20261101T155714Z
 SUMMARY:Dereham Town v Felixstowe & Walton United
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261108T120000
+DTEND;TZID=Europe/London:20261108T134000
+DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31091542
 END:VEVENT
 BEGIN:VEVENT
 UID:30985357@touchline-eja-u15
-DTSTAMP:20261028T123515Z
+DTSTAMP:20261101T155714Z
 SUMMARY:Felixstowe & Walton United v Dereham Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T113000
+DTEND;TZID=Europe/London:20261115T131000
 LOCATION:Inspire Suffolk\, Lindbergh Road\, Ipswich\, Suffolk IP3 9QX
-DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30985357
 END:VEVENT
 BEGIN:VEVENT
 UID:30960939@touchline-eja-u15
-DTSTAMP:20261028T123515Z
+DTSTAMP:20261101T155714Z
 SUMMARY:Felixstowe & Walton United v AFC Sudbury (Peter Peters Shield)
 DTSTART;TZID=Europe/London:20261102T190000
 DTEND;TZID=Europe/London:20261102T204000

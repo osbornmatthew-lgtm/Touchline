@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31030358@touchline-eja
-DTSTAMP:20261030T072202Z
-SUMMARY:Soham Town Rangers v Newmarket Town
-DTSTART;TZID=Europe/London:20261101T103000
-DTEND;TZID=Europe/London:20261101T121000
-LOCATION:Soham Town Rangers Football Club\, Julius Martin Lane\, Soham\, E
- ly\, Cambridgeshire CB7 5EQ
-DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030358
-END:VEVENT
-BEGIN:VEVENT
 UID:30988086@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Histon v Soham Town Rangers
 DTSTART;TZID=Europe/London:20261108T100000
 DTEND;TZID=Europe/London:20261108T114000
@@ -48,12 +37,11 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30988086
 END:VEVENT
 BEGIN:VEVENT
 UID:31100646@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Netherton United v Soham Town Rangers
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100646
 END:VEVENT
 END:VCALENDAR

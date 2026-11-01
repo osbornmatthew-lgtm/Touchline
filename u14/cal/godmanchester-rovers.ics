@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31002223@touchline-eja-u14
-DTSTAMP:20261030T072233Z
-SUMMARY:Godmanchester Rovers v Leighton Town
-DTSTART;TZID=Europe/London:20261101T100000
-DTEND;TZID=Europe/London:20261101T114000
-DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31002223
-END:VEVENT
-BEGIN:VEVENT
 UID:31035051@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Kempston Rovers Colts v Godmanchester Rovers
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -47,22 +38,21 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31035051
 END:VEVENT
 BEGIN:VEVENT
 UID:31067515@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Godmanchester Rovers v Dunstable
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261122T120000
+DTEND;TZID=Europe/London:20261122T134000
+DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067515
 END:VEVENT
 BEGIN:VEVENT
 UID:31087380@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Hampton United v Godmanchester Rovers (County Youth U14 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:County Youth U14 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Queens Park (Yaxley)
+DESCRIPTION:County Youth U14 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31087380
 END:VEVENT
 END:VCALENDAR

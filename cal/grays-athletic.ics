@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093069@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Brentwood Town v Grays Athletic
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;TZID=Europe/London:20261108T100000
+DTEND;TZID=Europe/London:20261108T114000
 LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
  , Essex CM15 9NN
-DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093069
 END:VEVENT
 BEGIN:VEVENT
 UID:31094400@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Bowers & Pitsea v Grays Athletic
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000

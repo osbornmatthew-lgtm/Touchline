@@ -25,23 +25,13 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31030352@touchline-eja
-DTSTAMP:20261030T072202Z
-SUMMARY:Felixstowe & Walton United v Needham Market
-DTSTART;TZID=Europe/London:20261101T100000
-DTEND;TZID=Europe/London:20261101T114000
+UID:31091462@touchline-eja
+DTSTAMP:20261101T155519Z
+SUMMARY:Felixstowe & Walton United v Leiston
+DTSTART;TZID=Europe/London:20261108T103000
+DTEND;TZID=Europe/London:20261108T121000
 LOCATION:Inspire Suffolk\, Lindbergh Road\, Ipswich\, Suffolk IP3 9QX
 DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030352
-END:VEVENT
-BEGIN:VEVENT
-UID:31091462@touchline-eja
-DTSTAMP:20261030T072202Z
-SUMMARY:Felixstowe & Walton United v Leiston
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31091462
 END:VEVENT
 END:VCALENDAR

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067369@touchline-eja-u13
-DTSTAMP:20261030T072219Z
+DTSTAMP:20261101T155553Z
 SUMMARY:Histon v St Ives Town
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -35,20 +35,28 @@ DESCRIPTION:U13 Blue league. Kick-off time not published yet. Check FA Ful
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067369
 END:VEVENT
 BEGIN:VEVENT
-UID:30901877@touchline-eja-u13
-DTSTAMP:20261030T072219Z
-SUMMARY:Rayleigh Town v St Ives Town (League Cup)
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
- ssex SS6 9DT
+UID:31153374@touchline-eja-u13
+DTSTAMP:20261101T155553Z
+SUMMARY:St Ives Town v Saffron Walden
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U13 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31153374
+END:VEVENT
+BEGIN:VEVENT
+UID:31153473@touchline-eja-u13
+DTSTAMP:20261101T155553Z
+SUMMARY:Hertford Town v St Ives Town (League Cup)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
 DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
  e for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30901877
+URL:https://fulltime.thefa.com/displayFixture.html?id=31153473
 END:VEVENT
 BEGIN:VEVENT
 UID:31086980@touchline-eja-u13
-DTSTAMP:20261030T072219Z
+DTSTAMP:20261101T155553Z
 SUMMARY:St Ives Town v ICA Sports (County Youth U13 Cup)
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109

@@ -25,24 +25,34 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31002667@touchline-eja-u14
-DTSTAMP:20261030T072233Z
-SUMMARY:Canvey Island v Tilbury
-DTSTART;TZID=Europe/London:20261101T120000
-DTEND;TZID=Europe/London:20261101T134000
-DESCRIPTION:U14 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31002667
+UID:31141079@touchline-eja-u14
+DTSTAMP:20261101T155639Z
+SUMMARY:Concord Rangers v Tilbury
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31141079
 END:VEVENT
 BEGIN:VEVENT
 UID:31067718@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Leigh Ramblers v Tilbury
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
 LOCATION:Belfairs Park/Sports Ground\, Belfairs Park Eastwood Road North\,
   Leigh-On-Sea SS9 4LR
-DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DESCRIPTION:U14 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067718
+END:VEVENT
+BEGIN:VEVENT
+UID:31107339@touchline-eja-u14
+DTSTAMP:20261101T155639Z
+SUMMARY:Tilbury v Billericay Town
+DTSTART;TZID=Europe/London:20261122T100000
+DTEND;TZID=Europe/London:20261122T114000
+LOCATION:The Emr Stadium\, Chadfields\, Tilbury RM18 8NG
+DESCRIPTION:U14 Yellow league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107339
 END:VEVENT
 END:VCALENDAR

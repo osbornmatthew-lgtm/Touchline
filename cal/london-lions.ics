@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31030360@touchline-eja
-DTSTAMP:20261030T072202Z
-SUMMARY:Edgware & Kingsbury v London Lions
-DTSTART;TZID=Europe/London:20261101T100000
-DTEND;TZID=Europe/London:20261101T114000
-DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030360
-END:VEVENT
-BEGIN:VEVENT
 UID:31093102@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Wormley Rovers v London Lions
 DTSTART;TZID=Europe/London:20261108T100000
 DTEND;TZID=Europe/London:20261108T114000
@@ -44,13 +35,12 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093102
 END:VEVENT
 BEGIN:VEVENT
 UID:31100731@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Wingate & Finchley v London Lions
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
 LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
-DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100731
 END:VEVENT
 END:VCALENDAR

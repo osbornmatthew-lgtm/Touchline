@@ -26,17 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31069732@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Aveley v AFC Pegasus Colchester
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-DESCRIPTION:U14 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DTSTART;TZID=Europe/London:20261101T140000
+DTEND;TZID=Europe/London:20261101T154000
+LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
+ ndon RM15 4UA
+DESCRIPTION:U14 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31069732
 END:VEVENT
 BEGIN:VEVENT
 UID:31067684@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:AFC Pegasus Colchester v Hullbridge Sports
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -47,8 +48,20 @@ DESCRIPTION:U14 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067684
 END:VEVENT
 BEGIN:VEVENT
+UID:31107325@touchline-eja-u14
+DTSTAMP:20261101T155639Z
+SUMMARY:AFC Pegasus Colchester v Hutton
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Shrub End Community and Sports Centre\, Shrub End Community and S
+ ports Centre Boadicea Way\, Colchester\, Essex CO2 9BG
+DESCRIPTION:U14 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107325
+END:VEVENT
+BEGIN:VEVENT
 UID:30867022@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Heybridge Swifts v AFC Pegasus Colchester (Peter Cline Trophy)
 DTSTART;TZID=Europe/London:20261110T194500
 DTEND;TZID=Europe/London:20261110T212500
@@ -57,7 +70,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30867022
 END:VEVENT
 BEGIN:VEVENT
 UID:31075128@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:AFC Pegasus Colchester v Concord Rangers (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

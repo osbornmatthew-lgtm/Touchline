@@ -25,19 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31002241@touchline-eja-u14
-DTSTAMP:20261030T072233Z
-SUMMARY:BSC v Takeley
-DTSTART;TZID=Europe/London:20261101T120000
-DTEND;TZID=Europe/London:20261101T134000
-LOCATION:Rda Stadium\, Woodside Park Dunmow Road\, Birchanger\, Bishop's S
- tortford\, Hertfordshire CM23 5RG
-DESCRIPTION:U14 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31002241
+UID:31107322@touchline-eja-u14
+DTSTAMP:20261101T155639Z
+SUMMARY:Takeley v St Margaretsbury
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107322
 END:VEVENT
 BEGIN:VEVENT
 UID:31103357@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Harpenden Town v Takeley (League Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103357
 END:VEVENT
 BEGIN:VEVENT
 UID:31000306@touchline-eja-u14
-DTSTAMP:20261030T072233Z
+DTSTAMP:20261101T155639Z
 SUMMARY:Witham Town v Takeley (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109

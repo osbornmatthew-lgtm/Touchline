@@ -25,37 +25,26 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31030438@touchline-eja
-DTSTAMP:20261030T072202Z
-SUMMARY:Netherton United v St Neots Town
-DTSTART;TZID=Europe/London:20261101T100000
-DTEND;TZID=Europe/London:20261101T114000
-DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030438
-END:VEVENT
-BEGIN:VEVENT
 UID:31100646@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Netherton United v Soham Town Rangers
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100646
 END:VEVENT
 BEGIN:VEVENT
 UID:31067374@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Netherton United v May & Baker Eastbrook (Chairman's Cup)
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DTSTART;TZID=Europe/London:20261122T133000
+DTEND;TZID=Europe/London:20261122T151000
+DESCRIPTION:Chairman's Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067374
 END:VEVENT
 BEGIN:VEVENT
 UID:31012476@touchline-eja
-DTSTAMP:20261030T072202Z
+DTSTAMP:20261101T155519Z
 SUMMARY:Netherton United v Rushden & Higham United (U16 Youth Cup)
 DTSTART;TZID=Europe/London:20261108T140000
 DTEND;TZID=Europe/London:20261108T154000

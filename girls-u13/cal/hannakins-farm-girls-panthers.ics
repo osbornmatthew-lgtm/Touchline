@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30773289@touchline-girls-u13
-DTSTAMP:20261026T075340Z
-SUMMARY:Hannakins Farm Girls Panthers v Brentwood Town Girls
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
- ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
-DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773289
-END:VEVENT
-BEGIN:VEVENT
 UID:30773296@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:Chelmsford City Girls ECGL v Hannakins Farm Girls Panthers
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -47,20 +35,8 @@ DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773296
 END:VEVENT
 BEGIN:VEVENT
-UID:30773298@touchline-girls-u13
-DTSTAMP:20261026T075340Z
-SUMMARY:Hannakins Farm Girls Panthers v FC Redwing Girls Buzzards
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
- ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
-DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773298
-END:VEVENT
-BEGIN:VEVENT
 UID:30773348@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:Hannakins Farm Girls Panthers v Chelmsford City Girls ECGL
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -72,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773348
 END:VEVENT
 BEGIN:VEVENT
 UID:30773308@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:Jays Lionesses v Hannakins Farm Girls Panthers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -83,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773308
 END:VEVENT
 BEGIN:VEVENT
 UID:30773321@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:Hannakins Farm Girls Panthers v Rayleigh Girls Hawks
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -95,7 +71,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773321
 END:VEVENT
 BEGIN:VEVENT
 UID:30773326@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:Tigers Girls Yellow v Hannakins Farm Girls Panthers
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -107,7 +83,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773326
 END:VEVENT
 BEGIN:VEVENT
 UID:30773330@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:Hannakins Farm Girls Panthers v Toby Women Girls
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -119,7 +95,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773330
 END:VEVENT
 BEGIN:VEVENT
 UID:30773339@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:Hannakins Farm Girls Panthers v Benfleet Girls
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -131,7 +107,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773339
 END:VEVENT
 BEGIN:VEVENT
 UID:30773345@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:Brentwood Town Girls v Hannakins Farm Girls Panthers
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -143,7 +119,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773345
 END:VEVENT
 BEGIN:VEVENT
 UID:30773357@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:FC Redwing Girls Buzzards v Hannakins Farm Girls Panthers
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -155,7 +131,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773357
 END:VEVENT
 BEGIN:VEVENT
 UID:30773284@touchline-girls-u13
-DTSTAMP:20261026T075340Z
+DTSTAMP:20261101T155809Z
 SUMMARY:Benfleet Girls v Hannakins Farm Girls Panthers
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -164,5 +140,17 @@ LOCATION:Woodside Stadium\, Woodside Park Recreation Ground\, Benfleet Foo
 DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773284
+END:VEVENT
+BEGIN:VEVENT
+UID:30773298@touchline-girls-u13
+DTSTAMP:20261101T155809Z
+SUMMARY:Hannakins Farm Girls Panthers v FC Redwing Girls Buzzards
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:U13 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773298
 END:VEVENT
 END:VCALENDAR
