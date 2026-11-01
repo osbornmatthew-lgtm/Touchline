@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30774081@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:South Woodham Ferrers United Women L v Southminster United Girls
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774081
 END:VEVENT
 BEGIN:VEVENT
 UID:30774087@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:Southminster United Girls v Hawkwell Athletic Ladies Hawks
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -49,20 +49,20 @@ DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30774087
 END:VEVENT
 BEGIN:VEVENT
-UID:30774093@touchline-girls-u13
-DTSTAMP:20261101T191703Z
-SUMMARY:Southminster United Girls v BSC FC Cyans
+UID:30774063@touchline-girls-u13
+DTSTAMP:20261101T192704Z
+SUMMARY:Southminster United Girls v Great Wakering Colts Vikings
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 LOCATION:King George V Playing Field (Southminster)\, King George V Playin
  g Field Station Road\, Southminster\, Essex CM0 7EW
 DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30774093
+URL:https://fulltime.thefa.com/displayFixture.html?id=30774063
 END:VEVENT
 BEGIN:VEVENT
 UID:30774099@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:Southminster United Girls v Herongate Athletic Herons
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -74,7 +74,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774099
 END:VEVENT
 BEGIN:VEVENT
 UID:30774111@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:Southminster United Girls v Perry Street Girls Tigers
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -86,7 +86,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774111
 END:VEVENT
 BEGIN:VEVENT
 UID:30774135@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:Southminster United Girls v Leigh Lionesses Spirit
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -98,7 +98,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774135
 END:VEVENT
 BEGIN:VEVENT
 UID:30774075@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:Southminster United Girls v Harwich & Parkeston Girls
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -110,7 +110,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774075
 END:VEVENT
 BEGIN:VEVENT
 UID:30774147@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:Southminster United Girls v South Woodham Ferrers United Women L
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -122,7 +122,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774147
 END:VEVENT
 BEGIN:VEVENT
 UID:30774148@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:Hawkwell Athletic Ladies Hawks v Southminster United Girls
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -134,7 +134,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774148
 END:VEVENT
 BEGIN:VEVENT
 UID:30774045@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:Perry Street Girls Tigers v Southminster United Girls
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -144,7 +144,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774045
 END:VEVENT
 BEGIN:VEVENT
 UID:30774069@touchline-girls-u13
-DTSTAMP:20261101T191703Z
+DTSTAMP:20261101T192704Z
 SUMMARY:Leigh Lionesses Spirit v Southminster United Girls
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -152,17 +152,5 @@ LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
 DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30774069
-END:VEVENT
-BEGIN:VEVENT
-UID:30774063@touchline-girls-u13
-DTSTAMP:20261101T191703Z
-SUMMARY:Southminster United Girls v Great Wakering Colts Vikings
-DTSTART;VALUE=DATE:20270314
-DTEND;VALUE=DATE:20270315
-LOCATION:King George V Playing Field (Southminster)\, King George V Playin
- g Field Station Road\, Southminster\, Essex CM0 7EW
-DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30774063
 END:VEVENT
 END:VCALENDAR
