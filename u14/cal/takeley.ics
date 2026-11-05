@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31107322@touchline-eja-u14
-DTSTAMP:20261101T194617Z
+DTSTAMP:20261105T075039Z
 SUMMARY:Takeley v St Margaretsbury
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107322
 END:VEVENT
 BEGIN:VEVENT
 UID:31103357@touchline-eja-u14
-DTSTAMP:20261101T194617Z
+DTSTAMP:20261105T075039Z
 SUMMARY:Harpenden Town v Takeley (League Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,8 +49,18 @@ DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103357
 END:VEVENT
 BEGIN:VEVENT
+UID:31055657@touchline-eja-u14
+DTSTAMP:20261105T075039Z
+SUMMARY:Harlow Town v Takeley (Peter Cline Trophy)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Peter Cline Trophy. Kick-off time not published yet. Check FA 
+ Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31055657
+END:VEVENT
+BEGIN:VEVENT
 UID:31000306@touchline-eja-u14
-DTSTAMP:20261101T194617Z
+DTSTAMP:20261105T075039Z
 SUMMARY:Witham Town v Takeley (Essex Andrews U14 Cup)
 DTSTART;TZID=Europe/London:20261108T140000
 DTEND;TZID=Europe/London:20261108T154000

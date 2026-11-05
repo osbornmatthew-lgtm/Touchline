@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31035380@touchline-eja-u13
-DTSTAMP:20261101T193527Z
+DTSTAMP:20261105T075030Z
 SUMMARY:Bowers & Pitsea v Billericay Town
 DTSTART;TZID=Europe/London:20261108T143000
 DTEND;TZID=Europe/London:20261108T161000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31035380
 END:VEVENT
 BEGIN:VEVENT
 UID:31153498@touchline-eja-u13
-DTSTAMP:20261101T193527Z
+DTSTAMP:20261105T075030Z
 SUMMARY:Billericay Town v Dunmow Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153498
 END:VEVENT
 BEGIN:VEVENT
 UID:31153040@touchline-eja-u13
-DTSTAMP:20261101T193527Z
+DTSTAMP:20261105T075030Z
 SUMMARY:Colney Heath v Billericay Town (League Cup)
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000
@@ -59,8 +59,20 @@ DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153040
 END:VEVENT
 BEGIN:VEVENT
+UID:31143256@touchline-eja-u13
+DTSTAMP:20261105T075030Z
+SUMMARY:Grays Athletic v Billericay Town (Harrison Trophy)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+LOCATION:Lakeside Sports Ground\, Arterial Road\, Chafford Hundred\, Grays
+  RM16 6DN
+DESCRIPTION:Harrison Trophy. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31143256
+END:VEVENT
+BEGIN:VEVENT
 UID:31034410@touchline-eja-u13
-DTSTAMP:20261101T193527Z
+DTSTAMP:20261105T075030Z
 SUMMARY:Billericay Town v Billericay Town (Essex Cordell U13 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
