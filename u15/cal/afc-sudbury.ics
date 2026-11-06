@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30985436@touchline-eja-u15
-DTSTAMP:20261101T194644Z
+DTSTAMP:20261106T075030Z
 SUMMARY:AFC Sudbury v Chelmsford City
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30985436
 END:VEVENT
 BEGIN:VEVENT
 UID:31100621@touchline-eja-u15
-DTSTAMP:20261101T194644Z
+DTSTAMP:20261106T075030Z
 SUMMARY:Haverhill Rovers EJA v AFC Sudbury
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -47,12 +47,14 @@ DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100621
 END:VEVENT
 BEGIN:VEVENT
-UID:30960939@touchline-eja-u15
-DTSTAMP:20261101T194644Z
-SUMMARY:Felixstowe & Walton United v AFC Sudbury (Peter Peters Shield)
-DTSTART;TZID=Europe/London:20261102T190000
-DTEND;TZID=Europe/London:20261102T204000
-DESCRIPTION:Peter Peters Shield. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30960939
+UID:31164119@touchline-eja-u15
+DTSTAMP:20261106T075030Z
+SUMMARY:Haverhill Rovers EJA v AFC Sudbury (Peter Peters Shield)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+LOCATION:The New Croft\, Chalkstone Way\, Haverhill\, Suffolk CB9 0BW
+DESCRIPTION:Peter Peters Shield. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31164119
 END:VEVENT
 END:VCALENDAR

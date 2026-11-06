@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093597@touchline-eja-u18
-DTSTAMP:20261101T191642Z
+DTSTAMP:20261106T075040Z
 SUMMARY:Barking v Buckhurst Hill
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -35,8 +35,19 @@ DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093597
 END:VEVENT
 BEGIN:VEVENT
+UID:31115050@touchline-eja-u18
+DTSTAMP:20261106T075040Z
+SUMMARY:Barking v Ilford (Magnus Cup)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+LOCATION:Mayesbrook Park\, Lodge Avenue\, Dagenham RM8 2JA
+DESCRIPTION:Magnus Cup. Kick-off time not published yet. Check FA Full-Tim
+ e for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31115050
+END:VEVENT
+BEGIN:VEVENT
 UID:30625581@touchline-eja-u18
-DTSTAMP:20261101T191642Z
+DTSTAMP:20261106T075040Z
 SUMMARY:Barking v Bowers & Pitsea (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
