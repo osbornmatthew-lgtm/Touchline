@@ -25,25 +25,34 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31091969@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:Leiston v Mulbarton Wanderers
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Leiston Town Athletic Association\, The Flannery Stadium Victory 
- Road\, Leiston\, Suffolk IP16 4DQ
-DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31091969
-END:VEVENT
-BEGIN:VEVENT
 UID:31091484@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Woodbridge Town v Mulbarton Wanderers
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31091484
+END:VEVENT
+BEGIN:VEVENT
+UID:31166804@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Mulbarton Wanderers v Fakenham Town
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166804
+END:VEVENT
+BEGIN:VEVENT
+UID:31166826@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Felixstowe & Walton United v Mulbarton Wanderers
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Inspire Suffolk\, Lindbergh Road\, Ipswich\, Suffolk IP3 9QX
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166826
 END:VEVENT
 END:VCALENDAR

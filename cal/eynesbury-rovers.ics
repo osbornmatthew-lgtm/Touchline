@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31030403@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Eynesbury Rovers v Colney Heath
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -35,8 +35,28 @@ DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31030403
 END:VEVENT
 BEGIN:VEVENT
+UID:30863828@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Leighton Town v Eynesbury Rovers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30863828
+END:VEVENT
+BEGIN:VEVENT
+UID:31167230@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Baldock Town v Eynesbury Rovers
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167230
+END:VEVENT
+BEGIN:VEVENT
 UID:31065935@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Harlow Town v Eynesbury Rovers (Chairman's Cup)
 DTSTART;TZID=Europe/London:20261122T120000
 DTEND;TZID=Europe/London:20261122T134000
@@ -44,15 +64,5 @@ LOCATION:Harlow Town Football Club\, The Harlow Arena Elizabeth Way\, Harl
  ow\, Essex CM19 5BE
 DESCRIPTION:Chairman's Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31065935
-END:VEVENT
-BEGIN:VEVENT
-UID:31087929@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Eynesbury Rovers v Park Farm Pumas (County Youth U16 Cup)
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:County Youth U16 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31087929
 END:VEVENT
 END:VCALENDAR

@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31035054@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:St Ives Town v Yaxley
-DTSTART;TZID=Europe/London:20261108T123000
-DTEND;TZID=Europe/London:20261108T141000
-LOCATION:St Ives Town Football Club\, Westwood Road\, St. Ives\, Cambridge
- shire PE27 6DT
-DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31035054
-END:VEVENT
-BEGIN:VEVENT
 UID:31067519@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Shefford Saints v St Ives Town
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -47,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067519
 END:VEVENT
 BEGIN:VEVENT
 UID:31154052@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Netherton United v St Ives Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -57,12 +46,11 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31154052
 END:VEVENT
 BEGIN:VEVENT
 UID:31087377@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:St Neots Town v St Ives Town (County Youth U14 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:County Youth U14 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T123000
+DTEND;TZID=Europe/London:20261115T141000
+DESCRIPTION:County Youth U14 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31087377
 END:VEVENT
 END:VCALENDAR

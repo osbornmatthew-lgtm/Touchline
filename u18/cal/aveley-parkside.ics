@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093294@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Aveley Parkside v Southend Manor
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
- ndon RM15 4UA
-DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093294
-END:VEVENT
-BEGIN:VEVENT
 UID:31093545@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Chelmsford City Whites v Aveley Parkside
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -48,8 +36,32 @@ DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093545
 END:VEVENT
 BEGIN:VEVENT
+UID:30985940@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Heybridge Swifts Yellow v Aveley Parkside
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Heybridge Swifts Football Club\, Scraley Road\, Heybridge\, Maldo
+ n\, Essex CM9 8FJ
+DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30985940
+END:VEVENT
+BEGIN:VEVENT
+UID:31167635@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Rayleigh Town Blue v Aveley Parkside
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
+ ssex SS6 9DT
+DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167635
+END:VEVENT
+BEGIN:VEVENT
 UID:30625580@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Aveley Parkside v Tilbury White (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

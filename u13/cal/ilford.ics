@@ -26,29 +26,29 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31035315@touchline-eja-u13
-DTSTAMP:20261105T075030Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Redbridge v Ilford
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261108T093000
+DTEND;TZID=Europe/London:20261108T111000
+LOCATION:The TechSoc.com Stadium\, Station Road\, Barkingside\, Ilford IG6
+  1NB
+DESCRIPTION:U13 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035315
 END:VEVENT
 BEGIN:VEVENT
 UID:31153412@touchline-eja-u13
-DTSTAMP:20261105T075030Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Ilford v Cheshunt
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T140000
+DTEND;TZID=Europe/London:20261129T154000
 LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
  ham RM9 5PU
-DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U13 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153412
 END:VEVENT
 BEGIN:VEVENT
 UID:31103289@touchline-eja-u13
-DTSTAMP:20261105T075030Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Ilford v Dereham Town (League Cup)
 DTSTART;TZID=Europe/London:20261122T140000
 DTEND;TZID=Europe/London:20261122T154000
@@ -59,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103289
 END:VEVENT
 BEGIN:VEVENT
 UID:31035055@touchline-eja-u13
-DTSTAMP:20261105T075030Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Ilford v Leigh Ramblers (Essex Cordell U13 Cup)
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000

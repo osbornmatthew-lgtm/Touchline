@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093548@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Witham Town v Southend Manor
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -35,20 +35,29 @@ DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093548
 END:VEVENT
 BEGIN:VEVENT
-UID:30894944@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Bedford Town v Witham Town (League Cup)
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Bedford Town Football Club (The Eyrie)\, Meadow Lane\, Cardington
- \, Bedford MK44 3LW
-DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
- e for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30894944
+UID:31164939@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Witham Town v Tilbury White
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31164939
+END:VEVENT
+BEGIN:VEVENT
+UID:31167633@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Chelmsford City Whites v Witham Town
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Melbourne Park\, Salerno Way\, Chelmsford\, Essex CM1 2EH
+DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167633
 END:VEVENT
 BEGIN:VEVENT
 UID:30625583@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Witham Town v Ilford (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

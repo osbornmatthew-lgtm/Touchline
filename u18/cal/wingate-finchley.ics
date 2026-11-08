@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093152@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Wingate & Finchley v Edgware & Kingsbury
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
-DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093152
-END:VEVENT
-BEGIN:VEVENT
 UID:30863739@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Enfield Borough (Blue) v Wingate & Finchley
 DTSTART;TZID=Europe/London:20261115T121500
 DTEND;TZID=Europe/London:20261115T135500
@@ -47,13 +36,47 @@ DESCRIPTION:U18 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30863739
 END:VEVENT
 BEGIN:VEVENT
-UID:31018242@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Wingate & Finchley v Vallance (London Under 18 Boys Sunday Cup)
-DTSTART;TZID=Europe/London:20261101T100000
-DTEND;TZID=Europe/London:20261101T114000
+UID:31164893@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Harpenden Town v Wingate & Finchley
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Harpenden Town Football Club\, Amenbury Lane\, Harpenden\, Hertfo
+ rdshire AL5 2EF
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31164893
+END:VEVENT
+BEGIN:VEVENT
+UID:30513695@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Wingate & Finchley v Ware U17
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30513695
+END:VEVENT
+BEGIN:VEVENT
+UID:31165033@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Broadfields United Sundays v Wingate & Finchley
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165033
+END:VEVENT
+BEGIN:VEVENT
+UID:31162686@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Wingate & Finchley v Aylesford Royals (London Under 18 Boys Sunday
+  Cup)
+DTSTART;TZID=Europe/London:20261206T101000
+DTEND;TZID=Europe/London:20261206T115000
 DESCRIPTION:London Under 18 Boys Sunday Cup. Check FA Full-Time for late c
  hanges.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31018242
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162686
 END:VEVENT
 END:VCALENDAR

@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30734378@touchline-girls-u14
-DTSTAMP:20261101T194746Z
-SUMMARY:AFC Leyton s v Perry Street Girls Jaguars
-DTSTART;TZID=Europe/London:20261108T110000
-DTEND;TZID=Europe/London:20261108T124000
-LOCATION:Leyton Sports Ground\, Crawley Road\, London E10 6RJ
-DESCRIPTION:U14 A league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30734378
-END:VEVENT
-BEGIN:VEVENT
 UID:30734339@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Finesse Sport Finesse Sport United F v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -48,17 +38,16 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734339
 END:VEVENT
 BEGIN:VEVENT
 UID:30734331@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Perry Street Girls Jaguars v Cheshunt Girls
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DTSTART;TZID=Europe/London:20261122T123000
+DTEND;TZID=Europe/London:20261122T141000
+DESCRIPTION:U14 A league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30734331
 END:VEVENT
 BEGIN:VEVENT
 UID:30734290@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Tigers Girls Red v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -70,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734290
 END:VEVENT
 BEGIN:VEVENT
 UID:30734369@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Brentwood Girls AFC Lionesses v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -80,7 +69,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734369
 END:VEVENT
 BEGIN:VEVENT
 UID:30734326@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -91,7 +80,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734326
 END:VEVENT
 BEGIN:VEVENT
 UID:30734343@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Perry Street Girls Jaguars v Hashtag United Girls Blue
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -101,7 +90,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734343
 END:VEVENT
 BEGIN:VEVENT
 UID:30734352@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Billericay Town Girls Blue v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -111,7 +100,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734352
 END:VEVENT
 BEGIN:VEVENT
 UID:30734386@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Perry Street Girls Jaguars v Perry Street Girls Panthers
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -121,7 +110,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734386
 END:VEVENT
 BEGIN:VEVENT
 UID:30734364@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Perry Street Girls Jaguars v Tigers Girls Red
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -131,7 +120,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734364
 END:VEVENT
 BEGIN:VEVENT
 UID:30734297@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Perry Street Girls Jaguars v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -141,7 +130,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734297
 END:VEVENT
 BEGIN:VEVENT
 UID:30734375@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Perry Street Girls Jaguars v Stanway Rovers Girls Phoenix
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -151,7 +140,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734375
 END:VEVENT
 BEGIN:VEVENT
 UID:30734313@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Perry Street Girls Panthers v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -161,7 +150,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734313
 END:VEVENT
 BEGIN:VEVENT
 UID:30734319@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Perry Street Girls Jaguars v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -171,7 +160,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734319
 END:VEVENT
 BEGIN:VEVENT
 UID:30734358@touchline-girls-u14
-DTSTAMP:20261101T194746Z
+DTSTAMP:20261108T145549Z
 SUMMARY:South Woodham Ferrers United Women P v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308

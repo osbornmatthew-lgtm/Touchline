@@ -25,22 +25,45 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093274@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Ryan Red v Redbridge Brown
-DTSTART;TZID=Europe/London:20261108T133000
-DTEND;TZID=Europe/London:20261108T151000
-DESCRIPTION:U18 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093274
-END:VEVENT
-BEGIN:VEVENT
 UID:31093598@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Hornchurch Brown v Redbridge Brown
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093598
+END:VEVENT
+BEGIN:VEVENT
+UID:31164899@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Buckhurst Hill v Redbridge Brown
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
+DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31164899
+END:VEVENT
+BEGIN:VEVENT
+UID:31167602@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Redbridge Brown v Ryan Red
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167602
+END:VEVENT
+BEGIN:VEVENT
+UID:31177334@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Redbridge Brown v Berry Boys U17 Green (Essex Pelly U18 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:Essex Pelly U18 Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31177334
 END:VEVENT
 END:VCALENDAR

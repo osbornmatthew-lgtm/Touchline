@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093294@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Aveley Parkside v Southend Manor
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
- ndon RM15 4UA
-DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093294
-END:VEVENT
-BEGIN:VEVENT
 UID:31093548@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Witham Town v Southend Manor
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -47,8 +35,28 @@ DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093548
 END:VEVENT
 BEGIN:VEVENT
+UID:31164938@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Southend Manor v Chelmsford City Whites
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31164938
+END:VEVENT
+BEGIN:VEVENT
+UID:31167636@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Southend Manor v Heybridge Swifts Yellow
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167636
+END:VEVENT
+BEGIN:VEVENT
 UID:30625584@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Heybridge Swifts U17 Red v Southend Manor (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

@@ -26,28 +26,28 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31035051@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Kempston Rovers Colts v Godmanchester Rovers
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;TZID=Europe/London:20261108T123000
+DTEND;TZID=Europe/London:20261108T141000
 LOCATION:Hillgrounds Playing Fields\, Hillgrounds Road\, Kempston\, Bedfor
  d MK42 8TP
-DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035051
 END:VEVENT
 BEGIN:VEVENT
-UID:31067515@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+UID:31179636@touchline-eja-u14
+DTSTAMP:20261108T145549Z
 SUMMARY:Godmanchester Rovers v Dunstable
-DTSTART;TZID=Europe/London:20261122T120000
-DTEND;TZID=Europe/London:20261122T134000
-DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067515
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31179636
 END:VEVENT
 BEGIN:VEVENT
 UID:31087380@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Hampton United v Godmanchester Rovers (County Youth U14 Cup)
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000

@@ -25,34 +25,34 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093092@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Newmarket Town v Cambridge City
-DTSTART;TZID=Europe/London:20261108T123000
-DTEND;TZID=Europe/London:20261108T141000
-LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
-  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
-DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093092
-END:VEVENT
-BEGIN:VEVENT
 UID:31100647@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:St Neots Town v Cambridge City
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
 LOCATION:St Neots Town Football Club\, Rowley Park Kester Way\, St. Neots\
  , Cambridgeshire PE19 6SL
-DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100647
 END:VEVENT
 BEGIN:VEVENT
+UID:31162111@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Cambridge City v Newmarket Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Cambridge City Football Club\, Cambridge City Football Club West 
+ Way\, Sawston\, Cambridgeshire CB22 3FG
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162111
+END:VEVENT
+BEGIN:VEVENT
 UID:31104392@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Frenford v Cambridge City (League Cup)
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
 LOCATION:Frenford Youth Club\, Jack Carter Centre The Drive\, Ilford IG1 3
  PS
 DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim

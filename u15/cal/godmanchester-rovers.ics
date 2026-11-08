@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31029946@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:Histon v Godmanchester Rovers
-DTSTART;TZID=Europe/London:20261108T103000
-DTEND;TZID=Europe/London:20261108T121000
-LOCATION:Comberton Village College\, West Street\, Comberton\, Cambridge\,
-  Cambridgeshire CB23 7DU
-DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31029946
-END:VEVENT
-BEGIN:VEVENT
 UID:31099886@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Godmanchester Rovers v Newmarket Town
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -46,5 +35,25 @@ LOCATION:Godmanchester Rovers FC\, Godmanchester Rovers FC The Peter Hodso
   2LQ
 DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31099886
+END:VEVENT
+BEGIN:VEVENT
+UID:31166797@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Soham Town Rangers v Godmanchester Rovers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166797
+END:VEVENT
+BEGIN:VEVENT
+UID:31166837@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Eynesbury Rovers v Godmanchester Rovers
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166837
 END:VEVENT
 END:VCALENDAR

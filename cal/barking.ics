@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988117@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Barking v Redbridge
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-LOCATION:Mayesbrook Park\, Lodge Avenue\, Dagenham RM8 2JA
-DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988117
-END:VEVENT
-BEGIN:VEVENT
 UID:31100761@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Barking v Hackney Wick
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -45,15 +35,36 @@ DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100761
 END:VEVENT
 BEGIN:VEVENT
+UID:31165617@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:CSM London v Barking
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
+ ham RM9 5PU
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165617
+END:VEVENT
+BEGIN:VEVENT
+UID:31167155@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Barking v Walthamstow
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167155
+END:VEVENT
+BEGIN:VEVENT
 UID:31016117@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Ryan v Barking (Chairman's Cup)
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;TZID=Europe/London:20261122T100000
+DTEND;TZID=Europe/London:20261122T114000
 LOCATION:Wadham Lodge Sports Ground (Match Day Centres)\, Wadham Lodge Spo
  rts Ground Brookscroft Road\, London E17 4JP
-DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DESCRIPTION:Chairman's Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31016117
 END:VEVENT
 END:VCALENDAR

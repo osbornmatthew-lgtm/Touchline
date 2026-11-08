@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093074@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Sudbury Sports v Witham Town
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Earls Colne Recreation Club\, Halstead Road\, Earls Colne\, Colch
- ester\, Essex CO6 2NG
-DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093074
-END:VEVENT
-BEGIN:VEVENT
 UID:31100776@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Hornchurch v Sudbury Sports
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -47,8 +35,30 @@ DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100776
 END:VEVENT
 BEGIN:VEVENT
+UID:31167350@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Harlow Town v Sudbury Sports
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Harlow Town Football Club\, The Harlow Arena Elizabeth Way\, Harl
+ ow\, Essex CM19 5BE
+DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167350
+END:VEVENT
+BEGIN:VEVENT
+UID:31165534@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Stansted v Sudbury Sports
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165534
+END:VEVENT
+BEGIN:VEVENT
 UID:31093719@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Godmanchester Rovers v Sudbury Sports (League Cup)
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000

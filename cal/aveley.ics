@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30988193@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Billericay Town v Aveley
 DTSTART;TZID=Europe/London:20261108T163000
 DTEND;TZID=Europe/London:20261108T181000
@@ -37,12 +37,57 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30988193
 END:VEVENT
 BEGIN:VEVENT
 UID:31094399@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Aveley v Concord Rangers
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
+LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
+ ndon RM15 4UA
+DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31094399
+END:VEVENT
+BEGIN:VEVENT
+UID:31162623@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Aveley v Canvey Island
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
 DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31094399
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162623
+END:VEVENT
+BEGIN:VEVENT
+UID:31165479@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Aveley v Grays Athletic
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165479
+END:VEVENT
+BEGIN:VEVENT
+UID:31167390@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Heybridge Swifts v Aveley
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Heybridge Swifts Football Club\, Scraley Road\, Heybridge\, Maldo
+ n\, Essex CM9 8FJ
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167390
+END:VEVENT
+BEGIN:VEVENT
+UID:31123257@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Aveley v Concord Rangers (RT Litho Cup)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
+ ndon RM15 4UA
+DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31123257
 END:VEVENT
 END:VCALENDAR

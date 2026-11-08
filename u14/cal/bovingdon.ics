@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31035086@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Bovingdon v Ware
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Bovingdon Football Club\, Football Ground Green Lane\, Hemel Hemp
- stead\, Hertfordshire HP3 0LE
-DESCRIPTION:U14 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31035086
-END:VEVENT
-BEGIN:VEVENT
 UID:31067545@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:BSC v Bovingdon
 DTSTART;TZID=Europe/London:20261115T120000
 DTEND;TZID=Europe/London:20261115T134000
@@ -48,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067545
 END:VEVENT
 BEGIN:VEVENT
 UID:31154253@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Bovingdon v Dunmow Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -60,17 +49,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31154253
 END:VEVENT
 BEGIN:VEVENT
 UID:31103362@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Hertford Town v Bovingdon (League Cup)
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
- e for late changes.
+DTSTART;TZID=Europe/London:20261206T153000
+DTEND;TZID=Europe/London:20261206T171000
+LOCATION:Hertingfordbury Park\, West Street\, Hertford\, Hertfordshire SG1
+ 3 8EZ
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103362
 END:VEVENT
 BEGIN:VEVENT
 UID:30936779@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:St Albans City v Bovingdon (Hertfordshire FA U14 Boys Challenge Cu
  p)
 DTSTART;TZID=Europe/London:20261122T103000

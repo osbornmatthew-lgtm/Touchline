@@ -25,19 +25,51 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:30863737@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Broadfields United Sundays v London Lions
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30863737
+END:VEVENT
+BEGIN:VEVENT
+UID:31165034@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:London Lions v Edgware & Kingsbury
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Maccabi London Sports Ground\, Rowley Lane\, Barnet EN5 3HW
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165034
+END:VEVENT
+BEGIN:VEVENT
+UID:31167588@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Hemel Hempstead Town U17 v London Lions
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
+ ordshire HP2 4HW
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167588
+END:VEVENT
+BEGIN:VEVENT
 UID:30895123@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Norsemen v London Lions (League Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T113000
+DTEND;TZID=Europe/London:20261115T131000
 LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
-DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
- e for late changes.
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30895123
 END:VEVENT
 BEGIN:VEVENT
 UID:31025805@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:London Lions v Cheshunt Ambers (Magnus Cup)
 DTSTART;TZID=Europe/London:20261112T194500
 DTEND;TZID=Europe/London:20261112T212500

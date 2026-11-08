@@ -25,25 +25,46 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093055@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:Frenford v Woodford Town
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+UID:31162038@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Frenford v West Essex
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
 DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093055
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162038
+END:VEVENT
+BEGIN:VEVENT
+UID:31166361@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Woodford Town v Frenford
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Trinity Catholic High School (Whitbread Sports Ground)\, Whitbrea
+ d Sports Ground\, Pavilion Durham Avenue\, Woodford Green IG8 7NJ
+DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166361
+END:VEVENT
+BEGIN:VEVENT
+UID:31166891@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Frenford v Benfleet
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166891
 END:VEVENT
 BEGIN:VEVENT
 UID:31034275@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Little Thurrock Dynamos v Frenford (Essex Rosser U15 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T121500
+DTEND;TZID=Europe/London:20261115T135500
 LOCATION:Harris Academy Chafford Hundred\, Mayflower Road\, Chafford Hundr
  ed\, Grays RM16 6SA
-DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31034275
 END:VEVENT
 END:VCALENDAR

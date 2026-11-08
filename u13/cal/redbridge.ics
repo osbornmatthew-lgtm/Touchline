@@ -26,17 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31035315@touchline-eja-u13
-DTSTAMP:20261105T075030Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Redbridge v Ilford
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261108T093000
+DTEND;TZID=Europe/London:20261108T111000
+LOCATION:The TechSoc.com Stadium\, Station Road\, Barkingside\, Ilford IG6
+  1NB
+DESCRIPTION:U13 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035315
 END:VEVENT
 BEGIN:VEVENT
 UID:31105204@touchline-eja-u13
-DTSTAMP:20261105T075030Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Hornchurch v Redbridge
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -46,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31105204
 END:VEVENT
 BEGIN:VEVENT
 UID:31153414@touchline-eja-u13
-DTSTAMP:20261105T075030Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Wingate & Finchley v Redbridge
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -57,10 +58,10 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153414
 END:VEVENT
 BEGIN:VEVENT
 UID:31111229@touchline-eja-u13
-DTSTAMP:20261105T075030Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Maccabi London v Redbridge (London Under 13 Boys Sunday Cup (9v9))
-DTSTART;TZID=Europe/London:20261115T101000
-DTEND;TZID=Europe/London:20261115T115000
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
 LOCATION:Maccabi London Sports Ground\, Rowley Lane\, Barnet EN5 3HW
 DESCRIPTION:London Under 13 Boys Sunday Cup (9v9). Check FA Full-Time for 
  late changes.

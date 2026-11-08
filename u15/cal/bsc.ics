@@ -25,29 +25,40 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:31099899@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:BSC v London Lions
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
+LOCATION:Bishop's Stortford College\, Bishops Stortford College Maze Green
+  Road\, Bishops Stortford\, Hertfordshire CM23 2PJ
+DESCRIPTION:U15 Green league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31099899
+END:VEVENT
+BEGIN:VEVENT
 UID:30985425@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:BSC v Cockfosters
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
 LOCATION:Bishop's Stortford College\, Bishops Stortford College Maze Green
   Road\, Bishops Stortford\, Hertfordshire CM23 2PJ
 DESCRIPTION:U15 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30985425
 END:VEVENT
 BEGIN:VEVENT
-UID:31099899@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:BSC v London Lions
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+UID:31166876@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Norsemen v BSC
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
 DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31099899
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166876
 END:VEVENT
 BEGIN:VEVENT
 UID:30182795@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:BSC v Hertford Heath (Hertfordshire FA U15 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261122T103000
 DTEND;TZID=Europe/London:20261122T121000

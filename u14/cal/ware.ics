@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31035086@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Bovingdon v Ware
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Bovingdon Football Club\, Football Ground Green Lane\, Hemel Hemp
- stead\, Hertfordshire HP3 0LE
-DESCRIPTION:U14 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31035086
-END:VEVENT
-BEGIN:VEVENT
 UID:31067548@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Ware v Potters Bar Town
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -47,18 +36,8 @@ DESCRIPTION:U14 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067548
 END:VEVENT
 BEGIN:VEVENT
-UID:31154254@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Hertford Town v Ware
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31154254
-END:VEVENT
-BEGIN:VEVENT
 UID:30933455@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Cheshunt v Ware (Hertfordshire FA U14 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261122T103000
 DTEND;TZID=Europe/London:20261122T121000

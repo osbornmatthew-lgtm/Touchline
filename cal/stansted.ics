@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093073@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Stansted v Stanway Rovers
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093073
-END:VEVENT
-BEGIN:VEVENT
 UID:31100778@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Stansted v Springfield
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -45,8 +35,28 @@ DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100778
 END:VEVENT
 BEGIN:VEVENT
+UID:31165534@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Stansted v Sudbury Sports
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165534
+END:VEVENT
+BEGIN:VEVENT
+UID:31167360@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Stansted v Hornchurch
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167360
+END:VEVENT
+BEGIN:VEVENT
 UID:31016123@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Stansted v Norsemen (Chairman's Cup)
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -55,5 +65,17 @@ LOCATION:White Roding Sports and Social Club\, Marks Hall Lane\, White Rod
 DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31016123
+END:VEVENT
+BEGIN:VEVENT
+UID:31186320@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Stansted v Barnston (Essex Cassels U16 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Good Easter Sports Field\, Playing Field Souther Cross Road\, Goo
+ d Easter\, Chelmsford\, Essex CM1 4RP
+DESCRIPTION:Essex Cassels U16 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31186320
 END:VEVENT
 END:VCALENDAR

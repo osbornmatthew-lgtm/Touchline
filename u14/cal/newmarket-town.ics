@@ -25,38 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31035011@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Histon v Newmarket Town
-DTSTART;TZID=Europe/London:20261108T130000
-DTEND;TZID=Europe/London:20261108T144000
-DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31035011
-END:VEVENT
-BEGIN:VEVENT
 UID:31107250@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:AFC Sudbury v Newmarket Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
+ 7HN
+DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107250
 END:VEVENT
 BEGIN:VEVENT
-UID:31107262@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Newmarket Town v Soham Town Rangers
-DTSTART;TZID=Europe/London:20261122T100000
-DTEND;TZID=Europe/London:20261122T114000
-LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
-  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
-DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31107262
-END:VEVENT
-BEGIN:VEVENT
 UID:31153640@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Cambridge City v Newmarket Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

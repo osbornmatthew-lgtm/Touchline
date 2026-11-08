@@ -25,18 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093284@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Tilbury Black v Hornchurch White
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-LOCATION:The Emr Stadium\, Chadfields\, Tilbury RM18 8NG
-DESCRIPTION:U18 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093284
+UID:31164916@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Harlow Town Hawks v Tilbury Black
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31164916
+END:VEVENT
+BEGIN:VEVENT
+UID:31167627@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Bowers & Pitsea v Tilbury Black
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Ford Sports and Social Club (Basildon)\, Gardiners Close\, Basild
+ on\, Essex SS14 3AN
+DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167627
 END:VEVENT
 BEGIN:VEVENT
 UID:30625585@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Holland Midweek v Tilbury Black (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

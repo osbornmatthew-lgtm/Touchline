@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31034957@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Fakenham Town v Wroxham
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-LOCATION:Daly Group Stadium (Fakenham Town FC)\, Clipbush Park Clipbush La
- ne\, Fakenham\, Norfolk NR21 8SW
-DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31034957
-END:VEVENT
-BEGIN:VEVENT
 UID:31153579@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Fakenham Town v Bury Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,10 +38,10 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153579
 END:VEVENT
 BEGIN:VEVENT
 UID:31103685@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Cambridge City v Fakenham Town (League Cup)
-DTSTART;TZID=Europe/London:20261122T100000
-DTEND;TZID=Europe/London:20261122T114000
+DTSTART;TZID=Europe/London:20261122T103000
+DTEND;TZID=Europe/London:20261122T121000
 LOCATION:Cambridge City Football Club\, Cambridge City Football Club West 
  Way\, Sawston\, Cambridgeshire CB22 3FG
 DESCRIPTION:League Cup. Check FA Full-Time for late changes.
@@ -60,22 +49,21 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103685
 END:VEVENT
 BEGIN:VEVENT
 UID:31130011@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Fakenham Town v Soham Town Rangers (Peter Cline Trophy)
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
+DTSTART;TZID=Europe/London:20261124T194500
+DTEND;TZID=Europe/London:20261124T212500
 LOCATION:Daly Group Stadium (Fakenham Town FC)\, Clipbush Park Clipbush La
  ne\, Fakenham\, Norfolk NR21 8SW
-DESCRIPTION:Peter Cline Trophy. Kick-off time not published yet. Check FA 
- Full-Time for late changes.
+DESCRIPTION:Peter Cline Trophy. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31130011
 END:VEVENT
 BEGIN:VEVENT
 UID:31066841@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Gorleston v Fakenham Town (Stuart Dracup Cup)
-DTSTART;TZID=Europe/London:20261115T133000
-DTEND;TZID=Europe/London:20261115T151000
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
 LOCATION:Gorleston Recreation Ground
 DESCRIPTION:Stuart Dracup Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31066841

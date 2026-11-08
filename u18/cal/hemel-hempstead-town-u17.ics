@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093150@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Enfield Borough (Blue) v Hemel Hempstead Town U17
 DTSTART;TZID=Europe/London:20261108T123000
 DTEND;TZID=Europe/London:20261108T141000
@@ -36,8 +36,32 @@ DESCRIPTION:U18 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093150
 END:VEVENT
 BEGIN:VEVENT
+UID:31164894@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Cheshunt Ambers v Hemel Hempstead Town U17
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
+ ross\, Hertfordshire EN8 8RU
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31164894
+END:VEVENT
+BEGIN:VEVENT
+UID:31167588@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Hemel Hempstead Town U17 v London Lions
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
+ ordshire HP2 4HW
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167588
+END:VEVENT
+BEGIN:VEVENT
 UID:30183700@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Cheshunt Ambers v Hemel Hempstead Town U17 (Hertfordshire FA U18 B
  oys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000

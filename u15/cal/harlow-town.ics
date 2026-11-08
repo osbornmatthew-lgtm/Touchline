@@ -26,19 +26,40 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093061@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Springfield v Harlow Town
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;TZID=Europe/London:20261108T123000
+DTEND;TZID=Europe/London:20261108T141000
 LOCATION:Springfield Hall Park\, Springfield Hall Park\, Car Park Arun Clo
  se\, Chelmsford\, Essex CM1 7QE
-DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DESCRIPTION:U15 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093061
 END:VEVENT
 BEGIN:VEVENT
+UID:31166309@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Takeley v Harlow Town
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166309
+END:VEVENT
+BEGIN:VEVENT
+UID:31166930@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Harlow Town v AFC Sudbury
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166930
+END:VEVENT
+BEGIN:VEVENT
 UID:30617218@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Little Oakley v Harlow Town (Essex Rosser U15 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

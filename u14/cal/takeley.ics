@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31107322@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Takeley v St Margaretsbury
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -38,19 +38,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107322
 END:VEVENT
 BEGIN:VEVENT
 UID:31103357@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Harpenden Town v Takeley (League Cup)
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T110000
+DTEND;TZID=Europe/London:20261129T124000
 LOCATION:Roundwood Park School\, Roundwood Park\, Harpenden\, Hertfordshir
  e AL5 3AE
-DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
- e for late changes.
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103357
 END:VEVENT
 BEGIN:VEVENT
 UID:31055657@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Harlow Town v Takeley (Peter Cline Trophy)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
@@ -59,13 +58,15 @@ DESCRIPTION:Peter Cline Trophy. Kick-off time not published yet. Check FA
 URL:https://fulltime.thefa.com/displayFixture.html?id=31055657
 END:VEVENT
 BEGIN:VEVENT
-UID:31000306@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Witham Town v Takeley (Essex Andrews U14 Cup)
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Lift New Rickstones\, Conrad Road\, Witham\, Essex CM8 2SD
-DESCRIPTION:Essex Andrews U14 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31000306
+UID:31186739@touchline-eja-u14
+DTSTAMP:20261108T145549Z
+SUMMARY:Hashtag United v Takeley (Essex Andrews U14 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Forest Glade Sports Ground\, Barleylands Road\, Billericay CM11 2
+ UD
+DESCRIPTION:Essex Andrews U14 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31186739
 END:VEVENT
 END:VCALENDAR

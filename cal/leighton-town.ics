@@ -25,37 +25,51 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31030406@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Real Bedford v Leighton Town
-DTSTART;TZID=Europe/London:20261108T110000
-DTEND;TZID=Europe/London:20261108T124000
-LOCATION:Bedford Academy\, Mile Road\, Bedford MK42 9TR
-DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31030406
-END:VEVENT
-BEGIN:VEVENT
 UID:31100798@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Bedford Town v Leighton Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Bedford Town Football Club (The Eyrie)\, Meadow Lane\, Cardington
+ \, Bedford MK44 3LW
+DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100798
 END:VEVENT
 BEGIN:VEVENT
-UID:30960991@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Leighton Town v Baldock Town (RT Litho Cup)
-DTSTART;TZID=Europe/London:20261030T193000
-DTEND;TZID=Europe/London:20261030T211000
-DESCRIPTION:RT Litho Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30960991
+UID:30863828@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Leighton Town v Eynesbury Rovers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30863828
+END:VEVENT
+BEGIN:VEVENT
+UID:31167232@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:LGCE v Leighton Town
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Letchworth Eagles FC (Pixmore Pitches)\, Baldock Road\, Letchwort
+ h Garden City\, Hertfordshire SG6 2EN
+DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167232
+END:VEVENT
+BEGIN:VEVENT
+UID:31144846@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Leighton Town v London Lions (RT Litho Cup)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31144846
 END:VEVENT
 BEGIN:VEVENT
 UID:31016118@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Rayleigh Town v Leighton Town (Chairman's Cup)
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -67,7 +81,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31016118
 END:VEVENT
 BEGIN:VEVENT
 UID:31066251@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Wootton Blue Cross v Leighton Town (Under 16 Youth Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000

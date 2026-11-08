@@ -25,31 +25,31 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988028@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Fakenham Town v Mildenhall Town
-DTSTART;TZID=Europe/London:20261108T120000
-DTEND;TZID=Europe/London:20261108T134000
-LOCATION:Daly Group Stadium (Fakenham Town FC)\, Clipbush Park Clipbush La
- ne\, Fakenham\, Norfolk NR21 8SW
-DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988028
-END:VEVENT
-BEGIN:VEVENT
 UID:31100628@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:AFC Sudbury v Mildenhall Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
 LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
  7HN
-DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100628
 END:VEVENT
 BEGIN:VEVENT
+UID:31162102@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Mildenhall Town v Mulbarton Wanderers
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Mildenhall Hub\, Mildenhall Hub\, Mildenhall Leisure Centre Sheld
+ rick Way\, Mildenhall\, Suffolk IP28 7JX
+DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162102
+END:VEVENT
+BEGIN:VEVENT
 UID:31153385@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Harlow Town v Mildenhall Town (League Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -61,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153385
 END:VEVENT
 BEGIN:VEVENT
 UID:30955140@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Fakenham Town v Mildenhall Town (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261110T193000
 DTEND;TZID=Europe/London:20261110T211000

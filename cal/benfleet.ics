@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093068@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Bowers & Pitsea v Benfleet
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
- \, Basildon\, Essex SS13 2BE
-DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093068
-END:VEVENT
-BEGIN:VEVENT
 UID:31094403@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Heybridge Swifts v Benfleet
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -45,5 +34,25 @@ LOCATION:Heybridge Swifts Football Club\, Scraley Road\, Heybridge\, Maldo
  n\, Essex CM9 8FJ
 DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31094403
+END:VEVENT
+BEGIN:VEVENT
+UID:31162624@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Benfleet v Billericay Town
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162624
+END:VEVENT
+BEGIN:VEVENT
+UID:31167387@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Benfleet v Bowers & Pitsea
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167387
 END:VEVENT
 END:VCALENDAR

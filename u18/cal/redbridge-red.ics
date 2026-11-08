@@ -25,25 +25,47 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31106493@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Redbridge Red v Aveley Millers
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+UID:31164919@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Redbridge Red v Brentwood Town Alliance
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
 DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31106493
+URL:https://fulltime.thefa.com/displayFixture.html?id=31164919
+END:VEVENT
+BEGIN:VEVENT
+UID:31164948@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Harlow Town Hawks v Redbridge Red
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31164948
 END:VEVENT
 BEGIN:VEVENT
 UID:31093558@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Rayleigh Town Yellow v Redbridge Red
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
 LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
  ssex SS6 9DT
 DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093558
+END:VEVENT
+BEGIN:VEVENT
+UID:31186455@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Redbridge Red v Billericay Town (Essex Pelly U18 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:The TechSoc.com Stadium\, Station Road\, Barkingside\, Ilford IG6
+  1NB
+DESCRIPTION:Essex Pelly U18 Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31186455
 END:VEVENT
 END:VCALENDAR

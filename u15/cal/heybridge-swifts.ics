@@ -25,19 +25,32 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093063@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:Takeley v Heybridge Swifts
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
- rlow\, Essex CM17 9LX
-DESCRIPTION:U15 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093063
+UID:31166306@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:AFC Pegasus Colchester v Heybridge Swifts
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Shrub End Community and Sports Centre\, Shrub End Community and S
+ ports Centre Boadicea Way\, Colchester\, Essex CO2 9BG
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166306
+END:VEVENT
+BEGIN:VEVENT
+UID:31166932@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Heybridge Swifts v Chelmsford City
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Heybridge Swifts Football Club\, Scraley Road\, Heybridge\, Maldo
+ n\, Essex CM9 8FJ
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166932
 END:VEVENT
 BEGIN:VEVENT
 UID:31029814@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Heybridge Swifts v AFC Pegasus Colchester (Peter Peters Shield)
 DTSTART;TZID=Europe/London:20261110T194500
 DTEND;TZID=Europe/London:20261110T212500
@@ -48,14 +61,13 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31029814
 END:VEVENT
 BEGIN:VEVENT
 UID:30617213@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:AFC Pegasus Colchester v Heybridge Swifts (Essex Rosser U15 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-LOCATION:Powerleague (Colchester)\, Sheepen Road\, Colchester\, Essex CO3 
- 3LE
-DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Shrub End Community and Sports Centre\, Shrub End Community and S
+ ports Centre Boadicea Way\, Colchester\, Essex CO2 9BG
+DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30617213
 END:VEVENT
 END:VCALENDAR

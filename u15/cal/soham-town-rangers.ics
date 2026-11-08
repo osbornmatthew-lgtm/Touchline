@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31091975@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:St Ives Town v Soham Town Rangers
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31091975
-END:VEVENT
-BEGIN:VEVENT
 UID:31099889@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Soham Town Rangers v Histon
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -44,5 +34,37 @@ LOCATION:Soham Village College\, Sand Street\, Soham\, Ely\, Cambridgeshir
  e CB7 5AA
 DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31099889
+END:VEVENT
+BEGIN:VEVENT
+UID:31161596@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Saffron Walden v Soham Town Rangers
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Lime Avenue Playing Fields\, Lime Avenue\, Saffron Walden\, Essex
+  CB10 2DL
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31161596
+END:VEVENT
+BEGIN:VEVENT
+UID:31166797@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Soham Town Rangers v Godmanchester Rovers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166797
+END:VEVENT
+BEGIN:VEVENT
+UID:31166839@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Soham Town Rangers v Saffron Walden
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166839
 END:VEVENT
 END:VCALENDAR

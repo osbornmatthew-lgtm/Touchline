@@ -25,18 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093054@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:Benfleet v May & Baker
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+UID:31166363@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Buckhurst Hill v Benfleet
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
+ g Lane\, Buckhurst Hill\, Essex IG9 6BJ
 DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093054
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166363
+END:VEVENT
+BEGIN:VEVENT
+UID:31166891@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Frenford v Benfleet
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166891
 END:VEVENT
 BEGIN:VEVENT
 UID:31034309@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Benfleet v Hannakins Farm (Essex Rosser U15 Cup)
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000

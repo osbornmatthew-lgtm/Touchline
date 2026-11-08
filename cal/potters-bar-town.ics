@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31075149@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Potters Bar Town v Bedford Town
-DTSTART;TZID=Europe/London:20261108T103000
-DTEND;TZID=Europe/London:20261108T121000
-DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31075149
-END:VEVENT
-BEGIN:VEVENT
 UID:30988106@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Potters Bar Town v Real Bedford
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -43,18 +34,38 @@ DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30988106
 END:VEVENT
 BEGIN:VEVENT
+UID:30811401@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Potters Bar Town v Baldock Town
+DTSTART;TZID=Europe/London:20261122T103000
+DTEND;TZID=Europe/London:20261122T121000
+DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30811401
+END:VEVENT
+BEGIN:VEVENT
+UID:31167231@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Bedford Town v Potters Bar Town
+DTSTART;TZID=Europe/London:20261206T100000
+DTEND;TZID=Europe/London:20261206T114000
+LOCATION:Bedford Town Football Club (The Eyrie)\, Meadow Lane\, Cardington
+ \, Bedford MK44 3LW
+DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167231
+END:VEVENT
+BEGIN:VEVENT
 UID:31103614@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Potters Bar Town v Redbridge (League Cup)
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
 DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
  e for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103614
 END:VEVENT
 BEGIN:VEVENT
 UID:30977621@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Ware v Potters Bar Town (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261111T194500
 DTEND;TZID=Europe/London:20261111T212500
@@ -65,7 +76,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30977621
 END:VEVENT
 BEGIN:VEVENT
 UID:30933149@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Ashwell Academicals v Potters Bar Town (Hertfordshire FA U16 Boys 
  Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T140000

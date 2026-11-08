@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31035012@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:St Neots Town v Soham Town Rangers
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-LOCATION:St Neots Town Football Club\, Rowley Park Kester Way\, St. Neots\
- , Cambridgeshire PE19 6SL
-DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31035012
-END:VEVENT
-BEGIN:VEVENT
 UID:31067509@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Soham Town Rangers v Mildenhall Town
 DTSTART;TZID=Europe/London:20261115T110000
 DTEND;TZID=Europe/London:20261115T124000
@@ -47,19 +36,8 @@ DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067509
 END:VEVENT
 BEGIN:VEVENT
-UID:31107262@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Newmarket Town v Soham Town Rangers
-DTSTART;TZID=Europe/London:20261122T100000
-DTEND;TZID=Europe/London:20261122T114000
-LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
-  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
-DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31107262
-END:VEVENT
-BEGIN:VEVENT
 UID:31103361@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:BSC v Soham Town Rangers (League Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -71,14 +49,13 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103361
 END:VEVENT
 BEGIN:VEVENT
 UID:31130011@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Fakenham Town v Soham Town Rangers (Peter Cline Trophy)
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
+DTSTART;TZID=Europe/London:20261124T194500
+DTEND;TZID=Europe/London:20261124T212500
 LOCATION:Daly Group Stadium (Fakenham Town FC)\, Clipbush Park Clipbush La
  ne\, Fakenham\, Norfolk NR21 8SW
-DESCRIPTION:Peter Cline Trophy. Kick-off time not published yet. Check FA 
- Full-Time for late changes.
+DESCRIPTION:Peter Cline Trophy. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31130011
 END:VEVENT
 END:VCALENDAR

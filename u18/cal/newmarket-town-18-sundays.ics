@@ -26,12 +26,33 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093686@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Newmarket Town 18 Sundays v BSC U17 Town
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:U18 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093686
+END:VEVENT
+BEGIN:VEVENT
+UID:31165047@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:St Ives Town U17 Black v Newmarket Town 18 Sundays
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
+LOCATION:Jubilee Park (Sapley)\, Kings Ripton Road\, Sapley\, Cambridgeshi
+ re PE28 2NR
+DESCRIPTION:U18 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165047
+END:VEVENT
+BEGIN:VEVENT
+UID:31167554@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Newmarket Town 18 Sundays v St Ives Town U17 Black
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U18 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167554
 END:VEVENT
 END:VCALENDAR

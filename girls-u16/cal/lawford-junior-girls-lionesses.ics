@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735341@touchline-girls-u16
-DTSTAMP:20261101T194834Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Torquespeed Girls Lionesses v Lawford Junior Girls Lionesses
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;TZID=Europe/London:20261108T140000
+DTEND;TZID=Europe/London:20261108T154000
 LOCATION:Leisure World Tiptree\, Maypole Road\, Tiptree\, Colchester\, Ess
  ex CO5 0EW
-DESCRIPTION:U16 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U16 B league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735341
 END:VEVENT
 BEGIN:VEVENT
 UID:30735379@touchline-girls-u16
-DTSTAMP:20261101T194834Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Lawford Junior Girls Lionesses v Romford Town Flyers Women
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -50,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735379
 END:VEVENT
 BEGIN:VEVENT
 UID:30735386@touchline-girls-u16
-DTSTAMP:20261101T194834Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Trinity Girls Lionesses v Lawford Junior Girls Lionesses
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -62,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735386
 END:VEVENT
 BEGIN:VEVENT
 UID:30735387@touchline-girls-u16
-DTSTAMP:20261101T194834Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Leigh Ramblers Girls Blue v Lawford Junior Girls Lionesses
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -72,7 +71,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735387
 END:VEVENT
 BEGIN:VEVENT
 UID:30735393@touchline-girls-u16
-DTSTAMP:20261101T194834Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Lawford Junior Girls Lionesses v Thundersley Rovers Girls Lionesse
  s
 DTSTART;VALUE=DATE:20261213
@@ -85,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735393
 END:VEVENT
 BEGIN:VEVENT
 UID:30735344@touchline-girls-u16
-DTSTAMP:20261101T194834Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Lawford Junior Girls Lionesses v FC Redwing Girls Buzzards
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -97,7 +96,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735344
 END:VEVENT
 BEGIN:VEVENT
 UID:30735365@touchline-girls-u16
-DTSTAMP:20261101T194834Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Lawford Junior Girls Lionesses v Galleywood Girls Magpies
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -109,7 +108,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735365
 END:VEVENT
 BEGIN:VEVENT
 UID:30735348@touchline-girls-u16
-DTSTAMP:20261101T194834Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Romford Town Flyers Women v Lawford Junior Girls Lionesses
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -119,7 +118,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735348
 END:VEVENT
 BEGIN:VEVENT
 UID:30735375@touchline-girls-u16
-DTSTAMP:20261101T194834Z
+DTSTAMP:20261108T145549Z
 SUMMARY:FC Redwing Girls Buzzards v Lawford Junior Girls Lionesses
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222

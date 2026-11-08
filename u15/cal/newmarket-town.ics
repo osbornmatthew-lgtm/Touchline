@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31099886@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Godmanchester Rovers v Newmarket Town
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -37,8 +37,30 @@ DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31099886
 END:VEVENT
 BEGIN:VEVENT
+UID:31166796@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Newmarket Town v Eynesbury Rovers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166796
+END:VEVENT
+BEGIN:VEVENT
+UID:30985368@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Newmarket Town v Histon
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
+  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30985368
+END:VEVENT
+BEGIN:VEVENT
 UID:31051867@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Fakenham Town v Newmarket Town (Peter Peters Shield)
 DTSTART;TZID=Europe/London:20261118T194500
 DTEND;TZID=Europe/London:20261118T212500

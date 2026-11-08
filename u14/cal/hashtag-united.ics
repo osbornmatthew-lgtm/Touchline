@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067717@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Hashtag United v Concord Rangers
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -36,19 +36,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067717
 END:VEVENT
 BEGIN:VEVENT
 UID:31154560@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Leigh Ramblers v Hashtag United
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-LOCATION:Belfairs Park/Sports Ground\, Belfairs Park Eastwood Road North\,
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
+LOCATION:Belfairs Park Sports Ground\, Belfairs Park Eastwood Road North\,
   Leigh-On-Sea SS9 4LR
-DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DESCRIPTION:U14 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154560
 END:VEVENT
 BEGIN:VEVENT
 UID:31103360@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Saffron Walden v Hashtag United (League Cup)
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -59,13 +58,15 @@ DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103360
 END:VEVENT
 BEGIN:VEVENT
-UID:30559850@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Hashtag United v Leigh Ramblers (Essex Andrews U14 Cup)
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+UID:31186739@touchline-eja-u14
+DTSTAMP:20261108T145549Z
+SUMMARY:Hashtag United v Takeley (Essex Andrews U14 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Forest Glade Sports Ground\, Barleylands Road\, Billericay CM11 2
+ UD
 DESCRIPTION:Essex Andrews U14 Cup. Kick-off time not published yet. Check 
  FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30559850
+URL:https://fulltime.thefa.com/displayFixture.html?id=31186739
 END:VEVENT
 END:VCALENDAR

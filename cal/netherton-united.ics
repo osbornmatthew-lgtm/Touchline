@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100646@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Netherton United v Soham Town Rangers
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -34,8 +34,30 @@ DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100646
 END:VEVENT
 BEGIN:VEVENT
+UID:31165764@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:St Ives Town v Netherton United
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:St Ives Town Football Club\, Westwood Road\, St. Ives\, Cambridge
+ shire PE27 6DT
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165764
+END:VEVENT
+BEGIN:VEVENT
+UID:31167081@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Netherton United v Godmanchester Rovers
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167081
+END:VEVENT
+BEGIN:VEVENT
 UID:31067374@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Netherton United v May & Baker Eastbrook (Chairman's Cup)
 DTSTART;TZID=Europe/London:20261122T133000
 DTEND;TZID=Europe/London:20261122T151000
@@ -44,7 +66,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067374
 END:VEVENT
 BEGIN:VEVENT
 UID:31012476@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Netherton United v Rushden & Higham United (U16 Youth Cup)
 DTSTART;TZID=Europe/London:20261108T140000
 DTEND;TZID=Europe/London:20261108T154000

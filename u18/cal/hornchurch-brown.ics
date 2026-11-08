@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093273@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Hornchurch Brown v Woodford Town
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093273
-END:VEVENT
-BEGIN:VEVENT
 UID:31093598@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Hornchurch Brown v Redbridge Brown
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -45,8 +35,27 @@ DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093598
 END:VEVENT
 BEGIN:VEVENT
+UID:30984258@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Ryan Red v Hornchurch Brown
+DTSTART;TZID=Europe/London:20261122T114500
+DTEND;TZID=Europe/London:20261122T132500
+DESCRIPTION:U18 Brown league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30984258
+END:VEVENT
+BEGIN:VEVENT
+UID:31167600@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Hornchurch Brown v Barking
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167600
+END:VEVENT
+BEGIN:VEVENT
 UID:30625579@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Hornchurch Brown v Chelmsford City Whites (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

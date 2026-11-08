@@ -25,18 +25,59 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:30863737@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Broadfields United Sundays v London Lions
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30863737
+END:VEVENT
+BEGIN:VEVENT
+UID:31165033@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Broadfields United Sundays v Wingate & Finchley
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165033
+END:VEVENT
+BEGIN:VEVENT
+UID:31167587@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Broadfields United Sundays v Enfield Borough (Blue)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Capital City College (Enfield Centre)\, 73 Hertford Road\, Enfiel
+ d EN3 5HA
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167587
+END:VEVENT
+BEGIN:VEVENT
 UID:31093627@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Broadfields United Sundays v Cheshunt Ambers
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
 DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
  l-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093627
 END:VEVENT
 BEGIN:VEVENT
+UID:30931925@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Broadfields United Sundays v Rayleigh Town Blue (League Cup)
+DTSTART;TZID=Europe/London:20261115T003000
+DTEND;TZID=Europe/London:20261115T021000
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30931925
+END:VEVENT
+BEGIN:VEVENT
 UID:31066704@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Broadfields United Sundays v Northwood White (Middlesex FA Under-1
  8 Cup)
 DTSTART;TZID=Europe/London:20261108T103000

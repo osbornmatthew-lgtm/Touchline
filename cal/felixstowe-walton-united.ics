@@ -25,13 +25,34 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31091462@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Felixstowe & Walton United v Leiston
-DTSTART;TZID=Europe/London:20261108T103000
-DTEND;TZID=Europe/London:20261108T121000
-LOCATION:Inspire Suffolk\, Lindbergh Road\, Ipswich\, Suffolk IP3 9QX
-DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31091462
+UID:31162101@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Felixstowe & Walton United v Wroxham
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162101
+END:VEVENT
+BEGIN:VEVENT
+UID:31166043@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Aylsham v Felixstowe & Walton United
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Ayfc
+DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166043
+END:VEVENT
+BEGIN:VEVENT
+UID:31167046@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Felixstowe & Walton United v AFC Sudbury
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167046
 END:VEVENT
 END:VCALENDAR

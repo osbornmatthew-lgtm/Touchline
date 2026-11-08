@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31029946@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:Histon v Godmanchester Rovers
-DTSTART;TZID=Europe/London:20261108T103000
-DTEND;TZID=Europe/London:20261108T121000
-LOCATION:Comberton Village College\, West Street\, Comberton\, Cambridge\,
-  Cambridgeshire CB23 7DU
-DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31029946
-END:VEVENT
-BEGIN:VEVENT
 UID:31099889@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Soham Town Rangers v Histon
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -45,5 +34,27 @@ LOCATION:Soham Village College\, Sand Street\, Soham\, Ely\, Cambridgeshir
  e CB7 5AA
 DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31099889
+END:VEVENT
+BEGIN:VEVENT
+UID:31166794@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Cambridge City v Histon
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166794
+END:VEVENT
+BEGIN:VEVENT
+UID:30985368@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Newmarket Town v Histon
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
+  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30985368
 END:VEVENT
 END:VCALENDAR

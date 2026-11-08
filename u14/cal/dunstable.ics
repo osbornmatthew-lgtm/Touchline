@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31035050@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Dunstable v LGCE
-DTSTART;TZID=Europe/London:20261108T113000
-DTEND;TZID=Europe/London:20261108T131000
-LOCATION:Creasey Park Community Football Centre\, Creasey Park Drive\, Dun
- stable LU6 1BB
-DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31035050
-END:VEVENT
-BEGIN:VEVENT
 UID:31107237@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Netherton United v Dunstable
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -45,17 +34,28 @@ DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107237
 END:VEVENT
 BEGIN:VEVENT
-UID:31067515@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+UID:31179636@touchline-eja-u14
+DTSTAMP:20261108T145549Z
 SUMMARY:Godmanchester Rovers v Dunstable
-DTSTART;TZID=Europe/London:20261122T120000
-DTEND;TZID=Europe/London:20261122T134000
-DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067515
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31179636
+END:VEVENT
+BEGIN:VEVENT
+UID:31165121@touchline-eja-u14
+DTSTAMP:20261108T145549Z
+SUMMARY:Netherton United v Dunstable (League Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
+ e for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165121
 END:VEVENT
 BEGIN:VEVENT
 UID:31065824@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Dunstable v Kempston Rovers Colts (Under 14 Youth Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000

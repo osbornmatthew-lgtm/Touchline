@@ -25,23 +25,13 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31035312@touchline-eja-u13
-DTSTAMP:20261105T075030Z
-SUMMARY:Hertford Heath v Wingate & Finchley
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31035312
-END:VEVENT
-BEGIN:VEVENT
-UID:31067251@touchline-eja-u13
-DTSTAMP:20261105T075030Z
-SUMMARY:Hertford Heath v Cheshunt
+UID:31180940@touchline-eja-u13
+DTSTAMP:20261108T145548Z
+SUMMARY:Hertford Town v Hertford Heath
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067251
+URL:https://fulltime.thefa.com/displayFixture.html?id=31180940
 END:VEVENT
 END:VCALENDAR

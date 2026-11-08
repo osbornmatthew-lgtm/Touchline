@@ -25,31 +25,54 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093062@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:Stanway Rovers v Haverhill Rovers EJA
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
+UID:31162063@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:AFC Sudbury v Stanway Rovers
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
+ 7HN
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162063
+END:VEVENT
+BEGIN:VEVENT
+UID:31166308@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Chelmsford City v Stanway Rovers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Melbourne Park\, Salerno Way\, Chelmsford\, Essex CM1 2EH
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166308
+END:VEVENT
+BEGIN:VEVENT
+UID:31166933@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Stanway Rovers v AFC Pegasus Colchester
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
 LOCATION:Stanway School\, Winstree Road\, Stanway\, Colchester\, Essex CO3
   0QA
-DESCRIPTION:U15 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093062
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166933
 END:VEVENT
 BEGIN:VEVENT
 UID:30617220@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Saffron Walden v Stanway Rovers (Essex Rosser U15 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T130000
+DTEND;TZID=Europe/London:20261115T144000
 LOCATION:Saffron Walden County High Sports Centre\, Audley End Road\, Saff
  ron Walden\, Essex CB11 4UH
-DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30617220
 END:VEVENT
 BEGIN:VEVENT
 UID:30617221@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Ongar Juniors v Stanway Rovers (Essex Rosser U15 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

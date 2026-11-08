@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30774081@touchline-girls-u13
-DTSTAMP:20261101T194728Z
-SUMMARY:South Woodham Ferrers United Women L v Southminster United Girls
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
- CM3 5GU
-DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30774081
-END:VEVENT
-BEGIN:VEVENT
 UID:30774082@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:BSC FC Cyans v South Woodham Ferrers United Women L
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -49,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774082
 END:VEVENT
 BEGIN:VEVENT
 UID:30774141@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Leigh Lionesses Spirit v South Woodham Ferrers United Women L
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -60,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774141
 END:VEVENT
 BEGIN:VEVENT
 UID:30774153@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:South Woodham Ferrers United Women L v BSC FC Cyans
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -72,7 +60,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774153
 END:VEVENT
 BEGIN:VEVENT
 UID:30774102@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Great Wakering Colts Vikings v South Woodham Ferrers United Women 
  L
 DTSTART;VALUE=DATE:20261206
@@ -85,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774102
 END:VEVENT
 BEGIN:VEVENT
 UID:30774110@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:South Woodham Ferrers United Women L v Harwich & Parkeston Girls
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -97,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774110
 END:VEVENT
 BEGIN:VEVENT
 UID:30774122@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:South Woodham Ferrers United Women L v Herongate Athletic Herons
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -109,7 +97,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774122
 END:VEVENT
 BEGIN:VEVENT
 UID:30774128@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:South Woodham Ferrers United Women L v Perry Street Girls Tigers
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -121,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774128
 END:VEVENT
 BEGIN:VEVENT
 UID:30774147@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Southminster United Girls v South Woodham Ferrers United Women L
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -133,7 +121,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774147
 END:VEVENT
 BEGIN:VEVENT
 UID:30774042@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Harwich & Parkeston Girls v South Woodham Ferrers United Women L
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -145,7 +133,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774042
 END:VEVENT
 BEGIN:VEVENT
 UID:30774038@touchline-girls-u13
-DTSTAMP:20261101T194728Z
+DTSTAMP:20261108T145549Z
 SUMMARY:South Woodham Ferrers United Women L v Great Wakering Colts Viking
  s
 DTSTART;VALUE=DATE:20270307

@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093092@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Newmarket Town v Cambridge City
-DTSTART;TZID=Europe/London:20261108T123000
-DTEND;TZID=Europe/London:20261108T141000
-LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
-  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
-DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093092
-END:VEVENT
-BEGIN:VEVENT
 UID:31100644@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Godmanchester Rovers v Newmarket Town
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -46,5 +35,39 @@ LOCATION:Godmanchester Rovers FC\, Godmanchester Rovers FC The Peter Hodso
   2LQ
 DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100644
+END:VEVENT
+BEGIN:VEVENT
+UID:31165763@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Newmarket Town v Histon
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165763
+END:VEVENT
+BEGIN:VEVENT
+UID:31167083@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:St Ives Town v Newmarket Town
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:St Ives Town Football Club\, Westwood Road\, St. Ives\, Cambridge
+ shire PE27 6DT
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167083
+END:VEVENT
+BEGIN:VEVENT
+UID:31162111@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Cambridge City v Newmarket Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Cambridge City Football Club\, Cambridge City Football Club West 
+ Way\, Sawston\, Cambridgeshire CB22 3FG
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162111
 END:VEVENT
 END:VCALENDAR

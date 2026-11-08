@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988117@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Barking v Redbridge
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-LOCATION:Mayesbrook Park\, Lodge Avenue\, Dagenham RM8 2JA
-DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988117
-END:VEVENT
-BEGIN:VEVENT
 UID:31100764@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Redbridge v Ilford
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -45,23 +35,44 @@ DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100764
 END:VEVENT
 BEGIN:VEVENT
-UID:31103614@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Potters Bar Town v Redbridge (League Cup)
+UID:31165624@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Redbridge v Hackney Wick
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165624
+END:VEVENT
+BEGIN:VEVENT
+UID:31165619@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Redbridge v Ryan
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165619
+END:VEVENT
+BEGIN:VEVENT
+UID:31103614@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Potters Bar Town v Redbridge (League Cup)
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
 DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
  e for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103614
 END:VEVENT
 BEGIN:VEVENT
-UID:30986828@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Redbridge v May & Baker Eastbrook (RT Litho Cup)
-DTSTART;TZID=Europe/London:20261030T194500
-DTEND;TZID=Europe/London:20261030T212500
-LOCATION:Parsloes Park Bobby Moore Centre
-DESCRIPTION:RT Litho Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30986828
+UID:31162598@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Whitestar v Redbridge (London Under 16 Boys Sunday Cup)
+DTSTART;TZID=Europe/London:20261206T101000
+DTEND;TZID=Europe/London:20261206T115000
+LOCATION:Pymmes Park - N18 2ug
+DESCRIPTION:London Under 16 Boys Sunday Cup. Check FA Full-Time for late c
+ hanges.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162598
 END:VEVENT
 END:VCALENDAR

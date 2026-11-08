@@ -25,26 +25,48 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093063@touchline-eja-u15
-DTSTAMP:20261106T223026Z
-SUMMARY:Takeley v Heybridge Swifts
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
+UID:31162065@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Takeley v AFC Pegasus Colchester
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
 LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
  rlow\, Essex CM17 9LX
-DESCRIPTION:U15 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093063
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162065
+END:VEVENT
+BEGIN:VEVENT
+UID:31166309@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Takeley v Harlow Town
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166309
+END:VEVENT
+BEGIN:VEVENT
+UID:31166931@touchline-eja-u15
+DTSTAMP:20261108T145549Z
+SUMMARY:Haverhill Rovers EJA v Takeley
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166931
 END:VEVENT
 BEGIN:VEVENT
 UID:30617216@touchline-eja-u15
-DTSTAMP:20261106T223026Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Takeley v Great Bradfords (Essex Rosser U15 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
 LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
  rlow\, Essex CM17 9LX
-DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30617216
 END:VEVENT
 END:VCALENDAR

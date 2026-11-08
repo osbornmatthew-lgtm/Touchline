@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067644@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:May & Baker Eastbrook v Frenford
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067644
 END:VEVENT
 BEGIN:VEVENT
 UID:31107263@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Hackney Wick v Frenford
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107263
 END:VEVENT
 BEGIN:VEVENT
 UID:31154453@touchline-eja-u14
-DTSTAMP:20261105T075039Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Frenford v Woodford Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -57,15 +57,15 @@ DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154453
 END:VEVENT
 BEGIN:VEVENT
-UID:31001373@touchline-eja-u14
-DTSTAMP:20261105T075039Z
-SUMMARY:Aveley v Frenford (Essex Andrews U14 Cup)
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
- ndon RM15 4UA
+UID:31186279@touchline-eja-u14
+DTSTAMP:20261108T145549Z
+SUMMARY:Frenford v Aveley (Essex Andrews U14 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Frenford Youth Club\, Jack Carter Centre The Drive\, Ilford IG1 3
+ PS
 DESCRIPTION:Essex Andrews U14 Cup. Kick-off time not published yet. Check 
  FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31001373
+URL:https://fulltime.thefa.com/displayFixture.html?id=31186279
 END:VEVENT
 END:VCALENDAR

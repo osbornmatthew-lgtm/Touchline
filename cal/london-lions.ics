@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093102@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Wormley Rovers v London Lions
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093102
-END:VEVENT
-BEGIN:VEVENT
 UID:31100731@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Wingate & Finchley v London Lions
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -44,12 +35,43 @@ DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100731
 END:VEVENT
 BEGIN:VEVENT
+UID:31162120@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:London Lions v Edgware & Kingsbury
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31162120
+END:VEVENT
+BEGIN:VEVENT
+UID:31167141@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Norsemen v London Lions
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167141
+END:VEVENT
+BEGIN:VEVENT
+UID:31144846@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Leighton Town v London Lions (RT Litho Cup)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31144846
+END:VEVENT
+BEGIN:VEVENT
 UID:31154760@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:London Lions v Lewisham Borough (Community) Youth FC U1 (London Un
  der 16 Boys Sunday Cup)
-DTSTART;TZID=Europe/London:20261101T101000
-DTEND;TZID=Europe/London:20261101T115000
+DTSTART;TZID=Europe/London:20261122T100000
+DTEND;TZID=Europe/London:20261122T114000
 DESCRIPTION:London Under 16 Boys Sunday Cup. Check FA Full-Time for late c
  hanges.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154760

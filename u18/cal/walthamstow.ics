@@ -25,17 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30863736@touchline-eja-u18
-DTSTAMP:20261106T230053Z
-SUMMARY:Walthamstow v Ilford
-DTSTART;TZID=Europe/London:20261108T103000
-DTEND;TZID=Europe/London:20261108T121000
-DESCRIPTION:U18 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30863736
+UID:31030467@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Woodford Town v Walthamstow
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Trinity Catholic High School (Whitbread Sports Ground)\, Whitbrea
+ d Sports Ground\, Pavilion Durham Avenue\, Woodford Green IG8 7NJ
+DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030467
+END:VEVENT
+BEGIN:VEVENT
+UID:31165025@touchline-eja-u18
+DTSTAMP:20261108T145549Z
+SUMMARY:Walthamstow v Ryan Red
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165025
 END:VEVENT
 BEGIN:VEVENT
 UID:30894894@touchline-eja-u18
-DTSTAMP:20261106T230053Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Walthamstow v Enfield Borough (League Cup)
 DTSTART;TZID=Europe/London:20261115T003000
 DTEND;TZID=Europe/London:20261115T021000

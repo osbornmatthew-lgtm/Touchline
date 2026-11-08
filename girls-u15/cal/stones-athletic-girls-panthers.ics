@@ -25,31 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30735047@touchline-girls-u15
-DTSTAMP:20261101T194804Z
-SUMMARY:Stones Athletic Girls Panthers v Byron Red Star Girls Panthers
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
-DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30735047
-END:VEVENT
-BEGIN:VEVENT
 UID:30735049@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Takeley Lionesses v Stones Athletic Girls Panthers
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
 LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
  rlow\, Essex CM17 9LX
-DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U15 C league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735049
 END:VEVENT
 BEGIN:VEVENT
 UID:30735056@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Stones Athletic Girls Panthers v Baddow Spartak Girls Pumas
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -60,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735056
 END:VEVENT
 BEGIN:VEVENT
 UID:30735059@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Baddow Spartak Girls Pumas v Stones Athletic Girls Panthers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -70,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735059
 END:VEVENT
 BEGIN:VEVENT
 UID:30735066@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Stones Athletic Girls Panthers v Byron Red Star Girls Pumas
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -81,7 +69,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735066
 END:VEVENT
 BEGIN:VEVENT
 UID:30735070@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Great Danes Girls v Stones Athletic Girls Panthers
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -91,7 +79,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735070
 END:VEVENT
 BEGIN:VEVENT
 UID:30735016@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Loughton Town Violets v Stones Athletic Girls Panthers
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -103,7 +91,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735016
 END:VEVENT
 BEGIN:VEVENT
 UID:30735086@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Stones Athletic Girls Panthers v Romford Town Flyers Women
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -114,7 +102,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735086
 END:VEVENT
 BEGIN:VEVENT
 UID:30735092@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:South Woodham Ferrers United Women S v Stones Athletic Girls Panth
  ers
 DTSTART;VALUE=DATE:20270124
@@ -127,7 +115,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735092
 END:VEVENT
 BEGIN:VEVENT
 UID:30735102@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Stones Athletic Girls Panthers v Corinthians Girls
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -138,7 +126,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735102
 END:VEVENT
 BEGIN:VEVENT
 UID:30735103@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Byron Red Star Girls Panthers v Stones Athletic Girls Panthers
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -149,7 +137,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735103
 END:VEVENT
 BEGIN:VEVENT
 UID:30735111@touchline-girls-u15
-DTSTAMP:20261101T194804Z
+DTSTAMP:20261108T145549Z
 SUMMARY:Stones Athletic Girls Panthers v Takeley Lionesses
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222

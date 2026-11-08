@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093102@touchline-eja
-DTSTAMP:20261101T191455Z
-SUMMARY:Wormley Rovers v London Lions
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093102
-END:VEVENT
-BEGIN:VEVENT
 UID:30896862@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Norsemen v Wormley Rovers
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -45,11 +36,21 @@ DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896862
 END:VEVENT
 BEGIN:VEVENT
+UID:31165695@touchline-eja
+DTSTAMP:20261108T145548Z
+SUMMARY:Edgware & Kingsbury v Wormley Rovers
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165695
+END:VEVENT
+BEGIN:VEVENT
 UID:31116221@touchline-eja
-DTSTAMP:20261101T191455Z
+DTSTAMP:20261108T145548Z
 SUMMARY:Wormley Rovers v Needham Market (Chairman's Cup)
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
 DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31116221
