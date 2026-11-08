@@ -1,10 +1,12 @@
 {
  "venue_misses": [
-  "Ark Academy Bridge Road - Ha9 9jp"
+  "Ark Academy Bridge Road - Ha9 9jp",
+  "Elms Lane Playing Fields - Se6 4lb",
+  "St Pauls Academy, Se2 9px"
  ],
- "last_check": "2026-11-06T23:00:09+00:00",
- "last_full": "2026-10-26T07:50:09+00:00",
- "updated": "Sunday 1 November 2026",
- "fetched": "Friday 6 November, 22:30",
- "published_at": "2026-11-06T22:30:09+00:00"
+ "last_check": "2026-11-08T14:55:48+00:00",
+ "last_full": "2026-11-08T14:55:48+00:00",
+ "updated": "Sunday 8 November 2026",
+ "fetched": "Sunday 8 November, 14:55",
+ "published_at": "2026-11-08T14:55:48+00:00"
 }
