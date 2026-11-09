@@ -26,29 +26,27 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31099894@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hemel Hempstead Town v Dunstable
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T134500
+DTEND;TZID=Europe/London:20261115T152500
 LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
  ordshire HP2 4HW
-DESCRIPTION:U15 Brown league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U15 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31099894
 END:VEVENT
 BEGIN:VEVENT
 UID:31161676@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Shefford Saints v Dunstable
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:U15 Brown league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261122T100000
+DTEND;TZID=Europe/London:20261122T114000
+DESCRIPTION:U15 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31161676
 END:VEVENT
 BEGIN:VEVENT
 UID:31166851@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Dunstable v Colney Heath
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -58,7 +56,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166851
 END:VEVENT
 BEGIN:VEVENT
 UID:31066928@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ampthill Town v Dunstable (Under 15 Youth Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000

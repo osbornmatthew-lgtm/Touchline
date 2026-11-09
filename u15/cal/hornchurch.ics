@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31162087@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hornchurch v Hutton
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162087
 END:VEVENT
 BEGIN:VEVENT
 UID:31093066@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hornchurch v Leigh Ramblers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -45,15 +45,24 @@ DESCRIPTION:U15 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093066
 END:VEVENT
 BEGIN:VEVENT
+UID:31191005@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Hornchurch v Bowers & Pitsea
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U15 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191005
+END:VEVENT
+BEGIN:VEVENT
 UID:31034149@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Runwell Sports v Hornchurch (Essex Rosser U15 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
 LOCATION:Runwell Sports Club\, St. Lukes Way\, Runwell\, Wickford\, Essex 
  SS11 7QA
-DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31034149
 END:VEVENT
 END:VCALENDAR

@@ -26,17 +26,16 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067717@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hashtag United v Concord Rangers
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T123000
+DTEND;TZID=Europe/London:20261115T141000
+DESCRIPTION:U14 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067717
 END:VEVENT
 BEGIN:VEVENT
 UID:31154560@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Leigh Ramblers v Hashtag United
 DTSTART;TZID=Europe/London:20261129T100000
 DTEND;TZID=Europe/London:20261129T114000
@@ -46,8 +45,18 @@ DESCRIPTION:U14 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154560
 END:VEVENT
 BEGIN:VEVENT
+UID:31187657@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Hashtag United v Tilbury
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187657
+END:VEVENT
+BEGIN:VEVENT
 UID:31103360@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Saffron Walden v Hashtag United (League Cup)
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -59,7 +68,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103360
 END:VEVENT
 BEGIN:VEVENT
 UID:31186739@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hashtag United v Takeley (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

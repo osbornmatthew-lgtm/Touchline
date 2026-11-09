@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093075@touchline-eja
-DTSTAMP:20261108T145548Z
-SUMMARY:Baldock Town v LGCE
-DTSTART;TZID=Europe/London:20261108T133000
-DTEND;TZID=Europe/London:20261108T151000
-LOCATION:Lea Manor Recreation Centre\, Northwell Drive\, Luton LU3 3TL
-DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093075
-END:VEVENT
-BEGIN:VEVENT
 UID:31162594@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Real Bedford v LGCE
 DTSTART;TZID=Europe/London:20261122T150000
 DTEND;TZID=Europe/London:20261122T164000
@@ -46,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162594
 END:VEVENT
 BEGIN:VEVENT
 UID:31167232@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:LGCE v Leighton Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -55,5 +45,17 @@ LOCATION:Letchworth Eagles FC (Pixmore Pitches)\, Baldock Road\, Letchwort
 DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167232
+END:VEVENT
+BEGIN:VEVENT
+UID:30514941@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:LGCE v Baldock Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Letchworth Eagles FC (Pixmore Pitches)\, Baldock Road\, Letchwort
+ h Garden City\, Hertfordshire SG6 2EN
+DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30514941
 END:VEVENT
 END:VCALENDAR

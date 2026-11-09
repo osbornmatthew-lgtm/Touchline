@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31162063@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:AFC Sudbury v Stanway Rovers
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162063
 END:VEVENT
 BEGIN:VEVENT
 UID:31166308@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Chelmsford City v Stanway Rovers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166308
 END:VEVENT
 BEGIN:VEVENT
 UID:31166933@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Stanway Rovers v AFC Pegasus Colchester
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -60,8 +60,20 @@ DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166933
 END:VEVENT
 BEGIN:VEVENT
+UID:31190981@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Takeley v Stanway Rovers
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190981
+END:VEVENT
+BEGIN:VEVENT
 UID:30617220@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Saffron Walden v Stanway Rovers (Essex Rosser U15 Cup)
 DTSTART;TZID=Europe/London:20261115T130000
 DTEND;TZID=Europe/London:20261115T144000
@@ -72,14 +84,13 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30617220
 END:VEVENT
 BEGIN:VEVENT
 UID:30617221@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ongar Juniors v Stanway Rovers (Essex Rosser U15 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T103000
+DTEND;TZID=Europe/London:20261115T121000
 LOCATION:Fyfield Sports Academy\, Fyfield Business & Research Park Fyfield
   Road\, Ongar\, Essex CM5 0GN
-DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30617221
 END:VEVENT
 END:VCALENDAR

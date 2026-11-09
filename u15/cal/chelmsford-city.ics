@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31162064@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Haverhill Rovers EJA v Chelmsford City
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162064
 END:VEVENT
 BEGIN:VEVENT
 UID:31166308@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Chelmsford City v Stanway Rovers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166308
 END:VEVENT
 BEGIN:VEVENT
 UID:31166932@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Heybridge Swifts v Chelmsford City
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -58,8 +58,19 @@ DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166932
 END:VEVENT
 BEGIN:VEVENT
+UID:31190979@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Chelmsford City v AFC Pegasus Colchester
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+LOCATION:Melbourne Park\, Salerno Way\, Chelmsford\, Essex CM1 2EH
+DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190979
+END:VEVENT
+BEGIN:VEVENT
 UID:30617214@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Chelmsford City v Hutton (Essex Rosser U15 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

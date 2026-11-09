@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31094402@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hashtag United v Canvey Island
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31094402
 END:VEVENT
 BEGIN:VEVENT
 UID:31165480@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hashtag United v Concord Rangers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,8 +49,20 @@ DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31165480
 END:VEVENT
 BEGIN:VEVENT
+UID:31191151@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Billericay Town v Hashtag United
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
+ Essex CM12 9SA
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191151
+END:VEVENT
+BEGIN:VEVENT
 UID:31016122@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hashtag United v Ware (Chairman's Cup)
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -62,7 +74,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31016122
 END:VEVENT
 BEGIN:VEVENT
 UID:31185905@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hashtag United v Writtle Minors (Essex Cassels U16 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31166063@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Rayleigh Town v Concord Rangers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166063
 END:VEVENT
 BEGIN:VEVENT
 UID:31167019@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Brentwood Town v Rayleigh Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -49,8 +49,20 @@ DESCRIPTION:U15 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167019
 END:VEVENT
 BEGIN:VEVENT
+UID:31191007@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Rayleigh Town v Aveley
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
+ ssex SS6 9DT
+DESCRIPTION:U15 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191007
+END:VEVENT
+BEGIN:VEVENT
 UID:31034962@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:West Essex v Rayleigh Town (Essex Rosser U15 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100628@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:AFC Sudbury v Mildenhall Town
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31100628
 END:VEVENT
 BEGIN:VEVENT
 UID:31162102@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Mildenhall Town v Mulbarton Wanderers
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,20 +48,29 @@ DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31162102
 END:VEVENT
 BEGIN:VEVENT
+UID:31190749@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Felixstowe & Walton United v Mildenhall Town
+DTSTART;TZID=Europe/London:20261213T120000
+DTEND;TZID=Europe/London:20261213T134000
+LOCATION:Inspire Suffolk\, Lindbergh Road\, Ipswich\, Suffolk IP3 9QX
+DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190749
+END:VEVENT
+BEGIN:VEVENT
 UID:31153385@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Harlow Town v Mildenhall Town (League Cup)
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
 LOCATION:Harlow Town Football Club\, The Harlow Arena Elizabeth Way\, Harl
  ow\, Essex CM19 5BE
-DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
- e for late changes.
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153385
 END:VEVENT
 BEGIN:VEVENT
 UID:30955140@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Fakenham Town v Mildenhall Town (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261110T193000
 DTEND;TZID=Europe/London:20261110T211000

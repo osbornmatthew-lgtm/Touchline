@@ -26,12 +26,22 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31180940@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hertford Town v Hertford Heath
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31180940
+END:VEVENT
+BEGIN:VEVENT
+UID:31188106@touchline-eja-u13
+DTSTAMP:20261109T185221Z
+SUMMARY:Hertford Heath v Frenford
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31188106
 END:VEVENT
 END:VCALENDAR

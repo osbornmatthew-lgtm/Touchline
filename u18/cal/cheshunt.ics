@@ -25,28 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093275@touchline-eja-u18
-DTSTAMP:20261108T145549Z
-SUMMARY:Enfield Town v Cheshunt
-DTSTART;TZID=Europe/London:20261108T123000
-DTEND;TZID=Europe/London:20261108T141000
-DESCRIPTION:U18 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093275
-END:VEVENT
-BEGIN:VEVENT
 UID:31093583@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Cockfosters v Cheshunt
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
-LOCATION:Apg Park\, Yaxley Football Club Leading Drove\, Yaxley\, Cambridg
- eshire PE7 3NA
+LOCATION:Haringey Borough Football Club\, Coles Park White Hart Lane\, Lon
+ don N17 7JP
 DESCRIPTION:U18 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093583
 END:VEVENT
 BEGIN:VEVENT
 UID:31164913@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hemel Hempstead Town v Cheshunt
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -57,8 +48,20 @@ DESCRIPTION:U18 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31164913
 END:VEVENT
 BEGIN:VEVENT
+UID:31191477@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Takeley v Cheshunt
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:U18 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191477
+END:VEVENT
+BEGIN:VEVENT
 UID:30331939@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Potters Bar Town v Cheshunt (Hertfordshire FA U18 Boys Challenge C
  up)
 DTSTART;TZID=Europe/London:20261129T103000

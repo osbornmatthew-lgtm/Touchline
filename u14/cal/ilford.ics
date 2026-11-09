@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31154454@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ilford v Redbridge
 DTSTART;TZID=Europe/London:20261129T100000
 DTEND;TZID=Europe/London:20261129T114000
@@ -36,8 +36,20 @@ DESCRIPTION:U14 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154454
 END:VEVENT
 BEGIN:VEVENT
+UID:31187568@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Ilford v Frenford
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Cricklefields Athletics Ground\, Cricklefield Stadium\, The Pavil
+ ion Cricklefield Place\, Ilford IG1 1FY
+DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187568
+END:VEVENT
+BEGIN:VEVENT
 UID:31103359@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ilford v Histon (League Cup)
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000
@@ -47,14 +59,15 @@ DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103359
 END:VEVENT
 BEGIN:VEVENT
-UID:30951212@touchline-eja-u14
-DTSTAMP:20261108T145549Z
-SUMMARY:Grays Athletic v Ilford (Essex Andrews U14 Cup)
-DTSTART;TZID=Europe/London:20261108T141500
-DTEND;TZID=Europe/London:20261108T155500
-LOCATION:Lakeside Sports Ground\, Arterial Road\, Chafford Hundred\, Grays
-  RM16 6DN
-DESCRIPTION:Essex Andrews U14 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30951212
+UID:31187986@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Essex Minors (Hornchurch) v Ilford (Essex Andrews U14 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:Essex Andrews U14 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187986
 END:VEVENT
 END:VCALENDAR

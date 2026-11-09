@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31107322@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Takeley v St Margaretsbury
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -37,8 +37,20 @@ DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107322
 END:VEVENT
 BEGIN:VEVENT
+UID:31187310@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Takeley v BSC
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187310
+END:VEVENT
+BEGIN:VEVENT
 UID:31103357@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Harpenden Town v Takeley (League Cup)
 DTSTART;TZID=Europe/London:20261129T110000
 DTEND;TZID=Europe/London:20261129T124000
@@ -49,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103357
 END:VEVENT
 BEGIN:VEVENT
 UID:31055657@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Harlow Town v Takeley (Peter Cline Trophy)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
@@ -59,7 +71,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31055657
 END:VEVENT
 BEGIN:VEVENT
 UID:31186739@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hashtag United v Takeley (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

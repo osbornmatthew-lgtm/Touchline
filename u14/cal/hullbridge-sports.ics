@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067684@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:AFC Pegasus Colchester v Hullbridge Sports
 DTSTART;TZID=Europe/London:20261115T123000
 DTEND;TZID=Europe/London:20261115T141000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067684
 END:VEVENT
 BEGIN:VEVENT
 UID:31107326@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Chelmsford City v Hullbridge Sports
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107326
 END:VEVENT
 BEGIN:VEVENT
 UID:31154514@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hullbridge Sports v Brentwood Town
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000
@@ -55,14 +55,24 @@ DESCRIPTION:U14 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154514
 END:VEVENT
 BEGIN:VEVENT
-UID:31001212@touchline-eja-u14
-DTSTAMP:20261108T145549Z
-SUMMARY:Hullbridge Sports v Corinthians (Essex Andrews U14 Cup)
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
+UID:31187595@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Witham Town v Hullbridge Sports
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187595
+END:VEVENT
+BEGIN:VEVENT
+UID:31188006@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Hullbridge Sports v Leigh Ramblers (Essex Andrews U14 Cup)
+DTSTART;TZID=Europe/London:20261129T140000
+DTEND;TZID=Europe/London:20261129T154000
 LOCATION:Hullbridge Sports Club\, Lower Road\, Hullbridge\, Hockley\, Esse
  x SS5 6BJ
 DESCRIPTION:Essex Andrews U14 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31001212
+URL:https://fulltime.thefa.com/displayFixture.html?id=31188006
 END:VEVENT
 END:VCALENDAR

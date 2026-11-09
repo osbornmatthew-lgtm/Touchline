@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30722277@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hannakins Farm Purple v Blackmore Blue
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722277
 END:VEVENT
 BEGIN:VEVENT
 UID:30722287@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:BSC FC United v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722287
 END:VEVENT
 BEGIN:VEVENT
 UID:30722296@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Loughton Town Greens v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -61,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722296
 END:VEVENT
 BEGIN:VEVENT
 UID:30722297@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Risden Wood Warriors v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -73,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722297
 END:VEVENT
 BEGIN:VEVENT
 UID:30722306@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hannakins Farm Purple v Perry Street Blacks
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -85,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722306
 END:VEVENT
 BEGIN:VEVENT
 UID:30722307@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Aveley United v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -96,20 +96,8 @@ DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722307
 END:VEVENT
 BEGIN:VEVENT
-UID:30722316@touchline-bcfa
-DTSTAMP:20261108T145549Z
-SUMMARY:Hannakins Farm Purple v CFC Rainham Lions
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
-LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
- ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
-DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30722316
-END:VEVENT
-BEGIN:VEVENT
 UID:30722317@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tilbury Titans v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -120,7 +108,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722317
 END:VEVENT
 BEGIN:VEVENT
 UID:30722261@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hannakins Farm Purple v Aveley United
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -132,7 +120,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722261
 END:VEVENT
 BEGIN:VEVENT
 UID:30722266@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:CFC Rainham Lions v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -144,7 +132,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722266
 END:VEVENT
 BEGIN:VEVENT
 UID:30722256@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Perry Street Blacks v Hannakins Farm Purple
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -153,5 +141,17 @@ LOCATION:Barleylands Farm (Site 1b)\, Southend Road\, Billericay\, Essex C
 DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722256
+END:VEVENT
+BEGIN:VEVENT
+UID:30722316@touchline-bcfa
+DTSTAMP:20261109T185222Z
+SUMMARY:Hannakins Farm Purple v CFC Rainham Lions
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Hannakins Farm Community Centre\, Hannakins Farm Community Associ
+ ation Rosebay Avenue\, Billericay\, Essex CM12 0SY
+DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30722316
 END:VEVENT
 END:VCALENDAR

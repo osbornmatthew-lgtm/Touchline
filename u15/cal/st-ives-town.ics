@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31099887@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Netherton United v St Ives Town
 DTSTART;TZID=Europe/London:20261115T120000
 DTEND;TZID=Europe/London:20261115T134000
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31099887
 END:VEVENT
 BEGIN:VEVENT
 UID:31166798@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:St Ives Town v Saffron Walden
 DTSTART;TZID=Europe/London:20261129T123000
 DTEND;TZID=Europe/London:20261129T141000
@@ -44,7 +44,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166798
 END:VEVENT
 BEGIN:VEVENT
 UID:31166841@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:St Ives Town v Yaxley
 DTSTART;TZID=Europe/London:20261206T100000
 DTEND;TZID=Europe/London:20261206T114000
@@ -52,8 +52,20 @@ DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166841
 END:VEVENT
 BEGIN:VEVENT
+UID:31190842@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Histon v St Ives Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Comberton Village College\, West Street\, Comberton\, Cambridge\,
+  Cambridgeshire CB23 7DU
+DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190842
+END:VEVENT
+BEGIN:VEVENT
 UID:31152988@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:St Ives Town v Fakenham Town (League Cup)
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000

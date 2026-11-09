@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31035051@touchline-eja-u14
-DTSTAMP:20261108T145549Z
-SUMMARY:Kempston Rovers Colts v Godmanchester Rovers
-DTSTART;TZID=Europe/London:20261108T123000
-DTEND;TZID=Europe/London:20261108T141000
-LOCATION:Hillgrounds Playing Fields\, Hillgrounds Road\, Kempston\, Bedfor
- d MK42 8TP
-DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31035051
-END:VEVENT
-BEGIN:VEVENT
 UID:31067518@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Real Bedford v Kempston Rovers Colts
 DTSTART;TZID=Europe/London:20261115T110000
 DTEND;TZID=Europe/London:20261115T124000
@@ -47,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067518
 END:VEVENT
 BEGIN:VEVENT
 UID:31107244@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Kempston Rovers Colts v Leighton Town
 DTSTART;TZID=Europe/London:20261122T123000
 DTEND;TZID=Europe/London:20261122T141000
@@ -57,8 +46,18 @@ DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107244
 END:VEVENT
 BEGIN:VEVENT
+UID:31187255@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Shefford Saints v Kempston Rovers Colts
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187255
+END:VEVENT
+BEGIN:VEVENT
 UID:31065824@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Dunstable v Kempston Rovers Colts (Under 14 Youth Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000

@@ -26,10 +26,10 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31105238@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Bowers & Pitsea v Dunmow Town
-DTSTART;TZID=Europe/London:20261122T100000
-DTEND;TZID=Europe/London:20261122T114000
+DTSTART;TZID=Europe/London:20261122T121500
+DTEND;TZID=Europe/London:20261122T135500
 LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
  \, Basildon\, Essex SS13 2BE
 DESCRIPTION:U13 Yellow league. Check FA Full-Time for late changes.
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31105238
 END:VEVENT
 BEGIN:VEVENT
 UID:31153498@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Billericay Town v Dunmow Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -48,8 +48,18 @@ DESCRIPTION:U13 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153498
 END:VEVENT
 BEGIN:VEVENT
+UID:31188151@touchline-eja-u13
+DTSTAMP:20261109T185221Z
+SUMMARY:Dunmow Town v Billericay Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U13 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31188151
+END:VEVENT
+BEGIN:VEVENT
 UID:30554348@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Dunmow Town v Rowhedge Junior (Essex Cordell U13 Cup)
 DTSTART;TZID=Europe/London:20261115T103000
 DTEND;TZID=Europe/London:20261115T121000

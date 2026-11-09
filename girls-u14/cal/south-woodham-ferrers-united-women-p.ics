@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30734292@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Thundersley Rovers Girls Li
  onesses
 DTSTART;VALUE=DATE:20261122
@@ -39,7 +39,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734292
 END:VEVENT
 BEGIN:VEVENT
 UID:30734334@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Hashtag United Girls Blue
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -51,7 +51,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734334
 END:VEVENT
 BEGIN:VEVENT
 UID:30734335@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:AFC Leyton s v South Woodham Ferrers United Women P
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -62,7 +62,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734335
 END:VEVENT
 BEGIN:VEVENT
 UID:30734346@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Billericay Town Girls Blue
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -74,7 +74,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734346
 END:VEVENT
 BEGIN:VEVENT
 UID:30734347@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Perry Street Girls Panthers v South Woodham Ferrers United Women P
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -84,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734347
 END:VEVENT
 BEGIN:VEVENT
 UID:30734323@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Stanway Rovers Girls Phoenix v South Woodham Ferrers United Women 
  P
 DTSTART;VALUE=DATE:20270117
@@ -97,7 +97,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734323
 END:VEVENT
 BEGIN:VEVENT
 UID:30734359@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Thundersley Rovers Girls Lionesses v South Woodham Ferrers United 
  Women P
 DTSTART;VALUE=DATE:20270124
@@ -109,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734359
 END:VEVENT
 BEGIN:VEVENT
 UID:30734370@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Tigers Girls Red
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -121,7 +121,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734370
 END:VEVENT
 BEGIN:VEVENT
 UID:30734371@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Cheshunt Girls v South Woodham Ferrers United Women P
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -133,7 +133,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734371
 END:VEVENT
 BEGIN:VEVENT
 UID:30734382@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Brentwood Girls AFC Lioness
  es
 DTSTART;VALUE=DATE:20270214
@@ -146,7 +146,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734382
 END:VEVENT
 BEGIN:VEVENT
 UID:30734316@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Finesse Sport Finesse Sport
   United F
 DTSTART;VALUE=DATE:20270221
@@ -159,7 +159,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734316
 END:VEVENT
 BEGIN:VEVENT
 UID:30734322@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Stanway Rovers Girls Phoeni
  x
 DTSTART;VALUE=DATE:20270228
@@ -172,7 +172,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734322
 END:VEVENT
 BEGIN:VEVENT
 UID:30734358@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -184,15 +184,14 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734358
 END:VEVENT
 BEGIN:VEVENT
 UID:31065634@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v South Woodham Ferrers United Women P (Essex U14
   Girls Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
 LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
  on Centre Dagenham Road\, Rainham RM13 8SP
-DESCRIPTION:Essex U14 Girls Cup. Kick-off time not published yet. Check FA
-  Full-Time for late changes.
+DESCRIPTION:Essex U14 Girls Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31065634
 END:VEVENT
 END:VCALENDAR

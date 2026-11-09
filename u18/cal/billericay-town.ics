@@ -26,17 +26,16 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093546@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Concord Rangers v Billericay Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
+DESCRIPTION:U18 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093546
 END:VEVENT
 BEGIN:VEVENT
 UID:31164937@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Billericay Town v Rayleigh Town Blue
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31164937
 END:VEVENT
 BEGIN:VEVENT
 UID:31164946@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Rayleigh Town Blue v Billericay Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -59,8 +58,20 @@ DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31164946
 END:VEVENT
 BEGIN:VEVENT
+UID:31191483@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Aveley Parkside v Billericay Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
+ ndon RM15 4UA
+DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191483
+END:VEVENT
+BEGIN:VEVENT
 UID:31162687@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Cockfosters v Billericay Town (London Under 18 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261206T101000
 DTEND;TZID=Europe/London:20261206T115000
@@ -70,7 +81,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162687
 END:VEVENT
 BEGIN:VEVENT
 UID:31186663@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brentwood Town Alliance v Billericay Town (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -82,7 +93,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31186663
 END:VEVENT
 BEGIN:VEVENT
 UID:31186455@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Redbridge Red v Billericay Town (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -91,5 +102,16 @@ LOCATION:The TechSoc.com Stadium\, Station Road\, Barkingside\, Ilford IG6
 DESCRIPTION:Essex Pelly U18 Cup. Kick-off time not published yet. Check FA
   Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31186455
+END:VEVENT
+BEGIN:VEVENT
+UID:31187542@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:St Clere's Spartans v Billericay Town (Essex Pelly U18 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:St Clere's School\, Butts Lane\, Stanford-Le-Hope SS17 0NW
+DESCRIPTION:Essex Pelly U18 Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187542
 END:VEVENT
 END:VCALENDAR

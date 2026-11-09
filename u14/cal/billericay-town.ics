@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067715@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Billericay Town v Benfleet
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067715
 END:VEVENT
 BEGIN:VEVENT
 UID:31107339@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Tilbury v Billericay Town
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107339
 END:VEVENT
 BEGIN:VEVENT
 UID:31154559@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Bowers & Pitsea v Billericay Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -56,8 +56,20 @@ DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154559
 END:VEVENT
 BEGIN:VEVENT
+UID:31187654@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Billericay Town v Canvey Island
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
+ Essex CM12 9SA
+DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187654
+END:VEVENT
+BEGIN:VEVENT
 UID:31171180@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Bowers & Pitsea v Billericay Town (Peter Cline Trophy)
 DTSTART;TZID=Europe/London:20261113T194500
 DTEND;TZID=Europe/London:20261113T212500
@@ -65,16 +77,5 @@ LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
  \, Basildon\, Essex SS13 2BE
 DESCRIPTION:Peter Cline Trophy. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31171180
-END:VEVENT
-BEGIN:VEVENT
-UID:31002662@touchline-eja-u14
-DTSTAMP:20261108T145549Z
-SUMMARY:Rayleigh Town v Billericay Town (Essex Andrews U14 Cup)
-DTSTART;TZID=Europe/London:20261108T133000
-DTEND;TZID=Europe/London:20261108T151000
-LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
- ssex SS6 9DT
-DESCRIPTION:Essex Andrews U14 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31002662
 END:VEVENT
 END:VCALENDAR

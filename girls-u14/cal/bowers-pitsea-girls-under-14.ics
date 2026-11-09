@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30734647@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Bowers & Pitsea Girls Under 14 v Ridgeway Rovers Girls Lionesses
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
 LOCATION:Woodlands School (Basildon)\, Woodlands Approach\, Basildon\, Ess
  ex SS16 5BA
-DESCRIPTION:U14 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U14 C league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30734647
 END:VEVENT
 BEGIN:VEVENT
 UID:30734557@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Bowers & Pitsea Girls Under 14 v West Essex Girls Gold
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -50,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734557
 END:VEVENT
 BEGIN:VEVENT
 UID:30734593@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Bowers & Pitsea Girls Under 14 v Epping Town Cobras
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -62,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734593
 END:VEVENT
 BEGIN:VEVENT
 UID:30734598@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Beacon Hill Rovers Girls v Bowers & Pitsea Girls Under 14
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -72,7 +71,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734598
 END:VEVENT
 BEGIN:VEVENT
 UID:30734604@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Bowers & Pitsea Girls Under 14 v Elite Colts Girls
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -84,7 +83,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734604
 END:VEVENT
 BEGIN:VEVENT
 UID:30734611@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Bowers & Pitsea Girls Under 14 v Brandon Groves Emeralds
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -96,7 +95,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734611
 END:VEVENT
 BEGIN:VEVENT
 UID:30734617@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:East Thurrock Community Ravens v Bowers & Pitsea Girls Under 14
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -108,7 +107,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734617
 END:VEVENT
 BEGIN:VEVENT
 UID:30734630@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:West Essex Girls Gold v Bowers & Pitsea Girls Under 14
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -119,7 +118,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734630
 END:VEVENT
 BEGIN:VEVENT
 UID:30734635@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Bowers & Pitsea Girls Under 14 v South Woodham Ferrers United Wome
  n H
 DTSTART;VALUE=DATE:20270131
@@ -132,7 +131,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734635
 END:VEVENT
 BEGIN:VEVENT
 UID:30734643@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Lawford Junior Girls Lionesses v Bowers & Pitsea Girls Under 14
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -144,7 +143,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734643
 END:VEVENT
 BEGIN:VEVENT
 UID:30734581@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Bowers & Pitsea Girls Under 14 v Great Bradfords Girls Amethyst
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -156,7 +155,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734581
 END:VEVENT
 BEGIN:VEVENT
 UID:30734656@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Great Bradfords Girls Amethyst v Bowers & Pitsea Girls Under 14
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -168,7 +167,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734656
 END:VEVENT
 BEGIN:VEVENT
 UID:30734590@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Epping Town Cobras v Bowers & Pitsea Girls Under 14
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -178,7 +177,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734590
 END:VEVENT
 BEGIN:VEVENT
 UID:30734538@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brandon Groves Emeralds v Bowers & Pitsea Girls Under 14
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308

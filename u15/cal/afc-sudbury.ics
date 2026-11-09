@@ -26,17 +26,17 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100621@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Haverhill Rovers EJA v AFC Sudbury
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U15 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DTSTART;TZID=Europe/London:20261115T110000
+DTEND;TZID=Europe/London:20261115T124000
+LOCATION:The New Croft\, Chalkstone Way\, Haverhill\, Suffolk CB9 0BW
+DESCRIPTION:U15 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100621
 END:VEVENT
 BEGIN:VEVENT
 UID:31162063@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:AFC Sudbury v Stanway Rovers
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162063
 END:VEVENT
 BEGIN:VEVENT
 UID:31166307@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:AFC Sudbury v Springfield
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -60,7 +60,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166307
 END:VEVENT
 BEGIN:VEVENT
 UID:31166930@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Harlow Town v AFC Sudbury
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -70,19 +70,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166930
 END:VEVENT
 BEGIN:VEVENT
 UID:31186537@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Bowers & Pitsea v AFC Sudbury (League Cup)
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;TZID=Europe/London:20261122T100000
+DTEND;TZID=Europe/London:20261122T114000
 LOCATION:Len Salmon Stadium (Bowers and Pitsea FC)\, Crown Avenue\, Pitsea
  \, Basildon\, Essex SS13 2BE
-DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
- e for late changes.
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31186537
 END:VEVENT
 BEGIN:VEVENT
 UID:31164119@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Haverhill Rovers EJA v AFC Sudbury (Peter Peters Shield)
 DTSTART;TZID=Europe/London:20261126T194500
 DTEND;TZID=Europe/London:20261126T212500

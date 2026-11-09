@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153437@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Concord Rangers v Aveley
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -37,15 +37,26 @@ DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153437
 END:VEVENT
 BEGIN:VEVENT
-UID:31034871@touchline-eja-u13
-DTSTAMP:20261108T145548Z
-SUMMARY:Aveley v Bowers & Pitsea (Essex Cordell U13 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+UID:31188137@touchline-eja-u13
+DTSTAMP:20261109T185221Z
+SUMMARY:Aveley v May & Baker
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
 LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
  ndon RM15 4UA
-DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
- FA Full-Time for late changes.
+DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31188137
+END:VEVENT
+BEGIN:VEVENT
+UID:31034871@touchline-eja-u13
+DTSTAMP:20261109T185221Z
+SUMMARY:Aveley v Bowers & Pitsea (Essex Cordell U13 Cup)
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
+LOCATION:Parkside (Aveley Football Club)\, Park Lane\, Aveley\, South Ocke
+ ndon RM15 4UA
+DESCRIPTION:Essex Cordell U13 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31034871
 END:VEVENT
 END:VCALENDAR

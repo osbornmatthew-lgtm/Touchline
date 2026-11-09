@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30734291@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brentwood Girls AFC Lionesses v Billericay Town Girls Blue
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734291
 END:VEVENT
 BEGIN:VEVENT
 UID:30734324@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:AFC Leyton s v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734324
 END:VEVENT
 BEGIN:VEVENT
 UID:30734369@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brentwood Girls AFC Lionesses v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -57,7 +57,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734369
 END:VEVENT
 BEGIN:VEVENT
 UID:30734350@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Finesse Sport Finesse Sport United F v Brentwood Girls AFC Lioness
  es
 DTSTART;VALUE=DATE:20261213
@@ -70,7 +70,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734350
 END:VEVENT
 BEGIN:VEVENT
 UID:30734345@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brentwood Girls AFC Lionesses v Cheshunt Girls
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -80,7 +80,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734345
 END:VEVENT
 BEGIN:VEVENT
 UID:30734357@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brentwood Girls AFC Lionesses v Hashtag United Girls Blue
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -90,7 +90,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734357
 END:VEVENT
 BEGIN:VEVENT
 UID:30734297@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Perry Street Girls Jaguars v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -100,7 +100,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734297
 END:VEVENT
 BEGIN:VEVENT
 UID:30734376@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -112,7 +112,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734376
 END:VEVENT
 BEGIN:VEVENT
 UID:30734382@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Brentwood Girls AFC Lioness
  es
 DTSTART;VALUE=DATE:20270214
@@ -125,7 +125,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734382
 END:VEVENT
 BEGIN:VEVENT
 UID:30734388@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brentwood Girls AFC Lionesses v Stanway Rovers Girls Phoenix
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -135,7 +135,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734388
 END:VEVENT
 BEGIN:VEVENT
 UID:30734321@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brentwood Girls AFC Lionesses v AFC Leyton s
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -145,7 +145,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734321
 END:VEVENT
 BEGIN:VEVENT
 UID:30734258@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brentwood Girls AFC Lionesses v Perry Street Girls Panthers
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -155,7 +155,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734258
 END:VEVENT
 BEGIN:VEVENT
 UID:30734284@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hashtag United Girls Blue v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
@@ -165,7 +165,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734284
 END:VEVENT
 BEGIN:VEVENT
 UID:30734311@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Stanway Rovers Girls Phoenix v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
@@ -176,18 +176,8 @@ DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30734311
 END:VEVENT
 BEGIN:VEVENT
-UID:30734363@touchline-girls-u14
-DTSTAMP:20261108T145549Z
-SUMMARY:Billericay Town Girls Blue v Brentwood Girls AFC Lionesses
-DTSTART;VALUE=DATE:20270328
-DTEND;VALUE=DATE:20270329
-DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30734363
-END:VEVENT
-BEGIN:VEVENT
 UID:30734337@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
@@ -197,16 +187,25 @@ DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30734337
 END:VEVENT
 BEGIN:VEVENT
+UID:30734363@touchline-girls-u14
+DTSTAMP:20261109T185222Z
+SUMMARY:Billericay Town Girls Blue v Brentwood Girls AFC Lionesses
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+DESCRIPTION:U14 A league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734363
+END:VEVENT
+BEGIN:VEVENT
 UID:31033971@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Brentwood Girls AFC Lionesses v Perry Street Girls Panthers (Essex
   U14 Girls Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
 LOCATION:Larkins Playing Fields\, Larkins Field\, The Pavilion Ongar Road\
  , Pilgrims Hatch\, Essex CM15 9JB
-DESCRIPTION:Essex U14 Girls Cup. Kick-off time not published yet. Check FA
-  Full-Time for late changes.
+DESCRIPTION:Essex U14 Girls Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31033971
 END:VEVENT
 END:VCALENDAR

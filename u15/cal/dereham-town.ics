@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31091542@touchline-eja-u15
-DTSTAMP:20261108T145549Z
-SUMMARY:Dereham Town v Felixstowe & Walton United
-DTSTART;TZID=Europe/London:20261108T120000
-DTEND;TZID=Europe/London:20261108T134000
-DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31091542
-END:VEVENT
-BEGIN:VEVENT
 UID:30985357@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Felixstowe & Walton United v Dereham Town
 DTSTART;TZID=Europe/London:20261115T113000
 DTEND;TZID=Europe/London:20261115T131000
@@ -45,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30985357
 END:VEVENT
 BEGIN:VEVENT
 UID:30896606@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Dereham Town v Aylsham
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -55,12 +46,44 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30896606
 END:VEVENT
 BEGIN:VEVENT
 UID:31166824@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Downham Town v Dereham Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166824
+END:VEVENT
+BEGIN:VEVENT
+UID:31190836@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Dereham Town v Fakenham Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190836
+END:VEVENT
+BEGIN:VEVENT
+UID:31190825@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Woodbridge Town v Dereham Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190825
+END:VEVENT
+BEGIN:VEVENT
+UID:31190818@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Leiston v Dereham Town
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+LOCATION:Leiston Town Athletic Association\, The Flannery Stadium Victory 
+ Road\, Leiston\, Suffolk IP16 4DQ
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190818
 END:VEVENT
 END:VCALENDAR

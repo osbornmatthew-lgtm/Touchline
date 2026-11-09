@@ -26,17 +26,17 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31091484@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Woodbridge Town v Mulbarton Wanderers
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T103000
+DTEND;TZID=Europe/London:20261115T121000
+LOCATION:Woodbridge Town FC\, Fynn Road\, Woodbridge\, Suffolk IP12 4LS
+DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31091484
 END:VEVENT
 BEGIN:VEVENT
 UID:31166804@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Mulbarton Wanderers v Fakenham Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -46,13 +46,22 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166804
 END:VEVENT
 BEGIN:VEVENT
 UID:31166826@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Felixstowe & Walton United v Mulbarton Wanderers
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
+DTSTART;TZID=Europe/London:20261206T120000
+DTEND;TZID=Europe/London:20261206T134000
 LOCATION:Inspire Suffolk\, Lindbergh Road\, Ipswich\, Suffolk IP3 9QX
+DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31166826
+END:VEVENT
+BEGIN:VEVENT
+UID:31190819@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Needham Market v Mulbarton Wanderers
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
 DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31166826
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190819
 END:VEVENT
 END:VCALENDAR

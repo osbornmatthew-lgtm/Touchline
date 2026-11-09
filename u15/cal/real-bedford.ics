@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31099893@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Colney Heath v Real Bedford
 DTSTART;TZID=Europe/London:20261115T115000
 DTEND;TZID=Europe/London:20261115T133000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31099893
 END:VEVENT
 BEGIN:VEVENT
 UID:31166853@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Real Bedford v Harpenden Town
 DTSTART;TZID=Europe/London:20261206T130000
 DTEND;TZID=Europe/London:20261206T144000
@@ -46,8 +46,18 @@ DESCRIPTION:U15 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166853
 END:VEVENT
 BEGIN:VEVENT
+UID:31190855@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Real Bedford v Hemel Hempstead Town
+DTSTART;TZID=Europe/London:20261213T110000
+DTEND;TZID=Europe/London:20261213T124000
+LOCATION:Bedford Academy\, Mile Road\, Bedford MK42 9TR
+DESCRIPTION:U15 Brown league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190855
+END:VEVENT
+BEGIN:VEVENT
 UID:31116252@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Real Bedford v Aylsham (League Cup)
 DTSTART;TZID=Europe/London:20261122T130000
 DTEND;TZID=Europe/London:20261122T144000
@@ -57,7 +67,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31116252
 END:VEVENT
 BEGIN:VEVENT
 UID:31012331@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Arlesey Town v Real Bedford (Under 15 Youth Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000

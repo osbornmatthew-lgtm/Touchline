@@ -25,8 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:31187151@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Downham Town v Newmarket Town
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187151
+END:VEVENT
+BEGIN:VEVENT
 UID:31105263@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Stowmarket Town v Downham Town (League Cup)
 DTSTART;TZID=Europe/London:20261122T140000
 DTEND;TZID=Europe/London:20261122T154000
@@ -37,11 +47,11 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31105263
 END:VEVENT
 BEGIN:VEVENT
 UID:31066742@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Downham Town v Dereham Saints (Stuart Dracup Cup)
-DTSTART;TZID=Europe/London:20261115T133000
-DTEND;TZID=Europe/London:20261115T151000
-LOCATION:Downham Market Academy
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
+LOCATION:The Pastures
 DESCRIPTION:Stuart Dracup Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31066742
 END:VEVENT

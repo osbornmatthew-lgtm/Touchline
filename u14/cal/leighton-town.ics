@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067516@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:LGCE v Leighton Town
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067516
 END:VEVENT
 BEGIN:VEVENT
 UID:31107244@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Kempston Rovers Colts v Leighton Town
 DTSTART;TZID=Europe/London:20261122T123000
 DTEND;TZID=Europe/London:20261122T141000
@@ -47,8 +47,18 @@ DESCRIPTION:U14 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107244
 END:VEVENT
 BEGIN:VEVENT
+UID:31187253@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Leighton Town v Yaxley
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187253
+END:VEVENT
+BEGIN:VEVENT
 UID:31066643@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Elstow Abbey v Leighton Town (Under 14 Youth Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000

@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30734309@touchline-girls-u14
-DTSTAMP:20261108T145549Z
-SUMMARY:Tigers Girls Red v Stanway Rovers Girls Phoenix
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
- on Centre Dagenham Road\, Rainham RM13 8SP
-DESCRIPTION:U14 A league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30734309
-END:VEVENT
-BEGIN:VEVENT
 UID:30734325@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Perry Street Girls Panthers v Tigers Girls Red
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -47,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734325
 END:VEVENT
 BEGIN:VEVENT
 UID:30734290@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v Perry Street Girls Jaguars
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -59,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734290
 END:VEVENT
 BEGIN:VEVENT
 UID:30734332@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -71,7 +60,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734332
 END:VEVENT
 BEGIN:VEVENT
 UID:30734338@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Cheshunt Girls v Tigers Girls Red
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -83,7 +72,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734338
 END:VEVENT
 BEGIN:VEVENT
 UID:30734344@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -95,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734344
 END:VEVENT
 BEGIN:VEVENT
 UID:30734351@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hashtag United Girls Blue v Tigers Girls Red
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -105,7 +94,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734351
 END:VEVENT
 BEGIN:VEVENT
 UID:30734356@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v Billericay Town Girls Blue
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -117,7 +106,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734356
 END:VEVENT
 BEGIN:VEVENT
 UID:30734364@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Perry Street Girls Jaguars v Tigers Girls Red
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -127,7 +116,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734364
 END:VEVENT
 BEGIN:VEVENT
 UID:30734370@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women P v Tigers Girls Red
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -139,7 +128,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734370
 END:VEVENT
 BEGIN:VEVENT
 UID:30734376@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -151,7 +140,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734376
 END:VEVENT
 BEGIN:VEVENT
 UID:30734377@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Stanway Rovers Girls Phoenix v Tigers Girls Red
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -163,7 +152,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734377
 END:VEVENT
 BEGIN:VEVENT
 UID:30734387@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v AFC Leyton s
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -175,7 +164,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734387
 END:VEVENT
 BEGIN:VEVENT
 UID:30734320@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v Perry Street Girls Panthers
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -187,7 +176,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734320
 END:VEVENT
 BEGIN:VEVENT
 UID:30734312@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:AFC Leyton s v Tigers Girls Red
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
@@ -198,15 +187,14 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734312
 END:VEVENT
 BEGIN:VEVENT
 UID:31065634@touchline-girls-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls Red v South Woodham Ferrers United Women P (Essex U14
   Girls Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
 LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
  on Centre Dagenham Road\, Rainham RM13 8SP
-DESCRIPTION:Essex U14 Girls Cup. Kick-off time not published yet. Check FA
-  Full-Time for late changes.
+DESCRIPTION:Essex U14 Girls Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31065634
 END:VEVENT
 END:VCALENDAR

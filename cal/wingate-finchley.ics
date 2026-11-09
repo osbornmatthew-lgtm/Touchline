@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100731@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Wingate & Finchley v London Lions
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31100731
 END:VEVENT
 BEGIN:VEVENT
 UID:31030362@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Wingate & Finchley v May & Baker Eastbrook
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030362
 END:VEVENT
 BEGIN:VEVENT
 UID:31167140@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:May & Baker Eastbrook v Wingate & Finchley
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -56,5 +56,16 @@ LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
 DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167140
+END:VEVENT
+BEGIN:VEVENT
+UID:31191112@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Wingate & Finchley v Cockfosters
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191112
 END:VEVENT
 END:VCALENDAR

@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067421@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Leiston v Woodbridge Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-LOCATION:Kesgrave High School\, Main Road\, Kesgrave\, Ipswich\, Suffolk I
- P5 2PB
-DESCRIPTION:U13 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Leiston Town Athletic Association\, The Flannery Stadium Victory 
+ Road\, Leiston\, Suffolk IP16 4DQ
+DESCRIPTION:U13 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067421
 END:VEVENT
 BEGIN:VEVENT
 UID:31105177@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Leiston v Bury Town
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -50,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31105177
 END:VEVENT
 BEGIN:VEVENT
 UID:31153349@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ipswich Wanderers v Leiston
 DTSTART;TZID=Europe/London:20261129T100000
 DTEND;TZID=Europe/London:20261129T114000
@@ -58,5 +57,15 @@ LOCATION:Gbs Stadium\, Gbs Stadium Humber Doucy Lane\, Ipswich\, Suffolk I
  P4 3NR
 DESCRIPTION:U13 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153349
+END:VEVENT
+BEGIN:VEVENT
+UID:31187981@touchline-eja-u13
+DTSTAMP:20261109T185221Z
+SUMMARY:Needham Market v Leiston
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U13 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187981
 END:VEVENT
 END:VCALENDAR

@@ -26,22 +26,31 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31107245@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Leiston v Bury Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T114500
+DTEND;TZID=Europe/London:20261115T132500
+DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107245
 END:VEVENT
 BEGIN:VEVENT
 UID:31107248@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Felixstowe & Walton United v Leiston
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;TZID=Europe/London:20261122T100000
+DTEND;TZID=Europe/London:20261122T114000
+LOCATION:Inspire Suffolk\, Lindbergh Road\, Ipswich\, Suffolk IP3 9QX
+DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31107248
+END:VEVENT
+BEGIN:VEVENT
+UID:31187033@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Leiston v Ipswich Wanderers
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
 DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31107248
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187033
 END:VEVENT
 END:VCALENDAR

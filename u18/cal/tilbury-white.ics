@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093547@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tilbury White v Heybridge Swifts Yellow
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093547
 END:VEVENT
 BEGIN:VEVENT
 UID:31164939@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Witham Town v Tilbury White
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -46,17 +46,27 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31164939
 END:VEVENT
 BEGIN:VEVENT
 UID:31167634@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Concord Rangers v Tilbury White
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261206T140000
+DTEND;TZID=Europe/London:20261206T154000
+DESCRIPTION:U18 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167634
 END:VEVENT
 BEGIN:VEVENT
+UID:31191490@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Tilbury White v Southend Manor
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:The Emr Stadium\, Chadfields\, Tilbury RM18 8NG
+DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191490
+END:VEVENT
+BEGIN:VEVENT
 UID:30625580@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Aveley Parkside v Tilbury White (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

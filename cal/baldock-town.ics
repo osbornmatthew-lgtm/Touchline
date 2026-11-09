@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093075@touchline-eja
-DTSTAMP:20261108T145548Z
-SUMMARY:Baldock Town v LGCE
-DTSTART;TZID=Europe/London:20261108T133000
-DTEND;TZID=Europe/London:20261108T151000
-LOCATION:Lea Manor Recreation Centre\, Northwell Drive\, Luton LU3 3TL
-DESCRIPTION:U16 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093075
-END:VEVENT
-BEGIN:VEVENT
 UID:31100799@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hertford Town v Baldock Town
 DTSTART;TZID=Europe/London:20261115T133000
 DTEND;TZID=Europe/London:20261115T151000
@@ -47,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31100799
 END:VEVENT
 BEGIN:VEVENT
 UID:30811401@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Potters Bar Town v Baldock Town
 DTSTART;TZID=Europe/London:20261122T103000
 DTEND;TZID=Europe/London:20261122T121000
@@ -56,7 +46,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30811401
 END:VEVENT
 BEGIN:VEVENT
 UID:31167230@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Baldock Town v Eynesbury Rovers
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -65,8 +55,20 @@ DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167230
 END:VEVENT
 BEGIN:VEVENT
+UID:30514941@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:LGCE v Baldock Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Letchworth Eagles FC (Pixmore Pitches)\, Baldock Road\, Letchwort
+ h Garden City\, Hertfordshire SG6 2EN
+DESCRIPTION:U16 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30514941
+END:VEVENT
+BEGIN:VEVENT
 UID:30182827@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Baldock Town v Ware (Hertfordshire FA U16 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000

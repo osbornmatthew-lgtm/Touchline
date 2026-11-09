@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31166892@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hackney Wick v May & Baker
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -35,8 +35,20 @@ DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166892
 END:VEVENT
 BEGIN:VEVENT
+UID:31190927@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:May & Baker v Ryan
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
+ ham RM9 5PU
+DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190927
+END:VEVENT
+BEGIN:VEVENT
 UID:31152489@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Cambridge City v May & Baker (League Cup)
 DTSTART;TZID=Europe/London:20261122T123000
 DTEND;TZID=Europe/London:20261122T141000
@@ -47,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31152489
 END:VEVENT
 BEGIN:VEVENT
 UID:31045595@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Billericay Town v May & Baker (Peter Peters Shield)
 DTSTART;TZID=Europe/London:20261120T193000
 DTEND;TZID=Europe/London:20261120T211000
@@ -58,14 +70,13 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31045595
 END:VEVENT
 BEGIN:VEVENT
 UID:30617227@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:May & Baker v West Essex (Essex Rosser U15 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T140000
+DTEND;TZID=Europe/London:20261115T154000
 LOCATION:May & Baker Sports and Social Club\, May and Baker Sports Ground 
  May and Baker Way\, Dagenham RM7 0QX
-DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30617227
 END:VEVENT
 END:VCALENDAR

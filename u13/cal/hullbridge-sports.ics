@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153439@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hullbridge Sports v May & Baker
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -35,8 +35,19 @@ DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153439
 END:VEVENT
 BEGIN:VEVENT
+UID:31188140@touchline-eja-u13
+DTSTAMP:20261109T185221Z
+SUMMARY:Southend Manor v Hullbridge Sports
+DTSTART;TZID=Europe/London:20261213T100000
+DTEND;TZID=Europe/London:20261213T114000
+LOCATION:Southchurch Park Arena\, Southend Manor Football Club Northumberl
+ and Crescent\, Southend-On-Sea SS1 2XB
+DESCRIPTION:U13 Red league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31188140
+END:VEVENT
+BEGIN:VEVENT
 UID:31033682@touchline-eja-u13
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hullbridge Sports v May & Baker (Essex Cordell U13 Cup)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100765@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ryan v Walthamstow
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31100765
 END:VEVENT
 BEGIN:VEVENT
 UID:31165625@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ryan v Ilford
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -45,7 +45,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31165625
 END:VEVENT
 BEGIN:VEVENT
 UID:31167156@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Buckhurst Hill v Ryan
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -56,8 +56,18 @@ DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167156
 END:VEVENT
 BEGIN:VEVENT
+UID:31191123@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Ryan v Woodford Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191123
+END:VEVENT
+BEGIN:VEVENT
 UID:31165619@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Redbridge v Ryan
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
@@ -67,7 +77,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31165619
 END:VEVENT
 BEGIN:VEVENT
 UID:31016117@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ryan v Barking (Chairman's Cup)
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000
@@ -75,5 +85,16 @@ LOCATION:Wadham Lodge Sports Ground (Match Day Centres)\, Wadham Lodge Spo
  rts Ground Brookscroft Road\, London E17 4JP
 DESCRIPTION:Chairman's Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31016117
+END:VEVENT
+BEGIN:VEVENT
+UID:31188373@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Dagenham United v Ryan (Essex Cassels U16 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Dagenham United FC\, Manor Road\, Dagenham RM10 8BE
+DESCRIPTION:Essex Cassels U16 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31188373
 END:VEVENT
 END:VCALENDAR

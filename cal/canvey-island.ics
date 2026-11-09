@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31094402@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hashtag United v Canvey Island
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31094402
 END:VEVENT
 BEGIN:VEVENT
 UID:31162623@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Aveley v Canvey Island
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162623
 END:VEVENT
 BEGIN:VEVENT
 UID:31167388@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Canvey Island v Billericay Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -57,8 +57,28 @@ DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167388
 END:VEVENT
 BEGIN:VEVENT
+UID:31191153@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Canvey Island v Aveley
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191153
+END:VEVENT
+BEGIN:VEVENT
+UID:31191154@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Canvey Island v Heybridge Swifts
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191154
+END:VEVENT
+BEGIN:VEVENT
 UID:30618181@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Canvey Island v Hornchurch (Essex Cassels U16 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

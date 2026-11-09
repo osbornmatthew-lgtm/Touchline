@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067547@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Dunmow Town v St Margaretsbury
 DTSTART;TZID=Europe/London:20261115T123000
 DTEND;TZID=Europe/London:20261115T141000
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067547
 END:VEVENT
 BEGIN:VEVENT
 UID:31107321@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hertford Town v Dunmow Town
 DTSTART;TZID=Europe/London:20261122T113000
 DTEND;TZID=Europe/London:20261122T131000
@@ -46,7 +46,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107321
 END:VEVENT
 BEGIN:VEVENT
 UID:31154253@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Bovingdon v Dunmow Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -57,14 +57,13 @@ DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154253
 END:VEVENT
 BEGIN:VEVENT
-UID:31000941@touchline-eja-u14
-DTSTAMP:20261108T145549Z
-SUMMARY:South Woodham Ferrers United v Dunmow Town (Essex Andrews U14 Cup)
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Saltcoats Park\, Cutlers Road\, South Woodham Ferrers\, Chelmsfor
- d\, Essex CM3 5WA
-DESCRIPTION:Essex Andrews U14 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31000941
+UID:31187309@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Dunmow Town v Potters Bar Town
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187309
 END:VEVENT
 END:VCALENDAR

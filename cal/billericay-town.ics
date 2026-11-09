@@ -25,22 +25,11 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30988193@touchline-eja
-DTSTAMP:20261108T145548Z
-SUMMARY:Billericay Town v Aveley
-DTSTART;TZID=Europe/London:20261108T163000
-DTEND;TZID=Europe/London:20261108T181000
-LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
- Essex CM12 9SA
-DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30988193
-END:VEVENT
-BEGIN:VEVENT
 UID:31094401@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Brentwood Town v Billericay Town
-DTSTART;TZID=Europe/London:20261115T100000
-DTEND;TZID=Europe/London:20261115T114000
+DTSTART;TZID=Europe/London:20261115T160000
+DTEND;TZID=Europe/London:20261115T174000
 LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
  , Essex CM15 9NN
 DESCRIPTION:U16 Yellow league. Check FA Full-Time for late changes.
@@ -48,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31094401
 END:VEVENT
 BEGIN:VEVENT
 UID:31162624@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Benfleet v Billericay Town
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -58,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162624
 END:VEVENT
 BEGIN:VEVENT
 UID:31167388@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Canvey Island v Billericay Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -67,8 +56,20 @@ DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167388
 END:VEVENT
 BEGIN:VEVENT
+UID:31191151@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Billericay Town v Hashtag United
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
+ Essex CM12 9SA
+DESCRIPTION:U16 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191151
+END:VEVENT
+BEGIN:VEVENT
 UID:31104664@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Bowers & Pitsea v Billericay Town (League Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093629@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Welwyn Garden City U17 v Ware U17
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093629
 END:VEVENT
 BEGIN:VEVENT
 UID:30513695@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Wingate & Finchley v Ware U17
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -47,17 +47,30 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30513695
 END:VEVENT
 BEGIN:VEVENT
 UID:31167589@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Ware U17 v Edgware & Kingsbury
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261206T120000
+DTEND;TZID=Europe/London:20261206T134000
+LOCATION:Ware Football Club\, Wadesmill Road\, Ware\, Hertfordshire SG12 0
+ UQ
+DESCRIPTION:U18 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167589
 END:VEVENT
 BEGIN:VEVENT
+UID:31191156@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Enfield Borough (Blue) v Ware U17
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Capital City College (Enfield Centre)\, 73 Hertford Road\, Enfiel
+ d EN3 5HA
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191156
+END:VEVENT
+BEGIN:VEVENT
 UID:30966015@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Ware v Ware U17 (Hertfordshire FA U18 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T100000
 DTEND;TZID=Europe/London:20261129T114000

@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093282@touchline-eja-u18
-DTSTAMP:20261108T145549Z
-SUMMARY:Harlow Town Hawks v Rayleigh Town Yellow
-DTSTART;TZID=Europe/London:20261108T143000
-DTEND;TZID=Europe/London:20261108T161000
-DESCRIPTION:U18 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093282
-END:VEVENT
-BEGIN:VEVENT
 UID:31164918@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Rayleigh Town Yellow v Hornchurch White
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -47,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31164918
 END:VEVENT
 BEGIN:VEVENT
 UID:31167629@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Rayleigh Town Yellow v Brentwood Town Alliance
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -59,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167629
 END:VEVENT
 BEGIN:VEVENT
 UID:31093558@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Rayleigh Town Yellow v Redbridge Red
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -71,13 +62,14 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093558
 END:VEVENT
 BEGIN:VEVENT
 UID:30625582@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Sporting Bengal United v Rayleigh Town Yellow (Essex Pelly U18 Cup
  )
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:Essex Pelly U18 Cup. Kick-off time not published yet. Check FA
-  Full-Time for late changes.
+DTSTART;TZID=Europe/London:20261129T134500
+DTEND;TZID=Europe/London:20261129T152500
+LOCATION:Castle Green Leisure Centre\, Castle Green Gale Street\, Dagenham
+  RM9 4UN
+DESCRIPTION:Essex Pelly U18 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30625582
 END:VEVENT
 END:VCALENDAR

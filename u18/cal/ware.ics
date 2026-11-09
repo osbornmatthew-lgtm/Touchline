@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093277@touchline-eja-u18
-DTSTAMP:20261108T145549Z
-SUMMARY:Ware v Potters Bar Town
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Ware Football Club\, Wadesmill Road\, Ware\, Hertfordshire SG12 0
- UQ
-DESCRIPTION:U18 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093277
-END:VEVENT
-BEGIN:VEVENT
 UID:31164915@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Ware v Hackney Wick U17
 DTSTART;TZID=Europe/London:20261122T120000
 DTEND;TZID=Europe/London:20261122T134000
@@ -47,8 +36,20 @@ DESCRIPTION:U18 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31164915
 END:VEVENT
 BEGIN:VEVENT
+UID:31191476@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Hemel Hempstead Town v Ware
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
+ ordshire HP2 4HW
+DESCRIPTION:U18 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191476
+END:VEVENT
+BEGIN:VEVENT
 UID:30966015@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Ware v Ware U17 (Hertfordshire FA U18 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T100000
 DTEND;TZID=Europe/London:20261129T114000

@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30774086@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Harwich & Parkeston Girls v Herongate Athletic Herons
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
 LOCATION:The Harwich and Dovercourt High School\, Hall Lane\, Harwich\, Es
  sex CO12 3TG
-DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U13 E league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30774086
 END:VEVENT
 BEGIN:VEVENT
 UID:30774089@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Perry Street Girls Tigers v Harwich & Parkeston Girls
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000
@@ -47,7 +46,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774089
 END:VEVENT
 BEGIN:VEVENT
 UID:30774103@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Harwich & Parkeston Girls v Leigh Lionesses Spirit
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -59,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774103
 END:VEVENT
 BEGIN:VEVENT
 UID:30774110@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women L v Harwich & Parkeston Girls
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -71,7 +70,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774110
 END:VEVENT
 BEGIN:VEVENT
 UID:30774114@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Harwich & Parkeston Girls v BSC FC Cyans
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -83,7 +82,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774114
 END:VEVENT
 BEGIN:VEVENT
 UID:30774133@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Great Wakering Colts Vikings v Harwich & Parkeston Girls
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -95,7 +94,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774133
 END:VEVENT
 BEGIN:VEVENT
 UID:30774075@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Southminster United Girls v Harwich & Parkeston Girls
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -107,7 +106,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774075
 END:VEVENT
 BEGIN:VEVENT
 UID:30774149@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Herongate Athletic Herons v Harwich & Parkeston Girls
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -119,7 +118,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774149
 END:VEVENT
 BEGIN:VEVENT
 UID:30774042@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Harwich & Parkeston Girls v South Woodham Ferrers United Women L
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -131,7 +130,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774042
 END:VEVENT
 BEGIN:VEVENT
 UID:30774158@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Harwich & Parkeston Girls v Perry Street Girls Tigers
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222

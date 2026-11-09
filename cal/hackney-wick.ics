@@ -26,17 +26,17 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100761@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Barking v Hackney Wick
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Mayesbrook Park\, Lodge Avenue\, Dagenham RM8 2JA
+DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100761
 END:VEVENT
 BEGIN:VEVENT
 UID:31162137@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Frenford v Hackney Wick
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -46,7 +46,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162137
 END:VEVENT
 BEGIN:VEVENT
 UID:31030373@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hackney Wick v CSM London
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -58,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030373
 END:VEVENT
 BEGIN:VEVENT
 UID:31165624@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Redbridge v Hackney Wick
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -68,7 +68,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31165624
 END:VEVENT
 BEGIN:VEVENT
 UID:31165618@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ilford v Hackney Wick
 DTSTART;TZID=Europe/London:20261206T100000
 DTEND;TZID=Europe/London:20261206T114000
@@ -76,5 +76,17 @@ LOCATION:Cricklefields Athletics Ground\, Cricklefield Stadium\, The Pavil
  ion Cricklefield Place\, Ilford IG1 1FY
 DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31165618
+END:VEVENT
+BEGIN:VEVENT
+UID:31191121@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Hackney Wick v Barking
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Mabley Green\, Mabley Green Sports Green Lee Conservancy Road\, H
+ ackney\, London E9 5RN
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191121
 END:VEVENT
 END:VCALENDAR

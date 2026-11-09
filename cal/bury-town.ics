@@ -26,29 +26,29 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100629@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Leiston v Bury Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T134500
+DTEND;TZID=Europe/London:20261115T152500
 LOCATION:Leiston Town Athletic Association\, The Flannery Stadium Victory 
  Road\, Leiston\, Suffolk IP16 4DQ
-DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100629
 END:VEVENT
 BEGIN:VEVENT
 UID:31166045@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Needham Market v Bury Town
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
+LOCATION:Apg Park\, Yaxley Football Club Leading Drove\, Yaxley\, Cambridg
+ eshire PE7 3NA
+DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166045
 END:VEVENT
 BEGIN:VEVENT
 UID:31167045@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Bury Town v Wroxham
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -57,8 +57,20 @@ DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167045
 END:VEVENT
 BEGIN:VEVENT
+UID:31030351@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Aylsham v Bury Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Youngs Park\, Youngs Park\, Aylsham Community Sports Ltd Woodgate
+  Way\, Aylsham\, Norfolk NR11 6FJ
+DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030351
+END:VEVENT
+BEGIN:VEVENT
 UID:31016121@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:St Neots Town v Bury Town (Chairman's Cup)
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000

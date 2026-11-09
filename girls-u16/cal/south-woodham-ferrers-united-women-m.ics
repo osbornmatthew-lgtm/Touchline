@@ -25,31 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30735282@touchline-girls-u16
-DTSTAMP:20261108T145549Z
-SUMMARY:South Woodham Ferrers United Women M v Ongar Juniors Girls
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-LOCATION:Compass Gardens\, Creekview Road\, South Woodham Ferrers\, Essex 
- CM3 5GU
-DESCRIPTION:U16 A league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30735282
-END:VEVENT
-BEGIN:VEVENT
 UID:30735291@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Ongar Juniors Girls v South Woodham Ferrers United Women M
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T123000
+DTEND;TZID=Europe/London:20261115T141000
 LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
  ar\, Essex CM5 0RD
-DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U16 A league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735291
 END:VEVENT
 BEGIN:VEVENT
 UID:30735304@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Buckhurst Hill Girls Lionesses v South Woodham Ferrers United Wome
  n M
 DTSTART;VALUE=DATE:20261206
@@ -62,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735304
 END:VEVENT
 BEGIN:VEVENT
 UID:30735310@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women M v East Thurrock Community Rai
  der
 DTSTART;VALUE=DATE:20261213
@@ -75,7 +63,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735310
 END:VEVENT
 BEGIN:VEVENT
 UID:30735312@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Billericay Town Girls ECGL v South Woodham Ferrers United Women M
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -85,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735312
 END:VEVENT
 BEGIN:VEVENT
 UID:30735319@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women M v Barking Barking Girls
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -97,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735319
 END:VEVENT
 BEGIN:VEVENT
 UID:30735324@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:AFC Leyton s v South Woodham Ferrers United Women M
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -108,7 +96,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735324
 END:VEVENT
 BEGIN:VEVENT
 UID:30735328@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women M v Walthamstow EGCL
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -120,7 +108,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735328
 END:VEVENT
 BEGIN:VEVENT
 UID:30735248@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hutton Girls Sharks v South Woodham Ferrers United Women M
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -132,7 +120,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735248
 END:VEVENT
 BEGIN:VEVENT
 UID:30735264@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women M v Billericay Town Girls ECGL
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -144,7 +132,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735264
 END:VEVENT
 BEGIN:VEVENT
 UID:30735301@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:South Woodham Ferrers United Women M v Hutton Girls Sharks
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -156,7 +144,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735301
 END:VEVENT
 BEGIN:VEVENT
 UID:30735296@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Bowers & Pitsea Girls Hammers v South Woodham Ferrers United Women
   M
 DTSTART;VALUE=DATE:20270307
@@ -169,7 +157,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735296
 END:VEVENT
 BEGIN:VEVENT
 UID:31034819@touchline-girls-u16
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Ongar Juniors Girls v South Woodham Ferrers United Women M (Essex 
  U16 Girls Cup)
 DTSTART;VALUE=DATE:20261129

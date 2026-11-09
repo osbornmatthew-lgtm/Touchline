@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067519@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Shefford Saints v St Ives Town
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067519
 END:VEVENT
 BEGIN:VEVENT
 UID:31154052@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Netherton United v St Ives Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -45,8 +45,20 @@ DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154052
 END:VEVENT
 BEGIN:VEVENT
+UID:31187254@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:LGCE v St Ives Town
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Letchworth Eagles FC (Pixmore Pitches)\, Baldock Road\, Letchwort
+ h Garden City\, Hertfordshire SG6 2EN
+DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187254
+END:VEVENT
+BEGIN:VEVENT
 UID:31087377@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:St Neots Town v St Ives Town (County Youth U14 Cup)
 DTSTART;TZID=Europe/London:20261115T123000
 DTEND;TZID=Europe/London:20261115T141000

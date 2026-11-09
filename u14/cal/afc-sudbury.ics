@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31107250@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:AFC Sudbury v Newmarket Town
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107250
 END:VEVENT
 BEGIN:VEVENT
 UID:31107261@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:AFC Sudbury v Haverhill Rovers EJA
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107261
 END:VEVENT
 BEGIN:VEVENT
 UID:31159314@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:St Neots Town v AFC Sudbury
 DTSTART;TZID=Europe/London:20261129T123000
 DTEND;TZID=Europe/London:20261129T141000
@@ -55,5 +55,15 @@ LOCATION:St Neots Town Football Club\, Rowley Park Kester Way\, St. Neots\
  , Cambridgeshire PE19 6SL
 DESCRIPTION:U14 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31159314
+END:VEVENT
+BEGIN:VEVENT
+UID:31187150@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:AFC Sudbury v Cambridge City
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187150
 END:VEVENT
 END:VCALENDAR

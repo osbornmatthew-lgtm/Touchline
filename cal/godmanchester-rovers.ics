@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100644@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Godmanchester Rovers v Newmarket Town
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31100644
 END:VEVENT
 BEGIN:VEVENT
 UID:31162112@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Soham Town Rangers v Godmanchester Rovers
 DTSTART;TZID=Europe/London:20261122T103000
 DTEND;TZID=Europe/London:20261122T121000
@@ -49,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162112
 END:VEVENT
 BEGIN:VEVENT
 UID:31167081@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Netherton United v Godmanchester Rovers
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -58,8 +58,20 @@ DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167081
 END:VEVENT
 BEGIN:VEVENT
+UID:31191075@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:St Neots Town v Godmanchester Rovers
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:St Neots Town Football Club\, Rowley Park Kester Way\, St. Neots\
+ , Cambridgeshire PE19 6SL
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191075
+END:VEVENT
+BEGIN:VEVENT
 UID:31093719@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Godmanchester Rovers v Sudbury Sports (League Cup)
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000
@@ -71,7 +83,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093719
 END:VEVENT
 BEGIN:VEVENT
 UID:31078185@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Histon v Godmanchester Rovers (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261117T194500
 DTEND;TZID=Europe/London:20261117T212500
@@ -79,14 +91,5 @@ LOCATION:Camtech and Caprice Stadium\, Bridge Road\, Impington\, Cambridge
  \, Cambridgeshire CB24 9PH
 DESCRIPTION:RT Litho Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31078185
-END:VEVENT
-BEGIN:VEVENT
-UID:31087928@touchline-eja
-DTSTAMP:20261108T145548Z
-SUMMARY:St Neots Town v Godmanchester Rovers (County Youth U16 Cup)
-DTSTART;TZID=Europe/London:20261108T123000
-DTEND;TZID=Europe/London:20261108T141000
-DESCRIPTION:County Youth U16 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31087928
 END:VEVENT
 END:VCALENDAR

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093628@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Edgware & Kingsbury v Harpenden Town
 DTSTART;TZID=Europe/London:20261115T113000
 DTEND;TZID=Europe/London:20261115T131000
@@ -35,19 +35,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093628
 END:VEVENT
 BEGIN:VEVENT
 UID:31164893@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Harpenden Town v Wingate & Finchley
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;TZID=Europe/London:20261122T110000
+DTEND;TZID=Europe/London:20261122T124000
 LOCATION:Harpenden Town Football Club\, Amenbury Lane\, Harpenden\, Hertfo
  rdshire AL5 2EF
-DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DESCRIPTION:U18 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31164893
 END:VEVENT
 BEGIN:VEVENT
 UID:31165035@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Welwyn Garden City U17 v Harpenden Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -57,7 +56,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31165035
 END:VEVENT
 BEGIN:VEVENT
 UID:30811508@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Harpenden Town v Cheshunt Ambers
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -66,5 +65,16 @@ LOCATION:Harpenden Town Football Club\, Amenbury Lane\, Harpenden\, Hertfo
 DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
  l-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30811508
+END:VEVENT
+BEGIN:VEVENT
+UID:31191159@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Wingate & Finchley v Harpenden Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191159
 END:VEVENT
 END:VCALENDAR

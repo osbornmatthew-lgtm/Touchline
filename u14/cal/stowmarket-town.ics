@@ -25,29 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31034961@touchline-eja-u14
-DTSTAMP:20261108T145549Z
-SUMMARY:Stowmarket Town v Dereham Town
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Stowmarket High School\, Onehouse Road\, Stowmarket\, Suffolk IP1
- 4 1QR
-DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31034961
-END:VEVENT
-BEGIN:VEVENT
 UID:31067500@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Needham Market v Stowmarket Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
+LOCATION:Apg Park\, Yaxley Football Club Leading Drove\, Yaxley\, Cambridg
+ eshire PE7 3NA
+DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067500
 END:VEVENT
 BEGIN:VEVENT
 UID:31153580@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Stowmarket Town v Felixstowe & Walton United
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000
@@ -57,8 +47,18 @@ DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153580
 END:VEVENT
 BEGIN:VEVENT
+UID:31187030@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Bury Town v Stowmarket Town
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187030
+END:VEVENT
+BEGIN:VEVENT
 UID:31105263@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Stowmarket Town v Downham Town (League Cup)
 DTSTART;TZID=Europe/London:20261122T140000
 DTEND;TZID=Europe/London:20261122T154000

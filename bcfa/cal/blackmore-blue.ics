@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30722299@touchline-bcfa
-DTSTAMP:20261108T145549Z
-SUMMARY:Tilbury Titans v Blackmore Blue
-DTSTART;TZID=Europe/London:20261108T100000
-DTEND;TZID=Europe/London:20261108T114000
-LOCATION:The Gateway Academy\, Marshfoot Road\, Grays RM16 4LU
-DESCRIPTION:Division 3 league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30722299
-END:VEVENT
-BEGIN:VEVENT
 UID:30722277@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hannakins Farm Purple v Blackmore Blue
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -47,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722277
 END:VEVENT
 BEGIN:VEVENT
 UID:30722282@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Blackmore Blue v BSC FC United
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -59,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722282
 END:VEVENT
 BEGIN:VEVENT
 UID:30722288@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Risden Wood Warriors v Blackmore Blue
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -71,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722288
 END:VEVENT
 BEGIN:VEVENT
 UID:30722292@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Blackmore Blue v Aveley United
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -83,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722292
 END:VEVENT
 BEGIN:VEVENT
 UID:30722302@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Blackmore Blue v Essex Minors (Hornchurch) Merlins
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -95,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722302
 END:VEVENT
 BEGIN:VEVENT
 UID:30722310@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Loughton Town Greens v Blackmore Blue
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -106,20 +96,8 @@ DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722310
 END:VEVENT
 BEGIN:VEVENT
-UID:30722312@touchline-bcfa
-DTSTAMP:20261108T145549Z
-SUMMARY:Blackmore Blue v Perry Street Blacks
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
- h\, Brentwood\, Essex CM15 0LA
-DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30722312
-END:VEVENT
-BEGIN:VEVENT
 UID:30722321@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:CFC Rainham Lions v Blackmore Blue
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -131,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722321
 END:VEVENT
 BEGIN:VEVENT
 UID:30722254@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Essex Minors (Hornchurch) Merlins v Blackmore Blue
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -143,7 +121,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722254
 END:VEVENT
 BEGIN:VEVENT
 UID:30722265@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Perry Street Blacks v Blackmore Blue
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -154,8 +132,20 @@ DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722265
 END:VEVENT
 BEGIN:VEVENT
+UID:30722312@touchline-bcfa
+DTSTAMP:20261109T185222Z
+SUMMARY:Blackmore Blue v Perry Street Blacks
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
+ h\, Brentwood\, Essex CM15 0LA
+DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30722312
+END:VEVENT
+BEGIN:VEVENT
 UID:30977879@touchline-bcfa
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Aveley United v Blackmore Blue
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301

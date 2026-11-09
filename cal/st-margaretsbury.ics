@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31162588@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Hertford Town v St Margaretsbury
 DTSTART;TZID=Europe/London:20261122T153000
 DTEND;TZID=Europe/London:20261122T171000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162588
 END:VEVENT
 BEGIN:VEVENT
 UID:31167233@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Real Bedford v St Margaretsbury
 DTSTART;TZID=Europe/London:20261206T110000
 DTEND;TZID=Europe/London:20261206T124000
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167233
 END:VEVENT
 BEGIN:VEVENT
 UID:31162586@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:St Margaretsbury v Hertford Town
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -59,17 +59,16 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162586
 END:VEVENT
 BEGIN:VEVENT
 UID:31016110@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Edgware & Kingsbury v St Margaretsbury (Chairman's Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DTSTART;TZID=Europe/London:20261115T110000
+DTEND;TZID=Europe/London:20261115T124000
+DESCRIPTION:Chairman's Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31016110
 END:VEVENT
 BEGIN:VEVENT
 UID:30934288@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:St Margaretsbury v Hertford Town (Hertfordshire FA U16 Boys Challe
  nge Cup)
 DTSTART;VALUE=DATE:20261129

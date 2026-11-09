@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067719@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Rayleigh Town v Bowers & Pitsea
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T133000
+DTEND;TZID=Europe/London:20261115T151000
 LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
  ssex SS6 9DT
-DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DESCRIPTION:U14 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067719
 END:VEVENT
 BEGIN:VEVENT
 UID:31107337@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Concord Rangers v Bowers & Pitsea
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107337
 END:VEVENT
 BEGIN:VEVENT
 UID:31154559@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Bowers & Pitsea v Billericay Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -57,8 +56,18 @@ DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154559
 END:VEVENT
 BEGIN:VEVENT
+UID:31187655@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Bowers & Pitsea v Leigh Ramblers
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187655
+END:VEVENT
+BEGIN:VEVENT
 UID:31171180@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Bowers & Pitsea v Billericay Town (Peter Cline Trophy)
 DTSTART;TZID=Europe/London:20261113T194500
 DTEND;TZID=Europe/London:20261113T212500

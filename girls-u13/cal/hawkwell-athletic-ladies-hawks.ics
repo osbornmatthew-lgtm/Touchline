@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30774087@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Southminster United Girls v Hawkwell Athletic Ladies Hawks
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T123000
+DTEND;TZID=Europe/London:20261115T141000
 LOCATION:King George V Playing Field (Southminster)\, King George V Playin
  g Field Station Road\, Southminster\, Essex CM0 7EW
-DESCRIPTION:U13 E league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U13 E league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30774087
 END:VEVENT
 BEGIN:VEVENT
 UID:30774088@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Herongate Athletic Herons v Hawkwell Athletic Ladies Hawks
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -50,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774088
 END:VEVENT
 BEGIN:VEVENT
 UID:30774095@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Perry Street Girls Tigers v Hawkwell Athletic Ladies Hawks
 DTSTART;TZID=Europe/London:20261129T100000
 DTEND;TZID=Europe/London:20261129T114000
@@ -59,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774095
 END:VEVENT
 BEGIN:VEVENT
 UID:30774109@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Leigh Lionesses Spirit v Hawkwell Athletic Ladies Hawks
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -70,7 +69,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774109
 END:VEVENT
 BEGIN:VEVENT
 UID:30774118@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:BSC FC Cyans v Hawkwell Athletic Ladies Hawks
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -82,7 +81,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774118
 END:VEVENT
 BEGIN:VEVENT
 UID:30774137@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hawkwell Athletic Ladies Hawks v Great Wakering Colts Vikings
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -94,7 +93,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774137
 END:VEVENT
 BEGIN:VEVENT
 UID:30774148@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hawkwell Athletic Ladies Hawks v Southminster United Girls
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -106,7 +105,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774148
 END:VEVENT
 BEGIN:VEVENT
 UID:30774159@touchline-girls-u13
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hawkwell Athletic Ladies Hawks v Herongate Athletic Herons
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222

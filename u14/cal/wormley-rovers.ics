@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067575@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Wormley Rovers v West Essex
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -35,22 +35,33 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067575
 END:VEVENT
 BEGIN:VEVENT
 UID:31107269@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Cockfosters v Wormley Rovers
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261122T140000
+DTEND;TZID=Europe/London:20261122T154000
+LOCATION:Old Elizabethans Memorial Playing Fields\, Mays Lane\, Barnet EN5
+  2AG
+DESCRIPTION:U14 Orange league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107269
 END:VEVENT
 BEGIN:VEVENT
 UID:31154364@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Wormley Rovers v Enfield Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154364
+END:VEVENT
+BEGIN:VEVENT
+UID:31187529@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Wormley Rovers v Enfield Borough
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187529
 END:VEVENT
 END:VCALENDAR

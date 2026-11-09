@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31099902@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Norsemen v Edgware & Kingsbury
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31099902
 END:VEVENT
 BEGIN:VEVENT
 UID:31161827@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Cheshunt v Norsemen
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31161827
 END:VEVENT
 BEGIN:VEVENT
 UID:31166876@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Norsemen v BSC
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -57,13 +57,33 @@ DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166876
 END:VEVENT
 BEGIN:VEVENT
-UID:31038914@touchline-eja-u15
-DTSTAMP:20261108T145549Z
-SUMMARY:FB v Norsemen (Middlesex FA Under-15 Cup)
-DTSTART;TZID=Europe/London:20261108T103000
-DTEND;TZID=Europe/London:20261108T121000
+UID:31190913@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Hertford Heath v Norsemen
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190913
+END:VEVENT
+BEGIN:VEVENT
+UID:31190899@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Norsemen v London Lions
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190899
+END:VEVENT
+BEGIN:VEVENT
+UID:31192960@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Whetstone Wanderers v Norsemen (Middlesex FA Under-15 Cup)
+DTSTART;TZID=Europe/London:20270124T103000
+DTEND;TZID=Europe/London:20270124T121000
 DESCRIPTION:Middlesex FA Under-15 Cup. Check FA Full-Time for late changes
  .
-URL:https://fulltime.thefa.com/displayFixture.html?id=31038914
+URL:https://fulltime.thefa.com/displayFixture.html?id=31192960
 END:VEVENT
 END:VCALENDAR

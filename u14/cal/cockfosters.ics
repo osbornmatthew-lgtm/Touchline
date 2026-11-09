@@ -25,28 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31035114@touchline-eja-u14
-DTSTAMP:20261108T145549Z
-SUMMARY:Cockfosters v Enfield Borough
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Winchmore Hill Sports Club\, Firs Lane\, London N21 3ER
-DESCRIPTION:U14 Orange league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31035114
-END:VEVENT
-BEGIN:VEVENT
 UID:31107269@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Cockfosters v Wormley Rovers
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261122T140000
+DTEND;TZID=Europe/London:20261122T154000
+LOCATION:Old Elizabethans Memorial Playing Fields\, Mays Lane\, Barnet EN5
+  2AG
+DESCRIPTION:U14 Orange league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107269
 END:VEVENT
 BEGIN:VEVENT
 UID:31154363@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:West Essex v Cockfosters
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -57,20 +48,33 @@ DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154363
 END:VEVENT
 BEGIN:VEVENT
+UID:31187525@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Cheshunt v Cockfosters
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
+ ross\, Hertfordshire EN8 8RU
+DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187525
+END:VEVENT
+BEGIN:VEVENT
 UID:31161236@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ryan v Cockfosters (Peter Cline Trophy)
-DTSTART;TZID=Europe/London:20261130T191500
-DTEND;TZID=Europe/London:20261130T205500
+DTSTART;TZID=Europe/London:20261126T191500
+DTEND;TZID=Europe/London:20261126T205500
+LOCATION:Peter May\, E17 4HR
 DESCRIPTION:Peter Cline Trophy. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31161236
 END:VEVENT
 BEGIN:VEVENT
 UID:31048686@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Rotherhithe v Cockfosters (London Under 14 Boys Sunday Cup)
-DTSTART;TZID=Europe/London:20261115T101000
-DTEND;TZID=Europe/London:20261115T115000
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
 LOCATION:University Of Greenwich (Sparrows Farm)\, Sparrows Farm Leisure C
  entre Sparrows Lane\, London SE9 2BT
 DESCRIPTION:London Under 14 Boys Sunday Cup. Check FA Full-Time for late c

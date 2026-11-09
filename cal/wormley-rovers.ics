@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30896862@touchline-eja
-DTSTAMP:20261108T145548Z
-SUMMARY:Norsemen v Wormley Rovers
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
-DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30896862
-END:VEVENT
-BEGIN:VEVENT
 UID:31165695@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Edgware & Kingsbury v Wormley Rovers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -46,8 +35,39 @@ DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31165695
 END:VEVENT
 BEGIN:VEVENT
+UID:30896862@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Norsemen v Wormley Rovers
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30896862
+END:VEVENT
+BEGIN:VEVENT
+UID:31191113@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Wormley Rovers v Broadfields United
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191113
+END:VEVENT
+BEGIN:VEVENT
+UID:31030363@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Wormley Rovers v Cockfosters
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31030363
+END:VEVENT
+BEGIN:VEVENT
 UID:31116221@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Wormley Rovers v Needham Market (Chairman's Cup)
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111

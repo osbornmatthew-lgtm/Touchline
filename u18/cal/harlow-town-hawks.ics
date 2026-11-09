@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093282@touchline-eja-u18
-DTSTAMP:20261108T145549Z
-SUMMARY:Harlow Town Hawks v Rayleigh Town Yellow
-DTSTART;TZID=Europe/London:20261108T143000
-DTEND;TZID=Europe/London:20261108T161000
-DESCRIPTION:U18 Red league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093282
-END:VEVENT
-BEGIN:VEVENT
 UID:31093555@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Bowers & Pitsea v Harlow Town Hawks
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -46,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093555
 END:VEVENT
 BEGIN:VEVENT
 UID:31164916@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Harlow Town Hawks v Tilbury Black
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -56,22 +47,43 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31164916
 END:VEVENT
 BEGIN:VEVENT
 UID:31164948@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Harlow Town Hawks v Redbridge Red
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DTSTART;TZID=Europe/London:20261129T123000
+DTEND;TZID=Europe/London:20261129T141000
+DESCRIPTION:U18 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31164948
 END:VEVENT
 BEGIN:VEVENT
 UID:31167628@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Hornchurch White v Harlow Town Hawks
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167628
+END:VEVENT
+BEGIN:VEVENT
+UID:31032061@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Harlow Town Hawks v Heybridge Swifts U17 Red
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U18 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31032061
+END:VEVENT
+BEGIN:VEVENT
+UID:31187582@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Harlow Town Hawks v Burnham Ramblers Blues (Essex Pelly U18 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Harlow Town Football Club\, The Harlow Arena Elizabeth Way\, Harl
+ ow\, Essex CM19 5BE
+DESCRIPTION:Essex Pelly U18 Cup. Kick-off time not published yet. Check FA
+  Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187582
 END:VEVENT
 END:VCALENDAR

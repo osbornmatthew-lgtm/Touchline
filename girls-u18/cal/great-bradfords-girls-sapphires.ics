@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30731976@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Great Bradfords Girls Sapphires v Oyster Girls
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
 LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
  sex CM7 1FF
-DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U18 A league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30731976
 END:VEVENT
 BEGIN:VEVENT
 UID:30732001@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Walthamstow EGCL v Great Bradfords Girls Sapphires
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -49,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732001
 END:VEVENT
 BEGIN:VEVENT
 UID:30731985@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Great Bradfords Girls Sapphires v Springfield Girls
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -61,7 +60,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30731985
 END:VEVENT
 BEGIN:VEVENT
 UID:30732032@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Oyster Girls v Great Bradfords Girls Sapphires
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -71,7 +70,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732032
 END:VEVENT
 BEGIN:VEVENT
 UID:30732031@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Great Bradfords Girls Sapphires v Hashtag United Girls Yellow
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -83,7 +82,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732031
 END:VEVENT
 BEGIN:VEVENT
 UID:30731954@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Cornard Dynamos Youth F.C. Girls v Great Bradfords Girls Sapphires
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -95,7 +94,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30731954
 END:VEVENT
 BEGIN:VEVENT
 UID:30732020@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Easton A Girls v Great Bradfords Girls Sapphires
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -105,7 +104,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732020
 END:VEVENT
 BEGIN:VEVENT
 UID:30731989@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Tigers Girls v Great Bradfords Girls Sapphires
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -117,7 +116,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30731989
 END:VEVENT
 BEGIN:VEVENT
 UID:30731939@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Great Bradfords Girls Sapphires v Walthamstow EGCL
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -129,7 +128,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30731939
 END:VEVENT
 BEGIN:VEVENT
 UID:30731978@touchline-girls-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Springfield Girls v Great Bradfords Girls Sapphires
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301

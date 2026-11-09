@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067498@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ipswich Wanderers v Felixstowe & Walton United
 DTSTART;TZID=Europe/London:20261115T100000
 DTEND;TZID=Europe/London:20261115T114000
@@ -37,17 +37,17 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067498
 END:VEVENT
 BEGIN:VEVENT
 UID:31107248@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Felixstowe & Walton United v Leiston
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261122T100000
+DTEND;TZID=Europe/London:20261122T114000
+LOCATION:Inspire Suffolk\, Lindbergh Road\, Ipswich\, Suffolk IP3 9QX
+DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107248
 END:VEVENT
 BEGIN:VEVENT
 UID:31153580@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Stowmarket Town v Felixstowe & Walton United
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000
@@ -57,8 +57,20 @@ DESCRIPTION:U14 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153580
 END:VEVENT
 BEGIN:VEVENT
+UID:31187032@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Fakenham Town v Felixstowe & Walton United
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Daly Group Stadium (Fakenham Town FC)\, Clipbush Park Clipbush La
+ ne\, Fakenham\, Norfolk NR21 8SW
+DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187032
+END:VEVENT
+BEGIN:VEVENT
 UID:31128946@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Felixstowe & Walton United v Cambridge City (Peter Cline Trophy)
 DTSTART;TZID=Europe/London:20261130T194500
 DTEND;TZID=Europe/London:20261130T212500

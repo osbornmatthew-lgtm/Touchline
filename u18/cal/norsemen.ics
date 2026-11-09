@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31164900@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Norsemen v Ilford
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31164900
 END:VEVENT
 BEGIN:VEVENT
 UID:31165024@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Norsemen v Woodford Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31165024
 END:VEVENT
 BEGIN:VEVENT
 UID:31167601@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Norsemen v Buckhurst Hill
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -58,13 +58,35 @@ DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167601
 END:VEVENT
 BEGIN:VEVENT
+UID:30811572@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Woodford Town v Norsemen
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Trinity Catholic High School (Whitbread Sports Ground)\, Whitbrea
+ d Sports Ground\, Pavilion Durham Avenue\, Woodford Green IG8 7NJ
+DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30811572
+END:VEVENT
+BEGIN:VEVENT
 UID:30895123@touchline-eja-u18
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185222Z
 SUMMARY:Norsemen v London Lions (League Cup)
 DTSTART;TZID=Europe/London:20261115T113000
 DTEND;TZID=Europe/London:20261115T131000
 LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
 DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30895123
+END:VEVENT
+BEGIN:VEVENT
+UID:31187545@touchline-eja-u18
+DTSTAMP:20261109T185222Z
+SUMMARY:Norsemen v Celtic U17 Red (Middlesex FA Under-18 Cup)
+DTSTART;TZID=Europe/London:20270228T103000
+DTEND;TZID=Europe/London:20270228T121000
+DESCRIPTION:Middlesex FA Under-18 Cup. Check FA Full-Time for late changes
+ .
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187545
 END:VEVENT
 END:VCALENDAR

@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31029928@touchline-eja-u15
-DTSTAMP:20261108T145549Z
-SUMMARY:Needham Market v Fakenham Town
-DTSTART;TZID=Europe/London:20261108T140000
-DTEND;TZID=Europe/London:20261108T154000
-LOCATION:Apg Park\, Yaxley Football Club Leading Drove\, Yaxley\, Cambridg
- eshire PE7 3NA
-DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31029928
-END:VEVENT
-BEGIN:VEVENT
 UID:30985356@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Downham Town v Needham Market
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -47,17 +36,28 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30985356
 END:VEVENT
 BEGIN:VEVENT
 UID:31099880@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Needham Market v Bury Town
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261206T100000
+DTEND;TZID=Europe/London:20261206T114000
+LOCATION:Apg Park\, Yaxley Football Club Leading Drove\, Yaxley\, Cambridg
+ eshire PE7 3NA
+DESCRIPTION:U15 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31099880
 END:VEVENT
 BEGIN:VEVENT
+UID:31190819@touchline-eja-u15
+DTSTAMP:20261109T185221Z
+SUMMARY:Needham Market v Mulbarton Wanderers
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U15 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31190819
+END:VEVENT
+BEGIN:VEVENT
 UID:31116249@touchline-eja-u15
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Needham Market v Wingate & Finchley (League Cup)
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123

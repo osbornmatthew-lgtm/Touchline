@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100730@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:May & Baker Eastbrook v Cockfosters
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T100000
+DTEND;TZID=Europe/London:20261115T114000
 LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
  ham RM9 5PU
-DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100730
 END:VEVENT
 BEGIN:VEVENT
 UID:31030362@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Wingate & Finchley v May & Baker Eastbrook
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31030362
 END:VEVENT
 BEGIN:VEVENT
 UID:31167140@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:May & Baker Eastbrook v Wingate & Finchley
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -60,8 +59,20 @@ DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167140
 END:VEVENT
 BEGIN:VEVENT
+UID:31191110@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:May & Baker Eastbrook v Cheshunt
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
+ ham RM9 5PU
+DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191110
+END:VEVENT
+BEGIN:VEVENT
 UID:31067374@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Netherton United v May & Baker Eastbrook (Chairman's Cup)
 DTSTART;TZID=Europe/London:20261122T133000
 DTEND;TZID=Europe/London:20261122T151000

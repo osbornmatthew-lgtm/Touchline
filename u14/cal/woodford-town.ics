@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067645@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Woodford Town v Harlow Town
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
 LOCATION:Trinity Catholic High School (Whitbread Sports Ground)\, Whitbrea
  d Sports Ground\, Pavilion Durham Avenue\, Woodford Green IG8 7NJ
-DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DESCRIPTION:U14 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31067645
 END:VEVENT
 BEGIN:VEVENT
 UID:31107266@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Woodford Town v Ryan
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -50,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107266
 END:VEVENT
 BEGIN:VEVENT
 UID:31154453@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Frenford v Woodford Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -59,8 +58,18 @@ DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31154453
 END:VEVENT
 BEGIN:VEVENT
+UID:31187567@touchline-eja-u14
+DTSTAMP:20261109T185221Z
+SUMMARY:Harlow Town v Woodford Town
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31187567
+END:VEVENT
+BEGIN:VEVENT
 UID:31186823@touchline-eja-u14
-DTSTAMP:20261108T145549Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Maldon & Tiptree v Woodford Town (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

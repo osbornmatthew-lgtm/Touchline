@@ -26,17 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100764@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Redbridge v Ilford
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261115T111500
+DTEND;TZID=Europe/London:20261115T125500
+LOCATION:The TechSoc.com Stadium\, Station Road\, Barkingside\, Ilford IG6
+  1NB
+DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31100764
 END:VEVENT
 BEGIN:VEVENT
 UID:31162136@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Buckhurst Hill v Ilford
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162136
 END:VEVENT
 BEGIN:VEVENT
 UID:31165625@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ryan v Ilford
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -58,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31165625
 END:VEVENT
 BEGIN:VEVENT
 UID:31165618@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ilford v Hackney Wick
 DTSTART;TZID=Europe/London:20261206T100000
 DTEND;TZID=Europe/London:20261206T114000
@@ -68,8 +69,20 @@ DESCRIPTION:U16 Purple league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31165618
 END:VEVENT
 BEGIN:VEVENT
+UID:31191122@touchline-eja
+DTSTAMP:20261109T185221Z
+SUMMARY:Ilford v Redbridge
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+LOCATION:Cricklefields Athletics Ground\, Cricklefield Stadium\, The Pavil
+ ion Cricklefield Place\, Ilford IG1 1FY
+DESCRIPTION:U16 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31191122
+END:VEVENT
+BEGIN:VEVENT
 UID:31185909@touchline-eja
-DTSTAMP:20261108T145548Z
+DTSTAMP:20261109T185221Z
 SUMMARY:Ilford v Rayleigh Boys (Essex Cassels U16 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
