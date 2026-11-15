@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153577@touchline-eja-u14
-DTSTAMP:20261115T132734Z
+DTSTAMP:20261115T150543Z
 SUMMARY:Aylsham v Ipswich Wanderers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -36,12 +36,24 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153577
 END:VEVENT
 BEGIN:VEVENT
 UID:31187033@touchline-eja-u14
-DTSTAMP:20261115T132734Z
+DTSTAMP:20261115T150543Z
 SUMMARY:Leiston v Ipswich Wanderers
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31187033
+END:VEVENT
+BEGIN:VEVENT
+UID:31210946@touchline-eja-u14
+DTSTAMP:20261115T150543Z
+SUMMARY:Ipswich Wanderers v Bury Town
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Gbs Stadium\, Gbs Stadium Humber Doucy Lane\, Ipswich\, Suffolk I
+ P4 3NR
+DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31210946
 END:VEVENT
 END:VCALENDAR

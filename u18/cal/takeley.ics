@@ -25,31 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093585@touchline-eja-u18
-DTSTAMP:20261115T132734Z
-SUMMARY:Hemel Hempstead Town v Takeley
-DTSTART;TZID=Europe/London:20261115T120000
-DTEND;TZID=Europe/London:20261115T134000
-LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
- ordshire HP2 4HW
-DESCRIPTION:U18 Green league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093585
-END:VEVENT
-BEGIN:VEVENT
 UID:31164914@touchline-eja-u18
-DTSTAMP:20261115T132734Z
+DTSTAMP:20261115T150544Z
 SUMMARY:Takeley v Enfield Town
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;TZID=Europe/London:20261122T100000
+DTEND;TZID=Europe/London:20261122T114000
 LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
  rlow\, Essex CM17 9LX
-DESCRIPTION:U18 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U18 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31164914
 END:VEVENT
 BEGIN:VEVENT
 UID:31167621@touchline-eja-u18
-DTSTAMP:20261115T132734Z
+DTSTAMP:20261115T150544Z
 SUMMARY:Potters Bar Town v Takeley
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -59,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167621
 END:VEVENT
 BEGIN:VEVENT
 UID:31191477@touchline-eja-u18
-DTSTAMP:20261115T132734Z
+DTSTAMP:20261115T150544Z
 SUMMARY:Takeley v Cheshunt
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -71,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31191477
 END:VEVENT
 BEGIN:VEVENT
 UID:30625586@touchline-eja-u18
-DTSTAMP:20261115T132734Z
+DTSTAMP:20261115T150544Z
 SUMMARY:Takeley v Hornchurch White (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
