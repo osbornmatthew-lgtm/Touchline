@@ -25,30 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30880043@touchline-girls-u18
-DTSTAMP:20261109T185222Z
-SUMMARY:Byron Red Star Girls Leopards v Brooklands Girls
-DTSTART;VALUE=DATE:20270321
-DTEND;VALUE=DATE:20270322
-LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
-DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30880043
-END:VEVENT
-BEGIN:VEVENT
-UID:30732096@touchline-girls-u18
-DTSTAMP:20261109T185222Z
-SUMMARY:Braintree Girls v Byron Red Star Girls Leopards
-DTSTART;TZID=Europe/London:20261115T100000
-DTEND;TZID=Europe/London:20261115T114000
-LOCATION:John Ray Recreation Ground\, The Recreation Ground John Ray Stree
- t\, Braintree\, Essex CM7 9DZ
-DESCRIPTION:U18 B league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30732096
-END:VEVENT
-BEGIN:VEVENT
 UID:30732100@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Byron Red Star Girls Leopards v Brantham Athletic F.C. Girls PSG A
  ca
 DTSTART;VALUE=DATE:20261122
@@ -59,21 +37,8 @@ DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30732100
 END:VEVENT
 BEGIN:VEVENT
-UID:30732109@touchline-girls-u18
-DTSTAMP:20261109T185222Z
-SUMMARY:Brantham Athletic F.C. Girls PSG Aca v Byron Red Star Girls Leopar
- ds
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-LOCATION:Brantham Leisure Centre\, Brantham Athletic Sports and Social Clu
- b New Village\, Brantham\, Suffolk CO11 1RZ
-DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30732109
-END:VEVENT
-BEGIN:VEVENT
 UID:30732112@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Byron Red Star Girls Leopards v Broomfield Girls Black
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -84,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732112
 END:VEVENT
 BEGIN:VEVENT
 UID:30732122@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Thundersley Rovers Girls Lionesses v Byron Red Star Girls Leopards
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -95,7 +60,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732122
 END:VEVENT
 BEGIN:VEVENT
 UID:30732128@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Broomfield Girls Red v Byron Red Star Girls Leopards
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -107,7 +72,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732128
 END:VEVENT
 BEGIN:VEVENT
 UID:30732134@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Byron Red Star Girls Leopards v Colchester City Ladies
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -118,7 +83,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732134
 END:VEVENT
 BEGIN:VEVENT
 UID:30880064@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Brooklands Girls v Byron Red Star Girls Leopards
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -129,7 +94,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30880064
 END:VEVENT
 BEGIN:VEVENT
 UID:30732147@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Baddow Spartak Girls Pumas v Byron Red Star Girls Leopards
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -139,7 +104,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732147
 END:VEVENT
 BEGIN:VEVENT
 UID:30732156@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Byron Red Star Girls Leopards v Bealonians Girls Blue
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -150,7 +115,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732156
 END:VEVENT
 BEGIN:VEVENT
 UID:30732161@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Epping Town Girls v Byron Red Star Girls Leopards
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -160,7 +125,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732161
 END:VEVENT
 BEGIN:VEVENT
 UID:30732167@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Byron Red Star Girls Leopards v Braintree Girls
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -171,7 +136,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732167
 END:VEVENT
 BEGIN:VEVENT
 UID:30732043@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Broomfield Girls Black v Byron Red Star Girls Leopards
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -183,7 +148,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732043
 END:VEVENT
 BEGIN:VEVENT
 UID:30732046@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Byron Red Star Girls Leopards v Thundersley Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -194,7 +159,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732046
 END:VEVENT
 BEGIN:VEVENT
 UID:30732078@touchline-girls-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Byron Red Star Girls Leopards v Baddow Spartak Girls Pumas
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
@@ -202,5 +167,29 @@ LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
 DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30732078
+END:VEVENT
+BEGIN:VEVENT
+UID:30880043@touchline-girls-u18
+DTSTAMP:20261115T132735Z
+SUMMARY:Byron Red Star Girls Leopards v Brooklands Girls
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30880043
+END:VEVENT
+BEGIN:VEVENT
+UID:30732109@touchline-girls-u18
+DTSTAMP:20261115T132735Z
+SUMMARY:Brantham Athletic F.C. Girls PSG Aca v Byron Red Star Girls Leopar
+ ds
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+LOCATION:Brantham Leisure Centre\, Brantham Athletic Sports and Social Clu
+ b New Village\, Brantham\, Suffolk CO11 1RZ
+DESCRIPTION:U18 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30732109
 END:VEVENT
 END:VCALENDAR

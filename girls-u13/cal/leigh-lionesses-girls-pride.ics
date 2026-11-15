@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30773418@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Leigh Lionesses Girls Pride v 121 Football Yellows
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
-DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773418
-END:VEVENT
-BEGIN:VEVENT
 UID:30773422@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Buckhurst Hill Girls Tigresses v Leigh Lionesses Girls Pride
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,8 +37,20 @@ DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773422
 END:VEVENT
 BEGIN:VEVENT
+UID:30773471@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:121 Football Yellows v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
+  Basildon\, Essex SS14 2EX
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773471
+END:VEVENT
+BEGIN:VEVENT
 UID:30773432@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Lionesses Girls Pride v Dagenham United Women Belles Clarets
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -60,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773432
 END:VEVENT
 BEGIN:VEVENT
 UID:30773438@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Finesse Sport Finesse Sport United F v Leigh Lionesses Girls Pride
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -72,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773438
 END:VEVENT
 BEGIN:VEVENT
 UID:30773442@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Lionesses Girls Pride v Colchester City Ladies
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -83,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773442
 END:VEVENT
 BEGIN:VEVENT
 UID:30773459@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Lionesses Girls Pride v Tigers Girls White
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -94,7 +95,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773459
 END:VEVENT
 BEGIN:VEVENT
 UID:30773464@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Wivenhoe Tempest Girls v Leigh Lionesses Girls Pride
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -106,7 +107,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773464
 END:VEVENT
 BEGIN:VEVENT
 UID:30773468@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Lionesses Girls Pride v Broomfield Girls
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -116,20 +117,8 @@ DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773468
 END:VEVENT
 BEGIN:VEVENT
-UID:30773471@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:121 Football Yellows v Leigh Lionesses Girls Pride
-DTSTART;VALUE=DATE:20270214
-DTEND;VALUE=DATE:20270215
-LOCATION:The Willows Primary School and Nursery (Basildon)\, Church Road\,
-  Basildon\, Essex SS14 2EX
-DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773471
-END:VEVENT
-BEGIN:VEVENT
 UID:30773477@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Lionesses Girls Pride v Buckhurst Hill Girls Tigresses
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -140,7 +129,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773477
 END:VEVENT
 BEGIN:VEVENT
 UID:30773403@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tigers Girls White v Leigh Lionesses Girls Pride
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308

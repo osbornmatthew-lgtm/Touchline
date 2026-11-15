@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31100644@touchline-eja
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Godmanchester Rovers v Newmarket Town
 DTSTART;TZID=Europe/London:20261115T140000
 DTEND;TZID=Europe/London:20261115T154000
@@ -38,17 +38,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31100644
 END:VEVENT
 BEGIN:VEVENT
 UID:31165763@touchline-eja
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Newmarket Town v Histon
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
+LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
+  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31165763
 END:VEVENT
 BEGIN:VEVENT
 UID:31167083@touchline-eja
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:St Ives Town v Newmarket Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -60,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167083
 END:VEVENT
 BEGIN:VEVENT
 UID:31162111@touchline-eja
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Cambridge City v Newmarket Town
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214

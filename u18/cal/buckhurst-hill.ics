@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093597@touchline-eja-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Barking v Buckhurst Hill
 DTSTART;TZID=Europe/London:20261115T120000
 DTEND;TZID=Europe/London:20261115T134000
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093597
 END:VEVENT
 BEGIN:VEVENT
 UID:31164899@touchline-eja-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Buckhurst Hill v Redbridge Brown
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31164899
 END:VEVENT
 BEGIN:VEVENT
 UID:31167601@touchline-eja-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Norsemen v Buckhurst Hill
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -59,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167601
 END:VEVENT
 BEGIN:VEVENT
 UID:31191468@touchline-eja-u18
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Buckhurst Hill v Barking
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -68,18 +68,5 @@ LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
 DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31191468
-END:VEVENT
-BEGIN:VEVENT
-UID:31186826@touchline-eja-u18
-DTSTAMP:20261109T185222Z
-SUMMARY:Buckhurst Hill v Essex Minors (Hornchurch) U17 Eagles (Essex Pelly
-  U18 Cup)
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-LOCATION:Buckhurst Hill Football Club\, Buckhurst Hill Football Club Rodin
- g Lane\, Buckhurst Hill\, Essex IG9 6BJ
-DESCRIPTION:Essex Pelly U18 Cup. Kick-off time not published yet. Check FA
-  Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31186826
 END:VEVENT
 END:VCALENDAR

@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31099886@touchline-eja-u15
-DTSTAMP:20261109T185221Z
-SUMMARY:Godmanchester Rovers v Newmarket Town
-DTSTART;TZID=Europe/London:20261115T100000
-DTEND;TZID=Europe/London:20261115T114000
-LOCATION:Godmanchester Rovers FC\, Godmanchester Rovers FC The Peter Hodso
- n Community Ground\, Bearscroft Lane\, Godmanchester\, Cambridgeshire PE29
-  2LQ
-DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31099886
-END:VEVENT
-BEGIN:VEVENT
 UID:31166797@touchline-eja-u15
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Soham Town Rangers v Godmanchester Rovers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -48,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166797
 END:VEVENT
 BEGIN:VEVENT
 UID:31166837@touchline-eja-u15
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Eynesbury Rovers v Godmanchester Rovers
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -58,7 +46,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166837
 END:VEVENT
 BEGIN:VEVENT
 UID:30863775@touchline-eja-u15
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Newmarket Town v Godmanchester Rovers
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214

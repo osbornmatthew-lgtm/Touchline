@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735186@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Great Bradfords Girls Quartz v Tigers Girls Black
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;TZID=Europe/London:20261122T100000
+DTEND;TZID=Europe/London:20261122T114000
 LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
  sex CM7 1FF
-DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U15 D league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735186
 END:VEVENT
 BEGIN:VEVENT
 UID:30735191@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tigers Girls Black v Runwell Sports Sapphires
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,20 +48,8 @@ DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735191
 END:VEVENT
 BEGIN:VEVENT
-UID:30735194@touchline-girls-u15
-DTSTAMP:20261109T185222Z
-SUMMARY:Atletico Trotters Girls v Tigers Girls Black
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-LOCATION:Old Brentwoods Sports Club\, Ashwells Road\, Pilgrims Hatch\, Bre
- ntwood\, Essex CM15 9SE
-DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30735194
-END:VEVENT
-BEGIN:VEVENT
 UID:30735200@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tigers Girls Black v Loughton Town Purples
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -74,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735200
 END:VEVENT
 BEGIN:VEVENT
 UID:30735209@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tigers Girls Black v Tendring Borough Belles
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -86,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735209
 END:VEVENT
 BEGIN:VEVENT
 UID:30735214@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:BSC FC Azures v Tigers Girls Black
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -98,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735214
 END:VEVENT
 BEGIN:VEVENT
 UID:30735218@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tigers Girls Black v Witham Town Belles Pink
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -110,7 +97,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735218
 END:VEVENT
 BEGIN:VEVENT
 UID:30735138@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Runwell Sports Sapphires v Tigers Girls Black
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -122,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735138
 END:VEVENT
 BEGIN:VEVENT
 UID:30853220@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Lionesses Girls Pride v Tigers Girls Black
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -133,7 +120,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853220
 END:VEVENT
 BEGIN:VEVENT
 UID:30853212@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Broomfield Girls Black v Tigers Girls Black
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -145,7 +132,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853212
 END:VEVENT
 BEGIN:VEVENT
 UID:30735163@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tigers Girls Black v BSC FC Azures
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -157,7 +144,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735163
 END:VEVENT
 BEGIN:VEVENT
 UID:30853236@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Witham Town Belles Pink v Tigers Girls Black
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -169,7 +156,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853236
 END:VEVENT
 BEGIN:VEVENT
 UID:30853231@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tigers Girls Black v Nazeing Wildcats
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -181,7 +168,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853231
 END:VEVENT
 BEGIN:VEVENT
 UID:30853101@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Nazeing Wildcats v Tigers Girls Black
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
@@ -190,5 +177,17 @@ LOCATION:Roydon Playing Fields\, Roydon Recreation Ground Occupation Lane\
 DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30853101
+END:VEVENT
+BEGIN:VEVENT
+UID:30735194@touchline-girls-u15
+DTSTAMP:20261115T132735Z
+SUMMARY:Atletico Trotters Girls v Tigers Girls Black
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Old Brentwoods Sports Club\, Ashwells Road\, Pilgrims Hatch\, Bre
+ ntwood\, Essex CM15 9SE
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735194
 END:VEVENT
 END:VCALENDAR

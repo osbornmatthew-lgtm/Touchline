@@ -25,22 +25,13 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31067369@touchline-eja-u13
-DTSTAMP:20261109T185221Z
-SUMMARY:Histon v St Ives Town
-DTSTART;TZID=Europe/London:20261115T100000
-DTEND;TZID=Europe/London:20261115T114000
-DESCRIPTION:U13 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067369
-END:VEVENT
-BEGIN:VEVENT
-UID:31187999@touchline-eja-u13
-DTSTAMP:20261109T185221Z
-SUMMARY:Histon v Eynesbury Rovers
+UID:31195372@touchline-eja-u13
+DTSTAMP:20261115T132734Z
+SUMMARY:Royston Town v Histon
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 DESCRIPTION:U13 Blue league. Kick-off time not published yet. Check FA Ful
  l-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31187999
+URL:https://fulltime.thefa.com/displayFixture.html?id=31195372
 END:VEVENT
 END:VCALENDAR

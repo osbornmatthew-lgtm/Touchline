@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735178@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tendring Borough Belles v Loughton Town Purples
 DTSTART;TZID=Europe/London:20261115T121500
 DTEND;TZID=Europe/London:20261115T135500
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735178
 END:VEVENT
 BEGIN:VEVENT
 UID:30735185@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Loughton Town Purples v BSC FC Azures
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -49,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735185
 END:VEVENT
 BEGIN:VEVENT
 UID:30735189@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Witham Town Belles Pink v Loughton Town Purples
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -60,20 +60,8 @@ DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735189
 END:VEVENT
 BEGIN:VEVENT
-UID:30735195@touchline-girls-u15
-DTSTAMP:20261109T185222Z
-SUMMARY:Loughton Town Purples v Leigh Lionesses Girls Pride
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
- IG10 3TQ
-DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30735195
-END:VEVENT
-BEGIN:VEVENT
 UID:30735200@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tigers Girls Black v Loughton Town Purples
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -85,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735200
 END:VEVENT
 BEGIN:VEVENT
 UID:30735205@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Loughton Town Purples v Runwell Sports Sapphires
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -97,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735205
 END:VEVENT
 BEGIN:VEVENT
 UID:30735211@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Atletico Trotters Girls v Loughton Town Purples
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -109,7 +97,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735211
 END:VEVENT
 BEGIN:VEVENT
 UID:30735216@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Great Bradfords Girls Quartz v Loughton Town Purples
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -121,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735216
 END:VEVENT
 BEGIN:VEVENT
 UID:30853200@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Nazeing Wildcats v Loughton Town Purples
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -133,7 +121,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853200
 END:VEVENT
 BEGIN:VEVENT
 UID:30735140@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Loughton Town Purples v Witham Town Belles Pink
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -145,7 +133,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735140
 END:VEVENT
 BEGIN:VEVENT
 UID:30735144@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Lionesses Girls Pride v Loughton Town Purples
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -156,7 +144,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735144
 END:VEVENT
 BEGIN:VEVENT
 UID:30853230@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Loughton Town Purples v Atletico Trotters Girls
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -168,7 +156,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853230
 END:VEVENT
 BEGIN:VEVENT
 UID:30853235@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Loughton Town Purples v Broomfield Girls Black
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -180,7 +168,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853235
 END:VEVENT
 BEGIN:VEVENT
 UID:30853238@touchline-girls-u15
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Loughton Town Purples v Great Bradfords Girls Quartz
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -189,5 +177,17 @@ LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex
 DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30853238
+END:VEVENT
+BEGIN:VEVENT
+UID:30735195@touchline-girls-u15
+DTSTAMP:20261115T132735Z
+SUMMARY:Loughton Town Purples v Leigh Lionesses Girls Pride
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Langston Road\, Sports Pavilion Langston Road\, Loughton\, Essex 
+ IG10 3TQ
+DESCRIPTION:U15 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735195
 END:VEVENT
 END:VCALENDAR

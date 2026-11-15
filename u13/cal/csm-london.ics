@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31163359@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:CSM London v Southend Manor
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -38,18 +38,19 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31163359
 END:VEVENT
 BEGIN:VEVENT
 UID:31153441@touchline-eja-u13
-DTSTAMP:20261109T185221Z
-SUMMARY:Tilbury v CSM London
-DTSTART;TZID=Europe/London:20261129T121500
-DTEND;TZID=Europe/London:20261129T135500
+DTSTAMP:20261115T132734Z
+SUMMARY:CSM London v Tilbury
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
 LOCATION:Lakeside Sports Ground\, Arterial Road\, Chafford Hundred\, Grays
   RM16 6DN
-DESCRIPTION:U13 Red league. Check FA Full-Time for late changes.
+DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153441
 END:VEVENT
 BEGIN:VEVENT
 UID:31188138@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Concord Rangers v CSM London
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -58,14 +59,5 @@ LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
 DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31188138
-END:VEVENT
-BEGIN:VEVENT
-UID:31034827@touchline-eja-u13
-DTSTAMP:20261109T185221Z
-SUMMARY:CSM London v Frenford (Essex Cordell U13 Cup)
-DTSTART;TZID=Europe/London:20261115T124500
-DTEND;TZID=Europe/London:20261115T142500
-DESCRIPTION:Essex Cordell U13 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31034827
 END:VEVENT
 END:VCALENDAR

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153411@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Frenford v Cockfosters
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153411
 END:VEVENT
 BEGIN:VEVENT
 UID:31188106@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Hertford Heath v Frenford
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -45,12 +45,25 @@ DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31188106
 END:VEVENT
 BEGIN:VEVENT
-UID:31034827@touchline-eja-u13
-DTSTAMP:20261109T185221Z
-SUMMARY:CSM London v Frenford (Essex Cordell U13 Cup)
-DTSTART;TZID=Europe/London:20261115T124500
-DTEND;TZID=Europe/London:20261115T142500
-DESCRIPTION:Essex Cordell U13 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31034827
+UID:31210449@touchline-eja-u13
+DTSTAMP:20261115T132734Z
+SUMMARY:Frenford v Boxted Lodgers (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Frenford Youth Club\, Jack Carter Centre The Drive\, Ilford IG1 3
+ PS
+DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31210449
+END:VEVENT
+BEGIN:VEVENT
+UID:31210332@touchline-eja-u13
+DTSTAMP:20261115T132734Z
+SUMMARY:Concord Rangers v Frenford (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31210332
 END:VEVENT
 END:VCALENDAR

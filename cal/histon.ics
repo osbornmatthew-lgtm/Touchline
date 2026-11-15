@@ -25,29 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31100645@touchline-eja
-DTSTAMP:20261109T185221Z
-SUMMARY:Histon v St Ives Town
-DTSTART;TZID=Europe/London:20261115T100000
-DTEND;TZID=Europe/London:20261115T114000
-LOCATION:Camtech and Caprice Stadium\, Bridge Road\, Impington\, Cambridge
- \, Cambridgeshire CB24 9PH
-DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31100645
-END:VEVENT
-BEGIN:VEVENT
 UID:31165763@touchline-eja
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Newmarket Town v Histon
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
+LOCATION:Newmarket Town Football Club\, The Tristel Global Stadium Cricket
+  Field Road\, Newmarket\, Cambridgeshire CB8 8BT
+DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31165763
 END:VEVENT
 BEGIN:VEVENT
 UID:31191073@touchline-eja
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Netherton United v Histon
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -57,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31191073
 END:VEVENT
 BEGIN:VEVENT
 UID:31103194@touchline-eja
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Cheshunt v Histon (League Cup)
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -69,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103194
 END:VEVENT
 BEGIN:VEVENT
 UID:31078185@touchline-eja
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Histon v Godmanchester Rovers (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261117T194500
 DTEND;TZID=Europe/London:20261117T212500

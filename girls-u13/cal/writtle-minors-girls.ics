@@ -25,43 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30773542@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Rayleigh Girls Tawnys v Writtle Minors Girls
+UID:30773580@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Abbey Girls Falcons v Writtle Minors Girls
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-LOCATION:Chichester Playing Fields\, Land North Of Sunnyview Old London Ro
- ad\, Rawreth\, Essex SS11 8UE
 DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773542
-END:VEVENT
-BEGIN:VEVENT
-UID:30773548@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Stones Athletic Girls Lionesses v Writtle Minors Girls
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
-DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773548
-END:VEVENT
-BEGIN:VEVENT
-UID:30773551@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Writtle Minors Girls v FC Redwing Girls Kestrels
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-LOCATION:Writtle Sports and Social Club 4\, The Hall Paradise Road\, Writt
- le\, Chelmsford\, Essex CM1 3HW
-DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773551
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773580
 END:VEVENT
 BEGIN:VEVENT
 UID:30853460@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Writtle Minors Girls v Concord Rangers Girls Yellows
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -72,29 +47,67 @@ DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30853460
 END:VEVENT
 BEGIN:VEVENT
-UID:30773567@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Byron Red Star Girls Jaguars v Writtle Minors Girls
-DTSTART;VALUE=DATE:20270110
-DTEND;VALUE=DATE:20270111
-LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
+UID:30857881@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Ongar Juniors Girls v Writtle Minors Girls
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
+ ar\, Essex CM5 0RD
 DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773567
+URL:https://fulltime.thefa.com/displayFixture.html?id=30857881
 END:VEVENT
 BEGIN:VEVENT
-UID:30773580@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Abbey Girls Falcons v Writtle Minors Girls
-DTSTART;VALUE=DATE:20270131
-DTEND;VALUE=DATE:20270201
+UID:30853611@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Writtle Minors Girls v Byron Red Star Girls Jaguars
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+LOCATION:Writtle Sports and Social Club 4\, The Hall Paradise Road\, Writt
+ le\, Chelmsford\, Essex CM1 3HW
 DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773580
+URL:https://fulltime.thefa.com/displayFixture.html?id=30853611
+END:VEVENT
+BEGIN:VEVENT
+UID:30773542@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Rayleigh Girls Tawnys v Writtle Minors Girls
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+LOCATION:Chichester Playing Fields\, Land North Of Sunnyview Old London Ro
+ ad\, Rawreth\, Essex SS11 8UE
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773542
+END:VEVENT
+BEGIN:VEVENT
+UID:30773548@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Stones Athletic Girls Lionesses v Writtle Minors Girls
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+LOCATION:Seymour Field\, New Road\, Ingatestone\, Essex CM4 0HH
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773548
+END:VEVENT
+BEGIN:VEVENT
+UID:30773528@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Writtle Minors Girls v Abbey Girls Falcons
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+LOCATION:Writtle Sports and Social Club 4\, The Hall Paradise Road\, Writt
+ le\, Chelmsford\, Essex CM1 3HW
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773528
 END:VEVENT
 BEGIN:VEVENT
 UID:30773588@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Writtle Minors Girls v Stanway Rovers Girls Tigers
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -105,31 +118,31 @@ DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773588
 END:VEVENT
 BEGIN:VEVENT
-UID:30773591@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Euro Dagenham Girls v Writtle Minors Girls
+UID:30773538@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Writtle Minors Girls v Euro Dagenham Girls
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
+LOCATION:Writtle Sports and Social Club 4\, The Hall Paradise Road\, Writt
+ le\, Chelmsford\, Essex CM1 3HW
+DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773538
+END:VEVENT
+BEGIN:VEVENT
+UID:30773591@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Euro Dagenham Girls v Writtle Minors Girls
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
 LOCATION:Mayesbrook Park\, Lodge Avenue\, Dagenham RM8 2JA
 DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773591
 END:VEVENT
 BEGIN:VEVENT
-UID:30857881@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Ongar Juniors Girls v Writtle Minors Girls
-DTSTART;VALUE=DATE:20270228
-DTEND;VALUE=DATE:20270301
-LOCATION:Fyfield Village Hall Sports Pavilion\, Ongar Road\, Fyfield\, Ong
- ar\, Essex CM5 0RD
-DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30857881
-END:VEVENT
-BEGIN:VEVENT
 UID:30773560@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Writtle Minors Girls v Stanway Rovers Girls Hornets
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -141,7 +154,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773560
 END:VEVENT
 BEGIN:VEVENT
 UID:30853592@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Writtle Minors Girls v Rayleigh Girls Tawnys
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
@@ -153,7 +166,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30853592
 END:VEVENT
 BEGIN:VEVENT
 UID:30853610@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Stanway Rovers Girls Hornets v Writtle Minors Girls
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
@@ -164,39 +177,26 @@ DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30853610
 END:VEVENT
 BEGIN:VEVENT
-UID:30853611@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Writtle Minors Girls v Byron Red Star Girls Jaguars
+UID:30773567@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Byron Red Star Girls Jaguars v Writtle Minors Girls
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
-LOCATION:Writtle Sports and Social Club 4\, The Hall Paradise Road\, Writt
- le\, Chelmsford\, Essex CM1 3HW
+LOCATION:Hylands Park\, Osborne Road\, Hornchurch RM11 1HA
 DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30853611
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773567
 END:VEVENT
 BEGIN:VEVENT
-UID:30773528@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Writtle Minors Girls v Abbey Girls Falcons
-DTSTART;VALUE=DATE:20270404
-DTEND;VALUE=DATE:20270405
-LOCATION:Writtle Sports and Social Club 4\, The Hall Paradise Road\, Writt
- le\, Chelmsford\, Essex CM1 3HW
-DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773528
-END:VEVENT
-BEGIN:VEVENT
-UID:30773538@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Writtle Minors Girls v Euro Dagenham Girls
+UID:30773551@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Writtle Minors Girls v FC Redwing Girls Kestrels
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 LOCATION:Writtle Sports and Social Club 4\, The Hall Paradise Road\, Writt
  le\, Chelmsford\, Essex CM1 3HW
 DESCRIPTION:U13 C league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773538
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773551
 END:VEVENT
 END:VCALENDAR

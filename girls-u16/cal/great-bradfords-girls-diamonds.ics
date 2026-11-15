@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735446@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Great Bradfords Girls Diamonds v St Clere's Girls
 DTSTART;TZID=Europe/London:20261115T120000
 DTEND;TZID=Europe/London:20261115T134000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735446
 END:VEVENT
 BEGIN:VEVENT
 UID:30735456@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Bowers & Pitsea Girls Lionesses v Great Bradfords Girls Diamonds
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -49,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735456
 END:VEVENT
 BEGIN:VEVENT
 UID:30735460@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Great Bradfords Girls Diamonds v Broomfield Girls
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -61,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735460
 END:VEVENT
 BEGIN:VEVENT
 UID:30735466@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Colchester City Ladies v Great Bradfords Girls Diamonds
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -72,20 +72,8 @@ DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735466
 END:VEVENT
 BEGIN:VEVENT
-UID:30735475@touchline-girls-u16
-DTSTAMP:20261109T185222Z
-SUMMARY:Great Bradfords Girls Diamonds v Valley Green Girls Valkyries
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
-LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
- sex CM7 1FF
-DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30735475
-END:VEVENT
-BEGIN:VEVENT
 UID:30735476@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Ramblers Girls Black v Great Bradfords Girls Diamonds
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -95,7 +83,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735476
 END:VEVENT
 BEGIN:VEVENT
 UID:30735424@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Great Bradfords Girls Diamonds v Colchester City Ladies
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -107,7 +95,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735424
 END:VEVENT
 BEGIN:VEVENT
 UID:30735432@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Valley Green Girls Valkyries v Great Bradfords Girls Diamonds
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -119,7 +107,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735432
 END:VEVENT
 BEGIN:VEVENT
 UID:30735415@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:West Essex Girls v Great Bradfords Girls Diamonds
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -130,7 +118,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735415
 END:VEVENT
 BEGIN:VEVENT
 UID:30735453@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Great Bradfords Girls Diamonds v West Essex Girls
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -141,8 +129,20 @@ DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735453
 END:VEVENT
 BEGIN:VEVENT
+UID:30735475@touchline-girls-u16
+DTSTAMP:20261115T132735Z
+SUMMARY:Great Bradfords Girls Diamonds v Valley Green Girls Valkyries
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Braintree Sports and Health Club\, Panfield Lane\, Braintree\, Es
+ sex CM7 1FF
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735475
+END:VEVENT
+BEGIN:VEVENT
 UID:31033962@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Ramblers Girls Black v Great Bradfords Girls Diamonds (Essex
   U16 Girls Cup)
 DTSTART;VALUE=DATE:20261129

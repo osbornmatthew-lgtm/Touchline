@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31162065@touchline-eja-u15
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Takeley v AFC Pegasus Colchester
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31162065
 END:VEVENT
 BEGIN:VEVENT
 UID:31166306@touchline-eja-u15
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:AFC Pegasus Colchester v Heybridge Swifts
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -50,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166306
 END:VEVENT
 BEGIN:VEVENT
 UID:31166933@touchline-eja-u15
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Stanway Rovers v AFC Pegasus Colchester
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -62,7 +62,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166933
 END:VEVENT
 BEGIN:VEVENT
 UID:31190979@touchline-eja-u15
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Chelmsford City v AFC Pegasus Colchester
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
@@ -73,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31190979
 END:VEVENT
 BEGIN:VEVENT
 UID:31029814@touchline-eja-u15
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Heybridge Swifts v AFC Pegasus Colchester (Peter Peters Shield)
 DTSTART;TZID=Europe/London:20261110T194500
 DTEND;TZID=Europe/London:20261110T212500
@@ -81,27 +81,5 @@ LOCATION:Heybridge Swifts Football Club\, Scraley Road\, Heybridge\, Maldo
  n\, Essex CM9 8FJ
 DESCRIPTION:Peter Peters Shield. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31029814
-END:VEVENT
-BEGIN:VEVENT
-UID:30617213@touchline-eja-u15
-DTSTAMP:20261109T185221Z
-SUMMARY:AFC Pegasus Colchester v Heybridge Swifts (Essex Rosser U15 Cup)
-DTSTART;TZID=Europe/London:20261115T100000
-DTEND;TZID=Europe/London:20261115T114000
-LOCATION:Shrub End Community and Sports Centre\, Shrub End Community and S
- ports Centre Boadicea Way\, Colchester\, Essex CO2 9BG
-DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30617213
-END:VEVENT
-BEGIN:VEVENT
-UID:30617215@touchline-eja-u15
-DTSTAMP:20261109T185221Z
-SUMMARY:Brentwood Town v AFC Pegasus Colchester (Essex Rosser U15 Cup)
-DTSTART;TZID=Europe/London:20261115T100000
-DTEND;TZID=Europe/London:20261115T114000
-LOCATION:Brentwood Town FC\, The Arena Doddinghurst Road\, Pilgrims Hatch\
- , Essex CM15 9NN
-DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30617215
 END:VEVENT
 END:VCALENDAR

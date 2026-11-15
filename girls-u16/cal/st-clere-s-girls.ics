@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735446@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Great Bradfords Girls Diamonds v St Clere's Girls
 DTSTART;TZID=Europe/London:20261115T120000
 DTEND;TZID=Europe/London:20261115T134000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735446
 END:VEVENT
 BEGIN:VEVENT
 UID:30735449@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:St Clere's Girls v Valley Green Girls Valkyries
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -47,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735449
 END:VEVENT
 BEGIN:VEVENT
 UID:30735470@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:St Clere's Girls v Bowers & Pitsea Girls Lionesses
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -56,20 +56,8 @@ DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735470
 END:VEVENT
 BEGIN:VEVENT
-UID:30735473@touchline-girls-u16
-DTSTAMP:20261109T185222Z
-SUMMARY:Broomfield Girls v St Clere's Girls
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
-LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
- Essex CM1 7BQ
-DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30735473
-END:VEVENT
-BEGIN:VEVENT
 UID:30735477@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:St Clere's Girls v Colchester City Ladies
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -79,7 +67,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735477
 END:VEVENT
 BEGIN:VEVENT
 UID:30735434@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:St Clere's Girls v Broomfield Girls
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -89,7 +77,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735434
 END:VEVENT
 BEGIN:VEVENT
 UID:30735455@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Ramblers Girls Black v St Clere's Girls
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -99,7 +87,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735455
 END:VEVENT
 BEGIN:VEVENT
 UID:30735413@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:St Clere's Girls v Leigh Ramblers Girls Black
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -109,7 +97,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735413
 END:VEVENT
 BEGIN:VEVENT
 UID:30735438@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Colchester City Ladies v St Clere's Girls
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -121,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735438
 END:VEVENT
 BEGIN:VEVENT
 UID:30735467@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:West Essex Girls v St Clere's Girls
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -129,5 +117,17 @@ LOCATION:Rolls Sports Ground\, Hickman Avenue\, London E4 9JG
 DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735467
+END:VEVENT
+BEGIN:VEVENT
+UID:30735473@touchline-girls-u16
+DTSTAMP:20261115T132735Z
+SUMMARY:Broomfield Girls v St Clere's Girls
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+LOCATION:Broomfield Football Club\, Mill Lane\, Broomfield\, Chelmsford\, 
+ Essex CM1 7BQ
+DESCRIPTION:U16 C league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735473
 END:VEVENT
 END:VCALENDAR

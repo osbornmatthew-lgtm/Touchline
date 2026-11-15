@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30773420@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Broomfield Girls v Wivenhoe Tempest Girls
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -37,8 +37,20 @@ DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773420
 END:VEVENT
 BEGIN:VEVENT
+UID:30773419@touchline-girls-u13
+DTSTAMP:20261115T132735Z
+SUMMARY:Tigers Girls White v Broomfield Girls
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
+ on Centre Dagenham Road\, Rainham RM13 8SP
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773419
+END:VEVENT
+BEGIN:VEVENT
 UID:30773430@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Broomfield Girls v 121 Football Yellows
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -50,7 +62,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773430
 END:VEVENT
 BEGIN:VEVENT
 UID:30773435@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Buckhurst Hill Girls Tigresses v Broomfield Girls
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -62,7 +74,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773435
 END:VEVENT
 BEGIN:VEVENT
 UID:30773450@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Broomfield Girls v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -74,7 +86,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773450
 END:VEVENT
 BEGIN:VEVENT
 UID:30773457@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Colchester City Ladies v Broomfield Girls
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -86,7 +98,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773457
 END:VEVENT
 BEGIN:VEVENT
 UID:30773460@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Broomfield Girls v Harlow Tekkers Coyotes
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -98,7 +110,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773460
 END:VEVENT
 BEGIN:VEVENT
 UID:30773468@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Leigh Lionesses Girls Pride v Broomfield Girls
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -109,7 +121,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773468
 END:VEVENT
 BEGIN:VEVENT
 UID:30773470@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Broomfield Girls v Tigers Girls White
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -121,7 +133,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773470
 END:VEVENT
 BEGIN:VEVENT
 UID:30773479@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Wivenhoe Tempest Girls v Broomfield Girls
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -133,7 +145,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773479
 END:VEVENT
 BEGIN:VEVENT
 UID:30773400@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Broomfield Girls v Colchester City Ladies
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -144,20 +156,8 @@ DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773400
 END:VEVENT
 BEGIN:VEVENT
-UID:30773419@touchline-girls-u13
-DTSTAMP:20261109T185222Z
-SUMMARY:Tigers Girls White v Broomfield Girls
-DTSTART;VALUE=DATE:20270314
-DTEND;VALUE=DATE:20270315
-LOCATION:Bretons Outdoor Recreation Centre\, Bretons Farm Outdoor Recreati
- on Centre Dagenham Road\, Rainham RM13 8SP
-DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773419
-END:VEVENT
-BEGIN:VEVENT
 UID:30773397@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Finesse Sport Finesse Sport United F v Broomfield Girls
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
@@ -169,7 +169,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773397
 END:VEVENT
 BEGIN:VEVENT
 UID:30773446@touchline-girls-u13
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Dagenham United Women Belles Clarets v Broomfield Girls
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329

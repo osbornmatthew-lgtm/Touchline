@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153437@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Concord Rangers v Aveley
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153437
 END:VEVENT
 BEGIN:VEVENT
 UID:31188138@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Concord Rangers v CSM London
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -49,13 +49,13 @@ DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31188138
 END:VEVENT
 BEGIN:VEVENT
-UID:31033867@touchline-eja-u13
-DTSTAMP:20261109T185221Z
-SUMMARY:Risden Wood v Concord Rangers (Essex Cordell U13 Cup)
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+UID:31210332@touchline-eja-u13
+DTSTAMP:20261115T132734Z
+SUMMARY:Concord Rangers v Frenford (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
 DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
  FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31033867
+URL:https://fulltime.thefa.com/displayFixture.html?id=31210332
 END:VEVENT
 END:VCALENDAR

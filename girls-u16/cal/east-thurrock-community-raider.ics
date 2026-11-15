@@ -26,18 +26,17 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735288@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Barking Barking Girls v East Thurrock Community Raider
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;TZID=Europe/London:20261115T120000
+DTEND;TZID=Europe/London:20261115T134000
 LOCATION:Barking FC\, Lodge Avenue\, Dagenham RM8 2JR
-DESCRIPTION:U16 A league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U16 A league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735288
 END:VEVENT
 BEGIN:VEVENT
 UID:30735299@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Walthamstow EGCL v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -48,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735299
 END:VEVENT
 BEGIN:VEVENT
 UID:30735305@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Raider v Ongar Juniors Girls
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -60,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735305
 END:VEVENT
 BEGIN:VEVENT
 UID:30735310@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:South Woodham Ferrers United Women M v East Thurrock Community Rai
  der
 DTSTART;VALUE=DATE:20261213
@@ -73,7 +72,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735310
 END:VEVENT
 BEGIN:VEVENT
 UID:30735315@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Raider v Hutton Girls Sharks
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -85,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735315
 END:VEVENT
 BEGIN:VEVENT
 UID:30735321@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Buckhurst Hill Girls Lionesses v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -97,7 +96,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735321
 END:VEVENT
 BEGIN:VEVENT
 UID:30735326@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Bowers & Pitsea Girls Hammers v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -109,7 +108,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735326
 END:VEVENT
 BEGIN:VEVENT
 UID:30735331@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Raider v Billericay Town Girls ECGL
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -121,7 +120,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735331
 END:VEVENT
 BEGIN:VEVENT
 UID:30735250@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Raider v Walthamstow EGCL
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -133,7 +132,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735250
 END:VEVENT
 BEGIN:VEVENT
 UID:30735265@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Hutton Girls Sharks v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -145,7 +144,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735265
 END:VEVENT
 BEGIN:VEVENT
 UID:30735243@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:AFC Leyton s v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -156,7 +155,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735243
 END:VEVENT
 BEGIN:VEVENT
 UID:30735276@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Raider v Bowers & Pitsea Girls Hammers
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301

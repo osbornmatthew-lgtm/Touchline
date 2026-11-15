@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30735522@touchline-girls-u16
-DTSTAMP:20261109T185222Z
-SUMMARY:East Thurrock Community Rocket v Woodham Radars Girls Divas
-DTSTART;TZID=Europe/London:20261115T100000
-DTEND;TZID=Europe/London:20261115T114000
-LOCATION:Horndon On The Hill Recreation Ground\, Horndon On The Hill Crick
- et Club Orsett Road\, Horndon On The Hill SS17 8NR
-DESCRIPTION:U16 D league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30735522
-END:VEVENT
-BEGIN:VEVENT
 UID:31055757@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Lakeside Girls Tigresses v East Thurrock Community Rocket
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -48,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31055757
 END:VEVENT
 BEGIN:VEVENT
 UID:31055765@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Rocket v BSC FC Blitz
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -60,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31055765
 END:VEVENT
 BEGIN:VEVENT
 UID:31055769@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Woodham Radars Girls Divas v East Thurrock Community Rocket
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -72,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31055769
 END:VEVENT
 BEGIN:VEVENT
 UID:30735543@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Rocket v Hashtag United Girls Yellow
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -83,20 +72,8 @@ DESCRIPTION:U16 D league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735543
 END:VEVENT
 BEGIN:VEVENT
-UID:30735551@touchline-girls-u16
-DTSTAMP:20261109T185222Z
-SUMMARY:East Thurrock Community Rocket v Lakeside Girls Tigresses
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
-LOCATION:Horndon On The Hill Recreation Ground\, Horndon On The Hill Crick
- et Club Orsett Road\, Horndon On The Hill SS17 8NR
-DESCRIPTION:U16 D league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30735551
-END:VEVENT
-BEGIN:VEVENT
 UID:30735556@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Tigers Girls Stripes v East Thurrock Community Rocket
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -108,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735556
 END:VEVENT
 BEGIN:VEVENT
 UID:30735503@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Hashtag United Girls Yellow v East Thurrock Community Rocket
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -118,7 +95,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735503
 END:VEVENT
 BEGIN:VEVENT
 UID:30735515@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Rocket v Tigers Girls Stripes
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -130,7 +107,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735515
 END:VEVENT
 BEGIN:VEVENT
 UID:30735526@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:BSC FC Blitz v East Thurrock Community Rocket
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -142,7 +119,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735526
 END:VEVENT
 BEGIN:VEVENT
 UID:31055786@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:Elmden Rovers Girls v East Thurrock Community Rocket
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -154,7 +131,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31055786
 END:VEVENT
 BEGIN:VEVENT
 UID:30735535@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Rocket v Elmden Rovers Girls
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -166,7 +143,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735535
 END:VEVENT
 BEGIN:VEVENT
 UID:31055748@touchline-girls-u16
-DTSTAMP:20261109T185222Z
+DTSTAMP:20261115T132735Z
 SUMMARY:East Thurrock Community Rocket v Tigers Girls Stripes
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
@@ -175,5 +152,17 @@ LOCATION:Horndon On The Hill Recreation Ground\, Horndon On The Hill Crick
 DESCRIPTION:U16 D league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31055748
+END:VEVENT
+BEGIN:VEVENT
+UID:30735551@touchline-girls-u16
+DTSTAMP:20261115T132735Z
+SUMMARY:East Thurrock Community Rocket v Lakeside Girls Tigresses
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Horndon On The Hill Recreation Ground\, Horndon On The Hill Crick
+ et Club Orsett Road\, Horndon On The Hill SS17 8NR
+DESCRIPTION:U16 D league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30735551
 END:VEVENT
 END:VCALENDAR

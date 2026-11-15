@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31188154@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Takeley v Bowers & Pitsea
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31188154
 END:VEVENT
 BEGIN:VEVENT
 UID:31103291@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Cheshunt v Takeley (League Cup)
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000
@@ -46,14 +46,5 @@ LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
  ross\, Hertfordshire EN8 8RU
 DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103291
-END:VEVENT
-BEGIN:VEVENT
-UID:31010261@touchline-eja-u13
-DTSTAMP:20261109T185221Z
-SUMMARY:Takeley v Saffron Walden (Essex Cordell U13 Cup)
-DTSTART;TZID=Europe/London:20261115T110000
-DTEND;TZID=Europe/London:20261115T124000
-DESCRIPTION:Essex Cordell U13 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31010261
 END:VEVENT
 END:VCALENDAR

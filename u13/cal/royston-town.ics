@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31067367@touchline-eja-u13
-DTSTAMP:20261109T185221Z
-SUMMARY:Eynesbury Rovers v Royston Town
-DTSTART;TZID=Europe/London:20261115T103000
-DTEND;TZID=Europe/London:20261115T121000
-DESCRIPTION:U13 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067367
-END:VEVENT
-BEGIN:VEVENT
 UID:31163551@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Cambridge City v Royston Town
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000
@@ -46,12 +37,22 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31163551
 END:VEVENT
 BEGIN:VEVENT
 UID:31153372@touchline-eja-u13
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Royston Town v Cambridge City
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 DESCRIPTION:U13 Blue league. Kick-off time not published yet. Check FA Ful
  l-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153372
+END:VEVENT
+BEGIN:VEVENT
+UID:31195372@touchline-eja-u13
+DTSTAMP:20261115T132734Z
+SUMMARY:Royston Town v Histon
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U13 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31195372
 END:VEVENT
 END:VCALENDAR

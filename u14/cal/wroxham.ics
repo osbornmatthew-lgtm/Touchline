@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31067497@touchline-eja-u14
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Bury Town v Wroxham
 DTSTART;TZID=Europe/London:20261122T130000
 DTEND;TZID=Europe/London:20261122T144000
@@ -37,22 +37,12 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31067497
 END:VEVENT
 BEGIN:VEVENT
 UID:31187034@touchline-eja-u14
-DTSTAMP:20261109T185221Z
+DTSTAMP:20261115T132734Z
 SUMMARY:Wroxham v Needham Market
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 DESCRIPTION:U14 Black league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31187034
-END:VEVENT
-BEGIN:VEVENT
-UID:31067187@touchline-eja-u14
-DTSTAMP:20261109T185221Z
-SUMMARY:Thetford Town v Wroxham (Stuart Dracup Cup)
-DTSTART;TZID=Europe/London:20261115T103000
-DTEND;TZID=Europe/London:20261115T121000
-LOCATION:Thetford Town Football Club
-DESCRIPTION:Stuart Dracup Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067187
 END:VEVENT
 END:VCALENDAR
