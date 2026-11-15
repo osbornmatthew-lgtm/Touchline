@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31166363@touchline-eja-u15
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Buckhurst Hill v Benfleet
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166363
 END:VEVENT
 BEGIN:VEVENT
 UID:31166891@touchline-eja-u15
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Frenford v Benfleet
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -48,12 +48,23 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166891
 END:VEVENT
 BEGIN:VEVENT
 UID:31190954@touchline-eja-u15
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Benfleet v Woodford Town
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 DESCRIPTION:U15 Purple league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31190954
+END:VEVENT
+BEGIN:VEVENT
+UID:31212227@touchline-eja-u15
+DTSTAMP:20261115T182607Z
+SUMMARY:Chelmsford City v Benfleet (Essex Rosser U15 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Melbourne Park\, Salerno Way\, Chelmsford\, Essex CM1 2EH
+DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
+ A Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31212227
 END:VEVENT
 END:VCALENDAR

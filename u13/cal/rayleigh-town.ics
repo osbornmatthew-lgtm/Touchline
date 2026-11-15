@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31105232@touchline-eja-u13
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Grays Athletic v Rayleigh Town
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31105232
 END:VEVENT
 BEGIN:VEVENT
 UID:31153440@touchline-eja-u13
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Rayleigh Town v Leigh Ramblers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153440
 END:VEVENT
 BEGIN:VEVENT
 UID:31188139@touchline-eja-u13
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Leigh Ramblers v Rayleigh Town
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -57,5 +57,17 @@ LOCATION:The Len Forge Centre\, Eastwoodbury Lane\, Southend-On-Sea SS2 6U
 DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31188139
+END:VEVENT
+BEGIN:VEVENT
+UID:31211128@touchline-eja-u13
+DTSTAMP:20261115T182607Z
+SUMMARY:Rayleigh Town v Dunmow Town (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
+ ssex SS6 9DT
+DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211128
 END:VEVENT
 END:VCALENDAR

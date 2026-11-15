@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30734424@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Buckhurst Hill Girls Lionesses v Leigh Lionesses Girls
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -37,19 +37,8 @@ DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30734424
 END:VEVENT
 BEGIN:VEVENT
-UID:30734457@touchline-girls-u14
-DTSTAMP:20261115T150544Z
-SUMMARY:Leigh Lionesses Girls v St Clere's Girls Rhinos
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
-DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30734457
-END:VEVENT
-BEGIN:VEVENT
 UID:30734466@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Leigh Lionesses Girls v Tigers Girls Yellow
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -60,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734466
 END:VEVENT
 BEGIN:VEVENT
 UID:30734471@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Valley Green Girls Spartans v Leigh Lionesses Girls
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -72,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734471
 END:VEVENT
 BEGIN:VEVENT
 UID:30734475@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Leigh Lionesses Girls v Saint Pierre Girls Lionesses
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -83,7 +72,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734475
 END:VEVENT
 BEGIN:VEVENT
 UID:30734478@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Clacton Regent Girls v Leigh Lionesses Girls
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -93,7 +82,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734478
 END:VEVENT
 BEGIN:VEVENT
 UID:30734484@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Leigh Lionesses Girls v Buckhurst Hill Girls Lionesses
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -104,7 +93,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734484
 END:VEVENT
 BEGIN:VEVENT
 UID:30734490@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Billericay Town Girls Red v Leigh Lionesses Girls
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -114,7 +103,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734490
 END:VEVENT
 BEGIN:VEVENT
 UID:30734493@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Leigh Lionesses Girls v Byron Red Star Girls Lionesses
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -125,7 +114,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734493
 END:VEVENT
 BEGIN:VEVENT
 UID:30734502@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Walthamstow ECGL v Leigh Lionesses Girls
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -136,7 +125,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734502
 END:VEVENT
 BEGIN:VEVENT
 UID:30734429@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Leigh Lionesses Girls v Billericay Town Girls Red
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -147,12 +136,23 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734429
 END:VEVENT
 BEGIN:VEVENT
 UID:30734448@touchline-girls-u14
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:St Clere's Girls Rhinos v Leigh Lionesses Girls
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30734448
+END:VEVENT
+BEGIN:VEVENT
+UID:30734457@touchline-girls-u14
+DTSTAMP:20261115T182607Z
+SUMMARY:Leigh Lionesses Girls v St Clere's Girls Rhinos
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+LOCATION:Oakwood Park\, Stephenson Road\, Leigh-On-Sea SS9 5LY
+DESCRIPTION:U14 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30734457
 END:VEVENT
 END:VCALENDAR

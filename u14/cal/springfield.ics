@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31107328@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Springfield v Brentwood Town
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -35,8 +35,18 @@ DESCRIPTION:U14 Red league. Kick-off time not published yet. Check FA Full
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107328
 END:VEVENT
 BEGIN:VEVENT
+UID:31211623@touchline-eja-u14
+DTSTAMP:20261115T182607Z
+SUMMARY:Springfield v Hutton
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U14 Red league. Kick-off time not published yet. Check FA Full
+ -Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211623
+END:VEVENT
+BEGIN:VEVENT
 UID:31186737@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Springfield v Canvey Island (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

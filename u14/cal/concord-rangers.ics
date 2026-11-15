@@ -25,17 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31067717@touchline-eja-u14
-DTSTAMP:20261115T150543Z
-SUMMARY:Hashtag United v Concord Rangers
-DTSTART;TZID=Europe/London:20261115T123000
-DTEND;TZID=Europe/London:20261115T141000
-DESCRIPTION:U14 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067717
-END:VEVENT
-BEGIN:VEVENT
 UID:31107337@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Concord Rangers v Bowers & Pitsea
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -45,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107337
 END:VEVENT
 BEGIN:VEVENT
 UID:31187653@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Benfleet v Concord Rangers
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -56,8 +47,18 @@ DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31187653
 END:VEVENT
 BEGIN:VEVENT
+UID:31211671@touchline-eja-u14
+DTSTAMP:20261115T182607Z
+SUMMARY:Grays Athletic v Concord Rangers
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:U14 Yellow league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211671
+END:VEVENT
+BEGIN:VEVENT
 UID:31075128@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:AFC Pegasus Colchester v Concord Rangers (Essex Andrews U14 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

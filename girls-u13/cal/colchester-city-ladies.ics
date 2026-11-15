@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30773424@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Dagenham United Women Belles Clarets v Colchester City Ladies
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773424
 END:VEVENT
 BEGIN:VEVENT
 UID:30773425@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Colchester City Ladies v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -47,8 +47,20 @@ DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773425
 END:VEVENT
 BEGIN:VEVENT
+UID:30773484@touchline-girls-u13
+DTSTAMP:20261115T182607Z
+SUMMARY:Finesse Sport Finesse Sport United F v Colchester City Ladies
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:London Marathon Playing Field Redbridge\, Forest Road\, Ilford IG
+ 6 3HJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773484
+END:VEVENT
+BEGIN:VEVENT
 UID:30773439@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Colchester City Ladies v Harlow Tekkers Coyotes
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -60,7 +72,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773439
 END:VEVENT
 BEGIN:VEVENT
 UID:30773442@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Leigh Lionesses Girls Pride v Colchester City Ladies
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -71,7 +83,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773442
 END:VEVENT
 BEGIN:VEVENT
 UID:30773448@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Colchester City Ladies v Tigers Girls White
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -83,7 +95,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773448
 END:VEVENT
 BEGIN:VEVENT
 UID:30773454@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Wivenhoe Tempest Girls v Colchester City Ladies
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -95,7 +107,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773454
 END:VEVENT
 BEGIN:VEVENT
 UID:30773457@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Colchester City Ladies v Broomfield Girls
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -107,7 +119,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773457
 END:VEVENT
 BEGIN:VEVENT
 UID:30773461@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:121 Football Yellows v Colchester City Ladies
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -119,7 +131,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773461
 END:VEVENT
 BEGIN:VEVENT
 UID:30773466@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Colchester City Ladies v Buckhurst Hill Girls Tigresses
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -131,7 +143,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773466
 END:VEVENT
 BEGIN:VEVENT
 UID:30773475@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Colchester City Ladies v Dagenham United Women Belles Clarets
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -142,20 +154,8 @@ DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773475
 END:VEVENT
 BEGIN:VEVENT
-UID:30773484@touchline-girls-u13
-DTSTAMP:20261115T150544Z
-SUMMARY:Finesse Sport Finesse Sport United F v Colchester City Ladies
-DTSTART;VALUE=DATE:20270228
-DTEND;VALUE=DATE:20270301
-LOCATION:London Marathon Playing Field Redbridge\, Forest Road\, Ilford IG
- 6 3HJ
-DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773484
-END:VEVENT
-BEGIN:VEVENT
 UID:30773400@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Broomfield Girls v Colchester City Ladies
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -167,7 +167,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773400
 END:VEVENT
 BEGIN:VEVENT
 UID:30773398@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Colchester City Ladies v Wivenhoe Tempest Girls
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
@@ -176,17 +176,5 @@ LOCATION:King George V Playing Field (Boxted) 3\, King George V Playing Fi
 DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773398
-END:VEVENT
-BEGIN:VEVENT
-UID:31065668@touchline-girls-u13
-DTSTAMP:20261115T150544Z
-SUMMARY:Colchester City Ladies v Chelmsford City Clarets (Essex U13 Girls 
- Cup)
-DTSTART;TZID=Europe/London:20261115T120000
-DTEND;TZID=Europe/London:20261115T134000
-LOCATION:King George V Playing Field (Boxted)\, King George V Playing Fiel
- ds Cage Lane\, Boxted\, Essex CO4 5SQ
-DESCRIPTION:Essex U13 Girls Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31065668
 END:VEVENT
 END:VCALENDAR

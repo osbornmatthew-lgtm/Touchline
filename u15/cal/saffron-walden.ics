@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31161596@touchline-eja-u15
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Saffron Walden v Soham Town Rangers
 DTSTART;TZID=Europe/London:20261122T103000
 DTEND;TZID=Europe/London:20261122T121000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31161596
 END:VEVENT
 BEGIN:VEVENT
 UID:31166798@touchline-eja-u15
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:St Ives Town v Saffron Walden
 DTSTART;TZID=Europe/London:20261129T123000
 DTEND;TZID=Europe/London:20261129T141000
@@ -46,7 +46,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166798
 END:VEVENT
 BEGIN:VEVENT
 UID:31166839@touchline-eja-u15
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Soham Town Rangers v Saffron Walden
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -56,7 +56,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166839
 END:VEVENT
 BEGIN:VEVENT
 UID:31190844@touchline-eja-u15
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Yaxley v Saffron Walden
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -67,14 +67,14 @@ DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
 URL:https://fulltime.thefa.com/displayFixture.html?id=31190844
 END:VEVENT
 BEGIN:VEVENT
-UID:30617220@touchline-eja-u15
-DTSTAMP:20261115T150543Z
-SUMMARY:Saffron Walden v Stanway Rovers (Essex Rosser U15 Cup)
-DTSTART;TZID=Europe/London:20261115T130000
-DTEND;TZID=Europe/London:20261115T144000
-LOCATION:Saffron Walden County High Sports Centre\, Audley End Road\, Saff
- ron Walden\, Essex CB11 4UH
-DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30617220
+UID:31211225@touchline-eja-u15
+DTSTAMP:20261115T182607Z
+SUMMARY:Ridgeway Rovers v Saffron Walden (Essex Rosser U15 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Peter May Sports Centre\, Wadham Road\, London E17 4HR
+DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
+ A Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211225
 END:VEVENT
 END:VCALENDAR

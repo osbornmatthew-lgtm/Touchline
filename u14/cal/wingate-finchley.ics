@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31067572@touchline-eja-u14
-DTSTAMP:20261115T150543Z
-SUMMARY:Cheshunt v Wingate & Finchley
-DTSTART;TZID=Europe/London:20261115T140000
-DTEND;TZID=Europe/London:20261115T154000
-LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
- ross\, Hertfordshire EN8 8RU
-DESCRIPTION:U14 Orange league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31067572
-END:VEVENT
-BEGIN:VEVENT
 UID:31107270@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Wingate & Finchley v West Essex
 DTSTART;TZID=Europe/London:20261122T100000
 DTEND;TZID=Europe/London:20261122T114000
@@ -47,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31107270
 END:VEVENT
 BEGIN:VEVENT
 UID:31154362@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Edgware & Kingsbury v Wingate & Finchley
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -57,7 +46,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31154362
 END:VEVENT
 BEGIN:VEVENT
 UID:31187528@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Wingate & Finchley v Enfield Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -65,5 +54,16 @@ LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
 DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31187528
+END:VEVENT
+BEGIN:VEVENT
+UID:31211444@touchline-eja-u14
+DTSTAMP:20261115T182607Z
+SUMMARY:Norsemen v Wingate & Finchley
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
+DESCRIPTION:U14 Orange league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211444
 END:VEVENT
 END:VCALENDAR

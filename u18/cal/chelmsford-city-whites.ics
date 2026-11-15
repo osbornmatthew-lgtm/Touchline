@@ -25,28 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31093545@touchline-eja-u18
-DTSTAMP:20261115T150544Z
-SUMMARY:Chelmsford City Whites v Aveley Parkside
-DTSTART;TZID=Europe/London:20261115T120000
-DTEND;TZID=Europe/London:20261115T134000
-LOCATION:Melbourne Park\, Salerno Way\, Chelmsford\, Essex CM1 2EH
-DESCRIPTION:U18 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31093545
-END:VEVENT
-BEGIN:VEVENT
 UID:31164938@touchline-eja-u18
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Southend Manor v Chelmsford City Whites
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:U18 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261122T123000
+DTEND;TZID=Europe/London:20261122T141000
+LOCATION:Southchurch Park Arena\, Southend Manor Football Club Northumberl
+ and Crescent\, Southend-On-Sea SS1 2XB
+DESCRIPTION:U18 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31164938
 END:VEVENT
 BEGIN:VEVENT
 UID:31167633@touchline-eja-u18
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Chelmsford City Whites v Witham Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -57,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167633
 END:VEVENT
 BEGIN:VEVENT
 UID:31191489@touchline-eja-u18
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Concord Rangers v Chelmsford City Whites
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -67,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31191489
 END:VEVENT
 BEGIN:VEVENT
 UID:30625579@touchline-eja-u18
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Hornchurch Brown v Chelmsford City Whites (Essex Pelly U18 Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130

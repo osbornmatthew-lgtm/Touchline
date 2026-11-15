@@ -26,12 +26,24 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31107265@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Redbridge v May & Baker Eastbrook
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
  ull-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31107265
+END:VEVENT
+BEGIN:VEVENT
+UID:31211551@touchline-eja-u14
+DTSTAMP:20261115T182607Z
+SUMMARY:Ilford v Redbridge
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Cricklefields Athletics Ground\, Cricklefield Stadium\, The Pavil
+ ion Cricklefield Place\, Ilford IG1 1FY
+DESCRIPTION:U14 Purple league. Kick-off time not published yet. Check FA F
+ ull-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211551
 END:VEVENT
 END:VCALENDAR

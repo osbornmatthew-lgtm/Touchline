@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30773944@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Witham Town Belles v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773944
 END:VEVENT
 BEGIN:VEVENT
 UID:30773952@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Southend Wanderers Swifts v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -50,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773952
 END:VEVENT
 BEGIN:VEVENT
 UID:30773961@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Thundersley Rovers Girls Tigress
  es
 DTSTART;VALUE=DATE:20261213
@@ -62,7 +62,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773961
 END:VEVENT
 BEGIN:VEVENT
 UID:30774005@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Witham Town Belles
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -73,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774005
 END:VEVENT
 BEGIN:VEVENT
 UID:30773972@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Wickford Town Girls Purple
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -84,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773972
 END:VEVENT
 BEGIN:VEVENT
 UID:30773975@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Brentwood Girls AFC Lionesses v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -96,7 +96,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773975
 END:VEVENT
 BEGIN:VEVENT
 UID:30773983@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v East Thurrock Community Raider
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -107,7 +107,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773983
 END:VEVENT
 BEGIN:VEVENT
 UID:30773989@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Galleywood Girls Magpies v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -117,7 +117,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773989
 END:VEVENT
 BEGIN:VEVENT
 UID:30773994@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Leigh Lionesses Girls Courage
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -128,7 +128,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773994
 END:VEVENT
 BEGIN:VEVENT
 UID:30774003@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Loughton Town Purples v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -140,7 +140,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774003
 END:VEVENT
 BEGIN:VEVENT
 UID:30774016@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v South Woodham Ferrers United Wom
  en R
 DTSTART;VALUE=DATE:20270228
@@ -152,7 +152,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30774016
 END:VEVENT
 BEGIN:VEVENT
 UID:30773911@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Ridgeway Rovers Girls Lionesses v Brentwood Girls AFC Lionesses
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -163,7 +163,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773911
 END:VEVENT
 BEGIN:VEVENT
 UID:30773966@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Tigers Girls Stripes v Ridgeway Rovers Girls Lionesses
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
@@ -175,7 +175,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773966
 END:VEVENT
 BEGIN:VEVENT
 UID:30773945@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:South Woodham Ferrers United Women R v Ridgeway Rovers Girls Lione
  sses
 DTSTART;VALUE=DATE:20270411

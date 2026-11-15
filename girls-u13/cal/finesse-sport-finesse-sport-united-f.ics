@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30773431@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Harlow Tekkers Coyotes v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773431
 END:VEVENT
 BEGIN:VEVENT
 UID:30773425@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Colchester City Ladies v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,8 +49,20 @@ DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773425
 END:VEVENT
 BEGIN:VEVENT
+UID:30773484@touchline-girls-u13
+DTSTAMP:20261115T182607Z
+SUMMARY:Finesse Sport Finesse Sport United F v Colchester City Ladies
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:London Marathon Playing Field Redbridge\, Forest Road\, Ilford IG
+ 6 3HJ
+DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30773484
+END:VEVENT
+BEGIN:VEVENT
 UID:30773438@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Finesse Sport Finesse Sport United F v Leigh Lionesses Girls Pride
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -62,7 +74,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773438
 END:VEVENT
 BEGIN:VEVENT
 UID:30773450@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Broomfield Girls v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -74,7 +86,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773450
 END:VEVENT
 BEGIN:VEVENT
 UID:30773462@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Buckhurst Hill Girls Tigresses v Finesse Sport Finesse Sport Unite
  d F
 DTSTART;VALUE=DATE:20270131
@@ -86,20 +98,8 @@ DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
 URL:https://fulltime.thefa.com/displayFixture.html?id=30773462
 END:VEVENT
 BEGIN:VEVENT
-UID:30773484@touchline-girls-u13
-DTSTAMP:20261115T150544Z
-SUMMARY:Finesse Sport Finesse Sport United F v Colchester City Ladies
-DTSTART;VALUE=DATE:20270228
-DTEND;VALUE=DATE:20270301
-LOCATION:London Marathon Playing Field Redbridge\, Forest Road\, Ilford IG
- 6 3HJ
-DESCRIPTION:U13 B league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30773484
-END:VEVENT
-BEGIN:VEVENT
 UID:30773474@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Dagenham United Women Belles Clarets v Finesse Sport Finesse Sport
   United F
 DTSTART;VALUE=DATE:20270307
@@ -111,7 +111,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773474
 END:VEVENT
 BEGIN:VEVENT
 UID:30773397@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Finesse Sport Finesse Sport United F v Broomfield Girls
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
@@ -123,7 +123,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30773397
 END:VEVENT
 BEGIN:VEVENT
 UID:30773443@touchline-girls-u13
-DTSTAMP:20261115T150544Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Tigers Girls White v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329

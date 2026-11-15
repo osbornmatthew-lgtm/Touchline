@@ -25,8 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:31211293@touchline-eja-u14
+DTSTAMP:20261115T182607Z
+SUMMARY:Colney Heath v BSC
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Colney Heath Recreation Ground\, Sports Ground High Street\, Coln
+ ey Heath\, St Albans\, Hertfordshire AL4 0NP
+DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211293
+END:VEVENT
+BEGIN:VEVENT
 UID:31103361@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:BSC v Soham Town Rangers (League Cup)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -38,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103361
 END:VEVENT
 BEGIN:VEVENT
 UID:30937091@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Harpenden Town v BSC (Hertfordshire FA U14 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261122T120000
 DTEND;TZID=Europe/London:20261122T134000

@@ -25,8 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:31211293@touchline-eja-u14
+DTSTAMP:20261115T182607Z
+SUMMARY:Colney Heath v BSC
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+LOCATION:Colney Heath Recreation Ground\, Sports Ground High Street\, Coln
+ ey Heath\, St Albans\, Hertfordshire AL4 0NP
+DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211293
+END:VEVENT
+BEGIN:VEVENT
 UID:31103363@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Norsemen v Colney Heath (League Cup)
 DTSTART;TZID=Europe/London:20261129T100000
 DTEND;TZID=Europe/London:20261129T114000
@@ -36,10 +48,10 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31103363
 END:VEVENT
 BEGIN:VEVENT
 UID:30931288@touchline-eja-u14
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Colney Heath v LGCE (Hertfordshire FA U14 Boys Challenge Cup)
-DTSTART;TZID=Europe/London:20261122T103000
-DTEND;TZID=Europe/London:20261122T121000
+DTSTART;TZID=Europe/London:20261122T110000
+DTEND;TZID=Europe/London:20261122T124000
 DESCRIPTION:Hertfordshire FA U14 Boys Challenge Cup. Check FA Full-Time fo
  r late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30931288

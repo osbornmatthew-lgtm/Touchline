@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31105238@touchline-eja-u13
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Bowers & Pitsea v Dunmow Town
 DTSTART;TZID=Europe/London:20261122T121500
 DTEND;TZID=Europe/London:20261122T135500
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31105238
 END:VEVENT
 BEGIN:VEVENT
 UID:31153498@touchline-eja-u13
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Billericay Town v Dunmow Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153498
 END:VEVENT
 BEGIN:VEVENT
 UID:31188151@touchline-eja-u13
-DTSTAMP:20261115T150543Z
+DTSTAMP:20261115T182607Z
 SUMMARY:Dunmow Town v Billericay Town
 DTSTART;TZID=Europe/London:20261213T103000
 DTEND;TZID=Europe/London:20261213T121000
@@ -57,12 +57,15 @@ DESCRIPTION:U13 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31188151
 END:VEVENT
 BEGIN:VEVENT
-UID:30554348@touchline-eja-u13
-DTSTAMP:20261115T150543Z
-SUMMARY:Dunmow Town v Rowhedge Junior (Essex Cordell U13 Cup)
-DTSTART;TZID=Europe/London:20261115T103000
-DTEND;TZID=Europe/London:20261115T121000
-DESCRIPTION:Essex Cordell U13 Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30554348
+UID:31211128@touchline-eja-u13
+DTSTAMP:20261115T182607Z
+SUMMARY:Rayleigh Town v Dunmow Town (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Rayleigh Town Sports and Social Club\, London Road\, Rayleigh\, E
+ ssex SS6 9DT
+DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211128
 END:VEVENT
 END:VCALENDAR
