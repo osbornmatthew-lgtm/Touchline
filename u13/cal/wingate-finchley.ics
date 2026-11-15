@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153414@touchline-eja-u13
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261115T191044Z
 SUMMARY:Wingate & Finchley v Redbridge
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -36,8 +36,20 @@ DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153414
 END:VEVENT
 BEGIN:VEVENT
+UID:31212735@touchline-eja-u13
+DTSTAMP:20261115T191044Z
+SUMMARY:Cheshunt v Wingate & Finchley
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Cheshunt FC (The Stadium)\, Theobalds Lane\, Cheshunt\, Waltham C
+ ross\, Hertfordshire EN8 8RU
+DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31212735
+END:VEVENT
+BEGIN:VEVENT
 UID:31188105@touchline-eja-u13
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261115T191044Z
 SUMMARY:Cockfosters v Wingate & Finchley
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
