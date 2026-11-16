@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31211443@touchline-eja-u14
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Harpenden Town v Cockfosters
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -36,18 +36,19 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31211443
 END:VEVENT
 BEGIN:VEVENT
 UID:31103357@touchline-eja-u14
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Harpenden Town v Takeley (League Cup)
-DTSTART;TZID=Europe/London:20261129T110000
-DTEND;TZID=Europe/London:20261129T124000
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
 LOCATION:Roundwood Park School\, Roundwood Park\, Harpenden\, Hertfordshir
  e AL5 3AE
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
+DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
+ e for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103357
 END:VEVENT
 BEGIN:VEVENT
 UID:31140164@touchline-eja-u14
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Real Bedford v Harpenden Town (Peter Cline Trophy)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
@@ -58,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31140164
 END:VEVENT
 BEGIN:VEVENT
 UID:30937091@touchline-eja-u14
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Harpenden Town v BSC (Hertfordshire FA U14 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261122T120000
 DTEND;TZID=Europe/London:20261122T134000

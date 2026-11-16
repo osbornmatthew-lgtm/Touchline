@@ -26,17 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31165694@touchline-eja
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Cockfosters v Broadfields United
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
+LOCATION:Old Elizabethans Memorial Playing Fields\, Mays Lane\, Barnet EN5
+  2AG
+DESCRIPTION:U16 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31165694
 END:VEVENT
 BEGIN:VEVENT
 UID:31167138@touchline-eja
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Broadfields United v Ware
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -48,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167138
 END:VEVENT
 BEGIN:VEVENT
 UID:31191113@touchline-eja
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Wormley Rovers v Broadfields United
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -58,19 +59,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31191113
 END:VEVENT
 BEGIN:VEVENT
 UID:31016128@touchline-eja
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Broadfields United v AFC Sudbury (Chairman's Cup)
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;TZID=Europe/London:20261122T130000
+DTEND;TZID=Europe/London:20261122T144000
 LOCATION:Tithe Farm Sports and Social Club\, 151 Rayners Lane\, Harrow HA2
   0XH
-DESCRIPTION:Chairman's Cup. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DESCRIPTION:Chairman's Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31016128
 END:VEVENT
 BEGIN:VEVENT
 UID:31070325@touchline-eja
-DTSTAMP:20261115T182607Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Broadfields United v Whetstone Wanderers (Middlesex FA Under-16 Cu
  p)
 DTSTART;TZID=Europe/London:20261108T120000

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153374@touchline-eja-u13
-DTSTAMP:20261115T191044Z
+DTSTAMP:20261116T080043Z
 SUMMARY:St Ives Town v Saffron Walden
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -35,8 +35,18 @@ DESCRIPTION:U13 Blue league. Kick-off time not published yet. Check FA Ful
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153374
 END:VEVENT
 BEGIN:VEVENT
+UID:31212821@touchline-eja-u13
+DTSTAMP:20261116T080043Z
+SUMMARY:Godmanchester Rovers v St Ives Town
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U13 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31212821
+END:VEVENT
+BEGIN:VEVENT
 UID:31188001@touchline-eja-u13
-DTSTAMP:20261115T191044Z
+DTSTAMP:20261116T080043Z
 SUMMARY:St Ives Town v Godmanchester Rovers
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -46,12 +56,13 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31188001
 END:VEVENT
 BEGIN:VEVENT
 UID:31153473@touchline-eja-u13
-DTSTAMP:20261115T191044Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Hertford Town v St Ives Town (League Cup)
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
- e for late changes.
+DTSTART;TZID=Europe/London:20261122T110000
+DTEND;TZID=Europe/London:20261122T124000
+LOCATION:Hertfordshire Sports Village\, De Havilland Campus Mosquito Way\,
+  Hatfield\, Hertfordshire AL10 9EU
+DESCRIPTION:League Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153473
 END:VEVENT
 END:VCALENDAR

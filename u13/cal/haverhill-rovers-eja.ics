@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153373@touchline-eja-u13
-DTSTAMP:20261115T191044Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Soham Town Rangers v Haverhill Rovers EJA
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -37,8 +37,18 @@ DESCRIPTION:U13 Blue league. Kick-off time not published yet. Check FA Ful
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153373
 END:VEVENT
 BEGIN:VEVENT
+UID:31212822@touchline-eja-u13
+DTSTAMP:20261116T080043Z
+SUMMARY:Haverhill Rovers EJA v Saffron Walden
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:U13 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31212822
+END:VEVENT
+BEGIN:VEVENT
 UID:31187998@touchline-eja-u13
-DTSTAMP:20261115T191044Z
+DTSTAMP:20261116T080043Z
 SUMMARY:Haverhill Rovers EJA v Cambridge City
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
