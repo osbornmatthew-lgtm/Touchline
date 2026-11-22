@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153393@touchline-eja-u13
-DTSTAMP:20261122T141956Z
+DTSTAMP:20261122T143454Z
 SUMMARY:Colney Heath v Harpenden Town
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153393
 END:VEVENT
 BEGIN:VEVENT
 UID:31212778@touchline-eja-u13
-DTSTAMP:20261122T141956Z
+DTSTAMP:20261122T143454Z
 SUMMARY:Colney Heath v Hemel Hempstead Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -50,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31212778
 END:VEVENT
 BEGIN:VEVENT
 UID:31188024@touchline-eja-u13
-DTSTAMP:20261122T141956Z
+DTSTAMP:20261122T143454Z
 SUMMARY:Colney Heath v Real Bedford
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -59,16 +59,5 @@ LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
 DESCRIPTION:U13 Brown league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31188024
-END:VEVENT
-BEGIN:VEVENT
-UID:31153040@touchline-eja-u13
-DTSTAMP:20261122T141956Z
-SUMMARY:Colney Heath v Billericay Town (League Cup)
-DTSTART;TZID=Europe/London:20261122T093000
-DTEND;TZID=Europe/London:20261122T111000
-LOCATION:Samuel Ryder Academy\, Drakes Drive\, St. Albans\, Hertfordshire 
- AL1 5AR
-DESCRIPTION:League Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31153040
 END:VEVENT
 END:VCALENDAR
