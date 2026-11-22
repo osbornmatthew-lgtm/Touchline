@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30735381@touchline-girls-u16
-DTSTAMP:20261122T135349Z
-SUMMARY:Thundersley Rovers Girls Lionesses v Torquespeed Girls Lionesses
-DTSTART;TZID=Europe/London:20261122T113000
-DTEND;TZID=Europe/London:20261122T131000
-LOCATION:The Cornelius Vermuyden School\, Dinant Avenue\, Canvey Island\, 
- Essex SS8 9QS
-DESCRIPTION:U16 B league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30735381
-END:VEVENT
-BEGIN:VEVENT
 UID:30735385@touchline-girls-u16
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T140435Z
 SUMMARY:Torquespeed Girls Lionesses v Galleywood Girls Magpies
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -49,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735385
 END:VEVENT
 BEGIN:VEVENT
 UID:30735390@touchline-girls-u16
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T140435Z
 SUMMARY:Torquespeed Girls Lionesses v Trinity Girls Lionesses
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -61,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735390
 END:VEVENT
 BEGIN:VEVENT
 UID:30735391@touchline-girls-u16
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T140435Z
 SUMMARY:FC Redwing Girls Buzzards v Torquespeed Girls Lionesses
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -73,7 +62,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735391
 END:VEVENT
 BEGIN:VEVENT
 UID:30735345@touchline-girls-u16
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T140435Z
 SUMMARY:Leigh Ramblers Girls Blue v Torquespeed Girls Lionesses
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -83,7 +72,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735345
 END:VEVENT
 BEGIN:VEVENT
 UID:30735358@touchline-girls-u16
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T140435Z
 SUMMARY:Trinity Girls Lionesses v Torquespeed Girls Lionesses
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -95,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735358
 END:VEVENT
 BEGIN:VEVENT
 UID:30735362@touchline-girls-u16
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T140435Z
 SUMMARY:Torquespeed Girls Lionesses v FC Redwing Girls Buzzards
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -107,7 +96,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735362
 END:VEVENT
 BEGIN:VEVENT
 UID:30735364@touchline-girls-u16
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T140435Z
 SUMMARY:Romford Town Flyers Women v Torquespeed Girls Lionesses
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
