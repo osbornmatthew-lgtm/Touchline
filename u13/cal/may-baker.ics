@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153439@touchline-eja-u13
-DTSTAMP:20261122T174959Z
+DTSTAMP:20261122T180640Z
 SUMMARY:Hullbridge Sports v May & Baker
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -36,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153439
 END:VEVENT
 BEGIN:VEVENT
 UID:31188137@touchline-eja-u13
-DTSTAMP:20261122T174959Z
+DTSTAMP:20261122T180640Z
 SUMMARY:Aveley v May & Baker
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31188137
 END:VEVENT
 BEGIN:VEVENT
 UID:31231263@touchline-eja-u13
-DTSTAMP:20261122T174959Z
+DTSTAMP:20261122T180640Z
 SUMMARY:May & Baker v Hullbridge Sports
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
@@ -57,5 +57,15 @@ LOCATION:Leisure United Parsloes Park\, Parsloes Park Terrace Walk\, Dagen
 DESCRIPTION:U13 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31231263
+END:VEVENT
+BEGIN:VEVENT
+UID:31211093@touchline-eja-u13
+DTSTAMP:20261122T180640Z
+SUMMARY:May & Baker v Southminster United (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31211093
 END:VEVENT
 END:VCALENDAR

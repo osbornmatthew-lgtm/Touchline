@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31167353@touchline-eja
-DTSTAMP:20261122T174959Z
+DTSTAMP:20261122T180640Z
 SUMMARY:Takeley v Witham Town
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -35,5 +35,17 @@ LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
 DESCRIPTION:U16 Red league. Kick-off time not published yet. Check FA Full
  -Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31167353
+END:VEVENT
+BEGIN:VEVENT
+UID:31204139@touchline-eja
+DTSTAMP:20261122T180640Z
+SUMMARY:Takeley v Chelmsford City (RT Litho Cup)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
+ rlow\, Essex CM17 9LX
+DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31204139
 END:VEVENT
 END:VCALENDAR

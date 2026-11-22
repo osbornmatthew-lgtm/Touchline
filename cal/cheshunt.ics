@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31191110@touchline-eja
-DTSTAMP:20261122T174959Z
+DTSTAMP:20261122T180640Z
 SUMMARY:May & Baker Eastbrook v Cheshunt
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31191110
 END:VEVENT
 BEGIN:VEVENT
 UID:31103194@touchline-eja
-DTSTAMP:20261122T174959Z
+DTSTAMP:20261122T180640Z
 SUMMARY:Cheshunt v Histon (League Cup)
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -49,8 +49,18 @@ DESCRIPTION:League Cup. Kick-off time not published yet. Check FA Full-Tim
 URL:https://fulltime.thefa.com/displayFixture.html?id=31103194
 END:VEVENT
 BEGIN:VEVENT
+UID:31201660@touchline-eja
+DTSTAMP:20261122T180640Z
+SUMMARY:Potters Bar Town v Cheshunt (RT Litho Cup)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:RT Litho Cup. Kick-off time not published yet. Check FA Full-T
+ ime for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31201660
+END:VEVENT
+BEGIN:VEVENT
 UID:30932313@touchline-eja
-DTSTAMP:20261122T174959Z
+DTSTAMP:20261122T180640Z
 SUMMARY:Colney Heath v Cheshunt (Hertfordshire FA U16 Boys Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000

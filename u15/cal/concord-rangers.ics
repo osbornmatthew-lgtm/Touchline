@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31166063@touchline-eja-u15
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180640Z
 SUMMARY:Rayleigh Town v Concord Rangers
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166063
 END:VEVENT
 BEGIN:VEVENT
 UID:31167020@touchline-eja-u15
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180640Z
 SUMMARY:Concord Rangers v Aveley
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167020
 END:VEVENT
 BEGIN:VEVENT
 UID:31190993@touchline-eja-u15
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180640Z
 SUMMARY:Billericay Town v Concord Rangers
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -59,20 +59,8 @@ DESCRIPTION:U15 Yellow league. Kick-off time not published yet. Check FA F
 URL:https://fulltime.thefa.com/displayFixture.html?id=31190993
 END:VEVENT
 BEGIN:VEVENT
-UID:31051858@touchline-eja-u15
-DTSTAMP:20261122T175000Z
-SUMMARY:Concord Rangers v Redbridge (Peter Peters Shield)
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-LOCATION:Waterside Farm Leisure Centre\, Somnes Avenue\, Canvey Island\, E
- ssex SS8 9RA
-DESCRIPTION:Peter Peters Shield. Kick-off time not published yet. Check FA
-  Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31051858
-END:VEVENT
-BEGIN:VEVENT
 UID:31214276@touchline-eja-u15
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180640Z
 SUMMARY:Ashingdon v Concord Rangers (Essex Rosser U15 Cup)
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207

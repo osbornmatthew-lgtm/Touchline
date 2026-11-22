@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30734328@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Finesse Sport Finesse Sport United F v Hashtag United Girls Blue
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734328
 END:VEVENT
 BEGIN:VEVENT
 UID:30734381@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Cheshunt Girls v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -50,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734381
 END:VEVENT
 BEGIN:VEVENT
 UID:30734350@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Finesse Sport Finesse Sport United F v Brentwood Girls AFC Lioness
  es
 DTSTART;VALUE=DATE:20261213
@@ -63,7 +63,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734350
 END:VEVENT
 BEGIN:VEVENT
 UID:30734344@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Tigers Girls Red v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -75,7 +75,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734344
 END:VEVENT
 BEGIN:VEVENT
 UID:30734372@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Finesse Sport Finesse Sport United F v Thundersley Rovers Girls Li
  onesses
 DTSTART;VALUE=DATE:20270117
@@ -88,7 +88,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734372
 END:VEVENT
 BEGIN:VEVENT
 UID:30734361@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Finesse Sport Finesse Sport United F v AFC Leyton s
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -100,7 +100,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734361
 END:VEVENT
 BEGIN:VEVENT
 UID:30734316@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:South Woodham Ferrers United Women P v Finesse Sport Finesse Sport
   United F
 DTSTART;VALUE=DATE:20270221
@@ -113,7 +113,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734316
 END:VEVENT
 BEGIN:VEVENT
 UID:30734317@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Hashtag United Girls Blue v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -123,7 +123,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734317
 END:VEVENT
 BEGIN:VEVENT
 UID:30734353@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Stanway Rovers Girls Phoenix v Finesse Sport Finesse Sport United 
  F
 DTSTART;VALUE=DATE:20270307
@@ -136,7 +136,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734353
 END:VEVENT
 BEGIN:VEVENT
 UID:30734367@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Perry Street Girls Panthers v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
@@ -146,7 +146,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734367
 END:VEVENT
 BEGIN:VEVENT
 UID:30734330@touchline-girls-u14
-DTSTAMP:20261122T175000Z
+DTSTAMP:20261122T180641Z
 SUMMARY:Billericay Town Girls Blue v Finesse Sport Finesse Sport United F
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
