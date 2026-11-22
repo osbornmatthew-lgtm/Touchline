@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31188106@touchline-eja-u13
-DTSTAMP:20261122T153459Z
+DTSTAMP:20261122T154934Z
 SUMMARY:Hertford Heath v Frenford
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -35,13 +35,14 @@ DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31188106
 END:VEVENT
 BEGIN:VEVENT
-UID:31231145@touchline-eja-u13
-DTSTAMP:20261122T153459Z
-SUMMARY:Ryan v Hertford Heath
+UID:31231213@touchline-eja-u13
+DTSTAMP:20261122T154934Z
+SUMMARY:Wingate & Finchley v Hertford Heath
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
 DESCRIPTION:U13 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31231145
+URL:https://fulltime.thefa.com/displayFixture.html?id=31231213
 END:VEVENT
 END:VCALENDAR
