@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30985940@touchline-eja-u18
-DTSTAMP:20261122T143454Z
-SUMMARY:Heybridge Swifts Yellow v Aveley Parkside
-DTSTART;TZID=Europe/London:20261122T123000
-DTEND;TZID=Europe/London:20261122T141000
-LOCATION:Heybridge Swifts Football Club\, Scraley Road\, Heybridge\, Maldo
- n\, Essex CM9 8FJ
-DESCRIPTION:U18 Yellow league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30985940
-END:VEVENT
-BEGIN:VEVENT
 UID:31167636@touchline-eja-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T144939Z
 SUMMARY:Southend Manor v Heybridge Swifts Yellow
 DTSTART;TZID=Europe/London:20261206T130000
 DTEND;TZID=Europe/London:20261206T144000
@@ -48,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167636
 END:VEVENT
 BEGIN:VEVENT
 UID:31229728@touchline-eja-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T144939Z
 SUMMARY:Billericay Town v Heybridge Swifts Yellow
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
@@ -60,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31229728
 END:VEVENT
 BEGIN:VEVENT
 UID:31164945@touchline-eja-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T144939Z
 SUMMARY:Heybridge Swifts Yellow v Concord Rangers
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -72,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31164945
 END:VEVENT
 BEGIN:VEVENT
 UID:31185869@touchline-eja-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T144939Z
 SUMMARY:Heybridge Swifts Yellow v Hullbridge Sports U17 Blue (Essex Pelly 
  U18 Cup)
 DTSTART;TZID=Europe/London:20261129T123000
