@@ -26,17 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31093066@touchline-eja-u15
-DTSTAMP:20261122T161931Z
+DTSTAMP:20261122T163459Z
 SUMMARY:Hornchurch v Leigh Ramblers
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:U15 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
+LOCATION:Old Parkonians FC\, Oakfield Playing Fields\, The Pavilion Forest
+  Road\, Ilford IG6 3HD
+DESCRIPTION:U15 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31093066
 END:VEVENT
 BEGIN:VEVENT
 UID:31167022@touchline-eja-u15
-DTSTAMP:20261122T161931Z
+DTSTAMP:20261122T163459Z
 SUMMARY:Leigh Ramblers v Bowers & Pitsea
 DTSTART;TZID=Europe/London:20261206T140000
 DTEND;TZID=Europe/London:20261206T154000
@@ -47,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167022
 END:VEVENT
 BEGIN:VEVENT
 UID:31116253@touchline-eja-u15
-DTSTAMP:20261122T161931Z
+DTSTAMP:20261122T163459Z
 SUMMARY:Leighton Town v Leigh Ramblers (League Cup)
 DTSTART;TZID=Europe/London:20261122T140000
 DTEND;TZID=Europe/London:20261122T154000
