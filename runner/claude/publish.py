@@ -46,4 +46,4 @@ T.plan_for = plan_for
 T.FullTime = FromPull
 socket.gethostname = lambda: 'claude-scheduled (Matt desktop browser)'
 full = any(v.get('plan', {}).get('full') for v in PULL.values())
-sys.exit(T.run(argparse.Namespace(mode='full' if full else 'matchday', league=None, dry_run=dry, force=False, no_pull=True, verbose=True)))
+sys.exit(T.run(argparse.Namespace(mode='full' if full else 'matchday', league=None, dry_run=dry, force='--force' in sys.argv, no_pull=True, verbose=True)))
