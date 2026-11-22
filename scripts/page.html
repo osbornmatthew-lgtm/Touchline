@@ -37,6 +37,8 @@ h1{margin:0;font-family:var(--display);font-weight:800;font-size:clamp(44px,9vw,
 h2{margin:0;font-family:var(--display);font-weight:700;font-size:28px;line-height:1.1;text-transform:uppercase;text-wrap:balance}
 .intro{display:flex;flex-direction:column;gap:6px}
 .intro .meta{font-size:14px;color:var(--muted)}
+.intro .meta .refresh{margin-left:auto;display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid color-mix(in srgb, var(--fg) 25%, transparent);border-radius:999px;background:transparent;color:var(--fg);font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.intro .meta .refresh:disabled{opacity:.6}
 .follow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
 .tips{display:flex;flex-direction:column;gap:10px}.tips:empty{display:none}
 .tip{position:relative;padding:14px 48px 14px 16px;font-size:14px;line-height:1.45;color:var(--fg-2)}
@@ -655,6 +657,16 @@ function fetchedAt() {
   if (d - now > 180 * 864e5) d.setFullYear(d.getFullYear() - 1);
   return { d, hasTime: !!m[3] };
 }
+// Refresh button: reload the page past every cache (browser, service worker, Netlify edge) so the latest published scores show.
+// Home-screen apps have no reload or pull-to-refresh, hence the button. The r= marker is removed again once loaded.
+document.addEventListener('click', e => {
+  const b = e.target.closest && e.target.closest('#refresh'); if (!b) return;
+  b.disabled = true; b.textContent = 'Refreshing…';
+  const u = new URL(location.href); u.searchParams.set('r', Date.now());
+  const go = () => location.replace(u.toString());
+  (window.caches ? caches.keys().then(ks => Promise.all(ks.map(k => caches.delete(k)))).catch(() => {}) : Promise.resolve()).then(go, go);
+});
+(() => { const u = new URL(location.href); if (u.searchParams.has('r')) { u.searchParams.delete('r'); history.replaceState(history.state, '', u.toString()); } })();
 function renderFresh() {
   const f = fetchedAt(), now = new Date(), el = document.getElementById('updated'), st = document.getElementById('stale');
   let label = `Updated ${DATA.fetched}`;
@@ -671,7 +683,7 @@ function renderFresh() {
   const lastCheck = f ? f.d : null;
   const stale = overdue.length && (!lastCheck || now - lastCheck > 75 * 6e4 ||
     overdue.some(g => { const end = new Date(now); end.setHours(0, mins(g.ko) + 100, 0, 0); return lastCheck < end; }) && now - lastCheck > 30 * 6e4);
-  el.innerHTML = `<span class="fresh${stale ? ' old' : ''}">${esc(label)}</span> <span>Results to ${esc(DATA.updated || '')} · from FA Full-Time</span>`;
+  el.innerHTML = `<span class="fresh${stale ? ' old' : ''}">${esc(label)}</span> <span>Results to ${esc(DATA.updated || '')} · from FA Full-Time</span><button type="button" class="refresh" id="refresh" data-track="refresh" aria-label="Refresh scores">&#x21bb; Refresh</button>`;
   el.style.display = 'flex'; el.style.flexWrap = 'wrap'; el.style.gap = '6px 10px'; el.style.alignItems = 'center';
   st.hidden = !stale;
   if (stale) st.innerHTML = `<b>Scores may be behind.</b> ${overdue.length === 1 ? 'A game that should have finished' : overdue.length + ' games that should have finished'} ${overdue.length === 1 ? 'has' : 'have'} no result yet, and Full-Time was last checked ${esc(f && f.hasTime ? f.d.toTimeString().slice(0, 5) : DATA.fetched)}. Check back shortly.`;
