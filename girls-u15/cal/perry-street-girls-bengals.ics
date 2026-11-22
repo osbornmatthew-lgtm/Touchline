@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30734867@touchline-girls-u15
-DTSTAMP:20261122T135349Z
-SUMMARY:Elite Colts Girls v Perry Street Girls Bengals
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-LOCATION:Westlands Playing Field 3\, Pavilion London Road\, Romford RM7 9N
- U
-DESCRIPTION:U15 A league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30734867
-END:VEVENT
-BEGIN:VEVENT
 UID:30734875@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Hannakins Farm Girls Hurricanes v Perry Street Girls Bengals
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -50,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734875
 END:VEVENT
 BEGIN:VEVENT
 UID:30734879@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Perry Street Girls Bengals v Sporting 77 Girls Fire Hawks
 DTSTART;TZID=Europe/London:20261213T123000
 DTEND;TZID=Europe/London:20261213T141000
@@ -59,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734879
 END:VEVENT
 BEGIN:VEVENT
 UID:30734886@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Perry Street Girls Bengals v Chelmsford City Girls
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -69,7 +57,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734886
 END:VEVENT
 BEGIN:VEVENT
 UID:30734890@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Broomfield Girls Red v Perry Street Girls Bengals
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -81,7 +69,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734890
 END:VEVENT
 BEGIN:VEVENT
 UID:30734845@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Hutton Girls Hornets v Perry Street Girls Bengals
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -91,7 +79,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734845
 END:VEVENT
 BEGIN:VEVENT
 UID:30734901@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Intersports Girls Stars v Perry Street Girls Bengals
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -101,7 +89,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734901
 END:VEVENT
 BEGIN:VEVENT
 UID:30734819@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Leigh Ramblers Girls Black v Perry Street Girls Bengals
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -111,7 +99,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734819
 END:VEVENT
 BEGIN:VEVENT
 UID:30734851@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Perry Street Girls Bengals v Intersports Girls Stars
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -121,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734851
 END:VEVENT
 BEGIN:VEVENT
 UID:30734834@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Chelmsford City Girls v Perry Street Girls Bengals
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -131,7 +119,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734834
 END:VEVENT
 BEGIN:VEVENT
 UID:30734870@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Perry Street Girls Bengals v Leigh Ramblers Girls Black
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -141,7 +129,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30734870
 END:VEVENT
 BEGIN:VEVENT
 UID:31034416@touchline-girls-u15
-DTSTAMP:20261122T135349Z
+DTSTAMP:20261122T141956Z
 SUMMARY:Perry Street Girls Bengals v Hannakins Farm Girls Hurricanes (Esse
  x U15 Girls Cup)
 DTSTART;TZID=Europe/London:20261129T123000
