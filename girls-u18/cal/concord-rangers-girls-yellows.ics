@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30732028@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Concord Rangers Girls Yellows v Tigers Girls
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732028
 END:VEVENT
 BEGIN:VEVENT
 UID:30732013@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Hashtag United Girls Yellow v Concord Rangers Girls Yellows
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -48,7 +48,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732013
 END:VEVENT
 BEGIN:VEVENT
 UID:30731998@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Concord Rangers Girls Yellows v Cornard Dynamos Youth F.C. Girls
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -60,7 +60,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30731998
 END:VEVENT
 BEGIN:VEVENT
 UID:30732002@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Easton A Girls v Concord Rangers Girls Yellows
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -70,7 +70,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732002
 END:VEVENT
 BEGIN:VEVENT
 UID:30731953@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Concord Rangers Girls Yellows v Hashtag United Girls Yellow
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -82,7 +82,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30731953
 END:VEVENT
 BEGIN:VEVENT
 UID:30731970@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Tigers Girls v Concord Rangers Girls Yellows
 DTSTART;TZID=Europe/London:20270124T140000
 DTEND;TZID=Europe/London:20270124T154000
@@ -92,7 +92,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30731970
 END:VEVENT
 BEGIN:VEVENT
 UID:30732018@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Concord Rangers Girls Yellows v Oyster Girls
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -104,7 +104,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732018
 END:VEVENT
 BEGIN:VEVENT
 UID:30732024@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Springfield Girls v Concord Rangers Girls Yellows
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -116,7 +116,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30732024
 END:VEVENT
 BEGIN:VEVENT
 UID:30731959@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Oyster Girls v Concord Rangers Girls Yellows
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -126,7 +126,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30731959
 END:VEVENT
 BEGIN:VEVENT
 UID:30731981@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Walthamstow EGCL v Concord Rangers Girls Yellows
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -137,7 +137,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30731981
 END:VEVENT
 BEGIN:VEVENT
 UID:30731982@touchline-girls-u18
-DTSTAMP:20261122T143454Z
+DTSTAMP:20261122T153500Z
 SUMMARY:Concord Rangers Girls Yellows v Walthamstow EGCL
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -146,17 +146,5 @@ LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
 DESCRIPTION:U18 A league. Kick-off time not published yet. Check FA Full-T
  ime for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30731982
-END:VEVENT
-BEGIN:VEVENT
-UID:31066608@touchline-girls-u18
-DTSTAMP:20261122T143454Z
-SUMMARY:Concord Rangers Girls Yellows v Broomfield Girls Black (Essex U18 
- Girls Cup)
-DTSTART;TZID=Europe/London:20261122T123000
-DTEND;TZID=Europe/London:20261122T141000
-LOCATION:Goals (Southend)\, 224 Chase High School Prittlewell Chase\, West
- cliff-On-Sea SS0 0RT
-DESCRIPTION:Essex U18 Girls Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31066608
 END:VEVENT
 END:VCALENDAR
