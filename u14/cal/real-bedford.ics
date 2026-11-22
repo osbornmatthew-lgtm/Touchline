@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31187252@touchline-eja-u14
-DTSTAMP:20261122T120151Z
+DTSTAMP:20261122T132745Z
 SUMMARY:Godmanchester Rovers v Real Bedford
 DTSTART;TZID=Europe/London:20261206T100000
 DTEND;TZID=Europe/London:20261206T114000
@@ -35,7 +35,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31187252
 END:VEVENT
 BEGIN:VEVENT
 UID:31211120@touchline-eja-u14
-DTSTAMP:20261122T120151Z
+DTSTAMP:20261122T132745Z
 SUMMARY:Real Bedford v Netherton United
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -45,8 +45,20 @@ DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31211120
 END:VEVENT
 BEGIN:VEVENT
+UID:31230460@touchline-eja-u14
+DTSTAMP:20261122T132745Z
+SUMMARY:Kempston Rovers Colts v Real Bedford
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+LOCATION:Hillgrounds Playing Fields\, Hillgrounds Road\, Kempston\, Bedfor
+ d MK42 8TP
+DESCRIPTION:U14 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31230460
+END:VEVENT
+BEGIN:VEVENT
 UID:31140164@touchline-eja-u14
-DTSTAMP:20261122T120151Z
+DTSTAMP:20261122T132745Z
 SUMMARY:Real Bedford v Harpenden Town (Peter Cline Trophy)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
@@ -57,7 +69,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31140164
 END:VEVENT
 BEGIN:VEVENT
 UID:31073355@touchline-eja-u14
-DTSTAMP:20261122T120151Z
+DTSTAMP:20261122T132745Z
 SUMMARY:Flitwick Eagles v Real Bedford (Under 14 Youth Challenge Cup)
 DTSTART;TZID=Europe/London:20261129T103000
 DTEND;TZID=Europe/London:20261129T121000

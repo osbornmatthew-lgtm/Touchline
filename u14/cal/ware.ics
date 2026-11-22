@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31187311@touchline-eja-u14
-DTSTAMP:20261122T120151Z
+DTSTAMP:20261122T132745Z
 SUMMARY:Ware v St Margaretsbury
 DTSTART;TZID=Europe/London:20261206T140000
 DTEND;TZID=Europe/London:20261206T154000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31187311
 END:VEVENT
 BEGIN:VEVENT
 UID:31211296@touchline-eja-u14
-DTSTAMP:20261122T120151Z
+DTSTAMP:20261122T132745Z
 SUMMARY:Ware v Takeley
 DTSTART;TZID=Europe/London:20261213T140000
 DTEND;TZID=Europe/London:20261213T154000
@@ -47,13 +47,13 @@ DESCRIPTION:U14 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31211296
 END:VEVENT
 BEGIN:VEVENT
-UID:30933455@touchline-eja-u14
-DTSTAMP:20261122T120151Z
-SUMMARY:Cheshunt v Ware (Hertfordshire FA U14 Boys Challenge Cup)
-DTSTART;TZID=Europe/London:20261122T100000
-DTEND;TZID=Europe/London:20261122T114000
-DESCRIPTION:Hertfordshire FA U14 Boys Challenge Cup. Check FA Full-Time fo
- r late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30933455
+UID:31230490@touchline-eja-u14
+DTSTAMP:20261122T132745Z
+SUMMARY:Hertford Town v Ware
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:U14 Green league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31230490
 END:VEVENT
 END:VCALENDAR

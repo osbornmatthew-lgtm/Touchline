@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31167141@touchline-eja
-DTSTAMP:20261122T120151Z
+DTSTAMP:20261122T132745Z
 SUMMARY:Norsemen v London Lions
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167141
 END:VEVENT
 BEGIN:VEVENT
 UID:30896862@touchline-eja
-DTSTAMP:20261122T120151Z
+DTSTAMP:20261122T132745Z
 SUMMARY:Norsemen v Wormley Rovers
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
@@ -45,16 +45,5 @@ LOCATION:Edmonton Sports and Social Club\, Church Street\, London N9 9HL
 DESCRIPTION:U16 Green league. Kick-off time not published yet. Check FA Fu
  ll-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30896862
-END:VEVENT
-BEGIN:VEVENT
-UID:31016123@touchline-eja
-DTSTAMP:20261122T120151Z
-SUMMARY:Stansted v Norsemen (Chairman's Cup)
-DTSTART;TZID=Europe/London:20261122T103000
-DTEND;TZID=Europe/London:20261122T121000
-LOCATION:White Roding Sports and Social Club\, Marks Hall Lane\, White Rod
- ing\, Dunmow\, Essex CM6 1RT
-DESCRIPTION:Chairman's Cup. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31016123
 END:VEVENT
 END:VCALENDAR
