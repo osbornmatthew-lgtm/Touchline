@@ -26,17 +26,16 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31166795@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Netherton United v Yaxley
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261129T120000
+DTEND;TZID=Europe/London:20261129T134000
+DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166795
 END:VEVENT
 BEGIN:VEVENT
 UID:31166841@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:St Ives Town v Yaxley
 DTSTART;TZID=Europe/London:20261206T100000
 DTEND;TZID=Europe/London:20261206T114000
@@ -45,7 +44,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166841
 END:VEVENT
 BEGIN:VEVENT
 UID:31190844@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Yaxley v Saffron Walden
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -54,5 +53,15 @@ LOCATION:Apg Park\, Yaxley Football Club Leading Drove\, Yaxley\, Cambridg
 DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
  l-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31190844
+END:VEVENT
+BEGIN:VEVENT
+UID:31220484@touchline-eja-u15
+DTSTAMP:20261122T120151Z
+SUMMARY:Eynesbury Rovers v Yaxley (County Youth U15 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:County Youth U15 Cup. Kick-off time not published yet. Check F
+ A Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31220484
 END:VEVENT
 END:VCALENDAR

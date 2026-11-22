@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31153498@touchline-eja-u13
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Billericay Town v Dunmow Town
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
 LOCATION:Billericay Town FC (New Lodge)\, Blunts Wall Road\, Billericay\, 
  Essex CM12 9SA
-DESCRIPTION:U13 Yellow league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DESCRIPTION:U13 Yellow league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31153498
 END:VEVENT
 BEGIN:VEVENT
 UID:31188151@touchline-eja-u13
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Dunmow Town v Billericay Town
 DTSTART;TZID=Europe/London:20261213T103000
 DTEND;TZID=Europe/London:20261213T121000
@@ -47,7 +46,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31188151
 END:VEVENT
 BEGIN:VEVENT
 UID:31153040@touchline-eja-u13
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Colney Heath v Billericay Town (League Cup)
 DTSTART;TZID=Europe/London:20261122T093000
 DTEND;TZID=Europe/London:20261122T111000
@@ -58,7 +57,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31153040
 END:VEVENT
 BEGIN:VEVENT
 UID:31143256@touchline-eja-u13
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Grays Athletic v Billericay Town (Harrison Trophy)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
@@ -67,5 +66,16 @@ LOCATION:Lakeside Sports Ground\, Arterial Road\, Chafford Hundred\, Grays
 DESCRIPTION:Harrison Trophy. Kick-off time not published yet. Check FA Ful
  l-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31143256
+END:VEVENT
+BEGIN:VEVENT
+UID:31217656@touchline-eja-u13
+DTSTAMP:20261122T120151Z
+SUMMARY:Nation v Billericay Town (Essex Cordell U13 Cup)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+LOCATION:Royal Docks Academy\, Prince Regent Lane\, London E16 3HS
+DESCRIPTION:Essex Cordell U13 Cup. Kick-off time not published yet. Check 
+ FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31217656
 END:VEVENT
 END:VCALENDAR

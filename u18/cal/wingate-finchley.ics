@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30513695@touchline-eja-u18
-DTSTAMP:20261116T080043Z
-SUMMARY:Wingate & Finchley v Ware U17
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
-DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30513695
-END:VEVENT
-BEGIN:VEVENT
 UID:31164893@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Harpenden Town v Wingate & Finchley
 DTSTART;TZID=Europe/London:20261122T110000
 DTEND;TZID=Europe/London:20261122T124000
@@ -48,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31164893
 END:VEVENT
 BEGIN:VEVENT
 UID:31165033@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Broadfields United Sundays v Wingate & Finchley
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -58,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31165033
 END:VEVENT
 BEGIN:VEVENT
 UID:31191159@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Wingate & Finchley v Harpenden Town
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -68,8 +57,19 @@ DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
 URL:https://fulltime.thefa.com/displayFixture.html?id=31191159
 END:VEVENT
 BEGIN:VEVENT
+UID:30513695@touchline-eja-u18
+DTSTAMP:20261122T120151Z
+SUMMARY:Wingate & Finchley v Ware U17
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
+DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=30513695
+END:VEVENT
+BEGIN:VEVENT
 UID:31162686@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Wingate & Finchley v Aylesford Royals (London Under 18 Boys Sunday
   Cup)
 DTSTART;TZID=Europe/London:20261206T101000

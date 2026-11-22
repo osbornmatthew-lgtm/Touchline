@@ -25,18 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31162040@touchline-eja-u15
-DTSTAMP:20261116T080043Z
-SUMMARY:Redbridge v Ryan
-DTSTART;TZID=Europe/London:20261122T093000
-DTEND;TZID=Europe/London:20261122T111000
-LOCATION:The Aspect Arena\, Thames Road\, Canvey Island\, Essex SS8 0HH
-DESCRIPTION:U15 Purple league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31162040
-END:VEVENT
-BEGIN:VEVENT
 UID:31093056@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Redbridge v Ilford
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -46,7 +36,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093056
 END:VEVENT
 BEGIN:VEVENT
 UID:31166894@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Redbridge v Buckhurst Hill
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -56,7 +46,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166894
 END:VEVENT
 BEGIN:VEVENT
 UID:31190928@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:West Essex v Redbridge
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
@@ -68,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31190928
 END:VEVENT
 BEGIN:VEVENT
 UID:31051858@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Concord Rangers v Redbridge (Peter Peters Shield)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
@@ -77,5 +67,16 @@ LOCATION:Waterside Farm Leisure Centre\, Somnes Avenue\, Canvey Island\, E
 DESCRIPTION:Peter Peters Shield. Kick-off time not published yet. Check FA
   Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31051858
+END:VEVENT
+BEGIN:VEVENT
+UID:31216253@touchline-eja-u15
+DTSTAMP:20261122T120151Z
+SUMMARY:Ayat Fútbol Club v Redbridge (Norman Higgs Under 15 Boys Sunday C
+ up)
+DTSTART;TZID=Europe/London:20261213T101000
+DTEND;TZID=Europe/London:20261213T115000
+DESCRIPTION:Norman Higgs Under 15 Boys Sunday Cup. Check FA Full-Time for 
+ late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31216253
 END:VEVENT
 END:VCALENDAR

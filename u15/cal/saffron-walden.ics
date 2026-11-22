@@ -25,19 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31161596@touchline-eja-u15
-DTSTAMP:20261116T080043Z
-SUMMARY:Saffron Walden v Soham Town Rangers
-DTSTART;TZID=Europe/London:20261122T103000
-DTEND;TZID=Europe/London:20261122T121000
-LOCATION:Saffron Walden County High Sports Centre\, Audley End Road\, Saff
- ron Walden\, Essex CB11 4UH
-DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31161596
-END:VEVENT
-BEGIN:VEVENT
 UID:31166798@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:St Ives Town v Saffron Walden
 DTSTART;TZID=Europe/London:20261129T123000
 DTEND;TZID=Europe/London:20261129T141000
@@ -46,17 +35,18 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31166798
 END:VEVENT
 BEGIN:VEVENT
 UID:31166839@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Soham Town Rangers v Saffron Walden
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-DESCRIPTION:U15 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DTSTART;TZID=Europe/London:20261206T140000
+DTEND;TZID=Europe/London:20261206T154000
+LOCATION:Soham Village College\, Sand Street\, Soham\, Ely\, Cambridgeshir
+ e CB7 5AA
+DESCRIPTION:U15 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166839
 END:VEVENT
 BEGIN:VEVENT
 UID:31190844@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Yaxley v Saffron Walden
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -68,13 +58,12 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31190844
 END:VEVENT
 BEGIN:VEVENT
 UID:31211225@touchline-eja-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Ridgeway Rovers v Saffron Walden (Essex Rosser U15 Cup)
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
+DTSTART;TZID=Europe/London:20261206T100000
+DTEND;TZID=Europe/London:20261206T114000
 LOCATION:Peter May Sports Centre\, Wadham Road\, London E17 4HR
-DESCRIPTION:Essex Rosser U15 Cup. Kick-off time not published yet. Check F
- A Full-Time for late changes.
+DESCRIPTION:Essex Rosser U15 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31211225
 END:VEVENT
 END:VCALENDAR

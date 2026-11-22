@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31162112@touchline-eja
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Soham Town Rangers v Godmanchester Rovers
 DTSTART;TZID=Europe/London:20261122T103000
 DTEND;TZID=Europe/London:20261122T121000
@@ -36,18 +36,8 @@ DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31162112
 END:VEVENT
 BEGIN:VEVENT
-UID:31167081@touchline-eja
-DTSTAMP:20261116T080043Z
-SUMMARY:Netherton United v Godmanchester Rovers
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31167081
-END:VEVENT
-BEGIN:VEVENT
 UID:31191075@touchline-eja
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:St Neots Town v Godmanchester Rovers
 DTSTART;TZID=Europe/London:20261213T100000
 DTEND;TZID=Europe/London:20261213T114000
@@ -57,8 +47,18 @@ DESCRIPTION:U16 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31191075
 END:VEVENT
 BEGIN:VEVENT
+UID:31167081@touchline-eja
+DTSTAMP:20261122T120151Z
+SUMMARY:Netherton United v Godmanchester Rovers
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U16 Blue league. Kick-off time not published yet. Check FA Ful
+ l-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31167081
+END:VEVENT
+BEGIN:VEVENT
 UID:31093719@touchline-eja
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Godmanchester Rovers v Sudbury Sports (League Cup)
 DTSTART;TZID=Europe/London:20261129T140000
 DTEND;TZID=Europe/London:20261129T154000
@@ -70,7 +70,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31093719
 END:VEVENT
 BEGIN:VEVENT
 UID:31078185@touchline-eja
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Histon v Godmanchester Rovers (RT Litho Cup)
 DTSTART;TZID=Europe/London:20261117T194500
 DTEND;TZID=Europe/London:20261117T212500
@@ -78,5 +78,28 @@ LOCATION:Camtech and Caprice Stadium\, Bridge Road\, Impington\, Cambridge
  \, Cambridgeshire CB24 9PH
 DESCRIPTION:RT Litho Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31078185
+END:VEVENT
+BEGIN:VEVENT
+UID:31220490@touchline-eja
+DTSTAMP:20261122T120151Z
+SUMMARY:Godmanchester Rovers v St Ives Town (County Youth U16 Cup)
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+DESCRIPTION:County Youth U16 Cup. Kick-off time not published yet. Check F
+ A Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31220490
+END:VEVENT
+BEGIN:VEVENT
+UID:31220487@touchline-eja
+DTSTAMP:20261122T120151Z
+SUMMARY:Godmanchester Rovers v Eynesbury Rovers (County Youth U16 Cup)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Godmanchester Rovers FC\, Godmanchester Rovers FC The Peter Hodso
+ n Community Ground\, Bearscroft Lane\, Godmanchester\, Cambridgeshire PE29
+  2LQ
+DESCRIPTION:County Youth U16 Cup. Kick-off time not published yet. Check F
+ A Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31220487
 END:VEVENT
 END:VCALENDAR

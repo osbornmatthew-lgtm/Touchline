@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31166042@touchline-eja
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:AFC Sudbury v Fakenham Town
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T114500
+DTEND;TZID=Europe/London:20261129T132500
 LOCATION:The Elite Travel Stadium\, Brundon Lane\, Sudbury\, Suffolk CO10 
  7HN
-DESCRIPTION:U16 Black league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U16 Black league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31166042
 END:VEVENT
 BEGIN:VEVENT
 UID:31167046@touchline-eja
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Felixstowe & Walton United v AFC Sudbury
 DTSTART;TZID=Europe/London:20261206T100000
 DTEND;TZID=Europe/London:20261206T114000
@@ -48,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167046
 END:VEVENT
 BEGIN:VEVENT
 UID:31190748@touchline-eja
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Fakenham Town v AFC Sudbury
 DTSTART;TZID=Europe/London:20261213T120000
 DTEND;TZID=Europe/London:20261213T134000
@@ -59,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31190748
 END:VEVENT
 BEGIN:VEVENT
 UID:31016128@touchline-eja
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Broadfields United v AFC Sudbury (Chairman's Cup)
 DTSTART;TZID=Europe/London:20261122T130000
 DTEND;TZID=Europe/London:20261122T144000

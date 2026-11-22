@@ -25,32 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:30722282@touchline-bcfa
-DTSTAMP:20261116T080044Z
-SUMMARY:Blackmore Blue v BSC FC United
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-LOCATION:Kelvedon Hatch Secret Nuclear Bunker\, Ongar Road\, Kelvedon Hatc
- h\, Brentwood\, Essex CM15 0LA
-DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=30722282
-END:VEVENT
-BEGIN:VEVENT
 UID:30722287@touchline-bcfa
-DTSTAMP:20261116T080044Z
+DTSTAMP:20261122T120152Z
 SUMMARY:BSC FC United v Hannakins Farm Purple
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-LOCATION:Friedberg Playing Fields\, Friedberg Avenue\, Bishops Stortford\,
-  Hertfordshire CM23 4RF
-DESCRIPTION:Division 3 league. Kick-off time not published yet. Check FA F
- ull-Time for late changes.
+DTSTART;TZID=Europe/London:20261129T130000
+DTEND;TZID=Europe/London:20261129T144000
+LOCATION:Bishop's Stortford College\, Bishops Stortford College Maze Green
+  Road\, Bishops Stortford\, Hertfordshire CM23 2PJ
+DESCRIPTION:Division 3 league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30722287
 END:VEVENT
 BEGIN:VEVENT
 UID:30722293@touchline-bcfa
-DTSTAMP:20261116T080044Z
+DTSTAMP:20261122T120152Z
 SUMMARY:BSC FC United v Risden Wood Warriors
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -62,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722293
 END:VEVENT
 BEGIN:VEVENT
 UID:30722298@touchline-bcfa
-DTSTAMP:20261116T080044Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Aveley United v BSC FC United
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -74,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722298
 END:VEVENT
 BEGIN:VEVENT
 UID:30722303@touchline-bcfa
-DTSTAMP:20261116T080044Z
+DTSTAMP:20261122T120152Z
 SUMMARY:BSC FC United v Tilbury Titans
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -86,7 +73,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722303
 END:VEVENT
 BEGIN:VEVENT
 UID:30722309@touchline-bcfa
-DTSTAMP:20261116T080044Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Essex Minors (Hornchurch) Merlins v BSC FC United
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -98,7 +85,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722309
 END:VEVENT
 BEGIN:VEVENT
 UID:30722320@touchline-bcfa
-DTSTAMP:20261116T080044Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Perry Street Blacks v BSC FC United
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -110,7 +97,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722320
 END:VEVENT
 BEGIN:VEVENT
 UID:30722264@touchline-bcfa
-DTSTAMP:20261116T080044Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Loughton Town Greens v BSC FC United
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
@@ -122,7 +109,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722264
 END:VEVENT
 BEGIN:VEVENT
 UID:30722253@touchline-bcfa
-DTSTAMP:20261116T080044Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Tilbury Titans v BSC FC United
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -133,7 +120,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30722253
 END:VEVENT
 BEGIN:VEVENT
 UID:30722313@touchline-bcfa
-DTSTAMP:20261116T080044Z
+DTSTAMP:20261122T120152Z
 SUMMARY:BSC FC United v Loughton Town Greens
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222

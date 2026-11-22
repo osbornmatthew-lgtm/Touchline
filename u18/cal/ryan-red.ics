@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30984258@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Ryan Red v Hornchurch Brown
 DTSTART;TZID=Europe/London:20261122T114500
 DTEND;TZID=Europe/London:20261122T132500
@@ -34,29 +34,8 @@ DESCRIPTION:U18 Brown league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30984258
 END:VEVENT
 BEGIN:VEVENT
-UID:31165023@touchline-eja-u18
-DTSTAMP:20261116T080043Z
-SUMMARY:Hackney Wick 18s Hackney Wic v Ryan Red
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-LOCATION:Mabley Green\, Mabley Green Sports Green Lee Conservancy Road\, H
- ackney\, London E9 5RN
-DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31165023
-END:VEVENT
-BEGIN:VEVENT
-UID:31165025@touchline-eja-u18
-DTSTAMP:20261116T080043Z
-SUMMARY:Walthamstow v Ryan Red
-DTSTART;TZID=Europe/London:20261129T103000
-DTEND;TZID=Europe/London:20261129T121000
-DESCRIPTION:U18 Brown league. Check FA Full-Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31165025
-END:VEVENT
-BEGIN:VEVENT
 UID:31167602@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Redbridge Brown v Ryan Red
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -66,7 +45,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167602
 END:VEVENT
 BEGIN:VEVENT
 UID:31191469@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Hornchurch Brown v Ryan Red
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -75,8 +54,30 @@ DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
 URL:https://fulltime.thefa.com/displayFixture.html?id=31191469
 END:VEVENT
 BEGIN:VEVENT
+UID:31165023@touchline-eja-u18
+DTSTAMP:20261122T120151Z
+SUMMARY:Hackney Wick 18s Hackney Wic v Ryan Red
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+LOCATION:Mabley Green\, Mabley Green Sports Green Lee Conservancy Road\, H
+ ackney\, London E9 5RN
+DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165023
+END:VEVENT
+BEGIN:VEVENT
+UID:31165025@touchline-eja-u18
+DTSTAMP:20261122T120151Z
+SUMMARY:Walthamstow v Ryan Red
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:U18 Brown league. Kick-off time not published yet. Check FA Fu
+ ll-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31165025
+END:VEVENT
+BEGIN:VEVENT
 UID:31187954@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Ryan Red v Barnston (Essex Pelly U18 Cup)
 DTSTART;TZID=Europe/London:20261129T100000
 DTEND;TZID=Europe/London:20261129T114000

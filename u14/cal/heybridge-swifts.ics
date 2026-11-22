@@ -25,30 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:31107327@touchline-eja-u14
-DTSTAMP:20261116T080043Z
-SUMMARY:Heybridge Swifts v Witham Town
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DESCRIPTION:U14 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
-URL:https://fulltime.thefa.com/displayFixture.html?id=31107327
-END:VEVENT
-BEGIN:VEVENT
 UID:31201884@touchline-eja-u14
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Hutton v Heybridge Swifts
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
 LOCATION:Flints Community Ground\, Land Adjacent To 152 Chelmsford Road\, 
  Shenfield\, Essex CM15 8RT
-DESCRIPTION:U14 Red league. Kick-off time not published yet. Check FA Full
- -Time for late changes.
+DESCRIPTION:U14 Red league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31201884
 END:VEVENT
 BEGIN:VEVENT
 UID:31187594@touchline-eja-u14
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Heybridge Swifts v AFC Pegasus Colchester
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -58,7 +47,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31187594
 END:VEVENT
 BEGIN:VEVENT
 UID:31211621@touchline-eja-u14
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Brentwood Town v Heybridge Swifts
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -70,7 +59,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31211621
 END:VEVENT
 BEGIN:VEVENT
 UID:31144908@touchline-eja-u14
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Witham Town v Heybridge Swifts (Peter Cline Trophy)
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201

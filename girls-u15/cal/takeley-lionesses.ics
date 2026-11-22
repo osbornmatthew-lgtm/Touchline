@@ -26,19 +26,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:30735057@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Corinthians Girls v Takeley Lionesses
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;TZID=Europe/London:20261122T103000
+DTEND;TZID=Europe/London:20261122T121000
 LOCATION:Stambridge Memorial Ground\, Stambridge Memorial Ground Stambridg
  e Road\, Stambridge\, Essex SS4 2AR
-DESCRIPTION:U15 C league. Kick-off time not published yet. Check FA Full-T
- ime for late changes.
+DESCRIPTION:U15 C league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30735057
 END:VEVENT
 BEGIN:VEVENT
 UID:30735089@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Loughton Town Violets v Takeley Lionesses
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -50,7 +49,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735089
 END:VEVENT
 BEGIN:VEVENT
 UID:30735074@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Takeley Lionesses v Baddow Spartak Girls Pumas
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
@@ -62,7 +61,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735074
 END:VEVENT
 BEGIN:VEVENT
 UID:30735078@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Byron Red Star Girls Pumas v Takeley Lionesses
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
@@ -73,7 +72,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735078
 END:VEVENT
 BEGIN:VEVENT
 UID:30735084@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Takeley Lionesses v Great Danes Girls
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
@@ -85,7 +84,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735084
 END:VEVENT
 BEGIN:VEVENT
 UID:30735063@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Byron Red Star Girls Panthers v Takeley Lionesses
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -96,7 +95,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735063
 END:VEVENT
 BEGIN:VEVENT
 UID:30735100@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Romford Town Flyers Women v Takeley Lionesses
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
@@ -106,7 +105,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735100
 END:VEVENT
 BEGIN:VEVENT
 UID:30735104@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Takeley Lionesses v South Woodham Ferrers United Women S
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
@@ -118,7 +117,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735104
 END:VEVENT
 BEGIN:VEVENT
 UID:30735111@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Stones Athletic Girls Panthers v Takeley Lionesses
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
@@ -129,7 +128,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735111
 END:VEVENT
 BEGIN:VEVENT
 UID:30735024@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Great Danes Girls v Takeley Lionesses
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -139,7 +138,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735024
 END:VEVENT
 BEGIN:VEVENT
 UID:30735058@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Takeley Lionesses v Corinthians Girls
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
@@ -151,14 +150,13 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=30735058
 END:VEVENT
 BEGIN:VEVENT
 UID:31035481@touchline-girls-u15
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120152Z
 SUMMARY:Takeley Lionesses v Elite Colts Girls (Essex U15 Girls Cup)
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T120000
+DTEND;TZID=Europe/London:20261129T134000
 LOCATION:Mark Hall Sports Centre\, Mark Hall Sport Centre London Road\, Ha
  rlow\, Essex CM17 9LX
-DESCRIPTION:Essex U15 Girls Cup. Kick-off time not published yet. Check FA
-  Full-Time for late changes.
+DESCRIPTION:Essex U15 Girls Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31035481
 END:VEVENT
 END:VCALENDAR

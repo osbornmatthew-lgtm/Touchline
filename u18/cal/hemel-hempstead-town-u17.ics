@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31164894@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Cheshunt Ambers v Hemel Hempstead Town U17
 DTSTART;TZID=Europe/London:20261122T140000
 DTEND;TZID=Europe/London:20261122T154000
@@ -37,7 +37,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31164894
 END:VEVENT
 BEGIN:VEVENT
 UID:31167588@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Hemel Hempstead Town U17 v London Lions
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -49,23 +49,33 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31167588
 END:VEVENT
 BEGIN:VEVENT
 UID:31191157@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Hemel Hempstead Town U17 v Edgware & Kingsbury
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
+DTSTART;TZID=Europe/London:20261213T133000
+DTEND;TZID=Europe/London:20261213T151000
 LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
  ordshire HP2 4HW
-DESCRIPTION:U18 Blue league. Kick-off time not published yet. Check FA Ful
- l-Time for late changes.
+DESCRIPTION:U18 Blue league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31191157
 END:VEVENT
 BEGIN:VEVENT
+UID:31229707@touchline-eja-u18
+DTSTAMP:20261122T120151Z
+SUMMARY:Hemel Hempstead Town U17 v Broadfields United Sundays
+DTSTART;TZID=Europe/London:20261220T133000
+DTEND;TZID=Europe/London:20261220T151000
+LOCATION:Hemel Hempstead Town FC\, Vauxhall Road\, Hemel Hempstead\, Hertf
+ ordshire HP2 4HW
+DESCRIPTION:U18 Blue league. Check FA Full-Time for late changes.
+URL:https://fulltime.thefa.com/displayFixture.html?id=31229707
+END:VEVENT
+BEGIN:VEVENT
 UID:30183700@touchline-eja-u18
-DTSTAMP:20261116T080043Z
+DTSTAMP:20261122T120151Z
 SUMMARY:Cheshunt Ambers v Hemel Hempstead Town U17 (Hertfordshire FA U18 B
  oys Challenge Cup)
-DTSTART;TZID=Europe/London:20261129T103000
-DTEND;TZID=Europe/London:20261129T121000
+DTSTART;TZID=Europe/London:20261129T120000
+DTEND;TZID=Europe/London:20261129T134000
 DESCRIPTION:Hertfordshire FA U18 Boys Challenge Cup. Check FA Full-Time fo
  r late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30183700
