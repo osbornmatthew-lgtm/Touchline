@@ -1859,6 +1859,8 @@ if (new URLSearchParams(location.search).get('pick')) { try { history.replaceSta
 else if (!mine && !seen) {
   // The home-screen icon opens the address it was saved from. If their team is in another age group, go there.
   let home = null, t = null; try { home = localStorage.getItem('touchline-home'); t = home && home !== AGE && AGES.includes(home) ? localStorage.getItem(ageKey(home) + '-team') : null; } catch (e) {}
-  if (t) location.replace(ageHref(home) + '?team=' + slug(t)); else openWelcome();
+  // Only when opened from outside (home-screen icon, a shared link). Tapping an age group inside the app must stay on it.
+  let internal = false; try { internal = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch (e) {}
+  if (t && !internal) location.replace(ageHref(home) + '?team=' + slug(t)); else if (!t) openWelcome();  // following a team elsewhere and just looking: no welcome panel
 }
 </script>
