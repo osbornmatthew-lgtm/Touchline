@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31187653@touchline-eja-u14
-DTSTAMP:20261122T180640Z
+DTSTAMP:20261123T081410Z
 SUMMARY:Benfleet v Concord Rangers
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
@@ -38,7 +38,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31187653
 END:VEVENT
 BEGIN:VEVENT
 UID:31211669@touchline-eja-u14
-DTSTAMP:20261122T180640Z
+DTSTAMP:20261123T081410Z
 SUMMARY:Benfleet v Tilbury
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
@@ -50,7 +50,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31211669
 END:VEVENT
 BEGIN:VEVENT
 UID:31230627@touchline-eja-u14
-DTSTAMP:20261122T180640Z
+DTSTAMP:20261123T081410Z
 SUMMARY:Grays Athletic v Benfleet
 DTSTART;TZID=Europe/London:20261220T141500
 DTEND;TZID=Europe/London:20261220T155500
@@ -59,25 +59,23 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31230627
 END:VEVENT
 BEGIN:VEVENT
 UID:31187546@touchline-eja-u14
-DTSTAMP:20261122T180640Z
+DTSTAMP:20261123T081410Z
 SUMMARY:Chelmsford City v Benfleet (Essex Andrews U14 Cup)
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
 LOCATION:Moulsham High School\, Brian Close\, Chelmsford\, Essex CM2 9ES
-DESCRIPTION:Essex Andrews U14 Cup. Kick-off time not published yet. Check 
- FA Full-Time for late changes.
+DESCRIPTION:Essex Andrews U14 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31187546
 END:VEVENT
 BEGIN:VEVENT
 UID:31186278@touchline-eja-u14
-DTSTAMP:20261122T180640Z
+DTSTAMP:20261123T081410Z
 SUMMARY:Wivenhoe Tempest v Benfleet (Essex Andrews U14 Cup)
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T100000
+DTEND;TZID=Europe/London:20261129T114000
 LOCATION:Broad Lane Sports Ground\, Elmstead Road\, Wivenhoe\, Colchester\
  , Essex CO7 9FP
-DESCRIPTION:Essex Andrews U14 Cup. Kick-off time not published yet. Check 
- FA Full-Time for late changes.
+DESCRIPTION:Essex Andrews U14 Cup. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31186278
 END:VEVENT
 END:VCALENDAR

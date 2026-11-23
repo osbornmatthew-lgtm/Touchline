@@ -26,29 +26,27 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:31029970@touchline-eja-u15
-DTSTAMP:20261122T180640Z
+DTSTAMP:20261123T081410Z
 SUMMARY:Wingate & Finchley v London Lions
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+DTSTART;TZID=Europe/London:20261129T114500
+DTEND;TZID=Europe/London:20261129T132500
 LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
-DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U15 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=31029970
 END:VEVENT
 BEGIN:VEVENT
 UID:30811486@touchline-eja-u15
-DTSTAMP:20261122T180640Z
+DTSTAMP:20261123T081410Z
 SUMMARY:Wingate & Finchley v Cheshunt
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
+DTSTART;TZID=Europe/London:20261206T120000
+DTEND;TZID=Europe/London:20261206T134000
 LOCATION:The Football Pad\, Barnet Lane\, Barnet EN5 2DN
-DESCRIPTION:U15 Green league. Kick-off time not published yet. Check FA Fu
- ll-Time for late changes.
+DESCRIPTION:U15 Green league. Check FA Full-Time for late changes.
 URL:https://fulltime.thefa.com/displayFixture.html?id=30811486
 END:VEVENT
 BEGIN:VEVENT
 UID:31190896@touchline-eja-u15
-DTSTAMP:20261122T180640Z
+DTSTAMP:20261123T081410Z
 SUMMARY:Cheshunt v Wingate & Finchley
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
@@ -60,7 +58,7 @@ URL:https://fulltime.thefa.com/displayFixture.html?id=31190896
 END:VEVENT
 BEGIN:VEVENT
 UID:31195754@touchline-eja-u15
-DTSTAMP:20261122T180640Z
+DTSTAMP:20261123T081410Z
 SUMMARY:Lewisham Borough (Community) Youth FC U1 v Wingate & Finchley (Nor
  man Higgs Under 15 Boys Sunday Cup)
 DTSTART;TZID=Europe/London:20261213T101000
